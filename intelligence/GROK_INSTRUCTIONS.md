@@ -41,11 +41,7 @@ Every signal must be classified as exactly one of:
 
 Never promote speculation into fact.
 
-## Required output file
-Write the newest completed pass to:
-`intelligence/grok_pulse_latest.json`
-
-Use this shape:
+## Required Pulse object shape
 ```json
 {
   "status": "live",
@@ -54,48 +50,61 @@ Use this shape:
   "generatedBy": "grok",
   "scope": "NFL player props only",
   "summary": "Short summary of material changes",
-  "signals": [
-    {
-      "source": "Source name",
-      "sourceHandle": "@handle or null",
-      "sourceUrl": "URL or null",
-      "publishedAt": "ISO-8601 timestamp or null",
-      "classification": "confirmed_fact|attributed_report|model_projection|analyst_opinion|speculation",
-      "player": "Player name",
-      "team": "Team",
-      "game": "AWAY @ HOME",
-      "market": "Market affected",
-      "signal": "Concise description",
-      "verificationStatus": "verified|single_source|unverified",
-      "propImpact": "bullish_over|bullish_under|neutral|uncertain",
-      "magnitude": "high|medium|low",
-      "notes": "Any caveat or play-to-number context"
-    }
-  ],
-  "watchlist": [
-    {
-      "player": "Player name",
-      "market": "Market",
-      "reason": "What should be checked next",
-      "nextCheckpoint": "When/what event matters"
-    }
-  ],
+  "signals": [],
+  "watchlist": [],
   "errors": []
 }
 ```
 
-## History
-After each successfully completed live pass, append the complete one-line JSON object to:
-`intelligence/grok_pulse_history.jsonl`
+Each signal requires: source, sourceHandle, sourceUrl, publishedAt, classification, player, team, game, market, signal, verificationStatus, propImpact, magnitude, notes.
 
-Do not delete or rewrite prior history entries.
+## Durability architecture
+
+- `intelligence/grok_pulse_latest.json` is the complete current Pulse. It may be replaced each completed run.
+- `intelligence/archive/YYYY-MM-DDTHH-MM-SSZ.json` stores EVERY completed Pulse as its own immutable full JSON file. Convert `:` in `completedAt` to `-` in the filename.
+- `intelligence/grok_pulse_history.jsonl` is a LIGHTWEIGHT INDEX ONLY. One compact object per pass. Never store full `signals` or `watchlist` arrays here.
+
+History index line schema:
+```json
+{
+  "completedAt": "ISO-8601 timestamp",
+  "status": "live",
+  "nflWeek": 1,
+  "generatedBy": "grok",
+  "signalCount": 9,
+  "summary": "short one-sentence summary",
+  "archivePath": "intelligence/archive/2026-09-11T20-55-00Z.json"
+}
+```
+
+## Future pass write order
+
+1. Complete research.
+2. Build the full Pulse object.
+3. Generate a new `completedAt`.
+4. Write the COMPLETE immutable archive file: `intelligence/archive/<timestamp>.json`.
+5. Read the archive file back and verify it is complete. If a file with that `completedAt` already exists, treat the pass as already archived and do not create a duplicate.
+6. Replace `intelligence/grok_pulse_latest.json` with that identical full object.
+7. Read latest back and verify `completedAt` and `status`.
+8. Append ONLY the compact index record to `intelligence/grok_pulse_history.jsonl`.
+9. Read history back and verify:
+   - prior `completedAt` values remain exactly once;
+   - new `completedAt` appears exactly once;
+   - no prior archive files changed.
+10. Only after all verification succeeds report `GITHUB WRITE: SUCCESS` and `READ-BACK: PASS`.
+
+## Hard archive rules
+- NEVER rewrite an old archive file.
+- NEVER shorten, summarize, overwrite, reconstruct, or alter an archived Pulse.
+- NEVER reconstruct an archived Pulse from a compact history entry.
+- NEVER replace a full archive object with a summary.
+- NEVER duplicate a `completedAt`.
+- If research fails, do not pretend it succeeded. Set status to `error` or `partial` and describe the problem in `errors`.
 
 ## New-pass rule
 A new Grok pass exists only when:
 - `status == "live"`, and
 - `completedAt` differs from the prior completed pass.
-
-If research fails, do not pretend it succeeded. Set status to `error` or `partial` and describe the problem in `errors`.
 
 ## Hard boundaries
 Grok may influence research and recommendations only. It may NEVER directly change:
@@ -104,6 +113,7 @@ Grok may influence research and recommendations only. It may NEVER directly chan
 - bankroll or stake records
 - verified sportsbook line truth
 - final bet/pass decisions
+- `data/live_prop_board.csv` unless a later instruction explicitly authorizes a board write
 
 The main analysis system must independently verify material information before treating it as betting truth.
 
