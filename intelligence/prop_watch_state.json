@@ -1,7 +1,7 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-11T20:55:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-11T20-55-00Z.json",
-  "processedAtEt": "2026-09-11T19:46:35-04:00",
+  "processedAtEt": "2026-09-11T21:07:44-04:00",
   "scope": "NFL player props only",
-  "notes": "Hourly NFL Prop Watch state. Grok intelligence is input-only and does not overwrite verified sportsbook truth or executed bet history."
+  "notes": "Hourly NFL Prop Watch state. Grok 20:55Z was already processed, so no duplicate Grok pass was ingested. Independent Friday-night research added a conditional Bijan Robinson rushing-yards Over candidate; Grok intelligence remains input-only and does not overwrite verified sportsbook truth or executed bet history."
 }
