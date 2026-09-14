@@ -1,0 +1,139 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 11:36:03",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live, but completedAt is identical to the compact-history latest and the last processed completedAt, so it was not treated as new intelligence."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Denver availability remains unchanged: all 53 Broncos are expected available and Marvin Mims Jr. has no game designation after full participation.",
+      "Kansas City availability remains unchanged: LT Josh Simmons and DB Chamarri Conner are OUT. Rashee Rice, Xavier Worthy, Patrick Mahomes and Trey Smith were full participants with no game designation; Chris Jones has no game designation despite a Saturday DNP for his calf.",
+      "Current National Weather Service Kansas City forecast remains low impact for kickoff: Monday night is mostly clear with a 5% precipitation chance and evening winds roughly in the upper-single digits. Earlier morning rain does not currently project into game time."
+    ],
+    "marketAndProjectionChecks": [
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Current public shopping context remains centered near 59.5-60.5. Oddschecker surfaces O60.5 -110 and O59.5 -114; a separate current aggregate remains around 59.5 -114. These are market-comparison references rather than a freshly verified executable user sportsbook quote.",
+        "projectionContext": "Projection dispersion remains extreme: numberFire 80.28, Covers about 70.8, BallKnowMe 76, Stats Insider 68, SportsGrid about 65, while NFSMELL is about 49.2.",
+        "estimatedEdge": "No stable 4-5 percentage-point fair-probability edge can be defended across independent models. Oddschecker's own displayed AI probability is about 56.1% at 60.5 -110 and 57.5% at 59.5 -114, but PRIME does not elevate a wager from a single opaque probability model, especially with material projection disagreement.",
+        "signalTags": ["RUSH_SHARE", "MATCHUP", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+        "reason": "Still the best rushing-yard WATCH on the slate, but not a formal BET without a fresh named-book executable price plus stronger probability agreement."
+      },
+      {
+        "player": "J.K. Dobbins",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Public context remains around 49.5. One current unattributed market page shows O49.5 -108, while a separate public aggregate remains near -114; because sportsbook attribution differs or is absent, PRIME does not merge them into fictional executable truth.",
+        "projectionContext": "numberFire 66.35 and BallKnowMe 64.4 are bullish, but Stats Insider, Covers, SportsGrid and MatchWiz cluster near 52-53; Covers displayed roughly 53% Over probability and MatchWiz roughly 50%, which is not enough to clear standard juice robustly.",
+        "roleContext": "Dobbins is expected to lead Denver's rushing work, but RJ Harvey is expected to handle more passing-down/change-of-pace work and reliable reports leave room for a third back. Dobbins also enters after a soft-tissue camp issue and no preseason action.",
+        "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+        "reason": "The apparent price improvement is not cleanly sportsbook-verified, and the probability evidence is too dispersed. WATCH only."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "storedPlayToLine": 14.5,
+        "storedMaxAcceptableOdds": -110,
+        "publicContext": "Current public context remains about 15.5 at roughly -114 to -115, above PRIME's stored 14.5/-110 entry ceiling.",
+        "projectionContext": "Public models remain sharply split; numberFire projects only 5.87 rushing yards while other public trackers/models are in the low 20s.",
+        "signalTags": ["MARKET_MOVE", "PROJECTION_DISAGREEMENT", "INJURY"],
+        "reason": "No re-entry. Do not chase above the stored line and price ceiling."
+      },
+      {
+        "player": "Patrick Mahomes",
+        "propType": "PASS_YARDS",
+        "side": "UNDER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Public pages are still materially dispersed, roughly 223.5 to 229.5 depending source. Oddschecker surfaces 229.5 at standard juice while another current aggregate is around 223.5 -114. This dispersion is not a usable single consensus without clean book attribution.",
+        "projectionContext": "numberFire is about 218.2, Stats Insider about 230 and NFSMELL about 244.5. Josh Simmons being OUT supports the pressure-based Under thesis, while the now-clean kickoff weather removes weather support.",
+        "signalTags": ["OL_INJURY", "MATCHUP", "PROJECTION_DISAGREEMENT", "WEATHER", "MARKET_MOVE"],
+        "reason": "Directionally interesting only. No robust fair-probability edge at a freshly verified named-book line and price."
+      },
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEPTIONS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "A current analyst source targets Over 5.5 receptions and a stale BetMGM article also listed 5.5, but no fresh named regulated-book executable receptions price was verified at this checkpoint.",
+        "roleContext": "Rice practiced fully all week and carries no game designation. Sharp Football notes he averaged 6.6 receptions per game in his eight-game 2025 stretch and has been targeted on 30.4% of routes over the past two seasons.",
+        "projectionContext": "numberFire projects 65.18 receiving yards, but that is not a receptions probability model and cannot by itself justify Over 5.5 catches.",
+        "signalTags": ["TARGET_SHARE", "ROLE_CHANGE", "OL_INJURY", "EXPERT_CONSENSUS", "PROJECTION_DISAGREEMENT"],
+        "reason": "New candidate worth monitoring because the short-area role fits Kansas City's potential protection constraints, but PRIME will not promote without an exact live sportsbook price and an independent fair-probability edge."
+      },
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "publicContext": "Oddschecker currently surfaces 56.5 around -107 and 55.5 around -114, while FanDuel Research's Sunday-morning prop was 57.5 and BetMGM's older line was 59.5.",
+        "projectionContext": "numberFire projects 65.18 yards, but Oddschecker's own displayed probability at 56.5 is only about 52.5%, leaving less than a one-point edge versus -107 break-even before uncertainty.",
+        "signalTags": ["TARGET_SHARE", "MATCHUP", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+        "reason": "Projection-over-line alone is insufficient; no robust price-adjusted edge."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "storedPlayToLine": 16.5,
+        "storedMaxAcceptableOdds": -110,
+        "reason": "No new clean price or role evidence changes the prior pass. Public references remain either above the price ceiling or too stale/unattributed."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "storedPlayToLine": 22.5,
+        "storedMaxAcceptableOdds": -105,
+        "reason": "No new role or price evidence justifies relaxing the stored ceiling."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "decision": "PASS",
+        "reason": "A current aggregator's model probability is mildly supportive at plus money, but one opaque model does not overturn PRIME's prior independent fact-check of the analyst premise. No promotion."
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No material change requiring user attention and no genuinely actionable prop clears PRIME's exact-price, independent-probability and verification requirements. Walker rushing and Dobbins rushing remain WATCH only; Nix rushing remains PASS_AFTER_MOVE; Mahomes passing Under remains WATCH; Rice receptions is a new WATCH candidate but lacks a fresh executable named-book price and a defensible fair-probability estimate. Official availability is unchanged and the slightly cleaner evening weather is not a betting catalyst."
+  },
+  "sources": [
+    "Denver Broncos official injury report/team page, accessed 2026-09-14",
+    "Kansas City Chiefs official Week 1 injury report, published 2026-09-12 and accessed 2026-09-14",
+    "National Weather Service Kansas City forecast, accessed 2026-09-14",
+    "Oddschecker DEN@KC market comparison page, accessed 2026-09-14",
+    "SportsGambler DEN@KC public aggregate, accessed 2026-09-14",
+    "StatMuse DEN@KC public prop context, accessed 2026-09-14",
+    "FanDuel Research/numberFire Week 1 projections for Rice, Walker, Dobbins, Nix and Mahomes, accessed 2026-09-14",
+    "Covers DEN@KC public projection context, accessed 2026-09-14",
+    "Sharp Football Analysis DEN@KC worksheet, published 2026-09-09 and accessed 2026-09-14",
+    "FantasyPros/comparable role reporting for the Denver backfield, accessed 2026-09-14",
+    "Football Nation DEN@KC prop targets, published 2026-09-13 and treated as analyst opinion only"
+  ]
+}
