@@ -1,0 +1,116 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 00:09:24",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. Latest completedAt matches the most recently indexed completedAt."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "confirmedFacts": [
+      "Denver's official final report says all 53 Broncos are expected available; Marvin Mims Jr. practiced fully and has no game designation.",
+      "Chiefs LT Josh Simmons is ruled out with a back injury; undrafted rookie Kahlil Benson is expected to start at LT.",
+      "Chiefs DB Chamarri Conner is ruled out. No other Chiefs player has a game designation; Patrick Mahomes is expected to play after full practice participation.",
+      "Bo Nix has publicly stated the surgically repaired ankle will not hinder him; Denver has described him as ready for regular-season action."
+    ],
+    "weather": {
+      "classification": "attributed_report",
+      "summary": "Arrowhead forecast carries roughly 10-12 mph wind with a meaningful rain chance; Covers notes forecast disagreement on storm timing and possible gusts. Treat as a mild-to-moderate passing-environment downgrade pending game-day refresh, not a standalone prop trigger."
+    },
+    "evaluations": [
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "market": "Rushing Yards",
+        "side": "OVER",
+        "marketContext": "14.5 remains the key market threshold in current public references; exact fresh regulated-book price was not independently verified during this run. BetMGM's Week 1 page had 14.5 earlier in the week.",
+        "projections": "FantasyPros Week 1: 15 rushing yards on 3.7 attempts; StatsInsider: 19 rushing yards; Covers prediction-market page centers 14.5-15.5.",
+        "internalMean": 17.0,
+        "internalMedian": 16.0,
+        "decision": "WATCH",
+        "steamState": "STILL_PLAYABLE_IF_PRICE_CONFIRMED",
+        "playToLine": 14.5,
+        "maxAcceptableOdds": -110,
+        "reason": "Nix is healthy enough for normal mobility, but the independent projections are only modestly above 14.5 and do not support a robust 4-5 percentage-point edge at typical -115 pricing. Do not promote without a live price at -110 or better or a stronger game-day mobility/pressure catalyst.",
+        "signalTags": ["ROLE_CHANGE", "PROJECTION_DISAGREEMENT", "MATCHUP"]
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "market": "Receiving Yards",
+        "side": "OVER",
+        "sportsbook": "DraftKings",
+        "line": 16.5,
+        "odds": -115,
+        "marketTimestampEt": "2026-09-13 22:04",
+        "projections": "numberFire/FanDuel Research: 17.10 receiving yards; StatsInsider: 22 receiving yards.",
+        "internalMean": 19.5,
+        "internalMedian": 18.0,
+        "estimatedOverProbability": 56.5,
+        "marketImpliedProbability": 53.49,
+        "estimatedEdgePct": 3.01,
+        "edgeBucket": "2-4%",
+        "decision": "LEAN",
+        "steamState": "STILL_PLAYABLE",
+        "playToLine": 16.5,
+        "maxAcceptableOdds": -110,
+        "reason": "Fresh Action Network recommendation plus a plausible quick-game/checkdown catalyst from Patrick Mahomes' knee return and Josh Simmons being out at LT. But numberFire is only slightly above the line, and the estimated edge at -115 is below PRIME's normal 4-5 point threshold. Pass at the currently quoted -115; reconsider only at -110 or better or 15.5 at standard juice.",
+        "signalTags": ["OL_INJURY", "ROLE_CHANGE", "GAME_SCRIPT", "EXPERT_CONSENSUS", "PROJECTION_DISAGREEMENT"]
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "market": "Receiving Yards",
+        "side": "OVER",
+        "sportsbook": "FanDuel",
+        "line": 22.5,
+        "odds": -113,
+        "marketTimestampEt": "2026-09-13 22:04",
+        "projections": "StatsInsider: 26 receiving yards; NFSMELL: 25.1 receiving yards.",
+        "internalMean": 25.5,
+        "internalMedian": 24.0,
+        "estimatedOverProbability": 56.0,
+        "marketImpliedProbability": 53.05,
+        "estimatedEdgePct": 2.95,
+        "edgeBucket": "2-4%",
+        "decision": "LEAN",
+        "steamState": "STILL_PLAYABLE",
+        "playToLine": 22.5,
+        "maxAcceptableOdds": -105,
+        "reason": "Action Network's fresh Over aligns with two projections modestly above market, but Engram ran a route on only 53.9% of Denver dropbacks in 2025 and remains a part-time role risk. The modeled edge at -113 is too small for a formal BET.",
+        "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "EXPERT_CONSENSUS", "PROJECTION_DISAGREEMENT"]
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "sportsbook": "bet365",
+        "line": 0.5,
+        "odds": -105,
+        "marketTimestampEt": "2026-09-13 22:04",
+        "decision": "PASS",
+        "reason": "Prior repository cross-check rejected the Action Network Under because the supporting base-rate narrative did not match Nix's 2025 game-log interception frequency. No new independent probability model changed that conclusion.",
+        "signalTags": ["PROJECTION_DISAGREEMENT", "MATCHUP"]
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No prop currently clears PRIME's price-adjusted edge threshold. The strongest fresh leans are Kenneth Walker III O16.5 receiving yards and Evan Engram O22.5 receiving yards, but both are below threshold at their quoted prices. Bo Nix O14.5 rushing remains a price-sensitive WATCH rather than a bet."
+  },
+  "sources": [
+    "Denver Broncos official injury report, Sep. 12, 2026",
+    "Chiefs official injury report / Andy Reid final-status reporting, Sep. 12, 2026",
+    "Action Network Broncos-Chiefs player props, updated Sep. 13, 2026 10:04 PM ET",
+    "Covers Broncos-Chiefs preview, updated Sep. 13, 2026 9:25 PM ET",
+    "FantasyPros Bo Nix Week 1 projection",
+    "FanDuel Research/numberFire Kenneth Walker III Week 1 projection",
+    "StatsInsider Chiefs-Broncos projected player stats",
+    "Sharp Football Analysis Week 1 Broncos-Chiefs worksheet"
+  ]
+}
