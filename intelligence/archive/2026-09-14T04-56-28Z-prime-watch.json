@@ -1,0 +1,76 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 00:56:28",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. latest.completedAt matches the most recently processed completedAt."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Denver's official final injury report says all 53 Broncos are expected available; Marvin Mims Jr. practiced fully and has no game designation.",
+      "Kansas City has ruled DB Chamarri Conner and T Josh Simmons out; no newer official status change was found in this run.",
+      "The current Action Network player-prop article remains updated Sep. 13 at 10:04 PM ET; no newer Action price update was found in this run."
+    ],
+    "weather": {
+      "classification": "attributed_report",
+      "summary": "Covers' latest preview remains updated Sep. 13 at 9:25 PM ET and describes forecast disagreement on storm timing, with roughly 12 mph winds and potential gusts to 25 mph. No materially newer weather signal was found in this run."
+    },
+    "evaluations": [
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "playToLine": 14.5,
+        "maxAcceptableOdds": -110,
+        "steamState": "STILL_PLAYABLE_IF_PRICE_CONFIRMED",
+        "reason": "No fresh executable sportsbook price was independently verified after the prior watch. Existing projections remain only modestly above 14.5, so there is no reason to promote without a better price or new role/mobility catalyst."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "lastVerifiedMarket": "DraftKings 16.5 -115 via Action Network, updated 2026-09-13 22:04 ET",
+        "decision": "LEAN",
+        "playToLine": 16.5,
+        "maxAcceptableOdds": -110,
+        "reason": "The quoted -115 remains below PRIME's normal edge threshold. No newer executable price or role catalyst was found."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "lastVerifiedMarket": "FanDuel 22.5 -113 via Action Network, updated 2026-09-13 22:04 ET",
+        "decision": "LEAN",
+        "playToLine": 22.5,
+        "maxAcceptableOdds": -105,
+        "reason": "Role and projection support remain modest, not enough to overcome the quoted price. No newer executable price or role catalyst was found."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "lastVerifiedMarket": "bet365 Under 0.5 -105 via Action Network, updated 2026-09-13 22:04 ET",
+        "decision": "PASS",
+        "reason": "No new independent probability model corrected the prior base-rate concern. Analyst opinion alone does not clear PRIME's edge threshold."
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No new Grok intelligence, official injury change, verified price improvement, weather change, or role update materially alters the prior MNF board. No prop currently clears PRIME's price-adjusted threshold."
+  },
+  "sources": [
+    "Kansas City Chiefs official Week 1 injury report, accessed 2026-09-14",
+    "Denver Broncos official final injury report, Sep. 12, 2026",
+    "Action Network Broncos-Chiefs player props, updated Sep. 13, 2026 10:04 PM ET",
+    "Covers Broncos-Chiefs preview, updated Sep. 13, 2026 9:25 PM ET"
+  ]
+}
