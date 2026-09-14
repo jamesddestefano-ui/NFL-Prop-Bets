@@ -1,0 +1,118 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 02:31:07",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. latest.completedAt matches the most recently processed completedAt."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": true,
+    "confirmedFacts": [
+      "Denver's official final injury report says all 53 Broncos are expected available; Marvin Mims Jr. was a full participant and has no game designation.",
+      "Kansas City's official final injury report still lists DB Chamarri Conner and LT Josh Simmons as OUT; no newer official status change was found.",
+      "No new Grok intelligence was processed because the latest completedAt remains 2026-09-12T17:05:00Z."
+    ],
+    "weather": {
+      "classification": "attributed_report",
+      "materialChange": true,
+      "summary": "DraftKings Network's Sep. 13 forecast now shows clear skies, 0% precipitation and roughly 13 mph south wind at the 8:15 PM ET kickoff, classifying weather impact as low. This reduces the storm/gust uncertainty preserved in the prior watch but is not, by itself, a prop trigger."
+    },
+    "marketSnapshots": [
+      {
+        "capturedAtEt": "2026-09-14 02:31:07",
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "source": "Action Network player page plus SportsGambler public aggregate",
+        "line": 15.5,
+        "odds": -114,
+        "oppositeSideLine": 15.5,
+        "oppositeSideOdds": -114,
+        "marketImpliedProbability": 0.5327,
+        "noVigProbability": 0.5,
+        "sourceFreshness": "Public current-market references; not treated as guaranteed executable app truth."
+      },
+      {
+        "capturedAtEt": "2026-09-14 02:31:07",
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "source": "BettingPros consensus plus SportsGambler public aggregate",
+        "line": 17.5,
+        "odds": -114,
+        "oppositeSideLine": 17.5,
+        "oppositeSideOdds": -114,
+        "marketImpliedProbability": 0.5327,
+        "noVigProbability": 0.5,
+        "sourceFreshness": "Public consensus/aggregate reference; not treated as guaranteed executable app truth."
+      }
+    ],
+    "evaluations": [
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "playToLine": 14.5,
+        "maxAcceptableOdds": -110,
+        "currentPublicMarket": "15.5 -114",
+        "projectionContext": "FanDuel/numberFire projects 5.87 rushing yards; RosterAudit market-derived context uses 15.5; Nix averaged 20.9 rushing yards per game in 2025. Projection disagreement is too wide to justify an Over at a worse-than-play-to price.",
+        "signalTags": ["MARKET_MOVE", "PROJECTION_DISAGREEMENT", "ROLE_CHANGE", "WEATHER"],
+        "reason": "The current public market is one full yard above PRIME's stored maximum playable line and four cents worse than maximum acceptable juice. The clearer weather removes a negative environment variable but does not restore enough edge. Do not chase."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "playToLine": 16.5,
+        "maxAcceptableOdds": -110,
+        "currentPublicMarket": "17.5 -114",
+        "projectionContext": "BettingPros lists 17.5 as the current consensus line. SickFade's public last-20 sample is 10/20 Over at 17.5 with a 19.1-yard average, insufficient to support paying -114 without a stronger role/projection edge.",
+        "signalTags": ["MARKET_MOVE", "ROLE_CHANGE", "PROJECTION_DISAGREEMENT"],
+        "reason": "The market moved beyond the prior 16.5 play-to and remains more expensive than the -110 ceiling. The role thesis may still be directionally plausible, but the price-adjusted edge is no longer sufficient."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "LEAN",
+        "steamState": "REDUCED_EDGE",
+        "playToLine": 22.5,
+        "maxAcceptableOdds": -105,
+        "lastVerifiedMarket": "FanDuel 22.5 -113 via Action Network, updated 2026-09-13 22:04 ET",
+        "reason": "No newer executable price or role catalyst was verified. Clearer weather is mildly supportive but not enough to overcome the price."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "decision": "PASS",
+        "reason": "No new independent probability model resolves the prior base-rate concern; analyst opinion alone remains insufficient."
+      }
+    ],
+    "overallDecision": "MATERIAL_UPDATE_NO_BET",
+    "summary": "Two active MNF candidate Overs have moved beyond PRIME's stored play-to thresholds: Bo Nix rushing O15.5 -114 and Kenneth Walker III receiving O17.5 -114 are both PASS_AFTER_MOVE. Weather uncertainty has improved to a low-impact clear forecast, but no current prop clears PRIME's price-adjusted threshold."
+  },
+  "sources": [
+    "Denver Broncos official final injury report, Sep. 12, 2026",
+    "Kansas City Chiefs official Week 1 injury report, accessed Sep. 14, 2026",
+    "Action Network Bo Nix player props page, current public market reference",
+    "Action Network Broncos-Chiefs player props article, updated Sep. 13, 2026 10:04 PM ET",
+    "DraftKings Network Broncos-Chiefs weather forecast, published Sep. 13, 2026",
+    "FanDuel Research/numberFire Bo Nix Week 1 projection, accessed Sep. 14, 2026",
+    "BettingPros Kenneth Walker III receiving-yards consensus, accessed Sep. 14, 2026",
+    "SickFade Kenneth Walker III receiving-yards trend page, accessed Sep. 14, 2026",
+    "SportsGambler Broncos-Chiefs public market aggregate, accessed Sep. 14, 2026"
+  ]
+}
