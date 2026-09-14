@@ -1,0 +1,108 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 04:29:33",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest status is live, but completedAt is identical to the most recently processed completedAt."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Denver's official final injury report says all 53 Broncos are expected to be available; Marvin Mims Jr. has no game designation.",
+      "Kansas City's official final injury report lists LT Josh Simmons and DB Chamarri Conner OUT. No fresh official report contradicts the prior status of Patrick Mahomes, Rashee Rice, Xavier Worthy or Trey Smith.",
+      "No new Grok intelligence was processed because completedAt remains 2026-09-12T17:05:00Z."
+    ],
+    "weather": {
+      "classification": "attributed_report",
+      "materialChange": false,
+      "summary": "DraftKings Network's latest accessible forecast remains low impact: clear skies, about 87 F at kickoff, south wind around 13 mph and 0% precipitation. No weather adjustment is warranted."
+    },
+    "marketChecks": [
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "publicReference": "Action Network popular market O15.5 -114; Action PRO top-prop table also surfaces O13.5 -115 without a book-specific executable identity.",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "playToLine": 14.5,
+        "maxAcceptableOdds": -110,
+        "projectionContext": "RosterAudit market-derived projection is 15.5 rushing yards while FanDuel/numberFire projects only 5.87, creating severe independent projection disagreement.",
+        "reason": "The 13.5 threshold is below PRIME's prior 14.5 play-to, but the displayed -115 price is worse than the stored maximum and is not tied to a verified current sportsbook in the public Action table. The main market remains 15.5 -114. Do not convert the line improvement into a bet without executable price verification and a fresh probability estimate."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "publicReference": "Action Network popular market O17.5 -119 / U17.5 -114; the Sep. 13 Action article's O16.5 -115 DraftKings recommendation is treated as a prior article price, not current executable truth.",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "playToLine": 16.5,
+        "maxAcceptableOdds": -110,
+        "projectionContext": "numberFire projects 17.10 receiving yards; Covers-style context has shown roughly 3.3 targets. The current 17.5 Over requires both a higher threshold and worse juice than PRIME's stored ceiling.",
+        "reason": "No verified market retreat to 16.5 or better at acceptable juice. Do not chase the earlier analyst thesis at a worse number and price."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "publicReference": "BallKnowMe public line shop shows FanDuel O22.5 -114; Action's player page centers closer to 23 at -117, while the Sep. 13 article price O22.5 -113 is stale for execution purposes.",
+        "decision": "LEAN",
+        "steamState": "REDUCED_EDGE",
+        "playToLine": 22.5,
+        "maxAcceptableOdds": -105,
+        "reason": "The threshold remains at the stored play-to on one public source, but the best visible price is still materially worse than PRIME's maximum acceptable juice and no new role/injury catalyst offsets that price. No bet."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "publicReference": "Action PRO top-prop table shows O61.5 -110; BetMGM's published Week 1 market also lists 61.5.",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "projectionContext": "numberFire projects 80.28 rushing yards, but prior independent public projections in the durable watch ranged materially lower. Denver allowed only 91.1 rushing yards per game in 2025 and only one 100-yard rusher, increasing uncertainty around a simple workload-over thesis.",
+        "signalTags": ["RUSH_SHARE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+        "reason": "The visible price is reasonable, but projection disagreement remains too large to establish a defensible 4-5 percentage-point fair-probability edge. No alert until independent projections converge or a materially better verified book price appears."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEPTIONS",
+        "side": "UNDER",
+        "publicReference": "Action popular market shows U3.5 -160 / O3.5 +122; BallKnowMe separately shows a 2.5 market with U2.5 +113 at DraftKings. FIC projects 2.3 receptions and Action PRO lists 2.4.",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "reason": "Two projection sources lean below 3.5, but the main Under carries heavy juice and Walker's new-team receiving role is uncertain; the plus-money 2.5 Under has a materially harder threshold. Do not infer an actionable edge from a projection mean alone."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "publicReference": "Action article O/U 0.5, prior recommendation U0.5 -105 at bet365.",
+        "decision": "PASS",
+        "reason": "No new independent probability evidence fixes the prior base-rate concern identified in the pass ledger."
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No verified prop currently clears PRIME's price-adjusted threshold. Nix rushing briefly re-enters WATCH territory at an unverified O13.5 -115 table price, but severe projection disagreement and price above the stored maximum prevent a formal bet. Walker receiving remains PASS_AFTER_MOVE, Engram remains price-limited, and Walker rushing/receptions remain WATCH only."
+  },
+  "sources": [
+    "Denver Broncos official Week 1 injury report, accessed 2026-09-14",
+    "Kansas City Chiefs official Week 1 injury report, accessed 2026-09-14",
+    "DraftKings Network DEN@KC weather forecast, published 2026-09-13 and accessed 2026-09-14",
+    "Action Network Bo Nix player prop page, accessed 2026-09-14",
+    "Action Network Kenneth Walker III player prop page, accessed 2026-09-14",
+    "Action Network Evan Engram player prop page and DEN@KC prop article, accessed 2026-09-14",
+    "FanDuel Research/numberFire Week 1 projections for Bo Nix and Kenneth Walker III, accessed 2026-09-14",
+    "BallKnowMe DEN@KC public prop board, accessed 2026-09-14",
+    "FantasyInfoCentral Week 1 reception projections, accessed 2026-09-14",
+    "BetMGM Week 1 Bo Nix and Kenneth Walker III prop pages, accessed 2026-09-14"
+  ]
+}
