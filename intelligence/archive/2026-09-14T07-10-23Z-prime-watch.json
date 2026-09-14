@@ -1,0 +1,106 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 03:10:23",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. latest.completedAt matches the most recently processed completedAt."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Kansas City's official final injury report still lists LT Josh Simmons and DB Chamarri Conner OUT. Patrick Mahomes, Rashee Rice, Xavier Worthy and Trey Smith have no game designation.",
+      "Denver's only listed player, Marvin Mims Jr., was a full participant and has no game designation.",
+      "Kahlil Benson starting at left tackle in Simmons' absence was already anticipated publicly earlier in the week and is not treated as a new catalyst in this run.",
+      "No new Grok intelligence was processed because the latest completedAt remains 2026-09-12T17:05:00Z."
+    ],
+    "weather": {
+      "classification": "attributed_report",
+      "materialChange": false,
+      "summary": "Latest accessible forecast context remains low-impact: clear conditions, approximately 13 mph wind and 0% precipitation at kickoff. No newer adverse weather signal was found."
+    },
+    "marketChecks": [
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "publicReference": "15.5 -114 FanDuel via BallKnowMe; DraftKings alt 14.5 priced about -130",
+        "sourceFreshness": "Public line-shopping reference, not guaranteed executable app truth.",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "playToLine": 14.5,
+        "maxAcceptableOdds": -110,
+        "reason": "No price improvement versus the prior watch. The main public line remains above PRIME's stored play-to, and the 14.5 alternate is materially worse than the maximum acceptable juice. Projection disagreement remains too wide to justify chasing."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "publicReference": "17.5 at BetMGM; another public market lists 18.5 around -118; prior Action reference was 17.5 -114",
+        "sourceFreshness": "Public references vary by book and timestamp; no superior executable price verified.",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "playToLine": 16.5,
+        "maxAcceptableOdds": -110,
+        "reason": "No market retreat to PRIME's stored 16.5 play-to at acceptable juice. Do not transfer the earlier Over thesis to a worse number."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "publicReference": "22.5 around -114 to -120 on accessible public boards",
+        "decision": "LEAN",
+        "steamState": "REDUCED_EDGE",
+        "playToLine": 22.5,
+        "maxAcceptableOdds": -105,
+        "reason": "The threshold remains acceptable but the available public prices remain worse than PRIME's maximum juice. No new role or injury catalyst offsets the price."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "publicReference": "61.5 -110 DraftKings via BallKnowMe; BetMGM also lists 61.5",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "projectionContext": "BallKnowMe projects 76.1; Covers cites a 62-75 yard projection range; StatIQ projects 49.7 and prefers the Under near 60.5. The disagreement is too large for a formal Over despite a seemingly playable market price.",
+        "signalTags": ["RUSH_SHARE", "OL_INJURY", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+        "reason": "Kansas City's injured left tackle and expected Walker workload are directionally supportive, but major independent projection disagreement prevents a defensible 4-5 percentage-point fair-probability edge. No alert until the disagreement resolves or a materially better verified price appears."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEPTIONS",
+        "side": "OVER",
+        "publicReference": "2.5 with bet365 O-125/U-105; separate public DK reference shows 2.5 Over around -130",
+        "decision": "PASS",
+        "reason": "Covers-style projection context expects roughly 3.3 targets and 2025 baseline was only 1.9 receptions per game. The market already prices the Over aggressively, and no robust multi-source probability edge clears PRIME's threshold."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "decision": "PASS",
+        "reason": "No new independent probability evidence fixes the prior base-rate concern."
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No material change requiring user attention. Nix rushing and Walker receiving remain PASS_AFTER_MOVE; Engram remains price-limited; Walker rushing is a projection-disagreement WATCH rather than a bet. No verified prop currently clears PRIME's price-adjusted threshold."
+  },
+  "sources": [
+    "Kansas City Chiefs official Week 1 injury report, accessed 2026-09-14",
+    "Denver Broncos official Week 1 game/injury context, accessed 2026-09-14",
+    "BallKnowMe DEN@KC public prop board, accessed 2026-09-14",
+    "BetMGM Kenneth Walker III and Bo Nix prop pages, published 2026-09-10",
+    "SportsGambler DEN@KC market page, accessed 2026-09-14",
+    "Covers Broncos-Chiefs player prop analysis, updated 2026-09-13 19:00 ET",
+    "StatIQ Week 1 forward-test board, accessed 2026-09-14",
+    "Statz NFL Kenneth Walker III receptions page, accessed 2026-09-14",
+    "DraftKings Network weather forecast, published 2026-09-13"
+  ]
+}
