@@ -1,0 +1,127 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 16:41:34",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live and completedAt is unchanged from the compact history and prop_watch_state."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": true,
+    "confirmedFacts": [
+      "Denver's official injury page still says Marvin Mims Jr. has no game status and all 53 Broncos are expected available.",
+      "No new official injury/availability information was found that supersedes the prior Kansas City final report: LT Josh Simmons and DB Chamarri Conner are OUT; the key Chiefs skill players previously tracked carry no game designation.",
+      "Official game-day inactives are not yet available at this checkpoint, so no role-vacuum assumption is made."
+    ],
+    "materialMarketChange": {
+      "player": "Rashee Rice",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "currentThreshold": 5.5,
+      "currentPriceContext": "CLEATZ's live movement tracker, synced within roughly 10 minutes of this pass, shows the same Over 5.5 threshold moving from -125 to +120 on its provider quote. CLEATZ's main line-shopping board continues to index DraftKings at 5.5 but does not expose the current DK price. Other public sources materially disagree on price: BallKnowMe's prior DK snapshot showed O5.5 +102; StatMuse currently displays O5.5 -108; CoveredSports cites DK O5.5 -130. Because those snapshots are not synchronized and the CLEATZ provider is not sportsbook-identified in the public text, no exact sportsbook price is promoted as current truth.",
+      "roleContext": "Rice caught 53 passes on 78 targets in eight 2025 games (9.75 targets and 6.625 catches per game). His 2025 game log cleared six receptions in six of eight games, including six catches on nine targets at Denver. Football Nation independently identifies Over 5.5 receptions as its preferred Rice market because of the quick-game/outlet role.",
+      "fairProbabilityEstimate": "A deliberately conservative internal range of roughly 55-57% is reasonable at 5.5 after shrinking Rice's 2025 role sample toward his broader career base rate and accounting for Denver's strong pass defense and current market disagreement. This is not a fitted distribution and is retained only for price discipline.",
+      "playToLine": 5.5,
+      "maxAcceptableOdds": -110,
+      "conditionalAction": "If a live named regulated sportsbook can be verified at Over 5.5 receptions -110 or better, re-run exact price/no-vig checks and this can qualify for BET consideration. Plus money would be materially attractive if verified. Do not treat CLEATZ's anonymous +120 provider quote as executable sportsbook truth by itself.",
+      "signalTags": ["TARGET_SHARE", "ROLE_CHANGE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "reason": "This is a material same-threshold price dislocation versus the prior watch and merits user attention, but PRIME will not create a formal BET without a current named sportsbook line/price."
+    },
+    "otherMarketChecks": [
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "currentMarketContext": "CLEATZ's live movement tracker shows a provider quote moving from 59.5 -125 to 52.5 -115, while its line-shopping board indexes DK at 56.5 and other fresh public pages range materially higher. The dispersion is too large to claim one current sportsbook truth.",
+        "reason": "Potentially favorable threshold movement, but exact sportsbook/price conflict is unresolved. Do not bet from the aggregate movement alone."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "currentMarketContext": "CLEATZ movement tracker shows Over receiving yards moving from 15.5 -117 to 20.5 -115, while the line-shopping board indexes DK 16.5 / PP 18.5 / UD 17.5.",
+        "reason": "The earlier low-threshold receiving thesis has been materially repriced and public sources now disagree on the exact market. Do not chase."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEPTIONS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "currentMarketContext": "CLEATZ movement tracker shows the reception threshold moving from 2.5 +110 to 3.5 +125.",
+        "reason": "A full-catch threshold increase is material. The better plus-money price does not transfer the old edge to 3.5 without a fresh catch distribution."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "PASS_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "currentMarketContext": "CLEATZ line-shopping indexes DK 228.5 and FantasyAlarm lists 230.5 -112, both beyond PRIME's stored 225.5/-110 play-to. FanDuel Research's current player-news page lists a Sunday-morning prop of 227.5.",
+        "reason": "No chase beyond 225.5 -110. The current verifiable thresholds are worse than the stored ceiling and the probability edge is not robust enough at those prices."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "currentMarketContext": "CLEATZ indexes DK 16.5 and its movement tracker shows an anonymous provider quote at 17.5 -114 after 15.5 -114. This remains beyond the earlier 14.5 play-to.",
+        "reason": "Do not transfer the original 14.5 thesis to 16.5-17.5. Independent projections are highly dispersed, reinforcing the pass."
+      },
+      {
+        "player": "J.K. Dobbins",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "currentMarketContext": "CLEATZ movement tracker has a provider quote at O49.5 -113 and the main line-shopping board indexes DK 51.5 / PP 50.5 / UD 50.5.",
+        "reason": "The 49.5 threshold is better than the prior 51.5 index but the projection cushion and committee uncertainty still do not support a formal 4-5 point edge at -113."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "currentMarketContext": "CLEATZ movement tracker now shows the same 22.5 threshold at -115 after -107; the main board also indexes DK at 22.5.",
+        "reason": "The line remains attractive relative to modest public projections, but the current price has worsened beyond PRIME's -110 ceiling. PASS at -115."
+      },
+      {
+        "player": "Patrick Mahomes",
+        "propType": "PASS_YARDS",
+        "side": "UNDER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "currentMarketContext": "Public lines remain dispersed around the mid-220s, and independent projections disagree sharply: FanDuel Research projects about 218 passing yards while other public models/analysts are materially higher.",
+        "reason": "The Josh Simmons absence and Denver pass rush support the Under thesis, but projection and line disagreement remain too large for a formal bet without a verified exact current sportsbook pair."
+      }
+    ],
+    "overallDecision": "ALERT_WATCH_ONLY",
+    "summary": "Material market movement has emerged in Rashee Rice receptions: a live CLEATZ provider quote shows Over 5.5 moving from -125 to +120 at the same threshold. That price swing is large enough to flag, and Rice's 2025 target/catch role plus independent analyst support makes 5.5 a legitimate candidate. However, public sportsbook snapshots conflict materially and CLEATZ does not identify the provider sportsbook in the rendered quote, so PRIME does not promote it to BET yet. Current discipline: WATCH Rice O5.5; exact play-to 5.5 and max acceptable price -110, with plus money strongly preferred if verified at a named regulated sportsbook. Other candidates remain non-actionable or priced beyond their ceilings."
+  },
+  "sources": [
+    "Denver Broncos official team/injury pages, accessed 2026-09-14 around 16:41 ET",
+    "CLEATZ NFL line-shopping board, accessed 2026-09-14 around 16:41 ET",
+    "CLEATZ NFL odds and prop movers board, live sync within approximately 10 minutes of access",
+    "FanDuel Research Week 1 player-news pages, accessed 2026-09-14",
+    "Football Nation DEN@KC prop targets, accessed 2026-09-14",
+    "BetMGM Rashee Rice Week 1 prop page, published 2026-09-10",
+    "StatMuse Rashee Rice page/game log, accessed 2026-09-14",
+    "BallKnowMe DEN@KC public market tracker, most recent public snapshot accessed 2026-09-14",
+    "FantasyAlarm DEN@KC prop article, accessed 2026-09-14"
+  ]
+}
