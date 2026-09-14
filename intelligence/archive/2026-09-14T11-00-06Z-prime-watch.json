@@ -1,0 +1,119 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 07:00:06",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live, but completedAt is identical to the most recently processed/indexed completedAt and was not treated as new intelligence."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": true,
+    "confirmedFacts": [
+      "Denver's final availability remains stable: the Broncos expect all 53 players to be available and Marvin Mims Jr. has no game designation.",
+      "Kansas City's injury status remains materially unchanged from the prior checkpoint: LT Josh Simmons and DB Chamarri Conner are out; no new adverse status was found for the principal offensive skill players or Chris Jones.",
+      "No new Grok intelligence was processed because completedAt remains 2026-09-12T17:05:00Z."
+    ],
+    "weather": {
+      "classification": "confirmed_fact",
+      "materialChange": false,
+      "summary": "Latest public kickoff weather remains low impact: clear conditions, essentially no precipitation risk and south wind around the low teens mph. No weather-driven prop reprice is warranted."
+    },
+    "marketAndProjectionChecks": [
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "sportsbook": "bet365 via Statz NFL",
+        "line": 67.5,
+        "odds": -111,
+        "oppositeOdds": -111,
+        "marketImpliedProbabilityPct": 52.61,
+        "publicContext": "Statz NFL now displays bet365 at 67.5 O-111/U-111. This is materially worse for an Over than the prior public 59.5-61.5 WATCH context and makes that earlier WATCH number stale.",
+        "projectionContext": "Recent independent projections remain highly dispersed: FantasyPros roughly mid-60s, Stats Insider upper-60s, numberFire materially higher and another public model materially lower. At 67.5, the central projection case no longer provides a robust price-adjusted Over edge.",
+        "signalTags": ["MARKET_MOVE", "PROJECTION_DISAGREEMENT", "RUSH_SHARE"],
+        "reason": "Do not chase the old rushing-Over thesis after a six-to-eight-yard adverse move from the prior WATCH context. Reopen only on a material line reversal or new role information with a fresh probability estimate."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "storedPlayToLine": 16.5,
+        "storedMaxAcceptableOdds": -110,
+        "sportsbook": "DraftKings via Action Network",
+        "line": 16.5,
+        "odds": -115,
+        "marketImpliedProbabilityPct": 53.49,
+        "publicContext": "Action Network currently lists DraftKings Over 16.5 at -115. The threshold has returned to PRIME's stored play-to after previously moving to 17.5-18.5, but the price remains five cents worse than the stored -110 ceiling.",
+        "projectionContext": "FantasyPros has been around 19.9 receiving yards, Stats Insider around 22 and numberFire/FanDuel Research around 17.1.",
+        "signalTags": ["MARKET_MOVE", "PROJECTION_DISAGREEMENT", "ROLE_CHANGE"],
+        "reason": "Line re-entry alone is not enough. Price is part of the bet, and -115 does not clear the stored max juice."
+      },
+      {
+        "player": "J.K. Dobbins",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "A Pickswise article updated Monday lists Over 49.5 at +105, but the article does not identify the sportsbook for that price. It is therefore market context only, not verified executable sportsbook truth.",
+        "projectionContext": "Recent independent point projections remain dispersed, including numberFire/FanDuel Research around 66, Stats Insider around 53 and other public models above the line; a prior public probability model was only around 53.6% Over at 49.5.",
+        "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+        "reason": "The +105 context is interesting, but PRIME cannot promote a wager without a named current sportsbook and a fresh price-adjusted probability check. Dobbins is returning to game action and RJ Harvey remains a workload competitor."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "storedPlayToLine": 14.5,
+        "storedMaxAcceptableOdds": -110,
+        "reason": "No new verified executable price clears the stored threshold, and projection disagreement remains too large to relax it."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "storedPlayToLine": 22.5,
+        "storedMaxAcceptableOdds": -105,
+        "sportsbook": "FanDuel via Action Network",
+        "line": 22.5,
+        "odds": -113,
+        "reason": "Current price remains materially worse than PRIME's -105 ceiling; modest projection disagreement does not justify paying the extra juice."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "decision": "PASS",
+        "sportsbook": "bet365 via Action Network",
+        "line": 0.5,
+        "odds": -105,
+        "reason": "No new independent probability evidence overturns the previously recorded pass after PRIME fact-checked the analyst's underlying base-rate premise."
+      }
+    ],
+    "overallDecision": "ALERT_NO_BET",
+    "summary": "Material price-state change: Kenneth Walker III rushing has moved to a verified public bet365 67.5 -111 and the earlier 59.5-61.5 WATCH context is stale, so PRIME classifies the Over PASS_AFTER_MOVE. Walker receiving has returned to 16.5 but at -115, still outside the stored -110 ceiling. Dobbins 49.5 +105 appears in current analysis but without sportsbook attribution, so it remains WATCH only. No MNF prop currently clears PRIME's full price-and-probability threshold."
+  },
+  "sources": [
+    "Denver Broncos official Week 1 availability reporting, accessed 2026-09-14",
+    "Kansas City Chiefs official Week 1 injury reporting, accessed 2026-09-14",
+    "DraftKings Network Week 1 MNF weather report, published 2026-09-13",
+    "Statz NFL Kenneth Walker III Week 1 prop board, accessed 2026-09-14",
+    "Action Network DEN@KC props article, updated 2026-09-13 22:04 ET",
+    "Pickswise DEN@KC props article, updated 2026-09-14",
+    "FantasyPros, FanDuel Research/numberFire and Stats Insider Week 1 projections previously captured in PRIME"
+  ]
+}
