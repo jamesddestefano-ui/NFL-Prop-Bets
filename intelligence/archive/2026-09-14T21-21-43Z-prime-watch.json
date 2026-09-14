@@ -1,0 +1,142 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 17:21:43",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live, but completedAt is unchanged from the compact history and the most recently processed pass."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Denver's official final injury report still indicates all 53 players are expected available; Marvin Mims Jr. has no game designation.",
+      "Kansas City's final injury context still has LT Josh Simmons and DB Chamarri Conner OUT. Patrick Mahomes, Rashee Rice, Xavier Worthy, Trey Smith and Chris Jones have no game designation.",
+      "No new official availability development was found that materially changes an existing PRIME player-prop thesis."
+    ],
+    "weather": {
+      "classification": "confirmed_forecast_context",
+      "summary": "Latest Kansas City/Arrowhead forecasts remain dry and warm for kickoff, with mostly clear conditions and roughly low-to-mid-teens mph wind, with some sources showing gusts near 20 mph. This is not a material change from the prior watch and does not independently create or invalidate a prop edge."
+    },
+    "marketAndProjectionChecks": [
+      {
+        "player": "Bo Nix",
+        "propType": "PASS_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "STILL_PLAYABLE",
+        "currentMarketContext": "Oddschecker comparison context still exposes an alternate O225.5 -110 while its main comparison is around O227.5 -113. The comparison surface does not expose the underlying sportsbook identity in the extracted view, so 225.5 -110 remains movement/price context rather than verified named-book executable truth.",
+        "projectionContext": "The prior blended projection context remains broadly in the high-220s through roughly 240, with material model dispersion.",
+        "fairProbabilityEstimate": "Prior PRIME blended estimate remains approximately 55-56% at 225.5.",
+        "marketImpliedProbabilityAt225_5Minus110": 52.38,
+        "estimatedEdgePctRange": "~2.5-3.5 percentage points",
+        "edgeBucket": "2-4%",
+        "playToLine": 225.5,
+        "maxAcceptableOdds": -110,
+        "reason": "No upgrade. Even at 225.5 -110, the blended price-adjusted edge remains below PRIME's preferred 4-5 percentage-point threshold. Do not chase 227.5 or higher."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "PASS_ATTEMPTS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "currentMarketContext": "Oddschecker comparison context shows O34.5 around -115. A current analyst angle also favors the Over, but analyst opinion alone is insufficient.",
+        "marketImpliedProbability": 53.49,
+        "signalTags": ["PACE", "GAME_SCRIPT", "EXPERT_CONSENSUS", "MARKET_MOVE"],
+        "reason": "No defensible independent fair-probability distribution was verified that clears PRIME's 4-5 point threshold at -115. Do not promote from a single analyst pick or attempts narrative."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "currentMarketContext": "Current comparison surfaces remain inconsistent: Oddschecker exposes thresholds around 62.5-64.5 at standard-to-moderate juice, while StatMuse displays a 59.5 -115 market context without identifying the underlying sportsbook. The lower number is therefore movement evidence only, not verified named-book executable truth.",
+        "projectionContext": "Public models remain bullish but highly dispersed, while Denver's run-defense strength and Seattle workload uncertainty remain meaningful counterweights.",
+        "signalTags": ["RUSH_SHARE", "MATCHUP", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+        "reason": "No material upgrade. Without a verified named sportsbook at the lower threshold and a stronger role-based probability edge, the correct state remains WATCH rather than chasing an attractive projection gap."
+      },
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEPTIONS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "currentMarketContext": "The threshold remains around 5.5 in current public context, but no stable current named-sportsbook price was independently verified. A transient plus-money search result was not present when the live page was opened and is not treated as executable truth.",
+        "reason": "Role and analyst support remain interesting, but exact current price is part of the bet. No promotion without a verified sportsbook/price plus a defensible independent probability edge."
+      },
+      {
+        "player": "J.K. Dobbins",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "currentMarketContext": "Public comparison context is around 49.5-51.5, but the most attractive 49.5 price observed does not identify the underlying sportsbook.",
+        "projectionContext": "Public projection context remains only modestly above this range, roughly low-50s.",
+        "reason": "Committee uncertainty and a small projection cushion leave no robust price-adjusted edge. WATCH only."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "STILL_PLAYABLE",
+        "currentMarketContext": "Current public line context remains around 22.5, but no fresh exact named-book price at PRIME's -110 maximum was verified in this pass.",
+        "projectionContext": "Prior public projections remain modestly above the line, around the mid-20s.",
+        "playToLine": 22.5,
+        "maxAcceptableOdds": -110,
+        "reason": "No fresh price improvement. Projection-over-line alone is insufficient, especially with role volatility."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "storedPlayToLine": 14.5,
+        "storedMaxAcceptableOdds": -110,
+        "currentMarketContext": "Current public comparison context remains around 15.5-16.5.",
+        "reason": "The market remains beyond the stored 14.5 play-to. Do not transfer the old thesis to a worse number."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "decision": "PASS",
+        "currentMarketContext": "Current comparison context is roughly U0.5 -104.",
+        "reason": "The slightly better price does not repair the underlying probability problem identified in the prior independent game-log review."
+      },
+      {
+        "player": "Patrick Mahomes",
+        "propType": "PASS_YARDS",
+        "side": "UNDER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "reason": "Josh Simmons being OUT still supports the pressure thesis, but no freshly verified named-book price plus independent fair-probability estimate clears PRIME's threshold."
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No material change requiring user attention and no genuinely actionable player prop clears PRIME's exact-price, independent-probability and verification requirements. Bo Nix passing yards remains the closest price-sensitive watch only at 225.5 -110 or better, but the blended edge remains below threshold. Kenneth Walker rushing and Rashee Rice receptions remain interesting WATCH candidates but lack the combination of verified current named-book price and robust independent probability edge required for promotion. Nix rushing remains PASS_AFTER_MOVE; Nix interception Under remains PASS."
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "reason": "No material verified decision-state change or new placed bet occurred. This immutable archive preserves the current watch state without manufacturing sportsbook-specific line truth from comparison surfaces."
+  },
+  "sources": [
+    "Denver Broncos official Week 1 final injury report, accessed 2026-09-14",
+    "Kansas City Chiefs Week 1 injury context via official/reliable reporting, accessed 2026-09-14",
+    "Oddschecker DEN@KC player-prop comparison page, accessed 2026-09-14 around 17:21 ET",
+    "StatMuse DEN@KC sportsbook-prop comparison context, accessed 2026-09-14 around 17:21 ET",
+    "SportsBettingDime DEN@KC prop board, published 2026-09-14 10:22 ET",
+    "Action Network DEN@KC prop analysis, updated 2026-09-14 14:59 ET",
+    "current analyst context for Bo Nix attempts and Rashee Rice receptions, accessed 2026-09-14 around 17:21 ET",
+    "National Weather Service Kansas City forecast and current stadium-weather context, accessed 2026-09-14 around 17:21 ET"
+  ]
+}
