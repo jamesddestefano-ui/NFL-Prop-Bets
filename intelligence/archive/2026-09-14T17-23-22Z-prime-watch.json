@@ -1,0 +1,129 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 13:23:22",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live, but completedAt is unchanged from the compact history and the most recently processed pass."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Denver's official final injury report still expects all 53 players available; Marvin Mims Jr. has no game designation after full participation.",
+      "Kansas City's official final report still has LT Josh Simmons and DB Chamarri Conner OUT. Rashee Rice, Xavier Worthy, Patrick Mahomes, Trey Smith and Chris Jones have no game designation.",
+      "No new official injury or inactive development has emerged that changes a current PRIME player-prop thesis."
+    ],
+    "marketAndProjectionChecks": [
+      {
+        "player": "Bo Nix",
+        "propType": "PASS_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "STILL_PLAYABLE",
+        "publicContext": "Oddschecker currently surfaces O225.5 -110 and O227.5 -113, while ESPN's 10:54 ET DraftKings snapshot was O229.5 -111 and SportsBettingDime listed 223.5 without an executable price. Fanatics also lists 225.5 -110 versus Kansas City.",
+        "projectionContext": "Covers updated its computer page at 13:03 ET and projects 240.13 passing yards with a 57% Over probability at 224.5. FanDuel/numberFire projects 228.72 and FIC projects 227.8, creating meaningful projection dispersion rather than a clean consensus edge.",
+        "fairProbabilityEstimate": "Approximately 55-56% at 225.5 after discounting correlated/duplicative bullish models and accounting for lower independent projections.",
+        "marketImpliedProbabilityAt225_5Minus110": 52.38,
+        "estimatedEdgePctRange": "~2.5-3.5 percentage points",
+        "edgeBucket": "2-4%",
+        "playToLine": 225.5,
+        "maxAcceptableOdds": -110,
+        "signalTags": ["PACE", "MATCHUP", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+        "reason": "Newly surfaced WATCH, not a BET. The current exact 225.5 -110 price is reasonable, but the probability edge does not robustly clear PRIME's preferred 4-5 point threshold once independent projection disagreement is respected. Do not chase 227.5-229.5. Reopen only on a better exact price/line or stronger independent probability confirmation."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Current Oddschecker context is around O61.5 -113 / O60.5 -114. Covers' 13:03 ET computer update lists O59.5 with a 57% model Over probability and a 71.24-yard projection, but the exact executable sportsbook price at 59.5 is not established in that source.",
+        "projectionContext": "The new Covers model remains bullish, but the broader public projection set is still dispersed and the current verified conventional-book lines are higher than 59.5.",
+        "signalTags": ["RUSH_SHARE", "MATCHUP", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+        "reason": "Still PRIME's best rushing-yard WATCH, but no formal BET without a clearly executable price at the lower threshold and a defensible 4-5 percentage-point edge after vig."
+      },
+      {
+        "player": "J.K. Dobbins",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Public conventional-book context remains roughly 48.5-51.5 with standard-to-moderate juice depending book.",
+        "reason": "No material improvement from the prior watch. Committee uncertainty with RJ Harvey and Jonah Coleman continues to suppress confidence in the rushing-yard Over."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "storedPlayToLine": 14.5,
+        "storedMaxAcceptableOdds": -110,
+        "publicContext": "Current public context remains around 15.5-16.5, above the stored maximum playable line.",
+        "reason": "No re-entry. Do not transfer the earlier 14.5 thesis to a worse number."
+      },
+      {
+        "player": "Patrick Mahomes",
+        "propType": "PASS_YARDS",
+        "side": "UNDER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Current public passing-yard references remain materially dispersed, with no newly verified exact price that converts the pressure/OL thesis into a robust wager.",
+        "reason": "Josh Simmons being OUT still supports the directional thesis, but model and market disagreement remain too large for a formal bet."
+      },
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEPTIONS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "reason": "Role remains attractive, but no new exact live sportsbook price plus independent fair-probability estimate cleared the PRIME threshold at this checkpoint."
+      },
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "publicContext": "Oddschecker currently surfaces O55.5 -107 and O53.5 -110, but public models remain too dispersed for a robust 4-5 percentage-point edge after price and uncertainty.",
+        "reason": "Projection-over-line alone remains insufficient."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "reason": "No new exact-price improvement sufficient to promote the prior receiving-yard lean."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "decision": "PASS",
+        "publicContext": "Oddschecker shows U0.5 around +100, but the supportive probability remains insufficiently corroborated relative to PRIME's prior independent fact-check.",
+        "reason": "No stronger independent probability evidence emerged."
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No material change requiring user attention and no genuinely actionable prop clears PRIME's exact-price, independent-probability and verification requirements. A fresh Covers update creates a Bo Nix passing-yards WATCH around 225.5 -110, but the discounted fair edge remains below PRIME's preferred threshold because independent projections cluster much closer to the market. Kenneth Walker rushing remains WATCH only; Nix rushing remains PASS_AFTER_MOVE; the rest of the prior MNF board is unchanged."
+  },
+  "sources": [
+    "Denver Broncos official Week 1 final injury report, accessed 2026-09-14",
+    "Kansas City Chiefs official Week 1 injury report, accessed 2026-09-14",
+    "Covers DEN@KC computer prop projections, updated 2026-09-14 13:03 ET",
+    "Oddschecker DEN@KC current player-prop market page, accessed 2026-09-14 13:23 ET",
+    "ESPN DEN@KC betting analysis, updated 2026-09-14 10:54 ET",
+    "SportsBettingDime DEN@KC prop board, published 2026-09-14 10:22 ET",
+    "Fanatics Bo Nix player-prop page, current matchup context accessed 2026-09-14",
+    "FanDuel Research Bo Nix Week 1 projection",
+    "Fantasy Info Central Week 1 passing-yards projection board"
+  ]
+}
