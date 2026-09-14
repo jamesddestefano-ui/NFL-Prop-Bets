@@ -1,0 +1,117 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 06:15:57",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live, but completedAt is identical to the most recently indexed completedAt and was not treated as new intelligence."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Denver's final availability remains stable: the Broncos expect all 53 players to be available and Marvin Mims Jr. has no game designation.",
+      "Kansas City's final status remains stable: LT Josh Simmons and DB Chamarri Conner are out; no new adverse status was found for Patrick Mahomes, Rashee Rice, Xavier Worthy, Trey Smith or Chris Jones.",
+      "No new Grok intelligence was processed because completedAt remains 2026-09-12T17:05:00Z."
+    ],
+    "weather": {
+      "classification": "confirmed_fact",
+      "materialChange": false,
+      "summary": "No material change from the prior National Weather Service checkpoint: kickoff conditions remain low-impact, with clear skies, very low precipitation risk and moderate south wind. No weather-driven prop reprice is warranted."
+    },
+    "marketAndProjectionChecks": [
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "storedPlayToLine": 14.5,
+        "storedMaxAcceptableOdds": -110,
+        "publicContext": "Action continues to center the popular market around 15.5 with Over juice near -114. A public multi-book tracker also displays 15.5 at FanDuel and 16.5 at DraftKings, but its underlying data indicates an older refresh and is not treated as current executable sportsbook truth.",
+        "projectionContext": "Independent projection disagreement remains severe: numberFire/FanDuel Research has been far below the market, Stats Insider is around 19 rushing yards, while the public multi-book/model tracker shows a much higher mean but only about a coin-flip Over probability at 15.5.",
+        "reason": "No freshly verified price meets both PRIME's 14.5-or-better line ceiling and -110-or-better juice ceiling, and the projection distribution is too unstable to justify relaxing either threshold."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Public boards continue to cluster roughly around 59.5-61.5. A multi-book tracker shows FanDuel 59.5 -113 and DraftKings 61.5 -111, but the tracker reports an older refresh and is used only as market context, not executable truth.",
+        "projectionContext": "FantasyPros is roughly 66 rushing yards, Stats Insider 68, numberFire/FanDuel Research 80.28, while another public model is materially lower around 49.2. The public probability model attached to the 59.5 reference gives only about a 54% Over probability, roughly one percentage point above the raw break-even rate at -113.",
+        "reason": "The lower visible threshold is directionally interesting, but the modeled probability edge remains below PRIME's normal 4-5 percentage-point requirement and independent projections are too dispersed. No bet."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "storedPlayToLine": 16.5,
+        "storedMaxAcceptableOdds": -110,
+        "publicContext": "Public multi-book context is now generally 17.5-18.5 with Over juice worse than PRIME's ceiling; an older tracker displays DraftKings/FanDuel 18.5 -113 and BetMGM 17.5 -120.",
+        "projectionContext": "FantasyPros is roughly 19.9 receiving yards, Stats Insider 22 and numberFire/FanDuel Research 17.10.",
+        "reason": "The market remains beyond the stored 16.5 play-to and the projection advantage is modest at the worse number. Do not chase."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEPTIONS",
+        "side": "UNDER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "The 3.5 Under remains heavily juiced in public references, around the -160s, while 2.5 is a materially harder threshold.",
+        "reason": "Projection support below 3.5 is not enough to justify the heavy price, especially with uncertainty around Walker's passing-down role."
+      },
+      {
+        "player": "J.K. Dobbins",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Public Sunday/Monday context has centered near 49.5. The freshest accessible multi-book tracker shows a FanDuel-style 49.5 price near standard juice, but its data refresh is not current enough to treat as executable.",
+        "projectionContext": "numberFire/FanDuel Research projects 66.35 rushing yards, Stats Insider 53, and a public model mean is materially higher; however that same public probability model gives only about a 53.6% chance to exceed 49.5.",
+        "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+        "reason": "Dobbins is returning to game action and rookie RJ Harvey remains an active workload competitor. The point projections look appealing, but the probability edge at standard juice is not robust enough to promote, and no current executable price was verified."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "storedPlayToLine": 22.5,
+        "storedMaxAcceptableOdds": -105,
+        "publicContext": "Public boards remain around 22.5 at prices materially worse than PRIME's -105 ceiling; an older multi-book tracker shows 22.5 around -113 to -116 at major books.",
+        "projectionContext": "Stats Insider is around 26 receiving yards, while FantasyPros and other public projections have been much closer to 22-24.",
+        "reason": "The modest projection disagreement does not compensate for the price. No price-adjusted edge."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "decision": "PASS",
+        "reason": "No new independent probability evidence overturns the previously recorded pass."
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No material change since the 05:40 ET watch and no newly verified prop clears PRIME's price-adjusted threshold. Walker rushing and Dobbins rushing remain interesting WATCH candidates only; Nix rushing remains constrained by price and severe projection disagreement; Walker receiving remains PASS_AFTER_MOVE; Engram remains price-limited."
+  },
+  "sources": [
+    "Denver Broncos official Week 1 availability/injury reporting, accessed 2026-09-14",
+    "Kansas City Chiefs official Week 1 injury report, accessed 2026-09-14",
+    "National Weather Service Kansas City kickoff forecast, prior authoritative checkpoint retained after no contrary update",
+    "Action Network public Bo Nix and Kenneth Walker III player-prop pages, accessed 2026-09-14",
+    "FantasyPros Week 1 Kenneth Walker III projections, accessed 2026-09-14",
+    "FanDuel Research/numberFire Week 1 projections for Kenneth Walker III and J.K. Dobbins, accessed 2026-09-14",
+    "Stats Insider DEN@KC Week 1 projections, accessed 2026-09-14",
+    "BallKnowMe DEN@KC multi-book/model board, accessed 2026-09-14 with explicit stale-refresh caveat",
+    "Broncos official J.K. Dobbins role comments, accessed 2026-09-14"
+  ]
+}
