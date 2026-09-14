@@ -1,0 +1,118 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 19:28:47",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. status remains live and completedAt is unchanged from the most recently processed pass."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": true,
+    "confirmedFacts": [
+      "Official inactive lists are now posted. Kansas City will be without S Chamarri Conner, OTs Josh Simmons and Diego Pounds, DT Bryson Eason, TE Jared Wiley and DE Jack Pyburn. Chris Jones is active.",
+      "Denver lists RB Tyler Badie, OL Kage Casey, TE Dallen Bentley, DL Jordan Jackson and DT Tyler Onyedim inactive; these are healthy scratches. Adam Prentice and Mitchell Fraboni are active after practice-squad elevations.",
+      "Rashee Rice is active with no game designation and the pregame role thesis is unchanged: he posted a 26.2% target share and 31.9% first-read share in 2025, with 53 catches on 78 targets in eight games."
+    ],
+    "marketFreshness": {
+      "summary": "A current CLEATZ comparison table now exposes a named-book executable-range price for Rashee Rice receptions: FanDuel O5.5 -102 / U5.5 -130, with additional public book quotes at the same 5.5 threshold including +100 or better at some operators. This resolves the prior watch's main blocker, which was lack of a fresh named-book price. The current CLEATZ DraftKings cell is internally inconsistent and is not treated as authoritative DK truth; the stored play-to remains 5.5 at -110 or better.",
+      "riceReceptionsObserved": {
+        "market": "Receptions",
+        "side": "OVER",
+        "line": 5.5,
+        "fanduelOdds": -102,
+        "fanduelOppositeOdds": -130,
+        "otherObservedQuotes": "BetOnline +100; BetParx +104; theScoreBet +100 on the same 5.5 threshold",
+        "source": "CLEATZ current multi-book table accessed 2026-09-14 around 19:28 ET"
+      }
+    },
+    "evaluations": [
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEPTIONS",
+        "side": "OVER",
+        "decision": "BET",
+        "steamState": "BET_NOW",
+        "entryTiming": "PREGAME_LATE",
+        "sportsbook": "FanDuel",
+        "line": 5.5,
+        "odds": -102,
+        "playToLine": 5.5,
+        "maxAcceptableOdds": -110,
+        "estimatedOverProbability": 55.0,
+        "estimatedUnderProbability": 45.0,
+        "fairOdds": -122.2,
+        "marketImpliedProbability": 50.50,
+        "noVigOverProbabilityFromFanDuelPair": 47.18,
+        "estimatedEdgePctVsRawBreakEven": 4.50,
+        "edgeBucket": "4-6%",
+        "confidence": "B",
+        "signalTags": ["TARGET_SHARE", "FIRST_READ_SHARE", "ROLE_STABILITY", "MATCHUP", "MARKET_PRICE", "EXPERT_CONSENSUS", "PROJECTION_DISAGREEMENT", "OL_INJURY"],
+        "thesisId": "RICE_SHORT_AREA_VOLUME_OVER",
+        "reason": "The exact-price blocker has cleared. Rice caught at least six passes in six of eight 2025 games and had six catches on nine targets against Denver despite only 38 yards. FantasyPros documents a 26.2% target share and 31.9% first-read share, while Football Nation independently prefers O5.5 receptions. Denver is a difficult efficiency matchup, so PRIME deliberately discounts the raw recent hit rate and uses a conservative 55% fair probability rather than extrapolating 75%. At -102, the wager clears the minimum price-adjusted edge; do not chase worse than -110 or a move to 6.5 without recalculation."
+      },
+      {
+        "player": "RJ Harvey",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "STILL_PLAYABLE",
+        "currentLineContext": "FanDuel O16.5 -113 / U16.5 -113 on current CLEATZ; Oddschecker published O16.5 -113 at FanDuel at 18:00 ET.",
+        "projectionContext": "FantasyPros Week 1 projection 19.1 receiving yards and 2.7 receptions; StatIQ 18.8 receiving yards. Other public models are materially lower, including roughly 13-15 yards, so model disagreement remains meaningful.",
+        "newRoleSignal": "Tyler Badie is a healthy scratch. That modestly strengthens Harvey's projected passing-down role, but Badie's prior role was limited and Jonah Coleman remains active, so PRIME does not over-credit the inactive.",
+        "playToLine": 16.5,
+        "maxAcceptableOdds": -105,
+        "reason": "The inactive is directionally positive, but the current -113 price plus projection dispersion does not clear the preferred 4-5 percentage-point robust edge. Remain WATCH; do not promote solely from the inactive or an analyst model."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "PASS_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "currentLineContext": "Oddschecker current best-odds surface shows 227.5 -113 and 226.5 -114 variants, still above PRIME's stored 225.5/-110 trigger.",
+        "reason": "No new availability or market catalyst restores the lost price. Do not chase."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "currentLineContext": "Public multi-book lines remain above the original 14.5 thesis, generally 15.5-17.5 depending sportsbook.",
+        "reason": "Still beyond stored play-to with substantial projection disagreement."
+      },
+      {
+        "player": "J.K. Dobbins",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "currentLineContext": "Current multi-book table centers near 49.5-50.5 with FanDuel 49.5 -113; Chris Jones is confirmed active.",
+        "reason": "Role support persists, but first-game-back uncertainty, projection dispersion and an active Chris Jones keep the edge below BET threshold."
+      }
+    ],
+    "overallDecision": "ALERT_BET",
+    "summary": "Rashee Rice O5.5 receptions has moved from an unverified price-dislocation WATCH to a formal BET because a fresh named-book quote now clears the stored trigger: FanDuel O5.5 -102, playable through -110. RJ Harvey receiving gets a small role-positive bump from Tyler Badie being inactive but remains WATCH at O16.5 -113 because projection disagreement prevents a robust edge."
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "reason": "The immutable archive captures the formal state transition and current named-book price without risking corruption of shared CSV ledgers during a time-sensitive pregame run. The next reconciliation pass should append this Rice BET evaluation and line snapshot to decision_ledger.csv and line_history.csv if no user ticket is provided first."
+  },
+  "sources": [
+    "Arrowhead Pride official-inactives report published 2026-09-14 19:04 ET, reproducing both teams' game-day inactive lists",
+    "CLEATZ current multi-book NFL prop table accessed 2026-09-14 around 19:28 ET",
+    "Oddschecker Broncos-Chiefs prop article published 2026-09-14 18:00 ET",
+    "FantasyPros Rashee Rice Week 1 outlook published 2026-09-08",
+    "FanDuel Research/numberFire Rashee Rice Week 1 projection accessed 2026-09-14",
+    "Football Nation DEN@KC prop analysis published 2026-09-13",
+    "FantasyPros RJ Harvey Week 1 projection/outlook accessed 2026-09-14",
+    "StatIQ DEN@KC player-prop projections accessed 2026-09-14"
+  ]
+}
