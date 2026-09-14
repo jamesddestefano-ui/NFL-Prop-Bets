@@ -1,0 +1,138 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 12:43:58",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live, but completedAt is identical to the compact-history latest and the last processed completedAt, so it was not treated as new intelligence."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Denver availability remains unchanged: all 53 Broncos are expected available and Marvin Mims Jr. has no game designation after full participation.",
+      "Kansas City availability remains unchanged: LT Josh Simmons and DB Chamarri Conner are OUT. Rashee Rice, Xavier Worthy, Patrick Mahomes and Trey Smith have no game designation; Chris Jones also has no game designation.",
+      "Latest public kickoff-weather context remains low impact: clear to mostly clear with essentially no precipitation risk and only modest wind."
+    ],
+    "marketAndProjectionChecks": [
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Oddschecker continues to surface O60.5 -110 and O59.5 -114. ESPN's Monday-morning DraftKings snapshot was a worse O62.5 -111. These sources confirm that the market has not improved enough to create a clean entry.",
+        "projectionContext": "Independent public projections remain widely dispersed, from roughly the high-40s/low-50s to around 70-80 yards depending model. The disagreement prevents a stable 4-5 percentage-point fair-probability edge from being defended.",
+        "signalTags": ["RUSH_SHARE", "MATCHUP", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+        "reason": "Still the best rushing-yard WATCH on the slate, but not a formal BET without a stronger probability consensus and a clearly executable price that beats the current public context."
+      },
+      {
+        "player": "J.K. Dobbins",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "ESPN's Monday-morning DraftKings snapshot listed 49.5 at -113, while other public references remain around 48.5-49.5. No material price improvement has been verified.",
+        "projectionContext": "Dimers projects about 53 rushing yards, while other public models range from low-50s to mid-60s. The edge at standard juice remains too model-sensitive.",
+        "roleContext": "Dobbins is expected to lead Denver's rushing work, but RJ Harvey is expected to share passing-down/change-of-pace work and a third-back role remains possible.",
+        "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+        "reason": "WATCH only. Committee uncertainty plus only a modest consensus projection cushion does not clear PRIME's price-adjusted threshold."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "storedPlayToLine": 14.5,
+        "storedMaxAcceptableOdds": -110,
+        "publicContext": "ESPN's Monday-morning DraftKings snapshot listed O16.5 -108 and other current public context remains around 15.5. Both are above PRIME's stored 14.5 line ceiling.",
+        "projectionContext": "Public rushing projections remain sharply split, including a very low numberFire projection and other models in the low 20s.",
+        "signalTags": ["MARKET_MOVE", "PROJECTION_DISAGREEMENT", "INJURY"],
+        "reason": "No re-entry. The better-looking juice does not compensate for losing one to two rushing yards versus the stored maximum playable line."
+      },
+      {
+        "player": "Patrick Mahomes",
+        "propType": "PASS_YARDS",
+        "side": "UNDER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Public sportsbook references remain materially dispersed: Oddschecker shows 229.5 around standard juice, while ESPN's Monday-morning DraftKings snapshot was 220.5. This is too wide to treat as a clean consensus or a single executable market state.",
+        "projectionContext": "Public models remain split from roughly the high-210s/low-220s to the mid-240s. Josh Simmons being OUT supports the pressure-based Under thesis, while neutral weather removes weather support.",
+        "signalTags": ["OL_INJURY", "MATCHUP", "PROJECTION_DISAGREEMENT", "WEATHER", "MARKET_MOVE"],
+        "reason": "Directionally interesting only. No robust fair-probability edge at a freshly verified user-executable line and price."
+      },
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEPTIONS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Current analysis and public boards continue to center the reception line near 5.5, but no fresh regulated-book executable price was verified at this checkpoint.",
+        "roleContext": "Rice practiced fully, has no game designation and retains a high-target short-area role. Kansas City's LT absence could support quicker throws, but that is a role thesis rather than a priced edge by itself.",
+        "signalTags": ["TARGET_SHARE", "ROLE_CHANGE", "OL_INJURY", "EXPERT_CONSENSUS"],
+        "reason": "WATCH only until an exact live sportsbook price and an independent fair-probability estimate are available."
+      },
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "publicContext": "Oddschecker continues to surface roughly 56.5 -107 / 55.5 -114, while ESPN's Monday-morning DraftKings snapshot showed 54.5 -112 and another public board was higher. The market is dispersed rather than clearly mispriced.",
+        "projectionContext": "Dimers is around 59 yards and numberFire is in the mid-60s, but an Oddschecker probability model was only modestly bullish at the higher threshold. Lowering the line to 54.5 does not produce a defensible 4-5 point edge after price and model uncertainty.",
+        "signalTags": ["TARGET_SHARE", "MATCHUP", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+        "reason": "Projection-over-line alone remains insufficient. No formal wager."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "storedPlayToLine": 16.5,
+        "storedMaxAcceptableOdds": -110,
+        "publicContext": "ESPN's Monday-morning DraftKings snapshot listed O17.5 -116, worse than both PRIME's stored line and juice ceilings.",
+        "reason": "Do not chase the analyst-supported Over after the market moved beyond the stored maximum playable number and price."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "storedPlayToLine": 22.5,
+        "storedMaxAcceptableOdds": -105,
+        "publicContext": "A Monday public board lists roughly 20.5 with materially worse juice, while a separate prediction-market analyst likes 25+ at plus money. These are not directly interchangeable markets.",
+        "projectionContext": "Dimers projects roughly 26 receiving yards, but that point projection alone does not establish sufficient probability edge at the available conventional-book juice.",
+        "reason": "No promotion. Exact-price discipline controls."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "decision": "PASS",
+        "publicContext": "Oddschecker shows roughly plus money on Under 0.5, but the supportive probability is from a single opaque model.",
+        "reason": "PRIME's prior independent fact-check of the analyst premise remains controlling; no stronger independent probability evidence emerged."
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No material change requiring user attention and no genuinely actionable prop clears PRIME's exact-price, independent-probability and verification requirements. Walker rushing and Dobbins rushing remain WATCH only; Nix rushing and Walker receiving remain PASS_AFTER_MOVE; Mahomes passing Under and Rice receptions remain WATCH; Rice receiving yards, Engram receiving yards and Nix interception Under remain passes. Official availability is unchanged and weather remains non-material."
+  },
+  "sources": [
+    "Denver Broncos official Week 1 injury/team reporting, accessed 2026-09-14",
+    "Kansas City Chiefs official Week 1 injury report, accessed 2026-09-14",
+    "Oddschecker DEN@KC market comparison page, accessed 2026-09-14",
+    "ESPN DEN@KC betting/prop analysis, updated 2026-09-14 10:54 ET",
+    "SportsBettingDime DEN@KC prop board, published 2026-09-14 10:22 ET",
+    "Dimers DEN@KC projections, updated 2026-09-14 12:22 ET",
+    "DraftKings Network DEN@KC weather report, published 2026-09-13",
+    "FanDuel Research/numberFire Week 1 projections and prior PRIME projection set"
+  ]
+}
