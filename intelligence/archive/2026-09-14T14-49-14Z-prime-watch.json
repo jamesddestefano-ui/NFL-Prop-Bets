@@ -1,0 +1,105 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 10:49:14",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. status remains live but completedAt is unchanged from the most recently processed pass."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Denver still expects all 53 rostered players available; Marvin Mims Jr. has no game designation.",
+      "Kansas City still lists LT Josh Simmons and DB Chamarri Conner out. Patrick Mahomes, Rashee Rice, Xavier Worthy, Trey Smith and Chris Jones have no game designation.",
+      "Kickoff weather remains low impact: current public forecasts are dry/clear with roughly 10-13 mph sustained wind; no precipitation-driven downgrade is warranted."
+    ],
+    "marketAndProjectionChecks": [
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Fresh public context has softened toward 59.5. SportsGambler shows 59.5 -114 both ways, and a public line tracker surfaces FanDuel O59.5 -114. Projection sources remain highly dispersed: numberFire 80.28, Covers 70.81, BallKnowMe 76, Stats Insider 68, while NFSMELL is 49.2.",
+        "signalTags": ["MARKET_MOVE", "PROJECTION_DISAGREEMENT", "RUSH_SHARE", "MATCHUP"],
+        "reason": "The lower number improves the Over thesis, but the distribution disagreement is too large to assign a robust 4-5 percentage-point price-adjusted edge at -114 without a fresher executable sportsbook check. Continue WATCH; do not alert as a formal BET."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Public pages now show roughly 15.5-17.5 depending source. StatMuse surfaces 15.5 O-115/U-104, while SportsGambler remains 17.5 -114. numberFire projects 17.10 and Stats Insider 22; Covers has a bullish 14.5 model context but current sportsbook attribution is not clean enough to treat that as executable truth.",
+        "storedPlayToLine": 16.5,
+        "storedMaxAcceptableOdds": -110,
+        "reason": "The threshold has partially retraced into the old line range, but the visible -115 price is worse than the stored ceiling and central projections sit only modestly above 15.5. No robust re-entry edge is established."
+      },
+      {
+        "player": "J.K. Dobbins",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Public context remains around 49.5 with roughly -114 Over. Projection disagreement persists: numberFire 66.35, BallKnowMe 64.4, Stats Insider 53 and Covers 52.45.",
+        "reason": "No new role catalyst and no robust named-book price-adjusted probability edge. Remains WATCH only."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "storedPlayToLine": 14.5,
+        "storedMaxAcceptableOdds": -110,
+        "publicContext": "Current public context has eased from roughly 16.5 to 15.5, but the visible Over is still around -114. BallKnowMe and Covers project low-20s rushing yards, while the stored entry ceiling remains 14.5/-110.",
+        "reason": "The move is not enough to re-enter. Do not chase above the stored line and price ceiling."
+      },
+      {
+        "player": "Patrick Mahomes",
+        "propType": "PASS_YARDS",
+        "side": "UNDER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Current public market context remains about 223.5 -114 both ways. numberFire projects 218.16 and Stats Insider 230, while NFSMELL projects 244.5. LT Josh Simmons remains out; weather is now neutral rather than supportive of an Under.",
+        "reason": "Projection disagreement remains material and the improved weather removes one prior Under catalyst. No fresh probability edge supports promotion."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "reason": "No new role or price evidence justifies relaxing the previously stored 22.5/-105 ceiling."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "decision": "PASS",
+        "reason": "No new independent probability evidence overturns the prior fact-checked pass."
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No genuinely actionable prop clears PRIME's full price, probability and verification threshold. Walker rushing improved to a more interesting 59.5 range but remains WATCH because projection dispersion is extreme and the public line evidence still is not strong enough for a formal BET. Walker receiving partially retraced but not at acceptable price; Nix rushing remains above the stored ceiling; Dobbins rushing and Mahomes passing Under remain WATCH only."
+  },
+  "sources": [
+    "Denver Broncos official final Week 1 injury report, accessed 2026-09-14",
+    "Kansas City Chiefs official final Week 1 injury report, accessed 2026-09-14",
+    "SportsGambler DEN@KC public market page, last updated 2026-09-14 07:38 ET",
+    "BallKnowMe DEN@KC public tracker, accessed 2026-09-14",
+    "FanDuel Research/numberFire Week 1 projections, accessed 2026-09-14",
+    "Covers DEN/KC team prop projection pages, accessed 2026-09-14",
+    "Stats Insider DEN@KC model page, accessed 2026-09-14",
+    "StatMuse DEN@KC prop context, accessed 2026-09-14",
+    "DraftKings Network DEN@KC weather page, accessed 2026-09-14"
+  ]
+}
