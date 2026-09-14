@@ -1,0 +1,147 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 15:28:17",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live, but completedAt is unchanged from the compact history and the most recently processed pass."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Denver's official final injury report continues to indicate all 53 players are expected available; Marvin Mims Jr. carries no game designation.",
+      "Kansas City's official final injury report continues to list LT Josh Simmons and DB Chamarri Conner OUT. Rashee Rice, Xavier Worthy, Patrick Mahomes, Trey Smith and Chris Jones carry no game designation.",
+      "No new official injury or availability development was found that materially changes an existing PRIME player-prop thesis."
+    ],
+    "marketAndProjectionChecks": [
+      {
+        "player": "Bo Nix",
+        "propType": "PASS_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "STILL_PLAYABLE",
+        "currentMarketContext": "Public line-shopping still shows an isolated O225.5 -110 comparison price, while CLEATZ lists DraftKings at 228.5 and FantasyAlarm cites a 230.5 market. The 225.5 -110 pair is the only public context still at PRIME's stored play-to and max price.",
+        "projectionContext": "Recent public projection context remains broadly in the high-220s to around 240, with Covers previously at 240.13 and StatsInsider now around 235.",
+        "fairProbabilityEstimate": "Prior blended PRIME estimate remains approximately 55-56% at 225.5 after discounting correlated bullish models and projection disagreement.",
+        "marketImpliedProbabilityAt225_5Minus110": 52.38,
+        "estimatedEdgePctRange": "~2.5-3.5 percentage points",
+        "edgeBucket": "2-4%",
+        "playToLine": 225.5,
+        "maxAcceptableOdds": -110,
+        "reason": "No upgrade. Even if 225.5 -110 remains executable, the price-adjusted edge is still below PRIME's preferred 4-5 point threshold. Do not chase 227.5-230.5."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "STILL_PLAYABLE",
+        "currentMarketContext": "CLEATZ currently indexes DraftKings at 22.5 but does not expose an exact current price. The prior fresh multi-book check had FanDuel O22.5 -113, bet365 O22.5 -115 and DraftKings O23.5 -110.",
+        "projectionContext": "Covers previously projected 25.66 yards; StatsInsider is around 26. The modest projection-over-line gap remains supportive but not sufficient on its own.",
+        "fairProbabilityEstimate": "Prior blended PRIME estimate remains approximately 55-56% at 22.5.",
+        "estimatedEdgePctRange": "~2-3 percentage points at -113",
+        "edgeBucket": "2-4%",
+        "playToLine": 22.5,
+        "maxAcceptableOdds": -110,
+        "reason": "No fresh price improvement has been verified. WATCH only; the role volatility and small edge do not justify paying -113/-115."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "currentMarketContext": "CLEATZ currently lists DraftKings 61.5, PrizePicks 60.5 and Underdog 61.5. Oddschecker comparison context shows an Over 60.5 -110 quote but the search surface does not identify the underlying sportsbook, so it is movement evidence rather than verified executable book truth.",
+        "projectionContext": "Public models are bullish but dispersed: numberFire/FanDuel Research 80.28 rushing yards, StatsInsider about 68, with other public models previously around the low-to-mid 70s. Against that, Denver's 2025 run defense was among the league's best and current analyst opinions include Under 61.5 recommendations.",
+        "signalTags": ["RUSH_SHARE", "MATCHUP", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+        "reason": "No material upgrade from the prior WATCH. The public projection cluster is attractive, but matchup, new-team workload uncertainty and opposing analyst signals make the fair probability too uncertain to promote without a verified named sportsbook price and stronger role evidence."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "currentMarketContext": "CLEATZ currently indexes DraftKings at 16.5. A current analyst recommendation has cited Over 16.5 around -115.",
+        "projectionContext": "numberFire/FanDuel Research projects only 17.10 receiving yards, leaving a very small point-projection cushion over 16.5.",
+        "reason": "Projection-over-line alone is not enough, especially at roughly -115. The passing-down role and target volume do not support a robust 4-5 percentage-point fair-probability edge. PASS."
+      },
+      {
+        "player": "J.K. Dobbins",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "currentMarketContext": "CLEATZ now indexes DraftKings 51.5 and PrizePicks/Underdog 50.5, worse than the earlier verified 47.5-49.5 thresholds.",
+        "projectionContext": "StatsInsider remains around 53 rushing yards and Covers previously projected 52.45 on 12.0 carries.",
+        "reason": "The market is no longer offering the earlier lower threshold in the fresh line-shopping snapshot. Committee uncertainty with RJ Harvey/Jonah Coleman plus minimal projection cushion makes this a WATCH, not a chase."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "storedPlayToLine": 14.5,
+        "storedMaxAcceptableOdds": -110,
+        "currentMarketContext": "CLEATZ currently indexes DraftKings at 16.5, with PrizePicks and Underdog at 15.5.",
+        "reason": "No re-entry. The market remains beyond the stored 14.5 play-to, so the earlier thesis cannot be transferred to a worse number."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "decision": "PASS",
+        "currentMarketContext": "Oddschecker comparison context now shows Under 0.5 near +100.",
+        "reason": "The improved price does not fix the underlying probability problem. Prior independent game-log review implied the no-interception rate was below 50%, so even plus money does not establish a robust edge."
+      },
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "currentMarketContext": "CLEATZ currently indexes DraftKings at 56.5.",
+        "projectionContext": "Public models remain above the line, including numberFire/FanDuel Research around 65.18 and StatsInsider around 61, but current analyst opinion is materially split and Denver's pass-defense matchup creates substantial model disagreement.",
+        "reason": "No formal Over. The projection gap is not enough to overcome the disagreement without a verified exact price and a defensible independent probability distribution."
+      },
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEPTIONS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "currentMarketContext": "CLEATZ currently indexes DraftKings at 5.5 but does not expose the exact current price.",
+        "reason": "Role remains attractive, but no fresh exact sportsbook line/price plus independent fair-probability estimate clears PRIME's threshold."
+      },
+      {
+        "player": "Patrick Mahomes",
+        "propType": "PASS_YARDS",
+        "side": "UNDER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "projectionContext": "StatsInsider is around 230 passing yards, but the broader market/model dispersion remains meaningful.",
+        "reason": "Josh Simmons being OUT still supports the pressure thesis, but no new price/probability combination clears PRIME's formal threshold."
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No material change requiring user attention and no genuinely actionable player prop clears PRIME's exact-price, independent-probability and verification requirements. The best public price-sensitive state remains Bo Nix passing yards only at 225.5 -110 or better, but the blended edge is still just 2-4%. Kenneth Walker's rushing projections remain bullish, yet the fresh line is around 60.5-61.5 and the matchup/role evidence is sufficiently conflicted that a named current sportsbook price plus stronger probability support is required before promotion. Evan Engram, J.K. Dobbins rushing, Rashee Rice receptions and Patrick Mahomes passing Under remain WATCH. Nix rushing remains PASS_AFTER_MOVE; Walker receiving, Rice receiving and Nix interception Under remain PASS."
+  },
+  "sources": [
+    "Denver Broncos official Week 1 final injury report, accessed 2026-09-14 around 15:28 ET",
+    "Kansas City Chiefs official Week 1 final injury report, accessed 2026-09-14 around 15:28 ET",
+    "Oddschecker DEN@KC player-prop comparison context, accessed 2026-09-14 around 15:28 ET",
+    "CLEATZ DEN@KC line-shopping board, accessed 2026-09-14 around 15:28 ET",
+    "FantasyAlarm DEN@KC player-prop article, accessed 2026-09-14 around 15:28 ET",
+    "FanDuel Research / numberFire Kenneth Walker and Rashee Rice projections, accessed 2026-09-14 around 15:28 ET",
+    "StatsInsider DEN@KC projections, accessed 2026-09-14 around 15:28 ET",
+    "SportsbookReview and talkSPORT current DEN@KC analyst context, accessed 2026-09-14 around 15:28 ET"
+  ]
+}
