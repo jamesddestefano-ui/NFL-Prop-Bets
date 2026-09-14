@@ -1,0 +1,122 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 08:17:51",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live, but completedAt is identical to the most recently processed completedAt and compact-history latest completedAt, so it was not treated as new intelligence."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Denver availability remains stable: the Broncos expect all 53 players to be available and Marvin Mims Jr. has no game designation.",
+      "Kansas City availability remains materially unchanged: LT Josh Simmons and DB Chamarri Conner are out; no new adverse designation was found for the principal offensive skill players, Patrick Mahomes, or Chris Jones.",
+      "No new Grok intelligence was processed because completedAt remains 2026-09-12T17:05:00Z."
+    ],
+    "weather": {
+      "classification": "attributed_report",
+      "materialChange": false,
+      "summary": "A Covers game preview updated 07:31 ET notes some forecast disagreement around Arrowhead: storms remain possible in the broader area, while Windy guidance cited by the article is dry with roughly 12 mph wind and gusts up to about 25 mph. The article still handicaps generally good football conditions with only slight wind concern. PRIME does not make a weather-driven prop reprice at this checkpoint."
+    },
+    "marketAndProjectionChecks": [
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "A current public market aggregate is around 59.5 with standard-ish Over juice, while older named-book/public pages range materially higher, including a bet365-specific 67.5 snapshot. These cannot be merged into a fictional current consensus or treated as an executable sportsbook quote.",
+        "projectionContext": "FantasyPros public projections are roughly mid-60s to low-70s depending view, while other public models are materially lower. TalkSPORT's current analyst position is Under 61.5, further illustrating disagreement.",
+        "signalTags": ["MARKET_MOVE", "PROJECTION_DISAGREEMENT", "RUSH_SHARE"],
+        "reason": "The lower aggregate threshold is directionally more interesting than prior snapshots, but no fresh named regulated-book line and price was independently verified with a robust 4-5 percentage-point probability edge. Continue WATCH; do not chase or infer executable value from an aggregate."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "storedPlayToLine": 16.5,
+        "storedMaxAcceptableOdds": -110,
+        "publicContext": "Current aggregate context is around 17.5 with Over juice near -114, outside both PRIME's stored line and price ceiling. A current DraftKings line index has shown 16.5 without executable juice.",
+        "projectionContext": "FantasyPros is around 18-20 receiving yards, Stats Insider around 22 and numberFire/FanDuel Research around 17.",
+        "signalTags": ["MARKET_MOVE", "PROJECTION_DISAGREEMENT", "ROLE_CHANGE"],
+        "reason": "No verified executable price clears the stored ceiling. Preserve the price-sensitive pass."
+      },
+      {
+        "player": "J.K. Dobbins",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Public current/near-current references cluster around 49.5, but sportsbook attribution and prices are inconsistent: one aggregate is about O49.5 -114, an unnamed-book tracker is near -108, and a Monday analysis cited +105 without identifying the sportsbook.",
+        "projectionContext": "Independent point projections remain dispersed: FantasyPros views vary from roughly mid-40s to mid-50s; prior numberFire/FanDuel Research was around the mid-60s and Stats Insider near the low-50s. Dobbins is returning to game action with RJ Harvey still competing for work.",
+        "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+        "reason": "No named fresh sportsbook quote plus defensible probability edge has been verified. Remains WATCH only."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "storedPlayToLine": 14.5,
+        "storedMaxAcceptableOdds": -110,
+        "publicContext": "Current aggregate context is around 15.5 at approximately -114 and a current DraftKings line index has shown 16.5 without price. Both are worse than the stored 14.5/-110 entry ceiling.",
+        "projectionContext": "FantasyPros projects about 17.9 rushing yards, while other public models are more bullish; the disagreement is not enough to transfer the original thesis to a worse line and price.",
+        "signalTags": ["MARKET_MOVE", "PROJECTION_DISAGREEMENT", "INJURY"],
+        "reason": "Do not chase beyond the stored play-to. Reopen only if a fresh named book returns to 14.5 at -110 or better or a material role catalyst changes the fair distribution."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "storedPlayToLine": 22.5,
+        "storedMaxAcceptableOdds": -105,
+        "publicContext": "Current aggregate context is about 22.5 at -114, materially worse than PRIME's -105 price ceiling.",
+        "signalTags": ["MARKET_MOVE", "PROJECTION_DISAGREEMENT", "TARGET_SHARE"],
+        "reason": "Price discipline controls; no new role news justifies paying the extra juice."
+      },
+      {
+        "player": "Patrick Mahomes",
+        "propType": "PASS_YARDS",
+        "side": "UNDER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "A current public market aggregate is around 223.5 with standard-ish juice, while a named Fanatics page has shown 230.5 with only the Over price exposed and other public books/pages have carried materially different numbers. No fresh named-book Under line plus price is verified at this checkpoint.",
+        "projectionContext": "FantasyPros is around 210 passing yards, numberFire/FanDuel Research about 218 and Covers about 210, while at least one lower-authority public model is materially higher near 245. Denver's pass defense and Kansas City's LT Josh Simmons absence are directionally supportive of the Under thesis, but projection disagreement and market dispersion are substantial.",
+        "signalTags": ["OL_INJURY", "MATCHUP", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "WEATHER"],
+        "reason": "New directionally interesting candidate, but not a BET. PRIME requires a fresh named sportsbook Under price and a price-adjusted fair-probability edge before promotion. Do not infer an executable wager from the aggregate or from the exposed Over-only Fanatics quote."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "decision": "PASS",
+        "reason": "No new independent probability evidence overturns the previously recorded pass after PRIME fact-checked the analyst's underlying base-rate premise."
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No material change requiring user attention and no freshly verified named-book prop clears PRIME's full price-and-probability threshold. The most interesting new direction is Patrick Mahomes passing yards Under because several stronger projections sit below current public market context and Kansas City is without LT Josh Simmons, but the market is dispersed and no fresh executable Under price has been verified. Walker rushing and Dobbins rushing remain WATCH positions; Nix rushing is PASS_AFTER_MOVE; Walker receiving, Engram receiving and Nix interceptions remain passes. Weather has modest forecast uncertainty but no current prop-repricing impact."
+  },
+  "sources": [
+    "Denver Broncos official Week 1 availability reporting, accessed 2026-09-14",
+    "Kansas City Chiefs official Week 1 injury reporting, accessed 2026-09-14",
+    "Covers DEN@KC game preview updated 2026-09-14 07:31 ET",
+    "SportsGambler DEN@KC public market aggregate accessed 2026-09-14 with sportsbook-attribution caveat",
+    "FantasyPros Week 1 player projections accessed 2026-09-14",
+    "FanDuel Research/numberFire Week 1 Mahomes projection accessed 2026-09-14",
+    "Fanatics Sportsbook Mahomes passing-yards page accessed 2026-09-14 with one-sided-price caveat",
+    "CLEATZ public DraftKings line index accessed 2026-09-14 with price-unavailable caveat",
+    "TalkSPORT DEN@KC prop analysis published 2026-09-14, treated as analyst opinion only"
+  ]
+}
