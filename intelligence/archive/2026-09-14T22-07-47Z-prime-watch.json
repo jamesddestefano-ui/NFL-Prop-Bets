@@ -1,0 +1,132 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 18:07:47",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live, but completedAt is unchanged from the compact-history latest and the most recently processed pass."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Denver still expects all 53 rostered players to be available; Marvin Mims Jr. has no game designation.",
+      "Denver elevated LS Mitchell Fraboni and FB Adam Prentice and released WR Lil'Jordan Humphrey on Monday; the transaction does not materially change a tracked player-prop role thesis.",
+      "Kansas City injury context remains unchanged from the prior watch: LT Josh Simmons and DB Chamarri Conner are OUT; no newly verified availability change was found for Patrick Mahomes, Rashee Rice, Xavier Worthy, Trey Smith or Chris Jones.",
+      "Official game-day inactive lists were not yet posted at this checkpoint, so no inactive-driven repricing is assumed."
+    ],
+    "marketFreshness": {
+      "summary": "Current public surfaces remain internally time-staggered. CLEATZ's top-level board currently shows DraftKings reference lines including Rice receiving 56.5, Dobbins rushing 51.5, Walker rushing 61.5, Nix rushing 16.5 and Engram receiving 22.5, but does not expose exact juice on that top-level view. The detailed receiving page is stamped 15:55 ET and the detailed rushing page 16:55 ET; those older exact-price snapshots are preserved only as line-history context and are not promoted to current executable truth when the newer top-level board differs.",
+      "staleSnapshotExamples": [
+        "Rashee Rice receiving yards was O52.5 -114 / U52.5 -110 at DraftKings on the 15:55 ET detailed page, but the newer top-level CLEATZ board now shows DraftKings 56.5. PRIME therefore does not chase or pretend the 52.5 price is still available.",
+        "Rashee Rice receptions was 5.5 with +140 at Circa on the 15:55 ET detailed page, but no newer direct Circa verification was obtained in this pass. The outlier plus-money quote is not treated as a current executable bet.",
+        "J.K. Dobbins rushing was 49.5 -104 at Novig on the 16:55 ET detailed page while the newer top-level board shows DraftKings 51.5. No regulated named-book exact price at the favorable 49.5 threshold was freshly verified.",
+        "Bo Nix passing/completions/attempts detailed prices are from a 13:55 ET page and are too stale for a formal pregame recommendation without a fresher named-book check."
+      ]
+    },
+    "evaluations": [
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEPTIONS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "playToLine": 5.5,
+        "maxAcceptableOdds": -110,
+        "bestObservedSnapshot": "O5.5 +140 Circa on CLEATZ detailed page stamped 15:55 ET",
+        "projectionAndRoleContext": "Rice posted a 26.2% target share and 31.9% first-read share in 2025 per FantasyPros; he had 53 catches on 78 targets in eight games and caught six of nine targets against Denver. Football Nation independently prefers O5.5 receptions. Rice practiced fully and has no game designation.",
+        "reason": "The role thesis remains sound, but the attractive plus-money quote is not fresh enough to be treated as current executable truth. Keep the stored trigger; do not alert until a current named-book price is verified at the threshold."
+      },
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "currentLineContext": "Newer CLEATZ top-level board shows DraftKings 56.5 without juice; the 15:55 ET detailed page had DraftKings 52.5 -114.",
+        "projectionContext": "numberFire 65.18; Stats Insider 60; other public projection context around the low-60s. Rice averaged 71.4 receiving yards in eight 2025 games, but Denver remains a difficult matchup and held him to 38 yards on nine targets last season.",
+        "reason": "The earlier 52.5 number would have been materially more attractive, but it is not current on the newer board. At 56.5 with unknown price, projection-over-line alone does not clear PRIME's exact-price requirement. Do not chase the moved number."
+      },
+      {
+        "player": "J.K. Dobbins",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "currentLineContext": "Newer top-level board shows DraftKings 51.5 without juice; 16:55 ET detailed page showed 49.5 -104 at Novig.",
+        "projectionContext": "Public projections remain dispersed: RosterAudit 50.8 rushing yards, Stats Insider 53, Yahoo/Hayden Winks 58.5 total yards, and numberFire 66.35 rushing yards. FantasyPros expects Dobbins to resume the early-down hammer role; Denver's official reporting says he is ready to return.",
+        "reason": "Role support is real but projection dispersion, first-game-back uncertainty and lack of a fresh exact regulated-book price at the best threshold prevent promotion."
+      },
+      {
+        "player": "RJ Harvey",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "currentLineContext": "16.5 on the current top-level board; 15:55 ET detailed page showed O16.5 +104 at Novig and U16.5 -105 at BetMGM.",
+        "projectionContext": "Stats Insider projects 19 receiving yards. FantasyPros expects Harvey to be Denver's primary passing-down back and notes strong 2025 target-per-route and yards-per-route efficiency; Kansas City allowed the 13th-most yards per target to running backs last season.",
+        "reason": "Interesting role-based candidate, but the only attractive Over price in the detailed snapshot is not a freshly verified regulated-book price. Remain WATCH pending the next pregame market/inactive refresh."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "storedPlayToLine": 14.5,
+        "storedMaxAcceptableOdds": -110,
+        "currentLineContext": "Current top-level board shows DraftKings 16.5; the 16:55 ET detailed page showed 17.5 with O17.5 -110 Circa.",
+        "projectionContext": "numberFire currently projects only 5.87 rushing yards while other public models are materially higher.",
+        "reason": "Market remains beyond the stored play-to and projection disagreement is substantial. Do not chase."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "PASS_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "currentLineContext": "Top-level board shows DraftKings 228.5; the detailed passing board is stale at 13:55 ET and shows a 227.5 main line.",
+        "projectionContext": "numberFire 228.72; Stats Insider 235; other public models vary around the high-220s to high-230s.",
+        "reason": "The current threshold has moved above PRIME's prior 225.5 play-to and no fresh exact price creates a 4-5 point fair-probability edge."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "STILL_PLAYABLE",
+        "currentLineContext": "Top-level board still shows DraftKings 22.5 but without price; 15:55 ET detailed page showed O22.5 -106 at Novig and U22.5 +100 at BetMGM.",
+        "projectionContext": "Public projections remain around the mid-20s.",
+        "playToLine": 22.5,
+        "maxAcceptableOdds": -110,
+        "reason": "No exact fresh DraftKings price and only a modest projection cushion. No promotion."
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No genuinely actionable prop with a fresh current named-book line and price clears PRIME's fair-probability threshold. Several attractive older snapshots, especially Rice receptions +140 and Rice receiving 52.5 -114, are not promoted because newer market context differs or direct current verification is lacking. Preserve price discipline and wait for the official inactive window plus a fresher sportsbook refresh."
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "reason": "No new placed bet, no verified current BET state and no material durable decision-state change. The immutable archive preserves the research and the rejected stale-price opportunities without manufacturing sportsbook truth."
+  },
+  "sources": [
+    "Denver Broncos official transaction report published 2026-09-14 14:58 ET",
+    "Denver Broncos official injury/team pages accessed 2026-09-14 around 18:07 ET",
+    "Kansas City Chiefs official game center and injury context accessed 2026-09-14 around 18:07 ET",
+    "CLEATZ NFL top-level prop board accessed 2026-09-14 around 18:07 ET",
+    "CLEATZ receiving-props detailed board stamped 2026-09-14 15:55 ET",
+    "CLEATZ rushing-props detailed board stamped 2026-09-14 16:55 ET",
+    "CLEATZ passing-props detailed board stamped 2026-09-14 13:55 ET",
+    "FantasyPros Week 1 Primer and player outlooks accessed 2026-09-14",
+    "FanDuel Research/numberFire projections for Rashee Rice and J.K. Dobbins accessed 2026-09-14",
+    "Stats Insider DEN@KC projections accessed 2026-09-14",
+    "Football Nation DEN@KC prop analysis accessed 2026-09-14",
+    "Yahoo Sports Hayden Winks Week 1 J.K. Dobbins projection published 2026-09-13"
+  ]
+}
