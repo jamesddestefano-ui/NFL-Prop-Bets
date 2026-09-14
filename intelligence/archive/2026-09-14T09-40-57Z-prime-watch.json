@@ -1,0 +1,103 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 05:40:57",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live, but completedAt is identical to lastProcessedGrokCompletedAt, so it was not treated as new intelligence."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Denver's official final injury report still says all 53 Broncos are expected to be available; Marvin Mims Jr. has no game designation after full participation.",
+      "Kansas City's final status remains materially unchanged from the prior watch: LT Josh Simmons and DB Chamarri Conner are out; Chris Jones has no game designation after the calf issue was treated as precautionary; Patrick Mahomes, Rashee Rice, Xavier Worthy and Trey Smith have no new adverse status.",
+      "No new Grok intelligence was processed because completedAt remains 2026-09-12T17:05:00Z."
+    ],
+    "weather": {
+      "classification": "confirmed_fact",
+      "materialChange": false,
+      "summary": "NWS Kansas City hourly forecast for Monday 8 PM is clear, about 85 F, 1% precipitation, south wind around 12 mph with gusts around 23 mph. This confirms low precipitation risk at kickoff and does not justify a prop reprice."
+    },
+    "marketAndProjectionChecks": [
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "storedPlayToLine": 14.5,
+        "storedMaxAcceptableOdds": -110,
+        "publicContext": "Action's public player page continues to show 15.5 around -114 in its popular market; a BetMGM Week 1 page lists 14.5 around -115, but neither is treated as a freshly verified executable price at 05:40 ET.",
+        "projectionContext": "FantasyPros Week 1 public projections are around 15-18 rushing yards depending the current projection snapshot, while other public models previously sat materially lower. The projection disagreement remains too large for a formal 4-5 percentage-point edge.",
+        "reason": "No price meeting both the 14.5-or-better threshold and -110-or-better ceiling was freshly verified. Do not chase 15.5 and do not relax the juice ceiling solely because a stale/public 14.5 appears."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "storedPlayToLine": 16.5,
+        "storedMaxAcceptableOdds": -110,
+        "publicContext": "BetMGM's Week 1 page lists 17.5 receiving yards; Action's public page previously showed 17.5 with expensive Over juice. No fresh verified retreat to 16.5 or better at acceptable juice was found.",
+        "projectionContext": "FantasyPros currently projects roughly 18-20 receiving yards, only modestly above 17.5.",
+        "reason": "A modest projection edge at a worse threshold and price does not clear PRIME's minimum fair-probability requirement."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "BetMGM's Week 1 page lists 61.5 rushing yards. Public projection context remains mixed; FantasyPros is roughly 66-67 yards while prior public models were materially more dispersed.",
+        "reason": "The line is directionally interesting but no fresh executable price plus sufficiently convergent probability model was verified. Do not recommend from a point projection alone."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RECEPTIONS",
+        "side": "UNDER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "The prior Action public market showed Under 3.5 with heavy juice and a separate harder 2.5 market elsewhere.",
+        "reason": "Projection support exists below 3.5, but heavy juice and uncertainty around Walker's first regular-season passing-down role with Kansas City prevent a bet."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "storedPlayToLine": 22.5,
+        "storedMaxAcceptableOdds": -105,
+        "publicContext": "Public pick'em/market boards still center around 22.5 receiving yards, while FantasyPros projects about 22.8 and other public projections are near 22-24.",
+        "reason": "The projection is essentially on the market line and the previously visible sportsbook juice was worse than PRIME's ceiling. No price-adjusted edge."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "decision": "PASS",
+        "reason": "No new independent probability evidence overturns the pass already recorded in the pass ledger."
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No material change since the 04:29 ET watch and no newly verified prop clears PRIME's price-adjusted threshold. Official health status is stable and authoritative kickoff weather remains low-impact. Nix rushing is still price/projection constrained, Walker receiving remains PASS_AFTER_MOVE, Walker rushing/receptions remain WATCH, and Engram remains a pass at the current projection/price relationship."
+  },
+  "sources": [
+    "Denver Broncos official Week 1 final injury report, published 2026-09-12 and accessed 2026-09-14",
+    "Kansas City Chiefs official Week 1 injury report and final-status reporting, accessed 2026-09-14",
+    "National Weather Service Kansas City hourly forecast for 2026-09-14, accessed 2026-09-14",
+    "FantasyPros Bo Nix Week 1 projections, accessed 2026-09-14",
+    "FantasyPros Kenneth Walker III Week 1 projections, accessed 2026-09-14",
+    "FantasyPros Evan Engram Week 1 projections, accessed 2026-09-14",
+    "Action Network public Bo Nix and Kenneth Walker player-prop pages, checked 2026-09-14 with stale/executable caveat",
+    "BetMGM Week 1 Kenneth Walker and Broncos-Chiefs prop pages, checked 2026-09-14 with publication-time caveat"
+  ]
+}
