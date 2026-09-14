@@ -1,0 +1,157 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 14:24:57",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "historyLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live, but completedAt is unchanged from the compact history and the most recently processed pass."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Denver's official final injury report still expects all 53 players available; Marvin Mims Jr. has no game designation after full participation.",
+      "Kansas City's official final report still has LT Josh Simmons and DB Chamarri Conner OUT. Rashee Rice, Xavier Worthy, Patrick Mahomes, Trey Smith and Chris Jones have no game designation.",
+      "No new official injury or inactive development has emerged that changes a current PRIME player-prop thesis."
+    ],
+    "marketAndProjectionChecks": [
+      {
+        "player": "Bo Nix",
+        "propType": "PASS_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "STILL_PLAYABLE",
+        "publicContext": "Current public context remains around O225.5 -110 to O227.5 -113; the earlier ESPN DraftKings snapshot was O229.5 -111 and SportsBettingDime listed 223.5 without an executable price.",
+        "projectionContext": "Covers projects 240.13 with a 57% Over probability at 224.5, while numberFire/FanDuel and other public models sit much closer to the market around the high 220s.",
+        "fairProbabilityEstimate": "Approximately 55-56% at 225.5 after discounting correlated/duplicative bullish models and respecting projection disagreement.",
+        "marketImpliedProbabilityAt225_5Minus110": 52.38,
+        "estimatedEdgePctRange": "~2.5-3.5 percentage points",
+        "edgeBucket": "2-4%",
+        "playToLine": 225.5,
+        "maxAcceptableOdds": -110,
+        "signalTags": ["PACE", "MATCHUP", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+        "reason": "WATCH only. The exact 225.5 -110 pair still does not robustly clear PRIME's preferred 4-5 point edge threshold. Do not chase 227.5-229.5."
+      },
+      {
+        "player": "Evan Engram",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "STILL_PLAYABLE",
+        "publicContext": "Fresh multi-book Covers grid shows Fanatics O20.5 -125, FanDuel O22.5 -113, bet365 O22.5 -115 and DraftKings O23.5 -110. Action Network also published O22.5 -113 at FanDuel.",
+        "projectionContext": "Covers projects 25.66 yards and 4.7 targets. Engram averaged 28.8 receiving yards in 16 regular-season games for Denver in 2025, but his role was volatile and he exceeded 22.5 yards in roughly 9 of 16 games. He had 21 yards at Kansas City in the late-2025 meeting and 33 in the home meeting.",
+        "fairProbabilityEstimate": "Approximately 55-56% at 22.5 after blending 2025 hit rate, current role uncertainty and the modest projection-over-line gap.",
+        "marketImpliedProbabilityAt22_5Minus113": 53.05,
+        "estimatedEdgePctRange": "~2-3 percentage points",
+        "edgeBucket": "2-4%",
+        "playToLine": 22.5,
+        "maxAcceptableOdds": -110,
+        "signalTags": ["TARGET_SHARE", "MATCHUP", "PACE", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+        "reason": "Fresh corroboration improves confidence that the market is real, but the price-adjusted edge remains below PRIME's preferred threshold. WATCH only; no alert. At -113 or worse there is not enough margin for the role volatility."
+      },
+      {
+        "player": "J.K. Dobbins",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Covers currently shows BetMGM O3.5 -105, FanDuel O3.5 -113, bet365 O3.5 -115 and DraftKings O4.5 -109.",
+        "projectionContext": "Covers projects 6.66 receiving yards, but FantasyPros notes Dobbins averaged only 1.4 targets and 3.7 receiving yards per game during his 2025 healthy stretch and never saw more than two targets in a game.",
+        "signalTags": ["ROLE_CHANGE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_PRICE"],
+        "reason": "Projection-over-line alone is insufficient. The historical receiving role is too thin and the projection disagreement is too material to assign a robust 4-5 point probability edge. PASS."
+      },
+      {
+        "player": "J.K. Dobbins",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Covers currently shows a best threshold around bet365 O47.5 -115, with BetMGM 48.5 -110, FanDuel 49.5 -113 and DraftKings 51.5 -112.",
+        "projectionContext": "Covers projects 52.45 yards on 12.0 carries, while FantasyPros views Dobbins as the early-down hammer but Denver retains RJ Harvey and Jonah Coleman as workload competitors.",
+        "reason": "The lower 47.5 threshold is more attractive than earlier public 48.5-51.5 context, but the available probability evidence remains too dependent on one bullish model and committee assumptions. WATCH only, not a BET."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "steamState": "PASS_AFTER_MOVE",
+        "storedPlayToLine": 14.5,
+        "storedMaxAcceptableOdds": -110,
+        "publicContext": "Current public thresholds remain around 15.5-16.5, above the stored maximum playable line.",
+        "reason": "No re-entry. Do not transfer the earlier 14.5 thesis to a worse number."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "ANYTIME_TD",
+        "side": "YES",
+        "decision": "WATCH",
+        "steamState": "STILL_PLAYABLE",
+        "publicContext": "Action Network lists +550 and says it would play to +475; a separate public market aggregate also shows Nix around +550.",
+        "projectionContext": "Action cites four rushing-TD games in each of Nix's first two seasons, but an independent drive-level simulation currently gives only a 10% anytime-TD probability, creating major model disagreement.",
+        "marketImpliedProbabilityAtPlus550": 15.38,
+        "signalTags": ["QB_DESIGNED_RUN", "RED_ZONE", "PROJECTION_DISAGREEMENT", "MARKET_PRICE"],
+        "reason": "Interesting plus-money price but not a PRIME bet because independent probability evidence conflicts sharply. WATCH only."
+      },
+      {
+        "player": "Kenneth Walker III",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "publicContext": "Current public conventional-book context remains around 60.5-62.5 depending source/book.",
+        "reason": "Still a WATCH, but no exact current price/probability combination clears PRIME's threshold."
+      },
+      {
+        "player": "Patrick Mahomes",
+        "propType": "PASS_YARDS",
+        "side": "UNDER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "reason": "Josh Simmons being OUT supports the pressure thesis, but market/model dispersion remains too wide for a formal bet."
+      },
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEPTIONS",
+        "side": "OVER",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "reason": "Role remains attractive, but no fresh exact live sportsbook pair plus independent fair-probability estimate clears the PRIME threshold."
+      },
+      {
+        "player": "Rashee Rice",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "decision": "PASS",
+        "reason": "Current market/projection disagreement remains too large. Projection-over-line alone is insufficient."
+      },
+      {
+        "player": "Bo Nix",
+        "propType": "OTHER",
+        "market": "Interceptions Thrown",
+        "side": "UNDER",
+        "decision": "PASS",
+        "reason": "No stronger independent probability evidence emerged to reverse the existing pass."
+      }
+    ],
+    "overallDecision": "NO_ALERT",
+    "summary": "No material change requiring user attention and no genuinely actionable player prop clears PRIME's exact-price, independent-probability and verification requirements. Fresh market corroboration makes Evan Engram receiving yards and J.K. Dobbins receiving yards worth rechecking, but Engram remains only a WATCH because the estimated edge is roughly 2-3 points at 22.5 -113, while Dobbins receiving is a PASS because his historically tiny target role conflicts with the bullish single-model projection. Bo Nix anytime TD at +550 is also WATCH only due severe independent model disagreement. Existing Nix passing, Walker rushing, Dobbins rushing, Mahomes passing Under and Rice reception watches remain below the formal BET threshold."
+  },
+  "sources": [
+    "Denver Broncos official Week 1 final injury report, accessed 2026-09-14",
+    "Kansas City Chiefs official Week 1 final injury report, accessed 2026-09-14",
+    "Covers Denver Broncos player-prop board, accessed 2026-09-14 around 14:24 ET",
+    "Action Network DEN@KC player-prop article, current 2026-09-14 crawl",
+    "Action Network DEN@KC picks article, updated 2026-09-14 13:14 ET",
+    "SportsBettingDime MNF prop board, published 2026-09-14 10:22 ET",
+    "FantasyPros J.K. Dobbins Week 1 outlook, published 2026-09-08",
+    "StatMuse and Denver Broncos official Evan Engram 2025 game logs",
+    "MatchWiz Bo Nix game simulation, current Week 1 reference"
+  ]
+}
