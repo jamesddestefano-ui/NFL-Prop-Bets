@@ -1,0 +1,88 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 03:21:07",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains status=live and completedAt is unchanged from prop_watch_state and the compact grok_pulse_history index."
+  },
+  "week2OpeningScan": {
+    "materialChangeSincePriorWatch": true,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "marketAvailabilityChange": "DET@BUF Thursday player-prop thresholds are now more broadly populated, but the current public board still does not expose complete executable sportsbook juice for the core yardage/reception markets. The prior Fanatics anytime-TD outliers have materially collapsed and are no longer actionable.",
+    "resolvedPriorOutliers": [
+      {
+        "player": "James Cook",
+        "game": "DET@BUF",
+        "propType": "ANYTIME_TD",
+        "priorWatch": "CLEATZ had displayed Fanatics +110 while ATS.io independently showed Fanatics -140; PRIME refused to treat +110 as executable truth.",
+        "currentMarket": "CLEATZ's current board now shows James Cook around DraftKings -155 / Caesars -135, while ATS.io continues to show Fanatics around -140.",
+        "primeDecision": "PASS. The favorable +110 outlier is gone; do not chase a stale screenshot or stale public quote."
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "game": "DET@BUF",
+        "propType": "ANYTIME_TD",
+        "priorWatch": "CLEATZ/Fanatics +155 WATCH only.",
+        "currentMarket": "Current public references are roughly +100 to +122 depending on book/source, materially worse than the earlier outlier.",
+        "primeDecision": "PASS at current prices. Week 1 red-zone success alone does not justify paying the compressed number."
+      },
+      {
+        "player": "Sam LaPorta",
+        "game": "DET@BUF",
+        "propType": "ANYTIME_TD",
+        "priorWatch": "CLEATZ/Fanatics +340 WATCH only.",
+        "currentMarket": "CLEATZ now shows the best public Fanatics quote around +250.",
+        "primeDecision": "PASS. High-variance TD market and the favorable outlier has materially disappeared."
+      },
+      {
+        "player": "Jameson Williams",
+        "game": "DET@BUF",
+        "propType": "ANYTIME_TD",
+        "priorWatch": "CLEATZ/Fanatics +265 WATCH only.",
+        "currentMarket": "CLEATZ now shows the best public Fanatics quote around +220.",
+        "primeDecision": "PASS. Do not chase after the price contraction."
+      }
+    ],
+    "currentThresholdBoard": [
+      "Jared Goff passing yards: DraftKings 259.5; Josh Allen passing yards: DraftKings 249.5.",
+      "Jahmyr Gibbs rushing yards: DraftKings 88.5; Josh Allen rushing yards: DraftKings 32.5; James Cook rushing yards: 73.5-75.5 on pick'em boards, with no same-source DraftKings rush-yard price surfaced.",
+      "Amon-Ra St. Brown receiving yards: DraftKings 79.5; Dalton Kincaid 49.5; DJ Moore 60.5; Jahmyr Gibbs 28.5; Jameson Williams 50.5; Khalil Shakir 45.5; Sam LaPorta 45.5.",
+      "Receptions: Amon-Ra 7.5; Kincaid 4.5; DJ Moore 4.5; Gibbs 4.5; Jameson Williams 3.5; Shakir 4.5; LaPorta 4.5 on the current CLEATZ line-shopping board. Exact executable juice is not exposed there, so these remain research thresholds rather than PRIME bets."
+    ],
+    "roleAndInjuryContext": [
+      "Jahmyr Gibbs opened Week 1 with 29 carries for 156 yards and two rushing touchdowns plus five catches for 30 yards; Sione Vaki logged only two carries, supporting a true workhorse role rather than a committee assumption.",
+      "Detroit RB Isiah Pacheco has been on Reserve/Injured since September 1, so his absence is already known and should not be treated as a new Week 2 catalyst.",
+      "Detroit LG Christian Mahogany emerged from Week 1 with knee/hip injury uncertainty while starting C Cade Mays is already on IR. Interior offensive-line uncertainty is a reason not to chase a Gibbs rushing Over simply from Week 1 volume.",
+      "Buffalo's first short-week injury report was an estimation rather than a full practice. No confirmed offensive role change has emerged that creates a price-verified player-prop edge at this checkpoint."
+    ],
+    "projectionCrossCheck": [
+      "A current FIC Week 2 projection has Gibbs below the currently displayed 88.5 rushing-yard threshold, while James Cook is projected above one public rushing-yard threshold. PRIME does not convert either point-projection disagreement into a wager without a verified sportsbook price, probability edge and uncertainty adjustment."
+    ],
+    "steamProtection": "The prior favorable anytime-TD outliers are stale. Do not use the earlier +110/+155/+340/+265 quotes as current truth. Core yardage/reception lines remain WATCH-only until exact sportsbook odds are publicly verifiable or supplied from a live sportsbook screen.",
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "The meaningful change was negative price movement on previously disputed TD outliers, not a new actionable wager. Core Week 2 prop thresholds lack complete verified juice in the current public line-shopping view, so PRIME preserves the scan in the immutable archive without contaminating the primary ledgers with incomplete market states."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json and prior immutable archive intelligence/archive/2026-09-15T06-28-15Z-prime-watch.json",
+    "CLEATZ current NFL prop line-shopping board, accessed 2026-09-15 about 03:21 ET: https://cleatz.com/nfl-props-test/",
+    "CLEATZ anytime-touchdown board, feed snapshot about 2026-09-15 02:55 ET",
+    "ATS.io DET@BUF player-prop page, accessed 2026-09-15",
+    "FantasyPros Week 1 player usage/stat pages for Jahmyr Gibbs, Sione Vaki and Amon-Ra St. Brown, accessed 2026-09-15",
+    "Detroit Lions official transaction reporting for Isiah Pacheco Reserve/Injured, September 1, 2026",
+    "Current Week 2 injury reporting on Christian Mahogany and Buffalo short-week estimated injury context",
+    "FIC Week 2 rushing projection board, accessed 2026-09-15"
+  ]
+}
