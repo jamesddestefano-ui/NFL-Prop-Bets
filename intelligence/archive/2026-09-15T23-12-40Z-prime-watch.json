@@ -1,0 +1,98 @@
+{
+  "status": "live_watch",
+  "observedAt": "2026-09-15T23:12:40Z",
+  "observedAtEt": "2026-09-15 19:12:40 ET",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "newPassProcessed": false,
+    "reason": "completedAt is unchanged from the latest durable history entry"
+  },
+  "freshResearch": {
+    "officialContext": [
+      {
+        "classification": "confirmed_fact",
+        "signal": "Detroit visits Buffalo on Thursday, September 17 at 8:15 PM ET in Week 2.",
+        "source": "https://www.nfl.com/news/lions-bills-week-2-prime-video-2026-nfl-schedule-release"
+      },
+      {
+        "classification": "confirmed_fact",
+        "signal": "Isiah Pacheco remains expected to miss roughly 12 weeks following back surgery, preserving Jahmyr Gibbs' elevated workload outlook.",
+        "sources": [
+          "https://www.espn.com/nfl/story/_/id/49943755/source-lions-pacheco-significant-back-surgery",
+          "https://www.reuters.com/sports/back-surgery-keep-lions-rb-isiah-pacheco-out-much-longer--flm-2026-09-14/"
+        ]
+      },
+      {
+        "classification": "confirmed_fact",
+        "signal": "Buffalo had no official Week 2 injury report posted on the NFL game center at this checkpoint; Ty Johnson's hamstring designation visible on market pages is carryover context from Week 1 and is not treated as a new official Week 2 status.",
+        "source": "https://www.nfl.com/games/lions-at-bills-2026-reg-2"
+      }
+    ],
+    "marketAndProjectionChecks": [
+      {
+        "player": "Jahmyr Gibbs",
+        "propType": "RUSH_YARDS",
+        "priorState": "WATCH at 88.5 -113 on DraftKings public tracker",
+        "currentDecision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "reason": "No sufficiently reliable newer regulated-book price was verified in this pass. Pacheco's absence and Detroit's willingness to sustain a heavy Gibbs workload are supportive, but the prior 88.5 threshold still carries substantial projection disagreement. Do not promote without a live price and a 4-5 percentage-point fair-probability edge."
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "propType": "RECEIVING_YARDS",
+        "sportsbookContext": "Action Network expert card shows O79.5 around -113 to -116",
+        "line": 79.5,
+        "oddsObserved": [-113, -116],
+        "projectionContext": {
+          "FantasyPros": 87.5,
+          "StatsInsider_prior": 85.0,
+          "FantasyInfoCentral_prior": 71.3
+        },
+        "currentDecision": "WATCH",
+        "reason": "Two projection paths are above market but one remains materially below. At roughly -113 the evidence does not justify assigning the robust 4-5 percentage-point fair-probability edge required for a formal BET. Analyst picks are supporting opinion, not sportsbook truth."
+      },
+      {
+        "player": "Josh Allen",
+        "propType": "PASS_YARDS",
+        "sportsbookContext": "Action Network expert card shows O248.5 -113",
+        "line": 248.5,
+        "odds": -113,
+        "projectionContext": {
+          "FantasyPros": 239.0,
+          "StatsInsider_prior": 249.0,
+          "BallKnowMe_prior": 266.3
+        },
+        "currentDecision": "WATCH",
+        "reason": "Market is one yard lower than the prior 249.5 watch, but independent projections remain too dispersed and FantasyPros is below the line. No formal wager from an analyst pick or game-total narrative alone."
+      },
+      {
+        "player": "Dalton Kincaid",
+        "propType": "RECEIVING_YARDS",
+        "priorMarket": "49.5 -110",
+        "projectionContext": {
+          "numberFireFanDuelResearch": 73.66,
+          "FantasyInfoCentral_prior": 43.0,
+          "StatsInsider_prior": 52.0
+        },
+        "currentDecision": "PASS",
+        "reason": "Projection dispersion remains too extreme to promote the Over, and no new live sportsbook price was verified. Week 1's 130-yard result is not treated as a reason to chase."
+      },
+      {
+        "player": "James Cook",
+        "propType": "RECEIVING_YARDS",
+        "priorMarket": "15.5 -115",
+        "currentDecision": "PASS",
+        "reason": "Ty Johnson's hamstring status is not newly confirmed for Week 2 at this checkpoint, and the prior projection advantage at 15.5 -115 was too small. Reopen only after official Week 2 practice/status news materially changes Cook's passing-down role and a current sportsbook price is verified."
+      }
+    ]
+  },
+  "primeDecision": {
+    "alert": false,
+    "formalBets": [],
+    "bestWatch": "Jahmyr Gibbs rushing yards",
+    "summary": "No material change requiring user attention since the 16:52 ET checkpoint. Pacheco's extended absence remains the main role signal. Gibbs rushing stays WATCH; Amon-Ra St. Brown 79.5 and Josh Allen 248.5 remain WATCH due to projection disagreement and insufficient verified price-adjusted edge. No steam chase and no new Grok pass."
+  }
+}
