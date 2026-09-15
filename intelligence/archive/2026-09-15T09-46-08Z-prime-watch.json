@@ -1,0 +1,49 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 05:46:08",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live and completedAt is unchanged from prop_watch_state and the compact history index."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "marketSnapshot": {
+      "Jared Goff PASS_YARDS": "DraftKings remains O259.5 -111 / U259.5 -113 on the current public line-shopping board, while several other books remain materially higher around the mid-to-upper 260s. PRIME status remains WATCH only. Re-evaluate only if 259.5 is still available at -115 or better after Detroit offensive-line clarification; do not chase roughly 264.5+.",
+      "Josh Allen PASS_YARDS": "DraftKings remains 249.5 -112 on both sides. PASS remains unchanged because current independent projection evidence does not establish the required 4-5 percentage-point fair-probability edge.",
+      "Jahmyr Gibbs RUSH_YARDS": "DraftKings remains O88.5 -113 / U88.5 -111. CBS Week 2 projection context is materially above the line, but projection alone is insufficient and Detroit offensive-line uncertainty remains unresolved. PASS remains unchanged.",
+      "James Cook RUSH_YARDS": "Current public books remain around 73.5-75.5. No new role or projection evidence creates a qualifying price-adjusted edge. PASS remains unchanged.",
+      "receivingMarkets": "Core DET@BUF receiving thresholds remain effectively unchanged from the 04:14 ET watch: Amon-Ra St. Brown 79.5 receiving yards and 7.5 receptions; Dalton Kincaid 49.5 and 4.5; Jahmyr Gibbs 28.5 and 4.5; Jameson Williams 50.5 and 3.5; Khalil Shakir 44.5-45.5 and 4.5; Sam LaPorta 45.5 and 4.5. No current market combines verified price, role support and independent probability support sufficient for a PRIME BET."
+    },
+    "injuryAndRoleContext": [
+      "Detroit's Monday short-week injury report was an estimation: LG Christian Mahogany (hip) DNP, RT Blake Miller (knee) DNP and C Juice Scruggs (knee) limited; starting C Cade Mays remains on IR.",
+      "Reliable Detroit reporting now says Blake Miller is optimistic about playing Thursday and Dan Campbell expects more clarity Tuesday, while Mahogany remains the greater concern. This is attributed reporting rather than an official availability upgrade and is not enough to promote Goff or Gibbs before practice clarification.",
+      "Buffalo's Monday estimated report still had Ty Johnson (hamstring), Terrel Bernard (calf) and T.J. Sanders (knee) limited. No new official Tuesday practice report was available at this checkpoint."
+    ],
+    "weatherContext": "A current Orchard Park/Highmark Stadium forecast for Thursday evening is around 71 F with roughly 5 mph northerly wind and a chance of showers. The current wind profile is low impact and does not materially change any PRIME prop classification.",
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No material market move, new verified injury state, or candidate-status change occurred since the prior watch. Preserve this research checkpoint in the immutable archive without manufacturing duplicate canonical decisions or line-history rows."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json and prior immutable archive intelligence/archive/2026-09-15T08-14-31Z-prime-watch.json",
+    "CLEATZ current DET@BUF NFL player-prop line-shopping board, accessed 2026-09-15 around 05:46 ET: https://cleatz.com/nfl-props-test/",
+    "Pride of Detroit, 2026-09-15, Blake Miller injury update and Detroit offensive-line context: https://www.prideofdetroit.com/detroit-lions-injuries/173131/detroit-lions-blake-miller-injury-update-optimsitic-bills",
+    "Detroit Lions current short-week estimated injury-report context for Christian Mahogany, Blake Miller and Juice Scruggs",
+    "Buffalo Bills current short-week estimated injury-report context for Ty Johnson, Terrel Bernard and T.J. Sanders",
+    "CBS Sports Week 2 running-back projection context, used as a model input only and not as a standalone betting trigger",
+    "Current Orchard Park/Highmark Stadium Thursday evening weather forecast, used only as game-environment context"
+  ]
+}
