@@ -1,7 +1,7 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-12T17-05-00Z.json",
-  "processedAtEt": "2026-09-15T15:32:34-04:00",
+  "processedAtEt": "2026-09-15T15:55:07-04:00",
   "scope": "NFL player props only",
-  "notes": "Tuesday 15:32 ET Week 2 refresh. No new Grok pass: grok_pulse_latest remains status=live with completedAt 2026-09-12T17:05:00Z. No actionable prop and no material user alert. Current multi-book lines and independent projections continue to disagree enough that no verified player prop clears PRIME's normal 4-5 percentage-point price-adjusted edge threshold. A newly surfaced Jared Goff pass-attempts O36.5 -102 reference is retained as a research WATCH only because a second analyst likes O35.5, but one projection/analyst thesis without an independently verified multi-book attempts market and defensible fair probability is insufficient for BET status. Week 2 injury context remains unresolved on Detroit's offensive line and Buffalo's estimated limited players. Immutable run archive: intelligence/archive/2026-09-15T19-32-34Z-prime-watch.json."
+  "notes": "Tuesday 15:55 ET Week 2 refresh. No new Grok pass: grok_pulse_latest remains status=live with completedAt 2026-09-12T17:05:00Z. No material change since the 15:32 ET watch and no actionable prop. Jared Goff passing attempts remains a research WATCH at the publicly surfaced 36.5/-102 Over because projection and analyst support still do not establish a defensible 4-5 percentage-point fair-probability edge. No verified current Tuesday official injury report materially changed Detroit's offensive-line or Buffalo role context. No canonical decision, line, bet, missed-bet, pass, parlay, or weekly-attribution ledger was changed. Immutable run archive: intelligence/archive/2026-09-15T19-55-07Z-prime-watch.json."
 }
