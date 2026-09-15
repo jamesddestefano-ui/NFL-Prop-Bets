@@ -1,0 +1,58 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 14:30:08",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live and completedAt matches the compact history index and the most recently processed completedAt."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "marketSnapshot": {
+      "Jared Goff PASS_YARDS": "Current CLEATZ line-shopping board broadly confirms the earlier upward repricing already observed at the 13:29 ET watch: FanDuel 270.5 -114/-114, Betparx 265.5 -113/-115, Betrivers 265.5 -114/-117, Hard Rock around 267.5, while DraftKings displays 266.5 with abnormal -137/-137 pricing. A same-day Data Skrive/BetDecider article still displays 259.5 -111 and is treated as stale/conflicting rather than current executable truth. The higher market does not create a qualifying Over or Under edge. Classification remains PASS/REDUCED_EDGE for research; no chase.",
+      "Josh Allen PASS_YARDS": "Current CLEATZ board remains approximately 248.5-253.5 across regulated books at normal juice outside some placeholder-like feeds. No independent 4-5 percentage-point fair-probability edge is established. PASS unchanged.",
+      "Josh Allen RUSH_YARDS": "Current board remains centered around 29.5-30.5. The lower 29.5 threshold is useful line-shopping context but there is still no corroborated fair-probability edge. WATCH/PASS unchanged.",
+      "Jahmyr Gibbs RUSH_YARDS": "Current board is broadly 88.5-90.5. Week 1 usage was elite (29 carries, 156 yards), but the threshold is already elevated and a newly published numberFire/FanDuel projection of 24.95 rushing yards is an extreme outlier versus both market and role, so it is treated as data-quality/projection disagreement rather than a betting signal. PASS unchanged.",
+      "James Cook RUSH_YARDS": "Current board ranges roughly 73.5-78.5. No new role/injury catalyst or independent probability edge supports an Over or Under. PASS unchanged.",
+      "Amon-Ra St. Brown RECEPTIONS": "Current board remains 7.5, with the best visible regulated-book Over approximately -102 to -110 and FanDuel around -106. Week 1 volume was 14 targets and 10 catches, but no independent Week 2 reception distribution clearing PRIME's normal edge threshold is verified. WATCH only.",
+      "Amon-Ra St. Brown RECEIVING_YARDS": "Current regulated-book line shopping remains centered near 79.5 at roughly -113/-114, with DraftKings worse around 81.5 on the CLEATZ feed. No qualifying Over edge. PASS/WATCH unchanged.",
+      "Dalton Kincaid RECEPTIONS": "Current standard market is 3.5 with heavy Over juice roughly -148 to -175 across regulated books. A same-day analyst page references an alternate O4.5 at plus money, but that alternate is not promoted because the standard market and exact executable alternate price cannot be reconciled from a primary sportsbook source. No bet.",
+      "Dalton Kincaid RECEIVING_YARDS": "Current board is around 50.5-51.5 at standard-to-moderate juice. Week 1 produced 5 catches on 6 targets for 130 yards, but one-game production plus analyst opinion is insufficient to establish a qualifying fair-probability edge at the elevated Week 2 threshold. WATCH/PASS."
+    },
+    "injuryAndRoleContext": [
+      "Buffalo's official September 15 Week 2 coverage confirms the Thursday matchup and short-week recovery emphasis but does not identify a new player-specific workload restriction.",
+      "No newer official Detroit or Buffalo player-specific Week 2 practice/injury table was verified during this pass beyond prior short-week context already archived.",
+      "Buffalo's official Week 1 recap remains the authoritative usage fact set: Josh Allen 20-of-29 for 334 passing yards; Dalton Kincaid 5 catches for 130 yards; DJ Moore 5 catches for 100 yards and a touchdown.",
+      "Detroit's official Week 1 recap remains consistent with Amon-Ra St. Brown 10 catches on 14 targets for 67 yards and two touchdowns and Jahmyr Gibbs 29 carries for 156 yards plus five receptions for 30 yards."
+    ],
+    "weatherContext": "No material weather downgrade at this checkpoint. Current public venue forecast sources range from roughly 10-34% evening rain chance with light wind near 5 mph; local WKBW's Thursday daily forecast lists AM showers rather than a strong evening wind/rain signal. Continue monitoring because Highmark is outdoors.",
+    "projectionDisagreement": [
+      "FanDuel Research/numberFire published a Jared Goff Week 2 projection of 341.09 passing yards, an extreme outlier versus the current 265.5-270.5 market and other public models; do not use it alone to justify an Over.",
+      "FanDuel Research/numberFire published a Jahmyr Gibbs Week 2 rushing projection of 24.95 yards, an extreme outlier versus the current 88.5-90.5 market and his Week 1 29-carry role; treat as likely model/data-quality disagreement until corroborated."
+    ],
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No new Grok pass, new verified injury state, or player prop with a defensible price-adjusted 4-5 percentage-point edge. The Goff upward repricing was already detected in the prior watch; current multi-book data corroborates that move but does not create a new user-action requirement. No canonical ledger row is added from placeholder-like or conflicting feeds."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json, and prior immutable archive intelligence/archive/2026-09-15T17-29-19Z-prime-watch.json",
+    "CLEATZ NFL player-prop line-shopping board accessed 2026-09-15 around 14:30 ET: https://cleatz.com/nfl-props-test/",
+    "BetDecider/Data Skrive Jared Goff Week 2 prop page published 2026-09-15: https://betdecider.com/picks/jared-goff-week-2-lions-vs-bills/",
+    "Buffalo Bills official Week 2 coverage published 2026-09-15: https://www.buffalobills.com/news/buffalo-bills-vs-detroit-lions-where-to-watch-stream-and-listen-week-2-tnf and https://www.buffalobills.com/news/top-storylines-for-bills-vs-lions-nfl-week-2",
+    "FanDuel Research/numberFire Jared Goff Week 2 projection page published 2026-09-15: https://www.fanduel.com/research/jared-goff-nfl-fantasy-week-2-vs-bills-2026",
+    "FanDuel Research/numberFire Jahmyr Gibbs Week 2 projection page published 2026-09-15: https://www.fanduel.com/research/jahmyr-gibbs-nfl-fantasy-week-2-vs-bills-2026",
+    "Wager on Weather Highmark Stadium forecast accessed 2026-09-15 and WKBW Buffalo daily forecast accessed 2026-09-15"
+  ]
+}
