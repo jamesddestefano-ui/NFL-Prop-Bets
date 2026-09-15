@@ -1,0 +1,64 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 20:24:13",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. status remains live and completedAt is unchanged from the most recently processed pass."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "gameStateAtCheck": {
+      "status": "in_progress",
+      "quarter": 1,
+      "clock": "8:20",
+      "score": "DEN 0, KC 0",
+      "possession": "KC",
+      "source": "NFL live game feed via ChatGPT sports data accessed during the 20:24 ET watch"
+    },
+    "materialChangeSincePriorWatch": false,
+    "confirmedFacts": [
+      "Official inactives remain unchanged from the pregame checkpoint. Kansas City is without Chamarri Conner, Josh Simmons, Diego Pounds, Bryson Eason, Jared Wiley and Jack Pyburn; Chris Jones is active.",
+      "Denver's inactives remain healthy scratches, including Tyler Badie; Jonah Coleman is active.",
+      "The game has started, so pregame player-prop prices are no longer treated as executable current markets."
+    ],
+    "liveUsageObservation": {
+      "classification": "confirmed_fact",
+      "sampleWarning": "Very small early-game sample; do not overreact or overwrite pregame role priors.",
+      "chiefsFirstDrive": "At the observed checkpoint Kansas City had 9 offensive plays: 7 Kenneth Walker rushes and 2 Patrick Mahomes pass attempts.",
+      "rasheeRice": "No reception or target was present in the live feed at the observed checkpoint. This is not yet a material role change and does not invalidate the pregame Rice receptions thesis.",
+      "boNix": "Denver opened 0-for-1 passing with an interception; one early drive is not enough to reprice season-long role assumptions."
+    },
+    "existingPreGameState": {
+      "rasheeRice": {
+        "formalPrimeDecision": "BET before kickoff on O5.5 receptions at FanDuel -102, playable through -110, per 19:28 ET archive.",
+        "userQuotedAlt": "User quoted Rice 5+ receptions at -149 before kickoff and then instructed to bet the over. No verified sportsbook ticket or settlement evidence is present in the repository, so bet_history is not modified during this run.",
+        "currentSteamState": "LOCKED_GAME_STARTED",
+        "action": "No new live wager recommended from the early drive sample."
+      },
+      "rjHarveyReceiving": "Pregame WATCH only; no fresh publicly verifiable live player-prop price was established during this run.",
+      "boNixPassingRushing": "Pregame PASS_AFTER_MOVE states are now locked; do not chase with unverified live numbers.",
+      "jkDobbinsRushing": "Pregame WATCH state is locked; no verified live price creates a new actionable edge."
+    },
+    "overallDecision": "NO_ALERT",
+    "summary": "No material injury, role or verified live-market change requires user attention. The game is underway. Kansas City's first observed drive was extremely run-heavy and Rice had no early target, but the sample is too small to treat as a role change. No fresh executable live player-prop price was verified, so PRIME does not manufacture a live bet or chase the locked pregame board."
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "reason": "This run adds an immutable watch archive and updates watch state. Shared CSV ledgers are not rewritten during a live-game checkpoint, and the user's pregame Rice 5+ instruction is not treated as a verified placed ticket without sportsbook confirmation."
+  },
+  "sources": [
+    "NFL live game feed via ChatGPT sports data, accessed 2026-09-14 around 20:24 ET",
+    "NBC Sports ProFootballTalk inactives report published 2026-09-14 18:59 ET",
+    "Arrowhead Pride official-inactives report published 2026-09-14 around 19:04 ET",
+    "PRIME immutable archive intelligence/archive/2026-09-14T23-28-47Z-prime-watch.json",
+    "Repository grok_pulse_latest.json and grok_pulse_history.jsonl"
+  ]
+}
