@@ -1,0 +1,63 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 15:32:34",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live and completedAt matches the compact history index and the most recently processed completedAt."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "marketSnapshot": {
+      "Jared Goff PASS_ATTEMPTS": "New research-only WATCH, not a formal PRIME bet. SportsGrid surfaced O36.5 -102 with a 38.2-attempt projection and a separate same-day analyst article favors O35.5 from expected game script. Week 1 volume was high, but one point projection and analyst opinion do not establish a qualifying fair-probability edge, and an independently verified multi-book pass-attempt market was not obtained. Do not alert or bet at 36.5 solely from these signals; re-evaluate after a fresh regulated-book check and Tuesday/Wednesday injury information.",
+      "Jared Goff PASS_YARDS": "Current multi-book context remains roughly 265.5-270.5. Public projections continue to disagree materially (Stats Insider near 265, a separate higher model near 293, and numberFire/FanDuel an extreme 341.09 outlier). No robust 4-5 percentage-point fair-probability edge is established. PASS/REDUCED_EDGE; no chase.",
+      "Josh Allen PASS_YARDS": "Current board remains approximately 248.5-253.5. Public projections are dispersed around and below that range, with no qualifying price-adjusted edge. PASS unchanged.",
+      "Josh Allen RUSH_YARDS": "Current market remains around 29.5-30.5. SportsGrid's cited projection is near 29.3 while Stats Insider is higher near 34; disagreement is insufficient for a formal edge. WATCH/PASS unchanged.",
+      "Jahmyr Gibbs RUSH_YARDS": "Current regulated-book context remains roughly 88.5-90.5. A prior analyst Over thesis was tied to a stale 79.5 threshold and cannot be transferred after the move. Week 1 workload was elite, but Detroit offensive-line uncertainty and the higher market require a fresh probability distribution. PASS_AFTER_MOVE / no chase.",
+      "Jahmyr Gibbs RECEPTIONS": "Current standard line is around 4.5 at plus money at several books, but an independent FIC projection is only 3.6 catches. The role is attractive, but the current evidence does not clear PRIME's probability-edge standard. WATCH only.",
+      "James Cook RUSH_YARDS": "Current board remains roughly 73.5-78.5. SportsGrid's cited projection is around 70.7 while Stats Insider is around 81, creating material model disagreement rather than a clean edge. PASS.",
+      "Amon-Ra St. Brown RECEPTIONS": "Current standard line remains 7.5, with visible Over pricing around -102 to -110. FIC projects about 6.0 receptions despite strong Week 1 usage, so PRIME does not treat the attractive price as sufficient evidence by itself. WATCH/PASS, no bet.",
+      "Amon-Ra St. Brown RECEIVING_YARDS": "Current regulated-book line remains centered near 79.5, with some books higher. Stats Insider is only modestly above near 85 while numberFire/FanDuel is an extreme high outlier. No robust price-adjusted edge. PASS/WATCH unchanged.",
+      "Dalton Kincaid RECEPTIONS": "Current standard market remains 3.5 with heavy Over juice, roughly -148 to -175 across visible regulated books. FIC projects about 3.3 catches. The heavily taxed 3.5 Over is a PASS; an analyst-mentioned O4.5 alternate remains unverified as an executable primary-book price and is not promoted.",
+      "Dalton Kincaid RECEIVING_YARDS": "Current market remains around 50.5-51.5 and Stats Insider is near 51. Week 1 production alone does not create a qualifying edge at the elevated Week 2 threshold. PASS/WATCH."
+    },
+    "injuryAndRoleContext": [
+      "Buffalo's first Week 2 injury report was an estimation because the team did not practice Monday. Terrel Bernard (calf), Ty Johnson (hamstring) and T.J. Sanders (knee) were listed limited; Cole Bishop, Bradley Chubb and Daequan Hardy/Hancock-type secondary entries were reported full in public recaps. No fresh Tuesday official practice-status table materially changing a player-prop role was verified by this checkpoint.",
+      "Detroit's Monday estimated report listed Christian Mahogany (hip) and Blake Miller (knee) as DNP and Juice Scruggs (knee) limited. Beat reporting says Miller is optimistic and Dan Campbell was cautiously optimistic, while Mahogany appears less likely; no official Tuesday final status was verified at this checkpoint.",
+      "Isiah Pacheco's back surgery is not a new Week 2 usage delta because he was already on injured reserve and unavailable in Week 1. Brian Branch and Kerby Joseph remaining on PUP are likewise known defensive absences rather than a new signal."
+    ],
+    "gameEnvironment": "Current Action market context has Buffalo around -4.5 with a game total near 53.5, up from an opener near Buffalo -3. That can support a higher Detroit pass-volume path, but the market has already repriced Goff passing yards and the game-script thesis alone is not enough to create a bet.",
+    "weatherContext": "No new verified severe-weather signal superseded the prior low-impact weather state during this pass. Weather remains a later-week checkpoint rather than a current prop catalyst.",
+    "projectionDisagreement": [
+      "FanDuel Research/numberFire's Goff passing-yards projection remains an extreme outlier versus both the current market and other public models; do not use it alone to justify an Over.",
+      "FanDuel Research/numberFire's Gibbs rushing projection remains an extreme low outlier versus the current market and Week 1 role; treat it as model/data-quality disagreement until corroborated.",
+      "Amon-Ra reception and Kincaid reception projections from FIC are below the current Over thresholds despite strong Week 1 usage, which argues against promoting those Overs from narrative alone."
+    ],
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No new Grok pass, no newly confirmed injury/role change requiring action, and no verified current player prop with a defensible price-adjusted 4-5 percentage-point edge. Goff passing attempts is preserved as a research WATCH in this immutable archive but is not promoted to a canonical decision without an independently verified current market and fair-probability support."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json, and prior immutable archive intelligence/archive/2026-09-15T18-30-08Z-prime-watch.json",
+    "Buffalo Bills official Week 2 coverage and coaching updates published 2026-09-15",
+    "Detroit Lions official Week 2 team coverage and current beat reporting accessed 2026-09-15",
+    "Action Network current Lions-Bills game market accessed 2026-09-15",
+    "CLEATZ current NFL player-prop line-shopping board accessed 2026-09-15",
+    "SportsGrid Week 2 Lions-Bills prop analysis updated 2026-09-15 around 13:24 ET",
+    "Stats Insider Week 2 Lions-Bills projections accessed 2026-09-15",
+    "FIC Week 2 receptions projections accessed 2026-09-15",
+    "Sports Gambling Podcast Week 2 Lions-Bills props published 2026-09-15"
+  ]
+}
