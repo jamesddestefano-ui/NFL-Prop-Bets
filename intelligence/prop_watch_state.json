@@ -1,7 +1,7 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-12T17-05-00Z.json",
-  "processedAtEt": "2026-09-14T22:35:53-04:00",
+  "processedAtEt": "2026-09-14T23:20:06-04:00",
   "scope": "NFL player props only",
-  "notes": "Monday 22:35 ET PRIME live-game checkpoint. No new Grok pass: grok_pulse_latest remains status=live with completedAt 2026-09-12T17:05:00Z. DEN@KC remains in progress in publicly indexed sources, but live score/stat pages are delayed and are not treated as exact current truth. Arrowhead Pride's readable update had Kansas City ahead 21-7 in the third quarter, while a later indexed score source showed Denver had cut it to 21-10. A stale CBS box-score snapshot from earlier in the third quarter showed Rashee Rice at 2 targets, 2 receptions, 19 yards and 1 touchdown; this is not treated as his current/final total. No fresh publicly verifiable named regulated-book live player-prop line/price was established, so there is no new BET, hedge, middle or chase. The user's Rice 5+ -149 instruction is still not added to bet_history without a verified sportsbook ticket. Decision/line/bet ledgers remain unchanged. Immutable run archive: intelligence/archive/2026-09-15T02-35-53Z-prime-watch.json."
+  "notes": "Monday 23:20 ET PRIME postgame checkpoint. No new Grok pass: grok_pulse_latest remains status=live with completedAt 2026-09-12T17:05:00Z. DEN@KC is final, Kansas City 31-10. Bleacher Report's final box score records Rashee Rice with 2 receptions for 19 yards and 1 touchdown, so PRIME's formal pregame O5.5 receptions recommendation at FanDuel -102 lost. The user's quoted 5+ -149 alternate threshold would also lose if placed, but the exact sportsbook ticket/stake was not independently verified, so bet_history remains unchanged. No completed-game player-prop price is treated as live or actionable. Immutable run archive: intelligence/archive/2026-09-15T03-20-06Z-prime-watch.json."
 }
