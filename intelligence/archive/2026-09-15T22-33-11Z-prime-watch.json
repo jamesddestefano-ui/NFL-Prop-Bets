@@ -38,12 +38,22 @@
       "game": "DET@BUF",
       "propType": "RUSH_YARDS",
       "side": "OVER",
-      "sportsbook": "DraftKings via CLEATZ public line-shopping board",
-      "line": 90.5,
-      "odds": null,
+      "bestMarket": {
+        "sportsbook": "Betparx via CLEATZ public line-shopping board",
+        "line": 88.5,
+        "overOdds": -115,
+        "underOdds": -113
+      },
+      "consensusLine": 90.5,
+      "otherCurrentBookContext": {
+        "FanDuel": "90.5 -114/-114",
+        "BetOnline": "90.5 -114/-114",
+        "Bovada": "90.5 -115/-115",
+        "BetRivers": "88.5 -117/-114",
+        "Fanatics": "89.5 -120/-120"
+      },
       "timestampEt": "2026-09-15 18:33 ET",
-      "source": "https://cleatz.com/nfl/lines/",
-      "bestMarketContext": "CLEATZ also displayed 90.5 at PrizePicks and Underdog; those platforms are market context only and are not merged into a fictional sportsbook price.",
+      "source": "https://cleatz.com/nfl-props-test/",
       "priorSnapshot": {
         "line": 88.5,
         "overOdds": -113,
@@ -51,14 +61,14 @@
         "sportsbook": "DraftKings via BallKnowMe public tracker",
         "timestampEt": "2026-09-15 16:52 ET"
       },
-      "lineMovement": "+2.0 rushing yards from the prior durable snapshot",
+      "lineMovement": "Consensus has drifted to 90.5, but a regulated-book 88.5 remains publicly visible at Betparx; the best threshold is therefore not materially worse than the prior 88.5 watch, though the Over price is two cents worse.",
       "projections": {
         "BallKnowMe_prior": 73.1,
         "StatsInsider_prior": 92.0,
         "CBS_current_range": "approximately 106-110 rushing yards"
       },
-      "marketImpliedProbability": null,
-      "noVigProbability": null,
+      "marketImpliedProbability": 53.49,
+      "noVigProbability": 49.79,
       "internalFairProbability": null,
       "fairOdds": null,
       "estimatedEdgePct": null,
@@ -66,12 +76,12 @@
       "playToLine": null,
       "maxAcceptableOdds": null,
       "confidence": "C",
-      "status": "PASS",
-      "steamState": "PASS_AFTER_MOVE",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
       "entryTiming": "EARLY_WEEK",
       "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "MARKET_MOVE", "OL_INJURY", "PROJECTION_DISAGREEMENT", "GAME_SCRIPT"],
       "correlationTags": ["SAME_THESIS"],
-      "decisionReason": "The prior 88.5 WATCH is stale after a two-yard upward move, while Detroit now has two offensive linemen estimated DNP for a second straight day. Independent projections remain unusually dispersed (roughly 73 to 110 yards). Current DraftKings juice was not exposed by the fresh public line-shopping source, so PRIME cannot establish a defensible 4-5 percentage-point price-adjusted Over edge. Do not chase 90.5; reconsider only after Wednesday offensive-line status and a verified live sportsbook price."
+      "decisionReason": "Pacheco's absence still supports Gibbs' workload, but the fresh market does not create a robust bet. The best publicly visible threshold remains 88.5 at Betparx -115, while the consensus is closer to 90.5. Detroit still has two offensive linemen estimated DNP for a second straight day, and independent projections remain unusually dispersed (roughly 73 to 110 yards). PRIME cannot assign a defensible 4-5 percentage-point fair-probability edge yet. WATCH only; do not chase 90.5, and reprice after Wednesday offensive-line status."
     },
     {
       "player": "Jared Goff",
@@ -103,9 +113,9 @@
     ]
   },
   "primeDecision": {
-    "alert": true,
+    "alert": false,
     "formalBets": [],
-    "bestWatch": "No current BET. Jared Goff pass attempts remains WATCH only pending a fresh live price; Jahmyr Gibbs rushing Over is now PASS_AFTER_MOVE at 90.5.",
-    "summary": "Material update: Gibbs' prior 88.5 rushing-yards WATCH has moved to roughly 90.5, while Detroit's Tuesday practice estimate still has Christian Mahogany and Blake Miller out. With major projection disagreement and no fresh executable DraftKings juice, PRIME will not chase. No new Grok pass was processed."
+    "bestWatch": "Jahmyr Gibbs rushing yards remains WATCH only at the best publicly visible 88.5 threshold; no formal BET.",
+    "summary": "No user-actionable material change from the prior checkpoint. Gibbs remains a WATCH rather than a BET: best public regulated-book threshold is still 88.5 (Betparx -115), consensus is around 90.5, Detroit offensive-line uncertainty persists, and projection disagreement remains too wide. No new Grok pass was processed."
   }
 }
