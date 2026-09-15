@@ -1,0 +1,52 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 13:29:19",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live and completedAt matches the most recently processed completedAt and the compact grok_pulse_history.jsonl index."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "marketDisagreementDetected": true,
+    "marketSnapshot": {
+      "Jared Goff PASS_YARDS": "Fresh CLEATZ crawl now displays a materially higher DraftKings threshold than the prior 259.5 watch, but its DraftKings price is an unusual -137/-137 and conflicts with a same-day Data Skrive/BetDecider page published September 15 that still lists Goff O259.5 -111. Because the sources conflict, PRIME does not overwrite the prior verified 259.5 watch state or promote/demote the candidate from this scrape alone. No independently quantified 4-5 percentage-point fair edge is established.",
+      "Josh Allen PASS_YARDS": "Fresh CLEATZ crawl shows a cross-book range around 248.5-253.5, with several feeds carrying abnormal -137 placeholder-like pricing. No independently corroborated fair-probability edge exists. PASS unchanged.",
+      "Josh Allen RUSH_YARDS": "Fresh CLEATZ crawl remains centered near 29.5-30.5 at regulated-book standard juice, still below the earlier DraftKings 32.5 threshold captured in prior watches. This is useful line-shopping information but still lacks an independently supported 4-5 percentage-point edge. WATCH/PASS unchanged.",
+      "Jahmyr Gibbs RUSH_YARDS": "Fresh CLEATZ crawl shows most current thresholds around 88.5-90.5 with some outlier placeholder-like feeds. Week 1's 29-carry, 156-yard workload and prior bell-cow role comments remain supportive, but the market is elevated and no new injury/OL catalyst creates a qualifying edge. PASS unchanged.",
+      "James Cook RUSH_YARDS": "Fresh CLEATZ crawl shows most thresholds around 74.5-78.5. The market is not offering a clear discount relative to the prior watch and no new role/injury catalyst creates a qualifying edge. PASS unchanged.",
+      "Amon-Ra St. Brown RECEPTIONS": "Fresh CLEATZ crawl remains centered at 7.5 with FanDuel O7.5 -106 and another public book around -102. This is effectively unchanged from the prior watch. FantasyPros still has no Week 2 stat projection posted on St. Brown's player page, so one-game Week 1 volume (14 targets, 10 catches) is not enough to establish a formal fair-probability edge. WATCH only.",
+      "Amon-Ra St. Brown RECEIVING_YARDS": "Fresh CLEATZ crawl still centers the best regulated-book Over around 79.5 at roughly -113/-114, while DraftKings is materially worse. No qualifying Over edge is established. PASS/WATCH unchanged.",
+      "Amon-Ra St. Brown ANYTIME_TD": "Current public board still ranges roughly +100 to +120 across regulated books and the displayed consensus model remains negative. TD variance plus price discipline keep this a PASS."
+    },
+    "injuryAndRoleContext": [
+      "Buffalo's official September 15 Week 2 coverage confirms the Thursday game and emphasizes the short turnaround; no player-specific new workload restriction was verified during this pass.",
+      "Buffalo's official coordinator coverage on September 15 emphasizes recovery and preparation on the short week but does not create a new Josh Allen, James Cook, or pass-catcher workload restriction.",
+      "Detroit's official site continues to highlight Jahmyr Gibbs' bell-cow role from preseason/offseason comments and Week 1 heavy usage, but no new Tuesday Week 2 player-specific injury report was verified in this pass.",
+      "FantasyPros player pages accessed September 15 show Week 2 rankings for Jared Goff and Amon-Ra St. Brown but still no Week 2 stat projections on those player pages, limiting probability modeling at current prop thresholds."
+    ],
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No verified executable market move or new injury/role state produced an actionable prop or a status change worth writing into canonical ledgers. Conflicting Goff market feeds are preserved in this immutable archive rather than treated as sportsbook truth."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json, and prior immutable archive intelligence/archive/2026-09-15T16-09-31Z-prime-watch.json",
+    "CLEATZ NFL player-prop line-shopping board accessed 2026-09-15 around 13:29 ET: https://cleatz.com/nfl-props-test/",
+    "BetDecider/Data Skrive Jared Goff Week 2 prop page published 2026-09-15 showing passing-yards prop 259.5, Over -111: https://betdecider.com/picks/jared-goff-week-2-lions-vs-bills/",
+    "Buffalo Bills official Week 2 coverage published 2026-09-15: https://www.buffalobills.com/news/top-storylines-for-bills-vs-lions-nfl-week-2",
+    "Buffalo Bills official coordinator recap published 2026-09-15: https://www.buffalobills.com/news/we-can-sleep-on-friday-bills-coaches-recap-week-1-win-and-what-it-ll-take-to-replicate-it",
+    "FantasyPros Jared Goff and Amon-Ra St. Brown player pages accessed 2026-09-15"
+  ]
+}
