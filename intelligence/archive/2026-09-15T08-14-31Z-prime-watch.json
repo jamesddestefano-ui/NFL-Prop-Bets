@@ -1,0 +1,108 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 04:14:31",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live and completedAt is unchanged from prop_watch_state and the compact history index."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": true,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "marketAvailabilityChange": "The current CLEATZ DET@BUF board now exposes sportsbook-specific prices for several core yardage and reception markets that were previously visible mostly as unpriced thresholds. No candidate currently clears PRIME's required price-adjusted edge after uncertainty adjustments.",
+    "candidates": [
+      {
+        "player": "Jared Goff",
+        "game": "DET@BUF",
+        "propType": "PASS_YARDS",
+        "market": "Over 259.5",
+        "sportsbook": "DraftKings via CLEATZ",
+        "odds": -111,
+        "currentBookContext": "DraftKings is 259.5 while FanDuel is 268.5 and several current public books are in the mid-to-upper 260s.",
+        "status": "WATCH",
+        "conditionalPlayTo": "Re-evaluate only if DraftKings remains 259.5 at -115 or better after Detroit offensive-line practice clarification and independent projection support still produces at least a 4-5 percentage-point fair-probability edge.",
+        "noChase": "If the market moves to roughly 264.5+ before the injury uncertainty clears, do not transfer the 259.5 thesis to the worse number.",
+        "reason": "The lower DraftKings threshold and recent/model central-tendency evidence are interesting, but Detroit's short-week estimated report has LG Christian Mahogany and RT Blake Miller DNP and C Juice Scruggs limited, with starting C Cade Mays already on IR. Current evidence is insufficient for a defensible formal fair-probability edge."
+      },
+      {
+        "player": "Josh Allen",
+        "game": "DET@BUF",
+        "propType": "PASS_YARDS",
+        "market": "Over 249.5",
+        "sportsbook": "DraftKings via CLEATZ",
+        "odds": -112,
+        "status": "PASS",
+        "reason": "High game total and Week 1 production are supportive context, but a current comparable projection source is below the line and PRIME does not elevate a matchup/game-total narrative without a robust probability edge."
+      },
+      {
+        "player": "Jahmyr Gibbs",
+        "game": "DET@BUF",
+        "propType": "RUSH_YARDS",
+        "market": "Over 88.5",
+        "sportsbook": "DraftKings via CLEATZ",
+        "odds": -113,
+        "status": "PASS",
+        "reason": "Week 1's 29-carry, 156-yard role strongly supports workhorse usage, but Detroit interior/offensive-line uncertainty and prior Week 2 projection disagreement make 88.5 at -113 too uncertain for a 4-5 point price-adjusted edge."
+      },
+      {
+        "player": "James Cook",
+        "game": "DET@BUF",
+        "propType": "RUSH_YARDS",
+        "market": "Over 73.5",
+        "sportsbook": "FanDuel via CLEATZ",
+        "odds": -114,
+        "status": "PASS",
+        "reason": "Week 1 produced 13 carries for 57 yards and no current independent distribution supports a sufficient edge at 73.5 -114. Ty Johnson's hamstring limitation is relevant but does not automatically transfer to Cook rushing volume."
+      }
+    ],
+    "receivingMarkets": {
+      "currentThresholdsAndPrices": [
+        "Amon-Ra St. Brown receiving yards: DraftKings 79.5 O-113/U-111; receptions 7.5 O-108/U-118.",
+        "Dalton Kincaid receiving yards: DraftKings 49.5 O-113/U-111; receptions 4.5 O+130/U-166.",
+        "Jahmyr Gibbs receiving yards: current threshold remains around 28.5 on the public line-shopping board; receptions 4.5 DK O+107/U-136.",
+        "Jameson Williams receiving yards: DraftKings 50.5 O-111/U-113; receptions 3.5 O-130/U+102.",
+        "Khalil Shakir receiving yards: DraftKings 45.5 O-113/U-111 with FanDuel 44.5; receptions 4.5 DK O+109/U-139.",
+        "Sam LaPorta receiving yards: current threshold around 45.5; receptions 4.5 DK O-101/U-126."
+      ],
+      "decision": "NO_BET. No receiving market currently combines verified price, role support, independent projection support and a defensible 4-5 point probability edge."
+    },
+    "touchdownMarkets": {
+      "currentPrices": [
+        "James Cook anytime TD roughly -135 to -155 across current public references.",
+        "Jahmyr Gibbs anytime TD roughly -270 to -370.",
+        "Amon-Ra St. Brown anytime TD roughly +100 to +110 on several current references.",
+        "Sam LaPorta anytime TD roughly +220 to +250.",
+        "Dalton Kincaid anytime TD roughly +165 to +190.",
+        "Josh Allen anytime TD roughly -105 to -125."
+      ],
+      "decision": "PASS. The favorable outliers from earlier scans remain gone; do not chase stale prices in a high-variance market."
+    },
+    "injuryAndRoleContext": [
+      "Detroit's Monday short-week report was an estimation: Christian Mahogany (hip) DNP, Blake Miller (knee) DNP and Juice Scruggs (knee) limited. Starting C Cade Mays is already on IR. Dan Campbell indicated Mahogany is the more concerning of the two DNP linemen while Miller has a chance to play.",
+      "Buffalo's Monday report was also estimated: Ty Johnson (hamstring), Terrel Bernard (calf) and T.J. Sanders (knee) limited; DJ Moore is not listed with an injury designation and has said he is fine after Week 1 treatment.",
+      "Isiah Pacheco's back surgery and extended absence are not treated as a new Week 2 catalyst because Detroit placed him on Reserve/Injured on September 1; the information reinforces, rather than newly creates, Gibbs' workload thesis."
+    ],
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No actionable player prop cleared PRIME's threshold. The immutable archive preserves the fresh market-price snapshot and the Goff WATCH thesis without promoting an uncertain opening-week price to a canonical BET decision."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json and prior immutable archive intelligence/archive/2026-09-15T07-21-07Z-prime-watch.json",
+    "CLEATZ current NFL player-prop line-shopping board for DET@BUF, accessed 2026-09-15 around 04:14 ET",
+    "Buffalo Bills official Week 1 recap and current short-week injury-report context",
+    "Detroit Lions current short-week injury-report context and reliable beat reporting on Christian Mahogany, Blake Miller and Juice Scruggs",
+    "Reuters/current reporting on Isiah Pacheco's back surgery and pre-existing Reserve/Injured placement",
+    "Current comparable Week 2 projection context and Week 1 usage/stat sources used only as supporting evidence, not as standalone betting triggers"
+  ]
+}
