@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 09:02:58",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains status=live with completedAt 2026-09-12T17:05:00Z, matching prop_watch_state and the compact grok_pulse_history.jsonl index."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "marketSnapshot": {
+      "Jared Goff PASS_YARDS": "CLEATZ still shows DraftKings O259.5 -111 / U259.5 -113. FanDuel and several other books remain materially higher, roughly 263.5-269.5. PRIME remains WATCH only at the lower DK threshold pending Detroit offensive-line clarification; do not chase the higher consensus range.",
+      "Josh Allen PASS_YARDS": "DraftKings remains 249.5 -112 on both sides; other public books cluster roughly 249.5-254.5. No independent fair-probability case clears PRIME's required edge threshold. PASS unchanged.",
+      "Josh Allen RUSH_YARDS": "Current board is split: DraftKings 32.5 -112, FanDuel 29.5 -114, several other books 30.5-32.5. The lower FanDuel threshold is notable line-shopping value relative to DK, but no verified independent probability model currently establishes a 4-5 percentage-point edge at -114. WATCH/PASS, not a bet.",
+      "Jahmyr Gibbs RUSH_YARDS": "DraftKings remains O88.5 -113 / U88.5 -111, with most books also at 88.5 and one public book at 89.5. Detroit's offensive-line status remains unresolved; projection support alone is insufficient. PASS unchanged.",
+      "James Cook RUSH_YARDS": "Current public range remains roughly 73.5-75.5. No new role or price evidence creates a qualifying edge. PASS unchanged.",
+      "receivingMarkets": "Core DET@BUF markets remain effectively unchanged: Amon-Ra St. Brown 79.5 receiving / 7.5 receptions, Khalil Shakir roughly 44.5-45.5 receiving, Jahmyr Gibbs roughly 28.5-29.5 receiving / 4.5 receptions, Dalton Kincaid around 3.5-4.5 receptions depending book. No verified price-plus-probability combination qualifies as a PRIME BET."
+    },
+    "injuryAndRoleContext": [
+      "Detroit's latest official short-week report remains the Monday estimate: Christian Mahogany and Blake Miller non-participants, Juice Scruggs limited, Christian Izien full. No newer official Tuesday practice report was available at this checkpoint.",
+      "Previously processed Detroit reporting remains unchanged: Blake Miller is optimistic about playing and Dan Campbell said Tuesday should provide more clarity; Mahogany is the greater concern and may be difficult to get ready for Thursday. This was already incorporated in the prior watch and is not a new signal.",
+      "Buffalo's latest short-week context remains Terrel Bernard, Ty Johnson and T.J. Sanders limited on the Monday estimate. Reliable Bills reporting expects Ty Johnson to have a chance to return, but no newer official practice designation was available yet."
+    ],
+    "roleUsageContext": [
+      "Jahmyr Gibbs handled 29 carries plus five receptions in Week 1; that confirms a very large workload ceiling, but a single-game role spike does not justify betting O88.5 rushing yards before accounting for short-week fatigue, offensive-line status and current price.",
+      "Jared Goff completed 26 of 39 passes for 206 yards in Week 1. The high-attempt environment supports the existing WATCH thesis at the anomalously low DK 259.5 relative to other books, but Detroit's line uncertainty remains the gating variable.",
+      "Josh Allen opened 2026 with 334 passing yards and 23 rushing yards on six carries. The current lower FanDuel rushing threshold versus DK is worth monitoring, but Week 1 production alone is not enough to create a formal edge."
+    ],
+    "gameEnvironment": "Current public game market remains a high-total environment around 53.5 with Buffalo favored by roughly 4.5 on Action's current board. This is supportive background only and not a standalone player-prop trigger.",
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No material line move, candidate-status change, new Grok pass, or newly verified injury state occurred since the 07:02 ET watch. Preserve this checkpoint only as an immutable archive; avoid duplicate canonical decision and line-history rows."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json, and prior immutable archive intelligence/archive/2026-09-15T11-02-20Z-prime-watch.json",
+    "CLEATZ DET@BUF line-shopping board, accessed 2026-09-15 around 09:02 ET: https://cleatz.com/nfl-props-test/",
+    "Pride of Detroit Blake Miller / Christian Mahogany injury context, published 2026-09-15 00:40 UTC: https://www.prideofdetroit.com/detroit-lions-injuries/173131/detroit-lions-blake-miller-injury-update-optimsitic-bills",
+    "Buffalo Rumblings short-week injury tracker, accessed 2026-09-15 around 09:02 ET: https://www.buffalorumblings.com/buffalo-bills-injuries/140197/detroit-lions-at-buffalo-bills-week-3-injury-tracker",
+    "FantasyPros Jared Goff Week 1 recap and Week 2 context, accessed 2026-09-15: https://www.fantasypros.com/nfl/news/jared-goff.php",
+    "FantasyPros 2026 QB stats for Josh Allen Week 1 usage, accessed 2026-09-15: https://www.fantasypros.com/nfl/stats/qb.php?roster=e&week=2&year=2026",
+    "Action Network DET@BUF game market, accessed 2026-09-15: https://www.actionnetwork.com/nfl-game/lions-bills-score-odds-september-17-2026/290803///"
+  ]
+}
