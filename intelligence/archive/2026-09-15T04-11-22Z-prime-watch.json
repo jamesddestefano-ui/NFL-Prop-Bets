@@ -1,0 +1,104 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 00:11:22",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. status remains live and completedAt is unchanged from the most recently processed completedAt."
+  },
+  "postgameSettlement": {
+    "game": "DEN@KC",
+    "finalScore": "KC 31, DEN 10",
+    "confirmedFacts": [
+      "Kansas City defeated Denver 31-10 on 2026-09-14.",
+      "Patrick Mahomes completed 15 of 27 passes for 184 yards, two passing touchdowns and one interception, and added 23 rushing yards with a rushing touchdown.",
+      "Kenneth Walker III had 23 carries for 173 rushing yards and one rushing touchdown, plus three receptions for 18 yards and one receiving touchdown.",
+      "Rashee Rice finished with two receptions for 19 yards and one touchdown.",
+      "Kansas City finished with 392 total offensive yards; Denver finished with 176."
+    ],
+    "sources": [
+      "KQ2 game recap published 2026-09-14 22:31 local: Chiefs 31-10 final and detailed player totals",
+      "ESPN/AP postgame recap published 2026-09-14 23:25 ET: Walker/Mahomes game context and team outcomes"
+    ]
+  },
+  "riceReceptionsReview": {
+    "formalPrimeRecommendation": {
+      "market": "RECEPTIONS",
+      "side": "OVER",
+      "line": 5.5,
+      "sportsbook": "FanDuel",
+      "odds": -102,
+      "recommendedAtEt": "2026-09-14 19:28:47",
+      "playToLine": 5.5,
+      "maxAcceptableOdds": -110,
+      "estimatedOverProbability": 55.0,
+      "fairOdds": -122.2,
+      "estimatedEdgePctVsRawBreakEven": 4.50,
+      "edgeBucket": "4-6%",
+      "confidence": "B",
+      "entryTiming": "PREGAME_LATE",
+      "result": "LOSS",
+      "actualReceptions": 2,
+      "actualReceivingYards": 19
+    },
+    "userDiscussedAlternate": {
+      "market": "RECEPTIONS_ALT",
+      "side": "AT_LEAST",
+      "line": "5+",
+      "odds": -149,
+      "resultIfPlaced": "LOSS",
+      "verificationStatus": "placement_not_verified",
+      "note": "The user told PRIME to bet the Rice over after discussing 5+ at -149, but no sportsbook ticket screenshot, sportsbook identity, stake, or confirmed placement was captured. Do not insert this as an actually placed wager in bet_history without verification."
+    },
+    "closingMarket": {
+      "closingLine": null,
+      "closingOdds": null,
+      "lineClv": null,
+      "priceClv": null,
+      "combinedClv": null,
+      "note": "No reliable closing Rice receptions line/price was independently verified in this run, so CLV fields remain unknown rather than inferred."
+    },
+    "processReview": {
+      "processGrade": "C+",
+      "outcomeGrade": "LOSS",
+      "classification": "PROCESS_LOSS_WITH_ROLE_REGIME_MISS",
+      "whatHeld": [
+        "The recommendation was price-specific and did not chase beyond the stored 5.5/-110 ceiling.",
+        "The pregame record separated verified current market price from stale or conflicting DraftKings cells.",
+        "The fair probability was deliberately discounted from Rice's raw 2025 hit rate rather than treating historical frequency as certainty."
+      ],
+      "whatFailed": [
+        "PRIME still assigned too much stability to 2025 target share and first-read share in a Week 1 offense with meaningful personnel and usage changes.",
+        "The distribution did not sufficiently account for Kansas City adopting a much heavier rushing identity around Kenneth Walker III. Walker received 23 carries and Kansas City needed only 27 Mahomes pass attempts.",
+        "Week 1 return-to-role uncertainty should have imposed a larger penalty on receiver volume projections even when historical target concentration was strong."
+      ],
+      "modelChanges": [
+        "Add a WEEK1_ROLE_REGIME_UNCERTAINTY penalty when projecting prior-season target/first-read shares into a new season after material backfield, offensive-line, coordinator/usage, or quarterback-health changes.",
+        "Require an explicit expected-team-pass-volume range before promoting Week 1 WR/TE reception overs; historical target share alone cannot establish the volume floor.",
+        "When a team has a plausible new run-identity catalyst, widen the reception distribution and lower confidence unless current role evidence or multiple independent projections support the prior passing-volume regime.",
+        "Preserve price discipline: the loss does not justify retroactively treating worse than -110 or 6.5 as acceptable."
+      ]
+    }
+  },
+  "nextSlate": {
+    "week": 2,
+    "gamesOfImmediateInterest": [
+      "JAX@DEN",
+      "IND@KC"
+    ],
+    "currentDecision": "NO_BET_YET",
+    "reason": "Immediate postgame research did not produce a sufficiently verified sportsbook-specific Week 2 player-prop line/price paired with current injury/role evidence. Do not force a Tuesday-after-MNF bet from look-ahead narratives or unpriced projections."
+  },
+  "durableState": {
+    "immutableArchiveCreated": true,
+    "decisionLedgerChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "The postgame state and learning are preserved immutably. Shared CSV ledgers are left untouched in this run because the Rice alternate placement was not verified and a reliable closing receptions market was not obtained. Reconcile the formal Rice decision into decision_ledger and weekly attribution once closing-market evidence and full Week 1 review are available; do not invent missing fields."
+  }
+}
