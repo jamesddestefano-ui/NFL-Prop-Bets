@@ -1,7 +1,7 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-12T17-05-00Z.json",
-  "processedAtEt": "2026-09-15T01:18:07-04:00",
+  "processedAtEt": "2026-09-15T02:28:15-04:00",
   "scope": "NFL player props only",
-  "notes": "Tuesday 01:18 ET Week 2 opening scan. No new Grok pass: grok_pulse_latest remains status=live with completedAt 2026-09-12T17:05:00Z. Fresh research confirms Sam Darnold is expected to miss SEA@ARI and Drew Lock is expected to start, while DET@BUF carries a high game-total environment, but no current sportsbook-specific Week 2 player-prop line plus price could be publicly verified to PRIME standards during this checkpoint. Drew Lock, Josh Allen and Jahmyr Gibbs remain WATCH inputs only; no play-to numbers or formal BETs are established from projections, Week 1 box scores or game totals alone. No material user alert. Immutable run archive: intelligence/archive/2026-09-15T05-18-07Z-prime-watch.json."
+  "notes": "Tuesday 02:28 ET Week 2 opening scan. No new Grok pass: grok_pulse_latest remains status=live with completedAt 2026-09-12T17:05:00Z. Public DET@BUF player-prop pricing has begun to populate, especially anytime-TD markets, but PRIME did not promote a wager. CLEATZ displays several Fanatics outlier prices, led by James Cook anytime TD +110, while ATS.io independently shows the same James Cook/Fanatics market at -140; the conflict is too large to treat the favorable quote as verified executable sportsbook truth. Sam LaPorta +340, Jameson Williams +265 and Amon-Ra St. Brown +155 on the same CLEATZ/Fanatics board remain WATCH only pending independent price confirmation and role/red-zone validation. Josh Allen anytime TD is a PASS at the currently observed prices. No material user alert. Immutable run archive: intelligence/archive/2026-09-15T06-28-15Z-prime-watch.json."
 }
