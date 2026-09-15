@@ -1,0 +1,111 @@
+{
+  "status": "live_watch",
+  "observedAt": "2026-09-15T22:33:11Z",
+  "observedAtEt": "2026-09-15 18:33:11 ET",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "newPassProcessed": false,
+    "reason": "completedAt is unchanged from the most recently processed durable history entry"
+  },
+  "confirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "team": "DET",
+      "game": "DET@BUF",
+      "signalTags": ["OL_INJURY"],
+      "signal": "Detroit's Tuesday practice estimate lists LG Christian Mahogany (hip) and T Blake Miller (knee) as non-participants for a second straight day; OL Juice Scruggs (knee) remained limited.",
+      "source": "https://www.detroitlions.com/news/lions-at-bills-practice-report-sept-15-reed-miller-scruggs",
+      "sourceTimestampEt": "2026-09-15 16:47 ET"
+    },
+    {
+      "classification": "confirmed_fact",
+      "team": "DET",
+      "game": "DET@BUF",
+      "signalTags": ["DEFENSIVE_INJURY"],
+      "signal": "CB D.J. Reed (foot) was newly listed as limited on Detroit's Tuesday practice estimate.",
+      "source": "https://www.detroitlions.com/news/lions-at-bills-practice-report-sept-15-reed-miller-scruggs",
+      "sourceTimestampEt": "2026-09-15 16:47 ET"
+    }
+  ],
+  "marketSnapshots": [
+    {
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "game": "DET@BUF",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "sportsbook": "DraftKings via CLEATZ public line-shopping board",
+      "line": 90.5,
+      "odds": null,
+      "timestampEt": "2026-09-15 18:33 ET",
+      "source": "https://cleatz.com/nfl/lines/",
+      "bestMarketContext": "CLEATZ also displayed 90.5 at PrizePicks and Underdog; those platforms are market context only and are not merged into a fictional sportsbook price.",
+      "priorSnapshot": {
+        "line": 88.5,
+        "overOdds": -113,
+        "underOdds": -111,
+        "sportsbook": "DraftKings via BallKnowMe public tracker",
+        "timestampEt": "2026-09-15 16:52 ET"
+      },
+      "lineMovement": "+2.0 rushing yards from the prior durable snapshot",
+      "projections": {
+        "BallKnowMe_prior": 73.1,
+        "StatsInsider_prior": 92.0,
+        "CBS_current_range": "approximately 106-110 rushing yards"
+      },
+      "marketImpliedProbability": null,
+      "noVigProbability": null,
+      "internalFairProbability": null,
+      "fairOdds": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": null,
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "confidence": "C",
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "EARLY_WEEK",
+      "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "MARKET_MOVE", "OL_INJURY", "PROJECTION_DISAGREEMENT", "GAME_SCRIPT"],
+      "correlationTags": ["SAME_THESIS"],
+      "decisionReason": "The prior 88.5 WATCH is stale after a two-yard upward move, while Detroit now has two offensive linemen estimated DNP for a second straight day. Independent projections remain unusually dispersed (roughly 73 to 110 yards). Current DraftKings juice was not exposed by the fresh public line-shopping source, so PRIME cannot establish a defensible 4-5 percentage-point price-adjusted Over edge. Do not chase 90.5; reconsider only after Wednesday offensive-line status and a verified live sportsbook price."
+    },
+    {
+      "player": "Jared Goff",
+      "team": "DET",
+      "opponent": "BUF",
+      "game": "DET@BUF",
+      "propType": "PASS_ATTEMPTS",
+      "side": "OVER",
+      "sportsbook": "FanDuel via CLEATZ public prop board",
+      "line": 36.5,
+      "odds": -102,
+      "sourceSnapshotEt": "2026-09-15 12:55 ET",
+      "observedAtEt": "2026-09-15 18:33 ET",
+      "source": "https://cleatz.com/nfl/props/passing/",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "EARLY_WEEK",
+      "signalTags": ["PACE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT"],
+      "decisionReason": "The 36.5/-102 public snapshot is too old to treat as a current executable price at this checkpoint. The short-week environment and Detroit offensive-line uncertainty add distribution risk. Re-verify a live regulated-book price before any promotion; no formal BET from a stale price."
+    }
+  ],
+  "gameEnvironment": {
+    "game": "DET@BUF",
+    "marketContext": "Buffalo roughly -4.5; total roughly 53.5-54 on current public line-shopping boards.",
+    "weather": "Current public forecasts are mild and calm, around the mid-60s with very light wind; no material weather downgrade is applied.",
+    "sources": [
+      "https://cleatz.com/nfl/lines/",
+      "https://www.nflweather.com/games/2026/week-2/lions-at-bills"
+    ]
+  },
+  "primeDecision": {
+    "alert": true,
+    "formalBets": [],
+    "bestWatch": "No current BET. Jared Goff pass attempts remains WATCH only pending a fresh live price; Jahmyr Gibbs rushing Over is now PASS_AFTER_MOVE at 90.5.",
+    "summary": "Material update: Gibbs' prior 88.5 rushing-yards WATCH has moved to roughly 90.5, while Detroit's Tuesday practice estimate still has Christian Mahogany and Blake Miller out. With major projection disagreement and no fresh executable DraftKings juice, PRIME will not chase. No new Grok pass was processed."
+  }
+}
