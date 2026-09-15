@@ -1,0 +1,66 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 01:18:07",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains status=live and completedAt is unchanged from prop_watch_state and the compact grok_pulse_history index."
+  },
+  "week2OpeningScan": {
+    "materialChangeSincePriorWatch": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "marketVerification": {
+      "result": "No current sportsbook-specific Week 2 player-prop line and price could be publicly verified to PRIME standards during this checkpoint.",
+      "discipline": "Do not promote projection-only or analyst-only candidates without an executable sportsbook, line, odds and timestamp. Do not reuse Week 1 prices."
+    },
+    "confirmedOrReliableContext": [
+      "Seattle QB Sam Darnold is expected to miss Week 2 at Arizona with a glute/soft-tissue injury; Drew Lock is expected to start. This is a confirmed role change but no current executable SEA@ARI player-prop price was verified during this run.",
+      "Detroit and Buffalo meet Thursday night in Week 2. ESPN's early-bet board lists a 53.5 game total and notes that DraftKings odds are subject to change; this is game-market context only, not a player-prop recommendation.",
+      "Week 1 usage creates early WATCH inputs for Detroit-Buffalo: Josh Allen threw for 334 yards with four total touchdowns against Houston; Jahmyr Gibbs rushed for 156 yards and two touchdowns against New Orleans; Dalton Kincaid had 130 receiving yards and D.J. Moore had 100 receiving yards in Buffalo's opener. These are confirmed historical facts, not sufficient betting signals by themselves."
+    ],
+    "watchOnlyCandidates": [
+      {
+        "player": "Drew Lock",
+        "game": "SEA@ARI",
+        "classification": "WATCH",
+        "signalTags": ["INJURY", "ROLE_CHANGE"],
+        "reason": "Expected Week 2 starter due to Darnold absence, but no verified current player-prop market/price. Wait for a book-specific line and independent projection distribution."
+      },
+      {
+        "player": "Josh Allen",
+        "game": "DET@BUF",
+        "classification": "WATCH",
+        "signalTags": ["ROLE", "GAME_SCRIPT", "PACE"],
+        "reason": "High-total Thursday environment and strong Week 1 output merit monitoring, but no verified current sportsbook-specific player-prop line/odds were found. Do not bet from game total or Week 1 box score alone."
+      },
+      {
+        "player": "Jahmyr Gibbs",
+        "game": "DET@BUF",
+        "classification": "WATCH",
+        "signalTags": ["RUSH_SHARE", "GAME_SCRIPT"],
+        "reason": "Week 1 workload/output was strong and the Thursday game environment is attractive, but no verified current sportsbook-specific prop line/price was found."
+      }
+    ],
+    "steamProtection": "No Week 2 play-to numbers are established until a verifiable current player-prop market is captured. Any analyst projection or stale early number remains non-executable research input only.",
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No new executable player-prop market or formal bet/pass threshold was verified. This checkpoint is preserved only as an immutable watch archive and state timestamp."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json and newest prior immutable archive intelligence/archive/2026-09-15T03-20-06Z-prime-watch.json",
+    "Reuters, 2026-09-15: Seahawks say QB Sam Darnold has 'unique' soft tissue injury; expected to miss Week 2 and Drew Lock expected to start",
+    "ESPN, 2026-09-14 10:48 ET: Early bets for NFL Week 2; Lions-Bills game total 53.5 with DraftKings odds noted as subject to change",
+    "Buffalo Bills official Week 1 recap and Reuters Week 1 recap for Josh Allen, Dalton Kincaid and D.J. Moore usage",
+    "Detroit Lions official Week 1 recap and Reuters Week 1 roundup for Jahmyr Gibbs usage"
+  ]
+}
