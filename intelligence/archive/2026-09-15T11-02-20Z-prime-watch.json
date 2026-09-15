@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 07:02:20",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest and the compact history index still terminate at completedAt 2026-09-12T17:05:00Z."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "marketSnapshot": {
+      "Jared Goff PASS_YARDS": "Current CLEATZ line-shopping board still shows DraftKings O259.5 -111 / U259.5 -113. Several other books remain materially higher in the mid-to-upper 260s. PRIME remains WATCH only: 259.5 is inside the stored price threshold, but Detroit offensive-line uncertainty is not yet clarified enough to promote the Over. Do not chase materially higher lines.",
+      "Josh Allen PASS_YARDS": "DraftKings remains 249.5 -112 on both sides. Current market/projection evidence still does not establish PRIME's required 4-5 percentage-point probability edge. PASS unchanged.",
+      "Jahmyr Gibbs RUSH_YARDS": "DraftKings remains O88.5 -113 / U88.5 -111. The line is unchanged and Detroit's offensive-line uncertainty remains unresolved. PASS unchanged; do not transfer older lower-line theses to 88.5.",
+      "James Cook RUSH_YARDS": "Current public books remain roughly 73.5-75.5. No new role or price evidence creates a qualifying edge.",
+      "receivingMarkets": "Core DET@BUF receiving thresholds are effectively unchanged: Amon-Ra St. Brown 79.5 receiving / 7.5 receptions; Dalton Kincaid 49.5 / 4.5; Jahmyr Gibbs 28.5 / 4.5; Jameson Williams 50.5 / 3.5; Khalil Shakir roughly 44.5-45.5 / 4.5. No verified price-plus-probability combination currently qualifies as a PRIME BET."
+    },
+    "injuryAndRoleContext": [
+      "Detroit's official Monday short-week report remains estimated: Christian Mahogany (hip) NP, Blake Miller (knee) NP, Juice Scruggs (knee) LP, Christian Izien (groin) FP. No Tuesday practice update was yet available at this early checkpoint.",
+      "Buffalo's Monday short-week context remains an estimated report rather than a full practice. Reliable Bills reporting lists Terrel Bernard (calf), Ty Johnson (hamstring), and T.J. Sanders (knee) as limited and explicitly notes Buffalo did not actually practice Monday.",
+      "A third-party CLEATZ injury tracker surfaced status-change labels suggesting Ty Johnson and T.J. Sanders were 'Out,' but those labels conflict with the more specific short-week reporting above and are not treated as official truth. Source hierarchy controls; no prop is repriced from that noisy tracker signal."
+    ],
+    "gameEnvironment": "DET@BUF remains Buffalo -4.5 with a total around 53.5 on current public market references. The high total is supportive background only and not a standalone prop trigger. No newly verified weather issue was found that changes a prop classification at this checkpoint.",
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No material market move, candidate-status change, new Grok pass, or new verified injury state occurred versus the 05:46/06:05 ET watches. Avoid duplicate canonical rows; preserve this checkpoint only as an immutable archive."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json, and prior immutable archive intelligence/archive/2026-09-15T10-05-28Z-prime-watch.json",
+    "CLEATZ DET@BUF line-shopping board accessed 2026-09-15 around 07:02 ET: https://cleatz.com/nfl-props-test/",
+    "Detroit Lions official practice report, published 2026-09-14: https://www.detroitlions.com/news/lions-at-bills-practice-report-sept-14-mahogany-miller-scruggs",
+    "Detroit Lions official Dan Campbell injury context, published 2026-09-14: https://www.detroitlions.com/news/key-questions-dan-campbell-detroit-lions-buffalo-bills-miller-gibbs-bartch",
+    "Buffalo Rumblings short-week injury tracker, published 2026-09-14, used as attributed reporting because the Bills official injury-report page had not yet surfaced the Week 2 table in web results: https://www.buffalorumblings.com/buffalo-bills-injuries/140197/detroit-lions-at-buffalo-bills-week-3-injury-tracker",
+    "Covers early DET@BUF market context, updated 2026-09-14: https://www.covers.com/nfl/lions-vs-bills-predictions-odds-early-leans-week-2-2026"
+  ]
+}
