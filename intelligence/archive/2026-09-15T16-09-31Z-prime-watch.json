@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 12:09:31",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live and completedAt still matches the most recently processed completedAt and compact grok_pulse_history.jsonl index."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "marketSnapshot": {
+      "Jared Goff PASS_YARDS": "CLEATZ still shows DraftKings O259.5 -111 / U259.5 -113; FanDuel 268.5 -114 / -114 and most other books remain materially higher. WATCH only at the lower DraftKings threshold; no independently established 4-5 percentage-point fair-probability edge.",
+      "Josh Allen PASS_YARDS": "CLEATZ still shows DraftKings 249.5 -112 / -112, FanDuel 251.5 -114 / -114, and the broader board mostly 249.5-254.5. PASS unchanged. A newly indexed numberFire/FanDuel Research page projects 366.56 passing yards, which is an extreme outlier versus the market and other public projections previously captured near the mid-230s. Treat as projection/data-quality disagreement, not a bet signal, until independently corroborated.",
+      "Josh Allen RUSH_YARDS": "CLEATZ remains book-split: DraftKings 32.5 -112 / -112, FanDuel 29.5 -114 / -114, with most other books near 30.5. The lower FanDuel threshold is useful line-shopping information, but no independently supported 4-5 percentage-point fair edge has been established. WATCH/PASS unchanged.",
+      "Jahmyr Gibbs RUSH_YARDS": "CLEATZ remains centered at 88.5 near standard juice (DraftKings 88.5 -113 / -111; FanDuel 88.5 -114 / -114). Week 1's 29-carry, 156-yard usage remains supportive, but the already-elevated threshold and unresolved short-week offensive-line context keep this a PASS.",
+      "James Cook RUSH_YARDS": "FanDuel remains 73.5 -114 / -114 with most books around 73.5-75.5. No new role, injury, or price evidence produces a qualifying edge. PASS unchanged.",
+      "Amon-Ra St. Brown RECEPTIONS": "CLEATZ still centers at 7.5. FanDuel currently shows O7.5 -106 / U7.5 -125 and several other books have the Over roughly -102 to -110. This is a small price improvement versus the prior watch, not a status change. Week 1 produced 14 targets and 10 receptions, but no current independent Week 2 reception distribution was verified. WATCH only; do not promote from one-game volume or role data alone.",
+      "Amon-Ra St. Brown RECEIVING_YARDS": "Current CLEATZ board centers the best regulated-book Over around 79.5 (FanDuel O79.5 -114 / U79.5 -114; Fanatics O79.5 -113 / U79.5 -115), while DraftKings is now a worse 81.5 with heavy juice. No qualifying Over edge is established; line-shop but PASS/WATCH pending stronger projection and injury/OL clarity.",
+      "Amon-Ra St. Brown ANYTIME_TD": "Current CLEATZ board ranges roughly +100 to +120 across regulated books. CLEATZ's displayed consensus-edge model is negative, and TD variance requires stronger price discipline. PASS."
+    },
+    "injuryAndRoleContext": [
+      "Buffalo's official Week 2 storyline update published September 15 says both clubs played heavy Week 1 workloads and the short week will emphasize recovery and mental preparation; this is general context, not a player-specific workload restriction.",
+      "No newer official Detroit or Buffalo player-specific Week 2 practice/injury table was verified at this checkpoint.",
+      "Buffalo's official Week 1 recap confirms Josh Allen 20-of-29 for 334 yards and two passing TDs plus 23 rushing yards and two rushing TDs; Dalton Kincaid had five catches for 130 yards and DJ Moore five catches for 100 yards and a TD. These are Week 1 usage facts only and are not being extrapolated into Week 2 bets without price-adjusted support.",
+      "DET@BUF remains a high-total game environment around Buffalo -4.5 / 53.5 in current public game markets, but game environment alone is not sufficient to create a player-prop recommendation."
+    ],
+    "newCandidateReview": {
+      "Amon-Ra St. Brown OVER 7.5 receptions": {
+        "classification": "WATCH",
+        "steamState": "STILL_PLAYABLE_FOR_RESEARCH_ONLY",
+        "reason": "Best visible price improved modestly, but the threshold still requires eight catches and there is not yet an independently supported fair probability clearing PRIME's normal 4-5 percentage-point edge requirement."
+      },
+      "Josh Allen OVER 249.5 passing yards": {
+        "classification": "PASS",
+        "steamState": "NO_ACTION",
+        "reason": "A newly published numberFire projection is an extreme market outlier and conflicts with previously captured independent projections. PRIME will not recommend from a single projection, especially when CLEATZ's current cross-book board itself shows negative consensus EV."
+      }
+    },
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No material line move, candidate-status promotion to BET, new Grok pass, or newly verified official player-specific injury state occurred since the 10:57 ET watch. Preserve this checkpoint as an immutable archive and avoid duplicate canonical decision/line-history rows."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json, and prior immutable archive intelligence/archive/2026-09-15T14-57-23Z-prime-watch.json",
+    "CLEATZ NFL player-prop line-shopping board accessed 2026-09-15 around 12:09 ET: https://cleatz.com/nfl-props-test/",
+    "Buffalo Bills official Week 2 storylines published 2026-09-15 09:58 ET: https://www.buffalobills.com/news/top-storylines-for-bills-vs-lions-nfl-week-2",
+    "Buffalo Bills official Week 1 recap accessed 2026-09-15: https://www.buffalobills.com/news/bills-36-texans-31-final-score-game-highlights-key-stats-week-1",
+    "FanDuel Research / numberFire Josh Allen Week 2 projection page published 2026-09-15; treated as an uncorroborated model outlier rather than sportsbook truth"
+  ]
+}
