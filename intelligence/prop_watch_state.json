@@ -1,7 +1,7 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-12T17-05-00Z.json",
-  "processedAtEt": "2026-09-15T13:29:19-04:00",
+  "processedAtEt": "2026-09-15T14:30:08-04:00",
   "scope": "NFL player props only",
-  "notes": "Tuesday 13:29 ET Week 2 refresh. No new Grok pass: grok_pulse_latest remains status=live with completedAt 2026-09-12T17:05:00Z. No actionable prop and no material user alert. A fresh CLEATZ crawl produced a conflicting Jared Goff passing-yards display versus a same-day Data Skrive/BetDecider 259.5 -111 page, so PRIME did not overwrite the prior verified watch state or create a canonical line-history/decision row from the conflict. Josh Allen passing/rushing, Jahmyr Gibbs rushing, James Cook rushing, and Amon-Ra St. Brown receptions/receiving yards remain WATCH/PASS only with no independently supported 4-5 percentage-point fair edge. No new player-specific official Week 2 injury restriction was verified. Immutable run archive: intelligence/archive/2026-09-15T17-29-19Z-prime-watch.json."
+  "notes": "Tuesday 14:30 ET Week 2 refresh. No new Grok pass: grok_pulse_latest remains status=live with completedAt 2026-09-12T17:05:00Z. No actionable prop and no material user alert. Current multi-book CLEATZ data corroborates the Jared Goff passing-yards upward repricing already detected at the prior watch, but current feeds remain inconsistent enough that no canonical sportsbook truth or qualifying 4-5 percentage-point fair edge is established. Josh Allen passing/rushing, Jahmyr Gibbs rushing, James Cook rushing, Amon-Ra St. Brown receptions/receiving yards, and Dalton Kincaid receptions/receiving yards remain WATCH/PASS only. No new player-specific official Week 2 workload restriction was verified. Weather remains non-material for now with light winds and only modest evening rain risk. Immutable run archive: intelligence/archive/2026-09-15T18-30-08Z-prime-watch.json."
 }
