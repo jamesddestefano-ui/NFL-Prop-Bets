@@ -1,0 +1,57 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 20:54:14",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. status remains live and completedAt is unchanged from the most recently processed pass."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "gameState": {
+      "status": "in_progress",
+      "latestReliableIndexedUpdate": "Arrowhead Pride live update reported the game tied 7-7 in the first quarter after Patrick Mahomes' 15-yard rushing touchdown and Bo Nix's 19-yard touchdown pass to Evan Engram.",
+      "sourceLimitation": "Public web indexing may lag the live broadcast, so the exact current game clock and player stat totals are not treated as authoritative in this run."
+    },
+    "materialChangeSincePriorWatch": false,
+    "confirmedOrAttributedUpdates": [
+      {
+        "classification": "attributed_report",
+        "item": "Chiefs CB Mansoor Delane was reported questionable to return with a shoulder injury during the first quarter."
+      },
+      {
+        "classification": "confirmed_fact",
+        "item": "The game is underway, so all stored pregame prop quotes are locked/stale and cannot be represented as current executable markets."
+      },
+      {
+        "classification": "research_result",
+        "item": "No fresh publicly verifiable regulated-book live player-prop line/price was established during this checkpoint. ESPN exposes a live odds/player-props page, but its current content could not be independently read because the page requires JavaScript."
+      }
+    ],
+    "existingExposure": {
+      "rasheeRice": {
+        "pregamePrimeDecision": "BET O5.5 receptions at FanDuel -102, playable through -110, per prior archive.",
+        "userQuotedAlt": "Rice 5+ receptions at -149; user instructed to bet the over before kickoff. No verified sportsbook ticket is present in bet_history, so bet_history remains unchanged.",
+        "liveAssessment": "No verified live market creates a new actionable hedge/add. Early run-heavy Kansas City usage from the prior checkpoint remains too small a sample to overwrite the pregame role thesis."
+      }
+    },
+    "overallDecision": "NO_ALERT",
+    "summary": "No material injury/role development affecting an existing prop and no verified live player-prop price created an actionable wager. Do not chase the locked pregame board or manufacture a live recommendation from incomplete dynamic data."
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "reason": "No new executable market state or verified ticket/settlement evidence. Preserve the prior decisions and append this immutable watch archive only."
+  },
+  "sources": [
+    "Repository AGENTS.md, methodology, advanced_market_learning, sources, live_prop_board, decision_ledger, line_history, bet_history, missed_bets, pass_ledger, parlay_history, weekly_attribution, grok_pulse_latest, grok_pulse_history, prop_watch_state and prior immutable archive",
+    "Arrowhead Pride live update accessed 2026-09-14 during the 20:54 ET watch",
+    "ESPN Broncos-Chiefs live odds/player-props page accessed 2026-09-14; current content not machine-readable because JavaScript verification blocked retrieval"
+  ]
+}
