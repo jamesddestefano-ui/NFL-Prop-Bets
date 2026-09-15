@@ -1,0 +1,135 @@
+{
+  "status": "live_watch",
+  "observedAt": "2026-09-15T20:52:37Z",
+  "observedAtEt": "2026-09-15 16:52:37 ET",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "newPassProcessed": false,
+    "reason": "completedAt is unchanged from the latest durable history entry"
+  },
+  "materialChanges": [
+    {
+      "classification": "confirmed_fact",
+      "player": "Isiah Pacheco",
+      "team": "DET",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE"],
+      "signal": "Pacheco underwent back surgery and is expected to miss approximately 12 weeks, materially reducing competition behind Jahmyr Gibbs.",
+      "sources": [
+        "https://www.espn.com/nfl/story/_/id/49943755/source-lions-pacheco-significant-back-surgery",
+        "https://www.reuters.com/sports/back-surgery-keep-lions-rb-isiah-pacheco-out-much-longer--flm-2026-09-14/"
+      ]
+    },
+    {
+      "classification": "confirmed_fact",
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "signalTags": ["ROLE_CHANGE", "RUSH_SHARE"],
+      "signal": "Gibbs handled 29 carries for 156 rushing yards and two rushing touchdowns in Week 1; Pacheco's extended absence strengthens the lead-back workload case but does not by itself create a price-insensitive Over.",
+      "source": "https://www.nfl.com/games/lions-at-bills-2026-reg-2"
+    }
+  ],
+  "marketSnapshots": [
+    {
+      "player": "Jahmyr Gibbs",
+      "propType": "RUSH_YARDS",
+      "sportsbook": "DraftKings via BallKnowMe public tracker",
+      "line": 88.5,
+      "overOdds": -113,
+      "underOdds": -111,
+      "timestampEt": "2026-09-15 16:52",
+      "source": "https://www.ballknowme.com/nfl/matchup/game/2026_02_DET_BUF",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "projections": {
+        "StatsInsider": 92,
+        "BallKnowMe": 73.1
+      },
+      "decisionReason": "Pacheco absence materially improves the workload thesis, but independent projections disagree sharply and the 88.5 threshold does not establish a defensible 4-5 percentage-point price-adjusted Over edge. Do not chase or flip Under solely from one projection. Verify the live regulated book before any future promotion."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "propType": "RECEIVING_YARDS",
+      "sportsbook": "FanDuel via Fantasy Info Central",
+      "line": 29.5,
+      "overOdds": -114,
+      "timestampEt": "2026-09-15 16:52",
+      "source": "https://www.fantasyinfocentral.com/betting/nfl/props/receiving-yards",
+      "status": "PASS",
+      "projections": {
+        "FantasyInfoCentral": 27.9,
+        "StatsInsider": 33
+      },
+      "decisionReason": "Projection disagreement and -114 price do not support a robust Over edge."
+    },
+    {
+      "player": "Josh Allen",
+      "propType": "PASS_YARDS",
+      "line": 249.5,
+      "timestampEt": "2026-09-15 16:52",
+      "source": "https://www.ballknowme.com/nfl/matchup/game/2026_02_DET_BUF",
+      "status": "WATCH",
+      "projections": {
+        "StatsInsider": 249,
+        "BallKnowMe": 266.3,
+        "numberFireFanDuelResearch": 366.56
+      },
+      "decisionReason": "Detroit's depleted secondary and Week 1 environment are bullish context, but model disagreement is extreme. No formal wager from a projection-only thesis."
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "propType": "RECEIVING_YARDS",
+      "sportsbook": "FanDuel via Fantasy Info Central",
+      "line": 79.5,
+      "overOdds": -114,
+      "timestampEt": "2026-09-15 16:52",
+      "source": "https://www.fantasyinfocentral.com/betting/nfl/props/receiving-yards",
+      "status": "WATCH",
+      "projections": {
+        "FantasyInfoCentral": 71.3,
+        "StatsInsider": 85
+      },
+      "decisionReason": "Strong Week 1 target volume is encouraging, but projection disagreement and the current price prevent a formal BET."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "propType": "RECEIVING_YARDS",
+      "sportsbook": "DraftKings via Fantasy Info Central",
+      "line": 49.5,
+      "overOdds": -110,
+      "timestampEt": "2026-09-15 16:52",
+      "source": "https://www.fantasyinfocentral.com/betting/nfl/props/receiving-yards",
+      "status": "PASS",
+      "projections": {
+        "FantasyInfoCentral": 43.0,
+        "StatsInsider": 52,
+        "numberFireFanDuelResearch": 73.66
+      },
+      "decisionReason": "Week 1 usage was excellent, but Buffalo coaches described the heavy 13-personnel deployment as matchup-specific and projections are too dispersed to justify a price-adjusted Over."
+    },
+    {
+      "player": "James Cook",
+      "propType": "RECEIVING_YARDS",
+      "sportsbook": "Fanatics via Fantasy Info Central",
+      "line": 15.5,
+      "overOdds": -115,
+      "timestampEt": "2026-09-15 16:52",
+      "source": "https://www.fantasyinfocentral.com/betting/nfl/props/receiving-yards",
+      "status": "PASS",
+      "projections": {
+        "FantasyInfoCentral": 17.2,
+        "StatsInsider": 19,
+        "numberFireFanDuelResearch": 17.86
+      },
+      "decisionReason": "Projection gap is too small at -115 to support PRIME's preferred 4-5 percentage-point fair-probability edge."
+    }
+  ],
+  "primeDecision": {
+    "alert": true,
+    "formalBets": [],
+    "bestWatch": "Jahmyr Gibbs rushing yards",
+    "summary": "Material Week 2 role change: Pacheco's extended absence strengthens Gibbs workload expectations. Current 88.5 rushing-yard market is a WATCH, not a BET, because projections disagree and the price-adjusted edge is not yet robust. Recheck official injury/OL reports and live sportsbook lines before Thursday kickoff."
+  }
+}
