@@ -1,0 +1,68 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 23:20:06",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains status=live and completedAt is unchanged from the compact history index and prior processed state."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "materialChangeSincePriorWatch": true,
+    "gameState": {
+      "status": "final",
+      "finalScore": "Kansas City 31, Denver 10",
+      "source": "Bleacher Report final recap/box score published 2026-09-14 and accessed during the 23:20 ET checkpoint"
+    },
+    "rasheeRice": {
+      "primePregameDecision": "BET Over 5.5 receptions at FanDuel -102, playable through -110, recorded in the 19:28 ET immutable archive.",
+      "primeFairProbability": 55.0,
+      "primeFairOdds": -122.2,
+      "userQuotedAlt": "5+ receptions at -149; user subsequently instructed to bet the over. Exact sportsbook ticket and stake were not independently verified, so bet_history remains unchanged.",
+      "finalStatLine": "2 receptions, 19 receiving yards, 1 touchdown",
+      "primeRecommendationOutcome": "LOSS",
+      "userQuotedAltOutcomeIfPlaced": "LOSS",
+      "processAssessment": "The price discipline was acceptable at the formal O5.5 -102 recommendation, but the football-role assumption failed badly in this game. Kansas City attempted only 27 passes and leaned heavily on Kenneth Walker III, while Rice finished with only two receptions. The miss should not be rationalized by the touchdown; reception volume did not materialize. Future Week 1/return-from-offseason reception Overs should apply a larger uncertainty discount when a player's projected historical target share has not yet been re-established in the current-season offense.",
+      "learningTags": [
+        "TARGET_SHARE",
+        "ROLE_STABILITY",
+        "GAME_SCRIPT",
+        "PROJECTION_DISAGREEMENT",
+        "PRICE_DISCIPLINE",
+        "PROCESS_LOSS"
+      ]
+    },
+    "otherRelevantFinals": {
+      "patrickMahomes": "15-of-27 passing, 184 yards, 2 TD, 1 INT; 7 rushes for 23 yards and 1 TD",
+      "boNix": "17-of-28 passing, 131 yards, 1 TD, 1 INT",
+      "kennethWalker": "23 carries for 173 yards and 1 rushing TD; 3 receptions for 18 yards and 1 receiving TD",
+      "evanEngram": "4 receptions for 43 yards and 1 TD"
+    },
+    "marketState": {
+      "pregameMarketsLocked": true,
+      "newActionableProp": false,
+      "decision": "NO_NEW_BET",
+      "reason": "The Week 1 Monday game is final. No current executable player-prop market exists for this completed game; do not reuse locked pregame prices."
+    },
+    "overallDecision": "ALERT_SETTLEMENT_PROCESS_UPDATE",
+    "summary": "Material update: DEN@KC is final and PRIME's Rashee Rice reception Over lost. Rice finished with 2 catches for 19 yards and a touchdown, well short of both the formal O5.5 recommendation and the user's quoted 5+ alternate threshold. No new Grok pass and no new actionable player prop after game completion."
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "This run records the final result and process learning in an immutable archive. The formal Rice recommendation was captured in the pregame immutable archive but has not yet been reconciled into the shared CSV decision/line ledgers. The user's 5+ -149 instruction is not added to bet_history without an exact verified sportsbook ticket/stake."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json and newest prior immutable watch archive",
+    "Bleacher Report final DEN@KC recap and box score: https://bleacherreport.com/articles/25499618-chiefs-beat-broncos-box-score-stats-highlights-mahomes-walker-kelce-nix-waddle-more",
+    "FantasyPros pregame Rashee Rice Week 1 outlook for historical target-share context",
+    "19:28 ET PRIME immutable archive for the exact O5.5 -102 formal recommendation and play-to"
+  ]
+}
