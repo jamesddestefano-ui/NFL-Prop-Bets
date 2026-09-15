@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 10:30:33",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest status remains live and completedAt still matches the most recently processed completedAt and the compact grok_pulse_history.jsonl index."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "marketSnapshot": {
+      "Jared Goff PASS_YARDS": "CLEATZ remains DraftKings O259.5 -111 / U259.5 -113, with most other books materially higher around 263.5-269.5. WATCH only at the lower DK threshold; no verified probability edge sufficient for a BET and Detroit OL uncertainty remains unresolved.",
+      "Josh Allen PASS_YARDS": "DraftKings remains 249.5 -112 both ways; broader market roughly 249.5-254.5. PASS unchanged.",
+      "Josh Allen RUSH_YARDS": "DraftKings remains 32.5 -112, FanDuel 29.5 -114, with other books mostly 30.5-32.5. The lower FanDuel threshold is useful line-shopping information but no independent fair-probability model currently clears PRIME's required 4-5 percentage-point edge at -114. WATCH/PASS unchanged.",
+      "Jahmyr Gibbs RUSH_YARDS": "DraftKings and FanDuel remain 88.5 near -113/-114, with most books at 88.5 and one at 89.5. Week 1 workload confirms ceiling but does not justify a bet at this number before Detroit OL status is clearer. PASS unchanged.",
+      "James Cook RUSH_YARDS": "Public range remains roughly 73.5-75.5. No new role or price evidence creates a qualifying edge. PASS unchanged."
+    },
+    "injuryAndRoleContext": [
+      "No newer official Tuesday DET@BUF practice report was verified by this checkpoint; the latest short-week club context remains Monday's estimated report with Christian Mahogany and Blake Miller DNP, Juice Scruggs limited, and Christian Izien full for Detroit, while Buffalo listed Ty Johnson, T.J. Sanders and Terrel Bernard limited.",
+      "New reporting that Isiah Pacheco underwent back surgery confirms a prolonged absence, but Pacheco was already on injured reserve and unavailable for Week 2, so this does not create a new Week 2 Gibbs role change relative to the prior watch.",
+      "Dan Campbell's comments continue to support Gibbs' ability to handle a heavy workload while also acknowledging the need to manage usage; this is not sufficient to override the current 88.5 rushing line and offensive-line uncertainty."
+    ],
+    "gameEnvironment": "The public DET@BUF game market remains approximately Buffalo -4.5 with a 53.5 total, unchanged enough from the prior watch to avoid a player-prop reprice on game environment alone.",
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No material line move, candidate-status change, new Grok pass, or newly verified injury state occurred since the 09:02 ET watch. Preserve this checkpoint only as an immutable archive and avoid duplicate canonical decision or line-history rows."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json, and prior immutable archive intelligence/archive/2026-09-15T13-02-58Z-prime-watch.json",
+    "CLEATZ NFL player-prop line-shopping board accessed 2026-09-15 around 10:30 ET: https://cleatz.com/nfl-props-test/",
+    "Detroit/Buffalo Monday short-week injury context refreshed 2026-09-15 via Pride of Detroit and Buffalo reporting",
+    "Reuters/Pride of Detroit reporting on Isiah Pacheco back surgery and prolonged absence, published 2026-09-14/15",
+    "Action Network DET@BUF game market accessed 2026-09-15"
+  ]
+}
