@@ -1,7 +1,7 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-12T17-05-00Z.json",
-  "processedAtEt": "2026-09-14T23:20:06-04:00",
+  "processedAtEt": "2026-09-15T01:18:07-04:00",
   "scope": "NFL player props only",
-  "notes": "Monday 23:20 ET PRIME postgame checkpoint. No new Grok pass: grok_pulse_latest remains status=live with completedAt 2026-09-12T17:05:00Z. DEN@KC is final, Kansas City 31-10. Bleacher Report's final box score records Rashee Rice with 2 receptions for 19 yards and 1 touchdown, so PRIME's formal pregame O5.5 receptions recommendation at FanDuel -102 lost. The user's quoted 5+ -149 alternate threshold would also lose if placed, but the exact sportsbook ticket/stake was not independently verified, so bet_history remains unchanged. No completed-game player-prop price is treated as live or actionable. Immutable run archive: intelligence/archive/2026-09-15T03-20-06Z-prime-watch.json."
+  "notes": "Tuesday 01:18 ET Week 2 opening scan. No new Grok pass: grok_pulse_latest remains status=live with completedAt 2026-09-12T17:05:00Z. Fresh research confirms Sam Darnold is expected to miss SEA@ARI and Drew Lock is expected to start, while DET@BUF carries a high game-total environment, but no current sportsbook-specific Week 2 player-prop line plus price could be publicly verified to PRIME standards during this checkpoint. Drew Lock, Josh Allen and Jahmyr Gibbs remain WATCH inputs only; no play-to numbers or formal BETs are established from projections, Week 1 box scores or game totals alone. No material user alert. Immutable run archive: intelligence/archive/2026-09-15T05-18-07Z-prime-watch.json."
 }
