@@ -1,7 +1,7 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-12T17-05-00Z.json",
-  "processedAtEt": "2026-09-15T05:46:08-04:00",
+  "processedAtEt": "2026-09-15T06:05:28-04:00",
   "scope": "NFL player props only",
-  "notes": "Tuesday 05:46 ET Week 2 refresh. No new Grok pass: grok_pulse_latest remains status=live with completedAt 2026-09-12T17:05:00Z. DET@BUF core prop markets are effectively unchanged from the 04:14 ET watch. Jared Goff O259.5 -111 at DraftKings remains WATCH only; Blake Miller is reportedly optimistic for Thursday but official/practice clarification is still pending and Christian Mahogany remains the larger Detroit OL concern. Re-evaluate Goff only if DK remains 259.5 at -115 or better after OL clarification; do not chase roughly 264.5+. Josh Allen passing, Gibbs rushing, Cook rushing, current receiving markets and compressed anytime-TD prices remain PASS/no-bet. Current Orchard Park wind profile is low impact. No actionable prop and no material user alert. Immutable run archive: intelligence/archive/2026-09-15T09-46-08Z-prime-watch.json."
+  "notes": "Tuesday 06:05 ET Week 2 refresh. No new Grok pass: grok_pulse_latest remains status=live with completedAt 2026-09-12T17:05:00Z. Current DET@BUF prop thresholds are effectively unchanged from the 05:46 ET watch: Jared Goff DK 259.5 remains WATCH only pending Detroit OL clarification; Josh Allen pass yards 249.5 remains PASS; Gibbs rush yards 88.5 remains PASS because the earlier 79.5 external target is stale and current line/price plus OL uncertainty do not establish a 4-5 point edge; Cook and the core receiving markets remain no-bet. No new official Tuesday injury/practice state was available at this checkpoint. No actionable prop and no material user alert. Immutable run archive: intelligence/archive/2026-09-15T10-05-28Z-prime-watch.json."
 }
