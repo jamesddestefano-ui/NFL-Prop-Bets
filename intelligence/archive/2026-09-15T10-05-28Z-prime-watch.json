@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 06:05:28",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live with the same completedAt as prop_watch_state and the compact history index."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "marketSnapshot": {
+      "Jared Goff PASS_YARDS": "CLEATZ remains DraftKings 259.5; PrizePicks 263.5 and Underdog 268.5. No new executable DK juice was exposed by this refresh, and PRIME's prior WATCH condition remains: reconsider only if 259.5 is still available at -115 or better after Detroit offensive-line clarification. Do not chase materially higher lines.",
+      "Josh Allen PASS_YARDS": "DraftKings remains 249.5 on CLEATZ. No new independent probability evidence clears PRIME's 4-5 percentage-point edge threshold, so PASS remains unchanged.",
+      "Jahmyr Gibbs RUSH_YARDS": "DraftKings, PrizePicks and Underdog remain 88.5. The earlier external 79.5 target from WalterFootball is stale versus the current DK threshold and cannot be transferred to 88.5. PASS remains unchanged pending line/price and Detroit OL clarification.",
+      "James Cook RUSH_YARDS": "Public projection lines remain roughly 73.5-75.5. No new role or price evidence creates a qualifying edge.",
+      "receivingMarkets": "CLEATZ remains effectively unchanged: Amon-Ra St. Brown 79.5 receiving / 7.5 receptions; Dalton Kincaid 49.5 / 4.5; DJ Moore 60.5 / 4.5; Jahmyr Gibbs 28.5 / 4.5; Jameson Williams 50.5 / 3.5; Khalil Shakir 45.5 / 4.5; Sam LaPorta 45.5 / 4.5. No verified price-plus-probability combination qualifies as a PRIME BET."
+    },
+    "injuryAndRoleContext": [
+      "No new official Tuesday Detroit practice report was available at this early checkpoint. The prior short-week estimate remains the controlling context: Christian Mahogany and Blake Miller were estimated DNP, while Juice Scruggs was limited; Cade Mays remains on IR.",
+      "Blake Miller's reported optimism about playing Thursday remains attributed reporting, not an official availability upgrade. Christian Mahogany remains the more material offensive-line uncertainty for Detroit's passing/rushing efficiency.",
+      "Buffalo's official site has not produced a new Tuesday practice state at this checkpoint; Ty Johnson, Terrel Bernard and T.J. Sanders remain monitoring items from the prior short-week estimate/context."
+    ],
+    "gameEnvironment": "DET@BUF total remains 53.5 across major books on CLEATZ, with Buffalo around a 4.5-point favorite. This supports a high-scoring environment but is not, by itself, a player-prop betting signal.",
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No material market move, new verified injury state, fresh Grok pass, or candidate-status change occurred in the roughly 19 minutes since the prior immutable watch. Avoid duplicate canonical rows; archive the checkpoint only."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json, and prior immutable archive intelligence/archive/2026-09-15T09-46-08Z-prime-watch.json",
+    "CLEATZ Week 2 line-shopping board, accessed 2026-09-15 around 06:05 ET: https://cleatz.com/nfl/lines/",
+    "Buffalo Bills official injury-report page, accessed 2026-09-15 around 06:05 ET: https://www.buffalobills.com/team/injury-report/",
+    "Pride of Detroit current Blake Miller injury reporting retained as attributed context; no new official Detroit practice designation was found at this checkpoint",
+    "WalterFootball Week 2 player-prop target page used only to demonstrate that its Gibbs 79.5 recommendation is stale relative to the current 88.5 DraftKings threshold"
+  ]
+}
