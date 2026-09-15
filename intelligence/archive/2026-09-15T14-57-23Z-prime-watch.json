@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 10:57:23",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live and completedAt still matches the most recently processed completedAt and compact grok_pulse_history.jsonl index."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "marketSnapshot": {
+      "Jared Goff PASS_YARDS": "CLEATZ still shows DraftKings O259.5 -111 / U259.5 -113; FanDuel remains materially higher at 268.5 and other books cluster mostly 259.5-269.5. WATCH only at the lower DK threshold; no verified fair-probability edge sufficient for BET.",
+      "Josh Allen PASS_YARDS": "DraftKings remains 249.5 -112 both ways; other books are mostly 249.5-254.5. PASS unchanged.",
+      "Josh Allen RUSH_YARDS": "DraftKings remains 32.5 -112 / -112 and FanDuel 29.5 -114 / -114, with most other books around 30.5. The lower FanDuel threshold remains useful line-shopping information but no independently supported 4-5 percentage-point fair-probability edge is established. WATCH/PASS unchanged.",
+      "Jahmyr Gibbs RUSH_YARDS": "DraftKings remains 88.5 -113 / -111 and FanDuel 88.5 -114 / -114; broader market is 88.5-89.5. Week 1 volume was elite (29 carries, 156 yards), but current OL uncertainty and the already-elevated threshold keep this a PASS.",
+      "James Cook RUSH_YARDS": "FanDuel and other public books remain around 73.5-75.5, including FanDuel 73.5 -114 / -114. No new role or pricing evidence produces a qualifying edge. PASS unchanged.",
+      "Amon-Ra St. Brown RECEPTIONS": "Current CLEATZ line-shopping board shows 7.5 with Over prices around -108 to -110 at several books. Week 1 role was elite (14 targets, 10 receptions) and FantasyPros notes a 28.5% 2025 target share and 37.4% first-read share, but no current Week 2 reception projection/fair distribution was verified. WATCH only; do not promote from one-game volume or season-long role data alone.",
+      "Amon-Ra St. Brown RECEIVING_YARDS": "Current market centers around 79.5, with DraftKings O79.5 -113 / U79.5 -111. FantasyPros has no Week 2 player projection posted yet. PASS/WATCH only pending stronger independent projection and Detroit OL clarity."
+    },
+    "injuryAndRoleContext": [
+      "No newer official Detroit or Buffalo Week 2 practice report was verified at this checkpoint. The official team injury pages still primarily expose Week 1 tables, so Monday short-week estimated/practice context remains the latest reliable Week 2 injury input in the repository.",
+      "Detroit's Week 1 usage: Jared Goff 26-of-39 for 206 yards and two TDs; Jahmyr Gibbs 29 carries for 156 yards plus five receptions; Amon-Ra St. Brown 10 receptions on 14 targets for 67 yards and two TDs.",
+      "The high DET@BUF game environment remains intact: public game market Buffalo -4.5, total 53.5. Game environment alone is not being used to manufacture a prop edge."
+    ],
+    "newCandidateReview": {
+      "Amon-Ra St. Brown OVER 7.5 receptions": {
+        "classification": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "reason": "Role and Week 1 target volume are supportive, but current 7.5 price requires eight catches and no current independent Week 2 projection/fair probability clears PRIME's price-adjusted threshold. Do not recommend from role data alone."
+      }
+    },
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No material line move, candidate-status promotion to BET, new Grok pass, or newly verified official injury state occurred since the 10:30 ET watch. Preserve this checkpoint as an immutable archive and avoid duplicate canonical decision/line-history rows."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, and prior immutable archive intelligence/archive/2026-09-15T14-30-33Z-prime-watch.json",
+    "CLEATZ NFL player-prop line-shopping board accessed 2026-09-15 around 10:57 ET: https://cleatz.com/nfl-props-test/",
+    "CLEATZ NFL game lines accessed 2026-09-15: Buffalo -4.5 / total 53.5",
+    "FantasyPros player news and outlook pages accessed 2026-09-15 for Goff, Gibbs, and Amon-Ra St. Brown",
+    "Detroit Lions and Buffalo Bills official injury-report pages checked 2026-09-15; no newer official Week 2 table was verified at this checkpoint"
+  ]
+}
