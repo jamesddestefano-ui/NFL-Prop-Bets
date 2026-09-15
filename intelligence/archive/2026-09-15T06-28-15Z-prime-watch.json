@@ -1,0 +1,85 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 02:28:15",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains status=live and completedAt is unchanged from prop_watch_state and the compact grok_pulse_history index."
+  },
+  "week2OpeningScan": {
+    "materialChangeSincePriorWatch": true,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "marketAvailabilityChange": "Public Week 2 player-prop pricing is beginning to populate for DET@BUF, especially anytime-touchdown markets, but the most attractive displayed outlier prices are not independently stable enough to satisfy PRIME executable-price standards.",
+    "confirmedOrReliableContext": [
+      "DET@BUF is Thursday 2026-09-17 at 8:15 PM ET. Buffalo's official schedule confirms the matchup and Squawka's current Week 2 page reports no game-status designations yet.",
+      "Squawka's current Week 2 editorial card highlights Josh Allen 2+ passing touchdowns and Jahmyr Gibbs 90+ rushing yards, but those are analyst/editorial calls rather than priced PRIME recommendations.",
+      "Sam Darnold remains expected to miss SEA@ARI with a short-term glute/soft-tissue injury and Drew Lock is expected to start; this was already known in the prior watch and is not a new alert by itself."
+    ],
+    "marketCrossCheck": [
+      {
+        "player": "James Cook",
+        "game": "DET@BUF",
+        "propType": "ANYTIME_TD",
+        "classification": "WATCH",
+        "observedPricing": "CLEATZ current line-shopping page displays Fanatics +110, DraftKings -130, Caesars -135, BetOnline -167 and other books around -130 to -140; CLEATZ labels Fanatics +110 as +13.5% EV with a 54% consensus fair probability.",
+        "conflict": "ATS.io's current DET@BUF page independently displays James Cook anytime TD at Fanatics -140, a 250-cent conflict with the CLEATZ Fanatics quote.",
+        "primeDecision": "NO_BET. Do not treat the +110 outlier as executable sportsbook truth until a second current source or the live sportsbook verifies it. At the independently surfaced -140 price, the thesis is not attractive on the available evidence."
+      },
+      {
+        "player": "Sam LaPorta",
+        "game": "DET@BUF",
+        "propType": "ANYTIME_TD",
+        "classification": "WATCH",
+        "observedPricing": "CLEATZ displays Fanatics +340 versus DraftKings +265/Caesars +260 and labels the best price +12.5% EV.",
+        "primeDecision": "NO_BET. The Fanatics quote is another large early-market outlier from the same board and lacks independent current verification. Touchdown markets are high variance and require stronger price confirmation."
+      },
+      {
+        "player": "Jameson Williams",
+        "game": "DET@BUF",
+        "propType": "ANYTIME_TD",
+        "classification": "WATCH",
+        "observedPricing": "CLEATZ displays Fanatics +265 versus DraftKings +210/Caesars +199 and labels the best price +10.4% EV.",
+        "primeDecision": "NO_BET pending independent verification and role/red-zone confirmation."
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "game": "DET@BUF",
+        "propType": "ANYTIME_TD",
+        "classification": "WATCH",
+        "observedPricing": "CLEATZ displays Fanatics +155 versus DraftKings/Caesars +120 and labels the best price +9.2% EV.",
+        "primeDecision": "NO_BET pending independent verification; do not promote from Week 1 touchdowns plus one outlier price."
+      },
+      {
+        "player": "Josh Allen",
+        "game": "DET@BUF",
+        "propType": "ANYTIME_TD",
+        "classification": "PASS",
+        "observedPricing": "CLEATZ displays DraftKings +110, Caesars +100, Fanatics +115 and labels the market -0.3% EV.",
+        "primeDecision": "PASS at the currently observed prices; no modeled price edge is established."
+      }
+    ],
+    "steamProtection": "No PRIME play-to numbers have been promoted from the current Week 2 anytime-TD board because the most favorable Fanatics prices are not independently verified and one key quote (James Cook) conflicts sharply across current public sources. Do not chase or assume the outlier is live.",
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "The public Week 2 board is now partially populated, but source conflict prevents treating the outlier prices as verified executable sportsbook truth. WATCH/PASS observations are preserved in this immutable archive rather than contaminating the primary line ledger with disputed prices."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json and prior immutable archive intelligence/archive/2026-09-15T05-18-07Z-prime-watch.json",
+    "CLEATZ NFL Player Props line-shopping board, accessed 2026-09-15 02:28 ET: https://cleatz.com/nfl-props-test/",
+    "ATS.io DET@BUF matchup/player-prop page, accessed 2026-09-15 02:28 ET: https://ats.io/matchup/nfl/detroit-lions-vs-buffalo-bills-prediction-17-09-2026/",
+    "Squawka Lions vs Bills Week 2 page, published/accessed 2026-09-15: https://www.squawka.com/us/nfl/nfl-news/lions-vs-bills-prediction-picks-odds-week-2/",
+    "Buffalo Bills official 2026 schedule, accessed 2026-09-15: https://www.buffalobills.com/schedule/",
+    "Reuters/Field Level Media Darnold injury update, 2026-09-15"
+  ]
+}
