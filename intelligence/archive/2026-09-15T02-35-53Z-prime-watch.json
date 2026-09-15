@@ -1,0 +1,50 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-14 22:35:53",
+  "nflWeek": 1,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains status=live and completedAt is unchanged from grok_pulse_history and the most recently processed pass."
+  },
+  "mondayMiniSlate": {
+    "game": "DEN@KC",
+    "kickoffEt": "2026-09-14 20:15",
+    "gameState": {
+      "status": "in_progress",
+      "latestReliableIndexedContext": "Public live-game indexing available to this run had Kansas City leading in the second half. Arrowhead Pride's readable live update was at 21-7 in the third quarter; a later indexed score source showed Denver had cut the game to 21-10. Public web indexing may lag the broadcast, so the exact current clock and score are not treated as authoritative.",
+      "sourceLimitation": "Dynamic sportsbook and live-box-score pages were incomplete or stale in machine-readable form. PRIME does not infer current player totals or executable live prices from delayed pages."
+    },
+    "existingExposure": {
+      "rasheeRice": {
+        "pregamePrimeDecision": "BET Over 5.5 receptions at FanDuel -102, playable through -110, from the 19:28 ET immutable archive.",
+        "userQuotedAlt": "Rice 5+ receptions at -149; the user subsequently instructed to bet the over. No verified sportsbook ticket is present in bet_history, so the durable placed-bet ledger remains unchanged.",
+        "lastReadableStatSnapshot": "A stale CBS live box-score snapshot from earlier in the third quarter showed Rice with 2 targets, 2 receptions, 19 receiving yards and 1 touchdown. This snapshot is not treated as his current or final total.",
+        "liveAssessment": "No verified live sportsbook market created an actionable add, hedge, middle or cash-out recommendation. Do not manufacture a live decision from a stale stat snapshot or pregame line."
+      }
+    },
+    "liveMarketResearch": {
+      "regulatedBookPlayerProp": "No fresh publicly verifiable named regulated-book live player-prop line and price was established for a material candidate during this checkpoint.",
+      "decision": "NO_BET_NO_HEDGE",
+      "steamDiscipline": "All stored pregame lines are locked/stale after kickoff and cannot be represented as current executable markets."
+    },
+    "materialChangeSincePriorWatch": false,
+    "overallDecision": "NO_ALERT",
+    "summary": "No new Grok pass, no confirmed injury/role development that changes an existing prop thesis, and no verified live player-prop price created an actionable wager or hedge. The Rice reception exposure remains a pregame thesis only; current public stat/score indexing is too stale to justify a live intervention."
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "reason": "No new executable market state, verified user ticket, settlement, or material decision transition. Preserve the prior ledgers and append only this immutable watch archive."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json and the prior immutable watch archive",
+    "Arrowhead Pride DEN@KC live updates accessed during the 2026-09-14 22:35 ET checkpoint",
+    "Public Yahoo/CBS live-score and box-score indexing accessed during the checkpoint; treated as potentially delayed rather than authoritative current state",
+    "Fresh public web search for named sportsbook live player-prop markets; no reliable executable live quote established"
+  ]
+}
