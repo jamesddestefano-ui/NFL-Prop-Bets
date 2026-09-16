@@ -1,0 +1,119 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-16T12:29:58Z",
+  "runAtEt": "2026-09-16 08:29:58",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new actionable PRIME wager at the 08:29 ET checkpoint. The prior Quinshon Judkins rushing-attempts thesis remains price-conditional because the latest publicly timestamped bet365/Covers O12.5 -105 snapshot is still dated 2026-09-15 22:38 ET and was not promoted as current executable truth. Fresh Thursday DET@BUF prices were checked for Jahmyr Gibbs, Amon-Ra St. Brown and James Cook. Projection/market disagreement or insufficient price-adjusted edge prevents a formal BET on the reviewed Thursday props.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-16T11-31-48Z-prime-watch.json"
+  },
+  "candidateChecks": [
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "marketSnapshot": "bet365 via Covers O12.5 -105",
+      "marketTimestampEt": "2026-09-15 22:38",
+      "status": "WATCH",
+      "steamState": "STILL_PLAYABLE_IF_REVERIFIED",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Role thesis remains supported after Dylan Sampson was placed on IR and Cleveland listed Judkins first on the Week 2 depth chart, but the displayed price was not freshly timestamped during this checkpoint. Do not treat the prior line as current or chase without live verification."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RUSH_YARDS",
+      "marketSnapshot": "BetMGM O88.5 -115; DraftKings O89.5 -111; bet365 O90.5 -110",
+      "marketTimestampEt": "2026-09-16 08:10",
+      "status": "WATCH",
+      "reason": "Independent rushing projections disagree materially: FantasyPros 100.4, CBS approximately 106-107, Dimers 91.5, 4for4 89.2, while numberFire/FanDuel Research is a major low outlier at 24.95. The market sits near the median of the non-outlier projection cluster, so PRIME does not infer a robust 4-5 percentage-point edge from Week 1 production or Pacheco's absence alone."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "marketSnapshot": "BetRivers O4.5 +116",
+      "marketTimestampEt": "2026-09-16 08:10",
+      "status": "PASS",
+      "reason": "FantasyPros projects 4.1 receptions, CBS about 4.3-4.5, and Fantasy Info Central 3.5. Plus money is attractive only if the catch distribution supports it; current independent projections do not establish sufficient Over probability."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "marketSnapshot": "theScore Bet O29.5 -110",
+      "marketTimestampEt": "2026-09-16 08:10",
+      "status": "PASS",
+      "reason": "FantasyPros projects 30.5 and FIC 26.9 while CBS is in the mid-to-high 30s. The projection spread and one-yard FantasyPros edge do not justify laying -110."
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "marketSnapshot": "bet365 O7.5 +100",
+      "marketTimestampEt": "2026-09-16 06:52",
+      "status": "PASS",
+      "reason": "Week 1 role was elite (14 targets, 10 receptions), but current projection evidence does not create a clear price edge: FantasyPros consensus is around the 7.5 threshold while FIC projects 6.1. Do not bet a Week 1 target-share signal without probability support at the current line."
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "marketSnapshot": "bet365 O77.5 -115; FanDuel O79.5 -114",
+      "marketTimestampEt": "2026-09-16 06:52",
+      "status": "PASS",
+      "reason": "FantasyPros projects 87.5 but FIC projects 73.0. The disagreement is material and the best reasonably priced regulated-book line still requires laying juice, so no formal Over is promoted."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "marketSnapshot": "bet365 O2.5 +125",
+      "marketTimestampEt": "2026-09-16 08:02",
+      "status": "PASS",
+      "reason": "FantasyPros projects 2.1 catches, CBS about 1.9, and FIC 2.1. The plus price does not overcome the below-threshold consensus."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "marketSnapshot": "bet365 O15.5 -115",
+      "marketTimestampEt": "2026-09-16 08:02",
+      "status": "WATCH",
+      "reason": "Projection sources range from roughly 15.6-17.9 yards at CBS/FantasyPros/FanDuel Research/FIC to 24.2 at 4for4. The central cluster is too close to 15.5 to establish PRIME's preferred price-adjusted edge at -115; monitor rather than force a bet."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Cleveland Browns",
+      "claim": "Dylan Sampson was placed on injured reserve and the Week 2 depth chart lists Quinshon Judkins first at running back."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Dan Campbell via reliable Lions reporting/Reuters",
+      "claim": "Isiah Pacheco underwent back surgery and is expected to miss roughly 12 weeks; his absence leaves Jahmyr Gibbs without the intended veteran complement for the near term."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Week 1 box-score/usage context",
+      "claim": "Gibbs handled 29 carries for 156 yards and caught 5 passes for 30 yards in Week 1; Amon-Ra St. Brown caught 10 of 14 targets for 67 yards. These outcomes are context, not standalone reasons to bet Week 2 Overs."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the most recently processed completedAt.",
+    "Wednesday Browns practice/injury reporting had not produced a newer official injury report at this early checkpoint; do not infer practice status before publication.",
+    "Thursday DET@BUF lines were treated as timestamped market snapshots and evaluated against multiple projections; no candidate cleared PRIME's price, disagreement and uncertainty requirements.",
+    "No stale sportsbook line was promoted as current, no same-thesis exposure was added, and no parlay recommendation was created."
+  ]
+}
