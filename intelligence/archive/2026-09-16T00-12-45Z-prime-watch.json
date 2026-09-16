@@ -1,0 +1,64 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 20:12:45",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live and completedAt is unchanged from the compact history index and prior processed state."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": true,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "newVerifiedInformation": [
+      "Detroit's official Tuesday Week 2 practice report is now posted. Christian Mahogany (hip) and Blake Miller (knee) remained estimated non-participants; Juice Scruggs (knee) remained limited; Christian Izien (groin) remained full; CB D.J. Reed was newly listed limited with a foot injury.",
+      "Dwain McFarland's Fantasy Life Week 1 Utilization Report was updated at 6:04 PM ET and provides a materially stronger role signal for Dalton Kincaid: 69% route participation, 23% target share, 15.8-yard aDOT, 29% air-yard share, 87 Utilization Score, and 95% of Buffalo's 12/13-personnel snaps with an 83% route participation rate in those packages."
+    ],
+    "marketSnapshot": {
+      "Dalton Kincaid RECEIVING_YARDS": "Best current research WATCH. Fantasy Info Central exposes DraftKings O49.5 -110 with a 43.0-yard projection. StatsInsider projects 52 yards, while numberFire/FanDuel Research projects 73.66. The new McFarland utilization data materially strengthens the role thesis, but projection dispersion remains too wide to establish PRIME's required 4-5 percentage-point fair-probability edge at 49.5/-110. WATCH, not BET.",
+      "Dalton Kincaid RECEPTIONS": "Current public context is around 3.5 with heavy Over juice, while an alternate O4.5 has surfaced at plus money. Fantasy Info Central projects only 3.3 receptions and a separate public model estimated about a 45.5% chance for O4.5, producing only a small edge versus plus-money pricing. No formal BET.",
+      "Jahmyr Gibbs RUSH_YARDS": "No chase. Current public market remains around 88.5-90.5. StatsInsider projects 92, but numberFire/FanDuel Research is an extreme low outlier at 24.95 and Detroit's two offensive-linemen remaining non-participants adds downside uncertainty. PASS/WATCH only.",
+      "Jahmyr Gibbs RECEIVING_YARDS": "Current public market is around 29.5 with Over near -114. Fantasy Info Central projects 27.9 while numberFire/FanDuel Research projects 39.88. Projection disagreement remains too large for a price-adjusted edge.",
+      "Josh Allen PASS_YARDS": "Current public references cluster around 248.5-249.5 at roughly -112/-113. StatsInsider projects 249, so the market is essentially at the central independent projection. D.J. Reed's new limited foot status is directionally favorable to Buffalo's pass game but insufficient by itself to create a qualifying edge.",
+      "Jared Goff PASS_ATTEMPTS": "Remains a WATCH only. The previously surfaced O36.5 -102 / analyst O35.5 thesis remains price-sensitive and public sources continue to expose conflicting alternate thresholds. Detroit's offensive-line absences can increase trailing/dropback risk but also reduce efficiency; no executable price-adjusted edge is established."
+    },
+    "injuryAndRoleContext": [
+      "Official Detroit Tuesday report: Christian Mahogany NP, Blake Miller NP, D.J. Reed LP, Juice Scruggs LP, Christian Izien FP. Monday and Tuesday were walkthroughs, so designations are estimates.",
+      "McFarland/Fantasy Life: Kincaid's Week 1 route and target profile was materially stronger than his 2025 role and he stayed on the field in Buffalo's heavy multiple-TE personnel packages rather than coming off for blocking groupings.",
+      "Isiah Pacheco's back surgery and extended absence remain known context and are not a new signal in this run."
+    ],
+    "gameEnvironment": "Buffalo remains roughly a 4.5-point home favorite with a total around 53.5 in current public game-market references. High scoring expectations support pass-volume scenarios but do not create a player-prop bet without line-specific probability edge.",
+    "weatherContext": "No fresh severe-weather signal was verified in this pass. Weather remains a later-week checkpoint.",
+    "projectionDisagreement": [
+      "Kincaid receiving yards is now the clearest role-based WATCH, but public projections range from 43.0 to 73.66 around a market near 49.5-51.5.",
+      "Gibbs rushing and receiving markets remain highly model-dispersed and are further complicated by Detroit's offensive-line uncertainty.",
+      "Allen passing-yard projections are centered near the current market despite the newly limited Detroit cornerback."
+    ],
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "missedBetsChanged": false,
+    "passLedgerChanged": false,
+    "parlayHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "There is new verified information (Detroit Tuesday practice participation and McFarland/Fantasy Life Kincaid utilization data), but it does not promote any current player prop to BET, create a material actionable change to an existing ticket, or justify a new canonical decision/line-history row. Preserve the checkpoint in the immutable archive and continue monitoring."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json, and intelligence/archive/2026-09-15T19-55-07Z-prime-watch.json",
+    "Detroit Lions official Week 2 practice report dated 2026-09-15, published 4:47 PM ET",
+    "Fantasy Life / Dwain McFarland Week 1 Utilization Report, updated 2026-09-15 6:04 PM ET",
+    "Fantasy Info Central Week 2 receptions and receiving-yards prop boards accessed 2026-09-15",
+    "FanDuel Research / numberFire Week 2 projections for Dalton Kincaid, Jahmyr Gibbs and Jared Goff accessed 2026-09-15",
+    "StatsInsider Bills-Lions Week 2 projections accessed 2026-09-15",
+    "Action Network Josh Allen current prop context accessed 2026-09-15",
+    "Current public Lions-Bills game-market context accessed 2026-09-15"
+  ]
+}
