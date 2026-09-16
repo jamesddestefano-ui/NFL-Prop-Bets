@@ -1,0 +1,57 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-16 00:45:41",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live and completedAt is unchanged from the compact history index and prior processed state."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "newVerifiedInformation": [
+      "No newer official Detroit practice report was found after Tuesday's practice update. Christian Mahogany and Blake Miller remained non-participants Tuesday; D.J. Reed was limited per current reporting. This does not create a new prop edge by itself.",
+      "Current public TNF market checks show Jahmyr Gibbs rushing yards around 90.5, Josh Allen passing yards around 250.5 at bet365, and Dalton Kincaid receiving yards around 49.5 at DraftKings. None clears PRIME's required price-adjusted edge threshold after projection and role uncertainty are applied.",
+      "The Bills-Lions game remains a high-total environment around 53.5 in current public coverage, but game total alone is not a player-prop signal."
+    ],
+    "marketSnapshot": {
+      "Dalton Kincaid RECEIVING_YARDS": "WATCH. Public DraftKings reference is 49.5 O-113/U-111, with FanDuel 51.5 and theScore 54.5. Week 1 usage was strong, but independent projections remain dispersed around the market and one recent model is an extreme outlier. No robust 4-5 percentage-point fair-probability edge is established.",
+      "Jahmyr Gibbs RUSH_YARDS": "PASS/WATCH; do not chase. Public market is around 90.5 at standard juice. The workload role is strong after 29 Week 1 carries, but projection sources disagree materially and Detroit's offensive-line availability remains a dependency. The old 88.5 WATCH is not transferable to 90.5 without recalculation.",
+      "Jahmyr Gibbs RUSH_ATTEMPTS": "WATCH only. Public market remains around 19.5 with meaningful disagreement in attempt projections. No sufficiently stable fair distribution supports either side at current pricing.",
+      "Josh Allen PASS_YARDS": "PASS/WATCH. bet365 currently lists 250.5 at -116 both ways. Independent projections are highly dispersed, so there is no qualifying edge at the current line and price.",
+      "Dawson Knox RECEIVING_YARDS": "PASS. Low Week 1 route/target volume remains a major uncertainty despite favorable projection signals from some models. No projection-only Over promotion."
+    },
+    "injuryAndRoleContext": [
+      "Detroit's offensive-line injuries remain a material Gibbs dependency; no new official status resolved them in this checkpoint.",
+      "Isiah Pacheco's back-surgery absence remains known context, not a new signal in this run.",
+      "Kincaid's Week 1 utilization remains role-positive, but the current market has incorporated much of that information."
+    ],
+    "gameEnvironment": "Current public coverage keeps Buffalo favored by roughly 4.5 points with a total around 53.5. This supports volume potential but is not sufficient to create a player-prop wager.",
+    "weatherContext": "No fresh severe-weather signal requiring an immediate player-prop adjustment was verified in this pass.",
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "missedBetsChanged": false,
+    "passLedgerChanged": false,
+    "parlayHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No candidate changed enough from the 23:14 ET checkpoint to justify a new canonical decision row or user alert. There are no verified Week 2 user tickets requiring action and no formal BET clears PRIME's price-adjusted edge threshold. Preserve this no-alert checkpoint in the immutable archive and continue monitoring."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json, and intelligence/archive/2026-09-16T03-14-33Z-prime-watch.json",
+    "Detroit Lions official/practice reporting accessed 2026-09-16 00:45 ET",
+    "Buffalo Bills official Week 2 matchup coverage accessed 2026-09-16 00:45 ET",
+    "BallKnowMe DET@BUF public player-prop board accessed 2026-09-16 00:45 ET",
+    "Statz NFL Josh Allen passing-yards market page accessed 2026-09-16 00:45 ET",
+    "Current public TNF prop and game-market checks accessed 2026-09-16 00:45 ET"
+  ]
+}
