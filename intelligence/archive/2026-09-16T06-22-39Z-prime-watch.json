@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-16 02:22:39",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. The current live completedAt matches the compact history and prior processed state."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "newVerifiedInformation": [
+      "Jahmyr Gibbs rushing-yard pricing remains in the same non-actionable neighborhood as the prior checkpoint. FantasyInfoCentral currently indexes DraftKings Over 91.5 at -113 with a 96.0 projection, while CLEATZ shows a 90.5 market with best displayed Over -102 at Novig and Under -113 at Pinnacle. This cross-shop dispersion means there is no single consensus executable line to overwrite prior market truth.",
+      "FantasyPros consensus remains 100.4 rushing yards on 18.7 attempts for Gibbs, but price has already absorbed much of the Week 1 workload/Pacheco-absence thesis. Detroit offensive-line availability remains unresolved, with Christian Mahogany and Blake Miller listed as non-participants and Juice Scruggs limited on the most recent public injury context.",
+      "Dalton Kincaid receiving-yard pricing remains roughly 50.5 at DraftKings in current public indexing, while FantasyInfoCentral projects 47.5 and FantasyPros consensus projects 52.1. The range does not establish a robust 4-5 percentage-point fair-probability edge at standard negative juice.",
+      "No new official role/injury development surfaced after the 01:08 ET checkpoint that materially reprices an existing PRIME candidate."
+    ],
+    "marketSnapshot": {
+      "Jahmyr Gibbs RUSH_YARDS": "PASS/WATCH. Current public references span about 90.5-91.5. DraftKings is indexed at O91.5 -113 by FantasyInfoCentral, while CLEATZ shows a 90.5 market across other books. Strong role remains confirmed, but the number is already materially higher than the initial 88.5 watch and current cross-model/market dispersion does not justify chasing.",
+      "Jahmyr Gibbs RUSH_ATTEMPTS": "WATCH. No fresh verified attempts price in this pass creates a stronger edge than the prior 19.5 watch state. Do not infer an executable number from stale references.",
+      "Dalton Kincaid RECEIVING_YARDS": "WATCH/PASS. Current public DraftKings indexing is around 50.5 -114; FantasyPros 52.1 and FantasyInfoCentral 47.5 bracket the market. Week 1 role expansion remains encouraging but insufficient for a formal BET at this price.",
+      "James Cook RUSH_YARDS": "PASS/WATCH. FantasyInfoCentral indexes FanDuel O78.5 -114 with an 88.3 projection and FantasyPros projects 84.4, but Week 1 role/game-script context and large disagreement from other projection systems prevent assigning the required robust fair-probability edge."
+    },
+    "steamProtection": {
+      "GibbsRushYards": "The original public 88.5 watch is stale. At roughly 90.5-91.5, classify as REDUCED_EDGE/PASS_AFTER_MOVE rather than chase. No formal maximum playable line is invented because the prior state was WATCH rather than a recorded BET recommendation."
+    },
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "missedBetsChanged": false,
+    "passLedgerChanged": false,
+    "parlayHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No Week 2 prop cleared PRIME's verification and fair-edge threshold, no user ticket required action, and no material state change warranted modifying core ledgers. Preserve this checkpoint in the immutable archive only."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, and intelligence/archive/2026-09-16T05-08-02Z-prime-watch.json",
+    "FantasyInfoCentral Week 2 rushing-yard props accessed 2026-09-16 02:22 ET: https://www.fantasyinfocentral.com/betting/nfl/props/rushing-yards",
+    "CLEATZ Week 2 rushing-yard board accessed 2026-09-16 02:22 ET: https://cleatz.com/nfl/rushing-props/",
+    "FantasyPros Week 2 RB projections accessed 2026-09-16 02:22 ET: https://www.fantasypros.com/nfl/projections/rb.php?scoring=PPR",
+    "FantasyInfoCentral Week 2 receiving-yard props accessed 2026-09-16 02:22 ET: https://www.fantasyinfocentral.com/betting/nfl/props/receiving-yards",
+    "FantasyPros Week 2 TE projections accessed 2026-09-16 02:22 ET: https://www.fantasypros.com/nfl/projections/te.php/te.php?scoring=STD",
+    "Sports Injury Central Lions-Bills injury context accessed 2026-09-16 02:22 ET"
+  ]
+}
