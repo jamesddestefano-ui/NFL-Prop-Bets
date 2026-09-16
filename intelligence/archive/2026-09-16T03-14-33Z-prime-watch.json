@@ -1,0 +1,56 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-15 23:14:33",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains live and completedAt is unchanged from the compact history index and prior processed state."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "newVerifiedInformation": [
+      "No newer official Detroit practice report was verified after the club's Tuesday 4:47 PM ET walkthrough estimate already captured in the prior checkpoint. Christian Mahogany and Blake Miller remained estimated non-participants, Juice Scruggs limited, D.J. Reed limited and Christian Izien full in the latest official Detroit report.",
+      "Covers' Lions-Bills game preview was updated at 10:31 PM ET and still places the game around Buffalo -4.5 with a 53.5 total. This is game-environment context only and does not create a player-prop edge.",
+      "Fresh public prop-market checks did not identify a qualifying price-adjusted player-prop edge beyond the ranges already captured in the 8:12 PM ET immutable checkpoint."
+    ],
+    "marketSnapshot": {
+      "Dalton Kincaid RECEIVING_YARDS": "WATCH. The prior role upgrade from Dwain McFarland/Fantasy Life remains meaningful, but the known public market around 49.5-51.5 still sits inside a very wide projection range. No new verified sportsbook price plus defensible 4-5 percentage-point fair-probability edge was established in this refresh.",
+      "Jahmyr Gibbs RUSH_YARDS": "PASS/WATCH; do not chase. Current public context remains around the previously captured 88.5-90.5 band, with 90.5 near standard juice appearing in late Tuesday market checks. Pacheco's absence supports workload, but Detroit's offensive-line uncertainty and Dan Campbell's stated desire not to make 29 carries a weekly target keep the distribution wider than the raw Week 1 workload suggests. The old 88.5 WATCH is not automatically transferable to 90.5.",
+      "Jahmyr Gibbs RUSH_ATTEMPTS": "WATCH only. Public Tuesday context has 19.5 available near even money at some books, but no sufficiently stable independent attempt distribution/fair probability was established to promote it to BET. Reprice after Wednesday practice information.",
+      "Josh Allen PASS_YARDS": "PASS/WATCH. Prior public references around 248.5-249.5 remain close to the central independent projection. Detroit CB D.J. Reed's limited foot status is directionally favorable to Buffalo passing but insufficient by itself to create a qualifying edge.",
+      "Dawson Knox RECEIVING_YARDS": "PASS. A public analyst/model case exists around O12.5, but Week 1 usage was thin: one target and only 12 pass routes despite a 67% snap share. Do not elevate a projection-only Over without stronger route/target evidence and a current verified price."
+    },
+    "injuryAndRoleContext": [
+      "Detroit's latest official Tuesday walkthrough estimate remains the controlling injury source for this checkpoint: Mahogany NP, Miller NP, Reed LP, Scruggs LP, Izien FP.",
+      "Isiah Pacheco's back-surgery absence remains known context, not a new signal in this run.",
+      "Kincaid's Week 1 utilization upgrade from McFarland/Fantasy Life remains the strongest role-based Thursday signal, but it is still not sufficient to override price and projection dispersion."
+    ],
+    "gameEnvironment": "Buffalo remains roughly a 4.5-point home favorite with a total around 53.5 in fresh Tuesday-night public game-market coverage. The high total supports opportunity but is not itself a player-prop bet signal.",
+    "weatherContext": "No fresh severe-weather signal requiring a player-prop adjustment was verified in this pass; weather remains a later-week checkpoint.",
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "missedBetsChanged": false,
+    "passLedgerChanged": false,
+    "parlayHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No candidate changed enough from the prior 20:12 ET checkpoint to justify a new canonical decision row or user alert. There are no verified Week 2 user tickets requiring action and no formal BET clears PRIME's price-adjusted edge threshold. Preserve this no-alert checkpoint in the immutable archive and continue monitoring."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json, and intelligence/archive/2026-09-16T00-12-45Z-prime-watch.json",
+    "Detroit Lions official Week 2 practice report dated 2026-09-15, published 4:47 PM ET",
+    "Covers Lions-Bills Week 2 preview updated 2026-09-15 10:31 PM ET",
+    "Late Tuesday public player-prop market checks for Gibbs, Kincaid, Allen and Knox",
+    "Fantasy Life / Dwain McFarland Week 1 Utilization Report carried forward only as previously verified role context"
+  ]
+}
