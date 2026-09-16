@@ -1,0 +1,105 @@
+{
+  "runType": "prime_watch",
+  "runAt": "2026-09-16T09:05:35Z",
+  "runAtEt": "2026-09-16 05:05:35 ET",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "isNewPass": false,
+    "note": "grok_pulse_latest remains live and completedAt exactly matches the most recently processed compact-history pass; no Grok item is treated as new."
+  },
+  "marketState": {
+    "summary": "No current Week 2 player prop clears PRIME's price-adjusted edge threshold. Fresh overnight public information confirms Jahmyr Gibbs remains around 90.5 rushing yards with Over -114, while Dalton Kincaid is around 50.5 receiving yards at Over -110 / Under -114 on a current public market page. Both numbers remain too close to conservative central projections, with material projection disagreement, to justify a formal BET. No verified Week 2 user ticket requires action.",
+    "alert": false
+  },
+  "evaluations": [
+    {
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "game": "DET@BUF",
+      "gameDate": "2026-09-17",
+      "propType": "RUSH_YARDS",
+      "market": "Rushing Yards",
+      "side": "OVER",
+      "observedLine": 90.5,
+      "observedPrice": -114,
+      "sportsbook": "public DataSkrive/Bleacher Nation Week 2 prop board; sportsbook identity not sufficiently preserved for executable-book truth",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "marketImpliedProbabilityPct": 53.27,
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "confirmedFacts": [
+        "Isiah Pacheco underwent back surgery and is expected to miss about 12 weeks.",
+        "Gibbs carried 29 times for 156 yards in Week 1."
+      ],
+      "projectionContext": {
+        "FantasyPros": 100.4,
+        "Dimers": 91.5,
+        "OptimalBet": 89.5
+      },
+      "decisionReason": "The role change is bullish, but the 90.5/-114 market requires 53.27% raw break-even and independent projections straddle the threshold. Detroit is also a road underdog in a high-total Thursday game, preserving game-script uncertainty. The new price does not convert the prior WATCH into a BET.",
+      "sources": [
+        "Reuters, Back surgery to keep Lions RB Isiah Pacheco out much longer, published 2026-09-14",
+        "Bleacher Nation/DataSkrive, Jahmyr Gibbs Player Props Week 2, published 2026-09-15 and accessed 2026-09-16 05:05 ET",
+        "FantasyPros Week 2 RB projections, updated 2026-09-15",
+        "Dimers Week 2 Gibbs projection, accessed 2026-09-16",
+        "Optimal Bet Gibbs rushing-yards projection, accessed 2026-09-16"
+      ]
+    },
+    {
+      "player": "Dalton Kincaid",
+      "team": "BUF",
+      "opponent": "DET",
+      "game": "DET@BUF",
+      "gameDate": "2026-09-17",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "observedLine": 50.5,
+      "observedPrice": -110,
+      "oppositePrice": -114,
+      "sportsbook": "current Stat Pick market display; exact originating sportsbook not treated as authoritative executable truth",
+      "status": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "marketImpliedProbabilityPct": 52.38,
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "roleContext": "Week 1 usage reporting showed roughly 69% routes and about a 21-23% target share; Kincaid caught 5 of 6 targets for 130 yards.",
+      "projectionContext": {
+        "FantasyPros": 52.1,
+        "RosterAudit": 51.7,
+        "numberFire_FanDuel": 73.66,
+        "note": "numberFire/FanDuel is retained as a high outlier rather than allowed to set the decision."
+      },
+      "decisionReason": "The role expansion is encouraging, but the conservative projection cluster sits only slightly above 50.5. That does not produce the roughly 4-5 percentage-point fair-probability edge PRIME prefers at standard juice. Do not promote from the outlier projection alone.",
+      "sources": [
+        "Dwain McFarland/Fantasy Life Week 1 utilization review, accessed 2026-09-16",
+        "FantasyPros Week 2 TE projections, updated 2026-09-15",
+        "RosterAudit Week 2 Kincaid projection, accessed 2026-09-16",
+        "FanDuel Research/numberFire Kincaid Week 2 projection, published 2026-09-15",
+        "Stat Pick current Kincaid market display, accessed 2026-09-16 05:05 ET"
+      ]
+    }
+  ],
+  "additionalIntelligence": [
+    {
+      "classification": "attributed_report",
+      "scope": "Sunday injury watch",
+      "items": [
+        "Ladd McConkey is described as day-to-day with a rib injury; the Chargers added Marquez Valdes-Scantling to the practice squad amid multiple WR injuries.",
+        "Zay Flowers is described as day-to-day after aggravating a hamstring injury.",
+        "Kyler Murray is in the concussion protocol; Jordan Mason is being evaluated for a thumb issue.",
+        "Atlanta's Week 2 QB situation remains unsettled with Tua Tagovailoa's oblique and Michael Penix Jr.'s knee status requiring Wednesday practice confirmation."
+      ],
+      "decisionImpact": "No Sunday prop is promoted without a current verified sportsbook line/price and Wednesday practice participation. Preserve as WATCH intelligence only."
+    }
+  ],
+  "result": "NO_ALERT_NO_BET",
+  "nextCheckpoint": "Recheck Wednesday official practice reports, especially the final Detroit/Buffalo pre-TNF participation report and first full Sunday-slate injury reports. Recalculate only from current sportsbook-specific lines and prices; do not chase moved Gibbs/Kincaid thresholds."
+}
