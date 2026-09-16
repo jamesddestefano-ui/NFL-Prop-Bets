@@ -18,6 +18,7 @@ Preferred examples:
 - Action Network / Sean Koerner (@The_Oddsmaker)
 - Chris Raybon (@ChrisRaybon)
 - Fantasy Points Data / Ryan Heath (@RyanJ_Heath)
+- Fantasy Points Data (@FantasyPtsData) — monitor NFL usage, route/target, rushing/backfield, matchup, efficiency, pace and situational data that can materially inform player-prop opportunity. Preserve the specific metric, sample and timestamp; treat analytical conclusions as data/model or analyst signals rather than sportsbook truth.
 - Establish The Run / Evan Silva / Adam Levitan
 - JJ Zachariason (@LateRoundQB)
 - Dwain McFarland (@dwainmcfarland) / Fantasy Life — prioritize his weekly Utilization Report and role/usage analysis for snaps, routes, target share, TPRR, first-read/air-yard context, carries, backfield roles, and emerging role changes. Treat conclusions as analyst/data signals requiring independent verification before a prop decision.
@@ -34,6 +35,7 @@ A Grok/X-style feed should prioritize:
 - established projection/data analysts
 - prop/betting analysts with transparent reasoning
 - Dwain McFarland (@dwainmcfarland): monitor weekly Utilization Report posts and materially relevant player-role updates. Extract the underlying usage metrics and role-change claim rather than merely the fantasy recommendation. Tag these as `model_projection` or `analyst_opinion` as appropriate; do not treat them as confirmed facts unless independently verified.
+- Fantasy Points Data (@FantasyPtsData): monitor materially relevant NFL data posts, especially snaps/routes, target share/TPRR, first-read and air-yard usage when available, carries/rush share, third-down/two-minute and red-zone/goal-line work, pace/PROE, matchup/defensive metrics, and meaningful week-over-week role changes. Capture the underlying metric and sample size, not just the post's conclusion. Classify as `model_projection` or `analyst_opinion` when interpretive; independently verify material inputs before promoting a prop to BET.
 
 The feed should avoid treating retweets, anonymous screenshots, tout records, or unsupported social-media claims as facts.
 
