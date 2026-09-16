@@ -1,0 +1,119 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-16T18:54:26Z",
+  "runAtEt": "2026-09-16 14:54:26",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new actionable PRIME wager at the 14:54 ET checkpoint. The Grok feed remains unchanged at completedAt 2026-09-12T17:05:00Z. Quinshon Judkins over 12.5 rushing attempts remains a carry-forward thesis only because no newer sportsbook-specific executable attempts quote was independently verified after the prior 12:07 ET bet365 +100 snapshot; do not represent that stale quote as current. Thursday DET@BUF markets remain mixed rather than actionable: Amon-Ra St. Brown receiving/reception projections are widely dispersed around current public lines, and Jahmyr Gibbs receiving-yard projections likewise disagree around roughly 28.5-29.5. Official Detroit/Buffalo injury reporting still has Christian Mahogany and Blake Miller DNP through Tuesday estimates, with Wednesday practice status not yet populated at this checkpoint; Ty Johnson remained limited on Monday and Tuesday. No verified Week 2 user ticket requires action.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-16T18-13-01Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-JUDKINS-CARRIES-CARRYFORWARD-20260916-145426",
+      "timestampEt": "2026-09-16 14:54:26",
+      "gameDate": "2026-09-20",
+      "game": "CLE@TB",
+      "player": "Quinshon Judkins",
+      "team": "CLE",
+      "opponent": "TB",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers (last verified snapshot)",
+      "line": 12.5,
+      "odds": 100,
+      "marketTimestampEt": "2026-09-16 12:07",
+      "bestMarketLine": "12.5 +100 bet365 via Covers at last verified snapshot",
+      "ourMeanProjection": 16.1,
+      "ourMedianProjection": 16.0,
+      "marketImpliedProbability": 0.5,
+      "internalFairProbability": 0.63,
+      "fairOdds": -170,
+      "estimatedEdgePctPoints": 13.0,
+      "edgeBucket": "8%+",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "B+",
+      "priorDecisionStatus": "BET",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "thesisId": "JUDKINS_SAMPSON_OUT_VOLUME",
+      "stakeUnitsIfReverified": 0.5,
+      "actualUserAction": "UNCONFIRMED",
+      "isNewDecision": false,
+      "reason": "Dylan Sampson's IR placement remains confirmed and CBS Week 2 projections still support a workload above the old 12.5 threshold, but PRIME did not verify a newer sportsbook-specific rushing-attempt quote after the 12:07 ET Covers snapshot. Keep the prior recommendation conditional on immediate live verification: O12.5 through -115 remains acceptable; O13.5 only at -115 or better; O14.5+ requires a fresh reprice and is not automatically playable."
+    },
+    {
+      "decisionId": "2026W2-AMONRA-THURSDAY-20260916-145426",
+      "timestampEt": "2026-09-16 14:54:26",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Amon-Ra St. Brown",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEPTIONS/RECEIVING_YARDS",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["TARGET_SHARE", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "Current independent projections remain too dispersed to establish a robust 4-5 percentage-point fair-probability edge. CBS projects 7.0 receptions/77.5 yards, Dimers 7.0/85.2, Fantasy Info Central 73.2 receiving yards, while numberFire/FanDuel is much higher at 117.47. The latest sportsbook-specific public reference found outside the prior 14:09 Covers snapshot was BetMGM 7.5 receptions and 81.5 receiving yards published at 11:20 ET, which is older and does not improve the actionable state."
+    },
+    {
+      "decisionId": "2026W2-GIBBS-RECYDS-20260916-145426",
+      "timestampEt": "2026-09-16 14:54:26",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEIVING_YARDS",
+      "decisionStatus": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["ROLE_CHANGE", "TARGET_SHARE", "OL_INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "Public market references cluster around 28.5-29.5 receiving yards, but independent projections disagree materially: Fantasy Info Central projects 28.1, while Covers analyst Jason Logan gives a 35-yard fair number and DraftEdge lists 38.6. That disagreement is insufficient for a formal price-adjusted edge, so PRIME will not chase the Week 1 workload narrative into a bet."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Cleveland Browns, 2026-09-15",
+      "claim": "Dylan Sampson was placed on injured reserve and Jaleel McLaughlin was signed to the active roster."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills / Detroit Lions official injury reports accessed 2026-09-16 14:54 ET",
+      "claim": "Through Tuesday, Detroit OL Christian Mahogany and Blake Miller were DNP, Juice Scruggs was limited; Buffalo RB Ty Johnson was limited Monday and Tuesday. Wednesday participation had not populated yet."
+    },
+    {
+      "classification": "model_projection",
+      "source": "CBS Week 2 projections accessed 2026-09-16",
+      "claim": "Current CBS Week 2 page shows Quinshon Judkins around 15.0 rushing attempts and 50.9 rushing yards; other CBS endpoint snapshots today showed 17.0 attempts, illustrating live model revision rather than stable sportsbook truth."
+    },
+    {
+      "classification": "model_projection",
+      "source": "CBS / Dimers / Fantasy Info Central / FanDuel numberFire accessed 2026-09-16",
+      "claim": "Amon-Ra St. Brown projection range remains wide: CBS 7.0 receptions/77.5 receiving yards, Dimers 7.0/85.2, FIC 73.2 receiving yards, numberFire 117.47 receiving yards."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "Covers Jason Logan, updated 2026-09-16 13:00 ET",
+      "claim": "Logan highlights Amon-Ra 7+ receptions and Jahmyr Gibbs 30+ receiving yards in prediction-market format; these are analyst signals, not conventional sportsbook BET recommendations for PRIME."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and prop_watch_state lastProcessedGrokCompletedAt.",
+    "No fresh conventional sportsbook-specific Judkins rushing-attempt quote was verified after the prior 12:07 ET snapshot, so PRIME does not re-alert or present +100 as executable at 14:54 ET.",
+    "DET@BUF injury context is unchanged in a material betting sense pending Wednesday participation/game-status updates; offensive-line uncertainty supports monitoring but not a standalone prop bet.",
+    "No verified Week 2 user ticket appears in data/bet_history.csv; placement, stake and exposure remain unconfirmed and are not invented."
+  ]
+}
