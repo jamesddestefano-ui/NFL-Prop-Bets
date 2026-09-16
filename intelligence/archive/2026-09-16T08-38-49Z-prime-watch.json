@@ -1,0 +1,88 @@
+{
+  "runType": "prime_watch",
+  "runAt": "2026-09-16T08:38:49Z",
+  "runAtEt": "2026-09-16 04:38:49 ET",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "isNewPass": false,
+    "note": "Latest Grok completedAt matches the most recent processed pass in the compact history index; no Grok intelligence promoted as new."
+  },
+  "marketState": {
+    "summary": "No current Week 2 player prop clears PRIME's required price-adjusted edge threshold at this checkpoint. The strongest role-change thesis is Jahmyr Gibbs after Isiah Pacheco's back surgery, but the rushing-yards market has already repriced upward and independent projections disagree around the current threshold. Dalton Kincaid's Week 1 route/target expansion is encouraging, but current receiving markets already price much of the role change and do not show a robust 4-5 percentage-point edge.",
+    "alert": false
+  },
+  "evaluations": [
+    {
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "game": "DET@BUF",
+      "gameDate": "2026-09-17",
+      "propType": "RUSH_YARDS",
+      "market": "Rushing Yards",
+      "side": "OVER",
+      "observedLine": 90.5,
+      "observedPrice": null,
+      "sportsbook": "current public multi-book tracker; executable Over price not sufficiently verified for a formal bet",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "confirmedFacts": [
+        "Isiah Pacheco underwent back surgery and is expected to miss roughly 12 weeks.",
+        "Gibbs handled 29 carries for 156 rushing yards in Week 1."
+      ],
+      "projectionContext": {
+        "FantasyPros": 100.4,
+        "Dimers": 91.5,
+        "OptimalBet": 89.5
+      },
+      "decisionReason": "Role change is materially bullish, but the market has repriced to roughly 90.5 and independent projections straddle the number. Detroit is also a road underdog in a high-total Thursday game, increasing game-script uncertainty. A projection-above-line argument alone is insufficient; no verified sportsbook/price pair currently supports a formal BET.",
+      "sources": [
+        "Reuters / Lions Pacheco surgery report, accessed 2026-09-16",
+        "FantasyPros Week 2 RB projections, updated 2026-09-15",
+        "Dimers Week 2 Gibbs projection, accessed 2026-09-16",
+        "Optimal Bet Gibbs rushing-yards projection, accessed 2026-09-16",
+        "CLEATZ current DET@BUF prop board, accessed 2026-09-16"
+      ]
+    },
+    {
+      "player": "Dalton Kincaid",
+      "team": "BUF",
+      "opponent": "DET",
+      "game": "DET@BUF",
+      "gameDate": "2026-09-17",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "observedLine": 49.5,
+      "observedPrice": -116,
+      "sportsbook": "bet365 via Statz NFL",
+      "status": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "roleContext": "Week 1 usage reports showed approximately 76.9% snaps, 68.8% route participation, 21.4% target share and 27.3% TPRR.",
+      "projectionContext": {
+        "FantasyPros": 52.1,
+        "RosterAudit": 51.7
+      },
+      "decisionReason": "The Week 1 usage is encouraging, but consensus-style projections sit only slightly above 49.5 and do not justify paying -116. A separate much higher public projection is treated as an outlier and is not allowed to create a bet by itself. No robust price-adjusted edge is established.",
+      "sources": [
+        "Fantasy Life Week 1 usage review, accessed 2026-09-16",
+        "FantasyPros Week 2 TE projections, updated 2026-09-15",
+        "RosterAudit Week 2 Kincaid projection, accessed 2026-09-16",
+        "Statz NFL bet365 prop board, accessed 2026-09-16"
+      ]
+    }
+  ],
+  "result": "NO_ALERT_NO_BET",
+  "nextCheckpoint": "Continue monitoring Wednesday injury/practice reporting and Thursday pregame repricing. Recalculate only from verified current sportsbook lines and prices; do not chase Gibbs if the market moves further beyond a defensible play-to threshold."
+}
