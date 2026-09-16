@@ -1,0 +1,103 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-16 03:47:50",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. The current live completedAt is unchanged from the compact history and prior processed checkpoint."
+  },
+  "week2Refresh": {
+    "materialChangeRequiringUserAction": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "newIntelligence": [
+      {
+        "classification": "model_projection",
+        "player": "Jahmyr Gibbs",
+        "propType": "RUSH_YARDS",
+        "market": "Current public references remain around 90.5-91.5. A Sep. 15 DataSkrive/Bleacher Nation board lists 90.5 Over -114; the prior checkpoint had DraftKings indexed at 91.5 -113 and CLEATZ around 90.5.",
+        "decision": "PASS/WATCH",
+        "steamState": "REDUCED_EDGE",
+        "reason": "The original 88.5 watch has already moved upward. Week 1 usage remains elite, but Detroit has unresolved offensive-line injuries and the market has absorbed much of the workload thesis. Do not chase."
+      },
+      {
+        "classification": "model_projection",
+        "player": "Jahmyr Gibbs",
+        "propType": "RUSH_ATTEMPTS",
+        "market": "A Sep. 15 DataSkrive/Bleacher Nation board lists 19.5 Over +102.",
+        "decision": "WATCH",
+        "reason": "Dwain McFarland/Fantasy Life reports Gibbs handled 91% of Detroit rushing attempts in Week 1, but FantasyPros' prior consensus projection was 18.7 attempts, Detroit is on the road, and OL availability remains unresolved. The plus-money price is interesting but does not yet establish PRIME's required robust fair-probability edge."
+      },
+      {
+        "classification": "model_projection",
+        "player": "Dalton Kincaid",
+        "propType": "RECEIVING_YARDS",
+        "market": "Public market remains roughly 49.5-50.5; prior current DraftKings indexing was around 50.5 -114.",
+        "decision": "WATCH/PASS",
+        "reason": "Fantasy Life confirms a major Week 1 role expansion: 69% route participation, 23% target share and 29% air-yard share. However, current independent projections still bracket the market (FantasyInfoCentral 47.5 versus FantasyPros 52.1), so role confirmation alone does not create a formal price-adjusted BET."
+      },
+      {
+        "classification": "attributed_report",
+        "player": "James Cook",
+        "propType": "RECEIVING_ROLE",
+        "market": "No fresh regulated sportsbook receiving-yard line/price was verified in this checkpoint.",
+        "decision": "WATCH_WITHOUT_PRICE",
+        "reason": "Fantasy Life reports 56% route participation and 25% TPRR in Week 1, but Ty Johnson remained limited Tuesday with a hamstring injury and his Thursday availability is unresolved. Do not infer a bet without an executable line and final role news."
+      },
+      {
+        "classification": "confirmed_fact",
+        "player": "Quinshon Judkins",
+        "propType": "RUSH_ATTEMPTS/RUSH_YARDS",
+        "market": "No conventional regulated-book line/price was verified after the roster change.",
+        "decision": "WATCH_WITHOUT_PRICE",
+        "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE"],
+        "reason": "Cleveland placed Dylan Sampson on injured reserve, leaving Raheim Sanders as the listed backup to Judkins and promoting Jaleel McLaughlin. This is a material role signal, but PRIME will not manufacture an edge from the news without a current sportsbook line and price."
+      },
+      {
+        "classification": "model_projection",
+        "player": "Dawson Knox",
+        "propType": "RECEIVING_YARDS",
+        "market": "VSiN cited Over 12.5 -114 and OptaAI projected 22.48.",
+        "decision": "PASS",
+        "signalTags": ["ROUTE_SHARE", "PROJECTION_DISAGREEMENT"],
+        "reason": "Opportunity-first cross-check conflicts with the projection-only case: Week 1 reporting has Knox running only 12 routes while blocking heavily. PRIME will not recommend an Over merely because one model sits well above the line."
+      }
+    ],
+    "injuryDependencies": {
+      "DetroitOL": "Tuesday estimates still had Christian Mahogany and Blake Miller as non-participants, Juice Scruggs limited, and D.J. Reed newly limited. Final Wednesday statuses remain important before any Thursday Detroit rushing/passing prop is promoted.",
+      "BuffaloBackfield": "Ty Johnson remained limited Tuesday. His final status can materially affect James Cook's third-down/routes/receiving role."
+    },
+    "steamProtection": {
+      "GibbsRushYards": "Initial 88.5 WATCH is stale. At roughly 90.5-91.5 classify as REDUCED_EDGE/PASS_AFTER_MOVE unless a fresh projection/news recalculation clears the threshold.",
+      "KincaidReceivingYards": "Do not chase solely from Week 1's 130-yard result or role-upgrade narrative. Require current book price plus a defensible 4-5 point fair-probability edge.",
+      "Judkins": "Do not bet from Dylan Sampson's IR news alone. Wait for a verified post-news sportsbook line/price and recalculate."
+    },
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "missedBetsChanged": false,
+    "passLedgerChanged": false,
+    "parlayHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No Week 2 player prop cleared PRIME's verification, price and fair-edge threshold, and no existing user ticket required action. New role/injury intelligence is preserved in this immutable checkpoint without inventing sportsbook truth."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, and intelligence/archive/2026-09-16T06-22-39Z-prime-watch.json",
+    "Dwain McFarland / Fantasy Life Week 2 Utilization Report, Sep. 14-15, 2026",
+    "Bleacher Nation / DataSkrive Jahmyr Gibbs Week 2 prop board, Sep. 15, 2026",
+    "Bleacher Nation / DataSkrive James Cook Week 2 prop board, Sep. 15, 2026",
+    "Detroit Lions official practice report, Sep. 14, 2026, plus Tuesday injury reporting Sep. 15, 2026",
+    "Buffalo Rumblings Bills-Lions injury tracker updated Sep. 15, 2026",
+    "Reuters Cleveland transaction report: Dylan Sampson placed on injured reserve Sep. 15, 2026",
+    "VSiN Lions-Bills Week 2 props and OptaAI projection, Sep. 15, 2026",
+    "Week 1 Bills snap/route role reporting used to cross-check Dawson Knox opportunity"
+  ]
+}
