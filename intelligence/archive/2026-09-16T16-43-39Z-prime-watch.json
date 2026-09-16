@@ -1,0 +1,150 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-16T16:43:39Z",
+  "runAtEt": "2026-09-16 12:43:39",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Material Week 2 price re-verification: Covers now shows Quinshon Judkins over 12.5 rushing attempts at +100 at bet365, with odds last updated 2026-09-16 12:07 ET. This replaces the prior stale 2026-09-15 22:38 ET -105 snapshot and restores/promotes the candidate to BET_NOW. PRIME keeps the prior 63% fair Over probability, implying a 13.0 percentage-point edge versus the +100 break-even rate. Play-to remains 13.5 at -115 or better; do not chase 14.5+. Current Judkins rushing-yards and receiving-yards markets remain same-thesis secondary watches rather than add-on bets.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-16T15-35-45Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-JUDKINS-CARRIES-20260916-124339",
+      "timestampEt": "2026-09-16 12:43:39",
+      "gameDate": "2026-09-20",
+      "game": "CLE@TB",
+      "player": "Quinshon Judkins",
+      "team": "CLE",
+      "opponent": "TB",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers",
+      "line": 12.5,
+      "odds": 100,
+      "marketTimestampEt": "2026-09-16 12:07",
+      "bestMarketLine": "12.5 +100 bet365 via Covers",
+      "consensusLine": null,
+      "openingLine": null,
+      "lineAtFirstDetection": 12.5,
+      "lineAtRecommendation": 12.5,
+      "priorVerifiedPrice": -105,
+      "priorVerifiedTimestampEt": "2026-09-15 22:38",
+      "ourMeanProjection": 16.1,
+      "ourMedianProjection": 16.0,
+      "externalProjections": {
+        "FantasyPros": 16.9,
+        "CBS": 17.0
+      },
+      "marketImpliedProbability": 0.5,
+      "noVigProbability": null,
+      "internalFairProbability": 0.63,
+      "fairOdds": -170,
+      "estimatedEdgePctPoints": 13.0,
+      "edgeBucket": "8%+",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "B+",
+      "decisionStatus": "BET",
+      "steamState": "BET_NOW",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "correlationTags": [],
+      "thesisId": "JUDKINS_SAMPSON_OUT_VOLUME",
+      "stakeUnits": 0.5,
+      "actualUserAction": "UNCONFIRMED",
+      "injuryNewsDependencies": "Dylan Sampson is on injured reserve. Recheck Cleveland's Wednesday practice/injury report when officially posted and re-verify the live bet365 price immediately before placement.",
+      "rationale": "The price has improved from the previously verified -105 to +100 without a worsened threshold. Judkins remains Cleveland's lead back after Dylan Sampson was placed on injured reserve; Raheim Sanders and Jaleel McLaughlin are the reserve options. FantasyPros projects 16.9 carries and CBS projects 17.0. PRIME retains the prior conservative 63% fair Over probability because the football thesis has not materially worsened. At +100 the raw break-even rate is 50%, producing a 13.0-point modeled edge. The wager is still price-specific; do not chase 14.5+ without recalculation.",
+      "placementRule": "If bet365 still shows O12.5 +100, BET_NOW for 0.5u. O12.5 remains playable through -115. O13.5 is playable only at -115 or better. At O14.5+ or juice worse than -115, PASS_AFTER_MOVE pending a fresh fair-line calculation."
+    },
+    {
+      "decisionId": "2026W2-JUDKINS-RUSHYDS-20260916-124339",
+      "timestampEt": "2026-09-16 12:43:39",
+      "gameDate": "2026-09-20",
+      "game": "CLE@TB",
+      "player": "Quinshon Judkins",
+      "team": "CLE",
+      "opponent": "TB",
+      "propType": "RUSH_YARDS",
+      "market": "Rushing Yards",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers",
+      "line": 44.5,
+      "odds": -115,
+      "marketTimestampEt": "2026-09-16 12:07",
+      "externalProjections": {
+        "FantasyPros": 65.6,
+        "CBS": 57.1
+      },
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "JUDKINS_SAMPSON_OUT_VOLUME",
+      "reason": "The market is well below major public projections, but rushing yards adds efficiency and offensive-line/game-script variance on top of the same workload thesis as the stronger rushing-attempts bet. Week 1 produced only 33 yards on 12 carries. Do not stack correlated exposure while O12.5 attempts +100 is available."
+    },
+    {
+      "decisionId": "2026W2-JUDKINS-RECYDS-20260916-124339",
+      "timestampEt": "2026-09-16 12:43:39",
+      "gameDate": "2026-09-20",
+      "game": "CLE@TB",
+      "player": "Quinshon Judkins",
+      "team": "CLE",
+      "opponent": "TB",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers",
+      "line": 10.5,
+      "odds": -115,
+      "marketTimestampEt": "2026-09-16 12:07",
+      "externalProjections": {
+        "FantasyPros": 12.8,
+        "CBS": 17.4
+      },
+      "decisionStatus": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "JUDKINS_SAMPSON_OUT_VOLUME",
+      "reason": "The prior 9.5 -115 receiving-yard lean has moved to 10.5 -115. That one-yard move erodes an already marginal edge, and it is positively correlated with the primary Judkins workload thesis. No add."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Cleveland Browns 2026-09-15 transaction release",
+      "claim": "Dylan Sampson was placed on injured reserve and Jaleel McLaughlin was signed to the active roster."
+    },
+    {
+      "classification": "market_information",
+      "source": "Covers Quinshon Judkins player-prop page",
+      "claim": "Odds last updated 2026-09-16 12:07 ET: bet365 shows Judkins O12.5 rushing attempts +100, O44.5 rushing yards -115, and O10.5 receiving yards -115."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 projections",
+      "claim": "Judkins projection: 16.9 rushing attempts, 65.6 rushing yards, 12.8 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "CBS Week 2 projections",
+      "claim": "Judkins projection: 17.0 rushing attempts, 57.1 rushing yards, 17.4 receiving yards."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and the most recently processed Grok completedAt.",
+    "The 11:35 ET checkpoint classified Judkins attempts as WATCH only because the prior -105 price was stale. Covers subsequently refreshed the sportsbook-specific line at 12:07 ET and improved the price to +100, creating a material classification change to BET_NOW.",
+    "No verified Week 2 user ticket is present in bet_history, so actual placement remains UNCONFIRMED and no bet-history row is invented.",
+    "Same-thesis Judkins rushing-yard and receiving-yard markets are not promoted while the cleaner attempts edge is available."
+  ]
+}
