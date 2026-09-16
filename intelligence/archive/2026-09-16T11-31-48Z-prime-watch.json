@@ -1,0 +1,45 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-16T11:31:48Z",
+  "runAtEt": "2026-09-16 07:31:48",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material change since the 06:37 ET Week 2 PRIME checkpoint. Cleveland's official 09/15 transaction placing Dylan Sampson on injured reserve and the official/unofficial depth-chart context continue to support Quinshon Judkins as the lead back. No Wednesday practice/injury report was available at this early-morning checkpoint. The previously captured bet365-via-Covers O12.5 rushing-attempts -105 price was not independently re-verified as executable during this run, so PRIME does not issue a new recommendation, chase, or line update. The prior price-specific BET remains conditional on live verification before placement, with O13.5 playable only at -115 or better and mandatory recalculation at 14.5+ or worse than -115.",
+  "verifiedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Cleveland Browns",
+      "publishedAtEt": "2026-09-15 15:10",
+      "claim": "Dylan Sampson was placed on injured reserve; Jaleel McLaughlin was signed to the active roster."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Cleveland Browns",
+      "publishedAtEt": "2026-09-15 16:42",
+      "claim": "The Week 2 unofficial depth chart lists Quinshon Judkins first at running back, with Dylan Sampson marked injured and Raheim Sanders next."
+    }
+  ],
+  "marketState": {
+    "player": "Quinshon Judkins",
+    "propType": "RUSH_ATTEMPTS",
+    "priorVerifiedMarket": "bet365 via Covers O12.5 -105",
+    "priorMarketTimestampEt": "2026-09-15 22:38",
+    "currentExecutablePriceVerifiedThisRun": false,
+    "priorDecision": "BET",
+    "priorSteamState": "BET_NOW",
+    "playToLine": 13.5,
+    "maxAcceptableOdds": -115,
+    "currentAction": "NO_NEW_ALERT"
+  },
+  "researchNotes": [
+    "Fresh web search at 07:31 ET found no newer official Browns injury/practice report than the Sampson IR transaction/depth-chart updates; Wednesday practice reporting is still pending.",
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the most recently processed Pulse.",
+    "Public search did not produce a sufficiently fresh, sportsbook-specific executable Judkins attempts price to overwrite the prior 22:38 ET market snapshot.",
+    "No stale line was promoted as current and no additional same-thesis Judkins receiving exposure was added."
+  ]
+}
