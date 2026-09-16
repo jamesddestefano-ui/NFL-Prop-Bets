@@ -20,6 +20,7 @@ Preferred examples:
 - Fantasy Points Data / Ryan Heath (@RyanJ_Heath)
 - Establish The Run / Evan Silva / Adam Levitan
 - JJ Zachariason (@LateRoundQB)
+- Dwain McFarland (@dwainmcfarland) / Fantasy Life — prioritize his weekly Utilization Report and role/usage analysis for snaps, routes, target share, TPRR, first-read/air-yard context, carries, backfield roles, and emerging role changes. Treat conclusions as analyst/data signals requiring independent verification before a prop decision.
 - RotoGrinders and other established betting/fantasy data sources when methodology is transparent
 
 No single expert is authoritative. Track timestamped signals and compare them with independent projections and the market.
@@ -32,6 +33,7 @@ A Grok/X-style feed should prioritize:
 - injury and transactions reporters
 - established projection/data analysts
 - prop/betting analysts with transparent reasoning
+- Dwain McFarland (@dwainmcfarland): monitor weekly Utilization Report posts and materially relevant player-role updates. Extract the underlying usage metrics and role-change claim rather than merely the fantasy recommendation. Tag these as `model_projection` or `analyst_opinion` as appropriate; do not treat them as confirmed facts unless independently verified.
 
 The feed should avoid treating retweets, anonymous screenshots, tout records, or unsupported social-media claims as facts.
 
