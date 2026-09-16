@@ -1,0 +1,134 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-16T20:15:42Z",
+  "runAtEt": "2026-09-16 16:15:42",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Material re-verification of the Week 2 Quinshon Judkins rushing-attempts opportunity. Covers' sportsbook-specific player page now states odds last updated Wed Sep 16 14:33 ET and displays bet365 Over 12.5 rushing attempts at +100. That is a newer verified market timestamp than the 12:07 ET snapshot preserved in the prior PRIME archive and restores the prior BET_NOW state, conditional on immediate live-app verification before placement. The football thesis remains supported by Cleveland placing Dylan Sampson on IR, leaving Raheim Sanders as the backup and promoting Jaleel McLaughlin. PRIME retains the prior conservative 63% fair Over probability and 0.5u recommendation at the exact 12.5/+100 pair, with play-to 13.5 at -115 or better and mandatory reprice at 14.5+. A separate Statz page displays a 15.5 rushing-attempt reference line without a sportsbook-specific executable price, so that conflicting reference is preserved as market-disagreement evidence and does not overwrite Covers' timestamped bet365 quote. Thursday DET@BUF remains non-actionable for new PRIME wagers: Dalton Kincaid has strong Week 1 route/target signals but projections materially disagree around his roughly 49.5-51.5 receiving-yard market, while Detroit has two offensive linemen out and Ty Johnson remains questionable. No verified Week 2 user ticket is recorded.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-16T18-54-26Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-JUDKINS-CARRIES-REVERIFY-20260916-161542",
+      "timestampEt": "2026-09-16 16:15:42",
+      "gameDate": "2026-09-20",
+      "game": "CLE@TB",
+      "player": "Quinshon Judkins",
+      "team": "CLE",
+      "opponent": "TB",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers",
+      "line": 12.5,
+      "odds": 100,
+      "marketTimestampEt": "2026-09-16 14:33",
+      "bestMarketLine": "12.5 +100 bet365 via Covers",
+      "consensusLine": null,
+      "ourMeanProjection": 16.1,
+      "ourMedianProjection": 16.0,
+      "marketImpliedProbability": 0.50,
+      "noVigProbability": null,
+      "internalFairProbability": 0.63,
+      "fairOdds": -170,
+      "estimatedEdgePctPoints": 13.0,
+      "edgeBucket": "8%+",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "B+",
+      "decisionStatus": "BET",
+      "steamState": "BET_NOW",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "MARKET_MOVE", "EXPERT_CONSENSUS", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": [],
+      "thesisId": "JUDKINS_SAMPSON_OUT_VOLUME",
+      "stakeUnitsIfLiveVerified": 0.5,
+      "actualUserAction": "UNCONFIRMED",
+      "reason": "Covers now supplies a newer sportsbook-specific timestamp and exact bet365 pair than the stale 12:07 snapshot. Sampson's IR placement materially improves Judkins' volume floor. Preserve price discipline: the recommendation applies only to O12.5 +100 if still live; O12.5 remains playable through -115, O13.5 only at -115 or better, and O14.5+ requires a fresh distribution/price calculation. A separate Statz reference line of 15.5 lacks sportsbook-specific executable odds and is treated as disagreement evidence, not as authoritative bet365 truth."
+    },
+    {
+      "decisionId": "2026W2-KINCAID-RECYDS-20260916-161542",
+      "timestampEt": "2026-09-16 16:15:42",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Dalton Kincaid",
+      "team": "BUF",
+      "opponent": "DET",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "bet365 via Statz / BetMGM market context",
+      "line": 49.5,
+      "odds": -116,
+      "marketTimestampEt": "2026-09-16 current crawl; BetMGM 11:41 ET",
+      "ourMeanProjection": 54.0,
+      "ourMedianProjection": 51.0,
+      "marketImpliedProbability": 0.537,
+      "internalFairProbability": 0.56,
+      "fairOdds": -127,
+      "estimatedEdgePctPoints": 2.3,
+      "edgeBucket": "2-4%",
+      "playToLine": 47.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "C+",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "MATCHUP", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "reason": "Kincaid's Week 1 route participation and target share improved materially, but independent projections are too dispersed: Fantasy Info Central is below the market while numberFire/FanDuel is far above it. At 49.5 -116 the conservative fair-probability edge is below PRIME's preferred 4-5 percentage-point threshold. Do not promote from the strong Week 1 box score or analyst Over recommendations alone."
+    },
+    {
+      "decisionId": "2026W2-DETBUF-OL-CONTEXT-20260916-161542",
+      "timestampEt": "2026-09-16 16:15:42",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": null,
+      "propType": "CONTEXT",
+      "decisionStatus": "WATCH",
+      "signalTags": ["OL_INJURY", "INJURY"],
+      "reason": "Official Week 2 injury reporting now lists Detroit OL Christian Mahogany and Blake Miller out, while Buffalo RB Ty Johnson is questionable. This is a material context update for Thursday props but does not by itself create a price-adjusted player-prop BET."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Cleveland Browns transaction via Reuters, 2026-09-15",
+      "claim": "Dylan Sampson was placed on injured reserve; Raheim Sanders is the backup to Quinshon Judkins and Jaleel McLaughlin was promoted to the active roster."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "NFL/Detroit official Week 2 injury reporting, accessed 2026-09-16",
+      "claim": "Detroit OL Christian Mahogany and Blake Miller are out for Thursday; Buffalo RB Ty Johnson is questionable."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers player-prop page",
+      "claim": "Odds last updated Wed Sep 16 14:33 ET; bet365 displays Quinshon Judkins Over 12.5 rushing attempts +100."
+    },
+    {
+      "classification": "market_reference",
+      "source": "Statz NFL",
+      "claim": "Statz currently displays a 15.5 Judkins rushing-attempt reference line without a sportsbook-specific executable attempts price; preserved as market disagreement only."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Statz NFL / BetMGM",
+      "claim": "Dalton Kincaid receiving yards is around 49.5 at bet365 (-116) and 49.5 at BetMGM; FanDuel Research separately referenced 51.5 Wednesday morning."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching prop_watch_state lastProcessedGrokCompletedAt.",
+    "Judkins 12.5 +100 is re-alerted only because Covers now exposes a later 14:33 ET sportsbook-specific timestamp. User must still verify the live bet365 app before placement; do not represent a public tracker as guaranteed executable at 16:15 ET.",
+    "No verified Week 2 user ticket appears in data/bet_history.csv, so actual placement, stake and exposure remain unconfirmed.",
+    "Kincaid remains WATCH rather than BET despite strong Week 1 usage because model disagreement and current juice prevent a robust 4-5 percentage-point edge."
+  ]
+}
