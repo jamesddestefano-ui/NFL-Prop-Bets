@@ -1,0 +1,123 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-16T15:35:45Z",
+  "runAtEt": "2026-09-16 11:35:45",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new actionable PRIME wager at the 11:35 ET checkpoint. Quinshon Judkins rushing attempts remains price-conditional because the last sportsbook-specific O12.5 -105 snapshot is still timestamped 2026-09-15 22:38 ET and no newer executable rushing-attempt price was independently verified. Fresh DET@BUF research found no edge strong enough to promote: Jahmyr Gibbs remains around 90.5 rushing yards with major projection disagreement; Josh Allen passing yards remains around 248.5-251.5 with projection/game-environment disagreement; Amon-Ra St. Brown is now being quoted around 79.5-84.5 across public references but independent projections are widely dispersed; James Cook rushing yards remains around 78.5 and his receiving-yard market is around 14.5-15.5, but Ty Johnson's hamstring status is unresolved and the only sportsbook-specific receiving Over found at 14.5 was -123, beyond PRIME's normal price discipline. No bet is justified from projection or injury speculation alone.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-16T14-35-56Z-prime-watch.json"
+  },
+  "candidateChecks": [
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "marketSnapshot": "Last verified sportsbook-specific public snapshot remains bet365 via Covers O12.5 -105",
+      "marketTimestampEt": "2026-09-15 22:38",
+      "status": "WATCH",
+      "steamState": "STILL_PLAYABLE_IF_REVERIFIED",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE"],
+      "reason": "Dylan Sampson remains on injured reserve and Judkins is positioned as the lead back, but no fresh executable rushing-attempt line/price was verified. Do not treat the stale snapshot as current."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RUSH_YARDS",
+      "marketSnapshot": "Public market references remain around O90.5 -114",
+      "observedAtEt": "2026-09-16 11:35",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["RUSH_SHARE", "PROJECTION_DISAGREEMENT", "GAME_SCRIPT"],
+      "reason": "FantasyPros projects 101.1 rushing yards, but another major public projection path is dramatically lower and the market has already repriced into the low 90s after Gibbs' 29-carry Week 1. The disagreement is too large for a defensible 4-5 percentage-point price-adjusted edge."
+    },
+    {
+      "player": "Josh Allen",
+      "game": "DET@BUF",
+      "propType": "PASS_YARDS",
+      "marketSnapshot": "SportsGambler O248.5 -114/U248.5 -114; Dunkel 251.5 with Over -112",
+      "observedAtEt": "2026-09-16 11:35",
+      "status": "PASS",
+      "signalTags": ["PROJECTION_DISAGREEMENT", "PACE", "GAME_SCRIPT", "DEFENSIVE_INJURY"],
+      "reason": "FantasyPros projects 239.0 passing yards and another public model is lower, while Detroit allowed 410 passing yards in Week 1 and the game total has risen into the mid-50s. The conflicting projection and environment paths do not support a robust fair-probability edge at the current price."
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "marketSnapshot": "FanDuel via Fantasy Info Central O79.5 -114 on its Week 2 table; BetMGM article published 11:20 ET lists 81.5 without executable juice; Action expert cards range into the mid-80s",
+      "observedAtEt": "2026-09-16 11:35",
+      "status": "PASS",
+      "signalTags": ["TARGET_SHARE", "ROUTE_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "Week 1 volume was elite (14 targets, 10 catches), but current projection sources materially disagree: FantasyPros is above the market while CBS, 4for4 and Fantasy Info Central are below it, with another public model an extreme high outlier. Do not turn high target share alone into a receiving-yards wager at a mature 79.5-81.5 market."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "marketSnapshot": "Fantasy Info Central displays BetOnlineAG O14.5 -123 with a 17.2-yard projection; broader consensus context is around 15.5",
+      "observedAtEt": "2026-09-16 11:35",
+      "status": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "playToLine": 14.5,
+      "maxAcceptableOdds": -115,
+      "signalTags": ["INJURY", "ROLE_CHANGE", "PROJECTION_DISAGREEMENT"],
+      "reason": "Ty Johnson is listed questionable with a hamstring after being inactive in Week 1, but Cook had only 12 receiving yards on four targets in that game. At O14.5 -123 the available projection edge is too small after price and role uncertainty. Reopen only if Ty Johnson is ruled out, Cook's passing-down role is independently supported, and a regulated sportsbook verifies 14.5 at -115 or better (or an equivalent better threshold/price)."
+    },
+    {
+      "player": "Dawson Knox",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "marketSnapshot": "O12.5 -114 remains publicly visible",
+      "observedAtEt": "2026-09-16 11:35",
+      "status": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT"],
+      "reason": "No role change overrides the prior rejection: Week 1 usage was blocking-heavy with only 12 routes and one target. The VSiN/OptaAI bullish projection remains an analyst/model signal rather than sufficient evidence for a BET."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills Week 1 inactive report",
+      "claim": "Ty Johnson was inactive in Week 1 with a hamstring injury; current Week 2 public injury listings continue to show him questionable."
+    },
+    {
+      "classification": "market_information",
+      "source": "Action Network / SportsGambler / FanDuel Research / Fantasy Info Central public Week 2 pages",
+      "claim": "Current DET@BUF reference numbers remain approximately Gibbs 90.5 rushing yards, Cook 78.5 rushing yards, Allen 248.5-251.5 passing yards, Amon-Ra 79.5-81.5 receiving yards, and Cook 14.5-15.5 receiving yards. Exact sportsbook and juice are preserved only where publicly exposed."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 projections",
+      "claim": "FantasyPros currently projects Gibbs 101.1 rushing yards, Cook 84.3 rushing yards, Allen 239.0 passing yards, and Amon-Ra 87.5 receiving yards. These are model inputs only and do not create bets by themselves."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "ESPN / Action Network injury listings",
+      "claim": "Ty Johnson is currently listed questionable with a hamstring for Thursday's DET@BUF game."
+    },
+    {
+      "classification": "market_information",
+      "source": "Current DET@BUF game market",
+      "claim": "The game total is around 54.5, supporting a high-scoring environment but not sufficient by itself to override player-level price and projection disagreement."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the most recently processed completedAt.",
+    "Fresh public research at the 11:35 ET checkpoint found no sportsbook-specific Judkins rushing-attempt price newer than the 2026-09-15 22:38 ET bet365/Covers snapshot.",
+    "Ty Johnson's questionable status is a conditional James Cook receiving-role signal, not a confirmed role change; the currently exposed O14.5 -123 price does not clear PRIME's edge threshold.",
+    "No verified Week 2 user ticket is recorded in bet_history and no same-thesis exposure was added.",
+    "No canonical decision, bet, missed-bet, pass, parlay, or weekly-attribution ledger required a new row because this checkpoint produced no material classification change requiring user attention."
+  ]
+}
