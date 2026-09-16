@@ -1,0 +1,99 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-16T22:15:09Z",
+  "runAtEt": "2026-09-16 18:15:09",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material PRIME decision change since the 17:47 ET checkpoint. The Grok feed remains unchanged at completedAt 2026-09-12T17:05:00Z. Quinshon Judkins Over 12.5 rushing attempts +100 at bet365 via Covers remains only a last-known sportsbook-specific reference from the 14:33 ET snapshot; no newer executable attempts price was independently verified, so do not present +100 as current without live-app confirmation. Thursday DET@BUF remains non-actionable at current verified public context: Dalton Kincaid receiving yards is listed at 49.5 on BetMGM's same-day market article but without an exposed price, while other public references remain around 50.5-51.5; Amon-Ra St. Brown remains around 79.5-81.5 with materially dispersed projections. Buffalo's final injury report remains unchanged with Ty Johnson, Cole Bishop and T.J. Sanders questionable and no game designation for Kincaid or Dawson Knox. Weather remains light-wind/minimal-rain and is not a material prop adjustment. No verified Week 2 user ticket requires action.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-16T21-47-44Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "lastVerifiedReference": "bet365 via Covers O12.5 +100 at 2026-09-16 14:33 ET",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "No newer sportsbook-specific attempts quote independently verified; football thesis unchanged, but last-known price is stale for execution."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "currentMarketContext": "BetMGM same-day article lists 49.5 without exposed price; other public references remain around 50.5-51.5",
+      "reason": "Role is encouraging but price-adjusted edge is not robust across dispersed independent projections; no complete sportsbook line+odds pair improves the prior decision."
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "currentMarketContext": "Public market remains roughly 79.5-81.5",
+      "reason": "Week 1 target concentration is strong, but independent projections remain materially dispersed and no new price creates a sufficiently robust edge."
+    },
+    {
+      "player": "Dawson Knox",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "reason": "Bullish projection disagreement persists, but Week 1 route/target role remains too weak to justify an Over from projection alone."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official final Week 2 injury report, 2026-09-16 15:19 ET",
+      "claim": "Ty Johnson, Cole Bishop and T.J. Sanders are questionable; Dalton Kincaid and Dawson Knox carry no game designation."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "BetMGM same-day player-prop article, published 2026-09-16 11:41 ET",
+      "claim": "Dalton Kincaid receiving yards line listed at 49.5; article did not expose a complete current odds pair in the retrieved text."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "BetMGM same-day player-prop article, published 2026-09-16 11:20 ET",
+      "claim": "Amon-Ra St. Brown receiving yards line listed at 81.5."
+    },
+    {
+      "classification": "model_projection",
+      "source": "numberFire via FanDuel Research",
+      "claim": "Dalton Kincaid projected 73.66 receiving yards; Amon-Ra St. Brown projected 117.47 receiving yards. These remain projections only and do not override market/role uncertainty."
+    },
+    {
+      "classification": "model_projection",
+      "source": "StatIQ current Week 2 board",
+      "claim": "Dalton Kincaid 51.5 line vs 48.7 projection; Amon-Ra St. Brown 80.5 line vs 83.3 projection; Dawson Knox 12.5 line vs 23.2 projection."
+    },
+    {
+      "classification": "weather",
+      "source": "Rochester Democrat and Chronicle/Yahoo and Fantasy Info Central, 2026-09-16",
+      "claim": "Thursday night in Orchard Park is expected to have light winds and little precipitation; no material weather downgrade is applied."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because grok_pulse_latest remains live at completedAt 2026-09-12T17:05:00Z, matching the compact history.",
+    "No new complete sportsbook line+odds pair materially improves the prior Kincaid/Amon-Ra decisions.",
+    "No newer Judkins rushing-attempts executable price was independently verified after the 14:33 ET Covers snapshot.",
+    "No ledger mutation was required because no decision status changed and no new user bet was verified."
+  ]
+}
