@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "runAtEt": "2026-09-16 01:08:02",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "grokPulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "note": "No new Grok pass. grok_pulse_latest remains status=live and completedAt matches the latest compact-history entry and prior processed state."
+  },
+  "week2Refresh": {
+    "materialChangeSincePriorWatch": false,
+    "userAlertRequired": false,
+    "currentActionablePlayerProp": false,
+    "decision": "NO_ALERT_NO_BET",
+    "newVerifiedInformation": [
+      "Dwain McFarland's 2026 Week 2 Utilization Report, updated Sep. 15 at 6:04 PM ET, confirms Dalton Kincaid's Week 1 role improved to 69% route participation with a 23% target share, 15.8-yard aDOT and 29% air-yard share. This strengthens the role signal but remains a one-game sample.",
+      "FantasyPros Week 2 TE consensus, last updated Sep. 15, projects Kincaid for 52.1 receiving yards. A current FanDuel/numberFire page projects 73.66, which is materially higher and treated as an outlier rather than consensus truth. With the public market around 49.5 at standard negative juice, the combined evidence does not establish a robust 4-5 percentage-point fair-probability edge.",
+      "Detroit's official Tuesday practice report remains unchanged from the prior checkpoint: Christian Mahogany and Blake Miller were non-participants, D.J. Reed and Juice Scruggs were limited. No later official practice report was available in this run.",
+      "Current public Gibbs markets remain around 90.5 rushing yards and 19.5 rushing attempts. Week 1 workload was elite, but the rushing-yard market is above the 87.92 numberFire projection shown on the current FanDuel Week 2 page and Detroit's offensive-line uncertainty remains unresolved. Do not chase.",
+      "Josh Allen's current publicly indexed bet365 passing-yards line remains 250.5 with -116 on both sides. Public projection sources are extremely dispersed, including a very high current numberFire output; no stable price-adjusted edge is established.",
+      "Dawson Knox Over 12.5 receiving yards at about -114 is being promoted publicly, but Week 1 usage was only 12 routes and one target despite 38 offensive snaps. Projection-only support is insufficient for PRIME to promote the Over."
+    ],
+    "marketSnapshot": {
+      "Dalton Kincaid RECEIVING_YARDS": "WATCH. Role signal improved materially (69% routes, 23% target share, 15.8 aDOT, 29% air-yard share), but FantasyPros is only 52.1 versus a public market near 49.5 while numberFire is an extreme high outlier. No formal BET without a stronger consensus probability edge and live sportsbook verification.",
+      "Jahmyr Gibbs RUSH_YARDS": "PASS/WATCH. Public line remains near 90.5 at standard juice. Current FanDuel/numberFire projection shown in the same Week 2 page is 87.92. Strong Week 1 workload does not justify chasing a line already above that projection while Detroit OL status is unresolved.",
+      "Jahmyr Gibbs RUSH_ATTEMPTS": "WATCH. Public threshold remains near 19.5, including plus-money Over references. Week 1 workload was 29 carries and 94% of Lions RB carries, but no independent attempts distribution was verified that clears PRIME's edge threshold after accounting for road-underdog game script and short-week workload uncertainty.",
+      "Josh Allen PASS_YARDS": "PASS/WATCH. Public bet365 line remains 250.5 at -116 both ways. Independent projection dispersion is too large to assign a stable 4-5 point fair-probability edge.",
+      "Dawson Knox RECEIVING_YARDS": "PASS. Public Over 12.5 -114 has model/analyst support, but Week 1 usage was only 12 routes and one target. Do not elevate from projection or matchup narrative alone."
+    },
+    "injuryAndRoleContext": [
+      "Detroit offensive-line availability remains the key Gibbs dependency. Mahogany and Miller were estimated/official non-participants Tuesday; Scruggs was limited.",
+      "Kincaid's Week 1 utilization is a materially positive role signal and should remain on the board, but one-week role expansion needs confirmation before assigning a high-confidence receiving-yard distribution.",
+      "Bills coach comments emphasize short-week recovery and reduced install volume; no direct player-prop role change was announced."
+    ],
+    "gameEnvironment": "Public game markets remain in the high-total range around 53.5-54.5 with Buffalo favored by roughly 3.5-4.5 depending source/time. This supports overall opportunity but is not sufficient by itself to create a player-prop wager.",
+    "overallDecision": "NO_MATERIAL_USER_ALERT"
+  },
+  "durableState": {
+    "decisionLedgersChanged": false,
+    "lineHistoryChanged": false,
+    "betHistoryChanged": false,
+    "missedBetsChanged": false,
+    "passLedgerChanged": false,
+    "parlayHistoryChanged": false,
+    "weeklyAttributionChanged": false,
+    "reason": "No Week 2 player prop moved from WATCH/PASS to a sufficiently verified BET at this checkpoint. No verified Week 2 user ticket requires action. Preserve the checkpoint in the immutable archive and continue monitoring rather than manufacturing a wager."
+  },
+  "sources": [
+    "Repository AGENTS.md, config/methodology.md, config/advanced_market_learning.md, config/sources.md, data/live_prop_board.csv, data/decision_ledger.csv, data/line_history.csv, data/bet_history.csv, data/missed_bets.csv, data/pass_ledger.csv, data/parlay_history.csv, data/weekly_attribution.csv, intelligence/grok_pulse_latest.json, intelligence/grok_pulse_history.jsonl, intelligence/prop_watch_state.json, and intelligence/archive/2026-09-16T04-45-41Z-prime-watch.json",
+    "Detroit Lions official Lions at Bills practice report: Sept. 15, published 2026-09-15 16:47 ET",
+    "Buffalo Bills official Week 2 storyline/coach reporting accessed 2026-09-16 01:08 ET",
+    "Fantasy Life / Dwain McFarland Week 2 Utilization Report, updated 2026-09-15 18:04 ET",
+    "FantasyPros Week 2 TE projections, last updated 2026-09-15",
+    "FanDuel Research / numberFire Week 2 player projection pages accessed 2026-09-16 01:08 ET",
+    "Statz NFL Josh Allen passing-yards market page accessed 2026-09-16 01:08 ET",
+    "Current public Jahmyr Gibbs prop references accessed 2026-09-16 01:08 ET",
+    "CBS/RotoWire Week 1 Dawson Knox usage recap and VSiN TNF prop page accessed 2026-09-16 01:08 ET"
+  ]
+}
