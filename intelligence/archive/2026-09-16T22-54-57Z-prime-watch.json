@@ -1,0 +1,109 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-16T22:54:57Z",
+  "runAtEt": "2026-09-16 18:54:57",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material PRIME decision change since the 18:15 ET checkpoint. The Grok feed remains unchanged at completedAt 2026-09-12T17:05:00Z. Detroit's final official injury report now confirms starting OL Christian Mahogany and Blake Miller are OUT for Thursday at Buffalo, with Juice Scruggs full and D.J. Reed questionable. This converts prior Detroit offensive-line uncertainty into confirmed absences, but current publicly verifiable prop context still does not create a robust price-adjusted BET: Amon-Ra St. Brown remains around 79.5-81.5 receiving yards in public references with materially dispersed projections; Jahmyr Gibbs remains around 88.5-90.5 rushing yards and 19.5 rushing attempts in sportsbook/public references, but the two starting OL absences increase downside uncertainty rather than create a clean edge; Dalton Kincaid remains around 49.5-51.5 receiving yards with projection disagreement. Quinshon Judkins Over 12.5 rushing attempts +100 remains only a last-known sportsbook-specific reference from earlier Wednesday; no newer executable attempts quote was independently verified. No verified Week 2 user ticket requires action.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-16T22-15-09Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "lastVerifiedReference": "bet365 via Covers O12.5 +100 at 2026-09-16 14:33 ET",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "No newer sportsbook-specific attempts quote independently verified; football thesis remains supported by Dylan Sampson's IR placement, but stale price cannot be represented as executable."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "currentMarketContext": "Public references remain roughly 49.5-51.5 receiving yards; a complete current sportsbook line+odds pair was not independently verified in this pass.",
+      "reason": "Week 1 role was encouraging, but independent projections remain too dispersed for a robust 4-5 percentage-point fair-probability edge at the current market neighborhood."
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "currentMarketContext": "Public references remain roughly 79.5-81.5 receiving yards.",
+      "reason": "Target concentration is strong, but projection dispersion remains large. Detroit's two confirmed starting OL absences can increase short-area target concentration while also reducing overall offensive efficiency, so no directional edge is promoted without a stronger price/probability case."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RUSH_YARDS/RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "currentMarketContext": "BetMGM published 88.5 rushing yards and 19.5 rushing attempts earlier Wednesday; FanDuel Research referenced 90.5 rushing yards Wednesday morning. Public consensus context remains near those thresholds.",
+      "reason": "Week 1 bell-cow usage is real, but the confirmed absences of starting LG Christian Mahogany and RT Blake Miller raise run-efficiency and protection uncertainty. No current complete sportsbook price plus independent probability model clears PRIME's threshold."
+    },
+    {
+      "player": "Dawson Knox",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "reason": "Bullish projection disagreement persists, but Week 1 route/target role remains too weak to justify an Over from projection alone."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official final Week 2 injury report, 2026-09-16 15:10 ET",
+      "claim": "Christian Mahogany (hip) and Blake Miller (knee) are OUT; D.J. Reed (foot) is questionable; Juice Scruggs (knee) practiced fully Wednesday and has no game designation."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official final Week 2 injury report, 2026-09-16 15:19 ET",
+      "claim": "Ty Johnson, Cole Bishop and T.J. Sanders are questionable; Dalton Kincaid and Dawson Knox carry no game designation."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "BetMGM Jahmyr Gibbs Week 2 prop article, 2026-09-16 11:10 ET",
+      "claim": "BetMGM published Gibbs rushing yards 88.5, rushing attempts 19.5, receiving yards 30.5 and receptions 3.5; the retrieved article did not expose current odds for those lines."
+    },
+    {
+      "classification": "market_information",
+      "source": "SportsGambler DET@BUF page accessed 2026-09-16 evening",
+      "claim": "Public market context listed Amon-Ra St. Brown 79.5 receiving yards O/U -114 and Dalton Kincaid 51.5 receiving yards O/U -114, but the underlying sportsbook identity was not exposed, so these are not treated as executable sportsbook truth."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "FantasyAlarm TNF props, 2026-09-16",
+      "claim": "Analyst recommendations included Gibbs over 123.5 rushing+receiving yards, Josh Allen over 30.5 pass attempts and Jared Goff under 35.5 pass attempts. These are analyst signals only and are not promoted without independent price/probability verification."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Covers DET@BUF matchup model accessed 2026-09-16",
+      "claim": "The model projects roughly 132.8 total plays and about 20.5 Gibbs carries, but the projection does not by itself justify a bet."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "Detroit final OL designations are newly confirmed versus the prior watch's uncertainty, but they do not change any tracked decision to BET or create a user-ticket action.",
+    "No new complete sportsbook line+odds pair materially improves the Kincaid, Amon-Ra, Gibbs or Judkins states.",
+    "No ledger mutation beyond this immutable archive was required because no decision status changed and no new user bet was verified."
+  ]
+}
