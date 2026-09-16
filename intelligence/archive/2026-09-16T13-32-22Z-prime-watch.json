@@ -1,0 +1,123 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-16T13:32:22Z",
+  "runAtEt": "2026-09-16 09:32:22",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new actionable PRIME wager at the 09:32 ET checkpoint. Quinshon Judkins rushing attempts remains price-conditional because the latest sportsbook-specific public snapshot is still bet365 O12.5 -105 timestamped 2026-09-15 22:38 ET, so it is not promoted as current executable truth. Fresh DET@BUF market checks show no robust price-adjusted edge on Jahmyr Gibbs or Josh Allen after independent projection comparison. Wednesday final injury designations are not yet available, and Thursday weather currently presents rain risk but no strong-wind signal requiring a material downgrade.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-16T12-29-58Z-prime-watch.json"
+  },
+  "candidateChecks": [
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "marketSnapshot": "bet365 via Covers O12.5 -105",
+      "marketTimestampEt": "2026-09-15 22:38",
+      "status": "WATCH",
+      "steamState": "STILL_PLAYABLE_IF_REVERIFIED",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "The Sampson-IR/lead-back role thesis remains intact, but the public sportsbook-specific price has not received a newer timestamp. Do not treat the prior line as current and do not chase without live verification."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RUSH_YARDS",
+      "marketSnapshot": "BetMGM O88.5 -115; bet365 O90.5 -110; FanDuel O90.5 -114; Fanatics O85.5 -135",
+      "marketTimestampEt": "2026-09-16 09:12",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Fresh price did not create a clean edge. Current FanDuel Research/numberFire projection is 87.62 rushing yards, while FantasyPros/CBS remain much higher and other projections cluster nearer the high-80s/low-90s. Projection disagreement is material and the market is near the conservative projection cluster. Do not extrapolate Week 1's 156 rushing yards into an Over."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "marketSnapshot": "BetRivers O4.5 +115; FanDuel O4.5 +110; bet365 O4.5 +105",
+      "marketTimestampEt": "2026-09-16 09:12",
+      "status": "PASS",
+      "reason": "FantasyPros projects 4.1 catches and other previously checked projections sit around or below the 4.5 threshold. Plus money does not by itself establish an Over edge."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "marketSnapshot": "theScore Bet O29.5 -110",
+      "marketTimestampEt": "2026-09-16 09:12",
+      "status": "PASS",
+      "reason": "Current FanDuel Research/numberFire projection is 29.26 receiving yards; FantasyPros is about 30.5 and other projections remain dispersed. The market is already centered on the projection cluster."
+    },
+    {
+      "player": "Josh Allen",
+      "game": "DET@BUF",
+      "propType": "PASS_YARDS",
+      "marketSnapshot": "Fanatics O245.5 -115; BetMGM O248.5 -115; FanDuel O248.5 -114; theScore Bet O249.5 -110; bet365 O254.5 -115",
+      "marketTimestampEt": "2026-09-16 09:22",
+      "status": "PASS",
+      "reason": "FantasyPros consensus updated Sep. 16 projects 242.8 passing yards, below the best low-juice threshold. FanDuel Research/numberFire publishes an extreme 366.56-yard projection, creating major model disagreement rather than a defensible probability edge. A SportsBettingDime article liked an early 220.5 target but explicitly stated that 220.5 was a projected target, not a posted sportsbook line; it cannot be transferred to the current 245.5-255.5 market."
+    },
+    {
+      "player": "Josh Allen",
+      "game": "DET@BUF",
+      "propType": "PASS_ATTEMPTS",
+      "marketSnapshot": "bet365 O30.5 -120; Fanatics O30.5 -115; Caesars O30.5 -117; BetRivers O31.5 -114",
+      "marketTimestampEt": "2026-09-16 09:22",
+      "status": "PASS",
+      "reason": "FantasyPros projects 30.6 attempts, effectively on top of the 30.5 market. No price-adjusted Over or Under edge is established."
+    },
+    {
+      "player": "Josh Allen",
+      "game": "DET@BUF",
+      "propType": "OTHER",
+      "market": "Pass Completions",
+      "marketSnapshot": "Fanatics O20.5 -125; theScore Bet O20.5 -135; bet365 O21.5 -115; Caesars O21.5 +105",
+      "marketTimestampEt": "2026-09-16 09:22",
+      "status": "PASS",
+      "reason": "FantasyPros projects 20.3 completions. Current Over prices at 20.5 require substantial juice, while 21.5 sits above the consensus projection; no robust edge."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Cleveland Browns / Reuters",
+      "claim": "Dylan Sampson is on injured reserve and will miss at least four games; Raheim Sanders is expected to back up Quinshon Judkins, with Jaleel McLaughlin added to the active roster."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 QB consensus, updated Sep. 16",
+      "claim": "Josh Allen: 30.6 pass attempts, 20.3 completions, 242.8 passing yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FanDuel Research / numberFire",
+      "claim": "Josh Allen projection is 366.56 passing yards; Jahmyr Gibbs projection is 87.62 rushing yards and 29.26 receiving yards. The Allen passing projection is treated as a high disagreement signal, not sportsbook truth."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Tuesday DET/BUF injury reporting",
+      "claim": "Detroit has several defensive players on the injury report, including D.J. Reed with a foot issue; Buffalo also has multiple questionable/limited players. Wednesday final statuses were not yet available at this checkpoint."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Buffalo-area Thursday forecast",
+      "claim": "Rain/showers are possible Thursday night, but current forecasts do not indicate strong wind as a major passing-volume factor. Recheck closer to kickoff."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the most recently processed completedAt.",
+    "The prior Judkins BET classification remains conditional on re-verifying the exact live number. A stale 22:38 ET snapshot is not treated as current sportsbook truth.",
+    "Fresh Josh Allen and Gibbs prices were compared with independent projections rather than promoted from matchup narrative or Week 1 box-score production.",
+    "No Week 2 user ticket is recorded in bet_history, no same-thesis exposure was added, and no parlay recommendation was created.",
+    "No canonical decision, bet, missed-bet, pass, parlay, or weekly-attribution ledger required a new row because this checkpoint produced no material classification change."
+  ]
+}
