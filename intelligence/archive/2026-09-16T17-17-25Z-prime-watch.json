@@ -1,0 +1,136 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-16T17:17:25Z",
+  "runAtEt": "2026-09-16 13:17:25",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material PRIME decision change since the 12:43 ET checkpoint. Quinshon Judkins over 12.5 rushing attempts at +100 on bet365 remains the last publicly verified sportsbook-specific number, with Covers still timestamping that market 2026-09-16 12:07 ET; the prior BET_NOW/play-to rules remain unchanged and are not re-alerted without a newer executable price or football catalyst. A fresh DET@BUF Amon-Ra St. Brown market snapshot timestamped 12:49 ET shows DraftKings over 7.5 receptions +101 and bet365 over 78.5 receiving yards -115, but PRIME does not promote either market: FantasyPros projects exactly 7.5 receptions and 87.5 receiving yards while another public projection is materially more bullish on yards, leaving no independently established 4-5 percentage-point fair-probability edge. No new Grok pass or verified Week 2 user ticket was found.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-16T16-43-39Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-JUDKINS-CARRIES-CARRYFORWARD-20260916-131725",
+      "timestampEt": "2026-09-16 13:17:25",
+      "gameDate": "2026-09-20",
+      "game": "CLE@TB",
+      "player": "Quinshon Judkins",
+      "team": "CLE",
+      "opponent": "TB",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers",
+      "line": 12.5,
+      "odds": 100,
+      "marketTimestampEt": "2026-09-16 12:07",
+      "ourMeanProjection": 16.1,
+      "ourMedianProjection": 16.0,
+      "marketImpliedProbability": 0.5,
+      "internalFairProbability": 0.63,
+      "fairOdds": -170,
+      "estimatedEdgePctPoints": 13.0,
+      "edgeBucket": "8%+",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "B+",
+      "decisionStatus": "BET",
+      "steamState": "BET_NOW",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "thesisId": "JUDKINS_SAMPSON_OUT_VOLUME",
+      "stakeUnits": 0.5,
+      "actualUserAction": "UNCONFIRMED",
+      "isNewDecision": false,
+      "reason": "No newer sportsbook-specific attempts price or adverse football news was verified after the 12:43 ET alert. Carry forward the existing price-specific recommendation only if the live sportsbook still confirms the stored number; do not repeat-alert or chase beyond the stored ceiling."
+    },
+    {
+      "decisionId": "2026W2-AMONRA-REC-20260916-131725",
+      "timestampEt": "2026-09-16 13:17:25",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Amon-Ra St. Brown",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEPTIONS",
+      "market": "Receptions",
+      "side": "OVER",
+      "sportsbook": "DraftKings via Covers",
+      "line": 7.5,
+      "odds": 101,
+      "marketTimestampEt": "2026-09-16 12:49",
+      "bestMarketLine": "7.5 +101 DraftKings via Covers",
+      "consensusLine": 7.5,
+      "externalProjections": {"FantasyPros": 7.5},
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["TARGET_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "Week 1 target concentration is strong, but FantasyPros' current mean projection sits exactly on the 7.5 threshold. Without a defensible probability distribution showing a 4-5 point edge at +101, PRIME will not promote an Over merely from opportunity narrative or a point projection."
+    },
+    {
+      "decisionId": "2026W2-AMONRA-RECYDS-20260916-131725",
+      "timestampEt": "2026-09-16 13:17:25",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Amon-Ra St. Brown",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers",
+      "line": 78.5,
+      "odds": -115,
+      "marketTimestampEt": "2026-09-16 12:49",
+      "bestMarketLine": "78.5 -115 bet365 via Covers",
+      "consensusLine": "79.5-80.5",
+      "externalProjections": {"FantasyPros": 87.5, "FanDuel_numberFire": 117.47},
+      "decisionStatus": "WATCH",
+      "steamState": "STILL_PLAYABLE",
+      "signalTags": ["TARGET_SHARE", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "reason": "Multiple point projections are above the market but disagree materially on magnitude. PRIME does not have a sufficiently defensible fair-probability estimate to clear its 4-5 point threshold at -115. Keep on watch rather than convert projection disagreement into a wager."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Cleveland Browns transaction release, 2026-09-15",
+      "claim": "Dylan Sampson was placed on injured reserve and Jaleel McLaughlin was signed to the active roster."
+    },
+    {
+      "classification": "market_information",
+      "source": "Covers Quinshon Judkins player-prop page",
+      "claim": "Page still shows odds updated 2026-09-16 12:07 ET with bet365 Judkins over 12.5 rushing attempts +100."
+    },
+    {
+      "classification": "market_information",
+      "source": "Covers Amon-Ra St. Brown player-prop page",
+      "claim": "Odds updated 2026-09-16 12:49 ET show DraftKings over 7.5 receptions +101 and bet365 over 78.5 receiving yards -115; other books cluster around 79.5-80.5 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 projections",
+      "claim": "Amon-Ra St. Brown projects for 7.5 receptions and 87.5 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FanDuel Research / numberFire Week 2 projection",
+      "claim": "Amon-Ra St. Brown is projected for 117.47 receiving yards, materially above FantasyPros and therefore evidence of projection dispersion rather than a standalone betting signal."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact grok_pulse_history index and lastProcessedGrokCompletedAt.",
+    "No newer conventional sportsbook-specific Judkins rushing-attempt price was verified after the 12:07 ET Covers timestamp, so the 12:43 BET_NOW state is carried forward rather than treated as a new alert.",
+    "Amon-Ra's refreshed 12:49 ET market is informationally new but not decision-changing; opportunity and bullish point projections are insufficient without a price-adjusted fair-probability edge.",
+    "No verified Week 2 user ticket appears in bet_history; do not invent placement or exposure.",
+    "No official Cleveland Wednesday practice report with a material Judkins role change had surfaced in the reviewed sources by this checkpoint."
+  ]
+}
