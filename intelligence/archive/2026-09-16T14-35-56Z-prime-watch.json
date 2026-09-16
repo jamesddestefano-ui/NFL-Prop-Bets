@@ -1,0 +1,91 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-16T14:35:56Z",
+  "runAtEt": "2026-09-16 10:35:56",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new actionable PRIME wager at the 10:35 ET checkpoint. Quinshon Judkins rushing attempts remains price-conditional because the last sportsbook-specific O12.5 -105 snapshot is still timestamped 2026-09-15 22:38 ET and no newer executable rush-attempt price was independently verified. Current multi-book tables show Judkins rushing yards around 52.5 only in pick'em-style columns and receiving yards around 9.5-10.5, neither of which creates a verified conventional-book edge. DET@BUF prices remain broadly similar to the 09:32 checkpoint. A new Dawson Knox receiving-yards analyst/model signal at O12.5 -114 was investigated but not promoted: current FanDuel O12.5 -114 is publicly visible, yet Week 1 role evidence shows only 12 routes and one target despite 38 offensive snaps, so a projection-only Over does not clear PRIME's role-and-price requirements.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-16T13-32-22Z-prime-watch.json"
+  },
+  "candidateChecks": [
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "marketSnapshot": "Last verified sportsbook-specific public snapshot remains bet365 via Covers O12.5 -105",
+      "marketTimestampEt": "2026-09-15 22:38",
+      "status": "WATCH",
+      "steamState": "STILL_PLAYABLE_IF_REVERIFIED",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Dylan Sampson remains on IR and Judkins is the lead back, but no newer executable rushing-attempt line/price was verified. Do not treat the stale snapshot as current or chase an unverified number."
+    },
+    {
+      "player": "Dawson Knox",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "marketSnapshot": "FanDuel O12.5 -114 on current CLEATZ multi-book table; VSiN recommends O12.5 -114 with OptaAI projection 22.48",
+      "marketTimestampEt": "2026-09-16 10:35",
+      "status": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "reason": "The model/analyst signal is not sufficient by itself. Week 1 role data reports Knox played 38 of 57 snaps but blocked on 23 and ran only 12 routes, drawing one target for seven yards. Kincaid commanded the receiving role. At -114, PRIME cannot justify the roughly 57-58% fair hit probability needed to clear its normal edge threshold from the current role evidence. Reopen only if route participation/target opportunity materially improves or the market falls to a meaningfully better threshold/price."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RUSH_YARDS",
+      "marketSnapshot": "Current multi-book table remains centered near 88.5-90.5, including FanDuel O90.5 -114",
+      "marketTimestampEt": "2026-09-16 10:35",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "No material change from 09:32. Projection disagreement remains substantial and current market is near the conservative projection cluster."
+    },
+    {
+      "player": "Josh Allen",
+      "game": "DET@BUF",
+      "propType": "PASS_YARDS",
+      "marketSnapshot": "Current multi-book table remains around 248.5-253.5, including FanDuel O248.5 -114",
+      "marketTimestampEt": "2026-09-16 10:35",
+      "status": "PASS",
+      "reason": "No material change from 09:32. Independent projections remain too dispersed to establish a robust price-adjusted edge."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Cleveland Browns / Reuters",
+      "claim": "Dylan Sampson is on injured reserve and will miss at least four games; Raheim Sanders is expected to back up Quinshon Judkins, with Jaleel McLaughlin added to the active roster."
+    },
+    {
+      "classification": "market_information",
+      "source": "CLEATZ current multi-book prop table",
+      "claim": "Dawson Knox receiving yards is currently displayed at FanDuel O12.5 -114; Gibbs rushing yards remains around the high-80s/low-90s and Josh Allen passing yards around the high-240s/low-250s across visible books."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "VSiN / OptaAI",
+      "claim": "VSiN recommends Dawson Knox over 12.5 receiving yards at -114 and cites an OptaAI projection of 22.48 yards. PRIME treats this as an analyst/model signal only."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "CBS/RotoWire Week 1 role recap",
+      "claim": "Knox played 38 of 57 offensive snaps, blocked on 23 snaps, ran 12 routes, and caught his only target for seven yards in Week 1."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the most recently processed completedAt.",
+    "No new Wednesday final injury report was available during the morning checkpoint; practice/injury designations remain a later-day dependency.",
+    "The Dawson Knox signal was explicitly rejected as a projection-only wager because route and target opportunity do not yet support the required fair-probability edge at the current price.",
+    "No Week 2 user ticket is recorded in bet_history and no same-thesis exposure was added.",
+    "No canonical decision, bet, missed-bet, pass, parlay, or weekly-attribution ledger required a new row because this checkpoint produced no material classification change requiring user attention."
+  ]
+}
