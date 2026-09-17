@@ -1,0 +1,157 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T19:08:16Z",
+  "runAtEt": "2026-09-17 15:08:16",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new actionable PRIME edge since the 14:15 ET archive. Jahmyr Gibbs receiving remains PASS_AFTER_MOVE because the fresh regulated-book mapping still exceeds the stored 29.5/-115 entry ceiling. James Cook receptions/receiving yards and Dalton Kincaid remain WATCH/REDUCED_EDGE with no price-adjusted 4-5 percentage-point edge established. A fresh D.J. Moore receptions review found strong Week 1 role evidence and current O4.5 prices near -110 to -115, but independent market/probability evidence does not establish sufficient edge at the moved price, so no new bet is promoted. No new Grok pass and no Week 2 user ticket is recorded in bet_history.csv.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T18-15-51Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "sportsbook": "DraftKings via Covers",
+      "line": 31.5,
+      "odds": -114,
+      "bestMarketLine": "BetRivers O29.5 -118",
+      "storedPlayToLine": 29.5,
+      "storedMaxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "THURSDAY",
+      "signalTags": ["ROLE_CHANGE", "TARGET_SHARE", "MARKET_MOVE", "OL_INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "Covers remains last-updated 13:51 ET with DraftKings O31.5 -114, BetRivers O29.5 -118, bet365 O30.5 -115 and FanDuel O30.5 -113. The approved 29.5/-115-or-better new-entry pair has not returned."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "BetRivers via Covers",
+      "line": 2.5,
+      "odds": 112,
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["ROLE_CHANGE", "TARGET_SHARE", "INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "Covers updated 14:27 ET still shows BetRivers O2.5 +112, but independent Week 2 projections remain near 2.3 receptions/2.7-2.9 targets. Ty Johnson is questionable. No robust 4-5 percentage-point fair-probability edge is established before inactives."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "bestMarketLine": "Fanatics O15.5 -150; regulated-book cluster 17.5-18.5 around standard juice",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["ROLE_CHANGE", "TARGET_SHARE", "INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "Current Covers board at 14:27 ET remains materially unchanged: DraftKings O18.5 -109, FanDuel O17.5 -113, BetRivers O17.5 -110, bet365 O17.5 -115. Projection evidence ranges roughly 16-18 yards and does not clear PRIME's edge threshold."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "bestMarketLine": "3.5 Over about -160; 4.5 plus-money alternatives",
+      "signalTags": ["SNAP_SHARE", "ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "FantasyPros confirms a major Week 1 role improvement (about 81% snaps, 69% route share, 20.7% target share), but Covers' current computer probability for O3.5 is 61.5%, essentially identical to the raw break-even probability at roughly -160. No edge at the heavily juiced 3.5; 4.5 requires a stronger five-catch probability than current evidence supports."
+    },
+    {
+      "player": "D.J. Moore",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "Fanatics/theScore via Covers",
+      "line": 4.5,
+      "odds": -110,
+      "bestMarketLine": "O4.5 -110",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "THURSDAY",
+      "signalTags": ["ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "AIR_YARDS", "PACE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "reason": "Week 1 role was strong: FantasyPros credits 10 true targets after penalty adjustments, 31.3% adjusted target share, 74.2% route participation and 19.4 aDOT; Covers analyst projects 7.9 targets. However the earlier +105 recommendation has moved to roughly -110/-115 at regulated books, while Covers' player probability surfaces cluster only around 48-52% for O4.5. At -110, the required raw break-even is 52.38%; PRIME cannot justify the preferred 4-5 percentage-point edge after the move. Watch only, no chase."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "PROJECTION_DISAGREEMENT"],
+      "reason": "No fresh Sunday-market catalyst in this Thursday checkpoint. Preserve the prior rule: only reconsider O12.5 at -110 or better after live verification; do not chase O13.5+."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Jahmyr Gibbs player board",
+      "sourceTimestampEt": "odds last updated 2026-09-17 13:51 ET",
+      "claim": "Gibbs receiving yards remain DK O31.5 -114, BetRivers O29.5 -118, bet365 O30.5 -115, FanDuel O30.5 -113."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers James Cook player board",
+      "sourceTimestampEt": "odds last updated 2026-09-17 14:27 ET",
+      "claim": "Cook receptions best visible O2.5 +112 at BetRivers; receiving yards remain 17.5-18.5 at most major books with Fanatics 15.5 carrying prohibitive -150 juice."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers DET-BUF picks/odds",
+      "sourceTimestampEt": "accessed 2026-09-17 15:08 ET",
+      "claim": "D.J. Moore O4.5 receptions is currently about -110 at Fanatics/theScore, -112 DK/FanDuel/Caesars, -114 BetRivers and -115 bet365/Hard Rock; the analyst's earlier +105 entry is no longer available."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Beyond the Waiver Wire Week 2",
+      "sourceTimestampEt": "published 2026-09-15; accessed 2026-09-17",
+      "claim": "Moore recorded 10 true Week 1 targets after penalty-erased incompletions, a 31.3% adjusted target share, 74.2% route participation and 19.4 aDOT. Kincaid had a team-high 76.9% snap share with 71.0% route participation in the same analysis."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Covers Lions-Bills computer projections",
+      "sourceTimestampEt": "updated 2026-09-17 13:24 ET",
+      "claim": "Kincaid O3.5 receptions projected 61.5%; Cook O16.5 receiving yards 53.5%; Gibbs O80.5 rushing yards 53.5%; Amon-Ra O78.5 receiving yards 53.5%. None alone clears a robust price-adjusted edge at the currently observed sportsbook pricing."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official Week 2 report/game preview",
+      "sourceTimestampEt": "2026-09-17",
+      "claim": "Christian Mahogany and Blake Miller are out; Gibbs handled 29 carries and 5 receptions in Week 1."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official Week 2 injury report",
+      "sourceTimestampEt": "final report 2026-09-16; rechecked 2026-09-17",
+      "claim": "Cole Bishop, Ty Johnson and T.J. Sanders are questionable; Terrel Bernard has no game designation."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Weather forecast context",
+      "sourceTimestampEt": "2026-09-17",
+      "claim": "Highmark Stadium forecast is near-ideal with light wind and minimal precipitation risk; no material weather adjustment is required at this checkpoint."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "No Week 2 straight ticket is recorded in bet_history.csv.",
+    "Fresh D.J. Moore role evidence was investigated as a possible new candidate, but the earlier plus-money reception price has already moved to negative juice and independent probability evidence does not establish PRIME's required edge. Preserve as WATCH rather than chase.",
+    "No canonical CSV is changed because no new BET/PASS state requiring durable ledger mutation was established beyond prior decisions; this immutable archive records the hourly review without inventing sportsbook or user-ticket truth."
+  ]
+}
