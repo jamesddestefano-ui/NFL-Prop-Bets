@@ -1,0 +1,162 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T12:37:12Z",
+  "runAtEt": "2026-09-17 08:37:12",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Fresh Thursday-morning sportsbook repricing materially improves the threshold on Jahmyr Gibbs receiving yards at BetRivers while worsening juice: Covers odds last updated 08:25 ET show BetRivers O28.5 -119, DraftKings O29.5 -115, FanDuel O30.5 -113, Fanatics O30.5 -115, Caesars O30.5 -114, BetMGM O32.5 -115, Hard Rock O30.5 -115 and theScore O29.5 -130. PRIME recalculates O28.5 -119 at a conservative 59% fair Over probability, yielding about +4.66 percentage points versus the raw -119 break-even rate; classify BET_NOW at 0.5u, preferred to the higher 29.5 threshold. DraftKings O29.5 -115 remains STILL_PLAYABLE at the stored 58% fair probability, but it is exactly at the prior ceiling. Do not duplicate the same-thesis exposure and do not chase 30.5+. Projection disagreement remains material: numberFire projects 39.88 receiving yards, Dimers 33.1, DraftEdge 38.6, while FIC projects 28.1; Covers/Kalshi prices 30+ at 49%. The role thesis remains supported by Gibbs' 74.7% Week 1 snap share, five targets/five catches for 30 yards and removal of David Montgomery from the backfield. Detroit's final injury report still has starting OL Christian Mahogany and Blake Miller OUT; Buffalo lists Ty Johnson, Cole Bishop and T.J. Sanders questionable. Kincaid remains WATCH, not BET. Judkins' last verified rushing-attempt quote remains stale at bet365 O12.5 -105 from 19:37 ET Wednesday. No new Grok pass.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T11-28-53Z-prime-watch.json",
+    "priorMainCommit": "58c476396fdfbb6f2b8b8b39eb7ad114092c3eed",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-GIBBS-RECYDS-REPRICE-20260917-083712",
+      "timestampEt": "2026-09-17 08:37:12",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "BetRivers via Covers",
+      "line": 28.5,
+      "odds": -119,
+      "marketSourceTimestampEt": "2026-09-17 08:25",
+      "observedAtEt": "2026-09-17 08:37",
+      "bestMarketLine": "BetRivers O28.5 -119",
+      "consensusLine": "30.5 central regulated-book line; DraftKings 29.5 -115 and BetMGM 32.5 -115 are notable outliers",
+      "ourMeanProjection": 34.5,
+      "ourMedianProjection": 33.0,
+      "estimatedOverProbability": 0.59,
+      "estimatedUnderProbability": 0.41,
+      "fairOdds": -143.9,
+      "marketImpliedProbability": 0.5434,
+      "noVigProbability": null,
+      "estimatedEdgePct": 4.66,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "decisionReason": "The threshold improved by one full yard from PRIME's prior O29.5 recommendation. Repricing the easier 28.5 threshold conservatively to 59% offsets the four-cent juice deterioration. Multiple independent projection paths remain above market (numberFire 39.88, Dimers 33.1, DraftEdge 38.6), but FIC 28.1 and prediction-market disagreement require reduced sizing and no chase. Role remains strong after a 74.7% Week 1 snap share and five targets/five catches; the recommendation is price-specific rather than projection-only.",
+      "confidence": "B",
+      "playToLine": 28.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "BET_NOW",
+      "entryTiming": "THURSDAY",
+      "signalTags": ["ROLE_CHANGE", "SNAP_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "GIBBS_PASS_GAME_VOLUME_WITHOUT_MONTGOMERY",
+      "stakeUnits": 0.5,
+      "actualUserAction": "UNCONFIRMED",
+      "maximumPlayable": "Preferred O28.5 through -120; alternate O29.5 through -115. Choose one only. Do not chase 30.5+."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "DraftKings via Covers",
+      "line": 29.5,
+      "odds": -115,
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "estimatedOverProbability": 0.58,
+      "marketImpliedProbability": 0.5349,
+      "estimatedEdgePct": 4.51,
+      "edgeBucket": "4-6%",
+      "reason": "Exact stored threshold/juice ceiling. Acceptable alternate only if BetRivers 28.5 -119 is unavailable; do not place both."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "The stale analyst recommendation was O4.5 +140. Current independent projection paths around 3.8-4.0 catches do not establish a robust five-catch edge at the worse current plus-money prices; do not elevate from Week 1 box score alone."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "lastVerifiedSportsbook": "bet365 via Covers",
+      "lastVerifiedLine": 12.5,
+      "lastVerifiedOdds": -105,
+      "lastVerifiedMarketTimestampEt": "2026-09-16 19:37",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Carry-forward only. No newer sportsbook-specific rushing-attempt quote was verified this morning, so do not represent the Wednesday quote as current."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Jahmyr Gibbs player page",
+      "sourceTimestampEt": "odds last updated 2026-09-17 08:25 ET",
+      "claim": "BetRivers O28.5 -119; DraftKings O29.5 -115; FanDuel O30.5 -113; Fanatics O30.5 -115; Caesars O30.5 -114; BetMGM O32.5 -115; Hard Rock O30.5 -115; theScore O29.5 -130."
+    },
+    {
+      "classification": "model_projection",
+      "source": "numberFire via FanDuel Research",
+      "sourceTimestampEt": "published 2026-09-15; accessed 2026-09-17 08:37 ET",
+      "claim": "Projects Gibbs for 39.88 receiving yards in Week 2."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Dimers",
+      "sourceTimestampEt": "updated 2026-09-16 14:47 ET; accessed 2026-09-17 08:37 ET",
+      "claim": "Projects Gibbs for 33.1 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Fantasy Info Central",
+      "sourceTimestampEt": "accessed 2026-09-17 08:37 ET",
+      "claim": "Projects Gibbs for 28.1 receiving yards against a 29.5 line, creating meaningful model disagreement."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "FanDuel Research TNF props",
+      "sourceTimestampEt": "published 2026-09-17; accessed 2026-09-17 08:37 ET",
+      "claim": "Lists Gibbs Over 29.5 receiving yards at -114 among its three best TNF prop bets."
+    },
+    {
+      "classification": "market_disagreement",
+      "source": "Covers TNF props / Kalshi",
+      "sourceTimestampEt": "accessed 2026-09-17 08:37 ET",
+      "claim": "Kalshi priced Gibbs 30+ receiving yards at 49%, materially below PRIME's internal fair probability; preserved as disagreement rather than sportsbook truth."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official final Week 2 injury report",
+      "sourceTimestampEt": "published 2026-09-16 15:10 ET",
+      "claim": "Christian Mahogany and Blake Miller are OUT; D.J. Reed is questionable."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official final Week 2 injury report",
+      "sourceTimestampEt": "published 2026-09-16 15:19 ET",
+      "claim": "Ty Johnson, Cole Bishop and T.J. Sanders are questionable."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains live at completedAt 2026-09-12T17:05:00Z and the compact history index ends at the same timestamp.",
+    "No Week 2 user ticket is recorded in data/bet_history.csv, so exposure remains unconfirmed and no cash-out or hedge instruction is assumed.",
+    "BetRivers O28.5 -119 is a fresh sportsbook-specific line-shop improvement in threshold, not permission to relax juice at 29.5. The -120 maximum applies only to the newly recalculated 28.5 threshold.",
+    "DraftKings O29.5 -115 remains an acceptable alternate exactly at the prior ceiling. Do not place both because they are the same player/market/thesis.",
+    "Projection disagreement is significant and keeps the stake at 0.5u. Do not chase 30.5+ even though some bullish models and analysts project above it.",
+    "Kincaid remains WATCH; Judkins remains stale for alert purposes until a newer sportsbook-specific attempts quote is verified."
+  ]
+}
