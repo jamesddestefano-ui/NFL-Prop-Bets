@@ -1,0 +1,168 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T14:07:33Z",
+  "runAtEt": "2026-09-17 10:07:33",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material change requiring a user alert since the 09:23 ET checkpoint. Jahmyr Gibbs OVER 29.5 receiving yards remains price-conditionally playable only through -115 after live sportsbook confirmation. Fresh ParlayBuilder still maps DraftKings to O29.5 -112 and Caesars to -114, while its generic two-way market is O29.5 -113/U29.5 -113; this is materially the same state already alerted and is line-shopping evidence rather than authoritative executable sportsbook truth. FanDuel Research and Action Network continue to support the same 29.5 receiving-yard Over thesis at historical/public article prices, but no new official injury development or verified price improvement justifies another notification or larger stake. D.J. Moore remains WATCH rather than BET because current independent market/projection evidence is dispersed, James Cook O2.5 receptions +100 is analyst-source only without an independently verified regulated-book price, Kincaid remains WATCH, and Judkins remains stale pending a newer sportsbook-specific attempts quote. Weather remains non-material. No new Grok pass.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T13-23-06Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-GIBBS-RECYDS-CARRYFORWARD-20260917-100733",
+      "timestampEt": "2026-09-17 10:07:33",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "Live sportsbook verification required; ParlayBuilder currently maps DraftKings O29.5 -112 and Caesars -114",
+      "line": 29.5,
+      "odds": null,
+      "marketSourceTimestampEt": "ParlayBuilder accessed 2026-09-17 10:07 ET; FanDuel Research/Action Network current-day articles rechecked 2026-09-17 10:07 ET",
+      "bestMarketLine": "Public line-shopping evidence remains 29.5 with DraftKings -112 and Caesars -114 on ParlayBuilder; exact executable sportsbook truth must be verified in-app.",
+      "consensusLine": "29.5-30.5 in current public sources",
+      "ourMeanProjection": 34.5,
+      "ourMedianProjection": 33.0,
+      "estimatedOverProbability": 0.58,
+      "estimatedUnderProbability": 0.42,
+      "fairOdds": -138.1,
+      "marketImpliedProbabilityAtDKTracker": 0.5283,
+      "estimatedEdgePctAtDKTracker": 5.17,
+      "edgeBucket": "4-6% if -112 is live; price-dependent otherwise",
+      "decisionStatus": "BET",
+      "decisionReason": "No substantive change from the prior alert. The 29.5 thesis remains approved only through -115. ParlayBuilder still shows a public DK mapping at -112, but PRIME will not treat a third-party tracker as executable sportsbook truth or repeat-alert an unchanged price state. User live sportsbook confirmation controls. Do not chase 30.5+ or duplicate an existing Gibbs position.",
+      "confidence": "B",
+      "playToLine": 29.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "THURSDAY",
+      "signalTags": ["ROLE_CHANGE", "SNAP_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "GIBBS_PASS_GAME_VOLUME_WITHOUT_MONTGOMERY",
+      "stakeUnits": 0.5,
+      "actualUserAction": "UNCONFIRMED",
+      "maximumPlayable": "Over 29.5 through -115 after live sportsbook confirmation. Do not chase 30.5+. If already holding O28.5 or O29.5 at an approved price, hold; do not duplicate exposure."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Week 1 route participation rose materially and five catches were recorded, but the attractive +140 O4.5 article quote remains historical/stale and fresh independent pricing is not verified at that threshold. Do not promote from analyst opinion alone."
+    },
+    {
+      "player": "D.J. Moore",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Week 1 target share/first-read usage is strong, but current public markets span roughly 59.5-62.5 and independent projections remain dispersed. No robust 4-5 percentage-point price-adjusted edge is established at a verified current regulated-book price."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Fantrax published O2.5 receptions +100 and cites Cook catching three of four Week 1 targets with Ty Johnson questionable, but a current regulated-sportsbook O2.5/+100 price was not independently verified. Analyst-source price alone is insufficient for BET classification."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "lastVerifiedSportsbook": "bet365 via Covers",
+      "lastVerifiedLine": 12.5,
+      "lastVerifiedOdds": -105,
+      "lastVerifiedMarketTimestampEt": "2026-09-16 19:37",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Carry-forward only. No newer sportsbook-specific rushing-attempt quote was verified in this checkpoint, so the Wednesday number remains stale for alert purposes."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "sportsbook_market_evidence",
+      "source": "ParlayBuilder current Jahmyr Gibbs Week 2 page",
+      "sourceUrl": "https://parlaybuilder.ai/nfl/player/jahmyr-gibbs",
+      "sourceTimestampEt": "accessed 2026-09-17 10:07 ET",
+      "claim": "Displays Gibbs receiving yards O29.5 -113/U29.5 -113, with DraftKings O29.5 -112 and Caesars -114. Treat as line-shopping evidence, not authoritative live sportsbook truth."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "FanDuel Research TNF props",
+      "sourceUrl": "https://www.fanduel.com/research/lions-vs-bills-props-3-best-nfl-player-prop-bets-picks-for-tnf",
+      "sourceTimestampEt": "published 2026-09-17; rechecked 2026-09-17 10:07 ET",
+      "claim": "Continues to list Gibbs O29.5 receiving yards -114 among its three TNF prop picks."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "Action Network TNF player props",
+      "sourceUrl": "https://www.actionnetwork.com/nfl/lions-vs-bills-player-props-dalton-kincaid-jahmyr-gibbs",
+      "sourceTimestampEt": "updated 2026-09-16 22:06 ET; rechecked 2026-09-17 10:07 ET",
+      "claim": "Still lists Gibbs O29.5 receiving yards -114 at bet365 and Kincaid O4.5 receptions +140 at Fanatics; article prices are historical/current-page context rather than guaranteed executable quotes at 10:07 ET."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "Fantrax TNF player props",
+      "sourceUrl": "https://fantraxhq.com/nfl-week-2-thursday-night-football-player-props-and-best-bets/",
+      "sourceTimestampEt": "published 2026-09-17; accessed 2026-09-17 10:07 ET",
+      "claim": "Lists James Cook O2.5 receptions +100, Kincaid O51.5 receiving yards -115, D.J. Moore O62.5 receiving yards -115 and O4.5 receptions -115, among other TNF opinions. PRIME does not promote these without current sportsbook verification and independent edge support."
+    },
+    {
+      "classification": "sportsbook_market_context",
+      "source": "BetMGM Week 2 prop pages",
+      "sourceTimestampEt": "published 2026-09-16; rechecked 2026-09-17 10:07 ET",
+      "claim": "BetMGM public pages list Gibbs receiving yards 30.5, D.J. Moore receiving yards 58.5/59.5 in separate current pages, Kincaid receiving yards 49.5 and receptions 4.5, and Amon-Ra St. Brown receiving yards 81.5. These pages do not expose all current over/under prices, so they are context rather than complete executable markets."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official final Week 2 injury report",
+      "sourceUrl": "https://www.detroitlions.com/news/lions-at-bills-injury-report-sept-16-mahogany-miller-reed",
+      "sourceTimestampEt": "published 2026-09-16 15:10 ET; rechecked 2026-09-17",
+      "claim": "Christian Mahogany and Blake Miller are OUT; D.J. Reed is questionable. No newer official status change was found at this checkpoint."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official final Week 2 injury report",
+      "sourceUrl": "https://www.buffalobills.com/news/buffalo-bills-injury-report-vs-lions-week-2",
+      "sourceTimestampEt": "published 2026-09-16 15:19 ET; rechecked 2026-09-17",
+      "claim": "Ty Johnson, Cole Bishop and T.J. Sanders are questionable; Terrel Bernard has no game designation. No newer official status change was found at this checkpoint."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "DraftEdge DET-BUF game page",
+      "sourceUrl": "https://draftedge.com/nfl/game/det-buf-2026-09-17/",
+      "sourceTimestampEt": "accessed 2026-09-17 10:07 ET",
+      "claim": "Projects clear conditions around 69 F with light wind and negligible rain risk at kickoff; weather is not a material prop factor."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains live at completedAt 2026-09-12T17:05:00Z and the compact history index ends at the same timestamp.",
+    "No Week 2 user ticket is recorded in data/bet_history.csv, so exposure remains unconfirmed and duplicate-bet assumptions are prohibited.",
+    "The 09:23 ET user alert already communicated the current Gibbs 29.5-through--115 rule. Public line-shopping evidence at 10:07 ET is materially unchanged, so repeating the alert would add noise rather than utility.",
+    "No canonical line_history overwrite is made from third-party tracker mappings because exact executable sportsbook truth remains unverified; the fresh public evidence is preserved in this immutable archive.",
+    "D.J. Moore and James Cook are retained as WATCH candidates only. Neither has sufficient verified current price plus calibrated fair-probability support for a new BET alert.",
+    "Kincaid remains WATCH; Judkins remains stale for alert purposes until a newer sportsbook-specific attempts quote is verified."
+  ]
+}
