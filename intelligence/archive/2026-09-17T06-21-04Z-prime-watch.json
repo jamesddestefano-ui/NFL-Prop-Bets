@@ -1,0 +1,144 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T06:21:04Z",
+  "runAtEt": "2026-09-17 02:21:04",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material change requiring a user alert. Jahmyr Gibbs OVER 29.5 receiving yards remains price-conditionally playable at the same threshold and essentially the same price as the prior alert: Action's published bet365 recommendation remains O29.5 -114, while a current SportsGambler market board also displays Gibbs receiving yards 29.5 O/U -114. Detroit's final injury report remains unchanged with Christian Mahogany and Blake Miller OUT and D.J. Reed questionable; Buffalo still lists Ty Johnson, Cole Bishop and T.J. Sanders questionable. Weather remains non-material with upper-60s temperatures, light winds and only a small chance of light rain. No new Grok pass. No verified newer sportsbook-specific Quinshon Judkins rushing-attempt quote was found, so the prior carry-forward rule remains price-conditional only and stale prices are not treated as current.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T05-24-09Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-GIBBS-RECYDS-CARRYFORWARD-20260917-022104",
+      "timestampEt": "2026-09-17 02:21:04",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "bet365 via Action Network; current market cross-check via SportsGambler",
+      "line": 29.5,
+      "odds": -114,
+      "bestMarketLine": "29.5; no verified better sportsbook-specific price than the prior -113/-114 range was found in this run",
+      "consensusLine": 29.5,
+      "ourMeanProjection": 34.5,
+      "ourMedianProjection": 33.0,
+      "estimatedOverProbability": 0.58,
+      "estimatedUnderProbability": 0.42,
+      "fairOdds": -138.1,
+      "marketImpliedProbability": 0.5327,
+      "estimatedEdgePct": 4.73,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "decisionReason": "Same threshold and price state as the prior actionable alert. The market did not move beyond the stored play-to and there is no new injury/weather catalyst that changes the fair distribution. Independent projection disagreement remains, so stake is not increased and 30.5 is still not chased.",
+      "confidence": "B",
+      "playToLine": 29.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "SNAP_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "correlationTags": [],
+      "thesisId": "GIBBS_PASS_GAME_VOLUME_WITHOUT_MONTGOMERY",
+      "stakeUnits": 0.5,
+      "actualUserAction": "UNCONFIRMED",
+      "sourceTimestamps": {
+        "ActionNetwork": "accessed 2026-09-17 02:21 ET; article still quotes bet365 O29.5 -114",
+        "SportsGambler": "accessed 2026-09-17 02:21 ET; current board displays Gibbs receiving yards O29.5 -114 / U29.5 -114",
+        "DetroitOfficialInjuryReport": "published 2026-09-16 15:10 ET",
+        "BuffaloOfficialInjuryReport": "published 2026-09-16 15:19 ET",
+        "Weather": "Covers/Yahoo forecast accessed 2026-09-17 02:21 ET"
+      }
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "marketContext": "Action's published pick remains O4.5 +140 at Fanatics; current receiving-yards boards remain around 51.5.",
+      "reason": "The plus price is attractive, but independent reception projections remain below five catches and no new role/injury catalyst was verified. Do not promote from analyst opinion alone."
+    },
+    {
+      "player": "Sam LaPorta",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "UNDER",
+      "decisionStatus": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "marketContext": "FanDuel Research continues to recommend U4.5 at heavy negative juice.",
+      "reason": "Projection uncertainty remains too high for the price. No material new information improves the Under enough to clear PRIME's threshold."
+    },
+    {
+      "player": "D.J. Moore",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "marketContext": "Current public boards are around 62.5 after an earlier 59.5 Wednesday reference.",
+      "reason": "The Week 1 role remains encouraging, but the market has already repriced upward and independent projections are too dispersed to establish a robust 4-5 percentage-point edge at 62.5."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "lastVerifiedSportsbook": "bet365 via Covers",
+      "lastVerifiedLine": 12.5,
+      "lastVerifiedOdds": -105,
+      "lastVerifiedMarketTimestampEt": "2026-09-16 19:37",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Carry-forward only. Dylan Sampson remains on IR and Raheim Sanders is the primary backup, but this run did not verify a newer sportsbook-specific rushing-attempt line. Do not treat the prior quote as current and do not re-alert without fresh price confirmation."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official Week 2 injury report",
+      "claim": "Christian Mahogany and Blake Miller are OUT; D.J. Reed is questionable."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official Week 2 injury report",
+      "claim": "Ty Johnson, Cole Bishop and T.J. Sanders are questionable; Dalton Kincaid has no game designation."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Cleveland Browns transaction reporting",
+      "claim": "Dylan Sampson is on injured reserve; Raheim Sanders is the backup to Quinshon Judkins, with Jaleel McLaughlin promoted."
+    },
+    {
+      "classification": "market_aggregate",
+      "source": "SportsGambler current DET@BUF market board",
+      "claim": "Jahmyr Gibbs receiving yards 29.5 O/U -114; Amon-Ra St. Brown 79.5 O/U -114; D.J. Moore 62.5 O/U -114; Jameson Williams 59.5 O/U -114; Dalton Kincaid 51.5 O/U -114; Sam LaPorta 46.5 O/U -114; Gibbs rushing yards 87.5 O/U -114; Jared Goff passing yards 266.5 O/U -114; Josh Allen passing yards 248.5 O/U -114."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Current Orchard Park weather reporting",
+      "claim": "Kickoff weather is expected in the upper 60s with light winds and only a small chance of light rain; no material weather downgrade is warranted at this checkpoint."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching intelligence/grok_pulse_history.jsonl.",
+    "No Week 2 user ticket is present in data/bet_history.csv at this checkpoint.",
+    "Gibbs remains the only current TNF BET; the exact threshold/price state is materially unchanged from the prior alert, so no repeat notification is warranted.",
+    "Do not stack Gibbs rushing, receptions or rushing+receiving exposure without a fresh independent fair-price calculation because those positions would be SAME_THESIS correlated.",
+    "Primary CSV ledgers are not modified on this no-change checkpoint; the immutable archive preserves the evaluated state without fabricating a new market transition."
+  ]
+}
