@@ -1,0 +1,132 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T18:15:51Z",
+  "runAtEt": "2026-09-17 14:15:51",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Material market reprice on Jahmyr Gibbs receiving yards. Covers' player board, updated 13:51 ET, now maps DraftKings to O31.5 -114 and the best visible 29.5 Over to BetRivers -118. PRIME's stored new-entry ceiling was 29.5 at -115 or better, so the prior conditional BET is withdrawn at the currently verified market and reclassified PASS_AFTER_MOVE. Do not chase 30.5/31.5 solely because the football thesis remains bullish. If the user already secured 29.5 at -115 or better, hold the existing ticket and do not add. James Cook receiving remains WATCH despite encouraging Week 1 passing-game usage because current receiving-yard prices are 17.5-18.5 at most major books and independent opportunity projections are mixed; Cook O2.5 receptions at plus money is a pregame WATCH only, especially with Ty Johnson questionable. Dalton Kincaid remains WATCH/REDUCED_EDGE because 3.5-reception Overs are heavily juiced and receiving-yard projections disagree around the current 50.5-52.5 range. Quinshon Judkins remains WATCH, reconsidering only O12.5 -110 or better after fresh live verification. No new Grok pass and no Week 2 user ticket is recorded in bet_history.csv.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T17-39-11Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "sportsbook": "DraftKings via Covers",
+      "line": 31.5,
+      "odds": -114,
+      "bestMarketLine": "BetRivers O29.5 -118",
+      "consensusRange": "29.5-32.5",
+      "storedPlayToLine": 29.5,
+      "storedMaxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "THURSDAY",
+      "actualUserAction": "UNCONFIRMED",
+      "signalTags": ["ROLE_CHANGE", "SNAP_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "Current sportsbook mapping no longer offers PRIME's approved 29.5 threshold at acceptable juice. Covers updated at 13:51 ET shows DraftKings O31.5 -114; BetRivers O29.5 -118; bet365 O30.5 -115; FanDuel O30.5 -113. The old 29.5/-115 edge is not transferable to worse line/price pairs. Hold only if an earlier 29.5 -115-or-better ticket already exists; otherwise no new Gibbs receiving wager."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "line": 2.5,
+      "bestMarketLine": "BetRivers O2.5 +112",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["ROLE_CHANGE", "TARGET_SHARE", "INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "Week 1 produced 4 targets and 3 catches, and Footballguys flagged increased passing-game involvement, while Ty Johnson remains questionable. However an independent Week 2 opportunity projection is only 2.7 targets, so a 3-catch Over cannot yet be assigned a robust fair-probability edge. Re-evaluate near game time if Johnson is inactive and receiving role evidence strengthens."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "bestMarketLine": "Fanatics O15.5 -150; most major books 17.5-18.5",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["ROLE_CHANGE", "TARGET_SHARE", "INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "The user's Footballguys material strengthens the role-change thesis, but the cheap 15.5 threshold is prohibitively juiced and regulated-book lines otherwise sit mostly 17.5-18.5. No price-adjusted 4-5 percentage-point edge is established."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "bestMarketLine": "Fanatics O4.5 +130 / Caesars O4.5 +133; 3.5 Overs about -160",
+      "signalTags": ["SNAP_SHARE", "ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "Kincaid's Week 1 receiving role was strong, but 3.5-reception Over prices are too expensive and 4.5 plus-money requires a materially stronger five-catch probability than current evidence supports. Receiving-yard lines cluster near 50.5-52.5 with conflicting projections."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "PROJECTION_DISAGREEMENT"],
+      "reason": "No change from the prior reprice: Dylan Sampson's absence supports volume but newer carry projections are materially lower than the original 16.1 mean. Reconsider only O12.5 at -110 or better after live verification; do not play O13.5+ without a new distribution."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Jahmyr Gibbs player prop board",
+      "sourceTimestampEt": "odds last updated 2026-09-17 13:51 ET",
+      "claim": "Gibbs receiving yards: DraftKings O31.5 -114/U31.5 -110; BetRivers O29.5 -118; bet365 O30.5 -115; FanDuel O30.5 -113; Caesars O31.5 -114; Hard Rock O31.5 -110."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers James Cook player prop board",
+      "sourceTimestampEt": "odds last updated 2026-09-17 13:53 ET",
+      "claim": "Cook receptions: BetRivers O2.5 +112, with several books near even money. Cook receiving yards: Fanatics O15.5 -150; DraftKings O18.5 -109; FanDuel O17.5 -113; BetRivers O17.5 -110; Hard Rock O17.5 -115."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Dalton Kincaid player prop board",
+      "sourceTimestampEt": "odds last updated 2026-09-17 13:51 ET",
+      "claim": "Kincaid receptions: 3.5 Overs roughly -160 to -165; Fanatics O4.5 +130 and Caesars O4.5 +133. Receiving yards: major books range approximately 50.5-54.5."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official Week 2 injury report / game preview",
+      "sourceTimestampEt": "rechecked 2026-09-17 14:15 ET",
+      "claim": "Starting OL Christian Mahogany and Blake Miller are out for Thursday night; D.J. Reed is questionable."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official Week 2 injury report",
+      "sourceTimestampEt": "rechecked 2026-09-17 14:15 ET",
+      "claim": "S Cole Bishop, RB Ty Johnson and DL T.J. Sanders are questionable; ILB Terrel Bernard has no game designation."
+    },
+    {
+      "classification": "model_projection",
+      "source": "DraftKings Network Week 2 RB opportunity projections",
+      "sourceTimestampEt": "published 2026-09-16; rechecked 2026-09-17",
+      "claim": "Projected opportunities: Gibbs 24.6 carries and 7.4 targets; Cook 17.3 carries and 2.7 targets; Judkins 12.3 carries and 3.3 targets."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest remains status live with completedAt 2026-09-12T17:05:00Z, matching the latest compact history entry.",
+    "No Week 2 straight ticket is recorded in bet_history.csv, so all current Week 2 exposure remains unconfirmed.",
+    "The fresh Gibbs 13:51 ET Covers sportsbook mapping is materially newer than the prior public-tracker evidence that placed DraftKings around 29.5 -112/-113. This archive therefore supersedes the prior conditional new-entry Gibbs BET state.",
+    "Canonical CSVs are not overwritten from tracker evidence alone in this run; the immutable archive preserves the current decision and verified market state without inventing user sportsbook truth.",
+    "The Footballguys Week 1 backfield screenshots supplied by the user strengthen Cook's passing-role WATCH and support Gibbs' elite opportunity profile, but neither qualitative role signal overrides current price discipline."
+  ]
+}
