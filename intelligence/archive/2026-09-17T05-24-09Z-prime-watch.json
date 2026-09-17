@@ -1,0 +1,139 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T05:24:09Z",
+  "runAtEt": "2026-09-17 01:24:09",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material change requiring a user alert. Jahmyr Gibbs OVER 29.5 receiving yards remains price-conditionally playable: fresh public Thursday coverage still quotes 29.5 around -114, essentially unchanged from the prior BET alert and inside PRIME's -115 ceiling. The football thesis and official injury context are unchanged, but current independent projections remain dispersed, so PRIME does not increase stake or chase 30.5. Kincaid 5+ receptions remains a WATCH despite +140 because independent reception projections remain below the five-catch threshold. Sam LaPorta Under 4.5 receptions is too heavily juiced relative to projection uncertainty, and D.J. Moore receiving-yard projections remain too dispersed around the current low-60s market to establish a 4-5 percentage-point edge. Judkins remains a price-conditional carry-forward BET only at O12.5 through -115 or O13.5 at -115 or better; no newer sportsbook-specific quote than the prior 19:37 ET snapshot was verified in this checkpoint. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T03-56-30Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-GIBBS-RECYDS-CARRYFORWARD-20260917-012409",
+      "timestampEt": "2026-09-17 01:24:09",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "bet365 via Action Network",
+      "line": 29.5,
+      "odds": -114,
+      "bestMarketLine": "29.5; fresh public references remain approximately -113 to -114",
+      "consensusLine": 29.5,
+      "ourMeanProjection": 34.5,
+      "ourMedianProjection": 33.0,
+      "estimatedOverProbability": 0.58,
+      "estimatedUnderProbability": 0.42,
+      "fairOdds": -138.1,
+      "marketImpliedProbability": 0.5327,
+      "estimatedEdgePct": 4.73,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "decisionReason": "Same threshold and essentially the same price as the prior actionable alert. Week 1 usage and multiple independent projections support the Over, while FIC remains below the market and Detroit has two starting offensive linemen ruled out. The disagreement keeps this at 0.5u and makes 29.5 the hard play-to; there is no new information strong enough to justify another alert or a larger stake.",
+      "confidence": "B",
+      "playToLine": 29.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "SNAP_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "correlationTags": [],
+      "thesisId": "GIBBS_PASS_GAME_VOLUME_WITHOUT_MONTGOMERY",
+      "stakeUnits": 0.5,
+      "actualUserAction": "UNCONFIRMED",
+      "sourceTimestamps": {
+        "ActionNetwork": "accessed 2026-09-17 01:24 ET; bet365 O29.5 -114",
+        "FanDuelResearch": "published 2026-09-17; O29.5 -114 in current TNF props article",
+        "DetroitOfficialInjuryReport": "2026-09-16 15:10 ET",
+        "BuffaloOfficialInjuryReport": "accessed 2026-09-17 01:24 ET"
+      }
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "marketContext": "Action Network continues to quote O4.5 +140 at Fanatics.",
+      "reason": "The price is appealing and Week 1 route share rose to 69%, but independent reception projections remain around 3.8-4.1. No calibrated 4-5 percentage-point edge at the five-catch threshold is established."
+    },
+    {
+      "player": "Sam LaPorta",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "UNDER",
+      "decisionStatus": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "marketContext": "Fresh FanDuel Research recommendation lists U4.5 near -128, with an inline price even more expensive in some views.",
+      "reason": "Independent reception projections cluster roughly 3.9-4.5. At heavy negative juice, the Under does not establish a sufficiently robust edge after uncertainty and is not promoted from analyst opinion alone."
+    },
+    {
+      "player": "D.J. Moore",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "marketContext": "Fresh FanDuel Research article recommends O62.5 -114; other public market references have shown 59.5-61.5 earlier Wednesday.",
+      "reason": "Independent projections are dispersed around the market, including approximately 55, 60.5 and 62.8 yards. Week 1 target/air-yard usage is encouraging but price-adjusted probability edge is not established."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "lastVerifiedSportsbook": "bet365 via Covers",
+      "lastVerifiedLine": 12.5,
+      "lastVerifiedOdds": -105,
+      "lastVerifiedMarketTimestampEt": "2026-09-16 19:37",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Carry-forward only. Cleveland's current unofficial depth chart lists Judkins first with Dylan Sampson injured, but no newer executable sportsbook-specific quote was verified. Do not treat the old quote as current or re-alert without fresh price confirmation."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official Week 2 injury report",
+      "claim": "OL Christian Mahogany and T Blake Miller are OUT; CB D.J. Reed is questionable."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official Week 2 injury report",
+      "claim": "RB Ty Johnson, S Cole Bishop and DL T.J. Sanders are questionable; no new game designation for Dalton Kincaid."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Cleveland Browns official Week 2 unofficial depth chart",
+      "claim": "Quinshon Judkins is listed first at RB; Dylan Sampson is listed as injured."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "FanDuel Research TNF props article, published 2026-09-17",
+      "claim": "Analyst recommendations are Gibbs O29.5 receiving yards -114, LaPorta U4.5 receptions -128 and D.J. Moore O62.5 receiving yards -114. PRIME independently evaluates these rather than adopting them automatically."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "No Week 2 user ticket is present in data/bet_history.csv at this checkpoint.",
+    "Gibbs remains the only current TNF BET, but the market has not materially changed from the prior user alert, so no repeat notification is warranted.",
+    "Do not stack additional Gibbs reception/rushing+receiving exposure without re-evaluating SAME_THESIS concentration.",
+    "No severe weather factor was identified for DET@BUF in the current public forecast context.",
+    "The latest immutable archive contains this checkpoint even though the primary CSV ledgers still require a later maintenance sync for the Gibbs promotion recorded at 23:56 ET."
+  ]
+}
