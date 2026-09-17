@@ -1,0 +1,117 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T03:56:30Z",
+  "runAtEt": "2026-09-16 23:56:30",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Material change: Jahmyr Gibbs OVER 29.5 receiving yards is promoted from WATCH to BET after fresh sportsbook-specific verification. FanDuel publicly exposed O29.5 -113 and Action Network's 22:06 ET update listed bet365 O29.5 -114. Independent market references cluster at 29.5 around -112 to -114. The role thesis remains supported by Gibbs' Week 1 snap/target usage and multiple independent projections in the low-to-mid 30s. PRIME assigns a conservative 58% fair Over probability, giving about a 5-point raw edge versus -113. Play only 29.5 at -115 or better; do not chase 30.5. Thursday official injury statuses are unchanged: Detroit OL Christian Mahogany and T Blake Miller are OUT, and Buffalo RB Ty Johnson, S Cole Bishop and DL T.J. Sanders are questionable. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T03-03-34Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-GIBBS-RECYDS-20260916-235630",
+      "timestampEt": "2026-09-16 23:56:30",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "FanDuel",
+      "line": 29.5,
+      "odds": -113,
+      "bestMarketLine": "29.5; publicly observed prices approximately -112 to -114 across current market references",
+      "consensusLine": 29.5,
+      "ourMeanProjection": 34.5,
+      "ourMedianProjection": 33.0,
+      "estimatedOverProbability": 0.58,
+      "estimatedUnderProbability": 0.42,
+      "fairOdds": -138.1,
+      "marketImpliedProbability": 0.5305,
+      "noVigProbability": 0.505,
+      "estimatedEdgePct": 4.95,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "decisionReason": "Fresh sportsbook-specific 29.5 pricing now satisfies the missing market-verification condition from the prior WATCH. Gibbs' receiving role remained elevated in Week 1, and independent projections/short-term usage cluster above the threshold. The estimated edge is modest and price-sensitive, so size is reduced and the threshold is strict.",
+      "confidence": "B",
+      "playToLine": 29.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "SNAP_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "correlationTags": [],
+      "thesisId": "GIBBS_PASS_GAME_VOLUME_WITHOUT_MONTGOMERY",
+      "stakeUnits": 0.5,
+      "actualUserAction": "UNCONFIRMED",
+      "sourceTimestamps": {
+        "FanDuelResearch": "2026-09-16 late evening ET; inline price O29.5 -113",
+        "ActionNetwork": "2026-09-16 22:06 ET; bet365 O29.5 -114",
+        "officialInjuryReports": "2026-09-16 afternoon ET"
+      }
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "marketContext": "O4.5 was publicly listed as high as +140 at Fanatics in a fresh Action Network update.",
+      "reason": "Price is attractive, but independent reception projections remain around 3.8-4.0, below the five-catch winning threshold. No calibrated 4-5 percentage-point edge is established."
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "marketContext": "Current public market is around O7.5 near even money.",
+      "reason": "Week 1 target concentration is excellent but independent expectations center near seven to eight catches, leaving insufficient margin at 7.5."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "lastVerifiedSportsbook": "bet365 via Covers",
+      "lastVerifiedLine": 12.5,
+      "lastVerifiedOdds": -105,
+      "lastVerifiedMarketTimestampEt": "2026-09-16 19:37",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Carry-forward only. No newer sportsbook-specific executable quote was verified in this checkpoint, so do not re-alert or treat the older quote as current."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official Week 2 injury report",
+      "claim": "OL Christian Mahogany and T Blake Miller are OUT; CB D.J. Reed is questionable."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official Week 2 injury report",
+      "claim": "RB Ty Johnson, S Cole Bishop and DL T.J. Sanders are questionable; Dalton Kincaid and Dawson Knox have no game designation."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "No Week 2 user ticket is present in data/bet_history.csv at this checkpoint.",
+    "Gibbs O29.5 receiving yards is the only newly actionable prop identified. Kincaid and Amon-Ra remain WATCH, and Judkins is not re-alerted without a newer sportsbook-specific quote.",
+    "Do not stack additional Gibbs receiving/reception exposure without re-evaluating SAME_THESIS concentration."
+  ]
+}
