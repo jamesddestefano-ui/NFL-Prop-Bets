@@ -1,0 +1,123 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T10:27:30Z",
+  "runAtEt": "2026-09-17 06:27:30",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Material market movement on Jahmyr Gibbs receiving yards. PRIME's prior actionable threshold was Over 29.5 at -115 or better. Current Action Network player-page surfaces now display receiving-yard thresholds above that ceiling (one current surface shows Under 30.5 -109 and another shows Under 32.5 -115), while the older published bet365 Over 29.5 -114 analyst pick remains visible. Because the current surfaces conflict and do not identify a current executable regulated sportsbook, they are treated as market-movement evidence rather than sportsbook truth. New-entry state changes to PASS_AFTER_MOVE above 29.5. Hold any existing 29.5 ticket; do not chase 30.5+. Official DET/BUF injury statuses are unchanged. Dalton Kincaid remains WATCH; Quinshon Judkins has no newer verified sportsbook-specific rushing-attempt quote; there is no new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T09-24-51Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-GIBBS-RECYDS-MOVE-20260917-062730",
+      "timestampEt": "2026-09-17 06:27:30",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "current sportsbook identity unverified on Action player-page market surfaces",
+      "line": null,
+      "odds": null,
+      "lastActionableLine": 29.5,
+      "lastActionableBestPrice": -113,
+      "lastActionableMaxOdds": -115,
+      "currentPublicMarketEvidence": "Action Network current player-page surfaces display Under 30.5 -109 on one indexed surface and Under 32.5 -115 on another; exact current regulated sportsbook identity is not exposed and the surfaces conflict.",
+      "consensusLine": null,
+      "ourMeanProjectionAtPriorThreshold": 34.5,
+      "ourMedianProjectionAtPriorThreshold": 33.0,
+      "estimatedOverProbabilityAtPriorThreshold": 0.58,
+      "estimatedEdgePctAtPriorThreshold": 4.95,
+      "currentEstimatedOverProbability": null,
+      "currentEstimatedEdgePct": null,
+      "edgeBucket": "UNRESOLVED_AFTER_MOVE",
+      "decisionStatus": "PASS",
+      "decisionReason": "The public market has moved beyond PRIME's stored 29.5 maximum playable line, while current market representations conflict and independent projections disagree. Do not transfer the 29.5 edge to 30.5 or 32.5. Existing 29.5 tickets remain holds; new entries above 29.5 require a fresh sportsbook-specific quote and recalculation.",
+      "confidence": "B",
+      "playToLine": 29.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "SNAP_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "correlationTags": [],
+      "thesisId": "GIBBS_PASS_GAME_VOLUME_WITHOUT_MONTGOMERY",
+      "stakeUnits": 0.0,
+      "actualUserAction": "UNCONFIRMED"
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "No new target-vacuum or injury catalyst. The previously published plus-money Over 4.5 reference is not treated as a current executable price without live sportsbook verification."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "lastVerifiedSportsbook": "bet365 via Covers",
+      "lastVerifiedLine": 12.5,
+      "lastVerifiedOdds": -105,
+      "lastVerifiedMarketTimestampEt": "2026-09-16 19:37",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Carry-forward only. No newer sportsbook-specific rushing-attempt quote was verified, so the prior quote remains stale for alert purposes and must not be represented as current."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official final Week 2 injury report",
+      "sourceTimestampEt": "accessed 2026-09-17 06:27 ET",
+      "claim": "Christian Mahogany and Blake Miller remain OUT; D.J. Reed remains questionable. No material overnight designation change."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official final Week 2 injury report",
+      "sourceTimestampEt": "accessed 2026-09-17 06:27 ET",
+      "claim": "Ty Johnson, Cole Bishop and T.J. Sanders remain questionable. No material overnight designation change."
+    },
+    {
+      "classification": "sportsbook_market_evidence",
+      "source": "Action Network Jahmyr Gibbs current player page",
+      "sourceTimestampEt": "accessed 2026-09-17 06:27 ET",
+      "claim": "Current player-page surfaces display receiving-yard market thresholds above PRIME's prior 29.5 play-to, but the indexed surfaces conflict at 30.5 versus 32.5 and do not expose a reliable current sportsbook identity. This is movement evidence only, not executable sportsbook truth."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "Action Network TNF prop analysis",
+      "sourceTimestampEt": "article updated 2026-09-16 22:06 ET",
+      "claim": "Published analyst recommendation remains Gibbs Over 29.5 receiving yards at bet365 -114. This is an older published quote and is not treated as a current executable line in this run."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Covers current DET@BUF player projection context",
+      "sourceTimestampEt": "accessed 2026-09-17 06:27 ET",
+      "claim": "Covers' current Gibbs receiving-yard projection is below the prior 29.5 threshold, adding material projection disagreement and reinforcing the decision not to chase a higher line."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json remains live at completedAt 2026-09-12T17:05:00Z and the compact history index ends at the same timestamp.",
+    "No Week 2 user ticket is recorded in data/bet_history.csv.",
+    "No canonical sportsbook line-history row was added because the newly observed Action market surfaces conflict and do not establish an exact current executable regulated sportsbook quote. The movement evidence is preserved in this immutable archive instead of being promoted to sportsbook truth.",
+    "Gibbs new-entry state is PASS_AFTER_MOVE above 29.5. If the user's live sportsbook independently still offers Over 29.5 at -115 or better, the prior BET remains valid at that exact threshold and price; otherwise do not chase 30.5+.",
+    "Kincaid remains WATCH; Judkins remains stale for alert purposes until a newer sportsbook-specific rushing-attempt quote is verified."
+  ]
+}
