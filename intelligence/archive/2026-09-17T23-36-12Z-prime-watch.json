@@ -1,0 +1,164 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T23:36:12Z",
+  "runAtEt": "2026-09-17 19:36:12",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Material pregame change: Buffalo officially ruled DT Ed Oliver inactive after a warmup hip injury, with DT T.J. Sanders also inactive. PRIME now promotes Jahmyr Gibbs OVER 87.5 rushing yards to BET_NOW only at -115 or better, 0.5u, after multiple independent current projection paths remain above the market (FTN 104.9, FIC 98.0, Covers 90.34) and current public line-shopping still shows 87.5 around -110 to -113. Detroit's two starting OL absences (Christian Mahogany and Blake Miller) remain an important offset, so the play-to is capped at 87.5 and the position must not be chased to 88.5+. Gibbs receiving remains PASS/REDUCED_EDGE despite some 29.5 surfaces because current independent receiving projections disagree materially. Ty Johnson is officially inactive, but Frank Gore Jr. was elevated, so James Cook receiving/receptions remain WATCH rather than an automatic target-vacuum BET. Kincaid remains WATCH/PASS by price, and Vaki U5.5 remains PASS_AFTER_MOVE. No Week 2 straight user ticket is recorded.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T22-05-45Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "recommendedLine": 87.5,
+      "maxAcceptableOdds": -115,
+      "recommendedStakeUnits": 0.5,
+      "currentMarketEvidence": "Current public line-shopping surfaces show O87.5 around -110 to -113; verify live regulated sportsbook before placement.",
+      "bestMarketEvidence": "Optimal Bet public line-shopping: DraftKings O87.5 -110; FIC: FanDuel O87.5 -113.",
+      "consensusProjectionContext": "FTN 104.9; FIC 98.0; Covers 90.34; Optimal Bet 87.1. Projection dispersion remains meaningful.",
+      "ourMeanProjection": 95.0,
+      "ourMedianProjection": 94.2,
+      "estimatedOverProbability": 0.58,
+      "fairOdds": -138,
+      "marketImpliedProbabilityAtMinus113": 0.5305,
+      "estimatedEdgePctAtMinus113": 4.95,
+      "edgeBucket": "4-6%",
+      "confidence": "B",
+      "playToLine": 87.5,
+      "steamState": "BET_NOW",
+      "entryTiming": "PRE_GAME",
+      "signalTags": ["RUSH_SHARE", "DEFENSIVE_INJURY", "OL_INJURY", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "injuryNewsDependencies": "Buffalo DT Ed Oliver surprise inactive after warmup hip injury and DT T.J. Sanders inactive. Detroit starting LG Christian Mahogany and RT Blake Miller are out.",
+      "reason": "Gibbs' Week 1 workload established a dominant backfield role, three independent current projection sources sit above 90 rushing yards, and Buffalo lost two defensive linemen including Oliver immediately before kickoff. Detroit's OL absences and projection dispersion prevent a higher confidence grade or a chase beyond 87.5. BET only if a live regulated book still offers 87.5 at -115 or better; PASS_AFTER_MOVE at 88.5+ or juice worse than -115."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "currentMarketEvidence": "Public line-shopping ranges from 29.5 to 31.5; FIC currently maps FanDuel O29.5 -113 while other surfaces are 30.5/31.5.",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "PRE_GAME",
+      "signalTags": ["TARGET_SHARE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "reason": "The stored 29.5/-115 threshold has reappeared on some public surfaces, but current independent projection evidence is no longer robust: FIC projects 28.4 receiving yards while prior bullish estimates were only modestly above 29.5. Do not promote solely because the old price threshold returned."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "currentMarketEvidence": "FIC shows 17.5 receiving yards with an 18.1 projection; Covers projects 18.17 at a 16.5 reference. No robust 4-5 point price-adjusted edge confirmed.",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "PRE_GAME",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT"],
+      "reason": "Ty Johnson is officially inactive, but Buffalo elevated Frank Gore Jr. and the projection gap remains too small to justify a formal Over at current mid-to-high teens pricing."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "line": 3.5,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "PRE_GAME",
+      "signalTags": ["TARGET_SHARE", "ROUTE_SHARE", "PROJECTION_DISAGREEMENT"],
+      "reason": "Covers projects 4.10 receptions and a 62% prediction-market Over probability, but previously observed regulated-book prices were too expensive. No materially better executable price was verified in this run."
+    },
+    {
+      "player": "Sione Vaki",
+      "game": "DET@BUF",
+      "propType": "RUSH_YARDS",
+      "side": "UNDER",
+      "decisionStatus": "PASS",
+      "currentMarketEvidence": "Current displayed threshold remains 5.5 after the earlier Action/Koerner U8.5 edge disappeared.",
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "PRE_GAME",
+      "signalTags": ["RUSH_SHARE", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "reason": "Threshold-specific edge was consumed by the market move. No chase at 5.5."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "PROJECTION_DISAGREEMENT"],
+      "reason": "No new Sunday catalyst. Preserve O12.5 at -110 or better only; do not chase O13.5+."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official inactives",
+      "sourceTimestampEt": "2026-09-17 18:44 ET",
+      "claim": "RB Ty Johnson, DL Ed Oliver and DL T.J. Sanders are inactive. Oliver is a surprise inactive after suffering a hip injury during warmups. S Cole Bishop is active; RB Frank Gore Jr. and WR Greg Dortch were elevated."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official inactives",
+      "sourceTimestampEt": "2026-09-17 18:45 ET",
+      "claim": "Starting LG Christian Mahogany and RT Blake Miller are inactive; CB D.J. Reed is active and expected to start."
+    },
+    {
+      "classification": "model_projection_and_market_context",
+      "source": "FTN",
+      "sourceTimestampEt": "published 2026-09-17; accessed pregame",
+      "claim": "Gibbs O87.5 rushing yards -112 with 104.9 projection and 16.2% FTN edge."
+    },
+    {
+      "classification": "model_projection_and_market_context",
+      "source": "Fantasy Info Central",
+      "sourceTimestampEt": "crawled/accessed 2026-09-17 pregame",
+      "claim": "Gibbs O87.5 rushing yards -113 at FanDuel with 98.0 projection; Gibbs receiving 29.5 with 28.4 projection."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Covers computer projections",
+      "sourceTimestampEt": "updated 2026-09-17 13:24 ET",
+      "claim": "Gibbs projected 90.34 rushing yards; Amon-Ra St. Brown 89.37 receiving; Cook 18.17 receiving; Kincaid 4.10 receptions."
+    },
+    {
+      "classification": "public_market_context",
+      "source": "Optimal Bet",
+      "sourceTimestampEt": "crawled/accessed 2026-09-17 pregame",
+      "claim": "Gibbs rushing market O87.5 with DraftKings around -110 and FanDuel around -113; model projection 87.1, illustrating meaningful projection disagreement."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.buffalobills.com/news/buffalo-bills-inactives-vs-lions-week-2",
+    "https://www.detroitlions.com/news/inactives-lions-vs-bills-miller-mahogany-rakestraw",
+    "https://ftnfantasy.com/nfl/best-nfl-week-2-player-prop-bets-lions-bills-2026",
+    "https://www.fantasyinfocentral.com/betting/nfl/props/rushing-yards",
+    "https://www.fantasyinfocentral.com/betting/nfl/props/receiving-yards",
+    "https://www.covers.com/nfl/lions-vs-bills-player-props-computer-projections-week-2-2026",
+    "https://www.optimal-bet.com/nfl/players/09b5c0da-fbe7-48bd-8756-875ac0c87da9/jahmyr-gibbs/rushingYards"
+  ],
+  "researchNotes": [
+    "No new Grok pass: latest remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and prior processed state.",
+    "Official TNF inactives are now known; Ed Oliver's warmup injury is the material new catalyst versus the prior 18:05 ET archive.",
+    "Gibbs rushing is the only new formal BET. The fair probability is deliberately conservative because projection sources range from 87.1 to 104.9 and Detroit is missing two starting offensive linemen.",
+    "Do not infer that returning to a stored play-to automatically makes Gibbs receiving a bet; fresh independent receiving projection evidence is mixed.",
+    "No Week 2 straight ticket is recorded in bet_history.csv as of this run."
+  ]
+}
