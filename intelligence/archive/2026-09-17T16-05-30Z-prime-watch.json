@@ -1,0 +1,92 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T16:05:30Z",
+  "runAtEt": "2026-09-17 12:05:30",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material change requiring user attention. Jahmyr Gibbs Over 29.5 receiving yards remains price-conditional through -115 only after live sportsbook confirmation; do not chase 30.5+ and do not duplicate exposure. The latest publicly attributable sportsbook quote remains Action Network's article updated 2026-09-16 22:06 ET citing bet365 O29.5 -114, which is supportive but not current executable truth at this 12:05 ET checkpoint. Dalton Kincaid remains WATCH: Action Network's same article cited Fanatics O4.5 receptions +140, and fresh FantasyPros usage analysis confirms an 80.8% Week 1 snap rate, 68.8% route share, 20.7% target share and 20% first-read share, but the price is stale and current FantasyPros consensus remains near four receptions, so no BET is promoted without live price verification. Quinshon Judkins remains WATCH/conditional only at O12.5 -110 or better after live verification; the prior O13.5 ceiling remains withdrawn. Official Detroit reporting still has RT Blake Miller and LG Christian Mahogany OUT for TNF. National Weather Service forecast for Orchard Park Thursday night is partly cloudy with calm wind, so weather does not materially alter the receiving-prop distributions. No new Grok pass.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T15-37-40Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "line": 29.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "THURSDAY",
+      "actualUserAction": "UNCONFIRMED",
+      "reason": "Football thesis remains intact, but no newly verified executable sportsbook quote was obtained at 12:05 ET. Preserve the existing exact ceiling: O29.5 through -115 after live confirmation; no 30.5+ chase and no duplicate exposure."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Week 1 usage is materially encouraging (80.8% snaps, 68.8% route share, 20.7% target share, 20% first-read share), but the Fanatics O4.5 +140 quote is from an Action Network article last updated Wednesday night and is not treated as current sportsbook truth. Do not promote without live verification and a fresh fair-probability calculation."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "REDUCED_EDGE",
+      "reason": "No newer verified rushing-attempt market was found. Prior 13.5 play-to remains withdrawn. Reconsider only O12.5 at -110 or better after live sportsbook verification and fresh probability work."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions",
+      "sourceUrl": "https://www.detroitlions.com/news/5-things-to-watch-lions-vs-bills-gibbs-goff-allen",
+      "sourceTimestampEt": "published 2026-09-17 07:00 ET; accessed 2026-09-17 12:05 ET",
+      "claim": "Detroit will be without starting RT Blake Miller and starting LG Christian Mahogany Thursday night."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Action Network",
+      "sourceUrl": "https://www.actionnetwork.com/nfl/lions-vs-bills-player-props-dalton-kincaid-jahmyr-gibbs",
+      "sourceTimestampEt": "article updated 2026-09-16 22:06 ET; accessed 2026-09-17 12:05 ET",
+      "claim": "Article cites Gibbs O29.5 receiving yards -114 at bet365 and Kincaid O4.5 receptions +140 at Fanatics. These are preserved as article-time sportsbook quotes, not current executable truth."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros",
+      "sourceUrl": "https://www.fantasypros.com/2026/09/fantasy-football-start-sit-lineup-advice-tight-ends-week-2-2026/",
+      "sourceTimestampEt": "published/accessed 2026-09-17",
+      "claim": "Kincaid Week 1 usage: 80.8% snap rate, 68.8% route share, 20.7% target share, 20% first-read share."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "National Weather Service",
+      "sourceUrl": "https://forecast.weather.gov/MapClick.php?FcstType=text&lat=42.7344&lg=english&lon=-78.7317",
+      "sourceTimestampEt": "forecast updated 2026-09-17 03:57 ET; accessed 2026-09-17 12:05 ET",
+      "claim": "Thursday night in Orchard Park: partly cloudy, low around 56, calm wind. No material weather downgrade for TNF passing/receiving props."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass: latest remains status live at completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "No Week 2 user straight ticket is recorded in bet_history.csv; do not assume Gibbs or any other Week 2 prop was placed.",
+    "No new line-history row was added because no newly verified current executable sportsbook quote was obtained at this checkpoint.",
+    "No decision-ledger row was added because none of the material candidate classifications or play-to thresholds changed from the 11:37 ET archive.",
+    "Weather is neutral and does not create a new TNF betting catalyst."
+  ]
+}
