@@ -1,0 +1,125 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T02:08:58Z",
+  "runAtEt": "2026-09-16 22:08:58",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Material Week 2 price re-verification: Covers now timestamps its Quinshon Judkins page Wed Sep 16 19:37 ET and shows bet365 Over 12.5 rushing attempts at -105. This is newer than the prior 14:33 ET +100 snapshot and is still inside PRIME's stored maximum acceptable price. The football thesis remains supported by Cleveland placing Dylan Sampson on injured reserve. Using the previously stored conservative 63% fair Over probability, -105 implies 51.22% break-even and an approximately 11.78 percentage-point edge. PRIME restores BET_NOW for 0.5u only if the user's live sportsbook still shows O12.5 -105 or better; O12.5 remains playable through -115, O13.5 only at -115 or better, and O14.5+ requires fresh recalculation. No new Grok pass. Fresh DET@BUF prices do not overcome projection disagreement and Detroit offensive-line absences, so no Thursday prop is promoted to BET.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T01-39-07Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-JUDKINS-CARRIES-REVERIFY-20260916-220858",
+      "timestampEt": "2026-09-16 22:08:58",
+      "gameDate": "2026-09-20",
+      "game": "CLE@TB",
+      "player": "Quinshon Judkins",
+      "team": "CLE",
+      "opponent": "TB",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers",
+      "line": 12.5,
+      "odds": -105,
+      "marketTimestampEt": "2026-09-16 19:37",
+      "bestMarketLine": "12.5 -105 bet365 via Covers",
+      "consensusLine": null,
+      "ourMeanProjection": 16.1,
+      "ourMedianProjection": 16.0,
+      "marketImpliedProbability": 0.5122,
+      "noVigProbability": null,
+      "internalFairProbability": 0.63,
+      "fairOdds": -170,
+      "estimatedEdgePctPoints": 11.78,
+      "edgeBucket": "8%+",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "B+",
+      "decisionStatus": "BET",
+      "steamState": "BET_NOW",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "MARKET_MOVE", "EXPERT_CONSENSUS", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": [],
+      "thesisId": "JUDKINS_SAMPSON_OUT_VOLUME",
+      "stakeUnitsIfLiveVerified": 0.5,
+      "actualUserAction": "UNCONFIRMED",
+      "reason": "The newer sportsbook-specific snapshot is slightly worse than the prior +100 quote but remains comfortably inside the stored -115 ceiling. Price discipline is unchanged: verify the live app before placing; do not represent the timestamped Covers quote as guaranteed executable at 22:08 ET. Do not stack Judkins rushing-yard exposure solely from the same workload thesis."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Strong Week 1 usage remains encouraging, but current model/projection dispersion does not produce a robust 4-5 percentage-point edge at the available range."
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Target concentration remains strong, but sportsbook/source dispersion and Detroit offensive-line absences keep the price-adjusted edge below threshold."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RUSH_YARDS/RECEIVING_YARDS/RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Fresh late-Wednesday sportsbook prices do not resolve the large projection disagreement, and Detroit is missing two starting offensive linemen. Do not infer a bet from Week 1 bell-cow usage alone."
+    },
+    {
+      "player": "Jared Goff",
+      "game": "DET@BUF",
+      "propType": "PASS_ATTEMPTS",
+      "side": "UNDER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "The Under direction remains plausible but game-script uncertainty and model disagreement prevent a calibrated qualifying edge."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Quinshon Judkins player-prop page",
+      "sourceTimestampEt": "2026-09-16 19:37",
+      "claim": "bet365 displays Quinshon Judkins Over 12.5 rushing attempts at -105."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Cleveland Browns transaction context previously verified by PRIME",
+      "claim": "Dylan Sampson is on injured reserve, leaving Judkins with a strengthened expected rushing-volume role."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official final Week 2 injury report, 2026-09-16",
+      "claim": "Starting OL Christian Mahogany and Blake Miller are OUT."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official final Week 2 injury report, 2026-09-16",
+      "claim": "Ty Johnson, Cole Bishop and T.J. Sanders are questionable; Dalton Kincaid and Dawson Knox have no game designation."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and last processed timestamp.",
+    "No verified Week 2 user ticket is present in data/bet_history.csv.",
+    "The Judkins alert is generated because a newer sportsbook-specific timestamp materially re-verifies a previously price-conditional thesis inside the stored play-to/juice ceiling.",
+    "The Covers snapshot is not represented as a guaranteed live sportsbook quote at 22:08 ET; immediate live-app verification is required before placement.",
+    "No other current candidate crossed PRIME's price-adjusted edge threshold during this checkpoint."
+  ]
+}
