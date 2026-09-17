@@ -1,0 +1,113 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T00:31:14Z",
+  "runAtEt": "2026-09-16 20:31:14",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No PRIME-grade actionable change at the Wednesday evening checkpoint. The Grok feed remains unchanged at completedAt 2026-09-12T17:05:00Z. Fresh DET@BUF sportsbook snapshots were reviewed, but projection disagreement, confirmed Detroit offensive-line absences, and price/source dispersion prevent promotion of any Thursday prop to BET. Quinshon Judkins rushing-attempts remains a price-conditional Week 2 thesis because no newer executable sportsbook-specific attempts quote was verified beyond the earlier Wednesday bet365/Covers O12.5 +100 reference. No verified Week 2 user ticket requires action.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-16T22-54-57Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "lastVerifiedReference": "bet365 via Covers O12.5 +100 at 2026-09-16 14:33 ET",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "No newer sportsbook-specific attempts quote independently verified. Preserve prior play-to discipline and do not present the earlier price as currently executable."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "currentMarketContext": "Statz exposed bet365 O49.5 -116/U49.5 -116 on 2026-09-16; other public references during the day were around 50.5-51.5.",
+      "projectionContext": "CBS Week 2 projection approximately 58 receiving yards; prior independent projections remain dispersed.",
+      "reason": "The Week 1 role/production signal is encouraging, but the price-adjusted probability edge is not robust enough after accounting for projection dispersion and prior baseline production."
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "currentMarketContext": "Public sources disagreed materially: Statz exposed bet365 75.5 O-116/U-116 while Covers showed bet365 79.5 O-115 and other regulated-book references roughly 78.5-84.5 around the 20:07 ET update.",
+      "projectionContext": "CBS Week 2 projection approximately 77.5 receiving yards.",
+      "reason": "Target concentration remains attractive, but current price/source disagreement plus Detroit's two starting OL absences prevent a defensible 4-5 percentage-point edge. A live sportsbook screen would be required before reconsidering."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RUSH_YARDS/RECEIVING_YARDS/RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "currentMarketContext": "Covers sportsbook snapshots around 20:29 ET showed rushing yards roughly 86.5-90.5, rushing attempts 18.5-19.5 and receiving yards 29.5-30.5 depending on book.",
+      "projectionContext": "CBS projects roughly 19.3 carries/107 rush yards/38.2 receiving yards, while other current public models are materially lower around 70-71 rush yards and about 28 receiving yards.",
+      "reason": "Projection disagreement is too large, and confirmed Detroit OL absences add downside uncertainty. Do not infer a bet from Week 1 bell-cow usage alone."
+    },
+    {
+      "player": "Jared Goff",
+      "game": "DET@BUF",
+      "propType": "PASS_ATTEMPTS",
+      "side": "UNDER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "currentMarketContext": "Covers sportsbook snapshot around 20:32 ET showed U35.5 -105 at bet365/Fanatics/Hard Rock, with some books using 36.5 at heavier Under juice.",
+      "projectionContext": "CBS projects roughly 32.1-32.3 attempts; FantasyAlarm published an Under 35.5 analyst thesis.",
+      "reason": "The model/analyst direction is favorable, but Goff's recent attempt volume and a plausible trailing/high-total game script create enough conflict that PRIME does not assign a qualifying calibrated edge yet."
+    },
+    {
+      "player": "Josh Allen",
+      "game": "DET@BUF",
+      "propType": "PASS_ATTEMPTS/PASS_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "reason": "Current market and analyst signals favor volume in a high-total environment, but CBS projects only about 28.4 attempts and 234 passing yards. The disagreement is too large to promote an Over from game-environment narrative."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official final Week 2 injury report, 2026-09-16",
+      "claim": "Starting OL Christian Mahogany and Blake Miller are OUT for Thursday; Juice Scruggs has no game designation."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official final Week 2 injury report, 2026-09-16",
+      "claim": "Ty Johnson, Cole Bishop and T.J. Sanders are questionable; Dalton Kincaid and Dawson Knox have no game designation."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers regulated-book player pages accessed 2026-09-16 evening",
+      "claim": "Fresh sportsbook snapshots were captured for Gibbs, Goff, Allen and Amon-Ra; exact lines differ materially by sportsbook and were evaluated as price-specific rather than merged into a fictional consensus market."
+    },
+    {
+      "classification": "model_projection",
+      "source": "CBS Week 2 projections accessed 2026-09-16",
+      "claim": "CBS projections support some Thursday overs/unders directionally, but several materially disagree with other current public models, so they are not used alone to create bets."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and last processed timestamp.",
+    "No verified Week 2 user ticket is present in bet_history.csv.",
+    "Fresh market prices were used only as timestamped source-specific snapshots; conflicting source values were preserved rather than overwritten.",
+    "No decision crossed PRIME's required price-adjusted edge threshold, so no live board/bet/pass ledger mutation was necessary beyond this immutable checkpoint archive."
+  ]
+}
