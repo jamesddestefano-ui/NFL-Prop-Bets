@@ -1,0 +1,124 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T09:24:51Z",
+  "runAtEt": "2026-09-17 05:24:51",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material PRIME decision change requiring an alert. The Grok feed remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index, so there is no new Grok pass. Jahmyr Gibbs OVER 29.5 receiving yards remains a price-conditional BET/STILL_PLAYABLE only at -115 or better; the current Covers player page still centers the market at 29.5 and was last updated 2026-09-16 23:12 ET, while the existing sportsbook-specific recommendation remains 29.5 -113 FanDuel / -114 bet365 from the prior verified checkpoint. No evidence supports chasing 30.5. Official NFL/team injury statuses are unchanged: Detroit OL Christian Mahogany and Blake Miller are OUT and D.J. Reed is questionable; Buffalo lists Ty Johnson, Cole Bishop and T.J. Sanders questionable. Current game-market context has Buffalo around -5.5 with a total around 54.5, a modestly more favorable trailing/pass-game script for Detroit than earlier -4.5 references, but not enough by itself to change the Gibbs fair probability or stake. Dalton Kincaid OVER 4.5 receptions remains WATCH, not BET. Gibbs rushing-attempt markets remain a projection/role disagreement and are not actionable. No newer sportsbook-specific Quinshon Judkins rushing-attempt quote was verified, so the prior 12.5 -105 bet365 snapshot remains stale for alert purposes.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T08-12-14Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-GIBBS-RECYDS-CARRYFORWARD-20260917-052451",
+      "timestampEt": "2026-09-17 05:24:51",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "prior verified FanDuel / bet365 references",
+      "line": 29.5,
+      "odds": -113,
+      "bestMarketLine": "29.5; prior verified sportsbook-specific prices -113 FanDuel and -114 bet365; latest Covers market page still centers at 29.5 but does not provide a newer mainstream-book executable quote in this run",
+      "consensusLine": 29.5,
+      "ourMeanProjection": 34.5,
+      "ourMedianProjection": 33.0,
+      "estimatedOverProbability": 0.58,
+      "estimatedUnderProbability": 0.42,
+      "fairOdds": -138.1,
+      "marketImpliedProbability": 0.5305,
+      "estimatedEdgePct": 4.95,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "decisionReason": "The existing 29.5 receiving-yards thesis remains intact. No new injury or weather downgrade emerged, and a modest Buffalo spread move is directionally supportive of Detroit receiving volume. Because no newer executable sportsbook quote materially improves or worsens the threshold, do not re-alert and do not chase above 29.5.",
+      "confidence": "B",
+      "playToLine": 29.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "SNAP_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "correlationTags": [],
+      "thesisId": "GIBBS_PASS_GAME_VOLUME_WITHOUT_MONTGOMERY",
+      "stakeUnits": 0.5,
+      "actualUserAction": "UNCONFIRMED"
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "The five-catch threshold remains price-sensitive. Independent expectations center near four receptions and no new target-vacuum catalyst is confirmed. A prior +140 reference is not treated as a current executable price without live verification."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "UNDER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Action PRO currently surfaces Under 19.5 and other public models project materially fewer carries, but this conflicts with Gibbs' Week 1 workhorse role and a separate current analyst case for Over 19.5. Role evidence and projection disagreement prevent a price-adjusted Under recommendation."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "lastVerifiedSportsbook": "bet365 via Covers",
+      "lastVerifiedLine": 12.5,
+      "lastVerifiedOdds": -105,
+      "lastVerifiedMarketTimestampEt": "2026-09-16 19:37",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Carry-forward only. No newer sportsbook-specific rushing-attempt quote was verified in this run, so the prior quote remains stale for alert purposes and must not be represented as current."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "NFL.com official Week 2 injury report",
+      "sourceTimestampEt": "accessed 2026-09-17 05:24 ET",
+      "claim": "Detroit: Christian Mahogany and Blake Miller OUT, D.J. Reed questionable. Buffalo: Ty Johnson, Cole Bishop and T.J. Sanders questionable. No material designation change from the prior checkpoint."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Jahmyr Gibbs player-prop page",
+      "sourceTimestampEt": "odds last updated 2026-09-16 23:12 ET; accessed 2026-09-17 05:24 ET",
+      "claim": "Receiving-yards market remains centered at 29.5. This confirms the threshold but is not treated as a newer executable mainstream-book quote than the prior verified FanDuel/bet365 references."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers NFL odds board",
+      "sourceTimestampEt": "accessed 2026-09-17 05:24 ET",
+      "claim": "DET@BUF game market is around Buffalo -5.5 with a total around 54.5. This is a modest game-script input, not a standalone player-prop signal."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "Action Network current Gibbs player page / TNF prop analysis",
+      "sourceTimestampEt": "accessed 2026-09-17 05:24 ET",
+      "claim": "Action's model surfaces Gibbs rushing-attempt Under interest while its published TNF prop analysis continues to support Gibbs receiving yards Over 29.5. Model signals are not sportsbook truth and the rushing-attempt signal remains conflicted by role evidence."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json remains live at completedAt 2026-09-12T17:05:00Z and the compact history index ends at the same timestamp.",
+    "No Week 2 user ticket is recorded in data/bet_history.csv.",
+    "No material market transition occurred since the 04:12 ET immutable checkpoint, so primary CSV ledgers are intentionally not modified in this run.",
+    "Gibbs remains strictly price-specific: Over 29.5 at -115 or better only; do not chase 30.5 and do not stack same-thesis receiving/receptions/rush-plus-receiving exposure without a fresh fair-price calculation.",
+    "Kincaid remains WATCH; Gibbs rushing attempts remain unresolved because model/analyst signals conflict with role evidence; Judkins remains stale for alert purposes until a newer sportsbook-specific rushing-attempt quote is verified."
+  ]
+}
