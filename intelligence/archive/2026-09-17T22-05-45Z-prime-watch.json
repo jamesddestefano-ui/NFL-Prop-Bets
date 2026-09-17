@@ -1,0 +1,177 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T22:05:45Z",
+  "runAtEt": "2026-09-17 18:05:45",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No currently executable PRIME edge requiring a user alert. Jahmyr Gibbs receiving remains PASS_AFTER_MOVE with DraftKings Network displaying 31.5, above PRIME's stored 29.5 play-to. James Cook receiving/receptions remain WATCH; Buffalo's 16:51 ET elevation of Frank Gore Jr., who played 11 RB snaps in Week 1, means a possible Ty Johnson inactive should not be treated as an automatic full Cook pass-game role transfer. Dalton Kincaid receiving remains PASS/REDUCED_EDGE and receptions WATCH. Quinshon Judkins remains WATCH only at O12.5 -110 or better. A new Sione Vaki rushing-yards angle was investigated: Sean Koerner's Action Network guide updated 16:57 ET explicitly quoted DraftKings U8.5 -118 and estimated 63% Under probability, but the current DraftKings Network prop-splits page accessed during this run displays 5.5. Koerner's own probability falls to 52% at U5.5, and a separate current public board also displays U5.5 at heavy negative juice, so PRIME classifies the present market PASS_AFTER_MOVE rather than chasing the stale 8.5 edge. No Week 2 straight user ticket is recorded.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T21-29-36Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "currentMarketEvidence": "DraftKings Network TNF prop-splits page displays 31.5 receiving yards; exact current juice not exposed in the split table",
+      "storedPlayToLine": 29.5,
+      "storedMaxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "PRE_GAME",
+      "signalTags": ["ROLE_CHANGE", "TARGET_SHARE", "MARKET_MOVE", "OL_INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "Current displayed threshold remains two yards above PRIME's stored ceiling. Do not chase 30.5+ or duplicate same-thesis exposure."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "currentMarketEvidence": "DraftKings Network displays 18.5 receiving yards; no newly verified sportsbook-specific price with a robust 4-5 percentage-point fair-probability edge",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "PRE_GAME",
+      "signalTags": ["ROLE_CHANGE", "TARGET_SHARE", "INJURY", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "reason": "Week 1 target involvement remains interesting, but Ty Johnson is still unresolved and Buffalo elevated Frank Gore Jr. at 16:51 ET. Gore played 11 RB snaps in Week 1, so Johnson being inactive would not justify assuming all backup/pass-down work flows to Cook."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "currentMarketEvidence": "DraftKings Network displays 2.5 receptions; current exact regulated-book juice not independently verified",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "PRE_GAME",
+      "signalTags": ["ROLE_CHANGE", "TARGET_SHARE", "INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "No formal play without a verified current price and stronger independent probability support. Frank Gore Jr. elevation reduces confidence in a simple Ty-Johnson-out target-vacuum thesis."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "currentMarketEvidence": "DraftKings Network displays 51.5 receiving yards; prior same-day Action/DraftKings article prices do not create a robust edge at the current threshold",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "PRE_GAME",
+      "signalTags": ["SNAP_SHARE", "ROUTE_SHARE", "TARGET_SHARE", "MATCHUP", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "reason": "Strong Week 1 role is substantially priced in. Central projections remain near the market and do not clear PRIME's required price-adjusted edge."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "line": 3.5,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "PRE_GAME",
+      "signalTags": ["SNAP_SHARE", "ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "reason": "Prior approximately 61.5% fair-probability surface was insufficient at the heavy negative prices previously observed. No fresh materially better executable price was verified in this run."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "PROJECTION_DISAGREEMENT"],
+      "reason": "No new Sunday catalyst. Preserve O12.5 at -110 or better only; do not chase O13.5+."
+    },
+    {
+      "player": "Sione Vaki",
+      "game": "DET@BUF",
+      "propType": "RUSH_YARDS",
+      "side": "UNDER",
+      "decisionStatus": "PASS",
+      "historicalActionableEvidence": "Action Network/Sean Koerner updated 2026-09-17 16:57 ET: DraftKings U8.5 -118; Koerner fair Under probability 63%; article explicitly said bettable to 6.5",
+      "currentMarketEvidence": "DraftKings Network prop-splits page accessed about 18:05 ET displays 5.5 rushing yards. SportsGrid current public surface also displays U5.5 -138 / O5.5 +108 with a 7.2-yard projection; SportsGrid is supporting context, not authoritative sportsbook truth.",
+      "fairProbabilityByThreshold": {
+        "under8.5": 0.63,
+        "under7.5": 0.61,
+        "under6.5": 0.56,
+        "under5.5": 0.52
+      },
+      "historicalEdgeAt8.5Minus118Pct": 8.87,
+      "edgeBucketAtHistoricalQuote": "8%+",
+      "primeReopenRules": [
+        "U8.5: re-evaluate if verified live; -135 or better keeps at least about a 5.5-point raw edge versus 63% fair",
+        "U7.5: -125 or better keeps about a 5.4-point raw edge versus 61% fair",
+        "U6.5: require approximately -105 or better to clear about a 4.8-point raw edge versus 56% fair",
+        "U5.5: PASS at ordinary negative juice because Koerner's own fair Under probability is only 52%"
+      ],
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "PRE_GAME",
+      "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "GAME_SCRIPT", "OL_INJURY", "MARKET_MOVE", "EXPERT_CONSENSUS", "PROJECTION_DISAGREEMENT"],
+      "reason": "The value was threshold-specific. The current displayed 5.5 line removes the modeled edge; PRIME will not chase an Under after a three-yard adverse move."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official transaction announcement",
+      "sourceTimestampEt": "2026-09-17 16:51 ET",
+      "claim": "Buffalo elevated WR Greg Dortch and RB Frank Gore Jr. from the practice squad for tonight. Gore played 11 RB snaps in Week 1, second-most among Bills RBs."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official Week 2 final injury report",
+      "sourceTimestampEt": "published 2026-09-16; rechecked 2026-09-17",
+      "claim": "Ty Johnson, Cole Bishop and T.J. Sanders are questionable; Terrel Bernard has no game designation. Official game-day inactives were not yet available at this checkpoint."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official Week 2 final injury/reporting",
+      "sourceTimestampEt": "published 2026-09-16/17; rechecked 2026-09-17",
+      "claim": "Christian Mahogany and Blake Miller are out; D.J. Reed is questionable. Detroit's official preview expects Larry Borom and Ben Bartch to fill the affected OL spots."
+    },
+    {
+      "classification": "sportsbook_market_evidence",
+      "source": "DraftKings Network TNF player-prop splits",
+      "sourceTimestampEt": "accessed 2026-09-17 about 18:05 ET",
+      "claim": "Displayed thresholds include Gibbs 31.5 receiving yards, Cook 18.5 receiving yards and 2.5 receptions, Kincaid 51.5 receiving yards and 3.5 receptions, and Vaki 5.5 rushing yards. Exact juice is not exposed in the splits table."
+    },
+    {
+      "classification": "model_projection_and_attributed_sportsbook_quote",
+      "source": "Action Network / Sean Koerner TNF betting guide",
+      "sourceTimestampEt": "updated 2026-09-17 16:57 ET",
+      "claim": "Article quoted DraftKings Vaki U8.5 rushing yards -118 and estimated Under probabilities of 63% at 8.5, 61% at 7.5, 56% at 6.5 and 52% at 5.5."
+    },
+    {
+      "classification": "public_market_context",
+      "source": "SportsGrid player-prop page",
+      "sourceTimestampEt": "crawled/accessed 2026-09-17 about 18:05 ET",
+      "claim": "Public page displays Vaki U5.5 -138 / O5.5 +108 and a 7.2-yard projection. This is corroborating market context only and does not override verified sportsbook truth."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.buffalobills.com/news/bills-elevate-wr-greg-dortch-and-rb-frank-gore-jr-from-practice-squad-vs-lions",
+    "https://www.buffalobills.com/news/buffalo-bills-injury-report-vs-lions-week-2",
+    "https://www.detroitlions.com/news/5-things-to-watch-lions-vs-bills-gibbs-goff-allen",
+    "https://dknetwork.draftkings.com/2026/09/17/lions-vs-bills-player-prop-bet-splits/",
+    "https://www.actionnetwork.com/nfl/detroit-lions-vs-buffalo-bills-prediction-pick-odds-nfl-thursday-night-football-september-17",
+    "https://www.sportsgrid.com/nfl/player-props"
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and prior processed state.",
+    "No Week 2 straight ticket is recorded in bet_history.csv.",
+    "No user alert is sent because all currently verified actionable-range numbers have either moved beyond PRIME's stored play-to or lack a verified price/edge. Vaki is specifically a PASS_AFTER_MOVE at the currently displayed 5.5 threshold.",
+    "Official TNF inactives are still pending at this checkpoint and should be treated as the next meaningful catalyst, especially for Ty Johnson/Cook usage.",
+    "Canonical decision/line ledgers are not overwritten from conflicting current Vaki market surfaces. The immutable archive preserves both the 16:57 ET Action/DraftKings 8.5 quote and the later 5.5 DraftKings Network display without pretending they were simultaneously executable."
+  ]
+}
