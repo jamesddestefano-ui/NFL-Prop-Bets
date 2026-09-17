@@ -1,0 +1,121 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T06:50:35Z",
+  "runAtEt": "2026-09-17 02:50:35",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material change requiring a user alert. The latest Grok feed remains status=live with completedAt 2026-09-12T17:05:00Z, so there is no new Grok pass. Jahmyr Gibbs OVER 29.5 receiving yards remains price-conditionally playable only at -115 or better: Action Network continues to publish bet365 O29.5 -114, while current Covers data still centers the threshold at 29.5. Detroit's official final injury report is unchanged with Christian Mahogany and Blake Miller OUT and D.J. Reed questionable; the NFL official report still lists Buffalo's Ty Johnson, Cole Bishop and T.J. Sanders questionable. Projection disagreement remains material: numberFire/FanDuel's Week 2 projection is approximately 29.3 receiving yards, while Covers' analyst model is around 35, so no stake increase or threshold chase is justified. No newer sportsbook-specific Quinshon Judkins rushing-attempt quote was verified; the prior 12.5 -105 observation must not be treated as current or re-alerted.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T06-21-04Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-GIBBS-RECYDS-CARRYFORWARD-20260917-025035",
+      "timestampEt": "2026-09-17 02:50:35",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "bet365 via Action Network",
+      "line": 29.5,
+      "odds": -114,
+      "bestMarketLine": "29.5 -114 bet365 via currently published Action Network article; live-app verification still required",
+      "consensusLine": 29.5,
+      "ourMeanProjection": 34.5,
+      "ourMedianProjection": 33.0,
+      "estimatedOverProbability": 0.58,
+      "estimatedUnderProbability": 0.42,
+      "fairOdds": -138.1,
+      "marketImpliedProbability": 0.5327,
+      "estimatedEdgePct": 4.73,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "decisionReason": "No new market or injury catalyst has changed the prior actionable state. Current independent evidence remains mixed: numberFire/FanDuel projects approximately 29.3 receiving yards while Covers' analyst estimate is around 35. Retain the prior conservative decision only at the stored threshold and price ceiling; do not increase stake or chase 30.5.",
+      "confidence": "B",
+      "playToLine": 29.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "SNAP_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "correlationTags": [],
+      "thesisId": "GIBBS_PASS_GAME_VOLUME_WITHOUT_MONTGOMERY",
+      "stakeUnits": 0.5,
+      "actualUserAction": "UNCONFIRMED"
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Action continues to publish O4.5 +140 at Fanatics, but independent catch expectations remain below the five-catch winning threshold and no new role catalyst was verified."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "lastVerifiedSportsbook": "bet365 via Covers",
+      "lastVerifiedLine": 12.5,
+      "lastVerifiedOdds": -105,
+      "lastVerifiedMarketTimestampEt": "2026-09-16 19:37",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Carry-forward only. No newer sportsbook-specific rushing-attempt quote was verified during this run, so the prior quote is stale and must not be represented as current or used for a repeated alert."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "NFL official Week 2 injury report / Detroit Lions official injury report",
+      "sourceTimestampEt": "2026-09-16 afternoon ET",
+      "claim": "Detroit OL Christian Mahogany and Blake Miller are OUT; CB D.J. Reed is questionable."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "NFL official Week 2 injury report",
+      "sourceTimestampEt": "accessed 2026-09-17 02:50 ET",
+      "claim": "Buffalo RB Ty Johnson, S Cole Bishop and DL T.J. Sanders remain questionable; Dalton Kincaid has no game designation."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Action Network current DET@BUF player-prop article",
+      "sourceTimestampEt": "accessed 2026-09-17 02:50 ET",
+      "claim": "Article continues to quote Jahmyr Gibbs Over 29.5 receiving yards at -114 at bet365; treat as a current published sportsbook-specific reference, not guaranteed executable without live-app verification."
+    },
+    {
+      "classification": "model_projection",
+      "source": "numberFire via FanDuel Research",
+      "sourceTimestampEt": "current Week 2 page accessed 2026-09-17 02:50 ET",
+      "claim": "Gibbs projected receiving yardage is approximately 29.3 yards, essentially at the 29.5 market threshold."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "Covers current Gibbs prop analysis",
+      "sourceTimestampEt": "accessed 2026-09-17 02:50 ET",
+      "claim": "Covers analyst's receiving-yard estimate is approximately 35 yards, illustrating continuing projection disagreement rather than a new consensus edge."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json and intelligence/grok_pulse_history.jsonl both end at completedAt 2026-09-12T17:05:00Z.",
+    "No Week 2 user ticket is recorded in data/bet_history.csv.",
+    "No new material market transition occurred since the 02:21 ET immutable checkpoint, so the primary CSV ledgers are intentionally not modified.",
+    "Gibbs remains price-specific: 29.5 at -115 or better only; do not chase 30.5 and do not stack same-thesis receiving/receptions/rushing-plus-receiving exposure without a fresh fair-price calculation.",
+    "Judkins remains price-conditional but stale for alert purposes until a newer sportsbook-specific quote is verified."
+  ]
+}
