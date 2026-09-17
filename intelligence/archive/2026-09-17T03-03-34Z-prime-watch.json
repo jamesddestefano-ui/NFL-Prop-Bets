@@ -1,0 +1,113 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T03:03:34Z",
+  "runAtEt": "2026-09-16 23:03:34",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material change requiring a user alert. The latest verified sportsbook-specific Judkins snapshot remains bet365 via Covers Over 12.5 rushing attempts -105, timestamped Wed Sep 16 19:37 ET; because no newer executable sportsbook-specific quote was independently verified in this checkpoint, PRIME does not re-alert or represent that older snapshot as current. The stored price discipline remains O12.5 playable only through -115, O13.5 only at -115 or better, and O14.5+ requires fresh recalculation. Thursday DET@BUF remains a no-bet slate at this checkpoint: Kincaid receptions/receiving yards and Gibbs receiving yards show interesting usage/projection signals, but fresh price certainty and calibrated edge are insufficient; Amon-Ra and Goff remain projection-disagreement passes/watches. Official Wednesday game statuses remain unchanged, including Detroit OL Christian Mahogany and Blake Miller OUT and Buffalo RB Ty Johnson questionable. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T02-08-58Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "lastVerifiedSportsbook": "bet365 via Covers",
+      "lastVerifiedLine": 12.5,
+      "lastVerifiedOdds": -105,
+      "lastVerifiedMarketTimestampEt": "2026-09-16 19:37",
+      "ourMeanProjection": 16.1,
+      "ourMedianProjection": 16.0,
+      "internalFairProbability": 0.63,
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "MARKET_MOVE", "EXPERT_CONSENSUS", "PROJECTION_DISAGREEMENT"],
+      "thesisId": "JUDKINS_SAMPSON_OUT_VOLUME",
+      "actualUserAction": "UNCONFIRMED",
+      "reason": "Football thesis is unchanged, but the 19:37 ET public sportsbook snapshot is no longer fresh enough to trigger another automation alert. Treat the recommendation as price-conditional: only act if a live sportsbook still offers O12.5 at -115 or better, or O13.5 at -115 or better. Do not chase O14.5+."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "marketContext": "Public line-shopping references show 4.5+ around +124 to +140 at some books; another market has 3.5 heavily juiced to the Over.",
+      "projectionContext": "4for4 projects 4.0 receptions; FIC projects 3.8. Week 1 route participation rose to roughly 69% and Kincaid caught 5 of 6 targets for 130 yards.",
+      "signalTags": ["ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "The plus-money 5+ threshold is interesting, but independent reception projections remain below five and the exact +140 sportsbook quote was not freshly re-verified at this checkpoint. No robust 4-5 percentage-point edge is established."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "marketContext": "Public current-market references cluster around 29.5 receiving yards at roughly -112 to -114, but an exact fresh regulated-book timestamp was not independently verified in this checkpoint.",
+      "projectionContext": "Independent public projections/analyses cluster above the line (roughly 32.6, 34.4, 35.0; one higher outlier near 39.9), while Week 1 produced 5 catches for 30 yards on a 74% snap share.",
+      "signalTags": ["SNAP_SHARE", "TARGET_SHARE", "ROLE_CHANGE", "PROJECTION_DISAGREEMENT", "OL_INJURY"],
+      "reason": "Directionally attractive, but the edge is near PRIME's minimum threshold after price, model dispersion and Detroit's two starting offensive-line absences. Do not promote without a freshly verified sportsbook-specific 29.5 price and a recalculated fair probability."
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS/RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Week 1 target concentration remains elite, but current public yardage is around the high-70s and projection sources are too dispersed to establish a calibrated price-adjusted edge."
+    },
+    {
+      "player": "Jared Goff",
+      "game": "DET@BUF",
+      "propType": "PASS_YARDS/PASS_ATTEMPTS",
+      "side": "UNDER",
+      "decisionStatus": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Public passing-yard references range materially and one projection sits near the lower market number. No verified current attempts price or robust fair-probability edge supports a wager."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official Week 2 game-status report previously verified by PRIME",
+      "claim": "OL Christian Mahogany and T Blake Miller are OUT; CB D.J. Reed is questionable."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official Week 2 game-status report previously verified by PRIME",
+      "claim": "RB Ty Johnson, S Cole Bishop and DL T.J. Sanders are questionable; Dalton Kincaid and Dawson Knox have no game designation."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Pride of Detroit / Detroit Lions Podcast injury summaries accessed 2026-09-16 late evening ET",
+      "claim": "No later Wednesday injury-status change was found beyond the official designations."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Public game-weather preview accessed 2026-09-16 late evening ET",
+      "claim": "Light rain and mild breeze are forecast for DET@BUF; no severe-weather trigger was identified."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "No verified Week 2 user ticket is present in data/bet_history.csv.",
+    "The prior Judkins alert is not repeated because this checkpoint did not obtain a newer sportsbook-specific executable price than the 19:37 ET Covers/bet365 snapshot.",
+    "Kincaid 5+ and Gibbs receiving yards were re-evaluated as price-sensitive WATCH candidates rather than promoted from usage/projection signals alone.",
+    "No Thursday candidate clears PRIME's required combination of verified price, independent role/projection support and calibrated fair-probability edge."
+  ]
+}
