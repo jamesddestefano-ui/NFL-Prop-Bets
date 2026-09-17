@@ -1,0 +1,105 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T01:39:07Z",
+  "runAtEt": "2026-09-16 21:39:07",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No PRIME-grade actionable change since the 20:31 ET checkpoint. The Grok feed remains unchanged at completedAt 2026-09-12T17:05:00Z. Fresh Wednesday-night news and market context did not produce a qualifying player-prop edge. Detroit and Buffalo final injury reports remain unchanged from the prior checkpoint; DET@BUF candidates remain price/projection conflicted. Quinshon Judkins rushing attempts remains WATCH because no newer executable sportsbook-specific attempts quote was independently verified beyond the earlier Wednesday bet365/Covers O12.5 +100 snapshot. Seattle officially ruling Sam Darnold out confirms an expectation already captured by prior PRIME watches and does not create a wager without a verified current player-prop price and edge. No verified Week 2 user ticket requires action.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T00-31-14Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "lastVerifiedReference": "bet365 via Covers O12.5 +100 at 2026-09-16 14:33 ET",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "No newer executable sportsbook-specific attempts quote independently verified. Do not present the earlier +100 reference as current or chase beyond the stored play-to."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Role remains encouraging, but current price/projection dispersion does not support a robust 4-5 percentage-point price-adjusted edge."
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Strong target concentration persists, but sportsbook/source dispersion and Detroit offensive-line absences keep the Over below PRIME's qualifying threshold."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RUSH_YARDS/RECEIVING_YARDS/RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Large projection disagreement plus Detroit offensive-line absences remain unresolved; do not bet from Week 1 usage alone."
+    },
+    {
+      "player": "Jared Goff",
+      "game": "DET@BUF",
+      "propType": "PASS_ATTEMPTS",
+      "side": "UNDER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Direction remains plausible around the previously observed 35.5 threshold, but game-script conflict prevents a calibrated qualifying edge."
+    },
+    {
+      "player": "Sam Darnold",
+      "game": "SEA@ARI",
+      "propType": "OTHER",
+      "side": "N/A",
+      "decisionStatus": "PASS",
+      "reason": "Official Week 2 absence confirms a prior expected-out report already incorporated by PRIME; no new sportsbook player-prop edge was verified from the confirmation alone."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official final Week 2 injury report, 2026-09-16",
+      "claim": "Starting OL Christian Mahogany and Blake Miller are OUT; D.J. Reed is questionable; Juice Scruggs has no game designation."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official final Week 2 injury report, 2026-09-16",
+      "claim": "Ty Johnson, Cole Bishop and T.J. Sanders are questionable; Dalton Kincaid and Dawson Knox have no game designation."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Seattle Seahawks / reliable national reporting, 2026-09-16",
+      "claim": "Sam Darnold is ruled out for Week 2 and Drew Lock is expected to start; the absence had already been anticipated in prior PRIME watches."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Los Angeles Chargers Wednesday practice reporting, 2026-09-16",
+      "claim": "Ladd McConkey did not practice because of a rib issue; PRIME had already captured him as day-to-day earlier Wednesday, so this remains a monitoring item rather than a new prop decision."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "No verified Week 2 user ticket is present in bet_history.csv.",
+    "No new complete sportsbook line+odds pair crossed PRIME's required edge threshold during this checkpoint.",
+    "No decision ledger, bet history, pass ledger, missed-bet ledger, parlay history or weekly-attribution mutation was required because no material decision status changed."
+  ]
+}
