@@ -1,0 +1,145 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T13:23:06Z",
+  "runAtEt": "2026-09-17 09:23:06",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "The preferred Jahmyr Gibbs receiving-yards entry has changed since the 08:37 ET archive. Covers' Gibbs page now says odds last updated 08:57 ET and no longer displays the prior BetRivers O28.5 -119; its current book-specific board shows BetVictor O29.5 -118 and William Hill O30.5 -114. That means the exact 28.5 recommendation is no longer independently verified as current. Separate current public line-shopping pages still map DraftKings to O29.5 inside PRIME's stored -115 ceiling, but disagree by one cent (ParlayBuilder DK -112; DraftEdge DK -113), so PRIME will not invent a single authoritative DK price. The actionable rule remains price-specific: O29.5 is approved only at -115 or better after the user's live regulated sportsbook confirms the exact pair; do not chase 30.5+. If an O28.5 ticket was already placed, hold it. No official injury-status change invalidates the football thesis. Kincaid remains WATCH, Judkins remains stale pending a newer sportsbook-specific attempts quote, and there is no new Grok pass.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T12-37-12Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-GIBBS-RECYDS-REFRESH-20260917-092306",
+      "timestampEt": "2026-09-17 09:23:06",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "Live sportsbook verification required; public trackers currently disagree on exact DK juice",
+      "line": 29.5,
+      "odds": null,
+      "marketSourceTimestampEt": "Covers 2026-09-17 08:57 ET; ParlayBuilder/DraftEdge accessed 2026-09-17 09:23 ET",
+      "bestMarketLine": "Public current trackers map DraftKings O29.5 to -112/-113; Covers' latest explicitly identified offer is BetVictor O29.5 -118. Exact executable DK truth must be checked in-app.",
+      "consensusLine": "29.5-30.5 current range in fresh public sources; BetMGM separately published 30.5 on Sep. 16",
+      "ourMeanProjection": 34.5,
+      "ourMedianProjection": 33.0,
+      "estimatedOverProbability": 0.58,
+      "estimatedUnderProbability": 0.42,
+      "fairOdds": -138.1,
+      "marketImpliedProbability": null,
+      "noVigProbability": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": "PRICE_DEPENDENT",
+      "decisionStatus": "BET",
+      "decisionReason": "The preferred 28.5 threshold from 08:37 ET is no longer verified on Covers' refreshed 08:57 ET board. The stored 29.5 thesis remains approved only through -115. Two fresh public trackers independently map DraftKings at 29.5 inside that ceiling but conflict on exact price by one cent; therefore the live app controls and no exact DK price is promoted as authoritative until verified. At the explicitly identified BetVictor O29.5 -118, the prior 58% fair probability would yield only about a 3.87-point raw probability edge and fails the stored -115 max-price rule.",
+      "confidence": "B",
+      "playToLine": 29.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "THURSDAY",
+      "signalTags": ["ROLE_CHANGE", "SNAP_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "GIBBS_PASS_GAME_VOLUME_WITHOUT_MONTGOMERY",
+      "stakeUnits": 0.5,
+      "actualUserAction": "UNCONFIRMED",
+      "maximumPlayable": "Over 29.5 through -115 after live sportsbook confirmation. Do not chase 30.5+. If already holding O28.5 -119 or better, hold; do not duplicate exposure."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Action's O4.5 +140 Fanatics article quote was last updated Wednesday 22:06 ET. Week 1 route share rose to 69% and usage is encouraging, but the quote is stale and independent projection paths do not yet establish a robust five-catch probability edge at a verified current price."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "lastVerifiedSportsbook": "bet365 via Covers",
+      "lastVerifiedLine": 12.5,
+      "lastVerifiedOdds": -105,
+      "lastVerifiedMarketTimestampEt": "2026-09-16 19:37",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Carry-forward only. No newer sportsbook-specific rushing-attempt quote was verified in this checkpoint, so the Wednesday number remains stale for alert purposes."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Jahmyr Gibbs player page",
+      "sourceUrl": "https://www.covers.com/sport/football/nfl/players/197044/jahmyr-gibbs",
+      "sourceTimestampEt": "odds last updated 2026-09-17 08:57 ET; accessed 2026-09-17 09:23 ET",
+      "claim": "Receiving yards: BetVictor O29.5 -118; William Hill O30.5 -114/U30.5 -114. The prior BetRivers O28.5 -119 is no longer displayed on this refreshed page."
+    },
+    {
+      "classification": "sportsbook_market_evidence",
+      "source": "ParlayBuilder current Gibbs Week 2 page",
+      "sourceUrl": "https://parlaybuilder.ai/nfl/player/jahmyr-gibbs",
+      "sourceTimestampEt": "accessed 2026-09-17 09:23 ET",
+      "claim": "Maps Gibbs receiving yards to 29.5, including DraftKings -112 and Caesars -114. Treat as line-shopping evidence, not authoritative live sportsbook truth because the page does not expose a native market timestamp."
+    },
+    {
+      "classification": "sportsbook_market_evidence",
+      "source": "DraftEdge DET-BUF game page",
+      "sourceUrl": "https://draftedge.com/nfl/game/det-buf-2026-09-17/",
+      "sourceTimestampEt": "accessed 2026-09-17 09:23 ET",
+      "claim": "Maps DraftKings Gibbs receiving yards to O29.5 -113 and projects 38.6 yards. The one-cent disagreement with ParlayBuilder is preserved rather than merged into fictional sportsbook truth."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Dimers Week 2 projections",
+      "sourceUrl": "https://www.dimers.com/nfl/player-projections",
+      "sourceTimestampEt": "last update 2026-09-17 03:55 ET",
+      "claim": "Projects Gibbs for 4.1 receptions and 33.0 receiving yards."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "Action Network TNF player props",
+      "sourceUrl": "https://www.actionnetwork.com/nfl/lions-vs-bills-player-props-dalton-kincaid-jahmyr-gibbs",
+      "sourceTimestampEt": "updated 2026-09-16 22:06 ET",
+      "claim": "Published Gibbs O29.5 receiving yards -114 at bet365 and Kincaid O4.5 receptions +140 at Fanatics; these article prices are supportive historical context, not current sportsbook truth at 09:23 ET."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official final Week 2 injury report",
+      "sourceUrl": "https://www.detroitlions.com/news/lions-at-bills-injury-report-sept-16-mahogany-miller-reed",
+      "sourceTimestampEt": "published 2026-09-16 15:10 ET; checked 2026-09-17",
+      "claim": "Christian Mahogany and Blake Miller are OUT; D.J. Reed is questionable."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official final Week 2 injury report",
+      "sourceUrl": "https://www.buffalobills.com/news/buffalo-bills-injury-report-vs-lions-week-2",
+      "sourceTimestampEt": "published 2026-09-16 15:19 ET; checked 2026-09-17",
+      "claim": "Ty Johnson, Cole Bishop and T.J. Sanders are questionable; Terrel Bernard has no game designation."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains live at completedAt 2026-09-12T17:05:00Z and the compact history index ends at the same timestamp.",
+    "No Week 2 user ticket is recorded in data/bet_history.csv, so exposure remains unconfirmed. Do not assume a cash-out, hedge, or duplicate position.",
+    "The 08:37 ET O28.5 -119 preferred entry is now stale as a new recommendation because Covers refreshed at 08:57 ET without that offer.",
+    "Fresh public trackers still indicate 29.5 on DraftKings inside PRIME's -115 ceiling, but disagree on exact price (-112 versus -113). User live sportsbook truth controls.",
+    "At Covers' explicitly identified BetVictor O29.5 -118, the prior 58% fair probability implies roughly +3.87 percentage points versus raw break-even and falls below PRIME's preferred 4-5 point threshold and max-price rule; do not use that specific price.",
+    "Kincaid remains WATCH; Judkins remains stale for alert purposes until a newer sportsbook-specific attempts quote is verified."
+  ]
+}
