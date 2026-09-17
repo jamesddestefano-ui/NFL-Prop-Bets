@@ -1,0 +1,108 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T17:39:11Z",
+  "runAtEt": "2026-09-17 13:39:11",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material decision change requiring a user alert since the 12:05 ET checkpoint. Jahmyr Gibbs OVER 29.5 receiving yards remains price-conditionally BET/STILL_PLAYABLE only through -115 after live sportsbook confirmation; do not chase 30.5+ and do not duplicate exposure. Fresh public line trackers crawled Thursday afternoon continue to map DraftKings around O29.5 -112/-113, while another regularly updated aggregate centers the market at 30.5 -114 and BetMGM's published prop page lists 30.5. Because these are third-party/publicly attributable mappings rather than a direct live sportsbook screen at this exact checkpoint, PRIME preserves the existing instruction instead of asserting executable sportsbook truth. Dalton Kincaid remains WATCH; current market evidence does not establish a robust price-adjusted Over edge. Quinshon Judkins remains WATCH/conditional only at O12.5 -110 or better after a fresh live sportsbook verification; the prior O13.5 ceiling remains withdrawn. Official injury context is unchanged: Buffalo lists Ty Johnson, Cole Bishop and T.J. Sanders questionable; Detroit remains without starting OL Christian Mahogany and Blake Miller. No new Grok pass and no Week 2 user ticket is recorded.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T16-05-30Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "line": 29.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 0.58,
+      "fairOdds": -138.1,
+      "estimatedEdgePctAtMinus115": 4.51,
+      "edgeBucket": "4-6%",
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "THURSDAY",
+      "actualUserAction": "UNCONFIRMED",
+      "signalTags": ["ROLE_CHANGE", "SNAP_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "Two current public trackers map DraftKings O29.5 around -112/-113, inside PRIME's stored -115 ceiling, but neither is treated as direct executable sportsbook truth at this exact minute. A separate aggregate and BetMGM show 30.5, confirming market dispersion. Preserve the existing conditional BET: verify DraftKings live; play only 29.5 at -115 or better; no 30.5+ chase and no duplicate exposure."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["SNAP_SHARE", "ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "Week 1 route/target role remains encouraging, but fresh market evidence is dispersed and the prior O4.5 +140 article quote is stale. Current public line-shopping shows expensive 3.5 Overs at several venues and does not provide a new sportsbook-specific five-catch price with a defensible 4-5 percentage-point edge."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "PROJECTION_DISAGREEMENT"],
+      "reason": "Dylan Sampson remains on injured reserve, but no newer sportsbook-specific rushing-attempt quote was verified. Prior O13.5 ceiling remains withdrawn. Reconsider only O12.5 at -110 or better after live verification and fresh probability work."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official Week 2 injury report",
+      "sourceTimestampEt": "published 2026-09-16 15:19 ET; rechecked 2026-09-17 13:39 ET",
+      "claim": "S Cole Bishop, RB Ty Johnson and DL T.J. Sanders are questionable; ILB Terrel Bernard has no game designation."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official game preview / final injury context",
+      "sourceTimestampEt": "published 2026-09-17; rechecked 2026-09-17 13:39 ET",
+      "claim": "Detroit will be without starting RT Blake Miller and starting LG Christian Mahogany Thursday night."
+    },
+    {
+      "classification": "sportsbook_tracker",
+      "source": "ParlayBuilder public line tracker",
+      "sourceTimestampEt": "crawled 2026-09-17; accessed 2026-09-17 13:39 ET",
+      "claim": "Maps Gibbs receiving yards to O29.5 -114 consensus with DraftKings -112 and Caesars -114. This is line-shopping evidence, not direct live sportsbook truth."
+    },
+    {
+      "classification": "sportsbook_tracker",
+      "source": "DraftEdge public prop board",
+      "sourceTimestampEt": "crawled 2026-09-17; accessed 2026-09-17 13:39 ET",
+      "claim": "Maps DraftKings Gibbs receiving yards O29.5 -113 and projects 38.6 yards. The projection is model evidence and the line mapping requires live-book confirmation."
+    },
+    {
+      "classification": "market_aggregate",
+      "source": "SportsGambler regularly updated TNF market board",
+      "sourceTimestampEt": "crawled 2026-09-17; accessed 2026-09-17 13:39 ET",
+      "claim": "Displays Gibbs receiving yards 30.5 O/U -114 and Kincaid receiving yards 52.5 O/U -114. Underlying sportsbook is not identified, so this is market-movement evidence only."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "BetMGM Gibbs Week 2 prop page",
+      "sourceTimestampEt": "published 2026-09-16 11:10 ET; accessed 2026-09-17 13:39 ET",
+      "claim": "Lists Gibbs receiving yards at 30.5, reinforcing that 29.5 is not a uniform market line. Published page is not assumed to be a live executable quote without a current sportsbook check."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest remains status live at completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "No Week 2 straight ticket exists in bet_history.csv, so exposure remains unconfirmed.",
+    "No new line_history row was added because the fresh 29.5 DraftKings evidence comes from third-party trackers without a precise current sportsbook timestamp; PRIME does not overwrite canonical sportsbook truth from a tracker mapping.",
+    "No decision-ledger row was added because Gibbs, Kincaid and Judkins classifications and maximum playable thresholds are unchanged from the latest immutable archive.",
+    "Gibbs remains a price-sensitive conditional entry, not a projection-only recommendation. Public sources disagree between 29.5 and 30.5, which reinforces the requirement to verify the user's live sportsbook before placement.",
+    "Weather remains non-material based on the previously verified National Weather Service Orchard Park forecast; no new adverse weather catalyst was found."
+  ]
+}
