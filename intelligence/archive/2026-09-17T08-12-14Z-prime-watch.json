@@ -1,0 +1,121 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T08:12:14Z",
+  "runAtEt": "2026-09-17 04:12:14",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material PRIME decision change requiring an alert. The latest Grok feed remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index, so there is no new Grok pass. Jahmyr Gibbs OVER 29.5 receiving yards remains price-conditionally STILL_PLAYABLE only at -115 or better: Action Network's current player page displays O29.5 -114, and a separate current DraftEdge line-shopping page displays DraftKings O29.5 -113. Action's PRO section simultaneously surfaces U30.5 -110, which is treated as book/line-shopping dispersion rather than evidence that the Over should be chased to 30.5. The stored maximum playable threshold remains 29.5. Official final injury reports remain unchanged: Detroit OL Christian Mahogany and Blake Miller are OUT and D.J. Reed is questionable; Buffalo lists Ty Johnson, Cole Bishop and T.J. Sanders questionable. NWS Orchard Park forecast for Thursday night is partly cloudy with light/calm wind, so weather is not a material downgrade. Dalton Kincaid O4.5 receptions remains WATCH, not BET, and no fresh sportsbook-specific Quinshon Judkins rushing-attempt quote was verified.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T06-50-35Z-prime-watch.json"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-GIBBS-RECYDS-CARRYFORWARD-20260917-041214",
+      "timestampEt": "2026-09-17 04:12:14",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "current public line-shopping references",
+      "line": 29.5,
+      "odds": -114,
+      "bestMarketLine": "29.5 -113 DraftKings via current DraftEdge page; Action current player page displays 29.5 -114; live-app verification required",
+      "consensusLine": 29.5,
+      "ourMeanProjection": 34.5,
+      "ourMedianProjection": 33.0,
+      "estimatedOverProbability": 0.58,
+      "estimatedUnderProbability": 0.42,
+      "fairOdds": -138.1,
+      "marketImpliedProbability": 0.5327,
+      "estimatedEdgePct": 4.73,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "decisionReason": "The stored price-specific thesis remains intact at 29.5 and -115 or better. Current public sources still show that threshold, while Action's PRO area also lists an Under at 30.5, indicating cross-book dispersion. Do not infer that 30.5 is a valid Over entry; preserve the 29.5 ceiling and verify the live sportsbook before placement.",
+      "confidence": "B",
+      "playToLine": 29.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "SNAP_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "correlationTags": [],
+      "thesisId": "GIBBS_PASS_GAME_VOLUME_WITHOUT_MONTGOMERY",
+      "stakeUnits": 0.5,
+      "actualUserAction": "UNCONFIRMED"
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Current independent catch expectations remain around four receptions, and Action's own PRO section lists a 4.1 reception projection with only a modest Under edge at 4.5. No new role or injury catalyst justifies promoting the plus-money Over to BET."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "lastVerifiedSportsbook": "bet365 via Covers",
+      "lastVerifiedLine": 12.5,
+      "lastVerifiedOdds": -105,
+      "lastVerifiedMarketTimestampEt": "2026-09-16 19:37",
+      "playToLine": 13.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Carry-forward only. No newer sportsbook-specific rushing-attempt quote was verified in this run, so the prior quote remains stale for alert purposes and must not be represented as current."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "sportsbook_market",
+      "source": "Action Network current Jahmyr Gibbs player page",
+      "sourceTimestampEt": "accessed 2026-09-17 04:12 ET",
+      "claim": "Current market display shows Gibbs receiving-yards Over 29.5 -114; the PRO section separately lists Under 30.5 -110, indicating line-shopping dispersion rather than a single consensus threshold."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "DraftEdge current DET-BUF page",
+      "sourceTimestampEt": "accessed 2026-09-17 04:12 ET",
+      "claim": "Public line-shopping table displays DraftKings Gibbs receiving yards Over 29.5 -113, with a 38.6-yard site projection. Treat the book attribution as a public reference requiring live-app verification."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official final Week 2 injury report",
+      "sourceTimestampEt": "2026-09-16 15:10 ET",
+      "claim": "Christian Mahogany and Blake Miller are OUT; D.J. Reed is questionable."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official final Week 2 injury report",
+      "sourceTimestampEt": "2026-09-16 15:19 ET",
+      "claim": "Ty Johnson, Cole Bishop and T.J. Sanders are questionable; Dalton Kincaid has no game designation."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "National Weather Service Buffalo / Orchard Park point forecast",
+      "sourceTimestampEt": "forecast accessed 2026-09-17 04:12 ET",
+      "claim": "Thursday night near Orchard Park is forecast partly cloudy with a low in the mid-50s and light/calm wind; no material weather downgrade is indicated for DET-BUF."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass because grok_pulse_latest.json remains live at completedAt 2026-09-12T17:05:00Z and the compact history index ends at the same timestamp.",
+    "No Week 2 user ticket is recorded in data/bet_history.csv.",
+    "No new material market transition occurred since the 02:50 ET immutable checkpoint, so primary CSV ledgers are intentionally not modified.",
+    "Gibbs remains price-specific: Over 29.5 at -115 or better only; do not chase 30.5 and do not stack same-thesis receiving/receptions/rush-plus-receiving exposure without a fresh fair-price calculation.",
+    "Kincaid remains WATCH and Judkins remains stale for alert purposes until a newer sportsbook-specific rushing-attempt quote is verified."
+  ]
+}
