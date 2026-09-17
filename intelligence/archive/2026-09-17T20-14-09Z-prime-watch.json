@@ -1,0 +1,155 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T20:14:09Z",
+  "runAtEt": "2026-09-17 16:14:09",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new actionable PRIME edge since the 15:08 ET archive. Gibbs receiving remains PASS_AFTER_MOVE because current verified/publicly mapped prices remain beyond the stored 29.5/-115 ceiling. Cook receptions/receiving yards remain WATCH pending Ty Johnson status and stronger projection support. Kincaid receiving yards was explicitly re-evaluated at DraftKings O51.5 -114 and bet365 O51.5 -116: mainstream projections cluster around roughly 52-53 yards, so the price-adjusted edge is insufficient despite strong Week 1 role evidence and bullish analyst opinion. D.J. Moore O4.5 receptions has improved to a publicly mapped bet365 -105 but available probability evidence remains near coin-flip and does not clear PRIME's 4-5 percentage-point edge requirement. Judkins remains WATCH only at O12.5 -110 or better. No new Grok pass and no Week 2 user ticket is recorded in bet_history.csv.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T19-08-16Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "sportsbook": "bet365 via Statz NFL",
+      "line": 30.5,
+      "odds": -116,
+      "storedPlayToLine": 29.5,
+      "storedMaxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "THURSDAY",
+      "signalTags": ["ROLE_CHANGE", "TARGET_SHARE", "MARKET_MOVE", "OL_INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "Fresh public bet365 mapping is O30.5 -116, which exceeds both the stored 29.5 play-to and -115 max price. No chase."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["ROLE_CHANGE", "TARGET_SHARE", "INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "No new injury resolution: Ty Johnson remains questionable. Prior current market O2.5 +112 is interesting but independent target/reception projections remain too low to establish the required fair-probability edge before inactives."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["ROLE_CHANGE", "TARGET_SHARE", "INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "No new role or injury catalyst since the prior checkpoint; the 17.5-18.5 market range remains close to independent projections rather than a robust edge."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "sportsbook": "DraftKings Sportsbook via DraftKings Network",
+      "line": 51.5,
+      "odds": -114,
+      "bestMarketLine": "51.5; bet365 publicly mapped at -116",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "THURSDAY",
+      "signalTags": ["SNAP_SHARE", "ROUTE_SHARE", "TARGET_SHARE", "MATCHUP", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "reason": "Kincaid's Week 1 role and 5-130 line are bullish, and DraftKings Network recommends O51.5 -114. However FantasyPros is roughly 52.5 receiving yards and Dimers roughly 53; those central projections are only marginally above 51.5 and do not support the 4-5 percentage-point fair-probability edge PRIME requires at -114. A much higher FanDuel/numberFire projection is treated as an outlier rather than sufficient standalone evidence."
+    },
+    {
+      "player": "D.J. Moore",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "bet365 via Statz NFL",
+      "line": 4.5,
+      "odds": -105,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "THURSDAY",
+      "signalTags": ["ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "AIR_YARDS", "DEFENSIVE_INJURY", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "reason": "The current -105 price is modestly better than the prior -110/-115 cluster and Detroit CB D.J. Reed is questionable, but current public probability surfaces remain approximately 48-52% for O4.5. At -105 the raw break-even is 51.22%; PRIME cannot defend the preferred 4-5 percentage-point edge from the available evidence."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "PROJECTION_DISAGREEMENT"],
+      "reason": "No new Sunday-market catalyst. Preserve the revised rule: only reconsider O12.5 at -110 or better after live verification; do not chase O13.5+."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official final Week 2 injury report",
+      "sourceTimestampEt": "2026-09-16; rechecked 2026-09-17 16:14 ET",
+      "claim": "Ty Johnson, Cole Bishop and T.J. Sanders remain questionable; no new status resolution was found at this checkpoint."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Detroit Lions official Week 2 injury report",
+      "sourceTimestampEt": "2026-09-16; rechecked 2026-09-17 16:14 ET",
+      "claim": "Christian Mahogany and Blake Miller are out; CB D.J. Reed is questionable."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "DraftKings Network",
+      "sourceTimestampEt": "published 2026-09-17; accessed 2026-09-17 16:14 ET",
+      "claim": "DraftKings Sportsbook lists Dalton Kincaid O51.5 receiving yards at -114."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Statz NFL bet365 mapping",
+      "sourceTimestampEt": "accessed 2026-09-17 16:14 ET",
+      "claim": "bet365 publicly maps Kincaid receiving yards at 51.5 -116 and D.J. Moore O4.5 receptions at -105; Gibbs receiving yards is 30.5 -116."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros / Dimers Week 2 projections",
+      "sourceTimestampEt": "accessed 2026-09-17 16:14 ET",
+      "claim": "Kincaid receiving-yard central projections are roughly 52-53 yards, too close to the current 51.5 market to establish PRIME's required edge at negative juice."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "DraftKings Network / FantasyAlarm Week 2 analysis",
+      "sourceTimestampEt": "published 2026-09-17 and 2026-09-16",
+      "claim": "Analysts are bullish on Kincaid O51.5 receiving and Moore O4.5 receptions, but analyst preference alone does not override PRIME's probability/price requirement."
+    },
+    {
+      "classification": "weather",
+      "source": "current Highmark Stadium forecast reports",
+      "sourceTimestampEt": "2026-09-17",
+      "claim": "Near-ideal conditions with light wind and minimal precipitation risk; no material weather adjustment."
+    }
+  ],
+  "sourceUrls": [
+    "https://dknetwork.draftkings.com/2026/09/17/dalton-kincaid-receiving-yards-pick-bills-lions/",
+    "https://www.fantasyalarm.com/articles/nfl/props/nfl-tnf-best-player-prop-picks-lions-vs-bills-thursday-9-17/195492",
+    "https://www.prideofdetroit.com/detroit-lions-gambling-odds/172908/detroit-lions-buffalo-bills-nfl-week-2-prop-bets-odds"
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "No Week 2 straight ticket is recorded in bet_history.csv.",
+    "Kincaid receiving yards was a material fresh candidate because an exact DraftKings 51.5/-114 pair is publicly documented today; after comparing role evidence and independent projections, it remains a disciplined PASS rather than an actionable bet.",
+    "D.J. Moore's price improved modestly to -105 at bet365, but no robust probability edge is established; improvement in price alone is not enough to promote it.",
+    "No canonical CSV is changed because no new BET, stale-thesis reversal, or user-ticket state was established. This immutable archive preserves the research checkpoint without inventing executable sportsbook truth."
+  ]
+}
