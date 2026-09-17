@@ -1,0 +1,216 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-17T15:37:40Z",
+  "runAtEt": "2026-09-17 11:37:40",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Material process change on Quinshon Judkins rushing attempts: withdraw the prior 13.5 play-to ceiling. Fresh Week 2 projections are materially lower than the prior 16.1 internal mean even with Dylan Sampson on IR: DraftKings Network projects 12.3 carries, Razzball 13.6 carries (updated Sep. 17 06:23 ET), while Dynasty Spec is higher at 15.7. The simple three-source mean is 13.87 and median 13.6, making Over 13.5 at standard juice no longer a defensible 4-5 percentage-point edge. The last sportsbook-specific attempts quote remains stale at bet365 O12.5 -105 from Sep. 16 19:37 ET, and no newer regulated-book attempts price was verified in this checkpoint. Reclassify Judkins from carry-forward BET to WATCH/conditional: do not bet O13.5 or worse; only reconsider O12.5 at -110 or better after live sportsbook verification and fresh probability calculation. Jahmyr Gibbs O29.5 receiving remains unchanged and price-conditional through -115 after live book confirmation; no duplicate exposure. No new Grok pass and no new official TNF injury designation change.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T14-07-33Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-JUDKINS-CARRIES-REPRICE-20260917-113740",
+      "timestampEt": "2026-09-17 11:37:40",
+      "gameDate": "2026-09-20",
+      "game": "CLE@TB",
+      "player": "Quinshon Judkins",
+      "team": "CLE",
+      "opponent": "TB",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "sportsbook": "Live sportsbook verification required; last verified bet365 via Covers is stale",
+      "line": 12.5,
+      "odds": -105,
+      "marketSourceTimestampEt": "last verified sportsbook-specific quote 2026-09-16 19:37 ET; no newer regulated-book attempts quote verified 2026-09-17 11:37 ET",
+      "bestMarketLine": "UNVERIFIED_CURRENT",
+      "consensusLine": "UNVERIFIED_CURRENT",
+      "priorInternalMeanProjection": 16.1,
+      "freshProjectionSet": [
+        {"source": "DraftKings Network", "carries": 12.3, "published": "2026-09-16"},
+        {"source": "Razzball", "carries": 13.6, "updated": "2026-09-17 06:23 ET"},
+        {"source": "Dynasty Spec", "carries": 15.7, "updated": "2026-09-16"}
+      ],
+      "freshProjectionMean": 13.87,
+      "freshProjectionMedian": 13.6,
+      "estimatedOverProbabilityAt12_5": null,
+      "estimatedUnderProbabilityAt12_5": null,
+      "fairOdds": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": "UNRESOLVED_PENDING_LIVE_PRICE_AND_RECALIBRATION",
+      "decisionStatus": "WATCH",
+      "decisionReason": "Sampson being on IR preserves the volume thesis directionally, but current independent carry projections cluster much closer to the old 12.5 line than the prior 16.1 internal mean. Cleveland is also a substantial road underdog, increasing carry-volume game-script risk. With the only verified attempts price now stale, PRIME cannot defend the prior 13.5 play-to ceiling or issue a fresh BET alert.",
+      "confidence": "B-",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "THURSDAY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RUSH_SHARE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "STALE_PRICE"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "JUDKINS_SAMPSON_OUT_VOLUME",
+      "stakeUnits": 0.25,
+      "actualUserAction": "UNCONFIRMED",
+      "maximumPlayable": "Withdraw prior O13.5 ceiling. Reconsider only O12.5 at -110 or better after live regulated-book verification and fresh probability calculation; otherwise PASS."
+    },
+    {
+      "decisionId": "2026W2-GIBBS-RECYDS-CARRYFORWARD-20260917-113740",
+      "timestampEt": "2026-09-17 11:37:40",
+      "gameDate": "2026-09-17",
+      "game": "DET@BUF",
+      "player": "Jahmyr Gibbs",
+      "team": "DET",
+      "opponent": "BUF",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "Live sportsbook verification required; public line-shopping pages map DraftKings to O29.5 -112 and Caesars near -114",
+      "line": 29.5,
+      "odds": null,
+      "marketSourceTimestampEt": "public line-shopping pages rechecked 2026-09-17 11:37 ET",
+      "bestMarketLine": "29.5 in current public line-shopping evidence; exact executable sportsbook truth must be verified in-app",
+      "consensusLine": "29.5 public aggregate, with some books/pages previously at 30.5-32.5",
+      "ourMeanProjection": 34.5,
+      "ourMedianProjection": 33.0,
+      "estimatedOverProbability": 0.58,
+      "estimatedUnderProbability": 0.42,
+      "fairOdds": -138.1,
+      "decisionStatus": "BET",
+      "decisionReason": "No material change from the prior alert. Current public pages still show 29.5 within the approved price range at some books, but third-party line trackers are not executable sportsbook truth. FantasyPros updated Week 2 projection is 30.8 receiving yards, Dimers is 33, and StatIQ is 34.3, preserving projection disagreement rather than creating a stronger edge. Hold the stored price discipline.",
+      "confidence": "B",
+      "playToLine": 29.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "THURSDAY",
+      "signalTags": ["ROLE_CHANGE", "SNAP_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "GIBBS_PASS_GAME_VOLUME_WITHOUT_MONTGOMERY",
+      "stakeUnits": 0.5,
+      "actualUserAction": "UNCONFIRMED",
+      "maximumPlayable": "Over 29.5 through -115 after live sportsbook confirmation. Do not chase 30.5+. If already holding an approved Gibbs ticket, do not duplicate exposure."
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Current analyst pages show O7.5 around -111 and one earlier DraftKings quote at +101, but FantasyPros consensus projects 7.1 receptions. Week 1 role was elite (14 targets, 10 catches), yet the projection/price combination does not establish PRIME's required 4-5 percentage-point edge at a verified current sportsbook price."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS_OR_RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "FantasyPros projects 4.0 receptions and 52.3 receiving yards. The historical/article O4.5 +140 and current analyst O52.5 prices are not enough to establish a robust current edge without verified sportsbook truth; 52.5 is essentially on the consensus projection."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Analyst sources continue to cite O2.5 receptions, but FantasyPros projects 2.1 catches and no independently verified regulated-book price improves the case. Do not bet from article/model enthusiasm alone."
+    },
+    {
+      "player": "Jameson Williams",
+      "game": "DET@BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Current public market evidence is around 59.5-60+ at roughly standard juice. StatIQ is bullish at 72.3 yards, but another same-day analyst source prefers Under 59.5 and BettingPros acknowledges the line steamed from roughly 50-55 to 60+. The disagreement plus lost entry value blocks a BET classification."
+    }
+  ],
+  "verifiedContext": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/sports/report-browns-rb-dylan-sampson-knee-miss-significant-time--flm-2026-09-15/",
+      "sourceTimestampEt": "published 2026-09-16 / rechecked 2026-09-17 11:37 ET",
+      "claim": "Cleveland placed Dylan Sampson on injured reserve; he will miss at least four games. Raheim Sanders is the backup to Judkins and Jaleel McLaughlin was promoted."
+    },
+    {
+      "classification": "model_projection",
+      "source": "DraftKings Network Week 2 RB projected touches",
+      "sourceUrl": "https://dknetwork.draftkings.com/2026/09/16/fantasy-football-rb-projections-for-week-2-projected-touches-carries-targets/",
+      "sourceTimestampEt": "published 2026-09-16; accessed 2026-09-17 11:37 ET",
+      "claim": "Projects Judkins for 12.3 carries and 3.3 targets."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Razzball Cleveland Browns Week 2 projections",
+      "sourceUrl": "https://football.razzball.com/football-teams/Cleveland-Browns/",
+      "sourceTimestampEt": "updated 2026-09-17 06:23 ET; accessed 2026-09-17 11:37 ET",
+      "claim": "Projects Judkins for 13.6 carries, 56.1 rushing yards and 46 snaps while assigning Dylan Sampson zero volume."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Dynasty Spec Week 2 projection",
+      "sourceTimestampEt": "updated 2026-09-16; accessed 2026-09-17 11:37 ET",
+      "claim": "Projects Judkins for 15.7 carries and 56 rushing yards, providing the higher end of the current independent range."
+    },
+    {
+      "classification": "sportsbook_market_context",
+      "source": "ParlayBuilder current Jahmyr Gibbs page",
+      "sourceUrl": "https://parlaybuilder.ai/nfl/player/jahmyr-gibbs",
+      "sourceTimestampEt": "accessed 2026-09-17 11:37 ET",
+      "claim": "Shows Gibbs receiving O29.5 around -114 with DraftKings O29.5 -112 and Caesars near -114. Treat as line-shopping evidence, not authoritative executable sportsbook truth."
+    },
+    {
+      "classification": "sportsbook_market_context",
+      "source": "XaslarBet current Gibbs page",
+      "sourceUrl": "https://xaslarbet.com/nfl/props/jahmyr-gibbs/rushing_yards",
+      "sourceTimestampEt": "accessed 2026-09-17 11:37 ET",
+      "claim": "Displays Gibbs receiving yards 29.5, Over -113 / Under -111 alongside other current game props; sportsbook identity is not sufficiently explicit for executable-truth treatment."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 RB consensus projections",
+      "sourceUrl": "https://www.fantasypros.com/nfl/projections/rb.php?week=2",
+      "sourceTimestampEt": "last updated 2026-09-17; accessed 2026-09-17 11:37 ET",
+      "claim": "Projects Gibbs for 4.1 receptions and 30.8 receiving yards; James Cook for 2.1 receptions and 16.3 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 WR consensus projections",
+      "sourceUrl": "https://www.fantasypros.com/nfl/projections/wr/",
+      "sourceTimestampEt": "last updated 2026-09-17; accessed 2026-09-17 11:37 ET",
+      "claim": "Projects Amon-Ra St. Brown for 7.1 receptions and 81.7 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 TE consensus projections",
+      "sourceTimestampEt": "last updated 2026-09-17; accessed 2026-09-17 11:37 ET",
+      "claim": "Projects Dalton Kincaid for 4.0 receptions and 52.3 receiving yards."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "NFL official Week 2 injury report",
+      "sourceUrl": "https://www.nfl.com/injuries/",
+      "sourceTimestampEt": "accessed 2026-09-17 11:37 ET",
+      "claim": "Detroit: Christian Mahogany and Blake Miller OUT, D.J. Reed questionable. Buffalo: Ty Johnson, Cole Bishop and T.J. Sanders questionable; Terrel Bernard has no game designation. No material designation change from the prior checkpoint."
+    }
+  ],
+  "researchNotes": [
+    "No new Grok pass: latest remains status live at completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "No Week 2 user ticket is recorded in bet_history.csv, so exposure remains unconfirmed and no duplicate-bet assumption is made.",
+    "The Judkins role catalyst remains real because Sampson is on IR, but fresh projection disagreement materially narrows the estimated carry edge and invalidates the prior 13.5 play-to ceiling.",
+    "No newer sportsbook-specific Judkins rushing-attempt quote was verified. The prior 12.5 -105 quote is preserved as historical truth but is stale for current action.",
+    "Gibbs is materially unchanged from the prior user alert. Do not re-alert solely because third-party trackers continue to map 29.5 to acceptable prices.",
+    "Amon-Ra, Kincaid, Cook and Jameson Williams were evaluated but not promoted to BET because current price/projection evidence does not clear PRIME's required edge with sufficient source quality."
+  ]
+}
