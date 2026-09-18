@@ -1,0 +1,144 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T03:54:50Z",
+  "runAtEt": "2026-09-17 23:54:50",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Bucky Irving receiving yards moves from WATCH to BET_NOW after a current sportsbook-specific price became identifiable. ScoresAndOdds currently lists CLE@TB receiving yards at 15.5 and exposes Fanatics O15.5 -105 / U15.5 -125; the Fanatics sportsbook identity is confirmed by the current deeplink redirect for that quote. The same board shows consensus O15.5 -110 / U15.5 -120 and a 21-yard model projection. FantasyPros reports Irving led Tampa Bay's Week 1 passing-down role with a 58.3% route share, 25% target share, 2.29 YPRR and 48 receiving yards; numberFire/FanDuel projects 24.13 receiving yards for Week 2. PRIME deliberately haircuts those bullish inputs because Sean Tucker was a full participant Wednesday and Thursday and Tampa Bay is an 8.5-point favorite, which can reduce late-game passing volume. Conservative internal fair Over probability is 56%, creating a 4.78 percentage-point edge versus the -105 break-even price. BET 0.5u only at O15.5 -115 or better; best verified current price is Fanatics -105. Do not chase 16.5+ without recalculation. Quinshon Judkins rushing attempts remains PASS_AFTER_MOVE/WATCH pending a fresh O12.5 -110-or-better sportsbook quote. No new Grok pass.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T03-37-27Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-IRVING-RECYDS-20260917-235450",
+      "timestampEt": "2026-09-17 23:54:50",
+      "gameDate": "2026-09-20",
+      "game": "CLE@TB",
+      "player": "Bucky Irving",
+      "team": "TB",
+      "opponent": "CLE",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "Fanatics via ScoresAndOdds current line-shopping/deeplink",
+      "line": 15.5,
+      "odds": -105,
+      "bestMarketLine": "15.5 -105 Fanatics",
+      "consensusLine": "15.5; ScoresAndOdds consensus O -110 / U -120",
+      "oppositeSideLine": 15.5,
+      "oppositeSideOdds": -125,
+      "ourMeanProjection": 20.5,
+      "ourMedianProjection": 18.5,
+      "estimatedOverProbability": 0.56,
+      "estimatedUnderProbability": 0.44,
+      "fairOdds": -127,
+      "marketImpliedProbability": 0.5122,
+      "noVigMarketOverProbability": 0.4797,
+      "estimatedEdgePct": 4.78,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "confidence": "B",
+      "recommendedStakeUnits": 0.5,
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "INJURY"],
+      "correlationTags": [],
+      "thesisId": "IRVING_PASSING_DOWN_ROLE_WEEK2",
+      "actualUserAction": "RECOMMENDED_NOT_YET_PLACED",
+      "reason": "Current price truth now exists at a threshold materially below the independent receiving-yard projection stack. Week 1 usage supports a real passing-down role rather than a projection-only bet. PRIME applies a conservative haircut for Sean Tucker's return to full practice, one-game sample uncertainty and a favorable Tampa Bay game script. The bet is approved only at 15.5 and -115 or better; 16.5+ is not automatically transferable."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "MARKET_MOVE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "No fresh sportsbook-specific O12.5/-110-or-better re-entry was verified. Do not chase higher attempt thresholds from the stale workload thesis."
+    }
+  ],
+  "lineHistorySnapshot": [
+    {
+      "capturedAtEt": "2026-09-17 23:54:50",
+      "game": "CLE@TB",
+      "player": "Bucky Irving",
+      "market": "Receiving Yards",
+      "sportsbook": "Fanatics via ScoresAndOdds current deeplink",
+      "side": "OVER",
+      "line": 15.5,
+      "odds": -105,
+      "oppositeSideLine": 15.5,
+      "oppositeSideOdds": -125,
+      "impliedProbability": 0.5122,
+      "noVigProbability": 0.4797,
+      "notes": "Current line-shopping evidence. Verify the live Fanatics app before placement; do not treat this snapshot as guaranteed after capture."
+    },
+    {
+      "capturedAtEt": "2026-09-17 23:54:50",
+      "game": "CLE@TB",
+      "player": "Bucky Irving",
+      "market": "Receiving Yards",
+      "sportsbook": "ScoresAndOdds consensus",
+      "side": "OVER",
+      "line": 15.5,
+      "odds": -110,
+      "oppositeSideLine": 15.5,
+      "oppositeSideOdds": -120,
+      "notes": "Consensus context only; not a fictional merged executable sportsbook."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Tampa Bay Buccaneers official Week 2 preview/injury report",
+      "sourceTimestampEt": "2026-09-17 21:59 ET",
+      "claim": "Sean Tucker was a full participant Wednesday and Thursday. Tampa Bay lists itself as an 8.5-point favorite; forecast is mostly cloudy/humid with possible thunderstorms, 61% rain chance and 6 mph winds."
+    },
+    {
+      "classification": "analyst_data",
+      "source": "FantasyPros Week 2 Bucky Irving outlook",
+      "sourceTimestampEt": "2026-09-17 13:35 ET",
+      "claim": "Irving played 61.5% of snaps in Week 1 and led the passing-down role with a 58.3% route share, 25% target share, 2.29 yards per route run and 48 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FanDuel Research / numberFire",
+      "sourceTimestampEt": "published 2026-09-16; rechecked 2026-09-17 23:54 ET",
+      "claim": "Projects Bucky Irving for 24.13 receiving yards in Week 2 versus Cleveland."
+    },
+    {
+      "classification": "market_fact",
+      "source": "ScoresAndOdds current Bucky Irving prop board",
+      "sourceTimestampEt": "captured 2026-09-17 23:54 ET",
+      "claim": "Current receiving-yards board shows 15.5 with consensus O -110/U -120 and an individual Fanatics quote of O15.5 -105/U15.5 -125. The board's own projection is 21 yards."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.buccaneers.com/news/2026-game-preview-browns-buccaneers-week-2",
+    "https://www.fantasypros.com/nfl/notes/440644/bucky-irving-2026-week-2-outlook.php",
+    "https://www.fanduel.com/research/bucky-irving-nfl-fantasy-week-2-vs-browns-2026",
+    "https://www.scoresandodds.com/prop-bets/6228586/bucky-irving-6228586"
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, identical to the compact history index and processed state.",
+    "No Week 2 straight user ticket exists in data/bet_history.csv.",
+    "This recommendation is price-specific. The positive Week 1 passing-down usage alone is not sufficient; action is triggered by the newly verified 15.5 threshold and acceptable juice.",
+    "Do not add Bucky rushing-attempt exposure from the same Week 1 workload thesis; the receiving bet is the cleaner current price/role expression.",
+    "Recheck Friday practice status and Sunday inactives; if Tucker's role materially expands or the receiving line moves above 15.5, recalculate rather than chase."
+  ]
+}
