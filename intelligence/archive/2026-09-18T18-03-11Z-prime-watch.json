@@ -1,0 +1,200 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T18:03:11Z",
+  "runAtEt": "2026-09-18 14:03:11",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO USER-FACING MATERIAL CHANGE. The 13:44 ET Collins/Houston alert remains the latest material state: reliable Friday reporting says Nico Collins did not practice and is not expected to play Sunday with a Grade 1 hamstring injury, but Houston's official final game designation had not yet posted at this checkpoint. Dalton Schultz remains WATCH/PASS_AFTER_MOVE because the freshest sportsbook-specific public line-shopping still shows DraftKings O44.5 receiving yards -110, above PRIME's stored 41.5/-115-or-better conditional entry. Jonathan Taylor O16.5 receiving yards remains the strongest unchanged existing BET thesis: Covers' latest timestamped board (10:46 ET) still shows DraftKings O16.5 -111 and BetRivers O16.5 -112, both within the stored 16.5/-115 ceiling; do not chase 17.5. Rico Dowdle O8.5 rushing attempts through -115 remains unchanged but no fresh sportsbook-specific 8.5 price was independently verified in this pass. Trey McBride O59.5 receiving yards -114 at DraftKings is a new screen-level WATCH only: Week 1 usage was elite (12 targets, 87% route share), but the visible FIC model probability of 57.2% is only about 3.9 percentage points above the -114 break-even rate and no sufficiently strong second quantitative projection was verified to clear PRIME's preferred 4-5 point internal-edge threshold. No new Grok pass.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T17-44-05Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "DraftKings via Covers",
+      "line": 16.5,
+      "odds": -111,
+      "bestMarketLine": "DraftKings 16.5 -111; BetRivers 16.5 -112; BetMGM 15.5 -120 is a lower threshold but outside PRIME's stored max juice",
+      "consensusLine": "16.5-17.5 across major regulated books",
+      "playToLine": 16.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 0.58,
+      "fairOdds": -138,
+      "estimatedEdgePctAtDK": 5.39,
+      "edgeBucket": "4-6%",
+      "recommendedStakeUnits": 0.5,
+      "confidence": "B",
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["TARGET_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "WEATHER"],
+      "thesisId": "TAYLOR_RECEIVING_NEGATIVE_SCRIPT_WEEK2",
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "alertSuppressed": true,
+      "reason": "Unchanged existing recommendation. Latest public sportsbook board is timestamped 10:46 ET and still preserves the 16.5 threshold at acceptable juice. Verify the live book before placement; do not chase 17.5."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "DraftKings via Fantasy Info Central",
+      "line": 44.5,
+      "odds": -110,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "C+",
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "ROUTE_SHARE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "thesisId": "SCHULTZ_COLLINS_OUT_VOLUME_WEEK2",
+      "reason": "Collins trending out remains bullish, but the verified sportsbook-specific threshold is still three yards above PRIME's stored conditional entry. Covers' generic prop projection page shows a 41.5 market in prediction-market/DFS-style venues, not a newly verified regulated sportsbook re-entry. Do not chase 44.5."
+    },
+    {
+      "player": "Nico Collins",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_PROPS",
+      "decisionStatus": "AVOID",
+      "steamState": "INJURY_UNCERTAINTY",
+      "signalTags": ["INJURY", "ROLE_CHANGE"],
+      "reason": "Friday non-practice and not-expected-to-play reporting is already processed, but the official final designation had not posted by this checkpoint. Do not use player Under markets as a proxy for likely inactivity."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "alertSuppressed": true,
+      "reason": "Unchanged existing price-sensitive recommendation. No fresh sportsbook-specific 8.5 quote was verified this run; do not chase 9.5."
+    },
+    {
+      "player": "Trey McBride",
+      "game": "SEA@ARI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "DraftKings via Fantasy Info Central",
+      "line": 59.5,
+      "odds": -114,
+      "externalProjectionYards": 65.2,
+      "externalOverProbability": 0.572,
+      "marketImpliedProbability": 0.5327,
+      "externalModelEdgePct": 3.93,
+      "confidence": "C+",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "FRIDAY",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "FIRST_READ_SHARE", "MATCHUP", "PROJECTION_DISAGREEMENT"],
+      "thesisId": "MCBRIDE_ALPHA_TE_WEEK2",
+      "reason": "Week 1 role was elite (12 targets on an 87% route share) and the current DraftKings line is 59.5 -114, but PRIME does not adopt one external model probability as its own fair probability. The visible external edge is just under the preferred 4-5 point threshold, Seattle is a strong defense, and a second quantitative projection strong enough to validate a BET was not verified. WATCH only."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "attributed_report",
+      "source": "NBC Sports / multiple Houston practice reporters; Aaron Wilson/KPRC2",
+      "sourceTimestampEt": "2026-09-18 12:20 ET and earlier Friday reporting",
+      "claim": "Nico Collins did not practice Friday after the hamstring injury; Aaron Wilson reported a Grade 1 strain and that Collins is not expected to play Sunday. Houston's final injury report was still due later Friday. This was already processed at 13:44 ET."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Jonathan Taylor player-prop board",
+      "sourceTimestampEt": "odds last updated 2026-09-18 10:46 ET; rechecked during 14:03 ET pass",
+      "claim": "Taylor receiving yards: DraftKings O16.5 -111/U16.5 -113; BetRivers O16.5 -112; FanDuel O17.5 -114; Caesars O17.5 -110; BetMGM O15.5 -120. No change to PRIME's 16.5/-115 ceiling."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Indianapolis Colts official Friday update",
+      "sourceTimestampEt": "2026-09-18 12:44 ET",
+      "claim": "WR Ashton Dulin (ankle) was ruled out for Sunday. This does not materially alter the Jonathan Taylor receiving-yards fair distribution by itself."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Friday Colts practice reporting",
+      "sourceTimestampEt": "2026-09-18 approximately 12:00 ET",
+      "claim": "Alec Pierce returned to practice Friday after Thursday's DNP; final game designation was still pending."
+    },
+    {
+      "classification": "sportsbook_market/model_projection",
+      "source": "Fantasy Info Central Trey McBride current props page",
+      "sourceTimestampEt": "accessed 2026-09-18 14:03 ET",
+      "claim": "DraftKings O59.5 receiving yards -114; FIC projection 65.2 yards and 57.2% Over probability. Screened as WATCH rather than BET."
+    },
+    {
+      "classification": "analyst_data",
+      "source": "Fantasy Life Week 2 receiver usage analysis",
+      "sourceTimestampEt": "published 2026-09-15; accessed 2026-09-18",
+      "claim": "Trey McBride drew 12 Week 1 targets on an 87% route share and was used as a primary underneath/out-breaking option."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Arizona Cardinals / Seattle Seahawks official Week 2 injury reporting",
+      "sourceTimestampEt": "through 2026-09-17; accessed 2026-09-18",
+      "claim": "McBride returned to full practice Thursday after a rest day; Seattle starting QB Sam Darnold is ruled out, but no McBride injury limitation is present."
+    }
+  ],
+  "candidateScreens": [
+    {
+      "candidate": "George Pickens Under 4.5 receptions -107",
+      "source": "BettingPros Friday systems article",
+      "classification": "PASS",
+      "reason": "System/trend rationale alone does not satisfy PRIME. FantasyPros Week 2 consensus projects roughly 5.0 catches, so no robust price-adjusted Under edge was established."
+    },
+    {
+      "candidate": "Brian Robinson Jr. Under 25.5 rushing yards -114",
+      "source": "BettingPros Friday systems article",
+      "classification": "WATCH",
+      "reason": "Potential committee/role angle, but historical hit-rate logic and one analyst recommendation are insufficient without a stronger current role/projection consensus and independently reverified price."
+    },
+    {
+      "candidate": "Daniel Jones Under 216.5 passing yards -115",
+      "source": "BettingPros Friday systems article",
+      "classification": "PASS",
+      "reason": "Chiefs matchup is difficult, but Indianapolis is a road underdog and negative game script can raise pass volume. No sufficiently robust independent probability edge was verified at the exact price."
+    }
+  ],
+  "ledgerMutations": {
+    "livePropBoard": "NONE — no new material actionable price state",
+    "decisionLedger": "NONE — McBride is preserved in this immutable screen only pending stronger confirmation",
+    "lineHistory": "NONE — Taylor and Schultz prices match previously processed public states; avoid duplicate observations",
+    "betHistory": "NONE — no confirmed Week 2 user ticket",
+    "missedBets": "NONE",
+    "passLedger": "NONE — no new terminal repository-level pass required",
+    "parlayHistory": "NONE",
+    "weeklyAttribution": "NONE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nico-collins-out-of-practice-on-friday",
+    "https://www.kprc2.com/sports/2026/09/18/texans-nico-collins-not-expected-to-play-sunday-after-grade-1-hamstring-injury/",
+    "https://www.covers.com/sport/football/nfl/players/48469/jonathan-taylor",
+    "https://www.fantasyinfocentral.com/betting/nfl/props/receiving-yards",
+    "https://www.fantasyinfocentral.com/nfl/players/trey-mcbride-2320/props/",
+    "https://www.fantasylife.com/articles/fantasy/fantasy-football-buys-fades-for-week-2-from-the-receiver-score",
+    "https://www.azcardinals.com/news/injury-report-week-2-vs-seahawks",
+    "https://www.seahawks.com/news/week-2-injury-report-seahawks-vs-cardinals",
+    "https://www.bettingpros.com/articles/best-nfl-bets-for-week-2-2026/"
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json is still live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "The Collins expected-out report was already user-alerted in the 13:44 ET archive; duplicate alert suppressed.",
+    "Official Houston Friday game designations were not yet available at this checkpoint. A later official OUT/Q status can trigger a fresh reprice of Schultz/Boutte/Hutchinson.",
+    "Taylor remains actionable only if the user's live regulated sportsbook still shows 16.5 at -115 or better. Public pages are timestamped evidence, not guaranteed live execution.",
+    "No candidate moved into a genuinely new actionable BET state in this pass, so userAlert=false."
+  ]
+}
