@@ -1,0 +1,173 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T19:50:44Z",
+  "runAtEt": "2026-09-18 15:50:44",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO USER-FACING MATERIAL CHANGE. The latest material state remains unchanged from the prior Friday pass. Jonathan Taylor Over 16.5 receiving yards remains PRIME's strongest existing Week 2 BET thesis only if a live regulated sportsbook still offers 16.5 at -115 or better; Covers' current page still displays DraftKings O16.5 -111 and BetRivers O16.5 -112 with odds timestamped 10:46 ET, while FanDuel/Caesars are 17.5 and therefore beyond PRIME's stored 16.5 play-to. Nico Collins still did not practice Friday and reliable Aaron Wilson/KPRC2 reporting says he is not expected to play Sunday with a Grade 1 hamstring injury, but no newer official Houston final game designation was independently located in this pass. Dalton Schultz remains WATCH/PASS_AFTER_MOVE because no fresh regulated-book re-entry at PRIME's stored 41.5/-115-or-better threshold was verified. Rico Dowdle O8.5 rushing attempts through -115 remains an unchanged existing price-sensitive BET thesis but no fresh sportsbook-specific 8.5 quote was independently verified. Trey McBride remains WATCH. A new BettingPros Judkins Under 49.5 rushing-yards opinion was screened and rejected for now: current FIC market evidence shows FanDuel O47.5 -114 with a 56.4-yard projection, RosterAudit has Judkins around 47.7-47.8 rushing yards, and FantasyPros notes a possible bounce-back matchup; the cited 49.5 Under price is not sufficiently verified/current to establish a robust PRIME edge. No new Grok pass.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T18-03-11Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "DraftKings via Covers",
+      "line": 16.5,
+      "odds": -111,
+      "bestMarketLine": "DraftKings 16.5 -111; BetRivers 16.5 -112; BetMGM 15.5 -120 lower threshold but beyond stored max juice",
+      "consensusLine": "16.5-17.5 across major regulated books",
+      "playToLine": 16.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 0.58,
+      "fairOdds": -138,
+      "estimatedEdgePctAtDK": 5.39,
+      "edgeBucket": "4-6%",
+      "recommendedStakeUnits": 0.5,
+      "confidence": "B",
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "entryTiming": "FRIDAY",
+      "signalTags": ["TARGET_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "WEATHER"],
+      "thesisId": "TAYLOR_RECEIVING_NEGATIVE_SCRIPT_WEEK2",
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "alertSuppressed": true,
+      "reason": "Unchanged recommendation; current Covers board remains timestamped 10:46 ET. Verify the live book before placement and do not chase 17.5."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "C+",
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "FRIDAY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "ROUTE_SHARE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "thesisId": "SCHULTZ_COLLINS_OUT_VOLUME_WEEK2",
+      "reason": "Collins trending out remains bullish, but no fresh regulated-book re-entry at 41.5/-115 or better was verified in this pass. Do not chase a worse threshold."
+    },
+    {
+      "player": "Nico Collins",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_PROPS",
+      "decisionStatus": "AVOID",
+      "steamState": "INJURY_UNCERTAINTY",
+      "signalTags": ["INJURY", "ROLE_CHANGE"],
+      "reason": "Reliable Friday reporting says Collins is not expected to play after missing practice, but no newer official final game designation was independently located during this checkpoint. Do not use an Under as a proxy for likely inactivity."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "alertSuppressed": true,
+      "reason": "Unchanged existing price-sensitive recommendation. No fresh sportsbook-specific 8.5 quote was verified this run; do not chase 9.5."
+    },
+    {
+      "player": "Trey McBride",
+      "game": "SEA@ARI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 59.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "C+",
+      "steamState": "REDUCED_EDGE",
+      "reason": "No new quantitative confirmation sufficient to upgrade the prior screen-level WATCH."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_YARDS",
+      "side": "UNDER",
+      "decisionStatus": "PASS",
+      "sportsbook": "BettingPros cited market; underlying current book not independently verified",
+      "line": 49.5,
+      "odds": -108,
+      "confidence": "C",
+      "steamState": "PRICE_UNVERIFIED_MODEL_CONFLICT",
+      "signalTags": ["GAME_SCRIPT", "RUSH_SHARE", "OL_INJURY", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "reason": "BettingPros published Under 49.5 -108, but FIC currently shows FanDuel O47.5 -114 with a 56.4-yard projection and RosterAudit market-blended projections sit around 47.7-47.8. FantasyPros also notes Tampa's Week 1 run-defense struggles as a potential bounce-back path. PRIME will not promote an Under from one analyst recommendation while current market/projection evidence is mixed and the exact executable 49.5 book is unverified."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Jonathan Taylor player-prop board",
+      "sourceTimestampEt": "odds last updated 2026-09-18 10:46 ET; rechecked 2026-09-18 15:50 ET",
+      "claim": "Taylor receiving yards remains DraftKings O16.5 -111/U16.5 -113; BetRivers O16.5 -112; FanDuel O17.5 -114; Caesars O17.5 -110; BetMGM O15.5 -120."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Aaron Wilson/KPRC2; ESPN practice reporting; FantasyPros injury update",
+      "sourceTimestampEt": "Friday 2026-09-18 late morning",
+      "claim": "Nico Collins did not practice Friday and is not expected to play Sunday after a reported Grade 1 hamstring injury."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "BettingPros Week 2 Betting Primer / Andrew Erickson",
+      "sourceTimestampEt": "published 2026-09-18",
+      "claim": "Official play listed Quinshon Judkins Under 49.5 rushing yards -108."
+    },
+    {
+      "classification": "sportsbook_market/model_projection",
+      "source": "Fantasy Info Central Week 2 rushing-yards board",
+      "sourceTimestampEt": "accessed 2026-09-18 15:50 ET",
+      "claim": "Judkins listed at FanDuel 47.5 rushing yards with Over -114; FIC projection 56.4 rushing yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "RosterAudit Week 2 player projection pages",
+      "sourceTimestampEt": "market data last pulled 2026-09-17 evening; accessed 2026-09-18",
+      "claim": "Judkins market-blended rushing projection approximately 47.7-47.8 yards in an 8.5-point underdog game script."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "FantasyPros Derek Brown Week 2 outlook",
+      "sourceTimestampEt": "published 2026-09-17 13:35 ET",
+      "claim": "Judkins played 64.7% of Week 1 snaps with 14 touches/40 total yards; Tampa's Week 1 run defense allowed elevated rushing success and yards after contact, creating some bounce-back potential."
+    }
+  ],
+  "ledgerMutations": {
+    "livePropBoard": "NONE — no new material actionable price state",
+    "decisionLedger": "NONE — Judkins rush-yards Under preserved in immutable screen only as PASS pending executable-market verification and stronger agreement",
+    "lineHistory": "NONE — Taylor public price matches previously processed state; avoid duplicate observation",
+    "betHistory": "NONE — no confirmed Week 2 user ticket",
+    "missedBets": "NONE",
+    "passLedger": "NONE — new Judkins Under screen is not yet a durable terminal pass because the cited market itself is not independently verified current",
+    "parlayHistory": "NONE",
+    "weeklyAttribution": "NONE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.covers.com/sport/football/nfl/players/48469/jonathan-taylor",
+    "https://www.fantasypros.com/nfl/news/608838/nico-collins-hamstring-not-seen-practicing-friday.php",
+    "https://www.bettingpros.com/articles/nfl-betting-primer-picks-predictions-week-2-2026/",
+    "https://www.fantasyinfocentral.com/betting/nfl/props/rushing-yards",
+    "https://rosteraudit.com/projections/quinshon-judkins-vs-stefon-diggs/",
+    "https://www.fantasypros.com/nfl/notes/440670/quinshon-judkins-2026-week-2-outlook.php"
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "Taylor remains actionable only at the stored 16.5/-115-or-better ceiling and only after live-book verification; public line-shopping pages are evidence, not guaranteed execution.",
+    "No newly verified player prop crossed PRIME's action threshold in this pass.",
+    "User alert suppressed because all actionable states are unchanged and the new Judkins Under screen was rejected rather than promoted."
+  ]
+}
