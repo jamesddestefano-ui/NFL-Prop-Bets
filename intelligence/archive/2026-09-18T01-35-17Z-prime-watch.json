@@ -1,0 +1,89 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T01:35:17Z",
+  "runAtEt": "2026-09-17 21:35:17",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Material live-game injury update: Buffalo officially lists WR D.J. Moore questionable to return against Detroit with a shoulder/stinger injury after he was taken to the locker room for X-rays late in the second quarter. This invalidates any remaining pregame Moore/Kincaid/Cook target-distribution assumptions, but PRIME has not independently verified a sportsbook-specific live player-prop line/price, so no live wager is created from the injury alone. New D.J. Moore Overs are AVOID until an official return/status update and a fresh executable market are verified. Kincaid and Cook move only to conditional live WATCH because Moore's absence could increase target opportunity, but game state and live repricing must be modeled first. Sunday Quinshon Judkins remains PASS_AFTER_MOVE/WATCH at the public 14.5 display; Cleveland's Thursday practice report still shows interior OL uncertainty and no verified better sportsbook-specific attempts price has emerged.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T00-46-33Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "D.J. Moore",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS/RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "AVOID",
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "IN_GAME_LOCKED",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "MARKET_MOVE"],
+      "reason": "Buffalo officially lists Moore questionable to return with a shoulder/stinger injury and says he was taken for X-rays. Any pregame Over thesis is stale. Do not create a new Moore Over unless he officially returns and a fresh live sportsbook line/price is independently verified and recalculated."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS/RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "IN_GAME_LOCKED",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "GAME_SCRIPT"],
+      "reason": "Moore's possible absence is directionally bullish for target opportunity, but there is no independently verified sportsbook-specific live Kincaid line/price in this run and the score/game state has changed from pregame assumptions. No bet without fresh live market truth and a new probability estimate."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS/RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "IN_GAME_LOCKED",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "GAME_SCRIPT"],
+      "reason": "Ty Johnson was already inactive and Moore is now questionable to return, creating a plausible receiving-role tailwind for Cook. However PRIME has no verified live sportsbook line/price and will not convert a target-vacuum narrative into a wager without fresh pricing and updated game-state modeling."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "MARKET_MOVE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "No verified sportsbook-specific re-entry at PRIME's preferred 12.5/-110-or-better threshold. Tampa Bay's official Week 2 preview lists Browns C Parker Brailsford and C Elgton Jenkins limited Thursday and G Teven Jenkins DNP, while the game remains Bucs -8.5. Do not chase the public 14.5 display."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official",
+      "claim": "D.J. Moore is questionable to return with a shoulder and stinger injury after a diving end-zone attempt late in the second quarter; he was taken to the locker room for X-rays."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Tampa Bay Buccaneers official Week 2 preview/injury report",
+      "claim": "Browns Thursday practice: C Parker Brailsford LP (thumb), C Elgton Jenkins LP (back), G Teven Jenkins DNP (back), G Zion Johnson FP (knee), T Dawand Jones FP (head). Tampa Bay remains listed as an 8.5-point favorite."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.buffalobills.com/news/bills-issue-injury-update-on-wr-dj-moore",
+    "https://www.buccaneers.com/news/2026-game-preview-browns-buccaneers-week-2",
+    "https://www.clevelandbrowns.com/news/raheim-sanders-remains-focused-on-succeeding-in-role-heading-into-week-2"
+  ],
+  "researchNotes": [
+    "No new Grok pass: latest remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and prior processed state.",
+    "No sportsbook-specific live DET@BUF player-prop price was independently verified after Moore's injury; PRIME therefore issues no live-game player-prop recommendation.",
+    "The Moore injury is a material role/target-distribution change, but it does not by itself create a Kincaid or Cook Over without current market price and updated game-state probability.",
+    "Judkins remains unchanged from the prior PASS_AFTER_MOVE decision; Thursday practice data does not justify relaxing the stored price/line ceiling."
+  ]
+}
