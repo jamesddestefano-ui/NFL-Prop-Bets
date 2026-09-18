@@ -1,0 +1,166 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T15:56:50Z",
+  "runAtEt": "2026-09-18 11:56:50",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL PRICE IMPROVEMENT: Jonathan Taylor Over 16.5 receiving yards has moved from the prior PRIME WATCH at William Hill -118 to a freshly public DraftKings quote of O16.5 -111. This exact threshold/price is inside PRIME's 16.5/-115 ceiling. Independent projection support remains above the market (Fantasy Info Central 19.0; numberFire 23.42), Taylor handled 4 targets for 3 catches and 23 yards in Week 1, and Kansas City is roughly a 6.5-point home favorite, supporting a plausible trailing-script reception path. The recommendation is BET_NOW for 0.5u only if the live DraftKings app still shows 16.5 at -115 or better. Do not chase 17.5. Friday final injury designations are not yet posted; D.J. Giddens was DNP Thursday with a knee injury, while Taylor is not listed on the injury report. Forecast risk includes rain/thunderstorm potential and must be refreshed Sunday, but current wind expectations are not sufficient to invalidate a short-area RB receiving thesis. No new Grok pass.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T14-17-55Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-TAYLOR-RECYDS-20260918-115650",
+      "timestampEt": "2026-09-18 11:56:50",
+      "gameDate": "2026-09-20",
+      "game": "IND@KC",
+      "player": "Jonathan Taylor",
+      "team": "IND",
+      "opponent": "KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "DraftKings via Fantasy Info Central",
+      "line": 16.5,
+      "odds": -111,
+      "bestMarketLine": "16.5 -111 DraftKings via Fantasy Info Central",
+      "consensusLine": "16.5-17.5 across current public line-shopping references",
+      "ourMeanProjection": 20.8,
+      "ourMedianProjection": 20.0,
+      "estimatedOverProbability": 0.58,
+      "estimatedUnderProbability": 0.42,
+      "fairOdds": -138,
+      "marketImpliedProbability": 0.5261,
+      "estimatedEdgePct": 5.39,
+      "edgeBucket": "4-6%",
+      "recommendedStakeUnits": 0.5,
+      "confidence": "B",
+      "playToLine": 16.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["TARGET_SHARE", "SNAP_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": [],
+      "thesisId": "TAYLOR_RECEIVING_NEGATIVE_SCRIPT_WEEK2",
+      "actualUserAction": "UNCONFIRMED",
+      "reason": "The prior 16.5/-118 WATCH was price-restricted. A current public line-shopping page now identifies DraftKings O16.5 -111, improving the price by seven cents without giving up the threshold. PRIME retains the prior conservative 58% fair Over probability rather than increasing it from projection enthusiasm. At -111 the raw break-even probability is 52.61%, producing a 5.39 percentage-point edge. Fantasy Info Central projects 19.0 receiving yards and numberFire projects 23.42; Week 1 usage was 4 targets, 3 receptions, 23 yards. Kansas City is approximately a 6.5-point favorite. The price improvement, not the projection alone, is what changes WATCH to BET."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "note": "Existing thesis unchanged from prior archive; do not send duplicate alert and do not chase 9.5."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "WATCH_NEEDS_COLLINS_FINAL_STATUS",
+      "note": "Nico Collins' Friday hamstring status remains unresolved; no promotion before final designation and fresh price."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "PASS_AFTER_MOVE",
+      "note": "No verified return to the preferred 12.5/-110-or-better entry; do not transfer the stale thesis to 13.5-14.5."
+    },
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "note": "No new actionable role/price catalyst; Sean Tucker practiced fully Wednesday and Thursday."
+    }
+  ],
+  "lineHistoryObservations": [
+    {
+      "capturedAtEt": "2026-09-18 11:56:50",
+      "player": "Jonathan Taylor",
+      "propType": "RECEIVING_YARDS",
+      "sportsbook": "DraftKings via Fantasy Info Central",
+      "side": "OVER",
+      "line": 16.5,
+      "odds": -111,
+      "impliedProbability": 0.5261,
+      "note": "Material price improvement from prior 16.5 -118 WATCH; now inside PRIME max -115. Verify live DraftKings app before placement."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "sportsbook_market/model_projection",
+      "source": "Fantasy Info Central NFL receiving-yards board",
+      "sourceTimestampEt": "crawled 2026-09-18 11:56 ET",
+      "claim": "Jonathan Taylor O16.5 receiving yards -111 at DraftKings; FIC projection 19.0."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FanDuel Research / numberFire",
+      "sourceTimestampEt": "published 2026-09-15; crawled 2026-09-18",
+      "claim": "numberFire projects Jonathan Taylor for 23.42 receiving yards against Kansas City."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Kansas City Chiefs official Week 2 injury report",
+      "sourceTimestampEt": "through Thursday 2026-09-17; crawled 2026-09-18",
+      "claim": "Jonathan Taylor is not listed on the injury report. Colts backup RB D.J. Giddens was DNP Thursday with a knee injury; Friday final designations were not yet posted at this run."
+    },
+    {
+      "classification": "market_context",
+      "source": "current public consensus spread references",
+      "sourceTimestampEt": "accessed 2026-09-18 11:56 ET",
+      "claim": "Kansas City is approximately a 6.5-point home favorite against Indianapolis."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "current Arrowhead forecast references",
+      "sourceTimestampEt": "accessed 2026-09-18 11:56 ET",
+      "claim": "Sunday night carries rain/thunderstorm risk; current public kickoff forecast references roughly 10 mph wind. Weather remains a Sunday recheck dependency rather than a current veto."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.fantasyinfocentral.com/betting/nfl/props/receiving-yards?date=2026-09-15&home=TEN",
+    "https://www.fanduel.com/research/jonathan-taylor-nfl-fantasy-week-2-vs-chiefs-2026",
+    "https://www.chiefs.com/news/2026-week-2-injury-report-colts-vs-chiefs",
+    "https://www.colts.com/team/injury-report/",
+    "https://www.covers.com/nfl/colts-vs-chiefs-predictions-odds-early-leans-week-2-2026"
+  ],
+  "ledgerMutations": {
+    "betHistory": "NONE — no confirmed Week 2 user ticket",
+    "missedBets": "NONE — current Taylor recommendation remains live",
+    "passLedger": "NONE — no new terminal pass beyond existing states",
+    "parlayHistory": "NONE",
+    "weeklyAttribution": "NONE — Week 2 not complete"
+  },
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "The Taylor state change is price-driven: same 16.5 threshold, improved from -118 WATCH to -111 BET_NOW.",
+    "Do not chase Taylor to 17.5 or worse than -115 at 16.5 without recalculation.",
+    "Public market pages are snapshots; live sportsbook truth at placement controls.",
+    "Friday final injury designations for IND@KC were not yet posted at 11:56 ET and should be rechecked later."
+  ]
+}
