@@ -1,0 +1,139 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T12:13:52Z",
+  "runAtEt": "2026-09-18 08:13:52",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE. Friday 08:13 ET refresh confirms the prior PRIME state. Dimers' current Week 2 board still lists Rico Dowdle Over 8.5 rushing attempts as its top prop (81.6% model probability), but the publicly accessible page does not expose a fresh regulated-sportsbook price/timestamp, so PRIME does not re-alert or assume the prior FanDuel -114 remains executable. Nico Collins' Thursday hamstring DNP remains the latest official Houston practice fact; Friday final status is not yet posted. Dalton Schultz remains WATCH: Covers still models O41.5 receiving yards strongly, but the current accessible board does not supply a freshly timestamped regulated-book price that clears PRIME verification standards. Bucky Irving remains WATCH/REDUCED_EDGE; Tampa Bay's official preview continues to show Sean Tucker full Wednesday/Thursday and no Friday designation yet, while Cleveland's offensive-line injuries remain unresolved. Quinshon Judkins remains PASS_AFTER_MOVE. No new Grok pass.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T11-06-30Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "line": 8.5,
+      "maxAcceptableOdds": -115,
+      "playToLine": 8.5,
+      "estimatedOverProbability": 0.61,
+      "fairOdds": -156,
+      "estimatedEdgePct": 7.73,
+      "edgeBucket": "6-8%",
+      "recommendedStakeUnits": 0.5,
+      "confidence": "B",
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["SNAP_SHARE", "RUSH_SHARE", "RED_ZONE", "ROLE_CHANGE", "MARKET_MOVE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "OL_INJURY"],
+      "thesisId": "DOWDLE_EARLY_DOWN_ROLE_WEEK2",
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "reason": "Fresh Dimers board still ranks O8.5 as its top Week 2 prop, but the accessible board does not expose a fresh regulated sportsbook price. Preserve the prior 8.5/-115 ceiling and do not assume executability or chase 9.5."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "line": 41.5,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 0.57,
+      "fairOdds": -133,
+      "estimatedEdgePct": 3.73,
+      "edgeBucket": "2.5-4%",
+      "confidence": "B-",
+      "steamState": "WATCH_NEEDS_VERIFIED_FRESH_PRICE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["TARGET_SHARE", "FIRST_READ_SHARE", "MATCHUP", "INJURY", "ROLE_CHANGE", "PROJECTION_DISAGREEMENT", "MARKET_DISAGREEMENT"],
+      "thesisId": "SCHULTZ_COLLINS_INJURY_TARGET_TREE",
+      "reason": "Covers still shows a 54.81-yard model projection against a 41.5 receiving-yard threshold, but no freshly timestamped regulated sportsbook price was independently verified at this checkpoint. Collins' Friday status remains unresolved."
+    },
+    {
+      "player": "Nico Collins",
+      "game": "CIN@HOU",
+      "propType": "RECEPTIONS",
+      "side": "UNDER",
+      "decisionStatus": "WATCH",
+      "line": 5.5,
+      "playToLine": 5.5,
+      "maxAcceptableOdds": -140,
+      "confidence": "C+",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["INJURY", "TARGET_SHARE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "thesisId": "COLLINS_HAMSTRING_LIMITATION_WEEK2",
+      "reason": "Thursday DNP with hamstring remains the latest official practice fact; Friday designation is not yet posted. Do not bet a heavy-juice Under before active/inactive and workload information is clearer."
+    },
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "line": 14.5,
+      "playToLine": 14.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["RUSH_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "INJURY"],
+      "reason": "VSiN/OptaAI remains bullish at 17.92 projected attempts, but that was already incorporated in the prior decision. Sean Tucker has been full Wednesday/Thursday, and Friday designations are not yet available. No new actionable price edge."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["RUSH_SHARE", "INJURY", "MARKET_MOVE", "OL_INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "No verified return to PRIME's preferred 12.5/-110-or-better entry. Cleveland offensive-line injury questions remain unresolved; do not transfer the old thesis upward."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "model_projection/market_context",
+      "source": "Dimers NFL props board",
+      "sourceTimestampEt": "accessed 2026-09-18 08:13; page dated 2026-09-18",
+      "claim": "Dimers still lists Rico Dowdle Over 8.5 rushing attempts as its top Week 2 prop with 81.6% model probability; accessible page does not expose a fresh sportsbook-specific price."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Covers NFL player-props board",
+      "sourceTimestampEt": "accessed 2026-09-18 08:13",
+      "claim": "Covers continues to show Dalton Schultz Over 41.5 receiving yards with a 54.81-yard projection; no freshly timestamped regulated-book price was visible in the accessible result."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Tampa Bay Buccaneers official Week 2 preview/injury table",
+      "sourceTimestampEt": "accessed 2026-09-18 08:13; table through Thursday 2026-09-17",
+      "claim": "Sean Tucker was full Wednesday and Thursday. Browns C Parker Brailsford and C Elgton Jenkins were limited both days; G Teven Jenkins was DNP both days; T Dawand Jones improved to full Thursday. Friday final designations were not yet posted."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.dimers.com/nfl/props",
+    "https://www.covers.com/sport/football/nfl/player-props",
+    "https://www.buccaneers.com/news/2026-game-preview-browns-buccaneers-week-2",
+    "https://www.houstontexans.com/news/week-2-injury-report-texans-vs-bengals"
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "No Week 2 straight user ticket exists in data/bet_history.csv.",
+    "No Friday final injury report had been posted for the key Houston/Tampa/Cleveland dependencies at this 08:13 ET checkpoint.",
+    "Because no candidate changed to a new actionable state and no existing ticket requires attention, userAlert=false under the watch notification rule."
+  ]
+}
