@@ -1,0 +1,230 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T15:13:56Z",
+  "runAtEt": "2026-09-18 11:13:56",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL PRICE IMPROVEMENT: Jonathan Taylor Over 16.5 receiving yards is promoted from WATCH/REDUCED_EDGE to BET_NOW after Covers' regulated-book board updated at 10:46 ET with DraftKings O16.5 -111 / U16.5 -113. PRIME's stored play-to was 16.5 with maximum acceptable juice -115 and prior fair Over probability 58%; the same threshold was previously -118, so the price improvement crosses the action threshold without changing the football thesis. FantasyPros projects 20.2 receiving yards and 2.8 receptions, numberFire/FanDuel Research 23.42 receiving yards, and Dimers 19.6 receiving yards. Taylor had 4 Week 1 targets, 3 catches and 23 receiving yards. Kansas City is a 6.5-point favorite, supporting trailing-script receiving opportunity, while Sunday thunderstorms are a weather uncertainty rather than a positive catalyst. No new Grok pass. Existing Rico Dowdle O8.5 rushing attempts -114 remains an unchanged price-sensitive BET thesis and is not re-alerted.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T14-17-55Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-TAYLOR-RECYDS-REPRICE-20260918-111356",
+      "timestampEt": "2026-09-18 11:13:56",
+      "gameDate": "2026-09-20",
+      "game": "IND@KC",
+      "player": "Jonathan Taylor",
+      "team": "IND",
+      "opponent": "KC",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "DraftKings via Covers",
+      "line": 16.5,
+      "odds": -111,
+      "marketSnapshotAtEt": "2026-09-18 10:46",
+      "bestMarketLine": "15.5 -120 BetMGM by threshold; 16.5 -111 DraftKings is the best price at PRIME's approved threshold",
+      "consensusLine": "16.5-17.5; BetMGM 15.5 carries heavier -120 juice",
+      "openingLine": null,
+      "lineAtFirstDetection": 16.5,
+      "lineAtRecommendation": 16.5,
+      "lineAtUserBet": null,
+      "closingLine": null,
+      "openingOdds": null,
+      "betOdds": null,
+      "closingOdds": null,
+      "consensusProjection": "FantasyPros 20.2 receiving yards; numberFire/FanDuel Research 23.42; Dimers 19.6",
+      "ourMeanProjection": 21.0,
+      "ourMedianProjection": 20.2,
+      "marketImpliedProbability": 0.5261,
+      "noVigProbability": 0.4979,
+      "estimatedOverProbability": 0.58,
+      "estimatedUnderProbability": 0.42,
+      "fairOdds": -138,
+      "estimatedEdgePct": 5.39,
+      "noVigEdgePct": 8.21,
+      "edgeBucket": "4-6%",
+      "recommendedStakeUnits": 0.5,
+      "confidence": "B",
+      "playToLine": 16.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["TARGET_SHARE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "INJURY", "WEATHER"],
+      "correlationTags": [],
+      "thesisId": "TAYLOR_RECEIVING_NEGATIVE_SCRIPT_WEEK2",
+      "stakeCash": null,
+      "weeklyExposureCash": null,
+      "gameExposureCash": null,
+      "playerExposureCash": null,
+      "thesisExposureCash": null,
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "injuryNewsDependencies": "Taylor is not listed in the Colts' Wednesday/Thursday injury-report notes reviewed. Backup RB D.J. Giddens did not practice Thursday with a knee issue. Friday final designations remain pending.",
+      "reason": "Price, not projection alone, triggers the promotion. PRIME previously stored 16.5/-115 as the maximum acceptable entry and 58% fair Over probability. Covers' 10:46 ET board now shows DraftKings O16.5 -111 / U16.5 -113, improving from the prior O16.5 -118 while keeping the same threshold. Independent projections cluster above 16.5 (19.6, 20.2, 23.42), Week 1 produced 4 targets/3 catches/23 yards, and Kansas City is favored by 6.5. Sunday thunderstorm risk is monitored and prevents a higher confidence grade. Do not chase 17.5 or worse than -115; verify the live DraftKings app immediately before placement."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "line": 8.5,
+      "odds": -114,
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "alertSuppressed": true,
+      "reason": "Unchanged existing recommendation; no duplicate alert."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "line": 41.5,
+      "odds": -114,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "WATCH_NEEDS_COLLINS_FINAL_STATUS",
+      "reason": "No new Friday Nico Collins designation was available at this checkpoint; prior conservative edge remains below the normal action threshold."
+    },
+    {
+      "player": "Nico Collins",
+      "game": "CIN@HOU",
+      "propType": "RECEPTIONS",
+      "side": "UNDER",
+      "decisionStatus": "WATCH",
+      "line": 5.5,
+      "odds": -149,
+      "playToLine": 5.5,
+      "maxAcceptableOdds": -140,
+      "steamState": "REDUCED_EDGE",
+      "reason": "Friday hamstring status remains unresolved and current stored price is still beyond PRIME's ceiling."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "No verified return to the 12.5/-110-or-better entry."
+    },
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "line": 14.5,
+      "playToLine": 14.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "REDUCED_EDGE",
+      "reason": "Sean Tucker was a full participant Wednesday and Thursday; no new actionable role/price edge."
+    }
+  ],
+  "lineHistoryObservations": [
+    {
+      "capturedAtEt": "2026-09-18 10:46",
+      "player": "Jonathan Taylor",
+      "propType": "RECEIVING_YARDS",
+      "sportsbook": "DraftKings via Covers",
+      "side": "OVER",
+      "line": 16.5,
+      "odds": -111,
+      "oppositeSideLine": 16.5,
+      "oppositeSideOdds": -113,
+      "impliedProbability": 0.5261,
+      "noVigProbability": 0.4979,
+      "note": "Material price improvement at the same PRIME-approved 16.5 threshold; prior state was William Hill O16.5 -118."
+    },
+    {
+      "capturedAtEt": "2026-09-18 10:46",
+      "player": "Jonathan Taylor",
+      "propType": "RECEIVING_YARDS",
+      "sportsbook": "BetRivers via Covers",
+      "side": "OVER",
+      "line": 16.5,
+      "odds": -112,
+      "oppositeSideLine": 16.5,
+      "oppositeSideOdds": -116,
+      "note": "Also inside PRIME's -115 ceiling, but DraftKings -111 is better at the same threshold."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Jonathan Taylor regulated-book board",
+      "sourceTimestampEt": "2026-09-18 10:46",
+      "claim": "DraftKings O16.5 receiving yards -111 / U16.5 -113; BetRivers O16.5 -112; FanDuel O17.5 -114; Caesars/Hard Rock O17.5 -110; bet365 O18.5 -115; BetMGM O15.5 -120."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 RB consensus projections",
+      "sourceTimestampEt": "last updated 2026-09-17",
+      "claim": "Jonathan Taylor projected for 2.8 receptions and 20.2 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "numberFire via FanDuel Research",
+      "sourceTimestampEt": "published 2026-09-15",
+      "claim": "Jonathan Taylor projected for 23.42 receiving yards; Week 1 line was 3 catches on 4 targets for 23 yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Dimers Week 2 projected box score",
+      "sourceTimestampEt": "published 2026-09-16",
+      "claim": "Jonathan Taylor projected for 2.6 receptions and 19.6 receiving yards."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Indianapolis Colts Thursday practice notebook",
+      "sourceTimestampEt": "2026-09-17 15:44",
+      "claim": "Taylor was not listed among the Colts injury-report notes; backup RB D.J. Giddens did not participate Thursday with a knee injury."
+    },
+    {
+      "classification": "market_context",
+      "source": "Covers Week 2 odds",
+      "sourceTimestampEt": "2026-09-18 09:01",
+      "claim": "Kansas City is a 6.5-point favorite over Indianapolis."
+    },
+    {
+      "classification": "weather",
+      "source": "National Weather Service Kansas City forecast",
+      "sourceTimestampEt": "accessed 2026-09-18 11:13",
+      "claim": "Sunday forecast calls for showers and thunderstorms likely with a 70% precipitation chance; pregame refresh remains required because timing/intensity can change."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.covers.com/sport/football/nfl/players/48469/jonathan-taylor",
+    "https://www.fantasypros.com/nfl/projections/rb.php?week=2",
+    "https://www.fanduel.com/research/jonathan-taylor-nfl-fantasy-week-2-vs-chiefs-2026",
+    "https://www.dimers.com/nfl/news/jonathan-taylor-projected-fantasy-stats-nfl-week-2-2026-ac",
+    "https://www.colts.com/news/practice-notebook-qb-anthony-richardson-sr-returns-to-practice",
+    "https://www.covers.com/nfl/week-2-odds-opening-lines-2026",
+    "https://beta.weather.gov/place/MO/Kansas_City/"
+  ],
+  "ledgerMutations": {
+    "immutableArchive": "CREATED",
+    "propWatchState": "UPDATE_REQUIRED_AFTER_ARCHIVE_COMMIT",
+    "betHistory": "NONE — no confirmed Week 2 user ticket",
+    "missedBets": "NONE — recommendation is currently actionable",
+    "passLedger": "NONE",
+    "parlayHistory": "NONE",
+    "weeklyAttribution": "NONE — week not complete"
+  }
+}
