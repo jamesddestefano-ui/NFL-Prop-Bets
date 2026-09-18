@@ -1,0 +1,183 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T07:14:25Z",
+  "runAtEt": "2026-09-18 03:14:25",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "NEW ACTIONABLE CANDIDATE: Rico Dowdle Over 8.5 rushing attempts. Dimers' publicly timestamped board was last updated 2026-09-18 01:08 ET and showed FanDuel O8.5 -114; ScoresAndOdds' current Week 2 page also exposes an O8.5 -115 quote in its bet365 column, while its consensus rush-attempt market is 9.5 O-122/U-108. The isolated 8.5 is materially better than consensus. This is not projection-only: FantasyPros' Week 2 role analysis says Dowdle started Week 1, led Pittsburgh RBs with 57.8% snaps, 48.8% route share and the only red-zone carry, even though Jaylen Warren out-carried him 10-8. The backfield remains a committee and Pittsburgh is a 4.5-point road underdog, so PRIME discounts the more aggressive external projections and assigns a conservative 61% fair Over probability at 8.5. At -114/-115 that produces about a 7.5-7.7 percentage-point raw edge. Recommendation: 0.5u BET_NOW only if the live regulated sportsbook still shows 8.5 at -115 or better. Do not chase 9.5 at the current consensus -122 and do not pay worse than -115 at 8.5. Bucky Irving receiving and rush attempts remain WATCH/REDUCED_EDGE; Quinshon Judkins attempts remains PASS_AFTER_MOVE. No new Grok pass.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T06-14-35Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-DOWDLE-CARRIES-20260918-031425",
+      "timestampEt": "2026-09-18 03:14:25",
+      "gameDate": "2026-09-20",
+      "game": "PIT@NE",
+      "player": "Rico Dowdle",
+      "team": "PIT",
+      "opponent": "NE",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rush Attempts",
+      "side": "OVER",
+      "sportsbook": "FanDuel via Dimers; bet365 corroboration via ScoresAndOdds",
+      "line": 8.5,
+      "odds": -114,
+      "bestMarketLine": "8.5 -114 FanDuel (Dimers last update 01:08 ET); 8.5 -115 bet365 via ScoresAndOdds",
+      "consensusLine": "9.5; ScoresAndOdds consensus O -122 / U -108",
+      "oppositeSideLine": 9.5,
+      "oppositeSideOdds": -108,
+      "openingLine": null,
+      "lineAtFirstDetection": 8.5,
+      "lineAtRecommendation": 8.5,
+      "ourMeanProjection": 10.8,
+      "ourMedianProjection": 10.5,
+      "estimatedOverProbability": 0.61,
+      "estimatedUnderProbability": 0.39,
+      "fairOdds": -156,
+      "marketImpliedProbability": 0.5327,
+      "estimatedEdgePct": 7.73,
+      "edgeBucket": "6-8%",
+      "decisionStatus": "BET",
+      "confidence": "B",
+      "recommendedStakeUnits": 0.5,
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["SNAP_SHARE", "RUSH_SHARE", "RED_ZONE_ROLE", "ROLE_CHANGE", "MARKET_MOVE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "OL_INJURY", "MATCHUP"],
+      "correlationTags": [],
+      "thesisId": "DOWDLE_EARLY_DOWN_ROLE_WEEK2",
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "reason": "The 8.5 threshold is materially below both the current ScoresAndOdds consensus market of 9.5 and multiple independent workload estimates. Week 1 role evidence supports Dowdle remaining part of a true two-back committee: he started, led RB snaps 57.8%-35.9%, led route share 48.8%-30.2%, and handled Pittsburgh's only RB red-zone carry, though Warren had 10 carries to Dowdle's 8 and was more efficient. FantasyPros explicitly notes the role/workload signals conflict and treats the matchup as favorable. Dynasty Spec projects 12.2 carries; ScoresAndOdds projects 10.3; Dimers' model is much more aggressive at roughly 82% Over probability. PRIME does not adopt that 82% estimate. It uses a conservative 61% fair probability to account for Warren's better Week 1 efficiency, the committee structure, Pittsburgh being a road underdog, and LT Troy Fautanu being limited with an ankle injury. At the isolated 8.5/-114 to -115 price, the edge still clears PRIME's threshold. At consensus 9.5/-122, it does not."
+    },
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -105,
+      "steamState": "REDUCED_EDGE",
+      "reason": "No new overnight information resolves the projection disagreement recorded at 02:14 ET. Sean Tucker remains on track to return after full practices Wednesday and Thursday. Do not restore the prior BET_NOW state without a stronger price or materially new role information."
+    },
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -105,
+      "steamState": "REDUCED_EDGE",
+      "reason": "Remains a WATCH because current models disagree materially and Sean Tucker is expected back. Friday final designations remain a required checkpoint."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "No fresh sportsbook-specific O12.5 at -110 or better was verified. Cleveland's Thursday injury report still has Teven Jenkins DNP and Parker Brailsford/Elgton Jenkins limited, so no new offensive-line catalyst justifies chasing higher attempt thresholds."
+    }
+  ],
+  "lineHistorySnapshot": [
+    {
+      "capturedAtEt": "2026-09-18 03:14:25",
+      "game": "PIT@NE",
+      "player": "Rico Dowdle",
+      "market": "Rush Attempts",
+      "sportsbook": "FanDuel via Dimers",
+      "side": "OVER",
+      "line": 8.5,
+      "odds": -114,
+      "impliedProbability": 0.5327,
+      "notes": "Dimers board last-updated 2026-09-18 01:08 ET. Publicly timestamped best-odds evidence; verify live FanDuel before placement because the capture is not instantaneous to this run."
+    },
+    {
+      "capturedAtEt": "2026-09-18 03:14:25",
+      "game": "PIT@NE",
+      "player": "Rico Dowdle",
+      "market": "Rush Attempts",
+      "sportsbook": "bet365 via ScoresAndOdds",
+      "side": "OVER",
+      "line": 8.5,
+      "odds": -115,
+      "impliedProbability": 0.5349,
+      "notes": "ScoresAndOdds Week 2 page exposes an 8.5 -115 quote in the bet365 column; the same page's consensus is 9.5 O-122/U-108 and projection 10.3. Treat 8.5 as the hard play-to threshold."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "market_fact",
+      "source": "Dimers NFL props board",
+      "sourceTimestampEt": "2026-09-18 01:08 ET",
+      "claim": "FanDuel O8.5 Rico Dowdle rushing attempts at -114; Dimers model probability around 82%. PRIME uses the sportsbook quote but independently discounts the model probability."
+    },
+    {
+      "classification": "market_fact",
+      "source": "ScoresAndOdds Rico Dowdle Week 2 prop board",
+      "sourceTimestampEt": "accessed 2026-09-18 03:14 ET",
+      "claim": "Rush-attempt consensus is 9.5 O-122/U-108; an isolated bet365 quote is O8.5 -115. ScoresAndOdds projection is 10.3 attempts."
+    },
+    {
+      "classification": "analyst_data",
+      "source": "FantasyPros Week 2 Primer / Derek Brown",
+      "sourceTimestampEt": "published 2026-09-17 13:35 ET; checked 2026-09-18 03:14 ET",
+      "claim": "Dowdle started Week 1 and led Pittsburgh RBs with 57.8% snap share, 48.8% route share, and the only red-zone carry; Warren had 10 carries to Dowdle's 8 and was more efficient. New England allowed a favorable Week 1 explosive-run/YAC profile."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Dynasty Spec",
+      "sourceTimestampEt": "updated 2026-09-16; checked 2026-09-18 03:14 ET",
+      "claim": "Projects Rico Dowdle for 12.2 carries in Week 2."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Pittsburgh Steelers official Thursday injury report",
+      "sourceTimestampEt": "2026-09-17 16:00 ET",
+      "claim": "LT Troy Fautanu was limited with an ankle injury; neither Dowdle nor Jaylen Warren appears on the injury report."
+    },
+    {
+      "classification": "market_fact",
+      "source": "FanDuel Research game odds",
+      "sourceTimestampEt": "published 2026-09-16; checked 2026-09-18 03:14 ET",
+      "claim": "New England is a 4.5-point home favorite and the total is 42.5, creating adverse game-script risk for Pittsburgh rushing volume that PRIME includes in the fair probability."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Tampa Bay Buccaneers official Thursday injury report",
+      "sourceTimestampEt": "2026-09-17 16:01 ET",
+      "claim": "Sean Tucker was a full participant for the second straight day; Browns G Teven Jenkins remained DNP, while C Parker Brailsford and C Elgton Jenkins remained limited."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.dimers.com/nfl/props",
+    "https://www.scoresandodds.com/prop-bets/1844583/rico-dowdle",
+    "https://www.fantasypros.com/2026/09/the-primer-week-2-edition-2026-fantasy-football/2/",
+    "https://dynastyspec.com/compare/rico-dowdle-vs-tre-tucker",
+    "https://www.steelers.com/news/week-2-injury-report-patriots-x4998",
+    "https://fanduel.com/research/patriots-vs-steelers-predictions-odds-picks-best-bets-for-nfl-week-2-2026",
+    "https://www.buccaneers.com/news/buccaneers-browns-injury-report-sept-17-week-2-2026"
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, identical to the compact history index.",
+    "No Week 2 straight user ticket exists in data/bet_history.csv as of this run.",
+    "Rico Dowdle did not previously appear in the repository, so this is a genuinely new candidate rather than a recycled thesis.",
+    "The recommendation is price-specific. The actionable edge is the isolated 8.5 threshold; do not transfer it to the current 9.5/-122 consensus market.",
+    "Friday practice/final injury designations remain a required recheck, especially Pittsburgh LT Troy Fautanu and any unexpected backfield news."
+  ]
+}
