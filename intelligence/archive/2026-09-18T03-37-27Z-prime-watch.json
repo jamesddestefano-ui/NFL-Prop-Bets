@@ -1,0 +1,99 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T03:37:27Z",
+  "runAtEt": "2026-09-17 23:37:27",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": false,
+  "summary": "TNF is final, so all DET@BUF live candidates are locked. PRIME's pregame Jahmyr Gibbs OVER 87.5 rushing-yards recommendation did not clear and is now preserved as a missed recommendation because no Week 2 user ticket was recorded before kickoff. The process review keeps the late Ed Oliver/T.J. Sanders defensive-line catalyst but downgrades the result-side assessment because Detroit fell into an adverse game script and the model did not sufficiently penalize the short-week workload and Detroit's starting offensive-line absences. For Sunday, no new actionable regulated-book price was independently verified for Bucky Irving receiving yards or Quinshon Judkins rushing attempts. Bucky remains WATCH because his Week 1 passing-down role was strong but Sean Tucker is back to full practice and current public projection/market evidence is still inconsistent. Judkins remains PASS_AFTER_MOVE/WATCH with PRIME's preferred re-entry limited to O12.5 at -110 or better. No new Grok pass.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T02-41-19Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "decisionStatus": "MISSED_BET_GRADED",
+      "recommendedLine": 87.5,
+      "maxAcceptableOdds": -115,
+      "recommendedStakeUnits": 0.5,
+      "originalEstimatedOverProbability": 0.58,
+      "originalFairOdds": -138,
+      "originalEstimatedEdgePctAtMinus113": 4.95,
+      "originalEdgeBucket": "4-6%",
+      "originalConfidence": "B",
+      "originalSteamState": "BET_NOW",
+      "entryTiming": "PRE_GAME",
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "outcome": "LOSS",
+      "processGrade": "B-",
+      "signalTags": ["RUSH_SHARE", "DEFENSIVE_INJURY", "OL_INJURY", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "The pregame price discipline was valid and Buffalo's surprise Ed Oliver inactive status was real, but the recommendation did not clear. Postgame learning: the 58% fair probability was too aggressive given Detroit's short-week workload uncertainty, two starting offensive-line absences and a game script that quickly became pass-heavier. Preserve the loss without treating it as user P/L because bet_history contains no Week 2 ticket."
+    },
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "Week 1 usage remains bullish for receiving opportunity, but Sean Tucker has returned to full practice and no fresh regulated-book sportsbook/line/odds pair was independently verified tonight. Do not turn projection-versus-role interest into a wager without current price truth."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "MARKET_MOVE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "No fresh sportsbook-specific re-entry at O12.5/-110 or better was verified. Cleveland remains a sizeable road underdog with offensive-line uncertainty. Do not chase the previously observed 14.5 market."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "confirmed_result",
+      "source": "DET@BUF final game result and public final/postgame box-score reporting",
+      "sourceTimestampEt": "2026-09-17 postgame",
+      "claim": "Buffalo defeated Detroit 41-31. Gibbs did not clear PRIME's 87.5 rushing-yard recommendation threshold, so the formal pregame recommendation is graded as a missed-bet LOSS rather than user wager P/L."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Tampa Bay Buccaneers official Thursday injury report",
+      "sourceTimestampEt": "2026-09-17 16:01 ET",
+      "claim": "Sean Tucker was a full participant for the second consecutive day; Jalen McMillan was also full. Cleveland G Teven Jenkins and CB Tyson Campbell did not practice, while C Parker Brailsford and C Elgton Jenkins remained limited."
+    },
+    {
+      "classification": "analyst_data",
+      "source": "FantasyPros Week 2 Primer / Fantasy Life utilization review",
+      "claim": "Irving's Week 1 passing-down usage remained strong, including approximately 58% route participation and a clear long-down-distance role, but one-game sample uncertainty remains."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.prideofdetroit.com/detroit-lions-game-recaps/173565/detroit-lions-buffalo-bills-live-score-updates-highlights-analysis",
+    "https://www.buccaneers.com/news/buccaneers-browns-injury-report-sept-17-week-2-2026",
+    "https://www.fantasypros.com/nfl/notes/440644/bucky-irving-2026-week-2-outlook.php"
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, identical to the compact history index and processed state.",
+    "No Week 2 straight user ticket exists in data/bet_history.csv.",
+    "The Gibbs recommendation is preserved as a missed recommendation, not as settled user P/L.",
+    "No current regulated sportsbook-specific Bucky receiving-yards or Judkins rushing-attempts quote meeting PRIME's entry requirements was independently verified in this run.",
+    "No user alert is warranted because there is no genuinely actionable new prop and the TNF result is retrospective learning rather than a current betting decision."
+  ]
+}
