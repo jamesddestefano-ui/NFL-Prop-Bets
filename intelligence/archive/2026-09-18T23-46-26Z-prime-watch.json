@@ -1,0 +1,154 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T23:46:26Z",
+  "runAtEt": "2026-09-18 19:46:26",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-18T22-21-36Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE REQUIRING A USER ALERT. No new Grok pass. The latest Grok feed remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index. Dalton Schultz receiving yards remains strictly price-dependent: PRIME's approved entry is Over 41.5 at -115 or better only. A current-access Fantasy Info Central board displays DraftKings O44.5 -110 with a 47.8-yard projection; because that threshold is three yards beyond PRIME's hard ceiling, DraftKings is PASS_AFTER_MOVE. FanDuel Research still states Schultz's prop was 41.5 Friday afternoon but does not expose current executable juice, so PRIME will not assume that trigger remains available. Jonathan Taylor receiving yards remains approved only at 16.5 and -115 or better; the latest Covers page exposes DraftKings O16.5 -115 and BetRivers O16.5 -112 but its own odds timestamp is 13:07 ET, older than PRIME's later 16:21 ET market capture, so those quotes are not treated as newer market truth and do not create a fresh alert. Rico Dowdle O8.5 rushing attempts remains conditional on fresh sportsbook verification at -115 or better; no current attempts price was independently verified. Bucky Irving remains WATCH/REDUCED_EDGE with Sean Tucker available, and Quinshon Judkins remains PASS/PASS_AFTER_MOVE. No confirmed Week 2 user straight ticket exists in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET_IF_PRICE_RETURNS",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "B-",
+      "steamState": "PASS_AFTER_MOVE_AT_DRAFTKINGS",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "FIRST_READ_SHARE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "SCHULTZ_COLLINS_OUT_VOLUME_WEEK2",
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "reason": "Nico Collins is officially out, preserving the target-vacancy thesis, but the currently accessible DraftKings board is 44.5 -110, beyond PRIME's hard 41.5 ceiling. FanDuel Research references 41.5 as of Friday afternoon without current juice. Do not chase; reopen only if a live regulated sportsbook verifies 41.5 at -115 or better."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET_IF_LIVE_VERIFIED",
+      "playToLine": 16.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 0.58,
+      "estimatedUnderProbability": 0.42,
+      "fairOdds": -138.1,
+      "edgeBucket": "4-6% at approved prices",
+      "confidence": "B",
+      "steamState": "STILL_PLAYABLE_ONLY_IF_LIVE_VERIFIED",
+      "signalTags": ["TARGET_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "WEATHER"],
+      "thesisId": "TAYLOR_RECEIVING_NEGATIVE_SCRIPT_WEEK2",
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "reason": "The football thesis remains supported by Week 1 receiving usage and an independent 23.42-yard projection, but no newer sportsbook timestamp than PRIME's later Friday capture was verified in this run. Covers currently displays DK 16.5 -115 and BetRivers 16.5 -112 with odds last updated 13:07 ET; because that timestamp predates the 16:21 PRIME capture, it is not used to overwrite later verified market state. Preserve 16.5/-115 as the ceiling and require a live app check before placement."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET_IF_LIVE_VERIFIED",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "reason": "No fresh sportsbook-specific rushing-attempts quote was independently verified. Do not infer an 8.5 price from current rushing-yards markets and do not chase 9.5."
+    },
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RECEIVING_YARDS/RUSH_ATTEMPTS",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Sean Tucker is available after a full practice week, preserving backfield-competition risk. No new price/news catalyst cleared PRIME's threshold."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS/RUSH_YARDS",
+      "decisionStatus": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "No fresh role, offensive-line, or price evidence restores the prior preferred threshold or resolves model-market conflict."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Houston Texans Friday injury designation",
+      "sourceTimestampEt": "2026-09-18 afternoon ET",
+      "claim": "Nico Collins is ruled out for Week 2 against Cincinnati."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Fantasy Info Central",
+      "sourceTimestampEt": "accessed 2026-09-18 19:46 ET; page does not expose an explicit odds-update timestamp",
+      "claim": "Dalton Schultz receiving yards displays DraftKings O44.5 -110 with a 47.8-yard projection. Treat as current-access movement evidence, not as a guaranteed executable quote beyond the access moment."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "FanDuel Research",
+      "sourceTimestampEt": "2026-09-18 13:07 ET article timestamp",
+      "claim": "Dalton Schultz receiving-yards prop was 41.5 Friday afternoon; current executable odds are not exposed."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FanDuel Research / numberFire",
+      "sourceTimestampEt": "accessed 2026-09-18",
+      "claim": "Jonathan Taylor Week 2 projection is 23.42 receiving yards."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Jonathan Taylor player page",
+      "sourceTimestampEt": "odds last updated 2026-09-18 13:07 ET; accessed 2026-09-18 19:46 ET",
+      "claim": "Page displays DraftKings O16.5 -115, BetRivers O16.5 -112, FanDuel O17.5 -114, and bet365 O18.5 -115. Because the source timestamp predates PRIME's later 16:21 ET capture, it is not treated as a newer line state."
+    }
+  ],
+  "lineHistoryObservations": [
+    {
+      "capturedAtEt": "2026-09-18 19:46:26",
+      "player": "Dalton Schultz",
+      "market": "Receiving Yards",
+      "sportsbook": "DraftKings via Fantasy Info Central",
+      "side": "OVER",
+      "line": 44.5,
+      "odds": -110,
+      "sourceTimestamp": "NO EXPLICIT ODDS UPDATE TIME",
+      "note": "Movement evidence only. Three yards beyond PRIME's 41.5 hard ceiling; PASS_AFTER_MOVE at this book."
+    }
+  ],
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — this file is the durable append-only record for this run",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — no new approved line/price state supersedes the existing ceilings",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — current decisions preserved in this archive",
+    "lineHistory": "NEW SCHULTZ MARKET OBSERVATION PRESERVED IN THIS IMMUTABLE ARCHIVE; not promoted to CSV because source lacks an explicit odds-update timestamp",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.fantasyinfocentral.com/betting/nfl/props/receiving-yards",
+    "https://www.fanduel.com/research/nfl/player-news/game-updates/dalton-schultz-and-texans-play-bengals-in-week-2-9-20-2026",
+    "https://www.covers.com/sport/football/nfl/players/48469/jonathan-taylor",
+    "https://www.fanduel.com/research/jonathan-taylor-nfl-fantasy-week-2-vs-chiefs-2026",
+    "https://nfltraderumors.co/texans-rule-out-four-players-for-week-2-including-wr-nico-collins-1/"
+  ],
+  "researchNotes": [
+    "Grok latest remains status=live with completedAt 2026-09-12T17:05:00Z, matching grok_pulse_history.jsonl; therefore no new Grok pass is processed.",
+    "A market page with an older explicit timestamp cannot overwrite a later verified market capture merely because it is still accessible now.",
+    "Schultz's Collins-out thesis remains valid, but PRIME's 41.5 hard ceiling controls; 44.5 is not approved.",
+    "Taylor's 16.5/-115 ceiling remains unchanged; no fresh newer timestamp justified a duplicate alert.",
+    "No user notification because this run produced no genuinely new actionable prop and no material change to an existing approved play-to/juice instruction."
+  ]
+}
