@@ -1,0 +1,121 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T02:41:19Z",
+  "runAtEt": "2026-09-17 22:41:19",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Buffalo officially downgraded WR D.J. Moore from questionable to OUT with a shoulder/stinger injury after he went for X-rays. This is a material confirmed-status change from the prior PRIME archive. It further invalidates any pregame Moore/Kincaid/Cook target-distribution assumptions, but PRIME still has no independently verified sportsbook-specific live player-prop line/price after the injury, so no in-game wager is created. New Moore Overs remain AVOID. Kincaid and James Cook remain conditional live WATCH only, subject to a fresh executable price and updated game-state model. Sunday screening found a potentially interesting Bucky Irving receiving role, but current market evidence is internally inconsistent (current Statz player page maps bet365 to 15.5 receiving yards without price while an older market-specific page shows 14.5 -116). Independent Week 2 projections also disagree materially, so PRIME does not promote it to BET tonight. Quinshon Judkins remains PASS_AFTER_MOVE/WATCH; no verified re-entry at the preferred threshold.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T01-35-17Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "D.J. Moore",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS/RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "AVOID",
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "IN_GAME_LOCKED",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "MARKET_MOVE"],
+      "reason": "Buffalo officially downgraded Moore to OUT with a shoulder/stinger injury. Any pregame Over thesis is dead for this game. No live line is invented or inferred."
+    },
+    {
+      "player": "Dalton Kincaid",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS/RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "IN_GAME_LOCKED",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "GAME_SCRIPT"],
+      "reason": "Moore being ruled out is directionally bullish for available targets, but no independently verified sportsbook-specific live Kincaid line/price was found after the status change. No bet without current price and a fresh game-state probability estimate."
+    },
+    {
+      "player": "James Cook",
+      "game": "DET@BUF",
+      "propType": "RECEPTIONS/RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "IN_GAME_LOCKED",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "GAME_SCRIPT"],
+      "reason": "Ty Johnson was already inactive and Moore is now officially out, but PRIME has no verified live Cook receiving market after the change. Do not turn a target-vacuum narrative into a live wager without executable pricing."
+    },
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "Week 1 usage was materially bullish: 58.3% route share, 25% target share and 48 receiving yards. Current Week 2 projections include numberFire 24.13 receiving yards and an ESPN projection surfaced by StatMuse of 21.6, but SharpLineup's current consensus is only 15.8. Market evidence is also not clean enough for a formal play: Statz's current player page maps bet365 to 15.5 receiving yards without odds, while its receiving-yards page crawled two days earlier shows 14.5 -116. Sean Tucker has returned to full practice. Preserve as WATCH and reprice Friday; do not invent or chase a stale 14.5 quote."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "MARKET_MOVE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "No verified sportsbook-specific re-entry at PRIME's preferred 12.5/-110-or-better threshold. Current public evidence is higher and Cleveland still has offensive-line uncertainty. Do not chase."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official",
+      "sourceTimestampEt": "2026-09-17 21:33 ET",
+      "claim": "D.J. Moore was downgraded to OUT and will not return against Detroit after suffering a shoulder/stinger injury and going for X-rays."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Tampa Bay Buccaneers official Thursday injury report",
+      "sourceTimestampEt": "2026-09-17 16:01 ET",
+      "claim": "Sean Tucker was a full participant for the second consecutive day; Jalen McMillan was also full. Browns CB Tyson Campbell and G Teven Jenkins did not practice, while C Parker Brailsford and C Elgton Jenkins remained limited."
+    },
+    {
+      "classification": "model_projection",
+      "source": "numberFire via FanDuel Research",
+      "claim": "Bucky Irving Week 2 receiving-yards projection: 24.13 yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "ESPN projection surfaced by StatMuse",
+      "claim": "Bucky Irving Week 2 projection: 2.8 receptions and 21.6 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "SharpLineup",
+      "claim": "Bucky Irving current Week 2 consensus receiving-yards projection: 15.8 yards, materially below the other two projection paths."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.buffalobills.com/news/bills-issue-injury-update-on-wr-dj-moore",
+    "https://www.buccaneers.com/news/buccaneers-browns-injury-report-sept-17-week-2-2026",
+    "https://www.fantasypros.com/nfl/notes/440644/bucky-irving-2026-week-2-outlook.php",
+    "https://www.fanduel.com/research/bucky-irving-nfl-fantasy-week-2-vs-browns-2026",
+    "https://www.statmuse.com/nfl/ask/diandre-swift-vs-bucky-irving-2026",
+    "https://sharplineup.com/players/bucky-irving",
+    "https://statz.ai/nfl/players/bucky-irving-278135"
+  ],
+  "researchNotes": [
+    "No new Grok pass: latest remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and prior processed state.",
+    "No sportsbook-specific live DET@BUF player-prop price was independently verified after Moore was ruled out; PRIME therefore issues no live-game player-prop recommendation from the injury alone.",
+    "Bucky Irving receiving yards is a new Sunday WATCH, not a BET. Role evidence is strong but current projections disagree and the publicly mapped bet365 receiving-yard threshold is inconsistent across current/stale Statz pages. Recheck Friday with a fresh sportsbook-specific line and price.",
+    "No Week 2 straight user ticket is recorded in data/bet_history.csv."
+  ]
+}
