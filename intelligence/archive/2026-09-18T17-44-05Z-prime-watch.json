@@ -1,0 +1,188 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T17:44:05Z",
+  "runAtEt": "2026-09-18 13:44:05",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL FRIDAY CHANGE: Nico Collins was not seen at Friday practice and KPRC2 beat reporter Aaron Wilson reports Collins is not expected to play Sunday after a Grade 1 hamstring injury; the official final game designation was still pending at this checkpoint. The bullish Dalton Schultz target-vacuum thesis therefore strengthened, but the market has already repriced beyond PRIME's stored 41.5-yard conditional entry: current public line-shopping independently shows DraftKings O44.5 receiving yards -110. PRIME will not chase the three-yard move merely because Collins is trending out. Schultz is WATCH/PASS_AFTER_MOVE at 44.5, with the prior 41.5/-115-or-better threshold remaining the preferred re-entry pending the official final report. Kayshon Boutte O32.5 -114 and Xavier Hutchinson O26.5 -114 at FanDuel are new role-change WATCHES only because the replacement target split with Jaylin Noel remains uncertain and only one current projection path was verified. Nico Collins player Overs/Unders are AVOID while availability is unresolved. Jonathan Taylor O16.5 receiving yards through -115 and Rico Dowdle O8.5 rush attempts through -115 are unchanged existing price-sensitive BET theses and are not duplicate-alerted. No new Grok pass.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T15-56-50Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Nico Collins",
+      "game": "CIN@HOU",
+      "propType": "RECEPTIONS",
+      "decisionStatus": "AVOID",
+      "steamState": "INJURY_UNCERTAINTY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "COACH_COMMENT", "MARKET_MOVE"],
+      "thesisId": "COLLINS_HAMSTRING_WEEK2",
+      "reason": "Reliable Friday reporting says Collins did not practice and is not expected to play, but the official final designation is pending. Do not try to monetize likely inactivity through a player Under; books can remove/void the market and an unexpected active designation would materially change the distribution."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "DraftKings via Fantasy Info Central",
+      "line": 44.5,
+      "odds": -110,
+      "bestMarketLine": "41.5 Over visible on an unidentified multi-book aggregator; not treated as executable sportsbook truth",
+      "consensusLine": 44.5,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "C+",
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "ROUTE_SHARE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "thesisId": "SCHULTZ_COLLINS_OUT_VOLUME_WEEK2",
+      "reason": "Collins trending out is a material bullish target-share catalyst, but the current verified DraftKings threshold is 44.5 -110, three yards above PRIME's prior 41.5 conditional entry. Fantasy Info Central projects 47.8, which is not enough by itself to establish PRIME's preferred 4-5 percentage-point fair-probability edge after the move. Do not chase. Reopen at a freshly verified 41.5/-115-or-better or after the official final report plus stronger independent projection support at the new number."
+    },
+    {
+      "player": "Kayshon Boutte",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "FanDuel via Fantasy Info Central",
+      "line": 32.5,
+      "odds": -114,
+      "confidence": "C",
+      "steamState": "WATCH_ROLE_SPLIT",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT"],
+      "thesisId": "HOU_WR_TARGET_VACUUM_WEEK2",
+      "reason": "Current FIC projection is 46.7 yards and Collins is trending out, but Houston can distribute vacated routes/targets among Boutte, Xavier Hutchinson and Jaylin Noel. One bullish projection plus injury news is insufficient for a formal BET without clearer role allocation and independent confirmation."
+    },
+    {
+      "player": "Xavier Hutchinson",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "FanDuel via Fantasy Info Central",
+      "line": 26.5,
+      "odds": -114,
+      "confidence": "C",
+      "steamState": "WATCH_ROLE_SPLIT",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT"],
+      "thesisId": "HOU_WR_TARGET_VACUUM_WEEK2",
+      "correlationTags": ["SAME_THESIS"],
+      "reason": "Current FIC projection is 34.7 yards and Collins is trending out, but Houston can distribute vacated routes/targets among Hutchinson, Kayshon Boutte and Jaylin Noel. Preserve as a WATCH rather than stacking correlated exposure without a verified target hierarchy."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "line": 16.5,
+      "playToLine": 16.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "alertSuppressed": true,
+      "reason": "Unchanged existing recommendation. Most recent independently corroborated public state was O16.5 -111 at 11:56 ET. No duplicate alert; verify the live book and do not chase 17.5."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "alertSuppressed": true,
+      "reason": "Unchanged existing recommendation; no duplicate alert. Do not chase 9.5."
+    }
+  ],
+  "lineHistoryObservations": [
+    {
+      "capturedAtEt": "2026-09-18 13:44:05",
+      "player": "Dalton Schultz",
+      "propType": "RECEIVING_YARDS",
+      "sportsbook": "DraftKings via Fantasy Info Central",
+      "side": "OVER",
+      "line": 44.5,
+      "odds": -110,
+      "note": "Material three-yard move from PRIME's prior 41.5 conditional play-to. Do not transfer the prior thesis to the higher threshold without recalculation."
+    },
+    {
+      "capturedAtEt": "2026-09-18 13:44:05",
+      "player": "Kayshon Boutte",
+      "propType": "RECEIVING_YARDS",
+      "sportsbook": "FanDuel via Fantasy Info Central",
+      "side": "OVER",
+      "line": 32.5,
+      "odds": -114,
+      "note": "New Collins-injury target-vacuum WATCH; not a BET because role split is unresolved."
+    },
+    {
+      "capturedAtEt": "2026-09-18 13:44:05",
+      "player": "Xavier Hutchinson",
+      "propType": "RECEIVING_YARDS",
+      "sportsbook": "FanDuel via Fantasy Info Central",
+      "side": "OVER",
+      "line": 26.5,
+      "odds": -114,
+      "note": "New Collins-injury target-vacuum WATCH; SAME_THESIS with Boutte and not a BET because role split is unresolved."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "attributed_report",
+      "source": "KPRC2 / Aaron Wilson, corroborated by Friday practice observers",
+      "sourceTimestampEt": "2026-09-18 approximately 12:00 ET",
+      "claim": "Nico Collins did not practice Friday morning and is not expected to play Sunday after a Grade 1 hamstring injury; official final designation remained pending at this checkpoint."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 TE outlook",
+      "sourceTimestampEt": "published 2026-09-17; accessed 2026-09-18",
+      "claim": "Dalton Schultz saw a 21.1% Week 1 target share and 18.2% first-read share, with 4 catches for 35 yards."
+    },
+    {
+      "classification": "analyst_data",
+      "source": "FantasyLabs Week 2 TE model context",
+      "sourceTimestampEt": "accessed 2026-09-18",
+      "claim": "Schultz played 66% of Week 1 snaps, ran 34 routes and had roughly a 21.6% target share; Collins uncertainty raises Schultz's potential workload."
+    },
+    {
+      "classification": "sportsbook_market/model_projection",
+      "source": "Fantasy Info Central current NFL receiving-yards board",
+      "sourceTimestampEt": "accessed 2026-09-18 13:44 ET",
+      "claim": "DraftKings lists Schultz O44.5 receiving yards -110 with FIC projection 47.8; FanDuel lists Kayshon Boutte O32.5 -114 with FIC projection 46.7 and Xavier Hutchinson O26.5 -114 with FIC projection 34.7."
+    }
+  ],
+  "ledgerMutations": {
+    "betHistory": "NONE — no confirmed Week 2 user ticket",
+    "missedBets": "NONE — no recommendation expired this run",
+    "passLedger": "NONE — Schultz remains a live WATCH/PASS_AFTER_MOVE state pending the official Friday designation rather than a terminal thesis rejection",
+    "parlayHistory": "NONE",
+    "weeklyAttribution": "NONE — Week 2 not complete"
+  },
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and processed state.",
+    "Nico Collins' official Friday game designation had not yet been posted at the 13:44 ET checkpoint, so attributed reporting is not upgraded to confirmed_fact.",
+    "The replacement-receiver props are intentionally WATCH only. PRIME will not stack multiple SAME_THESIS Houston receiver Overs before the target hierarchy and final injury designation are clearer.",
+    "Taylor and Dowdle remain unchanged existing recommendations and are not duplicate-alerted."
+  ],
+  "sourceUrls": [
+    "https://www.kprc2.com/sports/2026/09/18/texans-nico-collins-not-expected-to-play-sunday-after-grade-1-hamstring-injury/",
+    "https://www.fantasypros.com/nfl/news/",
+    "https://www.fantasypros.com/nfl/notes/",
+    "https://www.fantasylabs.com/articles/nfl-week-2-tight-end-model-preview-2026/",
+    "https://www.fantasyinfocentral.com/betting/nfl/props/receiving-yards"
+  ]
+}
