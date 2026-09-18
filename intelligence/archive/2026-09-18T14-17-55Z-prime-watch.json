@@ -1,0 +1,263 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T14:17:55Z",
+  "runAtEt": "2026-09-18 10:17:55",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO USER-FACING MATERIAL CHANGE. Friday 10:17 ET refresh confirms the prior PRIME state. Dimers' board was updated at 09:17 ET and still showed FanDuel Rico Dowdle Over 8.5 rushing attempts -114, inside PRIME's 8.5/-115 ceiling but unchanged from the existing price-sensitive BET thesis; no Week 2 user ticket is recorded, so no duplicate alert is sent. Jonathan Taylor receiving remains WATCH because William Hill O16.5 -118 is still worse than PRIME's -115 price ceiling. Nico Collins remains WATCH/REDUCED_EDGE at DraftKings U5.5 receptions -149 while Friday hamstring status is unresolved. Dalton Schultz O41.5 receiving yards -114 at FanDuel is now freshly visible, but PRIME's conservative 57% fair probability creates only about a 3.7-point raw edge and Collins' final status remains unresolved, so Schultz stays WATCH rather than BET. Quinshon Judkins rushing yards is a new research WATCH only: Covers displays O46.5 -115 at bet365/DraftKings and projects 66.01, but DraftKings Network independently projects only 12.3 carries, FantasyPros documents poor Week 1 rushing efficiency, Cleveland offensive-line questions remain unresolved, and Tampa Bay is favored. Do not create a bet from the Covers projection alone. Bucky Irving attempts remains WATCH/REDUCED_EDGE. No new Grok pass.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T13-18-11Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel via Dimers public line-shopping",
+      "line": 8.5,
+      "odds": -114,
+      "marketSnapshotAtEt": "2026-09-18 09:17",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 0.59,
+      "fairOdds": -144,
+      "estimatedEdgePct": 5.73,
+      "edgeBucket": "4-6%",
+      "recommendedStakeUnits": 0.5,
+      "confidence": "B-",
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["SNAP_SHARE", "RUSH_SHARE", "RED_ZONE", "ROLE_CHANGE", "MARKET_MOVE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "OL_INJURY"],
+      "thesisId": "DOWDLE_EARLY_DOWN_ROLE_WEEK2",
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "reason": "Dimers' 09:17 ET update still shows FanDuel O8.5 -114. This is unchanged from the existing recommendation and remains valid only at 8.5/-115 or better. Independent carry projections remain materially dispersed, so do not inherit Dimers' high model probability or chase 9.5."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "William Hill via Covers",
+      "line": 16.5,
+      "odds": -118,
+      "bestMarketLine": "16.5 -118 William Hill",
+      "consensusLine": "16.5-17.5",
+      "playToLine": 16.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 0.58,
+      "fairOdds": -138,
+      "estimatedEdgePct": 3.87,
+      "edgeBucket": "2-4%",
+      "confidence": "C+",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["SNAP_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "INJURY"],
+      "thesisId": "TAYLOR_RECEIVING_NEGATIVE_SCRIPT_WEEK2",
+      "reason": "Current William Hill 16.5 price remains -118, worse than PRIME's -115 maximum. Independent projections remain above the threshold but projection advantage alone is insufficient at this price."
+    },
+    {
+      "player": "Nico Collins",
+      "game": "CIN@HOU",
+      "propType": "RECEPTIONS",
+      "side": "UNDER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "DraftKings via Dimers",
+      "line": 5.5,
+      "odds": -149,
+      "marketSnapshotAtEt": "2026-09-18 09:17",
+      "playToLine": 5.5,
+      "maxAcceptableOdds": -140,
+      "confidence": "C+",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["INJURY", "TARGET_SHARE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "thesisId": "COLLINS_HAMSTRING_LIMITATION_WEEK2",
+      "reason": "Dimers still shows DK U5.5 -149, which exceeds the stored price ceiling. Collins' Friday practice/game designation is unresolved; if inactive the market should void rather than convert the injury thesis into a win. Do not pay heavy juice before role clarity."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "FanDuel via Covers",
+      "line": 41.5,
+      "odds": -114,
+      "bestMarketLine": "41.5 -114 FanDuel",
+      "consensusLine": "41.5-45.5 with book dispersion",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 0.57,
+      "fairOdds": -133,
+      "estimatedEdgePct": 3.73,
+      "edgeBucket": "2-4%",
+      "confidence": "B-",
+      "steamState": "WATCH_NEEDS_COLLINS_FINAL_STATUS",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["TARGET_SHARE", "FIRST_READ_SHARE", "MATCHUP", "INJURY", "ROLE_CHANGE", "PROJECTION_DISAGREEMENT", "MARKET_DISAGREEMENT"],
+      "thesisId": "SCHULTZ_COLLINS_INJURY_TARGET_TREE",
+      "reason": "Fresh FanDuel O41.5 -114 is inside the nominal price ceiling, but PRIME's conservative 57% fair probability is only about 3.7 percentage points above the raw break-even rate and Collins' Friday status remains unresolved. This does not clear the normal 4-5 point action threshold."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "bet365/DraftKings via Covers",
+      "line": 46.5,
+      "odds": -115,
+      "bestMarketLine": "45.5 -135 Fanatics by threshold; 46.5 -115 bet365/DraftKings by price discipline",
+      "consensusLine": "46.5-48.5",
+      "confidence": "C",
+      "steamState": "WATCH",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["RUSH_SHARE", "OL_INJURY", "GAME_SCRIPT", "MATCHUP", "PROJECTION_DISAGREEMENT"],
+      "thesisId": "JUDKINS_RUSH_YARDS_WEEK2",
+      "reason": "Covers projects 66.01 rushing yards against a 46.5 market, but DraftKings Network projects only 12.3 carries and FantasyPros documents weak Week 1 efficiency. Cleveland's offensive-line status and negative game-script risk remain unresolved. No formal fair probability is assigned and no bet is promoted from one projection source."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["RUSH_SHARE", "INJURY", "MARKET_MOVE", "OL_INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "No verified return to PRIME's preferred 12.5/-110-or-better attempt entry. Independent Week 2 carry projection of 12.3 further supports refusing to chase 13.5-14.5."
+    },
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "line": 14.5,
+      "playToLine": 14.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["RUSH_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "INJURY"],
+      "reason": "Sean Tucker was a full participant again Thursday and DraftKings Network projects Irving for 14.8 carries. Friday final designations are pending; no new actionable edge."
+    }
+  ],
+  "lineHistoryObservations": [
+    {
+      "capturedAtEt": "2026-09-18 09:17",
+      "player": "Rico Dowdle",
+      "propType": "RUSH_ATTEMPTS",
+      "sportsbook": "FanDuel via Dimers",
+      "side": "OVER",
+      "line": 8.5,
+      "odds": -114,
+      "note": "Unchanged from prior actionable state; duplicate alert suppressed."
+    },
+    {
+      "capturedAtEt": "2026-09-18 09:17",
+      "player": "Nico Collins",
+      "propType": "RECEPTIONS",
+      "sportsbook": "DraftKings via Dimers",
+      "side": "UNDER",
+      "line": 5.5,
+      "odds": -149,
+      "note": "Still beyond PRIME max acceptable -140."
+    },
+    {
+      "capturedAtEt": "2026-09-18 10:17",
+      "player": "Dalton Schultz",
+      "propType": "RECEIVING_YARDS",
+      "sportsbook": "FanDuel via Covers",
+      "side": "OVER",
+      "line": 41.5,
+      "odds": -114,
+      "note": "Freshly visible regulated-book quote; remains WATCH because estimated edge is below normal threshold and Collins final status is unresolved."
+    },
+    {
+      "capturedAtEt": "2026-09-18 10:17",
+      "player": "Quinshon Judkins",
+      "propType": "RUSH_YARDS",
+      "sportsbook": "bet365/DraftKings via Covers",
+      "side": "OVER",
+      "line": 46.5,
+      "odds": -115,
+      "note": "Research WATCH only; projection disagreement and OL/game-script uncertainty prevent BET."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "market_context/model_projection",
+      "source": "Dimers NFL player-props board",
+      "sourceTimestampEt": "2026-09-18 09:17",
+      "claim": "FanDuel Rico Dowdle O8.5 rushing attempts remained -114; DraftKings Nico Collins U5.5 receptions remained -149."
+    },
+    {
+      "classification": "sportsbook_market/model_projection",
+      "source": "Covers NFL player-props board",
+      "sourceTimestampEt": "accessed 2026-09-18 10:17",
+      "claim": "Dalton Schultz receiving yards showed FanDuel O41.5 -114 with Covers projection 54.81; other books were materially higher by threshold and/or price."
+    },
+    {
+      "classification": "sportsbook_market/model_projection",
+      "source": "Covers Quinshon Judkins player market",
+      "sourceTimestampEt": "accessed 2026-09-18 10:17",
+      "claim": "Judkins rushing yards showed 46.5 -115 at bet365 and DraftKings, with Covers projection 66.01; broader books ranged roughly 45.5-48.5."
+    },
+    {
+      "classification": "model_projection",
+      "source": "DraftKings Network Week 2 RB projections",
+      "sourceTimestampEt": "published 2026-09-16; accessed 2026-09-18 10:17",
+      "claim": "Projects Judkins for 12.3 carries, Bucky Irving 14.8 carries, Rico Dowdle 9.3 carries, and Jonathan Taylor 15.1 carries with 4.1 targets."
+    },
+    {
+      "classification": "analyst_opinion/data",
+      "source": "FantasyPros Week 2 outlook",
+      "sourceTimestampEt": "published 2026-09-17; accessed 2026-09-18 10:17",
+      "claim": "Judkins played 64.7% of Week 1 snaps with 14 touches for 40 total yards and graded poorly in early efficiency metrics; Tampa Bay's Week 1 run-defense metrics were comparatively favorable for opposing runners."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Houston Texans and Tampa Bay/Cleveland official injury information",
+      "sourceTimestampEt": "through Thursday 2026-09-17; checked 2026-09-18 10:17",
+      "claim": "Nico Collins' hamstring Friday status remains unresolved at this checkpoint. Sean Tucker was full Wednesday/Thursday. Browns G Teven Jenkins remained DNP Thursday; Parker Brailsford and Elgton Jenkins were limited; Dawand Jones was full Thursday. Friday final designations were not yet posted."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.dimers.com/nfl/props",
+    "https://www.covers.com/sport/football/nfl/player-props",
+    "https://www.covers.com/sport/football/nfl/players/48469/jonathan-taylor",
+    "https://dknetwork.draftkings.com/2026/09/16/fantasy-football-rb-projections-for-week-2-projected-touches-carries-targets/",
+    "https://www.fantasypros.com/nfl/notes/",
+    "https://www.houstontexans.com/news/week-2-injury-report-texans-vs-bengals",
+    "https://www.buccaneers.com/news/2026-game-preview-browns-buccaneers-week-2"
+  ],
+  "ledgerMutations": {
+    "betHistory": "NONE — no confirmed Week 2 user ticket",
+    "missedBets": "NONE — no new expired recommendation this run",
+    "passLedger": "NONE — no material new terminal PASS/AVOID requiring a row beyond the archived Judkins state",
+    "parlayHistory": "NONE",
+    "weeklyAttribution": "NONE — Week 2 not complete"
+  },
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "No Week 2 straight user ticket exists in data/bet_history.csv.",
+    "Dowdle is not re-alerted because the actionable threshold/price is unchanged from the prior alert.",
+    "Schultz now has a fresh FanDuel price inside the nominal ceiling, but the probability edge remains below the normal action threshold and Collins' Friday status is unresolved.",
+    "Judkins rushing yards was investigated as a new candidate and held at WATCH because the bullish Covers projection is not corroborated strongly enough by independent workload/efficiency evidence.",
+    "Because no candidate changed into a genuinely actionable new state and no existing confirmed ticket requires attention, userAlert=false."
+  ]
+}
