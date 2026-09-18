@@ -1,0 +1,214 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T09:55:38Z",
+  "runAtEt": "2026-09-18 05:55:38",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL USER-FACING CHANGE. Rico Dowdle Over 8.5 rushing attempts remains the prior BET/STILL_PLAYABLE only if a live regulated sportsbook still offers 8.5 at -115 or better. Dimers' public board remains last updated 04:04 ET and still shows FanDuel O8.5 -114; this is confirmation of the same threshold/price, not a new alert. Pittsburgh's Thursday report remains the latest official practice information: LT Troy Fautanu improved from DNP Wednesday to limited Thursday with an ankle injury, Michael Pittman Jr. moved from limited to DNP with a foot injury, and neither Dowdle nor Jaylen Warren is listed. Friday designations remain the next material checkpoint. Bucky Irving rushing attempts remains WATCH/REDUCED_EDGE: Covers odds were last updated 02:30 ET and still show BetRivers O14.5 -110, while bet365 is O14.5 -130 and most other books are 15.5. The 14.5 outlier is not treated as a fresh executable quote nearly three and a half hours later, and Sean Tucker/Jalen McMillan were full participants for a second consecutive day. Bucky receiving yards remains WATCH/REDUCED_EDGE at bet365 O15.5 -110, above PRIME's stored -105 ceiling. Quinshon Judkins remains PASS_AFTER_MOVE: Covers' latest visible update remains 01:54 ET with bet365 O12.5 -120, above PRIME's -110 price ceiling; higher thresholds are not chased. No new Grok pass and no Week 2 straight user ticket is recorded.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T08-24-00Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel via Dimers",
+      "line": 8.5,
+      "odds": -114,
+      "marketTimestampEt": "2026-09-18 04:04",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 0.61,
+      "fairOdds": -156,
+      "estimatedEdgePct": 7.73,
+      "edgeBucket": "6-8%",
+      "recommendedStakeUnits": 0.5,
+      "confidence": "B",
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["SNAP_SHARE", "RUSH_SHARE", "RED_ZONE", "ROLE_CHANGE", "MARKET_MOVE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "OL_INJURY"],
+      "thesisId": "DOWDLE_EARLY_DOWN_ROLE_WEEK2",
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "reason": "Dimers still lists FanDuel O8.5 -114 on a board last updated 04:04 ET. Week 1 usage was eight carries versus 10 for Jaylen Warren, but Dowdle started, played 57.8% of snaps and handled the Steelers' only RB red-zone carry in the prior role review. The exact 8.5 threshold remains the bet; do not transfer the thesis to 9.5. Thursday injury reporting does not list either back, while LT Troy Fautanu is limited and WR Michael Pittman Jr. is DNP. No repeat user alert because no price/role state changed from the prior run."
+    },
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "BetRivers via Covers",
+      "line": 14.5,
+      "odds": -110,
+      "marketTimestampEt": "2026-09-18 02:30",
+      "playToLine": 14.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["RUSH_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "INJURY"],
+      "reason": "Covers refreshed at 02:30 ET and still exposed BetRivers O14.5 -110, with bet365 O14.5 -130 and most other books at 15.5. The better 14.5 quote is not promoted because it is now several hours old, independent carry projections remain dispersed, and Sean Tucker is trending back after full practices Wednesday and Thursday. Friday final practice designations are the next checkpoint."
+    },
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "bet365 via Covers",
+      "line": 15.5,
+      "odds": -110,
+      "marketTimestampEt": "2026-09-18 02:30",
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -105,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "INJURY", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "reason": "Covers still shows bet365 O15.5 -110, five cents worse than PRIME's stored -105 ceiling. FantasyPros' Week 2 role analysis remains bullish on Irving's Week 1 passing-down usage (58.3% route share, 25% target share, 48 receiving yards), but Sean Tucker and Jalen McMillan were full for a second straight day, so no new target-volume catalyst justifies relaxing the price ceiling."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "sportsbook": "bet365 via Covers",
+      "line": 12.5,
+      "odds": -120,
+      "marketTimestampEt": "2026-09-18 01:54",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["RUSH_SHARE", "INJURY", "MARKET_MOVE", "OL_INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "The preferred 12.5 threshold is still available only at an unacceptable -120 on the last visible Covers update. DraftKings/Caesars/theScore/Hard Rock remain around 13.5 with heavy Over juice, while Fanatics/BetRivers are 14.5 at plus money. Cleveland's Thursday offensive-line report still has Teven Jenkins DNP and Parker Brailsford/Elgton Jenkins limited. Do not chase threshold or juice before Friday designations."
+    }
+  ],
+  "lineHistorySnapshot": [
+    {
+      "capturedAtEt": "2026-09-18 05:55:38",
+      "sourceUpdatedAtEt": "2026-09-18 04:04",
+      "game": "PIT@NE",
+      "player": "Rico Dowdle",
+      "market": "Rush Attempts",
+      "sportsbook": "FanDuel via Dimers",
+      "side": "OVER",
+      "line": 8.5,
+      "odds": -114,
+      "impliedProbability": 0.5327,
+      "notes": "Same threshold and price as prior run; duplicate-alert suppression applies."
+    },
+    {
+      "capturedAtEt": "2026-09-18 05:55:38",
+      "sourceUpdatedAtEt": "2026-09-18 02:30",
+      "game": "CLE@TB",
+      "player": "Bucky Irving",
+      "market": "Rush Attempts",
+      "sportsbook": "BetRivers via Covers",
+      "side": "OVER",
+      "line": 14.5,
+      "odds": -110,
+      "impliedProbability": 0.5238,
+      "notes": "Book outlier remains but is not treated as currently executable at 05:55 ET because the source quote is several hours old."
+    },
+    {
+      "capturedAtEt": "2026-09-18 05:55:38",
+      "sourceUpdatedAtEt": "2026-09-18 02:30",
+      "game": "CLE@TB",
+      "player": "Bucky Irving",
+      "market": "Receiving Yards",
+      "sportsbook": "bet365 via Covers",
+      "side": "OVER",
+      "line": 15.5,
+      "odds": -110,
+      "impliedProbability": 0.5238,
+      "notes": "Still outside stored max acceptable -105 price."
+    },
+    {
+      "capturedAtEt": "2026-09-18 05:55:38",
+      "sourceUpdatedAtEt": "2026-09-18 01:54",
+      "game": "CLE@TB",
+      "player": "Quinshon Judkins",
+      "market": "Rush Attempts",
+      "sportsbook": "bet365 via Covers",
+      "side": "OVER",
+      "line": 12.5,
+      "odds": -120,
+      "impliedProbability": 0.5455,
+      "notes": "Preferred threshold but price remains beyond PRIME ceiling."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "market_fact",
+      "source": "Dimers NFL props board",
+      "sourceTimestampEt": "2026-09-18 04:04 ET",
+      "claim": "FanDuel O8.5 Rico Dowdle rushing attempts remains -114; no material movement from the prior run."
+    },
+    {
+      "classification": "market_fact",
+      "source": "Covers Bucky Irving prop board",
+      "sourceTimestampEt": "2026-09-18 02:30 ET",
+      "claim": "BetRivers still shows O14.5 rushing attempts -110; bet365 shows O15.5 receiving yards -110. These confirm the prior WATCH states but are not fresh enough at 05:55 ET to treat as executable quotes."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Pittsburgh Steelers official Thursday injury report",
+      "sourceTimestampEt": "2026-09-17 16:00 ET",
+      "claim": "LT Troy Fautanu was limited Thursday with an ankle injury after DNP Wednesday; WR Michael Pittman Jr. was DNP Thursday with a foot injury after being limited Wednesday. Rico Dowdle and Jaylen Warren were not listed."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Tampa Bay Buccaneers official Thursday injury report",
+      "sourceTimestampEt": "2026-09-17 16:01 ET",
+      "claim": "Sean Tucker and Jalen McMillan were full participants for the second straight day; Browns G Teven Jenkins remained DNP and C Parker Brailsford/C Elgton Jenkins remained limited."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Reuters / Browns transaction report",
+      "sourceTimestampEt": "2026-09-15",
+      "claim": "Dylan Sampson is on injured reserve; Raheim Sanders is the primary backup to Quinshon Judkins and Jaleel McLaughlin was promoted to the active roster. This remains role context, not a new Friday signal."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 Bucky Irving outlook",
+      "sourceTimestampEt": "2026-09-17 13:35 ET",
+      "claim": "Week 1 role data: 61.5% snaps, 53.3% designed-rush share, 58.3% route share, 25% target share and 48 receiving yards. Bullish role evidence remains, but the current price/returning-player uncertainty prevents promotion."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 Quinshon Judkins outlook",
+      "sourceTimestampEt": "2026-09-17 13:35 ET",
+      "claim": "Week 1 role data: 64.7% snaps and 14 touches, but poor efficiency and a weak Cleveland offensive environment. This does not justify chasing current Over prices."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.dimers.com/nfl/props",
+    "https://www.steelers.com/news/week-2-injury-report-patriots-x4998",
+    "https://www.buccaneers.com/news/buccaneers-browns-injury-report-sept-17-week-2-2026",
+    "https://www.covers.com/sport/football/nfl/players/296649/bucky-irving",
+    "https://www.covers.com/sport/football/nfl/players/368268/quinshon-judkins",
+    "https://www.fantasypros.com/nfl/notes/440644/bucky-irving-2026-week-2-outlook.php",
+    "https://www.fantasypros.com/nfl/notes/440670/quinshon-judkins-2026-week-2-outlook.php",
+    "https://www.reuters.com/sports/report-browns-rb-dylan-sampson-knee-miss-significant-time--flm-2026-09-15/"
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains status=live with completedAt 2026-09-12T17:05:00Z, identical to the compact history index and lastProcessedGrokCompletedAt.",
+    "No Week 2 straight user ticket exists in data/bet_history.csv.",
+    "Dowdle remains a confirmation-only state this hour: the exact 8.5/-114 public quote remains and there is no new role change requiring a duplicate alert.",
+    "Bucky's BetRivers 14.5 -110 attempts outlier persists on the latest Covers refresh but is not promoted because it is several hours old at this run and Friday final practice designations are still pending.",
+    "Judkins remains a disciplined price pass at 12.5/-120; the preferred threshold alone does not justify violating the stored max juice.",
+    "Friday final injury reports are the next high-value checkpoint."
+  ]
+}
