@@ -1,0 +1,75 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T00:46:33Z",
+  "runAtEt": "2026-09-17 20:46:33",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "TNF has kicked off, so all DET@BUF pregame recommendations are now locked and cannot be treated as current executable bets. No sportsbook-specific live player-prop price was independently verified, so PRIME will not create a live wager from in-game usage alone. The main Sunday board change is Quinshon Judkins rushing attempts: a current public StatMuse display shows O14.5 +122, two carries above PRIME's prior 12.5 target. FantasyPros currently projects 16.9 attempts and Cleveland officially describes Raheim Sanders as the option behind Judkins with Dylan Sampson on IR, but the broader projection stack remains dispersed and Cleveland is an 8.5-point underdog with multiple offensive-line injuries. PRIME therefore changes Judkins from WATCH-at-12.5 to PASS_AFTER_MOVE/WATCH at the displayed 14.5; do not chase without a verified sportsbook-specific price and fresh probability recalculation.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-17T23-36-12Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "currentMarketEvidence": "StatMuse currently displays O14.5 +122 for rushing attempts, but the underlying sportsbook identity is not exposed in the page result, so PRIME does not treat it as executable sportsbook truth.",
+      "priorPlayToLine": 12.5,
+      "priorMaxAcceptableOdds": -110,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "MARKET_MOVE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT"],
+      "projectionContext": "FantasyPros current Week 2 projection: 16.9 rushing attempts. Prior independent projections in PRIME's stack were materially lower (12.3, 13.6, 15.7), leaving a wide distribution rather than robust agreement.",
+      "roleContext": "Browns official team coverage describes Raheim Sanders as an option behind Judkins after Dylan Sampson was placed on IR; Sanders' Week 1 offensive work was primarily receiving while he also handled kick returns.",
+      "riskContext": "Cleveland is currently around an 8.5-point road underdog and has multiple offensive-line injuries/limitations, increasing negative-game-script and efficiency uncertainty.",
+      "reason": "The current displayed threshold is two full attempts above PRIME's preferred 12.5 entry. Plus money alone does not create a bet. Projection sources disagree and the public display lacks a verified sportsbook identity. PASS_AFTER_MOVE; reopen only if a regulated sportsbook verifies a materially better line/price or Friday/Sunday role news changes the distribution."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "game": "DET@BUF",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "IN_GAME_LOCKED",
+      "signalTags": ["RUSH_SHARE", "DEFENSIVE_INJURY", "OL_INJURY", "GAME_SCRIPT"],
+      "reason": "The prior O87.5/-115-or-better pregame recommendation is no longer executable because the game has started. No Week 2 straight user ticket is recorded. Do not infer a live bet from the pregame edge without a separately verified live sportsbook line and fresh model."
+    }
+  ],
+  "liveGameContext": [
+    {
+      "classification": "confirmed_game_state",
+      "source": "ESPN live Gamecast",
+      "claim": "DET@BUF is in progress. ESPN showed Buffalo leading 6-0 with 9:09 left in the first quarter; Josh Allen had 3 carries for 39 yards on the opening drive and James Cook had early carries, including gains of 12 and 10 yards."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Buffalo Bills official",
+      "claim": "Ed Oliver is out after a pregame hip injury; T.J. Sanders and Ty Johnson are also inactive."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.espn.co.uk/nfl/game?gameId=401872932",
+    "https://www.buffalobills.com/news/bills-dl-ed-oliver-suffers-pregame-hip-injury-ruled-out-vs-lions",
+    "https://www.clevelandbrowns.com/news/raheim-sanders-remains-focused-on-succeeding-in-role-heading-into-week-2",
+    "https://www.fantasypros.com/nfl/players/quinshon-judkins.php",
+    "https://www.statmuse.com/nfl/game/9-20-2026-tb-vs-cle-19091"
+  ],
+  "researchNotes": [
+    "No new Grok pass: latest remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and prior processed state.",
+    "No sportsbook-specific live DET@BUF player-prop price was independently verified after kickoff; PRIME therefore issues no live-game player-prop recommendation.",
+    "Judkins remains a role-driven candidate, but the current displayed 14.5 threshold is outside PRIME's stored preferred entry and the market source does not expose an authoritative sportsbook identity.",
+    "Do not allow a single higher FantasyPros projection to overwrite the earlier multi-source projection disagreement."
+  ]
+}
