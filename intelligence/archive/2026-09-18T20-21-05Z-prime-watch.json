@@ -1,0 +1,249 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T20:21:05Z",
+  "runAtEt": "2026-09-18 16:21:05",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL CHANGE. Nico Collins is now officially OUT for Sunday, upgrading the Houston target-vacancy catalyst from attributed expectation to confirmed fact. The more important market development is that Dalton Schultz receiving yards has re-entered PRIME's stored conditional trigger: current public line-shopping shows FanDuel O41.5 -114, exactly inside the 41.5/-115 ceiling. Schultz is upgraded from WATCH/PASS_AFTER_MOVE to BET/BET_NOW for 0.5u, hard play-to 41.5 and max juice -115; do not chase 42.5+. Conservative PRIME fair Over probability is 57.5% (fair about -135), roughly 4.23 percentage points above the -114 break-even rate, supported by Week 1 role plus independent projection paths but discounted for Houston's likely committee distribution and increased multi-TE personnel. Jonathan Taylor O16.5 receiving yards remains a BET thesis, but the book route changed: DraftKings has repriced 16.5 to approximately -137 and is now PASS_AFTER_MOVE on price, while current public line-shopping still shows Betparx 16.5 -112 and BetRivers 16.5 -113, both within PRIME's stored 16.5/-115 ceiling. Do not chase Taylor to 17.5. No new Grok pass and no confirmed Week 2 user ticket in bet_history.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T19-50-44Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-SCHULTZ-RECYDS-20260918-162105",
+      "timestampEt": "2026-09-18 16:21:05",
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel via current public line-shopping",
+      "line": 41.5,
+      "odds": -114,
+      "bestMarketLine": "FanDuel 41.5 -114",
+      "consensusLine": "approximately 41.5-45.5 across visible books",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "ourMeanProjection": 47.0,
+      "ourMedianProjection": 45.0,
+      "estimatedOverProbability": 0.575,
+      "estimatedUnderProbability": 0.425,
+      "fairOdds": -135.3,
+      "marketImpliedProbability": 0.5327,
+      "estimatedEdgePct": 4.23,
+      "edgeBucket": "4-6%",
+      "recommendedStakeUnits": 0.5,
+      "confidence": "B-",
+      "steamState": "BET_NOW",
+      "entryTiming": "FRIDAY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "FIRST_READ_SHARE", "ROUTE_SHARE", "MARKET_MOVE", "MATCHUP", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "SCHULTZ_COLLINS_OUT_VOLUME_WEEK2",
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "reason": "Collins is now officially OUT and the market has returned exactly to PRIME's stored 41.5/-115 conditional entry. Schultz drew eight Week 1 targets with a 21.1% target share and 18.2% first-read share. Independent public projections around 47-55 yards support the direction, but PRIME discounts them for uncertain target redistribution and Houston's likely use of more 12/13 personnel. The bet is price-specific: 41.5 at -115 or better only; 42.5+ is not approved without recalculation."
+    },
+    {
+      "player": "Nico Collins",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_PROPS",
+      "decisionStatus": "AVOID",
+      "steamState": "OFFICIALLY_OUT",
+      "signalTags": ["INJURY", "ROLE_CHANGE"],
+      "reason": "Houston officially ruled Collins out for Sunday with the hamstring injury. Do not use his Under markets as a proxy for inactivity."
+    },
+    {
+      "decisionId": "2026W2-TAYLOR-RECYDS-REPRICE-20260918-162105",
+      "timestampEt": "2026-09-18 16:21:05",
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "Betparx / BetRivers via current public line-shopping",
+      "line": 16.5,
+      "bestMarketLine": "Betparx 16.5 -112; BetRivers 16.5 -113",
+      "consensusLine": "15.5-17.5 across major visible books",
+      "playToLine": 16.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 0.58,
+      "estimatedUnderProbability": 0.42,
+      "fairOdds": -138.1,
+      "estimatedEdgePctAtBetparx": 5.17,
+      "estimatedEdgePctAtBetRivers": 4.95,
+      "edgeBucket": "4-6%",
+      "recommendedStakeUnits": 0.5,
+      "confidence": "B",
+      "steamState": "STILL_PLAYABLE_BOOK_SELECTIVE",
+      "entryTiming": "FRIDAY",
+      "signalTags": ["TARGET_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "WEATHER"],
+      "thesisId": "TAYLOR_RECEIVING_NEGATIVE_SCRIPT_WEEK2",
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "reason": "The football thesis is unchanged, but price routing changed materially. DraftKings now shows approximately 16.5 -137 and fails PRIME's max juice, while Betparx 16.5 -112 and BetRivers 16.5 -113 remain within the stored 16.5/-115 ceiling. FanDuel 17.5 is beyond the play-to. Do not chase either worse juice or a higher line."
+    },
+    {
+      "player": "Xavier Hutchinson",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "bestMarketLine": "approximately 26.5 at DraftKings/FanDuel/Fanatics on current public line-shopping",
+      "confidence": "C+",
+      "steamState": "WATCH_ROLE_REDISTRIBUTION",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT"],
+      "reason": "Collins OUT creates opportunity, but the target redistribution among Schultz, Boutte, Hutchinson, Noel and multi-TE personnel is too uncertain to promote from one bullish projection path."
+    },
+    {
+      "player": "Kayshon Boutte",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "bestMarketLine": "approximately 33.5 at DraftKings/FanDuel on current public line-shopping",
+      "confidence": "C+",
+      "steamState": "WATCH_ROLE_REDISTRIBUTION",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT"],
+      "reason": "Collins OUT is bullish for opportunity, but no sufficiently robust multi-source fair-probability edge was established at the current threshold."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "alertSuppressed": true,
+      "reason": "Unchanged existing price-sensitive thesis. No fresh sportsbook-specific 8.5 quote was independently verified during this pass; do not chase 9.5."
+    },
+    {
+      "player": "Trey McBride",
+      "game": "SEA@ARI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 59.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "C+",
+      "steamState": "REDUCED_EDGE",
+      "reason": "No new information sufficient to upgrade the existing WATCH."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_YARDS",
+      "decisionStatus": "PASS",
+      "steamState": "PRICE_UNVERIFIED_MODEL_CONFLICT",
+      "reason": "No new evidence resolves the prior model/market conflict; no bet."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Houston Texans final Friday injury designation / Houston Chronicle reporting",
+      "sourceTimestampEt": "2026-09-18 afternoon ET",
+      "claim": "Nico Collins was officially ruled OUT for Sunday against Cincinnati after the hamstring injury. Houston is expected to distribute targets by committee and can lean more heavily on 12 and 13 personnel."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "current public multi-book line-shopping",
+      "sourceTimestampEt": "accessed 2026-09-18 16:21 ET",
+      "claim": "Dalton Schultz receiving yards: FanDuel O41.5 -114 is the best visible threshold/price matching PRIME's stored conditional trigger; DraftKings is around 45.5 -113."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Fantasy Info Central / Covers / StatsInsider public Week 2 projections",
+      "sourceTimestampEt": "accessed 2026-09-18",
+      "claim": "Public Schultz receiving-yard projections cluster above 41.5, including approximately 47.8, 47 and 54.8 yards, but PRIME uses a more conservative internal distribution because some sources may not fully reflect the final Collins OUT state and target redistribution remains uncertain."
+    },
+    {
+      "classification": "analyst_data",
+      "source": "FantasyPros Week 2 usage analysis",
+      "sourceTimestampEt": "accessed 2026-09-18",
+      "claim": "Schultz had eight Week 1 targets, a 21.1% target share and an 18.2% first-read share."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "current public multi-book line-shopping",
+      "sourceTimestampEt": "accessed 2026-09-18 16:21 ET",
+      "claim": "Jonathan Taylor receiving yards: DraftKings 16.5 is now approximately -137 and no longer playable under PRIME's max juice; Betparx 16.5 -112 and BetRivers 16.5 -113 remain within the stored ceiling, while FanDuel 17.5 is beyond the play-to."
+    }
+  ],
+  "lineHistoryObservations": [
+    {
+      "capturedAtEt": "2026-09-18 16:21:05",
+      "player": "Dalton Schultz",
+      "market": "Receiving Yards",
+      "sportsbook": "FanDuel via current public line-shopping",
+      "side": "OVER",
+      "line": 41.5,
+      "odds": -114,
+      "note": "Material re-entry to PRIME's stored 41.5/-115 trigger after prior verified public state around 44.5."
+    },
+    {
+      "capturedAtEt": "2026-09-18 16:21:05",
+      "player": "Jonathan Taylor",
+      "market": "Receiving Yards",
+      "sportsbook": "DraftKings via current public line-shopping",
+      "side": "OVER",
+      "line": 16.5,
+      "odds": -137,
+      "note": "Price moved beyond PRIME max juice; PASS_AFTER_MOVE at DraftKings."
+    },
+    {
+      "capturedAtEt": "2026-09-18 16:21:05",
+      "player": "Jonathan Taylor",
+      "market": "Receiving Yards",
+      "sportsbook": "Betparx via current public line-shopping",
+      "side": "OVER",
+      "line": 16.5,
+      "odds": -112,
+      "note": "Current acceptable book-specific route preserving stored line and max juice."
+    },
+    {
+      "capturedAtEt": "2026-09-18 16:21:05",
+      "player": "Jonathan Taylor",
+      "market": "Receiving Yards",
+      "sportsbook": "BetRivers via current public line-shopping",
+      "side": "OVER",
+      "line": 16.5,
+      "odds": -113,
+      "note": "Current acceptable book-specific route preserving stored line and max juice."
+    }
+  ],
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — this file is the durable append-only record of the material market/news state",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — current Schultz/Taylor decisions and prices are preserved in this immutable archive",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — material decision states are preserved here with decision IDs and full pricing fields",
+    "lineHistory": "PRESERVED IN THIS IMMUTABLE ARCHIVE via lineHistoryObservations",
+    "betHistory": "NONE — no confirmed Week 2 user ticket",
+    "missedBets": "NONE",
+    "passLedger": "NONE",
+    "parlayHistory": "NONE",
+    "weeklyAttribution": "NONE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.houstonchronicle.com/sports/texans/article/nico-collins-out-bengals-hamstring-21052161.php",
+    "https://www.fantasypros.com/nfl/notes/440969/dalton-schultz-2026-week-2-outlook.php",
+    "https://www.fantasyinfocentral.com/betting/nfl/props/receiving-yards",
+    "https://www.covers.com/sport/football/nfl/players/dalton-schultz",
+    "https://www.fanduel.com/research/dalton-schultz-nfl-fantasy-week-2-vs-bengals-2026",
+    "https://www.fanduel.com/research/jonathan-taylor-nfl-fantasy-week-2-vs-chiefs-2026"
+  ],
+  "researchNotes": [
+    "No new Grok pass: intelligence/grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "Schultz is a price-specific BET only at 41.5 and -115 or better. The Collins OUT news does not authorize chasing a higher threshold.",
+    "Taylor remains a price-specific BET only at 16.5 and -115 or better. DraftKings is no longer acceptable at the observed -137; current acceptable routes are Betparx/BetRivers if still live in the user's app.",
+    "Public line-shopping pages are evidence of current market state, not a guarantee that a line remains executable at submission; verify the live regulated sportsbook immediately before placement.",
+    "No confirmed Week 2 ticket is recorded, so no exposure is assumed."
+  ]
+}
