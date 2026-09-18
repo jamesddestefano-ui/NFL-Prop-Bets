@@ -1,0 +1,138 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T22:21:36Z",
+  "runAtEt": "2026-09-18 18:21:36",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-18T21-18-34Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE. Fresh Friday-evening market/news/weather checks did not produce a new actionable prop, invalidate an existing price ceiling, or justify chasing a moved number. Dalton Schultz receiving yards remains a price-specific BET only at 41.5 and -115 or better: FanDuel Research still references a 41.5 prop Friday afternoon but does not expose a current executable juice, so PRIME will not invent one or loosen the stored ceiling. Jonathan Taylor receiving yards remains a price-specific BET only at 16.5 and -115 or better: current public pages still center his typical receiving line around 16.5, but this pass did not verify a newer regulated-book price that improves or invalidates the stored recommendation. Rico Dowdle O8.5 rushing attempts remains actionable only if a live regulated book independently verifies 8.5 at -115 or better; a current FanDuel Research article exposes only his 32.5 rushing-yards prop, not the attempts market, so no attempts-line update is recorded. Bucky Irving receiving/attempts remain WATCH/REDUCED_EDGE with Sean Tucker cleared after a full week of practice. Quinshon Judkins remains PASS/PASS_AFTER_MOVE. Weather does not create a new edge: HOU is roof-closed, PIT@NE has light wind with rain risk, and IND@KC has light wind with rain risk but no threshold-changing evidence. No new Grok pass and no confirmed Week 2 user straight ticket in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "confidence": "B-",
+      "alertSuppressed": true,
+      "reason": "Nico Collins remains officially out. The fresh public Friday article still references 41.5 but does not expose current sportsbook juice; no price-specific improvement or deterioration was verified after the prior archive. Preserve 41.5/-115 and do not duplicate-alert."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 16.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_BOOK_SELECTIVE_IF_LIVE_VERIFIED",
+      "confidence": "B",
+      "alertSuppressed": true,
+      "reason": "Current public player-prop pages still center Taylor around 16.5 receiving yards, but no fresh regulated-book line/juice was independently verified in this pass. The Friday injury/weather refresh does not materially change the stored receiving thesis."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "alertSuppressed": true,
+      "reason": "No fresh sportsbook-specific 8.5 attempts quote was independently verified. FanDuel Research's Friday article exposes a 32.5 rushing-yards prop only, which is not a substitute for the attempts market. Do not chase 9.5."
+    },
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RECEIVING_YARDS/RUSH_ATTEMPTS",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Sean Tucker is available after full practice all week, confirming backfield-competition risk. Rain risk exists but winds are light and does not create a sufficiently quantified new edge."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS/RUSH_YARDS",
+      "decisionStatus": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "No fresh role, offensive-line, or price evidence restores the prior preferred threshold or resolves the model-market conflict."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "sportsbook_market",
+      "source": "FanDuel Research",
+      "sourceTimestampEt": "2026-09-18 13:07 ET article timestamp",
+      "claim": "Dalton Schultz receiving-yards prop was 41.5 Friday afternoon; current executable juice is not exposed."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers player page",
+      "sourceTimestampEt": "accessed 2026-09-18 18:21 ET",
+      "claim": "Jonathan Taylor receiving-yards market still centers around a typical 16.5 line, but no fresh regulated-book price sufficient to replace the stored threshold was verified."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "FanDuel Research",
+      "sourceTimestampEt": "2026-09-18 13:06 ET article timestamp",
+      "claim": "Rico Dowdle rushing-yards prop was 32.5 Friday afternoon; the article does not verify his rushing-attempts market, so the stored 8.5 attempts thesis remains conditional on a live book check."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Houston final injury reporting",
+      "sourceTimestampEt": "2026-09-18 Friday final report",
+      "claim": "Nico Collins remains ruled out for Week 2; no new later reversal or role-limit news was found."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Tampa Bay final injury reporting",
+      "sourceTimestampEt": "2026-09-18 Friday final report",
+      "claim": "Sean Tucker practiced fully all week and is available for Week 2, preserving the prior Bucky Irving competition downgrade."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "FantasyAlarm Week 2 weather report",
+      "sourceTimestampEt": "updated 2026-09-18",
+      "claim": "CIN@HOU is roof-closed; PIT@NE has light wind with rain risk; IND@KC has roughly 7 mph wind with rain risk. No weather input in this pass is strong enough to override stored price ceilings."
+    }
+  ],
+  "ledgerMutations": {
+    "immutableArchive": "CREATED",
+    "livePropBoard": "NO CHANGE",
+    "decisionLedger": "NO CHANGE",
+    "lineHistory": "NO NEW SPORTSBOOK-SPECIFIC PRICE SNAPSHOT SUFFICIENT TO APPEND",
+    "betHistory": "NO CHANGE",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — WEEK 2 INCOMPLETE"
+  },
+  "sourceUrls": [
+    "https://www.fanduel.com/research/nfl/player-news/game-updates/dalton-schultz-and-texans-play-bengals-in-week-2-9-20-2026",
+    "https://www.covers.com/sport/football/nfl/players/48469/jonathan-taylor",
+    "https://www.fanduel.com/research/nfl/player-news/game-updates/rico-dowdle-and-steelers-play-patriots-in-week-2-9-20-2026",
+    "https://www.houstonchronicle.com/sports/texans/article/nico-collins-injury-report-status-22437940.php",
+    "https://www.fantasypros.com/nfl/news/608916/sean-tucker-hamstring-available-to-play-sunday.php",
+    "https://www.fantasyalarm.com/articles/nfl/nfl-weather/nfl-week-2-weather-report-fantasy-football-dfs-impact/195642"
+  ],
+  "researchNotes": [
+    "Grok latest remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index; therefore this is not a new Grok pass.",
+    "No stale sportsbook quote was promoted to current truth. Existing BET classifications remain conditional on live verification at the stored line/juice ceilings.",
+    "No alert because fresh Friday-evening information does not create a new quantified edge, improve a current actionable price, or invalidate an existing ticket/decision."
+  ]
+}
