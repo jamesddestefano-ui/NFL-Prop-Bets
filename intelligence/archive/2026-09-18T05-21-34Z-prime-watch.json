@@ -1,0 +1,121 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T05:21:34Z",
+  "runAtEt": "2026-09-18 01:21:34",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material change from the 23:54 ET PRIME state. Bucky Irving receiving yards remains the only current actionable Week 2 straight-prop recommendation: Fanatics is still publicly identifiable at O15.5 -105 on the current ScoresAndOdds board, with consensus O15.5 -110 / U15.5 -120. The best current price/threshold is unchanged from the prior archive. Tampa Bay's Thursday report still shows Sean Tucker full, and Jalen McMillan also practiced fully for a second consecutive day and is progressing toward a return; that is a target-competition dependency, but it does not by itself invalidate the 15.5 receiving-yard threshold because Irving's passing-down role was confirmed in Week 1 and Tampa Bay separately described him as a continuing checkdown/outlet option for Baker Mayfield. FantasyPros' Friday Week 2 ranking analysis still highlights Irving's 58.3% route share and 25% target share and keeps him in a strong role. Preserve 0.5u only at O15.5 -115 or better, with preference for the current -105; do not chase 16.5+. Reprice after Friday final practice/designation news, especially McMillan/Tucker. Quinshon Judkins rushing attempts remains PASS_AFTER_MOVE/WATCH: current Covers material centers on 14.5 attempts, above PRIME's preferred 12.5 re-entry, while Cleveland's own reporting confirms Raheim Sanders is the option behind Judkins and the Browns still have meaningful offensive-line injury uncertainty. No new Grok pass.",
+  "repositoryState": {
+    "priorRelevantArchive": "intelligence/archive/2026-09-18T03-54-50Z-prime-watch.json",
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "Fanatics via ScoresAndOdds current deeplink",
+      "line": 15.5,
+      "odds": -105,
+      "decisionStatus": "BET",
+      "confidence": "B",
+      "recommendedStakeUnits": 0.5,
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "INJURY"],
+      "thesisId": "IRVING_PASSING_DOWN_ROLE_WEEK2",
+      "reason": "No price deterioration since the prior actionable state. Week 1 passing-down usage plus current official role commentary continue to support the thesis at 15.5. Sean Tucker and Jalen McMillan both practicing fully increase role/target competition uncertainty and must be rechecked after Friday's final report, so the recommendation remains capped at 0.5u and must not be chased above 15.5."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "playToLine": 12.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "MIDWEEK",
+      "signalTags": ["ROLE_CHANGE", "RUSH_SHARE", "MARKET_MOVE", "GAME_SCRIPT", "OL_INJURY", "PROJECTION_DISAGREEMENT"],
+      "reason": "Current public market context remains around 14.5 attempts, above PRIME's preferred 12.5 re-entry. Cleveland confirms Sanders is the option behind Judkins, but that workload support is already reflected in the moved number and does not justify chasing."
+    }
+  ],
+  "lineHistorySnapshot": [
+    {
+      "capturedAtEt": "2026-09-18 01:21:34",
+      "game": "CLE@TB",
+      "player": "Bucky Irving",
+      "market": "Receiving Yards",
+      "sportsbook": "Fanatics via ScoresAndOdds current deeplink",
+      "side": "OVER",
+      "line": 15.5,
+      "odds": -105,
+      "oppositeSideLine": 15.5,
+      "oppositeSideOdds": -125,
+      "notes": "Same best publicly identifiable price as the prior archive; no material movement. Current board also shows consensus O15.5 -110 / U15.5 -120."
+    },
+    {
+      "capturedAtEt": "2026-09-18 01:21:34",
+      "game": "CLE@TB",
+      "player": "Quinshon Judkins",
+      "market": "Rushing Attempts",
+      "sportsbook": "Covers current public prop page",
+      "side": "OVER",
+      "line": 14.5,
+      "odds": null,
+      "notes": "Threshold context only; current public page centers on 14.5 and does not provide a clean regulated-book price in the extracted view. Do not treat as executable sportsbook truth."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Tampa Bay Buccaneers official injury report, Sept. 17",
+      "sourceTimestampEt": "2026-09-17 16:01 ET",
+      "claim": "Sean Tucker and Jalen McMillan were both full participants Wednesday and Thursday."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Tampa Bay Buccaneers official team feature on Jalen McMillan",
+      "sourceTimestampEt": "2026-09-17 14:56 ET",
+      "claim": "McMillan is progressing toward a return and can align throughout the formation, creating additional target competition if active."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Tampa Bay Buccaneers official team feature on Bucky Irving",
+      "sourceTimestampEt": "2026-09-17 15:39 ET",
+      "claim": "Irving described himself as a checkdown/outlet for Baker Mayfield after catching seven passes for 48 yards in Week 1."
+    },
+    {
+      "classification": "analyst_data",
+      "source": "FantasyPros Week 2 rankings/Irving outlook",
+      "sourceTimestampEt": "2026-09-18",
+      "claim": "FantasyPros continues to highlight Irving's Week 1 passing-down lead: 58.3% route share, 25% target share and 48 receiving yards."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.scoresandodds.com/prop-bets/6228586/bucky-irving-6228586",
+    "https://www.buccaneers.com/news/buccaneers-browns-injury-report-sept-17-week-2-2026",
+    "https://www.buccaneers.com/news/jalen-mcmillan-brings-separation-prowess-to-offense",
+    "https://www.buccaneers.com/news/bucky-irving-outlet-for-baker-mayfield-passing-game",
+    "https://www.fantasypros.com/2026/09/fantasy-football-rankings-tiers-start-sit-advice-week-2-2026/",
+    "https://www.clevelandbrowns.com/news/raheim-sanders-remains-focused-on-succeeding-in-role-heading-into-week-2",
+    "https://www.covers.com/sport/football/nfl/players/368268/quinshon-judkins"
+  ],
+  "researchNotes": [
+    "No new Grok pass: status remains live and completedAt remains 2026-09-12T17:05:00Z, matching the compact history index and processed state.",
+    "No Week 2 straight user ticket is recorded in data/bet_history.csv.",
+    "No alert: the only actionable prior recommendation retains the same best publicly identifiable threshold/price and no verified injury/role development forces a reclassification at this checkpoint.",
+    "Friday final practice designations remain the next material checkpoint for CLE@TB, especially Jalen McMillan, Sean Tucker and Cleveland's offensive line."
+  ]
+}
