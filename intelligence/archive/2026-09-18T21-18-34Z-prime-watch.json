@@ -1,0 +1,124 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-18T21:18:34Z",
+  "runAtEt": "2026-09-18 17:18:34",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-18T20-21-05Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE. Friday final injury-report and current-market sweep did not produce a new actionable prop or invalidate the prior PRIME price ceilings. Dalton Schultz receiving yards remains a price-specific BET only at 41.5 and -115 or better; FanDuel Research still references a 41.5 receiving-yards prop Friday afternoon, but this pass did not independently verify a newer sportsbook-specific juice than the prior 16:21 ET archive, so no duplicate alert is issued. Jonathan Taylor receiving yards remains a price-specific BET only at 16.5 and -115 or better; no fresh regulated-book quote in this pass justifies changing the stored ceiling. Rico Dowdle O8.5 rushing attempts remains actionable only if a live regulated book independently verifies 8.5 at -115 or better; do not chase 9.5. Bucky Irving receiving/attempts remain WATCH/REDUCED_EDGE after Sean Tucker practiced fully all week and Jalen McMillan was full all week but listed questionable. Quinshon Judkins remains PASS/PASS_AFTER_MOVE: Cleveland ruled G Teven Jenkins out, while Parker Brailsford, Elgton Jenkins and Dawand Jones finished the week full, creating no new offensive-line catalyst strong enough to override the stored price/model conflict. No new Grok pass and no confirmed Week 2 user straight ticket in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "confidence": "B-",
+      "alertSuppressed": true,
+      "reason": "Collins remains officially OUT and FanDuel Research still references 41.5 Friday afternoon, but no newer sportsbook-specific juice was independently verified in this pass. Preserve the prior 41.5/-115 ceiling and do not issue a duplicate alert."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 16.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_BOOK_SELECTIVE_IF_LIVE_VERIFIED",
+      "confidence": "B",
+      "alertSuppressed": true,
+      "reason": "Chiefs final report lists DT Chris Jones questionable; Colts backup RB D.J. Giddens is questionable but practiced fully Friday. Neither development materially changes the stored receiving distribution. No fresh regulated-book quote improved or invalidated the 16.5/-115 ceiling during this pass."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "alertSuppressed": true,
+      "reason": "No fresh sportsbook-specific 8.5 quote was independently verified. Steelers CB Joey Porter Jr. being out and WR Michael Pittman Jr. being questionable do not create a sufficiently direct, quantified Dowdle workload upgrade to change the stored threshold. Do not chase 9.5."
+    },
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RECEIVING_YARDS/RUSH_ATTEMPTS",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Sean Tucker was a full participant Wednesday-Friday, while Jalen McMillan was full all week but listed questionable. This confirms rather than improves the prior role-competition concern; no bet upgrade."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_ATTEMPTS/RUSH_YARDS",
+      "decisionStatus": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "Cleveland ruled G Teven Jenkins out, but Parker Brailsford, Elgton Jenkins and Dawand Jones finished the week as full participants. No new role/line evidence resolves the prior model-market conflict or restores the old preferred price."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Tampa Bay Buccaneers official Friday injury report",
+      "sourceTimestampEt": "2026-09-18 16:01 ET",
+      "claim": "Sean Tucker practiced fully all week with no game designation; Jalen McMillan practiced fully all week and is questionable. Cleveland G Teven Jenkins is out; C Parker Brailsford, C Elgton Jenkins and T Dawand Jones were full Friday."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Kansas City Chiefs final Friday injury report / team-report reproduction",
+      "sourceTimestampEt": "2026-09-18 15:43 ET",
+      "claim": "Chiefs DT Chris Jones is questionable after limited practice all week. Colts backup RB D.J. Giddens is questionable but practiced fully Friday; Alec Pierce finished full and has no designation."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Pittsburgh Steelers Friday injury report / beat reporting",
+      "sourceTimestampEt": "2026-09-18 15:36 ET",
+      "claim": "CB Joey Porter Jr. is out; WR Michael Pittman Jr. is questionable after missing Thursday and Friday; OT Troy Fautanu is questionable but practiced fully Friday."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "FanDuel Research",
+      "sourceTimestampEt": "2026-09-18 13:07 ET article timestamp",
+      "claim": "Dalton Schultz receiving-yards prop was 41.5 as of Friday afternoon. Current juice was not exposed in the research article and therefore was not invented."
+    }
+  ],
+  "ledgerMutations": {
+    "immutableArchive": "CREATED",
+    "livePropBoard": "NO CHANGE",
+    "decisionLedger": "NO CHANGE",
+    "lineHistory": "NO NEW SPORTSBOOK-SPECIFIC PRICE SNAPSHOT SUFFICIENT TO APPEND",
+    "betHistory": "NO CHANGE",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — WEEK 2 INCOMPLETE"
+  },
+  "sourceUrls": [
+    "https://www.buccaneers.com/news/buccaneers-browns-injury-report-sept-18-week-2-2026",
+    "https://www.arrowheadpride.com/kansas-city-chiefs-injuries/210679/chiefs-colts-week-2-final-injury-report-chris-jones-mansoor-delane-questionable",
+    "https://www.behindthesteelcurtain.com/pittsburgh-steelers-news/174883/joey-porter-jr-out-vs-patriots-pittsburgh-steelers-michael-pittman",
+    "https://www.fanduel.com/research/nfl/player-news/game-updates/dalton-schultz-and-texans-play-bengals-in-week-2-9-20-2026"
+  ],
+  "researchNotes": [
+    "Grok latest remains status=live with completedAt 2026-09-12T17:05:00Z, exactly matching the most recent compact history index entry; therefore this is not a new Grok pass.",
+    "No old sportsbook quote was promoted to current truth. Existing BET classifications remain conditional on live verification at the stored line/juice ceilings.",
+    "No alert because the only new Friday final-report details either confirm existing role-risk assumptions or are not sufficient to produce a quantified new edge."
+  ]
+}
