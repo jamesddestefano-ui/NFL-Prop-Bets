@@ -1,0 +1,222 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T20:44:22Z",
+  "runAtEt": "2026-09-19 16:44:22",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T18-56-24Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL PRICE CHANGE: Josh Downs Over 36.5 receiving yards at bet365 -115 is no longer verified on the fresh multi-book board. The current CLEATZ board shows FanDuel 40.5 -114 as the best regulated-book Over threshold among displayed books, with most displayed books at 41.5-42.5. PRIME therefore downgrades new Downs entries from BET/STILL_PLAYABLE to PASS_AFTER_MOVE; do not chase beyond the stored 36.5 hard ceiling. If the user already placed 36.5, hold the ticket; bet_history still contains no confirmed Week 2 straight wager, so no user-ticket CLV is recorded. Dalton Schultz Over 41.5 receiving yards remains inside the stored ceiling at FanDuel -114 and is unchanged. Rico Dowdle's 8.5 rushing-attempt threshold remains visible on a Covers player page updated 16:04 ET, but a fresh regulated-book exact price was not independently reverified in this pass; additionally Pittsburgh elevated RB Travis Homer on Saturday, a minor backfield-depth risk. Dowdle is therefore WATCH/STILL_PLAYABLE_IF_EXACT_PRICE_VERIFIED only at 8.5 and -115 or better. Juwan Johnson remains PASS_AFTER_MOVE above the prior 34.5 ceiling. Jonathan Taylor remains WATCH pending a fresh exact 15.5 price. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Josh Downs",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "FanDuel via CLEATZ current multi-book board",
+      "line": 40.5,
+      "odds": -114,
+      "bestMarketLine": "40.5 -114 FanDuel among displayed regulated books",
+      "consensusLine": "40.5-42.5 across the broader displayed regulated-book board",
+      "lineAtPriorRecommendation": 36.5,
+      "priorRecommendationOdds": -115,
+      "priorEstimatedOverProbabilityAt36_5": 58.0,
+      "decisionStatus": "PASS",
+      "confidence": "PASS",
+      "playToLine": 36.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.0,
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "WEATHER"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "DOWNS_FULL_TIME_SLOT_VOLUME",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": true,
+      "reason": "The exact 36.5/-115 outlier that created the prior edge is no longer present on the fresh multi-book board. Current regulated-book Over thresholds begin at 40.5 and are mostly 41.5-42.5. PRIME does not mechanically transfer the prior 58% fair probability from 36.5 to 40.5. Do not chase beyond the stored 36.5 ceiling. If an existing 36.5 ticket was placed outside the repository, hold; do not duplicate."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "FanDuel via CLEATZ current multi-book board",
+      "line": 41.5,
+      "odds": -114,
+      "bestMarketLine": "41.5 -114 FanDuel",
+      "consensusLine": "42.5-47.5 across other displayed books",
+      "decisionStatus": "BET",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["INJURY", "ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE"],
+      "correlationTags": [],
+      "thesisId": "SCHULTZ_COLLINS_OUT_VOLUME",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "FanDuel still shows the approved 41.5 threshold at acceptable -114 juice. Nico Collins OUT is already incorporated. This is unchanged confirmation, not a new alert."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "sportsbook": "Fresh exact regulated-book price not independently verified",
+      "line": 8.5,
+      "odds": null,
+      "priorEstimatedOverProbability": 59.0,
+      "decisionStatus": "WATCH",
+      "confidence": "B-",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_EXACT_PRICE_VERIFIED",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.0,
+      "signalTags": ["SNAP_SHARE", "RUSH_SHARE", "ROLE_CHANGE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": [],
+      "thesisId": "DOWDLE_LEAD_BACK_VOLUME",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": true,
+      "reason": "Covers' player page updated 16:04 ET still displays an 8.5 rushing-attempt threshold, but this pass did not independently verify a fresh regulated-book exact price. Pittsburgh also elevated RB Travis Homer from the practice squad Saturday; Homer has primarily been a special-teams/depth back, so this is a modest role-risk signal rather than a thesis-killer. Do not reuse the stale -113/-115 quote. Only re-promote if a live regulated sportsbook verifies Over 8.5 at -115 or better."
+    },
+    {
+      "player": "Juwan Johnson",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "CLEATZ current multi-book board",
+      "line": 36.5,
+      "odds": -137,
+      "bestMarketLine": "Current displayed regulated-book thresholds generally 36.5-39.5; prior 34.5 buy not present",
+      "decisionStatus": "PASS",
+      "playToLine": 34.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "INJURY", "MARKET_MOVE", "WEATHER"],
+      "correlationTags": [],
+      "thesisId": "JUWAN_TE_VOLUME",
+      "alert": false,
+      "reason": "The prior exact 34.5 buy remains unavailable on the fresh board. Do not chase higher thresholds. Chris Olave remains questionable, but that does not override the price ceiling."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "No fresh exact regulated-book 15.5 price verified",
+      "line": 15.5,
+      "odds": null,
+      "decisionStatus": "WATCH",
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "STILL_PLAYABLE_IF_EXACT_PRICE_VERIFIED",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "WEATHER"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "TAYLOR_RECEIVING_VOLUME",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "No fresh exact regulated-book price at the stored 15.5 threshold was verified in this pass. Preserve the 15.5/-125 ceiling and do not promote a stale quote."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "CLEATZ NFL player props multi-book board",
+      "capturedAtEt": "2026-09-19 16:44 ET",
+      "player": "Josh Downs",
+      "claim": "Receiving yards: FanDuel O40.5 -114; BetOnline O40.5 -116; DraftKings O41.5 -137; BetMGM O42.5 -111; BetParx/BetRivers O42.5 around -112/-113; no 36.5 bet365 outlier displayed."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "SportsGrid current Week 2 player-prop page",
+      "capturedAtEt": "2026-09-19 16:44 ET",
+      "player": "Josh Downs",
+      "claim": "Independent current public page lists Josh Downs Over 40.5 receiving yards -114, corroborating that the market has moved materially above PRIME's stored 36.5 ceiling."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "CLEATZ NFL player props multi-book board",
+      "capturedAtEt": "2026-09-19 16:44 ET",
+      "player": "Dalton Schultz",
+      "claim": "Receiving yards: FanDuel O41.5 -114 remains inside PRIME's 41.5/-115 ceiling; other displayed books are higher."
+    },
+    {
+      "classification": "market_reference_not_executable_price",
+      "source": "Covers Rico Dowdle player-prop page",
+      "sourceTimestamp": "Odds last updated Sat Sep 19 16:04 ET",
+      "capturedAtEt": "2026-09-19 16:44 ET",
+      "player": "Rico Dowdle",
+      "claim": "Rushing-attempt threshold remains 8.5 on the page, but the accessible current section does not establish a fresh regulated-book executable price; stale prior -113/-115 juice is not reused."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "CLEATZ NFL player props multi-book board",
+      "capturedAtEt": "2026-09-19 16:44 ET",
+      "player": "Juwan Johnson",
+      "claim": "Receiving-yards board is now generally 36.5-39.5 at displayed regulated books; prior 34.5 buy is not present."
+    }
+  ],
+  "newsChecks": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Pittsburgh Steelers official roster update",
+      "sourceTimestamp": "2026-09-19 15:01 ET",
+      "claim": "Steelers elevated RB Travis Homer and DB Doneiko Slaughter from the practice squad for Sunday's game. Homer is a depth/special-teams back, adding a small backfield-role uncertainty signal for Dowdle without independently invalidating the 8.5 thesis."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "NFL official Week 2 injury report",
+      "sourceTimestamp": "2026-09-19 13:09 ET update",
+      "claim": "Nico Collins remains OUT for Houston; Chris Olave remains QUESTIONABLE for New Orleans. No new designation found that invalidates the Schultz or Juwan role theses, though Juwan remains price-disqualified above 34.5."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "newRecommendedStakeUnits": 0.0,
+    "notes": "No new wager is added in this run. The principal user-facing change is a Downs PASS_AFTER_MOVE downgrade. Schultz remains an unchanged prior recommendation. Dowdle requires fresh exact price verification before action."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — durable Saturday 16:44 ET material-change refresh",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — current material state preserved in immutable archive pending safe batch reconciliation",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — current decisions preserved in immutable archive pending safe batch reconciliation",
+    "lineHistory": "CURRENT MARKET SNAPSHOTS PRESERVED IN marketChecks pending safe batch reconciliation",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user straight ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://cleatz.com/nfl/player-props/",
+    "https://www.sportsgrid.com/nfl/article/nfl-week-2-player-props-best-bets-and-odds-2026",
+    "https://www.covers.com/sport/football/nfl/players/367871/rico-dowdle",
+    "https://www.steelers.com/news/steelers-elevate-two-for-patriots-game-x8741",
+    "https://www.nfl.com/news/2026-nfl-season-week-2-injury-report"
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest and compact history index remain live at completedAt 2026-09-12T17:05:00Z.",
+    "The earlier Josh Downs alert was explicitly price-specific at 36.5. Current 40.5+ thresholds trigger steam-chasing protection and PASS_AFTER_MOVE; the prior 58% fair probability is not transferred to a four-yard worse line.",
+    "Schultz remains current at the stored ceiling and does not require a duplicate alert.",
+    "Dowdle's threshold persists, but exact fresh regulated-book juice was not verified. Pittsburgh's Homer elevation is recorded as a small ROLE_CHANGE/depth-risk signal; no bet is promoted without price verification.",
+    "Saturday monitoring continues; Sunday overnight intensity begins at 23:00 ET."
+  ]
+}
