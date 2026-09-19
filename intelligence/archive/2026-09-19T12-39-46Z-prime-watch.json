@@ -1,0 +1,175 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T12:39:46Z",
+  "runAtEt": "2026-09-19 08:39:46",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T11-36-44Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE. The Saturday 08:39 ET refresh found no newly verified sportsbook price that creates a fresh actionable entry and no official injury/role development that invalidates the most recent PRIME thresholds. Dalton Schultz's 41.5 receiving-yard threshold is corroborated by a current public market aggregate at O41.5 -114/U41.5 -114, but because that source does not identify an executable sportsbook it does not create a new sportsbook-specific alert. Josh Downs remains a price-sensitive BET only if the previously verified bet365 O36.5 -115 is still live; a fresh Saturday article has FanDuel at 40.5 -114, so do not chase the broader market. Jonathan Taylor remains PASS_AFTER_MOVE/WATCH above the stored 15.5 play-to. Juwan Johnson remains price-sensitive only at the previously verified 34.5/-115 outlier; FantasyPros analysis now references 38.5 and official reporting still has Johnson full/no designation with Chris Olave questionable. Rico Dowdle's rushing-attempt consensus is still 8.5, but exact current regulated-book juice was not independently verified, so the stored 8.5/-115 ceiling controls. A new Brock Purdy completions candidate was investigated: FTN's Sep. 18 captured DraftKings quote was O19.5 -121 with a 25.33 projection and BettingPros also likes O19.5, but a current regulated-book Sep. 19 line/price was not verified and other public context shows 20.5 at some books plus substantial blowout risk with San Francisco around a 12.5-point favorite. Classify Purdy WATCH only; do not promote a stale 19.5 quote. Weather remains monitor-only for the existing candidates: Baltimore rain builds after kickoff with roughly 10 mph wind; Foxborough rain builds with only 3-5 mph wind; Kansas City has persistent thunderstorm risk but only about 7 mph wind. No new Grok pass and no confirmed Week 2 straight ticket in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Josh Downs",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365 via prior verified market snapshot",
+      "line": 36.5,
+      "odds": -115,
+      "playToLine": 36.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "BET_NOW_IF_EXACT_PRICE_STILL_LIVE",
+      "reason": "Fresh Saturday market commentary lists FanDuel O40.5 -114, materially above PRIME's stored threshold. The exact bet365 36.5 price was not re-verified in this run, so do not assume it is currently executable and do not chase 40.5+."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "prior/current public market context",
+      "line": 16.5,
+      "odds": null,
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "No new verified 15.5 re-entry was found. The stored 15.5 ceiling remains controlling; do not transfer the earlier edge to 16.5 or 17.5 without a fresh distribution."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "price-sensitive; exact executable book required",
+      "line": 41.5,
+      "odds": -114,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_IF_EXACT_PRICE_STILL_LIVE",
+      "reason": "A current public market aggregate shows 41.5 at -114 both ways and Nico Collins remains out, so the football thesis is intact. Because the aggregate does not identify the underlying executable sportsbook, it corroborates the threshold but does not replace live sportsbook verification. Do not chase above 41.5."
+    },
+    {
+      "player": "Juwan Johnson",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365 via prior verified market snapshot",
+      "line": 34.5,
+      "odds": -115,
+      "playToLine": 34.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "BET_NOW_IF_EXACT_PRICE_STILL_LIVE",
+      "reason": "Johnson remains healthy enough for no game designation and Olave is questionable, but fresh analysis references a 38.5 market. The exact 34.5 outlier was not re-verified this run, so do not chase 38.5+. Baltimore rain is a monitor, not a standalone veto because wind is near 10 mph."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "price-sensitive; exact executable book required",
+      "line": 8.5,
+      "odds": -115,
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_IF_EXACT_PRICE_STILL_LIVE",
+      "reason": "BettingPros continues to list 8.5 as the consensus rushing-attempt line and no new Steelers role/injury report changes the committee thesis. Exact current regulated-book juice was not verified in this run; do not invent a price and do not chase 9.5+."
+    },
+    {
+      "player": "Brock Purdy",
+      "game": "MIA@SF",
+      "propType": "PASS_ATTEMPTS",
+      "market": "Completions",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "unverified current regulated-book price",
+      "line": 19.5,
+      "odds": null,
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["PROJECTION_DISAGREEMENT", "GAME_SCRIPT", "MARKET_MOVE"],
+      "reason": "FTN's Sep. 18 snapshot listed DraftKings O19.5 -121 with a 25.33 completion projection and BettingPros also endorsed O19.5, while Purdy completed 25 of 34 in Week 1 and is healthy. However the quote is from Sep. 18, current public context also shows 20.5 at some books, and San Francisco is roughly a 12.5-point favorite, creating second-half volume risk. PRIME will not treat the stale 19.5/-121 quote as current sportsbook truth. Re-evaluate only after a current regulated-book line and price are verified."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_aggregate",
+      "source": "SportsGambler Bengals-Texans current public market page",
+      "capturedAtEt": "2026-09-19 08:39 ET",
+      "claim": "Dalton Schultz receiving yards displayed O41.5 -114 / U41.5 -114; underlying sportsbook not identified, so this is movement/threshold corroboration rather than executable-book truth."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Saturday Josh Downs prop analysis referencing FanDuel",
+      "capturedAtEt": "2026-09-19 08:39 ET",
+      "claim": "FanDuel Josh Downs receiving yards referenced at O40.5 -114, above PRIME's 36.5 play-to."
+    },
+    {
+      "classification": "market_consensus",
+      "source": "BettingPros Rico Dowdle rushing-attempt prop page",
+      "capturedAtEt": "2026-09-19 08:39 ET",
+      "claim": "Rico Dowdle rushing-attempt consensus line remains 8.5; exact current regulated-book price was not exposed in the retrieved snippet."
+    },
+    {
+      "classification": "stale_market_reference",
+      "source": "FTN Week 2 props article",
+      "sourceTimestampEt": "2026-09-18",
+      "capturedAtEt": "2026-09-19 08:39 ET",
+      "claim": "Brock Purdy completions was captured at O19.5 -121 DraftKings with an FTN projection of 25.33. The quote is not treated as current on Sep. 19."
+    }
+  ],
+  "newsRoleChecks": [
+    {
+      "classification": "confirmed_fact",
+      "source": "San Francisco final injury reporting / official team context",
+      "claim": "Brock Purdy has no Week 2 injury designation; Miami edge Chop Robinson is out."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "New Orleans Saints final injury report",
+      "claim": "Juwan Johnson practiced fully Friday and has no game designation; Chris Olave is questionable."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Houston/Cincinnati final injury context carried forward and rechecked through current reporting",
+      "claim": "Nico Collins is out; no adverse Dalton Schultz designation was found."
+    },
+    {
+      "classification": "weather",
+      "source": "DraftKings Network Week 2 weather forecast, published Sep. 18 and retrieved Sep. 19",
+      "claim": "NO@BAL: rain chance rises sharply after kickoff with ~10 mph wind; PIT@NE: rain builds from ~37% to 59% with 3-5 mph wind; IND@KC: ~59% thunderstorm probability throughout with ~7 mph wind. None creates a new standalone veto for the existing short-area receiving/rushing-attempt theses."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "newRecommendedStakeUnits": 0,
+    "sameGameExposureWithRecordedWeek2Tickets": false,
+    "notes": "No new formal wager is promoted. Existing entries remain exact-line/price dependent and should not be duplicated without a recorded user ticket."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — durable append-only record for the 08:39 ET no-material-change sweep",
+    "livePropBoard": "NO MUTATION — no new verified actionable sportsbook threshold",
+    "decisionLedger": "NO MUTATION — Purdy remains an unverified-price WATCH captured only in this archive; no formal decision-class promotion",
+    "lineHistory": "NO MUTATION — current checks either lacked book-specific executable identity or were stale/prior-threshold confirmations",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user straight ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  }
+}
