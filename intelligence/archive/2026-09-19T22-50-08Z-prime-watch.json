@@ -1,0 +1,199 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T22:50:08Z",
+  "runAtEt": "2026-09-19 18:50:08",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T22-06-52Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL ROLE UPDATE / REPRICE REQUIRED: Baltimore officially downgraded Zay Flowers from doubtful to OUT at 16:18 ET Saturday. The Ravens explicitly state Rashod Bateman will move into the top receiver spot, with LaJohntay Wester, Devontez Walker, Chris Moore and Elijah Sarratt seeing more opportunity. This materially strengthens Bateman/Mark Andrews opportunity expectations, but PRIME is NOT promoting a bet from stale prices. The accessible CLEATZ receiving board is timestamped 13:49 ET, before Flowers was officially ruled out; it showed Bateman receiving yards O36.5 -111 DraftKings and receptions O2.5 -130 BetMGM, while Mark Andrews receiving yards was 48.5 +102 Pinnacle. Those quotes predate the catalyst and therefore are market-history context, not current executable sportsbook truth. Bateman ran a team-high 26 routes in Week 1 but earned only one target and zero catches; FantasyPros' 2025 profile also showed only a 10.5% target share, 0.76 YPRR and 10.9% first-read share. Stats Insider's current Week 2 model has Bateman at 42 receiving yards, but that projection alone cannot justify an Over. Andrews' Week 1 role was materially stronger (70% route share, 24% target share, 2.33 YPRR, 26.3% first-read share, one red-zone target); however, numberFire projects 38.3 receiving yards while Stats Insider projects 48, and the accessible 48.5 market already sits at/above those projections. Result: Bateman receiving yards/receptions WATCH and REPRICE_REQUIRED; Andrews receiving yards PASS/REPRICE_REQUIRED at a 48.5-type threshold. Do not use the pre-OUT 36.5/-111, 2.5/-130 or 48.5/+102 quotes as current. No new Grok pass. Existing Schultz/Taylor/Downs/Juwan/Dowdle/Rodgers states are unchanged from the 18:06 ET archive unless a fresh post-news book quote is later verified.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Rashod Bateman",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "NO CURRENT POST-FLOWERS-OUT EXECUTABLE BOOK PRICE VERIFIED",
+      "line": null,
+      "odds": null,
+      "preNewsMarketReference": "DraftKings O36.5 -111 via CLEATZ board timestamped 2026-09-19 13:49 ET",
+      "consensusProjection": "Stats Insider 42 receiving yards; historical/role evidence materially lower and uncertain",
+      "ourMeanProjection": 39.0,
+      "ourMedianProjection": 36.0,
+      "estimatedOverProbabilityAtPreNews36_5": 54.0,
+      "estimatedUnderProbabilityAtPreNews36_5": 46.0,
+      "fairOddsAtPreNews36_5": -117.4,
+      "preNewsMarketImpliedProbability": 52.61,
+      "estimatedEdgePctAtPreNews36_5": 1.39,
+      "edgeBucket": "<2%",
+      "decisionStatus": "WATCH",
+      "confidence": "C+",
+      "playToLine": 34.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "REPRICE_REQUIRED",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.0,
+      "signalTags": ["INJURY", "ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "BATEMAN_FLOWERS_OUT_ROLE",
+      "actualUserAction": "NO_BET_RECORDED",
+      "alert": true,
+      "reason": "Flowers OUT materially raises Bateman's expected opportunity and the team says Bateman becomes the top receiver, but the last named-book quotes available to this run predate the official OUT designation. Even at the pre-news 36.5/-111 reference, a conservative 54% fair Over estimate produces only about a 1.4 percentage-point edge, below PRIME's preferred 4-5 point threshold. Week 1 route participation was strong but target earning was extremely weak (one target on 26 routes), and 2025 target share/YPRR/first-read data were also poor. Do not chase the injury headline. Reopen only after a fresh post-news regulated-book price is verified; 34.5 or lower at -115 or better would merit a new calculation, not automatic authorization."
+    },
+    {
+      "player": "Rashod Bateman",
+      "game": "NO@BAL",
+      "propType": "RECEPTIONS",
+      "market": "Receptions",
+      "side": "OVER",
+      "sportsbook": "NO CURRENT POST-FLOWERS-OUT EXECUTABLE BOOK PRICE VERIFIED",
+      "line": null,
+      "odds": null,
+      "preNewsMarketReference": "BetMGM O2.5 -130 via CLEATZ board timestamped before the Flowers OUT announcement",
+      "decisionStatus": "PASS",
+      "confidence": "PASS",
+      "playToLine": 2.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "REPRICE_REQUIRED",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.0,
+      "signalTags": ["INJURY", "ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "BATEMAN_FLOWERS_OUT_ROLE",
+      "actualUserAction": "NO_BET_RECORDED",
+      "alert": true,
+      "reason": "The pre-news O2.5 -130 quote already required 56.5% raw break-even and exceeded PRIME's prior price tolerance. Flowers OUT improves the target path but does not erase Bateman's weak target-earning evidence. No bet without a fresh post-news price; do not reuse -130 as current."
+    },
+    {
+      "player": "Mark Andrews",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "NO CURRENT POST-FLOWERS-OUT EXECUTABLE BOOK PRICE VERIFIED",
+      "line": null,
+      "odds": null,
+      "preNewsMarketReference": "Pinnacle O48.5 +102 via CLEATZ board timestamped 2026-09-19 13:49 ET",
+      "consensusProjection": "numberFire 38.3 receiving yards; Stats Insider 48 receiving yards",
+      "ourMeanProjection": 45.0,
+      "ourMedianProjection": 43.0,
+      "estimatedOverProbabilityAtPreNews48_5": 44.0,
+      "estimatedUnderProbabilityAtPreNews48_5": 56.0,
+      "decisionStatus": "PASS",
+      "confidence": "PASS",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "REPRICE_REQUIRED",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.0,
+      "signalTags": ["INJURY", "ROUTE_SHARE", "TARGET_SHARE", "FIRST_READ_SHARE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "RAVENS_FLOWERS_OUT_TARGET_CONCENTRATION",
+      "actualUserAction": "NO_BET_RECORDED",
+      "alert": true,
+      "reason": "Andrews already had a strong Week 1 role (70% route share, 24% target share, 2.33 YPRR, 26.3% first-read share, one red-zone target), so Flowers OUT is supportive. But the accessible 48.5 market reference is already at/above current independent projections (38.3 numberFire; 48 Stats Insider) and predates the official OUT announcement. No Over at a 48.5-type threshold. Re-evaluate only on a fresh post-news regulated-book line and price."
+    }
+  ],
+  "confirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Baltimore Ravens official website",
+      "sourceTimestamp": "2026-09-19 16:18 ET",
+      "claim": "Zay Flowers (hamstring) was downgraded from doubtful to OUT for Week 2 vs. New Orleans. Baltimore states Rashod Bateman will move into the top receiver spot, with LaJohntay Wester, Devontez Walker, Chris Moore and Elijah Sarratt seeing more opportunities."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Baltimore Ravens / Reuters",
+      "sourceTimestamp": "2026-09-19",
+      "claim": "Ja'Kobi Lane is on injured reserve following wrist surgery, further thinning Baltimore's wide-receiver room."
+    }
+  ],
+  "roleAndProjectionChecks": [
+    {
+      "classification": "attributed_report",
+      "source": "RotoBaller citing ESPN",
+      "sourceTimestamp": "2026-09-19 08:07 ET",
+      "player": "Rashod Bateman",
+      "claim": "Bateman played about 80% of Week 1 snaps, 85% before halftime while Flowers and Lane were still active, and ran a team-high 26 routes but earned only one target."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Stats Insider current Week 2 model",
+      "capturedAtEt": "2026-09-19 18:50 ET",
+      "player": "Rashod Bateman",
+      "claim": "Projects 42 receiving yards vs. New Orleans."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Stats Insider current Week 2 model",
+      "capturedAtEt": "2026-09-19 18:50 ET",
+      "player": "Mark Andrews",
+      "claim": "Projects 48 receiving yards vs. New Orleans."
+    },
+    {
+      "classification": "model_projection",
+      "source": "numberFire via FanDuel Research",
+      "sourceTimestamp": "2026-09-15",
+      "player": "Mark Andrews",
+      "claim": "Projects 38.30 receiving yards in Week 2."
+    },
+    {
+      "classification": "analyst_opinion_with_usage_data",
+      "source": "FantasyPros / Derek Brown",
+      "sourceTimestamp": "2026-09-17 13:35 ET",
+      "player": "Mark Andrews",
+      "claim": "Week 1 usage: 70% route share, 71.9% snap rate, 24% target share, 2.33 YPRR, 26.3% first-read share and one red-zone target."
+    },
+    {
+      "classification": "analyst_opinion_with_usage_data",
+      "source": "FantasyPros / Derek Brown",
+      "sourceTimestamp": "2026-09-13",
+      "player": "Rashod Bateman",
+      "claim": "2025 profile: 10.5% target share, 0.76 yards per route run and 10.9% first-read share."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference_stale_after_material_news",
+      "source": "CLEATZ receiving board",
+      "sourceTimestamp": "2026-09-19 13:49 ET",
+      "player": "Rashod Bateman",
+      "claim": "Board showed receiving yards O36.5 -111 DraftKings and a pre-news receptions quote O2.5 -130 BetMGM. Because Flowers was not officially ruled out until 16:18 ET, neither quote is treated as current executable truth for this run."
+    },
+    {
+      "classification": "sportsbook_market_reference_stale_after_material_news",
+      "source": "CLEATZ receiving board",
+      "sourceTimestamp": "2026-09-19 13:49 ET",
+      "player": "Mark Andrews",
+      "claim": "Board showed receiving yards O48.5 +102 Pinnacle. This predates Flowers being officially ruled out and is retained only as line-history context."
+    }
+  ],
+  "unchangedPriorStates": [
+    "Aaron Rodgers U0.5 interceptions remains WATCH / REPRICE_REQUIRED.",
+    "Roman Wilson receiving yards remains PASS_AFTER_MOVE.",
+    "Rico Dowdle O8.5 rushing attempts remains price-disqualified unless a fresh regulated book returns at -115 or better.",
+    "Dalton Schultz O41.5 receiving yards prior state remains STILL_PLAYABLE only at the stored 41.5/-115 ceiling; no duplicate recommendation without a fresh executable check.",
+    "Josh Downs, Juwan Johnson and Jonathan Taylor remain above their stored buy thresholds in the most recently verified market context."
+  ],
+  "sources": [
+    "https://www.baltimoreravens.com/news/zay-flowers-ruled-out-carl-jones-signed-53-man-roster-tj-tampa-injured-reserve-ravens-saints-week-2-2026",
+    "https://www.reuters.com/sports/ravens-rule-out-star-wr-zay-flowers-hamstring-vs-saints--flm-2026-09-19/",
+    "https://cleatz.com/nfl/receiving-props/",
+    "https://www.statsinsider.com.au/news/ravens-vs-saints-prediction-and-preview-nfl-week-2-2026",
+    "https://www.fanduel.com/research/mark-andrews-nfl-fantasy-week-2-vs-saints-2026",
+    "https://www.fantasypros.com/nfl/notes/440624/mark-andrews-2026-week-2-outlook.php",
+    "https://www.fantasypros.com/2026/09/the-primer-week-1-edition-2026-fantasy-football/2/"
+  ]
+}
