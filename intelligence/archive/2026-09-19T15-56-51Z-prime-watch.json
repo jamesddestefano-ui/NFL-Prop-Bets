@@ -1,0 +1,254 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T15:56:51Z",
+  "runAtEt": "2026-09-19 11:56:51",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T15-27-17Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL ALERT. No new Grok pass. Fresh Saturday research does not produce a new executable PRIME wager or an adverse change requiring user action. Dalton Schultz's existing price-specific Over 41.5 receiving-yards recommendation remains intact: Covers' Schultz board was updated 11:25 ET and showed FanDuel O41.5 -114 and BetRivers O41.5 -115, both inside the stored 41.5/-115 ceiling. This is not a new opportunity because the same threshold/price was already alerted. Houston's final injury report confirms Schultz's Wednesday absence was non-injury rest and he returned to full participation Thursday and Friday with no game designation; Nico Collins remains OUT. Jonathan Taylor's BetMGM Week 2 page still lists a 15.5 receiving-yards threshold, but an exact current live price was not independently reverified, so preserve the prior 15.5/-125 ceiling without a duplicate alert. New analyst candidates were screened rather than blindly promoted: Mack Hollins O35.5 receiving has current BettingPros consensus support and a strong role case after A.J. Brown's injury, but no sufficiently fresh sportsbook-specific executable pair was verified in this run; WATCH. Jeremiyah Love O15.5 receiving is supported by an analyst pick and FantasyPros' 19.2-yard projection, but BettingPros' current consensus has moved to 16.5 and Week 1 usage was only a 38.5% route share and 8.1% target share; WATCH/PASS until a fresh exact 15.5 book/price is verified. Quinshon Judkins U49.5 rushing is stale relative to BettingPros' current 47.5 consensus and is PASS_AFTER_MOVE. Rashod Bateman O2.5 remains too price-sensitive; the analyst-referenced -135 is not enough to justify an actionable PRIME recommendation without a better exact live book. Brock Purdy O19.5 completions and Daniel Jones U32.5 attempts remain unresolved because current price references conflict. Josh Downs 40.5 and Juwan Johnson 38.5 remain above their stored buy ceilings. Rico Dowdle O8.5 attempts still lacks a fresh exact regulated-book pair. No chase.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel via Covers",
+      "line": 41.5,
+      "odds": -114,
+      "bestMarketLine": "41.5 at FanDuel -114; 41.5 at BetRivers -115",
+      "consensusLine": "roughly 45.5 with material book dispersion",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["INJURY", "TARGET_SHARE", "FIRST_READ_SHARE", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "correlationTags": ["SAME_THESIS"],
+      "alertSuppressed": true,
+      "reason": "Covers' odds board updated 11:25 ET shows the exact previously alerted threshold still available at FanDuel -114 and BetRivers -115. Nico Collins remains out. Schultz's non-injury rest is not an injury downgrade: final reporting shows full participation Thursday and Friday and no game designation. No duplicate alert if already acted on the prior recommendation."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "BET_NOW_IF_EXACT_PRICE_STILL_LIVE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROLE_CHANGE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "alertSuppressed": true,
+      "reason": "BetMGM's official Week 2 page continues to list 15.5 receiving yards, but exact live juice was not independently reverified in this run. Preserve the prior price-specific approval; no chase to 16.5/17.5 and no duplicate exposure."
+    },
+    {
+      "player": "Mack Hollins",
+      "game": "PIT@NE",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "line": 35.5,
+      "consensusLine": 35.5,
+      "steamState": "BET_NOW_IF_EXACT_PRICE_VERIFIED",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "SNAP_SHARE", "TARGET_SHARE", "FIRST_READ_SHARE", "EXPERT_CONSENSUS"],
+      "reason": "BettingPros' current prop analyzer lists 35.5 as consensus and Erickson supports O35.5 after A.J. Brown went to IR. FantasyPros notes Hollins' Week 1 70% snap share, 50% route share, 24% TPRR, 19% first-read share and favorable two-high splits. However, the exact multi-book prices on the accessible Covers player page are timestamped Thursday, so they are not treated as current executable truth. WATCH until a fresh regulated sportsbook pair is verified."
+    },
+    {
+      "player": "Jeremiyah Love",
+      "game": "SEA@ARI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "line": 15.5,
+      "consensusLine": 16.5,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "MATCHUP", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "reason": "Erickson's published play is O15.5 -114 and FantasyPros projects 19.2 receiving yards, but BettingPros' current analyzer has consensus at 16.5. Love saw four targets but only 9 receiving yards in Week 1 while playing 44.4% of snaps with a 38.5% route share and 8.1% target share. Do not convert the projection into a bet without a fresh exact 15.5 sportsbook/price."
+    },
+    {
+      "player": "Quinshon Judkins",
+      "game": "CLE@TB",
+      "propType": "RUSH_YARDS",
+      "side": "UNDER",
+      "decisionStatus": "PASS",
+      "line": 47.5,
+      "consensusLine": 47.5,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["RUSH_SHARE", "MATCHUP", "MARKET_MOVE", "EXPERT_CONSENSUS", "PROJECTION_DISAGREEMENT"],
+      "reason": "Erickson's published Under was 49.5 -108, but the current BettingPros consensus is already 47.5. The two-yard move consumes meaningful edge; do not transfer the 49.5 thesis to 47.5. Independent projections also disagree materially on expected rushing output."
+    },
+    {
+      "player": "Rashod Bateman",
+      "game": "NO@BAL",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "line": 2.5,
+      "odds": -135,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "EXPERT_CONSENSUS", "MARKET_MOVE"],
+      "reason": "Zay Flowers is officially doubtful, supporting Bateman volume, but the current analyst-referenced O2.5 price is -135. That 57.45% raw break-even is too expensive to promote without a fresh exact sportsbook pair and a defensible fair probability clearing PRIME's threshold."
+    },
+    {
+      "player": "Josh Downs",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "line": 40.5,
+      "playToLine": 36.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "reason": "Current public FanDuel reference remains 40.5, four yards above PRIME's stored 36.5 buy threshold. No chase."
+    },
+    {
+      "player": "Juwan Johnson",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "line": 38.5,
+      "playToLine": 34.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "reason": "Current public market remains around 38.5, materially above PRIME's 34.5 price-specific recommendation. No chase."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_IF_EXACT_PRICE_STILL_LIVE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["SNAP_SHARE", "RUSH_SHARE", "RED_ZONE", "MARKET_MOVE"],
+      "reason": "No fresh exact regulated-book O8.5/-115-or-better attempts pair was verified. Preserve the threshold and do not infer it from other rushing markets."
+    },
+    {
+      "player": "Brock Purdy",
+      "game": "MIA@SF",
+      "propType": "OTHER",
+      "market": "Completions",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "line": 19.5,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["MARKET_MOVE", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "reason": "Current price references conflict: BettingPros' published card cites -122 while another current public market reference was around -135. With 4for4 around 19.8 completions, do not create a wager from stale or conflicting juice."
+    },
+    {
+      "player": "Daniel Jones",
+      "game": "IND@KC",
+      "propType": "PASS_ATTEMPTS",
+      "side": "UNDER",
+      "decisionStatus": "WATCH",
+      "line": 32.5,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["MATCHUP", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "reason": "Analyst support remains for U32.5 but exact current book prices remain inconsistent. No promotion without a fresh regulated-book pair."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Dalton Schultz player prop board",
+      "capturedAtEt": "2026-09-19 11:56 ET",
+      "sourceMarketTimestamp": "2026-09-19 11:25 ET",
+      "claim": "Schultz receiving yards: FanDuel O41.5 -114; BetRivers O41.5 -115; BetMGM O45.5 -115; bet365 O46.5 -115; DraftKings O46.5 -113; theScore O42.5 -110. The 41.5 outlier remains inside PRIME's existing ceiling."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "BetMGM official Jonathan Taylor Week 2 prop page",
+      "capturedAtEt": "2026-09-19 11:56 ET",
+      "claim": "Taylor receiving-yards threshold remains listed at 15.5; exact current live odds are not exposed in the accessible page."
+    },
+    {
+      "classification": "market_consensus",
+      "source": "BettingPros current prop analyzers",
+      "capturedAtEt": "2026-09-19 11:56 ET",
+      "claim": "Mack Hollins receiving yards consensus 35.5; Jeremiyah Love receiving yards consensus 16.5; Quinshon Judkins rushing yards consensus 47.5. These consensus numbers are movement context and not sportsbook-specific executable prices."
+    }
+  ],
+  "newsRoleChecks": [
+    {
+      "classification": "confirmed_fact",
+      "source": "NFL.com / Bengals official Week 2 injury report",
+      "claim": "Nico Collins is OUT. Dalton Schultz's report entry is non-injury rest; secondary reporting shows he returned to full participation Thursday and Friday with no game designation."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Baltimore Week 2 final injury reporting",
+      "claim": "Zay Flowers is doubtful with a hamstring injury. This supports a Bateman role increase but does not override price discipline."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros",
+      "claim": "Dalton Schultz Week 2 projection: 4.1 receptions, 42.1 receiving yards. Jeremiyah Love Week 2 projection: 2.8 receptions, 19.2 receiving yards."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "FantasyPros Derek Brown",
+      "claim": "Mack Hollins Week 1: 70% snaps, 50% route share, 24% TPRR, 19% first-read share; usage could rise with New England's receiver injuries."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "newRecommendedStakeUnits": 0,
+    "notes": "No new wager added. Existing price-specific recommendations remain conditional on exact stored thresholds and maximum juice. Do not duplicate any ticket placed outside the repository."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — durable record of the 11:56 ET Saturday refresh",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — no new executable bet supersedes existing state",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — new WATCH/PASS candidates preserved in this immutable archive pending batch reconciliation",
+    "lineHistory": "CURRENT VERIFIED SCHULTZ AND CONSENSUS MARKET CHECKS PRESERVED IN THIS IMMUTABLE ARCHIVE; no stale sportsbook table written as current executable truth",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user straight ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE — Judkins stale-thesis pass preserved here pending later batch reconciliation",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.nfl.com/injuries/",
+    "https://www.bengals.com/news/texans-bengals-injury-report-week-2-2026",
+    "https://www.covers.com/sport/football/nfl/players/32804/dalton-schultz",
+    "https://sports.betmgm.com/en/blog/nfl/jonathan-taylor-props-odds-gaa/",
+    "https://www.bettingpros.com/articles/nfl-betting-primer-picks-predictions-week-2-2026/",
+    "https://www.bettingpros.com/nfl/props/mack-hollins/receiving-yards/",
+    "https://www.bettingpros.com/nfl/props/jeremiyah-love/receiving-yards/",
+    "https://www.bettingpros.com/nfl/props/quinshon-judkins/rushing-yards/",
+    "https://www.fantasypros.com/nfl/notes/440738/mack-hollins-2026-week-2-outlook.php",
+    "https://www.fantasypros.com/nfl/players/jeremiyah-love.php",
+    "https://www.fantasypros.com/nfl/projections/dalton-schultz.php"
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest remains live at 2026-09-12T17:05:00Z, matching the compact history index and the last processed timestamp.",
+    "Schultz's Wednesday DNP is confirmed as non-injury rest rather than an injury downgrade; no reason to invalidate the existing O41.5 price-specific thesis.",
+    "A favorable historical or analyst threshold is not treated as current if the sportsbook timestamp is stale. Mack Hollins' older Covers table was therefore not used as executable truth despite attractive numbers.",
+    "Judkins illustrates steam discipline: an Under 49.5 analyst thesis is not automatically valid after consensus moves to 47.5.",
+    "No user notification is warranted because no genuinely new executable price, stale-thesis reversal, or material adverse change requires attention."
+  ]
+}
