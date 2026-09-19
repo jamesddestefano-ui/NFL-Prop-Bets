@@ -1,0 +1,323 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T22:06:52Z",
+  "runAtEt": "2026-09-19 18:06:52",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T21-29-13Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL PROCESS UPDATE: withdraw the prior Aaron Rodgers Under 0.5 interceptions conditional BET at -143-or-better. Fresh independent projection and market cross-checks show materially wider disagreement than the prior 63% PRIME fair probability captured: Action Network projects 0.44 INT / 64.3% Under, while FantasyPros and RotoBaller project 0.6 INT, Covers projects 0.85 INT and shows an Over-side probability reference near 48%, and a current public StatMuse board displays O0.5 +100 / U0.5 -117 without a named sportsbook. Action's 16:01 ET article itself shows bet365 -135 in the main pick block while a dynamic footer displays -130, so PRIME will not treat either as a guaranteed current executable price. The edge is therefore not robust enough for a formal wager at -135/-139 and the prior -143 ceiling is revoked. Reopen only after a named regulated sportsbook is freshly verified and cross-source probability uncertainty is recalculated. Separately, Patriots starting CB Carlton Davis III is officially OUT. Pittsburgh WR Roman Wilson's receiving-yard Over has already steamed from a saved 16.5 baseline to 31.5 around -115; a current CLEATZ board shows FanDuel O31.5 -113 and SportsGrid projects 30.4, so the Pittman-out/Davis-out target-vacuum thesis is already repriced and the Over is PASS_AFTER_MOVE. Rico Dowdle O8.5 rushing attempts remains price-disqualified unless a regulated sportsbook reappears at -115 or better; a current public game board shows 8.5 at -130 and no fresh named-book price at the stored ceiling was verified. Dalton Schultz O41.5 remains inside the stored ceiling (current CLEATZ board shows Circa -110) but is unchanged and does not trigger a duplicate alert. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Aaron Rodgers",
+      "game": "PIT@NE",
+      "propType": "OTHER",
+      "market": "Interceptions Thrown",
+      "side": "UNDER",
+      "sportsbook": "NO CURRENT EXECUTABLE BOOK PRICE VERIFIED WITH SUFFICIENT CONSISTENCY",
+      "line": 0.5,
+      "odds": null,
+      "priorDecisionStatus": "BET",
+      "priorMaxAcceptableOdds": -143,
+      "decisionStatus": "WATCH",
+      "confidence": "C+",
+      "playToLine": 0.5,
+      "maxAcceptableOdds": null,
+      "steamState": "REPRICE_REQUIRED",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.0,
+      "signalTags": ["MATCHUP", "PROJECTION_DISAGREEMENT", "INJURY", "GAME_SCRIPT", "MARKET_MOVE"],
+      "correlationTags": [],
+      "thesisId": "RODGERS_BALL_SECURITY_NE",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": true,
+      "reason": "The prior 63% PRIME Under probability is no longer defensible as a robust single estimate. Action's dedicated model is strongly Under (0.44 INT; 35.7% at least one), but FantasyPros and RotoBaller each project 0.6 INT, Covers projects 0.85 INT with a much more neutral Over probability reference, and current public price references conflict materially. Because price and probability uncertainty now overlap the expected edge, PRIME withdraws the -143-or-better conditional authorization. Do not place at -135/-139 solely from the prior alert. Reopen only on a fresh named-book quote plus a recalculated probability distribution."
+    },
+    {
+      "player": "Roman Wilson",
+      "game": "PIT@NE",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "FanDuel via CLEATZ current receiving board",
+      "line": 31.5,
+      "odds": -113,
+      "bestMarketLine": "31.5 -113 FanDuel on current CLEATZ receiving board",
+      "consensusLine": "roughly 31.5 after rapid repricing; SportsGrid also lists 31.5",
+      "openingLine": 16.5,
+      "lineAtFirstDetection": 29.5,
+      "lineAtRecommendation": null,
+      "ourMeanProjection": null,
+      "estimatedOverProbability": null,
+      "estimatedUnderProbability": null,
+      "fairOdds": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": null,
+      "decisionStatus": "PASS",
+      "confidence": "PASS",
+      "playToLine": 29.5,
+      "maxAcceptableOdds": -110,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.0,
+      "signalTags": ["INJURY", "ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "DEFENSIVE_INJURY", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "ROMAN_WILSON_PITTMAN_OUT_ROLE",
+      "actualUserAction": "NO_BET_RECORDED",
+      "alert": true,
+      "reason": "Pittman OUT creates a real role increase and Carlton Davis OUT weakens New England's corner depth, but the market has already repriced violently. CLEATZ's mover board shows Roman Wilson receiving yards Over moving from 16.5 -114 to 31.5 -115, while the current receiving board shows FanDuel 31.5 -113. SportsGrid projects only 30.4 and lists Under 31.5 -113. Do not chase the injury thesis after a roughly 15-yard move."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "sportsbook": "Current public game board; exact named sportsbook not identified",
+      "line": 8.5,
+      "odds": -130,
+      "priorEstimatedOverProbability": 59.0,
+      "decisionStatus": "PASS",
+      "confidence": "PASS",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_PRICE",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.0,
+      "signalTags": ["SNAP_SHARE", "RUSH_SHARE", "INJURY", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": [],
+      "thesisId": "DOWDLE_LEAD_BACK_VOLUME",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": true,
+      "reason": "The 8.5 threshold remains visible, but the current public game board is -130, well beyond PRIME's stored -115 maximum juice, and no fresh regulated-book price at -115 or better was verified. Preserve the 8.5 threshold but do not chase the price. If a live regulated book returns to -115 or better, recalculate before promotion."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "Circa via CLEATZ current receiving board",
+      "line": 41.5,
+      "odds": -110,
+      "decisionStatus": "BET",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.5,
+      "signalTags": ["INJURY", "ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE"],
+      "correlationTags": [],
+      "thesisId": "SCHULTZ_COLLINS_OUT_VOLUME",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "Current CLEATZ receiving board shows 41.5 -110 at Circa, inside the stored 41.5/-115 ceiling. This is unchanged confirmation, not a new recommendation."
+    },
+    {
+      "player": "Josh Downs",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "Current CLEATZ receiving board",
+      "line": 40.5,
+      "odds": -110,
+      "decisionStatus": "PASS",
+      "playToLine": 36.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "WEATHER"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "DOWNS_FULL_TIME_SLOT_VOLUME",
+      "alert": false,
+      "reason": "Current board remains 40.5, above the stored 36.5 ceiling. No change."
+    },
+    {
+      "player": "Juwan Johnson",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "FanDuel via CLEATZ current receiving board",
+      "line": 38.5,
+      "odds": -113,
+      "decisionStatus": "PASS",
+      "playToLine": 34.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "INJURY", "MARKET_MOVE", "WEATHER"],
+      "correlationTags": [],
+      "thesisId": "JUWAN_TE_VOLUME",
+      "alert": false,
+      "reason": "Current board remains 38.5, four yards above the prior 34.5 buy threshold. No chase."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "Hard Rock via CLEATZ current receiving board",
+      "line": 17.5,
+      "odds": -110,
+      "decisionStatus": "WATCH",
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "WEATHER"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "TAYLOR_RECEIVING_VOLUME",
+      "alert": false,
+      "reason": "Current board shows 17.5, above the stored 15.5 ceiling. No change."
+    }
+  ],
+  "confirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "source": "New England Patriots official roster analysis / injury report",
+      "sourceTimestamp": "2026-09-19 16:00 ET",
+      "claim": "Starting CB Carlton Davis III (neck) was downgraded to OUT for Week 2 vs. Pittsburgh. New England expects Charles Woods and younger corners to absorb the role."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Pittsburgh Steelers official injury report",
+      "sourceTimestamp": "2026-09-19 13:31 ET",
+      "claim": "WR Michael Pittman Jr. is OUT for Week 2 at New England."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Action Network / Nick Giffen",
+      "sourceTimestamp": "2026-09-19 16:01 ET",
+      "player": "Aaron Rodgers",
+      "claim": "Article main block lists U0.5 interceptions at bet365 -135, DraftKings -139, Caesars -141; dynamic footer on the same page displays bet365 -130. Because the page contains internally different prices and is over two hours old at this run, PRIME does not treat either as guaranteed current executable truth."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Action Network / Nick Giffen",
+      "sourceTimestamp": "2026-09-19 16:01 ET",
+      "player": "Aaron Rodgers",
+      "claim": "0.44 projected interceptions; 35.7% probability of at least one interception (64.3% Under)."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 projections",
+      "capturedAtEt": "2026-09-19 18:06 ET",
+      "player": "Aaron Rodgers",
+      "claim": "31.8 pass attempts and 0.6 projected interceptions."
+    },
+    {
+      "classification": "model_projection",
+      "source": "RotoBaller Week 2 projections",
+      "capturedAtEt": "2026-09-19 18:06 ET",
+      "player": "Aaron Rodgers",
+      "claim": "Approximately 0.6 projected interceptions."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Covers Steelers current picks/projections page",
+      "capturedAtEt": "2026-09-19 18:06 ET",
+      "player": "Aaron Rodgers",
+      "claim": "Projects 0.85 interceptions, 38.5 pass attempts and a 64% pass rate; displayed Over-side probability reference is near 48%."
+    },
+    {
+      "classification": "market_reference_not_named_book",
+      "source": "StatMuse PIT@NE game prop board",
+      "capturedAtEt": "2026-09-19 18:06 ET",
+      "player": "Aaron Rodgers",
+      "claim": "Displays interceptions O0.5 +100 / U0.5 -117 but does not identify the sportsbook in the accessible result, so it is disagreement evidence only and not executable-book truth."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "CLEATZ live odds-mover / receiving boards",
+      "capturedAtEt": "2026-09-19 18:06 ET",
+      "player": "Roman Wilson",
+      "claim": "Receiving-yards Over moved from 16.5 -114 to 31.5 -115 on the mover board; current receiving board shows FanDuel 31.5 -113."
+    },
+    {
+      "classification": "model_projection",
+      "source": "SportsGrid current Week 2 player-prop page",
+      "capturedAtEt": "2026-09-19 18:06 ET",
+      "player": "Roman Wilson",
+      "claim": "Projects 30.4 receiving yards and lists a 31.5 market, leaving no robust Over edge after the move."
+    },
+    {
+      "classification": "market_reference_not_named_book",
+      "source": "StatMuse PIT@NE game prop board",
+      "capturedAtEt": "2026-09-19 18:06 ET",
+      "player": "Rico Dowdle",
+      "claim": "Rushing attempts O8.5 is displayed at -130, worse than PRIME's -115 ceiling; named sportsbook is not identified in the accessible result."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "CLEATZ current receiving board",
+      "capturedAtEt": "2026-09-19 18:06 ET",
+      "player": "Dalton Schultz",
+      "claim": "Receiving yards 41.5 -110 at Circa, within PRIME's stored 41.5/-115 ceiling."
+    }
+  ],
+  "newsChecks": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Patriots.com",
+      "sourceTimestamp": "2026-09-19 16:00 ET",
+      "claim": "Carlton Davis III OUT. Patriots staff notes the loss of their starting corner is partly offset by Pittsburgh also missing Michael Pittman Jr."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Patriots official Week 2 injury report",
+      "claim": "New England: Carlton Davis III and Dametrious Crownover OUT; Ben Brown and Dre'Mont Jones QUESTIONABLE; TreVeyon Henderson has no game status after full participation. Pittsburgh: Michael Pittman Jr. and Joey Porter Jr. OUT; Troy Fautanu QUESTIONABLE after full Friday participation."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "newRecommendedStakeUnits": 0.0,
+    "notes": "No new straight wager is authorized in this run. Prior Rodgers conditional authorization is withdrawn pending fresh named-book verification and probability reconciliation. Schultz remains an unchanged prior recommendation only."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — preserves Rodgers downgrade, Carlton Davis OUT, Roman Wilson repricing and Dowdle price rejection",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — current incremental state preserved in immutable archive pending safe batch reconciliation",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — current incremental decisions preserved in immutable archive pending safe batch reconciliation",
+    "lineHistory": "CURRENT MARKET SNAPSHOTS PRESERVED IN marketChecks pending safe batch reconciliation",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user straight ticket",
+    "missedBets": "NO CHANGE — Roman Wilson was never a formal PRIME recommendation before the steam move",
+    "passLedger": "NO DESTRUCTIVE CSV REWRITE — pass states preserved here pending safe batch reconciliation",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.patriots.com/news/roster-analysis-patriots-downgrade-cb-carlton-davis-iii-to-out-elevate-p-mitch-wishnowsky-from-the-practice-squad-for-week-2-vs-steelers",
+    "https://www.patriots.com/news/week-2-injury-report-patriots-vs-steelers",
+    "https://www.steelers.com/news/week-2-injury-report-patriots-x4998",
+    "https://www.actionnetwork.com/nfl/player-props-for-nfl-week-2-aaron-rodgers-jeremiyah-love",
+    "https://www.fantasypros.com/nfl/projections/aaron-rodgers.php",
+    "https://www.rotoballer.com/fantasy-football-projections-for-week-2-rb-wr-qb-te-2026/1932317",
+    "https://www.covers.com/sport/football/nfl/teams/main/pittsburgh-steelers/picks",
+    "https://www.statmuse.com/nfl/game/9-20-2026-pit-at-ne-19085",
+    "https://cleatz.com/nfl/odds-movers/",
+    "https://cleatz.com/nfl/receiving-props/",
+    "https://www.sportsgrid.com/nfl/player-props"
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest remains live at completedAt 2026-09-12T17:05:00Z, identical to the compact history index and prior processed state.",
+    "Rodgers Under remains directionally plausible based on career/2025 ball security and Action's model, but the formal 63% fair probability was too confident given the newly captured independent projection spread and inconsistent public prices. Price discipline requires revoking the prior -143 ceiling rather than preserving a stale authorization.",
+    "Roman Wilson's role-change thesis is confirmed by Pittman OUT, but the market has already moved roughly 15 yards. The correct state is PASS_AFTER_MOVE, not steam chasing.",
+    "Carlton Davis OUT is a confirmed defensive injury signal and is stored separately from any model projection. It marginally benefits Pittsburgh passing efficiency but does not independently create a clean prop edge after current repricing.",
+    "Sunday intensity remains scheduled for overnight monitoring and explicit 08:00/09:00/10:00/11:30/12:30 ET checkpoints."
+  ]
+}
