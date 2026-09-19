@@ -1,0 +1,122 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T02:55:31Z",
+  "runAtEt": "2026-09-18 22:55:31",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T02-42-14Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE REQUIRING A USER ALERT. No new Grok pass. A fresh current-access multi-book check continues to center Rico Dowdle rushing attempts at 12.5, so PRIME's prior Over 8.5 recommendation remains PASS_AFTER_MOVE and must not be chased. Dalton Schultz receiving yards remains FanDuel Over 41.5 -114, still inside the stored 41.5/-115 ceiling, and Jonathan Taylor receiving yards remains BetMGM Over 15.5 -120, still inside the stored 15.5/-125 ceiling; both are unchanged from the 22:42 ET archive and do not justify duplicate alerts. A separate fantasy-market aggregator displayed an unpriced Dowdle 8.5 attempts number from one book earlier in the evening, but it does not identify executable juice and conflicts with the later/current multi-book board, so it is not allowed to overwrite verified market truth. Michael Mayer and the Rams receiving tree remain WATCH items without a new price/news catalyst. No confirmed Week 2 straight ticket exists in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "Current regulated multi-book board remains centered at 12.5, four attempts above the original price-specific 8.5 entry. Do not transfer the prior edge to 12.5 and do not chase."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel",
+      "line": 41.5,
+      "odds": -114,
+      "estimatedOverProbability": 0.575,
+      "fairOdds": -135.3,
+      "estimatedEdgePct": 4.23,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_UNCHANGED",
+      "reason": "Current-access board still shows the exact approved 41.5/-114 entry while other books remain higher. This is unchanged from the immediately prior archive, so no duplicate alert is issued."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "BetMGM",
+      "line": 15.5,
+      "odds": -120,
+      "estimatedOverProbability": 0.60,
+      "fairOdds": -150.0,
+      "estimatedEdgePct": 5.45,
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "BET_NOW_UNCHANGED",
+      "reason": "Current-access board still shows the exact approved 15.5/-120 entry. No new injury, weather, or price movement changes the prior recommendation."
+    },
+    {
+      "player": "Michael Mayer",
+      "game": "LV@LAC",
+      "propType": "RECEIVING_YARDS/RECEPTIONS",
+      "decisionStatus": "WATCH",
+      "steamState": "ROLE_CATALYST_NO_NEW_PRICE",
+      "reason": "Brock Bowers' doubtful status is already incorporated; no new regulated sportsbook line/price or role update clears PRIME's threshold."
+    },
+    {
+      "player": "Puka Nacua / Davante Adams",
+      "game": "NYG@LAR",
+      "propType": "RECEIVING_YARDS",
+      "decisionStatus": "WATCH",
+      "steamState": "INJURY_REPRICE_PENDING",
+      "reason": "Puka's Friday hip DNP was already captured. Monday status remains unresolved and no new actionable price dislocation is verified."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market",
+      "source": "CLEATZ multi-book current-access board",
+      "sourceTimestampEt": "accessed 2026-09-18 about 22:55 ET",
+      "claim": "Rico Dowdle rushing attempts remain centered at 12.5 across visible regulated books; Dalton Schultz receiving yards still includes FanDuel O41.5 -114; Jonathan Taylor receiving yards still includes BetMGM O15.5 -120."
+    },
+    {
+      "classification": "market_context_only",
+      "source": "FantasyFootballTargets",
+      "sourceTimestampEt": "page checked 2026-09-18 21:44 ET",
+      "claim": "The page displayed a Dowdle rushing-attempts consensus of 8.5 from one book but exposed no price. Because it is unpriced and conflicts with the later/current regulated multi-book board at 12.5, it is not treated as executable sportsbook truth."
+    }
+  ],
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — this file is the durable append-only record for this run",
+    "livePropBoard": "NO CHANGE — no newer actionable state supersedes the prior board",
+    "decisionLedger": "NO CHANGE — no new decision classification beyond the immediately prior archive",
+    "lineHistory": "NO DUPLICATE CSV APPEND — current-access prices match the 22:42 ET snapshots already preserved",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE — Dowdle PASS_AFTER_MOVE already preserved",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://cleatz.com/nfl-props-test/",
+    "https://www.fantasyfootballtargets.com/player/rico-dowdle",
+    "https://www.covers.com/sport/football/nfl/players/48469/jonathan-taylor",
+    "https://www.fanduel.com/research/nfl/player-news/game-updates/dalton-schultz-and-texans-play-bengals-in-week-2-9-20-2026",
+    "https://www.nfl.com/news/nfl-week-2-injury-report-player-statuses-for-all-16-games"
+  ],
+  "researchNotes": [
+    "Grok latest remains status=live with completedAt 2026-09-12T17:05:00Z, identical to the most recently processed pass; therefore it is not new.",
+    "Verified current multi-book sportsbook truth controls over an unpriced one-book aggregator number.",
+    "Taylor and Schultz remain exact price-sensitive approved entries but are unchanged from the prior run; no duplicate user notification is warranted.",
+    "Dowdle remains a disciplined PASS_AFTER_MOVE at 12.5.",
+    "No material change occurred after the 22:42 ET archive, so the automation should remain silent this run."
+  ]
+}
