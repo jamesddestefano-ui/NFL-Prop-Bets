@@ -1,0 +1,157 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T08:43:09Z",
+  "runAtEt": "2026-09-19 04:43:09",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T07-34-49Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE. Fresh Saturday overnight research found no verified injury, role, weather, or market development that materially changes PRIME's prior actionable board. Rico Dowdle O8.5 rushing attempts remains verified at bet365 -115 on the latest Covers board timestamped 02:19 ET; Juwan Johnson O34.5 receiving yards remains verified at bet365 -115 on a Covers board updated 03:35 ET; Dalton Schultz O41.5 receiving yards remains verified at FanDuel -114 on the latest available Covers board. Jonathan Taylor's prior O15.5 -120 BetMGM recommendation remains price-specific, but this run did not independently verify a newer executable BetMGM quote, so that prior price is not represented as a fresh current market. Public context still places Taylor around 16.5-17.5 elsewhere. No new Grok pass. No confirmed Week 2 straight ticket in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365 via Covers",
+      "line": 8.5,
+      "odds": -115,
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_UNCHANGED",
+      "entryTiming": "SATURDAY",
+      "estimatedOverProbability": 0.61,
+      "fairOdds": -156.4,
+      "estimatedEdgePct": 7.51,
+      "edgeBucket": "6-8%",
+      "signalTags": ["SNAP_SHARE", "RUSH_SHARE", "RED_ZONE", "ROLE_CHANGE", "MARKET_MOVE", "GAME_SCRIPT", "OL_INJURY"],
+      "reason": "No change from the 03:34 ET re-entry. Covers still binds bet365 O8.5 -115 to the Rushing Attempts market on its 02:19 ET board. Steelers Friday injury report still lists neither Dowdle nor Jaylen Warren."
+    },
+    {
+      "player": "Juwan Johnson",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365 via Covers",
+      "line": 34.5,
+      "odds": -115,
+      "playToLine": 34.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "BET_NOW_UNCHANGED",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "INJURY", "WEATHER"],
+      "reason": "Covers updated the board at 03:35 ET and still showed bet365 O34.5 -115 while most competing books were 37.5-39.5. Juwan Johnson finished the week full with no game designation. Rain chances rise during the game but winds remain modest; no weather veto."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel via Covers",
+      "line": 41.5,
+      "odds": -114,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_UNCHANGED",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE"],
+      "reason": "No change. Nico Collins remains officially out and FanDuel's 41.5/-114 quote remains the best previously verified threshold; NRG Stadium weather is not a concern."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "BetMGM",
+      "line": null,
+      "odds": null,
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["MARKET_MOVE", "GAME_SCRIPT", "WEATHER", "PROJECTION_DISAGREEMENT"],
+      "reason": "The prior O15.5 -120 recommendation is preserved as a historical price-specific decision, but this run could not freshly verify that exact BetMGM quote. Current public context elsewhere is centered roughly 16.5-17.5. Do not treat the stale 15.5 price as current; re-promote only on a freshly verified executable line at or below the stored play-to and acceptable juice."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Rico Dowdle multi-book player-prop board",
+      "sourceTimestampEt": "2026-09-19 02:19 ET",
+      "claim": "Dedicated Rushing Attempts section still shows bet365 O8.5 -115; the adjacent 12.5 values belong to receiving yards, not rushing attempts."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Juwan Johnson multi-book player-prop board",
+      "sourceTimestampEt": "2026-09-19 03:35 ET",
+      "claim": "bet365 O34.5 -115 remains available on the board; DraftKings 37.5 -110 and several other books 38.5 or higher confirm the threshold remains an outlier."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Dalton Schultz multi-book player-prop board",
+      "sourceTimestampEt": "2026-09-18 23:51 ET",
+      "claim": "FanDuel O41.5 -114 remained the best verified receiving-yards threshold; other visible books were materially higher."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Current public Taylor line context",
+      "sourceTimestampEt": "2026-09-19 early morning ET",
+      "claim": "Public context shows Taylor receiving yards around 16.5-17.5 at other operators/markets. A fresh executable BetMGM 15.5/-120 quote was not independently verified in this run."
+    }
+  ],
+  "newsWeatherChecks": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Pittsburgh Steelers Friday injury report",
+      "claim": "Neither Dowdle nor Warren is listed. LT Troy Fautanu is questionable after full Friday participation."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "New Orleans Saints Friday injury report",
+      "claim": "Juwan Johnson progressed to full Friday and has no game designation; Chris Olave is questionable with a hamstring injury."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Houston/Cincinnati Friday injury report",
+      "claim": "Nico Collins is out with a hamstring injury; Dalton Schultz has no injury designation after a Wednesday rest day."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "FantasyAlarm Week 2 weather report",
+      "claim": "NO@BAL has increasing rain chances but about 10 mph wind; PIT@NE has increasing rain chances with about 5 mph wind; IND@KC has rain risk with about 7 mph wind; CIN@HOU is roof-protected. No current weather condition is strong enough to invalidate the stored theses."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "newRecommendedStakeUnits": 0,
+    "sameGameExposureWithRecordedWeek2Tickets": false,
+    "sameThesisExposure": false,
+    "notes": "No Week 2 straight wager is recorded in bet_history. This run creates no new exposure and sends no duplicate alert."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — durable append-only record for the current no-change sweep",
+    "livePropBoard": "NO CHANGE — no material new verified market state requiring destructive rewrite",
+    "decisionLedger": "NO CHANGE — current material decisions preserved in prior immutable archives; Taylor freshness caveat preserved here",
+    "lineHistory": "NO CHANGE — no new sportsbook line requiring durable CSV append beyond already preserved archive evidence",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  }
+}
