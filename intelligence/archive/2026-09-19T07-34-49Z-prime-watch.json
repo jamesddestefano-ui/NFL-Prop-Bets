@@ -1,0 +1,177 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T07:34:49Z",
+  "runAtEt": "2026-09-19 03:34:49",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T06-12-35Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL CORRECTION / RE-ENTRY: Rico Dowdle Over 8.5 rushing attempts is again BET_NOW at bet365 -115, 0.5u, after fresh market-specific verification. Covers timestamps its Rico Dowdle board Sat Sep 19 02:19 ET and explicitly places bet365 O8.5 -115 under the Rushing Attempts section; BettingPros independently says the current consensus rushing-attempt line is 8.5 across major books. The prior PRIME PASS_AFTER_MOVE state based on a 12.5 current-access observation is superseded because current book-specific verification contradicts it; on the Covers page, 12.5 appears in the immediately preceding Receiving Yards market, not rushing attempts. Football role evidence remains supportive but uncertain: Dowdle started Week 1, led the Pittsburgh backfield with 57.8% snaps and 48.8% route share and handled the only RB red-zone carry, while Jaylen Warren had 10 carries to Dowdle's 8 and was more efficient. FantasyPros projects 11.3 carries and Dynasty Spec 12.2, but PRIME does not bet from projections alone. Pittsburgh's official Friday injury report does not list Dowdle or Warren; LT Troy Fautanu is questionable but was a full participant Friday. PRIME restores the original conservative 61% fair probability at 8.5 (fair odds about -156), producing a +7.51 percentage-point raw edge versus -115. Hard play-to remains 8.5 and max acceptable juice remains -115. Do not chase 9.5+ without a fresh distribution. Jonathan Taylor O15.5 -120 BetMGM, Dalton Schultz O41.5 -114 FanDuel and Juwan Johnson O34.5 -115 bet365 remain unchanged prior BET theses and are not duplicate alerts. No new Grok pass; no confirmed Week 2 straight ticket in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-DOWDLE-CARRIES-REENTRY-20260919-033449",
+      "timestampEt": "2026-09-19 03:34:49",
+      "gameDate": "2026-09-20",
+      "game": "PIT@NE",
+      "player": "Rico Dowdle",
+      "team": "PIT",
+      "opponent": "NE",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365 via Covers",
+      "line": 8.5,
+      "odds": -115,
+      "sourceTimestampEt": "2026-09-19 02:19 ET",
+      "bestMarketLine": "bet365 O8.5 -115",
+      "consensusLine": "8.5 per current BettingPros consensus",
+      "openingLine": null,
+      "lineAtFirstDetection": 8.5,
+      "lineAtRecommendation": 8.5,
+      "lineAtUserBet": null,
+      "closingLine": null,
+      "ourMeanProjection": 10.8,
+      "ourMedianProjection": 10.5,
+      "estimatedOverProbability": 0.61,
+      "estimatedUnderProbability": 0.39,
+      "fairOdds": -156.4,
+      "marketImpliedProbability": 0.5349,
+      "noVigProbability": null,
+      "estimatedEdgePct": 7.51,
+      "edgeBucket": "6-8%",
+      "confidence": "B",
+      "recommendedStakeUnits": 0.5,
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["SNAP_SHARE", "RUSH_SHARE", "RED_ZONE", "ROLE_CHANGE", "MARKET_MOVE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "OL_INJURY", "MATCHUP"],
+      "correlationTags": [],
+      "thesisId": "DOWDLE_EARLY_DOWN_ROLE_WEEK2",
+      "actualUserAction": "NOT_CONFIRMED",
+      "supersedes": "2026W2-DOWDLE-ATT-PASSMOVE-20260918-224214",
+      "rationale": "Fresh sportsbook-specific evidence restores the exact 8.5 threshold that created the original edge. Covers labels the Rushing Attempts market separately and shows bet365 O8.5 -115; BettingPros independently identifies 8.5 as the current consensus line. The prior 12.5 PASS state is therefore not used as current rushing-attempt truth. Role support is real but not dominant: Dowdle led Week 1 RB snaps/routes and had the only RB red-zone carry, while Warren had two more carries and better efficiency. PRIME retains the original conservative 61% fair probability rather than adopting more aggressive model probabilities.",
+      "injuryNewsDependencies": "Official Steelers Friday injury report does not list Dowdle or Warren. LT Troy Fautanu is questionable but was full Friday. Reprice if an RB availability change, offensive-line downgrade, or material coach-role report emerges.",
+      "riskNotes": "Pittsburgh remains a road underdog and Week 1 usage may have been influenced by Warren's early fumble. Committee uncertainty is the main downside. Hard stop at 8.5/-115; 9.5+ requires recalculation."
+    },
+    {
+      "player": "Juwan Johnson",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365",
+      "line": 34.5,
+      "odds": -115,
+      "playToLine": 34.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "BET_NOW_UNCHANGED",
+      "reason": "Carry-forward only; Covers still showed the same 34.5/-115 outlier on the latest prior verified board."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "BetMGM",
+      "line": 15.5,
+      "odds": -120,
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "BET_NOW_UNCHANGED",
+      "reason": "Carry-forward only; no new material change requiring a duplicate alert."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel",
+      "line": 41.5,
+      "odds": -114,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_UNCHANGED",
+      "reason": "Carry-forward only; no new material change requiring a duplicate alert."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Rico Dowdle multi-book player-prop board",
+      "sourceTimestampEt": "2026-09-19 02:19 ET",
+      "claim": "Under the dedicated Rushing Attempts section, bet365 shows Rico Dowdle O8.5 -115; BetVictor O8.5 -125; William Hill O8.5 -118. The 12.5 values immediately above belong to the Receiving Yards section.",
+      "url": "https://www.covers.com/sport/football/nfl/players/45722/rico-dowdle"
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "BettingPros Rico Dowdle rushing-attempt prop analyzer",
+      "sourceTimestampEt": "crawled 2026-09-19",
+      "claim": "Current consensus rushing-attempt line is 8.5 across major sportsbooks.",
+      "url": "https://www.bettingpros.com/nfl/props/rico-dowdle/rushing-attempts/"
+    }
+  ],
+  "roleProjectionChecks": [
+    {
+      "classification": "analyst_opinion",
+      "source": "FantasyPros Derek Brown Week 2 outlook",
+      "sourceTimestampEt": "published 2026-09-17 13:35 ET",
+      "claim": "Dowdle started Week 1, led RB snaps at 57.8%, route share at 48.8%, and had Pittsburgh's only RB red-zone carry; Warren had 10 carries to Dowdle's 8 and better efficiency."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 projections",
+      "sourceTimestampEt": "crawled 2026-09-17/18",
+      "claim": "Projects Dowdle for 11.3 rushing attempts and 47.1 rushing yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Dynasty Spec Week 2",
+      "sourceTimestampEt": "updated 2026-09-16",
+      "claim": "Projects Dowdle for 12.2 carries and 50 rushing yards."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Pittsburgh Steelers official Friday injury report",
+      "sourceTimestampEt": "2026-09-18 15:41 ET",
+      "claim": "Neither Dowdle nor Warren is listed. LT Troy Fautanu is questionable but was a full participant Friday."
+    }
+  ],
+  "dataQualityCorrection": {
+    "priorState": "intelligence/archive/2026-09-19T02-42-14Z-prime-watch.json classified a CLEATZ 12.5 observation as Dowdle rushing attempts and moved the prop to PASS_AFTER_MOVE.",
+    "currentResolution": "Fresh book-specific Covers verification plus independent BettingPros consensus identifies the current rushing-attempt market as 8.5. The 12.5 number on Covers belongs to receiving yards. PRIME therefore supersedes the prior PASS state rather than allowing it to overwrite verified sportsbook truth.",
+    "learning": "When a multi-market player page presents adjacent numerical thresholds, require the market heading and sportsbook pair to be bound together before treating the number as a market move."
+  },
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "newRecommendedStakeUnits": 0.5,
+    "sameGameExposureWithRecordedWeek2Tickets": false,
+    "sameThesisExposure": false,
+    "notes": "No Week 2 straight wager is in bet_history. Dowdle is a recommendation, not a confirmed user ticket."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — this file is the durable append-only record for the current run",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — current Dowdle re-entry is preserved here with exact book/line/price/timestamp",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — current Dowdle BET and prior source-conflict correction are preserved here",
+    "lineHistory": "NO DESTRUCTIVE CSV REWRITE — bet365 O8.5 -115 at 02:19 ET is preserved here",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "PRIOR DOWDLE PASS IS SUPERSEDED BY FRESH VERIFIED MARKET TRUTH; not deleted",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  }
+}
