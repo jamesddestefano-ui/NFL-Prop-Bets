@@ -1,0 +1,147 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T09:21:51Z",
+  "runAtEt": "2026-09-19 05:21:51",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T08-43-09Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE. Saturday overnight refresh found no verified injury, role, weather, or sportsbook movement that requires changing PRIME's prior actionable board. Rico Dowdle O8.5 rushing attempts at bet365 -115 remains the latest verified Covers quote (02:19 ET). Juwan Johnson O34.5 receiving yards at bet365 -115 remains the latest verified Covers quote (03:35 ET), with competing regulated books materially higher. Dalton Schultz remains a price-sensitive BET at O41.5 receiving yards -115 or better; FanDuel Research still lists the 41.5 threshold from Friday and no fresher adverse role/news signal was found. Jonathan Taylor remains WATCH pending a freshly verified executable price: BetMGM's current Week 2 article confirms a 15.5 receiving-yards line, but does not expose live juice, so the prior -120 quote is not treated as current sportsbook truth. No new Grok pass. No confirmed Week 2 straight ticket in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365 via Covers",
+      "line": 8.5,
+      "odds": -115,
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_UNCHANGED",
+      "entryTiming": "SATURDAY",
+      "estimatedOverProbability": 0.61,
+      "fairOdds": -156.4,
+      "estimatedEdgePct": 7.51,
+      "edgeBucket": "6-8%",
+      "signalTags": ["SNAP_SHARE", "RUSH_SHARE", "RED_ZONE", "ROLE_CHANGE", "MARKET_MOVE", "GAME_SCRIPT", "OL_INJURY"],
+      "reason": "Covers player page remains timestamped 02:19 ET and still binds bet365 O8.5 -115 to the dedicated Rushing Attempts market. No new Steelers injury/role news invalidates the thesis."
+    },
+    {
+      "player": "Juwan Johnson",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365 via Covers",
+      "line": 34.5,
+      "odds": -115,
+      "playToLine": 34.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "BET_NOW_UNCHANGED",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "INJURY", "WEATHER"],
+      "reason": "Covers player page remains timestamped 03:35 ET and shows bet365 O34.5 -115 while DraftKings is 37.5 -110, BetMGM 38.5 -115, FanDuel 38.5 -114, and several other books 38.5-39.5. No fresher adverse injury/weather signal was found."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel",
+      "line": 41.5,
+      "odds": -114,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_UNCHANGED",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE"],
+      "reason": "Nico Collins remains out and FanDuel Research still identifies Schultz's Week 2 receiving-yards threshold as 41.5 from Friday afternoon. No fresher verified market or role information invalidates the stored 41.5/-115 ceiling."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "BetMGM",
+      "line": 15.5,
+      "odds": null,
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["MARKET_MOVE", "GAME_SCRIPT", "WEATHER", "PROJECTION_DISAGREEMENT"],
+      "reason": "BetMGM's Week 2 article published Sep. 18 confirms a 15.5 receiving-yards line, but does not expose a live executable Over price. Covers' current broader market context is mixed around 14.5-17.5 depending venue. Do not promote until regulated sportsbook line and juice are freshly verified at or below 15.5 and no worse than -125."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Rico Dowdle player-prop board",
+      "sourceTimestampEt": "2026-09-19 02:19 ET",
+      "claim": "Dedicated Rushing Attempts section shows bet365 O8.5 -115; adjacent 12.5 quotes belong to receiving yards and are not rushing-attempt truth."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Juwan Johnson player-prop board",
+      "sourceTimestampEt": "2026-09-19 03:35 ET",
+      "claim": "bet365 O34.5 -115 remains the best displayed regulated-book receiving-yards threshold; DraftKings 37.5 -110, BetMGM 38.5 -115, FanDuel 38.5 -114 and several others 38.5-39.5."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "FanDuel Research Dalton Schultz Week 2 page",
+      "sourceTimestampEt": "2026-09-18 13:07 ET approximately (17:07 UTC publication)",
+      "claim": "Schultz receiving-yards prop was 41.5 as of Friday afternoon; user-facing sportsbook reminder says odds are subject to change."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "BetMGM Jonathan Taylor Week 2 props article",
+      "sourceTimestampEt": "2026-09-18 16:18 ET",
+      "claim": "BetMGM lists Jonathan Taylor receiving yards at 15.5, but the article does not expose the live Over/Under juice, so the historical -120 recommendation cannot be represented as current."
+    }
+  ],
+  "newsRoleChecks": [
+    {
+      "classification": "analyst_opinion",
+      "source": "Dynasty Nerds Week 2 rankings using Fantasy Points advanced stats",
+      "claim": "Juwan Johnson Week 1 usage: 77.8% route participation, 10.7% target share and 14.6% first-read share; Dalton Schultz: 73.8% route participation, 21.1% target share and 18.2% first-read share. These support the existing role theses but do not independently create bets."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "repository Friday injury-report checks carried forward",
+      "claim": "Juwan Johnson finished the week full with no designation; Nico Collins is out; Schultz has no injury designation; Dowdle/Warren are not on Pittsburgh's final injury report. No new overnight official update superseded these facts."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "newRecommendedStakeUnits": 0,
+    "sameGameExposureWithRecordedWeek2Tickets": false,
+    "sameThesisExposure": false,
+    "notes": "No Week 2 straight wager is recorded in bet_history. This run creates no new exposure and sends no duplicate alert."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — durable append-only record for the 05:21 ET no-change sweep",
+    "livePropBoard": "NO CHANGE",
+    "decisionLedger": "NO CHANGE",
+    "lineHistory": "NO CHANGE — no newly timestamped sportsbook quote materially newer than the stored price-specific evidence",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  }
+}
