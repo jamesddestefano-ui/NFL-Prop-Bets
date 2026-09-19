@@ -1,0 +1,215 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T15:27:17Z",
+  "runAtEt": "2026-09-19 11:27:17",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T14-38-01Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL ALERT. No new Grok pass. The prior Jonathan Taylor Over 15.5 receiving-yards recommendation remains price-conditional only: BetMGM's official Week 2 article continues to list a 15.5 receiving-yards threshold, but the previously verified -120 live price could not be independently reverified from an accessible current public feed in this run, so do not create a duplicate alert or transfer approval to a worse line. Dalton Schultz still has public 41.5 receiving-yard context around standard juice and Nico Collins remains OUT, but that catalyst is already incorporated in the prior decision. Josh Downs' current public FanDuel reference is 40.5, above PRIME's stored 36.5 ceiling; Juwan Johnson's current public FanDuel reference is 38.5, above the stored 34.5 ceiling; no fresh exact regulated-book Rico Dowdle 8.5 rushing-attempt pair was verified. Brock Purdy Over 19.5 completions is now a PASS_AFTER_MOVE at the current public -135 price because an independent 4for4 projection is only 19.8 completions, eliminating a sufficient price-adjusted edge. Daniel Jones Under 32.5 pass attempts remains WATCH/PASS because current public prices materially disagree and no fresh exact regulated sportsbook pair inside the prior analyst price was verified. Rashod Bateman Over 2.5 receptions gains role support from Zay Flowers being doubtful, but no exact current sportsbook price was verified; WATCH only. Colston Loveland Over 46.5 receiving yards at a current FanDuel-referenced -114 is not promoted because independent central projections sit only around the high-40s and Week 1 target production was insufficient to establish PRIME's preferred 4-5 percentage-point edge.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "BET_NOW_IF_EXACT_PRICE_STILL_LIVE",
+      "alertSuppressed": true,
+      "reason": "BetMGM's official Week 2 page still lists a 15.5 receiving-yards threshold, but the exact previously captured -120 live price was not reverified through the accessible public feed in this run. Preserve the prior price-specific decision; no chase to 16.5/17.5 and no duplicate exposure."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_IF_EXACT_PRICE_STILL_LIVE",
+      "alertSuppressed": true,
+      "reason": "Nico Collins remains officially out and public 41.5 market context persists, but this is not a new catalyst and no superior fresh sportsbook-specific pair was established relative to the prior recommendation."
+    },
+    {
+      "player": "Josh Downs",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "line": 40.5,
+      "sportsbook": "FanDuel Research market reference",
+      "playToLine": 36.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "PASS_AFTER_MOVE",
+      "alertSuppressed": true,
+      "reason": "Current public FanDuel reference is 40.5, four yards above PRIME's stored 36.5 buy threshold. Independent projections remain bullish, but the old edge is not transferable to the moved number."
+    },
+    {
+      "player": "Juwan Johnson",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "line": 38.5,
+      "sportsbook": "FanDuel Research market reference",
+      "playToLine": 34.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "PASS_AFTER_MOVE",
+      "alertSuppressed": true,
+      "reason": "Current public FanDuel reference is 38.5, materially above PRIME's 34.5 price-specific recommendation. Do not chase even with a bullish projection path."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_IF_EXACT_PRICE_STILL_LIVE",
+      "alertSuppressed": true,
+      "reason": "No adverse role/injury development, but no fresh exact regulated sportsbook 8.5/-115-or-better rushing-attempt pair was verified. Do not infer a current price from receiving-yard or rushing-yard markets."
+    },
+    {
+      "player": "Brock Purdy",
+      "game": "MIA@SF",
+      "propType": "OTHER",
+      "market": "Completions",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "sportsbook": "current public market aggregate",
+      "line": 19.5,
+      "odds": -135,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "reason": "Current public price is approximately O19.5 -135, while 4for4 projects 19.8 completions. The modest central projection above the threshold does not overcome the 57.45% raw break-even rate. Prior analyst support at 19.5 is not transferable to this price."
+    },
+    {
+      "player": "Daniel Jones",
+      "game": "IND@KC",
+      "propType": "PASS_ATTEMPTS",
+      "side": "UNDER",
+      "decisionStatus": "WATCH",
+      "line": 32.5,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["MATCHUP", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "reason": "FantasyPros/BettingPros analyst support exists for Under 32.5, but public pricing currently ranges materially from roughly standard -110s to much more expensive juice and no fresh exact regulated-book pair at the earlier -118-or-better analyst price was verified. Do not promote from analyst opinion alone."
+    },
+    {
+      "player": "Rashod Bateman",
+      "game": "NO@BAL",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "line": 2.5,
+      "steamState": "BET_NOW_IF_EXACT_PRICE_STILL_LIVE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "EXPERT_CONSENSUS"],
+      "reason": "Zay Flowers is doubtful, which can improve Bateman's target path, and FantasyPros' Saturday show supports Over 2.5 receptions. No fresh exact sportsbook/price was verified, so the role catalyst is not enough to create an actionable wager."
+    },
+    {
+      "player": "Colston Loveland",
+      "game": "MIN@CHI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "sportsbook": "FanDuel referenced in current analyst article",
+      "line": 46.5,
+      "odds": -114,
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT"],
+      "reason": "The current 46.5/-114 reference is modestly below independent central projections around 48.5 but does not establish PRIME's preferred 4-5 percentage-point fair-probability edge after uncertainty. Do not bet merely because a projection is above the line."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "BetMGM official Jonathan Taylor Week 2 prop page",
+      "capturedAtEt": "2026-09-19 11:27 ET",
+      "claim": "Taylor receiving-yards threshold remains listed at 15.5; exact current live odds were not exposed in the accessible article view."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "FanDuel Research",
+      "capturedAtEt": "2026-09-19 11:27 ET",
+      "claim": "Current public references: Josh Downs receiving yards 40.5; Juwan Johnson receiving yards 38.5; Dalton Schultz receiving yards 41.5."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "StatMuse public prop board",
+      "capturedAtEt": "2026-09-19 11:27 ET",
+      "claim": "Brock Purdy completions currently referenced at 19.5 with Over around -135; Daniel Jones pass attempts referenced at 32.5 with substantially more expensive Under juice than the prior analyst pick."
+    },
+    {
+      "classification": "model_projection",
+      "source": "4for4",
+      "capturedAtEt": "2026-09-19 11:27 ET",
+      "claim": "Current Week 2 QB projection lists Brock Purdy around 19.8 completions, insufficient by itself to support O19.5 at -135."
+    }
+  ],
+  "newsRoleChecks": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Houston Texans current injury reporting / final Week 2 status",
+      "claim": "Nico Collins is out for Week 2 with a hamstring injury. Houston is expected to redistribute receiving work and use more multi-tight-end personnel; this was already incorporated into the prior Schultz thesis."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Baltimore Ravens current injury reporting / final Week 2 status",
+      "claim": "Zay Flowers is doubtful with a hamstring injury, creating a potential Bateman target-volume catalyst that remains price-dependent."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "NFL/team Week 2 injury reports",
+      "claim": "No newly confirmed injury or inactive development in this run invalidates the existing Taylor, Schultz, Downs, Johnson or Dowdle role assumptions."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "newRecommendedStakeUnits": 0,
+    "notes": "No new wager is added in this run. Existing recommendations remain conditional on the exact stored sportsbook threshold and maximum juice. Do not duplicate any ticket that may have been placed outside the repository."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — durable record of the 11:27 ET no-alert Saturday refresh",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — no new executable bet state supersedes the 10:38 ET Taylor archive",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — material stale-thesis/pass updates preserved in this immutable archive",
+    "lineHistory": "PRESERVED IN THIS IMMUTABLE ARCHIVE via marketChecks; no unverified sportsbook price written as executable truth",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user straight ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE — Saturday pass states preserved here pending later batch reconciliation",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.nfl.com/injuries/",
+    "https://sports.betmgm.com/en/blog/nfl/jonathan-taylor-props-odds-gaa/",
+    "https://www.fanduel.com/research/dalton-schultz-nfl-fantasy-week-2-vs-bengals-2026",
+    "https://www.fanduel.com/research/josh-downs-nfl-fantasy-week-2-vs-chiefs-2026",
+    "https://www.fanduel.com/research/juwan-johnson-nfl-fantasy-week-2-vs-ravens-2026",
+    "https://www.4for4.com/fantasy-football/projections/qb",
+    "https://www.fantasypros.com/nfl/podcast/",
+    "https://www.houstonchronicle.com/sports/texans/article/nico-collins-injury-report-status-22437940.php"
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "Price remains part of the bet. A threshold or projection without a fresh executable sportsbook price does not trigger a new recommendation.",
+    "Saturday stale-thesis cleanup: Purdy O19.5 completions is now PASS_AFTER_MOVE at roughly -135; Downs 40.5 and Juwan Johnson 38.5 are above their stored buy ceilings.",
+    "No user notification is warranted because no new executable price or materially adverse change requires action."
+  ]
+}
