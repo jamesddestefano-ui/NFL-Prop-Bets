@@ -1,0 +1,172 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T00:37:02Z",
+  "runAtEt": "2026-09-18 20:37:02",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-18T23-46-26Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL PRICE IMPROVEMENT: Jonathan Taylor receiving yards has moved to a newly verified BetMGM O15.5 -120 in BetMGM's embedded player-prop widget, accessed at 20:37 ET Friday. PRIME previously required O16.5 at -115 or better. The one-yard easier threshold more than offsets the five-cent juice increase under a conservative recalculation: estimated Over probability 60%, fair odds approximately -150, versus 54.55% break-even at -120, for an estimated 5.45 percentage-point edge. Upgrade Taylor to BET_NOW at BetMGM 15.5 -120 for 0.5u. Hard play-to remains 15.5 at this price structure; max acceptable juice is -125 at 15.5. Do not transfer this approval to 16.5 at -120 or to 17.5+. Nico Collins remains officially out; no newly verified Schultz 41.5/-115-or-better re-entry was found in this run. Rico Dowdle 8.5 attempts remains conditional on fresh sportsbook verification. No new Grok pass and no confirmed Week 2 user ticket exists in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-TAYLOR-RECYDS-REPRICE-20260918-203702",
+      "timestampEt": "2026-09-18 20:37:02",
+      "gameDate": "2026-09-20",
+      "game": "IND@KC",
+      "player": "Jonathan Taylor",
+      "team": "IND",
+      "opponent": "KC",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "BetMGM embedded live player-prop widget",
+      "line": 15.5,
+      "odds": -120,
+      "bestMarketLine": "BetMGM O15.5 -120 among publicly verified current-access sources checked",
+      "consensusLine": "Not freshly verifiable across all major books in this run; earlier Friday visible market ranged approximately 16.5-18.5",
+      "lineAtFirstDetection": 16.5,
+      "lineAtRecommendation": 15.5,
+      "ourMeanProjection": 21.0,
+      "ourMedianProjection": 20.0,
+      "estimatedOverProbability": 0.60,
+      "estimatedUnderProbability": 0.40,
+      "fairOdds": -150.0,
+      "marketImpliedProbability": 0.5455,
+      "estimatedEdgePct": 5.45,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "confidence": "B",
+      "recommendedStakeUnits": 0.5,
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "BET_NOW",
+      "entryTiming": "FRIDAY",
+      "signalTags": ["TARGET_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "WEATHER"],
+      "correlationTags": [],
+      "thesisId": "TAYLOR_RECEIVING_NEGATIVE_SCRIPT_WEEK2",
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "reason": "Price is part of the bet. PRIME's prior fair Over estimate was 58% at the harder 16.5 threshold. Moving to 15.5 captures the exact-16-yard outcome while the juice worsens only from the prior -115 ceiling to -120. A conservative 60% fair estimate at 15.5 clears PRIME's normal 4-5 percentage-point edge threshold. Independent projections remain above the market (numberFire 23.42; Dimers 19.6), Taylor had 4 targets/3 catches/23 yards in Week 1, Indianapolis is an underdog at Kansas City, and Friday weather guidance calls for rain but only light wind, which does not invalidate short-area RB receiving usage. Bet is threshold-specific: do not chase 16.5 at -120 or 17.5+."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "decisionStatus": "BET_IF_PRICE_RETURNS",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_MOVE_UNLESS_REENTRY",
+      "reason": "Nico Collins remains officially out, but this run did not independently verify a fresh 41.5 at -115 or better. Do not chase higher thresholds."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "decisionStatus": "BET_IF_LIVE_VERIFIED",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "reason": "No fresh sportsbook-specific 8.5 rushing-attempts price was independently verified in this run; do not infer from rushing-yards markets and do not chase 9.5."
+    },
+    {
+      "player": "Bucky Irving",
+      "game": "CLE@TB",
+      "propType": "RUSH_YARDS/RECEIVING_YARDS/RUSH_ATTEMPTS",
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Fresh BetMGM Friday-evening page sets rushing yards at 63.5, but no price-adjusted multi-source edge was established and Sean Tucker remains available. No upgrade."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "sportsbook_market",
+      "source": "BetMGM embedded live player-prop widget",
+      "sourceTimestampEt": "accessed 2026-09-18 20:37 ET; parent BetMGM article timestamp 2026-09-18 16:18 ET",
+      "claim": "Jonathan Taylor receiving yards: Over 15.5 at -120."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FanDuel Research / numberFire",
+      "sourceTimestampEt": "accessed 2026-09-18",
+      "claim": "Jonathan Taylor projected for 23.42 receiving yards in Week 2."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Dimers",
+      "sourceTimestampEt": "published 2026-09-16; accessed 2026-09-18",
+      "claim": "Jonathan Taylor projected for 2.6 receptions and 19.6 receiving yards."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Indianapolis Week 1 game result / player usage",
+      "sourceTimestampEt": "2026-09-13",
+      "claim": "Taylor caught 3 of 4 targets for 23 receiving yards in Week 1."
+    },
+    {
+      "classification": "weather",
+      "source": "FantasyAlarm Week 2 weather report",
+      "sourceTimestampEt": "updated 2026-09-18",
+      "claim": "Colts-Chiefs Sunday night forecast: about 75 degrees, 7 mph wind, roughly 59% rain chance at kickoff."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Houston Texans final Friday injury designation",
+      "sourceTimestampEt": "2026-09-18 afternoon ET",
+      "claim": "Nico Collins remains ruled out for Week 2 against Cincinnati."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "BetMGM Bucky Irving Week 2 prop page",
+      "sourceTimestampEt": "2026-09-18 20:07 ET",
+      "claim": "Bucky Irving rushing-yards line is 63.5; no receiving-yard or rushing-attempt market was exposed on the page."
+    }
+  ],
+  "lineHistoryObservations": [
+    {
+      "capturedAtEt": "2026-09-18 20:37:02",
+      "player": "Jonathan Taylor",
+      "market": "Receiving Yards",
+      "sportsbook": "BetMGM embedded live player-prop widget",
+      "side": "OVER",
+      "line": 15.5,
+      "odds": -120,
+      "impliedProbability": 0.5455,
+      "note": "Material one-yard threshold improvement versus PRIME's prior 16.5 ceiling. Recalculated and promoted to BET_NOW at this exact line/price; max -125 at 15.5."
+    }
+  ],
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — this file is the durable append-only record for this run",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — new Taylor state preserved here because archive is the append-only durable record",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — material Taylor decision preserved here with full pricing/probability fields",
+    "lineHistory": "NEW TAYLOR MARKET OBSERVATION PRESERVED IN THIS IMMUTABLE ARCHIVE",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://sports.betmgm.com/en/blog/nfl/jonathan-taylor-props-odds-gaa/",
+    "https://betmgm-hub-live.isportgenius.com.au/email/american-football/nfl/player-props/6:43382/3625957/5750492",
+    "https://www.fanduel.com/research/jonathan-taylor-nfl-fantasy-week-2-vs-chiefs-2026",
+    "https://www.dimers.com/nfl/news/jonathan-taylor-projected-fantasy-stats-nfl-week-2-2026-ac",
+    "https://www.fantasyalarm.com/articles/nfl/nfl-weather/nfl-week-2-weather-report-fantasy-football-dfs-impact/195642",
+    "https://sports.betmgm.com/en/blog/nfl/bucky-irving-props-odds-gaa/"
+  ],
+  "researchNotes": [
+    "Grok latest remains status=live with completedAt 2026-09-12T17:05:00Z, matching grok_pulse_history.jsonl; therefore no new Grok pass is processed.",
+    "The Taylor upgrade is caused by a better threshold with only modestly worse juice, not by projection alone.",
+    "The public BetMGM widget is a sportsbook-origin current-access price. As always, verify the live app at submission because prices can change after capture.",
+    "Rain with light wind is noted as uncertainty but does not independently invalidate a short-area RB receiving Over; final Sunday weather remains subject to refresh.",
+    "No confirmed user action is inferred from prior discussion; bet_history remains authoritative and has no Week 2 ticket."
+  ]
+}
