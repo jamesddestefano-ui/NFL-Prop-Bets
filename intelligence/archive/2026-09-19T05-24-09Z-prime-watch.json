@@ -1,0 +1,293 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T05:24:09Z",
+  "runAtEt": "2026-09-19 01:24:09",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T04-01-24Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE REQUIRING A USER ALERT. No new Grok pass. Fresh current-access multi-book pricing still shows Jonathan Taylor receiving yards at BetMGM O15.5 -120, inside PRIME's stored 15.5/-125 ceiling; Dalton Schultz receiving yards at FanDuel O41.5 -114, inside the stored 41.5/-115 ceiling; and Rico Dowdle rushing attempts centered at 12.5, so the original O8.5 thesis remains PASS_AFTER_MOVE. Official Friday reports add no decision-changing deterioration: D.J. Giddens returned to full practice but is questionable, while Taylor is not listed; Nico Collins remains OUT and Schultz has no game designation; Brock Bowers remains doubtful; Zay Flowers remains doubtful. New screens did not clear PRIME's price-adjusted edge standard: Juwan Johnson O38.5 has strong role/projection support from several sources but a direct projection conflict (roughly 37.3 to 53.36 yards) and FantasyPros flags a tougher TE matchup; Garrett Wilson O61.5 has strong Week 1 role but model disagreement (about 56.4 versus 68.2); Derrick Henry O90.5 has one bullish model near 103 but FantasyPros/4for4 sit roughly 91.5-92.4; Mark Andrews ATD +150 and Chase Brown ATD +125 do not clear the required edge against independent scoring probabilities. Jalen Coker O50.5 remains a role-driven WATCH without enough independent probability support. No confirmed Week 2 straight ticket exists in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "BetMGM",
+      "line": 15.5,
+      "odds": -120,
+      "estimatedOverProbability": 0.60,
+      "fairOdds": -150.0,
+      "estimatedEdgePct": 5.45,
+      "edgeBucket": "4-6%",
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "BET_NOW_UNCHANGED",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROLE_CHANGE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "WEATHER"],
+      "reason": "Exact approved BetMGM threshold/price remains available. Official Friday injury report lists D.J. Giddens full but questionable and does not list Taylor, so there is no role downgrade. Do not duplicate if already placed and do not chase beyond 15.5/-125."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel",
+      "line": 41.5,
+      "odds": -114,
+      "estimatedOverProbability": 0.575,
+      "fairOdds": -135.3,
+      "estimatedEdgePct": 4.23,
+      "edgeBucket": "4-6%",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_UNCHANGED",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "MARKET_MOVE"],
+      "reason": "FanDuel remains at the exact approved 41.5/-114 while other regulated books are higher. Nico Collins is officially OUT; Schultz has no game designation. No fresh catalyst changes the stored fair probability or warrants a duplicate alert."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["RUSH_SHARE", "GAME_SCRIPT", "MARKET_MOVE"],
+      "reason": "Fresh multi-book pricing remains centered at 12.5, four attempts above PRIME's original 8.5 entry. The old edge is not transferable."
+    },
+    {
+      "player": "Juwan Johnson",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "FanDuel",
+      "line": 38.5,
+      "odds": -114,
+      "estimatedOverProbability": null,
+      "fairOdds": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": "UNQUANTIFIED",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "steamState": "PROJECTION_DISAGREEMENT",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "MATCHUP", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "reason": "Official Saints report shows Johnson progressed DNP->LP->FP with no game designation. Week 1 role was 77.8% route share, 10.7% target share and 14.6% first-read share with three red-zone targets. FantasyPros highlights the Over at 38.5, numberFire projects 53.36, FIC 49.5 and DynastySpec 46, but MatchWiz is only 37.3 and FantasyPros' matchup note calls Baltimore a tougher TE environment. Do not promote a projection-split candidate to BET without a defensible fair probability."
+    },
+    {
+      "player": "Garrett Wilson",
+      "game": "GB@NYJ",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "BetMGM",
+      "line": 61.5,
+      "odds": -115,
+      "estimatedOverProbability": null,
+      "fairOdds": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": "UNQUANTIFIED",
+      "steamState": "PROJECTION_DISAGREEMENT",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "reason": "Week 1 role was elite and the 61.5 BetMGM line is better than much of the market, but current independent projections disagree materially (roughly 56.4 numberFire versus 68.2 Dimers). No BET from role plus one bullish model alone."
+    },
+    {
+      "player": "Derrick Henry",
+      "game": "NO@BAL",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "BetParx",
+      "line": 90.5,
+      "odds": -115,
+      "estimatedOverProbability": null,
+      "fairOdds": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": "UNQUANTIFIED",
+      "steamState": "PROJECTION_DISAGREEMENT",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["RUSH_SHARE", "GAME_SCRIPT", "MATCHUP", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "reason": "FantasyPros highlights Henry at 92.5 and numberFire projects 102.83, but FantasyPros consensus projects 92.4 and 4for4 91.5, essentially on top of the best current 90.5 line after price. Projection spread is too wide to assert the required 4-5 point probability edge."
+    },
+    {
+      "player": "Mark Andrews",
+      "game": "NO@BAL",
+      "propType": "ANYTIME_TD",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "sportsbook": "BetParx/BetRivers",
+      "line": 0.5,
+      "odds": 150,
+      "estimatedOverProbability": 0.35,
+      "fairOdds": 185.7,
+      "estimatedEdgePct": -5.0,
+      "edgeBucket": "<2%",
+      "steamState": "PASS",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "RED_ZONE", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "reason": "Flowers is doubtful and Andrews' Week 1 route/red-zone usage is encouraging, but independent ATD estimates around 32.9%-36.9% do not beat the 40% break-even probability at +150."
+    },
+    {
+      "player": "Chase Brown",
+      "game": "CIN@HOU",
+      "propType": "ANYTIME_TD",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "sportsbook": "BetParx/BetRivers",
+      "line": 0.5,
+      "odds": 125,
+      "estimatedOverProbability": 0.45,
+      "fairOdds": 122.2,
+      "estimatedEdgePct": 0.56,
+      "edgeBucket": "<2%",
+      "steamState": "PASS",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["RED_ZONE", "RUSH_SHARE", "PROJECTION_DISAGREEMENT", "MARKET_MOVE"],
+      "reason": "The +125 outlier is better than much of the market, but independent scoring probabilities around 44.9%-45.2% are essentially equal to the 44.44% break-even rate. No PRIME edge."
+    },
+    {
+      "player": "Jalen Coker",
+      "game": "CAR@ATL",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "FanDuel",
+      "line": 50.5,
+      "odds": -114,
+      "estimatedOverProbability": null,
+      "fairOdds": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": "UNQUANTIFIED",
+      "steamState": "ROLE_SIGNAL_ONLY",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "reason": "FantasyPros highlights Coker Higher 50.5 and cites a six-game sample of 82.7% route participation, 20.2% target share and 26.2% first-read share, but the sample has cleared 50.5 only half the time and there is not enough independent probability support to establish a standard PRIME edge at -114."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market",
+      "source": "CLEATZ multi-book current-access board",
+      "sourceTimestampEt": "accessed 2026-09-19 about 01:24 ET",
+      "claim": "Taylor receiving yards: BetMGM O15.5 -120/U15.5 -110, with most competitors 16.5-17.5. Schultz receiving yards: FanDuel O41.5 -114/U41.5 -114, with DraftKings 45.5 and other books mostly 42.5-44.5. Dowdle rushing attempts remains centered at 12.5. Juwan Johnson receiving yards is broadly 38.5, including FanDuel O38.5 -114/U38.5 -114. Garrett Wilson receiving yards includes BetMGM O61.5 -115. Derrick Henry receiving/rushing board includes BetParx O90.5 -115 as a best visible regulated threshold. Mark Andrews ATD best visible regulated price is +150 at BetParx/BetRivers. Chase Brown ATD best visible regulated price is +125 at BetParx/BetRivers/BallyBet. Jalen Coker receiving yards is broadly 50.5, including FanDuel -114."
+    }
+  ],
+  "newsChecks": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Kansas City Chiefs official Week 2 injury report",
+      "sourceTimestampEt": "published 2026-09-18 14:44 ET; accessed 2026-09-19",
+      "claim": "Jonathan Taylor is not listed. Colts RB D.J. Giddens returned to full practice Friday but is questionable. Chiefs DT Chris Jones is questionable after a limited Friday practice."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Cincinnati Bengals official Week 2 injury report",
+      "sourceTimestampEt": "published 2026-09-18 15:50 ET; accessed 2026-09-19",
+      "claim": "Nico Collins is OUT; Dalton Schultz is listed only for rest earlier in the week and has no game designation."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "New Orleans Saints official Friday injury report",
+      "sourceTimestampEt": "published 2026-09-18 13:12 ET; accessed 2026-09-19",
+      "claim": "Juwan Johnson progressed from DNP Wednesday to limited Thursday to full Friday and has no game designation; Chris Olave is questionable with a hamstring injury."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Baltimore Ravens official Friday injury report",
+      "sourceTimestampEt": "published 2026-09-18 12:44 ET; accessed 2026-09-19",
+      "claim": "Zay Flowers is doubtful; Ronnie Stanley, John Simpson and Trey Hendrickson are questionable."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Las Vegas Raiders/NFL Friday injury reporting",
+      "sourceTimestampEt": "Friday 2026-09-18; accessed 2026-09-19",
+      "claim": "Brock Bowers remains doubtful and is expected to undergo a pregame workout; no new Saturday status is available at this checkpoint."
+    }
+  ],
+  "projectionChecks": [
+    {
+      "classification": "model_projection",
+      "player": "Juwan Johnson",
+      "claim": "numberFire 53.36 receiving yards; FIC 49.5; DynastySpec 46; MatchWiz 37.3. Current line 38.5. Projection dispersion prevents a robust fair probability."
+    },
+    {
+      "classification": "analyst_opinion",
+      "player": "Juwan Johnson",
+      "claim": "FantasyPros highlights Higher 38.5 based on Tyler Shough usage and zone/two-high splits, while its separate Week 2 outlook notes a tougher Baltimore TE matchup."
+    },
+    {
+      "classification": "model_projection",
+      "player": "Derrick Henry",
+      "claim": "numberFire 102.83 rushing yards; FantasyPros 92.4; 4for4 91.5. Current best visible regulated line 90.5 -115."
+    },
+    {
+      "classification": "model_projection",
+      "player": "Garrett Wilson",
+      "claim": "numberFire about 56.42 receiving yards versus Dimers about 68.2 at a current best visible 61.5 -115. Role is strong, but the models straddle the line."
+    },
+    {
+      "classification": "model_projection",
+      "player": "Mark Andrews",
+      "claim": "Independent anytime-TD probabilities found during this pass cluster around 32.9%-36.9%, below the 40% break-even probability at +150."
+    },
+    {
+      "classification": "model_projection",
+      "player": "Chase Brown",
+      "claim": "Independent anytime-TD probabilities from Dimers/Stats Insider are roughly 44.9%-45.2%, essentially equal to +125 break-even."
+    }
+  ],
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — this file is the durable append-only record for this run",
+    "livePropBoard": "NO CHANGE — no decision state supersedes the latest board",
+    "decisionLedger": "NO CHANGE — newly screened candidates remain WATCH/PASS research states without a user-actionable threshold that clears PRIME standards",
+    "lineHistory": "NO DUPLICATE APPEND — Taylor, Schultz and Dowdle prices match the latest preserved state; newly screened prices are preserved in this immutable archive",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE — no new high-conviction pass requires promotion beyond archive preservation",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete",
+    "propWatchState": "NO CHANGE — no material user-alert state transition"
+  },
+  "sourceUrls": [
+    "https://cleatz.com/nfl-props-test/",
+    "https://www.chiefs.com/news/2026-week-2-injury-report-colts-vs-chiefs",
+    "https://www.bengals.com/news/texans-bengals-injury-report-week-2-2026",
+    "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-friday",
+    "https://www.baltimoreravens.com/news/injury-report-zay-flowers-ravens-saints-ronnie-stanley-john-simpson-trey-hendrickson-week-2",
+    "https://www.fantasypros.com/2026/09/nfl-dfs-lineup-advice-picks-predictions-week-2-2026/",
+    "https://www.fantasypros.com/nfl/notes/440623/juwan-johnson-2026-week-2-outlook.php",
+    "https://www.fanduel.com/research/juwan-johnson-nfl-fantasy-week-2-vs-ravens-2026",
+    "https://www.fantasyinfocentral.com/betting/nfl/props/receiving-yards",
+    "https://matchwiz.ai/nfl/player/juwan-johnson-6040",
+    "https://www.fantasypros.com/nfl/projections/derrick-henry.php",
+    "https://www.4for4.com/fantasy-football-projections/standard/rb/2026/week2"
+  ],
+  "researchNotes": [
+    "Grok latest remains status=live with completedAt 2026-09-12T17:05:00Z, identical to the most recently processed pass; therefore it is not new.",
+    "Taylor and Schultz remain the only current stored BET states verified at their exact approved thresholds/prices; no duplicate alert is warranted.",
+    "Dowdle remains a disciplined PASS_AFTER_MOVE at 12.5.",
+    "Juwan Johnson is the strongest newly screened Over concept, but the direct 37.3-to-53.36 yard projection spread is too large to assign a defensible 4-5 percentage-point edge. Preserve as WATCH instead of forcing a bet.",
+    "Garrett Wilson, Derrick Henry and Jalen Coker have appealing role/analyst cases but lack the independent model agreement needed for a PRIME promotion at current prices.",
+    "Andrews and Chase Brown anytime-TD prices do not clear the standard edge threshold against explicit independent probabilities.",
+    "No material change occurred relative to the 00:01 ET archive; remain silent this run."
+  ]
+}
