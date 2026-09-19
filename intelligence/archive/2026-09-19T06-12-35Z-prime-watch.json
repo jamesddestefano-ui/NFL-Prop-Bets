@@ -1,0 +1,226 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T06:12:35Z",
+  "runAtEt": "2026-09-19 02:12:35",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T05-24-09Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL CHANGE: Juwan Johnson receiving yards moves from WATCH at the 38.5 consensus area to BET_NOW because a current-access bet365 price outlier is O34.5 -115. Covers timestamped the multi-book board Sat Sep 19 at 00:05 ET and shows bet365 O34.5 -115 versus DraftKings O37.5 -110 and most regulated books at O38.5. VegasInsider, crawled on Sep 19, independently displays the same 34.5 -115 outlier among a 37.5-38.5 cluster. Johnson is off the final Saints injury report after DNP-LP-FP, while Chris Olave is questionable with a hamstring injury. Week 1 role was 77.8% route share, 10.7% target share, 14.6% first-read share, seven targets and three red-zone targets; he produced 54 yards. Independent projections remain dispersed but mostly above 34.5: numberFire 53.36, prior FIC 49.5, prior DynastySpec 46.0, and prior MatchWiz 37.3. Baltimore is a tougher TE matchup, and rain chances increase during the game, so the recommendation is price-specific rather than a blanket Over. PRIME assigns a conservative 60% fair Over probability at 34.5 (fair odds about -150) versus 53.49% raw break-even at -115, a +6.51 percentage-point edge. Formal play is 0.5u at bet365 O34.5 -115, maximum -120; verify the live app immediately before placement. Do not transfer this approval to 38.5. Jonathan Taylor O15.5 -120 BetMGM and Dalton Schultz O41.5 -114 FanDuel remain unchanged prior BET theses; Rico Dowdle attempts remains PASS_AFTER_MOVE. No confirmed Week 2 straight ticket exists in bet_history and no new Grok pass exists.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-JUWAN-RECYDS-20260919-021235",
+      "timestampEt": "2026-09-19 02:12:35",
+      "gameDate": "2026-09-20",
+      "game": "NO@BAL",
+      "player": "Juwan Johnson",
+      "team": "NO",
+      "opponent": "BAL",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365",
+      "line": 34.5,
+      "odds": -115,
+      "sourceTimestampEt": "2026-09-19 00:05 ET",
+      "bestMarketLine": "bet365 O34.5 -115",
+      "consensusLine": "mostly 38.5; DraftKings 37.5; theScore Bet 39.5",
+      "lineAtFirstDetection": 38.5,
+      "lineAtRecommendation": 34.5,
+      "lineAtUserBet": null,
+      "openingLine": null,
+      "closingLine": null,
+      "ourMeanProjection": 44.5,
+      "ourMedianProjection": 43.5,
+      "estimatedOverProbability": 0.60,
+      "estimatedUnderProbability": 0.40,
+      "fairOdds": -150.0,
+      "marketImpliedProbability": 0.5349,
+      "noVigProbability": null,
+      "estimatedEdgePct": 6.51,
+      "edgeBucket": "6-8%",
+      "confidence": "B",
+      "stakeUnits": 0.5,
+      "playToLine": 34.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "BET_NOW",
+      "entryTiming": "SATURDAY",
+      "signalTags": [
+        "ROLE_CHANGE",
+        "ROUTE_SHARE",
+        "TARGET_SHARE",
+        "GAME_SCRIPT",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT",
+        "INJURY",
+        "WEATHER"
+      ],
+      "correlationTags": [],
+      "thesisId": "JUWAN_ROLE_PLUS_PRICE_DISLOCATION",
+      "actualUserAction": "NOT_CONFIRMED",
+      "rationale": "The bet is created by the threshold/price dislocation, not by a projection alone. A timestamped multi-book board shows bet365 O34.5 -115 while most books are 38.5 and DraftKings is 37.5 -110. Johnson's Week 1 route/target/first-read/red-zone involvement was stable enough to support a receiving-yard floor, and his illness is cleared from the final report. Independent projections are dispersed, so PRIME discounts the bullish models and uses a conservative 60% fair probability rather than mechanically treating the projection gap as edge.",
+      "injuryNewsDependencies": "Juwan Johnson is full Friday with no game designation. Chris Olave is questionable with a hamstring injury; Olave being active does not invalidate the 34.5 threshold, but an Olave inactive would require a fresh ceiling/target redistribution check rather than automatic stake escalation.",
+      "riskNotes": "Baltimore was a tougher TE efficiency matchup in 2025 and held Tyler Warren to 13 yards in Week 1. Sunday Baltimore weather is expected to begin warm/humid with roughly 10 mph wind and rain risk increasing during the game. Do not chase to 38.5, where the prior PRIME state was WATCH because model and matchup evidence conflicted.",
+      "alternateMarketState": {
+        "DraftKings": "O37.5 -110 — REDUCED_EDGE / LEAN, not the same formal BET",
+        "BetMGM": "O38.5 -115 — WATCH / PASS at current PRIME uncertainty",
+        "FanDuel": "O38.5 -114 — WATCH / PASS at current PRIME uncertainty",
+        "Fanatics": "O35.5 -135 — PASS on price",
+        "BetRivers": "O38.5 -112 — WATCH / PASS",
+        "Caesars": "O38.5 -114 — WATCH / PASS",
+        "theScoreBet": "O39.5 -115 — PASS_AFTER_MOVE",
+        "HardRock": "O38.5 -115 — WATCH / PASS"
+      },
+      "projectionContext": {
+        "numberFire": 53.36,
+        "FIC_prior_archive": 49.5,
+        "DynastySpec_prior_archive": 46.0,
+        "MatchWiz_prior_archive": 37.3,
+        "note": "Projection dispersion is explicitly preserved; none is treated as sportsbook truth or sufficient alone to create the wager."
+      },
+      "roleContext": {
+        "week1Targets": 7,
+        "week1Receptions": 3,
+        "week1ReceivingYards": 54,
+        "week1RouteSharePct": 77.8,
+        "week1TargetSharePct": 10.7,
+        "week1FirstReadSharePct": 14.6,
+        "week1RedZoneTargets": 3,
+        "season2025Receptions": 77,
+        "season2025ReceivingYards": 889
+      }
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "BetMGM",
+      "line": 15.5,
+      "odds": -120,
+      "estimatedOverProbability": 0.60,
+      "fairOdds": -150.0,
+      "estimatedEdgePct": 5.45,
+      "edgeBucket": "4-6%",
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "BET_NOW_UNCHANGED",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["ROLE_CHANGE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "WEATHER"],
+      "reason": "Carry-forward only; no material change requiring a duplicate alert."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel",
+      "line": 41.5,
+      "odds": -114,
+      "estimatedOverProbability": 0.575,
+      "fairOdds": -135.3,
+      "estimatedEdgePct": 4.23,
+      "edgeBucket": "4-6%",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_UNCHANGED",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "MARKET_MOVE"],
+      "reason": "Carry-forward only; no material change requiring a duplicate alert."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["RUSH_SHARE", "GAME_SCRIPT", "MARKET_MOVE"],
+      "reason": "Current market remains materially above the original 8.5 entry; do not transfer the old thesis upward."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers Juwan Johnson multi-book player-prop board",
+      "sourceTimestampEt": "2026-09-19 00:05 ET",
+      "claim": "Juwan receiving yards: bet365 O34.5 -115; DraftKings O37.5 -110; BetMGM O38.5 -115; FanDuel O38.5 -114/U38.5 -114; Fanatics O35.5 -135; BetRivers O38.5 -112; Caesars O38.5 -114; theScore Bet O39.5 -115; Hard Rock O38.5 -115/U38.5 -115.",
+      "url": "https://www.covers.com/sport/football/nfl/players/42000/juwan-johnson"
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "VegasInsider NFL player prop odds",
+      "sourceTimestampEt": "crawled 2026-09-19",
+      "claim": "Independent current-access board also displays Juwan O34.5 -115 as a low-line outlier while most displayed Over thresholds are 37.5-38.5.",
+      "url": "https://www.vegasinsider.com/nfl/odds/player-props/"
+    }
+  ],
+  "newsChecks": [
+    {
+      "classification": "confirmed_fact",
+      "source": "New Orleans Saints official Friday injury report",
+      "sourceTimestampEt": "2026-09-18 13:12 ET",
+      "claim": "Juwan Johnson progressed DNP Wednesday to limited Thursday to full Friday and has no game designation. Chris Olave is questionable with a hamstring injury.",
+      "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-friday"
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Baltimore Ravens official Friday injury update",
+      "sourceTimestampEt": "2026-09-18 12:44 ET",
+      "claim": "Zay Flowers is doubtful; Ronnie Stanley, John Simpson and Trey Hendrickson are questionable; Nnamdi Madubuike, T.J. Tampa and Teddye Buchanan are out.",
+      "url": "https://www.baltimoreravens.com/news/injury-report-zay-flowers-ravens-saints-ronnie-stanley-john-simpson-trey-hendrickson-week-2"
+    }
+  ],
+  "projectionChecks": [
+    {
+      "classification": "model_projection",
+      "source": "numberFire via FanDuel Research",
+      "player": "Juwan Johnson",
+      "claim": "Projected 53.36 receiving yards for Week 2.",
+      "url": "https://www.fanduel.com/research/juwan-johnson-nfl-fantasy-week-2-vs-ravens-2026"
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "FantasyPros Derek Brown Week 2 outlook",
+      "player": "Juwan Johnson",
+      "claim": "Week 1 role: 10.7% target share, 77.8% route share, 14.6% first-read share, three red-zone targets; Baltimore is a tougher TE efficiency matchup.",
+      "url": "https://www.fantasypros.com/nfl/notes/440623/juwan-johnson-2026-week-2-outlook.php"
+    }
+  ],
+  "weatherChecks": [
+    {
+      "classification": "attributed_report",
+      "source": "FantasyAlarm Week 2 weather report / CBS Baltimore",
+      "sourceTimestampEt": "2026-09-18",
+      "claim": "Saints-Ravens forecast is warm/humid around kickoff with about 10 mph wind; rain risk begins modestly and increases during the game. Weather is a monitor item, not a current veto for a short/mid-area TE receiving-yard play.",
+      "urls": [
+        "https://www.fantasyalarm.com/articles/nfl/nfl-weather/nfl-week-2-weather-report-fantasy-football-dfs-impact/195642",
+        "https://www.cbsnews.com/baltimore/news/maryland-weekend-weather-starts-dry-then-turns-rainy/"
+      ]
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "newRecommendedStakeUnits": 0.5,
+    "sameGameExposureWithRecordedWeek2Tickets": false,
+    "sameThesisExposure": false,
+    "notes": "No Week 2 straight wager is in bet_history. Taylor and Schultz are recommendations, not confirmed user tickets. Do not duplicate any wager later if user supplies a ticket."
+  }
+}
