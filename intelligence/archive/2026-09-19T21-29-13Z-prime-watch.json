@@ -1,0 +1,191 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T21:29:13Z",
+  "runAtEt": "2026-09-19 17:29:13",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T18-56-24Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL SATURDAY UPDATE: Pittsburgh officially downgraded WR Michael Pittman Jr. to OUT at 13:31 ET, superseding the prior archive's stale statement that no new Saturday designation changed PIT@NE. Pittman played 59 offensive snaps (about 88%) and led Pittsburgh with 58 receiving yards in Week 1, so his absence materially changes the Steelers target tree. A new Aaron Rodgers Under 0.5 interceptions candidate also surfaced after the Pittman update. Action Network published a 16:01 ET book-specific snapshot of U0.5 at bet365 -135, DraftKings -139 and Caesars -141, with its model at 0.44 interceptions / 35.7% chance of at least one interception. Independent current public pages around this run show U0.5 -139, corroborating that the market remains near the Action snapshot, but they do not identify a current executable sportsbook. PRIME therefore treats this as a conditional BET requiring a live-app price check rather than falsely asserting that a named book still has the earlier quote. Internal fair Under probability is conservatively haircutted to 63.0% because Pittsburgh threw 40 times in Week 1 and Pittman's absence creates receiver-quality uncertainty. Play only U0.5 at -143 or better, 0.5u; do not chase to Action's looser -150 ceiling. Pat Freiermuth and DK Metcalf receive target-vacuum WATCH upgrades but are not formal bets because current book-specific prices and fair distributions are not strong enough. Rico Dowdle O8.5 attempts remains directionally supported by Pittman's absence but the stored 8.5/-115 price ceiling still controls; no stake increase. Existing Josh Downs and Dalton Schultz states are unchanged. No new Grok pass and no confirmed Week 2 straight ticket in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Aaron Rodgers",
+      "game": "PIT@NE",
+      "propType": "OTHER",
+      "market": "Interceptions Thrown",
+      "side": "UNDER",
+      "sportsbook": "Action Network 16:01 ET snapshot: bet365 / DraftKings / Caesars",
+      "line": 0.5,
+      "odds": -139,
+      "bestMarketLine": "bet365 U0.5 -135 at 16:01 ET Action snapshot; DK -139; Caesars -141",
+      "consensusLine": "0.5; independent current public market reference U0.5 -139",
+      "openingLine": null,
+      "lineAtFirstDetection": 0.5,
+      "marketImpliedProbabilityAtMinus139": 58.16,
+      "sourceModelUnderProbability": 64.3,
+      "estimatedUnderProbability": 63.0,
+      "estimatedOverProbability": 37.0,
+      "fairOdds": -170,
+      "estimatedEdgePctAtMinus139": 4.84,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "confidence": "B",
+      "playToLine": 0.5,
+      "maxAcceptableOdds": -143,
+      "steamState": "BET_NOW_IF_LIVE_APP_CONFIRMS",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.5,
+      "signalTags": ["MATCHUP", "PROJECTION_DISAGREEMENT", "INJURY", "GAME_SCRIPT", "MARKET_PRICE"],
+      "correlationTags": [],
+      "thesisId": "RODGERS_BALL_SECURITY_NE",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": true,
+      "reason": "Rodgers threw only seven interceptions in 16 games in 2025 and none on 40 attempts in Week 1. Action's quantified model projects 0.44 interceptions and a 35.7% chance of at least one. New England produced 10 interceptions in 2025 and none in Week 1. PRIME haircuts Action's 64.3% Under probability to 63.0% for pass-volume and Pittman-out uncertainty. At -139 the raw edge is about 4.84 percentage points; -143 is the maximum price that preserves roughly a 4-point edge. Exact named-book prices from 16:01 ET must be rechecked in the live sportsbook before placement; current public -139 corroboration is not treated as sportsbook-specific executable truth."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "line": 8.5,
+      "odds": null,
+      "decisionStatus": "BET",
+      "confidence": "B",
+      "estimatedOverProbability": 59.0,
+      "fairOdds": -144,
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_EXACT_PRICE_VERIFIED",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.5,
+      "signalTags": ["SNAP_SHARE", "RUSH_SHARE", "INJURY", "GAME_SCRIPT", "MARKET_MOVE"],
+      "correlationTags": [],
+      "thesisId": "DOWDLE_LEAD_BACK_VOLUME",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "Pittman OUT is mildly supportive of run volume but does not erase the committee or negative-script risk with Pittsburgh an underdog. Do not increase the 59% fair probability or stake without stronger evidence. Prior exact 8.5/-113 market was not reverified after the Pittman news in this pass; preserve the 8.5/-115 hard ceiling."
+    },
+    {
+      "player": "Pat Freiermuth",
+      "game": "PIT@NE",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "steamState": "WATCH_TARGET_VACUUM",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["INJURY", "ROUTE_SHARE", "TARGET_SHARE", "FIRST_READ_SHARE", "RED_ZONE"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "FREIERMUTH_PITTMAN_OUT_TARGETS",
+      "alert": false,
+      "reason": "Pittman vacates an 88% Week 1 snap role and 58 receiving yards. Freiermuth had 70.3% snaps, 72.1% route share, 12.2% target share, five catches for 46 yards and two red-zone targets, but only an 8.7% first-read share. Current public price references are inconsistent and no exact book-specific edge is verified; WATCH only."
+    },
+    {
+      "player": "DK Metcalf",
+      "game": "PIT@NE",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "steamState": "WATCH_TARGET_VACUUM",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["INJURY", "ROUTE_SHARE", "TARGET_SHARE", "MATCHUP"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "METCALF_PITTMAN_OUT_TARGETS",
+      "alert": false,
+      "reason": "Metcalf already had a workhorse Week 1 role (roughly 96% snaps, 10 official targets / 11 true targets). Pittman OUT raises target concentration potential, but expected Christian Gonzalez shadow coverage and a public receiving-yards market around the mid-50s prevent a quantified BET without a stronger fair-line edge."
+    }
+  ],
+  "confirmedFacts": [
+    {
+      "source": "Pittsburgh Steelers official injury report",
+      "sourceTimestamp": "2026-09-19 13:31 ET",
+      "claim": "Michael Pittman Jr. downgraded to OUT for Week 2 at New England with a foot injury."
+    },
+    {
+      "source": "Week 1 usage / official game data and reliable fantasy charting",
+      "claim": "Pittman played 59 offensive snaps (about 88%) and caught 3 passes for a team-high 58 yards in Week 1. Freiermuth had 70.3% snaps, 72.1% route share, 12.2% target share, 8.7% first-read share, 5 receptions for 46 yards and 2 red-zone targets. Metcalf had a near-every-down role and 10 official targets."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_snapshot",
+      "source": "Action Network / Nick Giffen",
+      "sourceTimestamp": "2026-09-19 16:01 ET",
+      "player": "Aaron Rodgers",
+      "claim": "Under 0.5 interceptions: bet365 -135, DraftKings -139, Caesars -141. Action model: 0.44 interceptions, 35.7% chance of at least one; analyst play-to -150. PRIME applies a stricter -143 max after independent risk haircut."
+    },
+    {
+      "classification": "current_market_reference_non_book_specific",
+      "source": "Sports Illustrated and XaslarBet current pages",
+      "capturedAtEt": "2026-09-19 17:29 ET",
+      "player": "Aaron Rodgers",
+      "claim": "Under 0.5 interceptions displayed around -139. This corroborates the market level but is not used to claim a current named-sportsbook executable price."
+    }
+  ],
+  "newsChecks": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Steelers.com",
+      "claim": "Pittman OUT; Joey Porter Jr. OUT; Troy Fautanu QUESTIONABLE after full Friday participation."
+    },
+    {
+      "classification": "attributed_reporting",
+      "source": "Reuters / Steelers reporting",
+      "claim": "Pittman's absence shifts more passing-game responsibility toward DK Metcalf, Pat Freiermuth and younger receivers; role redistribution is not yet quantified enough for a new receiving-yards BET."
+    },
+    {
+      "classification": "weather",
+      "source": "Covers / Foxborough forecast",
+      "claim": "Cloudy and possible rain showers Sunday with mild 5-6 mph winds; weather is not currently severe enough to invalidate the Rodgers interception thesis, but Sunday checkpoints must refresh precipitation timing."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "newRecommendedStakeUnits": 0.5,
+    "potentialPITNERecommendedExposureIfDowdleAndRodgersBothTaken": 1.0,
+    "notes": "No duplicate ticket if the user has already placed a wager outside the repository. Rodgers and Dowdle are not tagged SAME_THESIS, but they share PIT@NE game exposure."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — preserves Pittman OUT correction and Rodgers interception conditional BET",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — archive is authoritative for this incremental run pending safe batch reconciliation",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — archive contains full decision fields pending safe batch reconciliation",
+    "lineHistory": "MARKET SNAPSHOTS PRESERVED IN marketChecks pending safe batch reconciliation",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user straight ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.steelers.com/news/week-2-injury-report-patriots-x4998",
+    "https://www.actionnetwork.com/nfl/player-props-for-nfl-week-2-aaron-rodgers-jeremiyah-love",
+    "https://www.si.com/betting/steelers-vs-patriots-best-nfl-prop-bets-and-anytime-touchdown-scorer-picks-for-nfl-week-2-stacking-stevenson-01m2rpn3zhma",
+    "https://xaslarbet.com/nfl/props/aaron-rodgers",
+    "https://www.fantasypros.com/2026/09/the-primer-week-2-edition-2026-fantasy-football/2/",
+    "https://www.fantasypros.com/2026/09/beyond-the-waiver-wire-fantasy-football-moves-to-make-week-2-2026/",
+    "https://www.covers.com/nfl/steelers-vs-patriots-prediction-picks-sept-20-2026"
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and prior processed state.",
+    "The prior 14:56 ET archive is stale on Michael Pittman Jr. status because Steelers.com officially downgraded him to OUT at 13:31 ET; this run corrects that durable state.",
+    "Never treat the 16:01 ET Action sportsbook quotes as guaranteed executable at 17:29 ET. User action requires a live-app confirmation at U0.5 and -143 or better.",
+    "Saturday-to-Sunday overnight intensity begins at 23:00 ET; refresh Pittman-driven target redistribution, PIT@NE weather and Rodgers/Dowdle prices then."
+  ]
+}
