@@ -1,0 +1,175 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T10:30:24Z",
+  "runAtEt": "2026-09-19 06:30:24",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T09-21-51Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL CHANGE: Josh Downs O36.5 receiving yards -115 at bet365 is a new price-specific BET. The current Covers multi-book board captured during this run shows bet365 four to six yards below the regulated-book cluster: FanDuel 40.5 -114, DraftKings 41.5 -114, BetMGM 42.5 -111, Fanatics 40.5 -120, BetRivers 42.5 -114, Caesars 41.5 -115, theScore Bet 41.5 -110 and Hard Rock 41.5 -115. FanDuel Research independently states Downs' receiving-yards prop was 40.5 as of Saturday morning. Week 1 role was near every-down (88.7% snaps, 85.3% route share) with a 21.1% first-read share despite only four targets; the Colts are 6.5-point underdogs. Projection disagreement remains material, so PRIME uses the market dislocation plus role/game-script evidence rather than any single projection and caps the play at 36.5. No new Grok pass. Existing Dowdle/Juwan/Schultz decisions are unchanged; Taylor remains WATCH without a newly verified acceptable receiving-yard price.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Josh Downs",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365 via Covers",
+      "line": 36.5,
+      "odds": -115,
+      "bestMarket": "bet365 O36.5 -115",
+      "consensusLineContext": "40.5-42.5 at most regulated books; FanDuel Saturday-morning article states 40.5",
+      "playToLine": 36.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "BET_NOW",
+      "entryTiming": "SATURDAY_EARLY",
+      "estimatedOverProbability": 0.58,
+      "estimatedUnderProbability": 0.42,
+      "fairOdds": -138.1,
+      "marketImpliedProbability": 0.5349,
+      "estimatedEdgePct": 4.51,
+      "edgeBucket": "4-6%",
+      "recommendedStakeUnits": 0.5,
+      "lineClv": null,
+      "priceClv": null,
+      "combinedClv": null,
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "FIRST_READ", "GAME_SCRIPT", "MARKET_MOVE", "MAN_COVERAGE", "TWO_HIGH", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": ["SAME_GAME_CONDITIONAL_WITH_TAYLOR_RECEIVING"],
+      "thesisId": "DOWNS_FULLTIME_SLOT_MARKET_DISLOCATION",
+      "reason": "The bet is driven by a verified threshold/market dislocation plus expanded role and matchup-coverage fit, not merely by a projection above the line. Downs played 88.7% of Week 1 snaps with an 85.3% route share, 12.9% target share and 21.1% first-read share; RotoWire separately charted 32 routes on 34 Daniel Jones dropbacks. Kansas City's high man/two-high usage is favorable to Downs' historical target-earning profile, while Indianapolis' underdog status supports pass volume. Projections range from roughly 37 to 57 yards, so the edge is intentionally capped at 36.5 and should not be chased to the 40.5+ consensus market."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365 via Covers",
+      "line": 8.5,
+      "odds": -115,
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_UNCHANGED",
+      "reason": "No new official injury or role information found in this run that invalidates the prior price-specific thesis; do not treat unrelated 12.5 receiving-yards quotes as rushing-attempt truth."
+    },
+    {
+      "player": "Juwan Johnson",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365 via Covers",
+      "line": 34.5,
+      "odds": -115,
+      "playToLine": 34.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "BET_NOW_UNCHANGED",
+      "reason": "No fresher adverse role/injury information was found. FanDuel Research continues to place the broader threshold at 38.5 from Friday afternoon, preserving the prior 34.5 outlier thesis if the exact bet365 price remains live."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel via Covers",
+      "line": 41.5,
+      "odds": -114,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_UNCHANGED",
+      "reason": "Current Covers multi-book board captured this run still shows FanDuel O41.5 -114 while other regulated books are generally higher. Nico Collins remains officially out. No chase above the stored 41.5 ceiling."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "market context",
+      "line": 17.5,
+      "odds": -114,
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "A current Saturday source lists Taylor receiving yards at 17.5 -114, above PRIME's stored 15.5 ceiling. FanDuel's Saturday update only exposes his rushing-yards prop, not a better receiving price. Do not chase."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market",
+      "source": "Covers NFL player-props multi-book board",
+      "capturedAtEt": "2026-09-19 06:30 ET",
+      "claim": "Josh Downs receiving yards: bet365 O36.5 -115; FanDuel O40.5 -114; DraftKings O41.5 -114; BetMGM O42.5 -111; Fanatics O40.5 -120; BetRivers O42.5 -114; Caesars O41.5 -115; theScore Bet O41.5 -110; Hard Rock O41.5 -115. Dalton Schultz remains FanDuel O41.5 -114."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "FanDuel Research Josh Downs Week 2 page",
+      "sourceTimestampEt": "2026-09-19 03:06 ET",
+      "claim": "Downs receiving-yards prop was 40.5 yards as of Saturday morning."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "Bleacher Nation Jonathan Taylor Week 2 props",
+      "sourceTimestampEt": "2026-09-18",
+      "claim": "Taylor receiving yards listed at 17.5 with Over -114; above PRIME's 15.5 play-to."
+    }
+  ],
+  "newsRoleChecks": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Kansas City Chiefs official Week 2 injury report",
+      "claim": "Josh Downs is not listed on the Colts' Friday injury report and carries no injury designation. Alec Pierce returned to full participation; Ashton Dulin is out."
+    },
+    {
+      "classification": "usage_reporting",
+      "source": "FantasyPros Week 2 outlook / RotoWire Week 1 review",
+      "claim": "Downs played 88.7% of snaps with an 85.3% route share, 12.9% target share and 21.1% first-read share; RotoWire charted 32 routes on 34 Daniel Jones dropbacks."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "FantasyPros",
+      "claim": "Kansas City was a tougher Week 1 slot matchup, creating a legitimate downside check rather than a one-sided Over case."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "Yahoo/Forbes Sunday Night prop analysis",
+      "claim": "Kansas City's man and two-high rates fit Downs' stronger historical target-per-route performance versus those coverages."
+    },
+    {
+      "classification": "model_projection",
+      "source": "numberFire / Stats Insider / Covers / FantasyFire",
+      "claim": "Public projections are dispersed: approximately 57.0, 47, 51.8 and 37.1 receiving yards respectively. PRIME does not use any one of them as sufficient reason to bet."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "newRecommendedStakeUnits": 0.5,
+    "sameGameExposureWithRecordedWeek2Tickets": false,
+    "sameThesisExposure": false,
+    "conditionalCorrelation": "If Jonathan Taylor receiving later becomes actionable, both positions would share an Indianapolis trailing/pass-volume game-script component; re-evaluate aggregate IND@KC exposure before adding Taylor.",
+    "notes": "No Week 2 straight wager is recorded in bet_history. Josh Downs is a new recommendation, not a duplicate ticket."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — durable append-only record for the 06:30 ET material-change sweep",
+    "livePropBoard": "NO MUTATION — recent PRIME watch decisions are being preserved in immutable archives; legacy board remains the baseline comparison source",
+    "decisionLedger": "NO MUTATION — material decision preserved in this immutable archive",
+    "lineHistory": "NO MUTATION — cross-book snapshot preserved in this immutable archive",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  }
+}
