@@ -1,0 +1,162 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T18:18:19Z",
+  "runAtEt": "2026-09-19 14:18:19",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T17-16-03Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL ALERT: Josh Downs Over 36.5 receiving yards has re-entered PRIME's exact stored buy zone at bet365 -115 on the current Covers multi-book sportsbook board. The broader market is materially higher (FanDuel/Fanatics 40.5; Caesars/theScore/Hard Rock 41.5; BetMGM/DraftKings/BetRivers 42.5), so the 36.5 is a meaningful book-specific threshold advantage rather than a projection-only wager. Downs was a full-time Week 1 receiver (88.7% snaps, 85.3% route share, 21.1% first-read share) and is not listed on the Colts' final injury report. Independent projections remain dispersed (CBS 38.2 receiving yards; numberFire 57.03), so PRIME keeps a conservative 58% fair Over probability rather than following the most bullish model. Sunday-night rain/storm risk at Arrowhead is a real downside input, but current forecasts show light wind around 7 mph and the market-wide 40.5-42.5 consensus already provides a substantial cushion versus 36.5. Decision: BET_NOW, 0.5u only at 36.5 and -120 or better; do not chase 37.5+. Dalton Schultz O41.5 remains available at BetRivers -112 / FanDuel -113 and therefore remains within the prior 41.5/-115 ceiling, but that is not a new catalyst. No new Grok pass and no confirmed Week 2 straight ticket in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-DOWNS-RECYDS-REENTRY-20260919-141819",
+      "timestampEt": "2026-09-19 14:18:19",
+      "player": "Josh Downs",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers current sportsbook board",
+      "line": 36.5,
+      "odds": -115,
+      "bestMarketLine": "36.5 -115 bet365",
+      "consensusLine": "40.5-42.5 across FanDuel, Fanatics, Caesars, theScore Bet, Hard Rock, BetMGM, DraftKings and BetRivers",
+      "marketImpliedProbability": 53.49,
+      "noVigProbability": null,
+      "ourMeanProjection": 44.0,
+      "ourMedianProjection": 42.5,
+      "estimatedOverProbability": 58.0,
+      "estimatedUnderProbability": 42.0,
+      "fairOdds": -138,
+      "estimatedEdgePct": 4.51,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "confidence": "B",
+      "playToLine": 36.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "BET_NOW",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.5,
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "WEATHER"],
+      "correlationTags": ["SAME_THESIS"],
+      "thesisId": "DOWNS_FULL_TIME_SLOT_VOLUME",
+      "injuryNewsDependencies": "Josh Downs is not listed on the Colts' final injury report. Ashton Dulin is out; Alec Pierce practiced fully Friday. Indianapolis elevated Anthony Gould from the practice squad Saturday, but Gould has primarily return/depth usage and the move does not displace Downs from the listed starting WR role. Monitor Sunday-night rain intensity; wind is currently forecast to remain light.",
+      "reason": "The actionable catalyst is price. Covers' current board exposes bet365 O36.5 -115 while every other displayed regulated sportsbook is 40.5-42.5. FantasyPros charted Downs at 88.7% snaps, 85.3% route share, 12.9% target share and 21.1% first-read share in Week 1. CBS projects 38.2 receiving yards while numberFire projects 57.03, so PRIME discounts the bullish path and assigns only 58% fair Over probability. At -115 this is a 4.51 percentage-point edge. The wager is threshold-sensitive: do not transfer approval to 37.5+ merely because the broader market is higher.",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": true
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "BetRivers via Covers current sportsbook board",
+      "line": 41.5,
+      "odds": -112,
+      "bestMarketLine": "41.5 -112 BetRivers; 41.5 -113 FanDuel",
+      "consensusLine": "42.5-47.5 across other displayed books",
+      "decisionStatus": "BET",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["INJURY", "ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE"],
+      "correlationTags": [],
+      "thesisId": "SCHULTZ_COLLINS_OUT_VOLUME",
+      "reason": "Current board still offers the exact stored 41.5 threshold at acceptable juice, but Nico Collins being out and the Schultz volume thesis were already incorporated in prior PRIME decisions. This is confirmation, not a new alert.",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers NFL player-props multi-book board",
+      "capturedAtEt": "2026-09-19 14:18 ET",
+      "player": "Josh Downs",
+      "claim": "Receiving yards: bet365 O36.5 -115; FanDuel O40.5 -114; Fanatics O40.5 -115; Caesars O41.5 -115; theScore Bet O41.5 -110; Hard Rock O41.5 -115; BetMGM O42.5 -111; DraftKings O42.5 -109; BetRivers O42.5 -112."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers NFL player-props multi-book board",
+      "capturedAtEt": "2026-09-19 14:18 ET",
+      "player": "Dalton Schultz",
+      "claim": "Receiving yards: BetRivers O41.5 -112; FanDuel O41.5 -113; theScore Bet O42.5 -110; Hard Rock O43.5 -115; Caesars O44.5 -115; BetMGM O45.5 -115; Fanatics O45.5 -105; DraftKings O46.5 -113; bet365 O47.5 -115."
+    }
+  ],
+  "projectionRoleChecks": [
+    {
+      "classification": "analyst_opinion",
+      "source": "FantasyPros Week 2 Josh Downs outlook",
+      "claim": "Week 1 usage: 88.7% snap rate, 85.3% route share, 82.8% slot-route rate, 12.9% target share, 21.1% first-read share, 37 receiving yards on four targets."
+    },
+    {
+      "classification": "model_projection",
+      "source": "CBS Week 2 WR projections",
+      "claim": "Josh Downs projected for 38.2 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "numberFire via FanDuel Research",
+      "claim": "Josh Downs projected for 57.03 receiving yards."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Chiefs official Week 2 injury report (includes Indianapolis final report)",
+      "claim": "Josh Downs is not listed. Ashton Dulin is out; Alec Pierce was full Friday and has no game designation."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Indianapolis Colts roster move",
+      "claim": "The Colts elevated WR Anthony Gould from the practice squad Saturday. Gould has three career receptions and extensive return-game usage; no official source announced a Downs role reduction."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Current Week 2 weather reporting",
+      "claim": "Arrowhead has meaningful Sunday-night shower/thunderstorm risk, but winds are forecast around 7 mph. Weather remains a monitor and is included as a downside adjustment rather than ignored."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "newRecommendedStakeUnits": 0.5,
+    "notes": "Repository still contains no confirmed Week 2 straight ticket. Recommend 0.5u on Downs only if the user has not already placed it outside the repository. If a Jonathan Taylor receiving-yards ticket was placed externally, tag Downs as SAME_THESIS/same-game Indianapolis pass-volume exposure and do not increase Downs above 0.5u."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — durable record of Josh Downs exact-price re-entry and current Schultz confirmation",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — current material state preserved in immutable archive pending safe batch reconciliation",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — Downs BET preserved in immutable archive pending safe batch reconciliation",
+    "lineHistory": "CURRENT MARKET SNAPSHOTS PRESERVED IN marketChecks pending safe batch reconciliation",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user straight ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.covers.com/sport/football/nfl/player-props",
+    "https://www.fantasypros.com/nfl/notes/440714/josh-downs-2026-week-2-outlook.php",
+    "https://www.fanduel.com/research/josh-downs-nfl-fantasy-week-2-vs-chiefs-2026",
+    "https://sportsfly.cbsistatic.com/fantasy/football/stats/WR/2026/season/projections/ppr/",
+    "https://www.chiefs.com/news/2026-week-2-injury-report-colts-vs-chiefs",
+    "https://www.colts.com/news/colts-elevate-wr-anthony-gould-from-practice-squad-for-week-2",
+    "https://dknetwork.draftkings.com/2026/09/18/nfl-week-2-weather-forecast/"
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "The prior 13:16 ET archive had Josh Downs PASS_AFTER_MOVE because the visible current reference was 40.5 and PRIME's stored buy ceiling was 36.5. The current multi-book board now restores the exact 36.5/-115 bet365 pair, making this a genuine price-state reversal.",
+    "Do not use Covers' proprietary EV percentage as PRIME's fair probability. PRIME independently retains a conservative 58% fair Over estimate because independent projections are widely dispersed and Sunday-night rain is a real uncertainty.",
+    "Price discipline controls: 36.5 at -120 or better only. A move to 37.5 or higher requires a fresh calculation and is not automatically approved."
+  ]
+}
