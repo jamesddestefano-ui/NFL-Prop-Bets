@@ -1,0 +1,206 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T17:16:03Z",
+  "runAtEt": "2026-09-19 13:16:03",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T15-27-17Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL ALERT: Rico Dowdle Over 8.5 rushing attempts has been reverified at bet365 -115 on a current public sportsbook board after the prior 11:27 ET run could not confirm an executable 8.5/-115 pair. The exact line/price matches PRIME's stored play-to and maximum juice, so Dowdle moves from WATCH back to BET_NOW. Independent workload projections remain above the threshold (FantasyPros 11.2 attempts; DraftKings Network 9.3 carries), while Week 1 role evidence supports Dowdle as the lead back despite committee uncertainty. Conservative PRIME fair Over probability is reset to 59% (~-144 fair), a 5.51 percentage-point raw edge versus -115 break-even. Hard ceiling remains 8.5; do not chase 9.5+. Rashod Bateman Over 2.5 receptions now has an exact DraftKings public price around -138 with Zay Flowers doubtful, but the expensive 58% break-even and insufficient independent probability support make it PASS/REDUCED_EDGE rather than a new bet. Taylor, Schultz, Downs, and Juwan Johnson remain unchanged from the prior archive; no new Grok pass and no confirmed Week 2 straight ticket in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-DOWDLE-CARRIES-REVERIFY-20260919-131603",
+      "timestampEt": "2026-09-19 13:16:03",
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers current sportsbook board",
+      "line": 8.5,
+      "odds": -115,
+      "bestMarketLine": "8.5 -115 bet365 among publicly exposed exact prices",
+      "consensusLine": "8.5 on current public rushing-attempt board",
+      "marketImpliedProbability": 53.49,
+      "noVigProbability": null,
+      "ourMeanProjection": 10.1,
+      "ourMedianProjection": 10.0,
+      "estimatedOverProbability": 59.0,
+      "estimatedUnderProbability": 41.0,
+      "fairOdds": -144,
+      "estimatedEdgePct": 5.51,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "confidence": "B",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.5,
+      "signalTags": ["SNAP_SHARE", "RUSH_SHARE", "ROLE_CHANGE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": [],
+      "thesisId": "DOWDLE_LEAD_BACK_VOLUME",
+      "injuryNewsDependencies": "No fresh adverse Dowdle/Warren injury signal identified in this run. Committee uncertainty remains the main role risk.",
+      "reason": "Current Covers sportsbook board exposes bet365 O8.5 rushing attempts at -115, restoring the exact stored buy threshold after the 11:27 ET run could not reverify it. FantasyPros projects 11.2 attempts; DraftKings Network projects 9.3 carries and 13.7 total touches. Week 1 usage reporting supports Dowdle as Pittsburgh's lead back by snaps/role despite Jaylen Warren remaining involved. PRIME discounts the bullish projection path for committee and underdog game-script risk, but still estimates 59% Over probability. The wager is threshold-sensitive: do not transfer approval to 9.5 or worse than -115.",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": true
+    },
+    {
+      "player": "Rashod Bateman",
+      "game": "NO@BAL",
+      "propType": "RECEPTIONS",
+      "market": "Receptions",
+      "side": "OVER",
+      "sportsbook": "DraftKings via FantasyAlarm public article",
+      "line": 2.5,
+      "odds": -138,
+      "marketImpliedProbability": 57.98,
+      "decisionStatus": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SATURDAY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "MARKET_MOVE", "EXPERT_CONSENSUS"],
+      "reason": "Zay Flowers is doubtful and Bateman's route opportunity should rise, but the current cited DraftKings price requires nearly a 58% hit rate. PRIME lacks sufficiently strong independent probability support to clear the preferred 4-5 point edge threshold at -138. Do not bet from injury narrative alone."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "BET_NOW_IF_EXACT_PRICE_STILL_LIVE",
+      "alert": false,
+      "reason": "BetMGM's official Week 2 article still lists a 15.5 receiving-yards threshold, but this run did not establish a newer exact live price better than the prior recommendation. Preserve the prior price-specific decision; no chase."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_IF_EXACT_PRICE_STILL_LIVE",
+      "alert": false,
+      "reason": "Public current market context still shows 41.5 around standard juice and Nico Collins remains out, but this is not a new catalyst relative to the prior recommendation."
+    },
+    {
+      "player": "Josh Downs",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "line": 40.5,
+      "playToLine": 36.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "PASS_AFTER_MOVE",
+      "alert": false,
+      "reason": "Current FanDuel public reference remains 40.5, above PRIME's stored 36.5 buy threshold. Do not chase."
+    },
+    {
+      "player": "Juwan Johnson",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "line": 38.5,
+      "playToLine": 34.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "PASS_AFTER_MOVE",
+      "alert": false,
+      "reason": "Current FanDuel public reference remains 38.5, above PRIME's stored 34.5 buy threshold. Do not chase."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Rico Dowdle player-prop board",
+      "capturedAtEt": "2026-09-19 13:16 ET",
+      "claim": "Rushing Attempts: bet365 Over 8.5 -115; BetVictor Over 8.5 -118; William Hill Over 8.5 -118. Exact opposite-side price was not exposed in the captured board snippet, so no-vig probability remains unfilled."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "FantasyAlarm Week 2 player-prop article",
+      "capturedAtEt": "2026-09-19 13:16 ET",
+      "claim": "Rashod Bateman Over 2.5 receptions referenced at DraftKings -138; price is too expensive to promote without stronger independent probability support."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "BetMGM official Jonathan Taylor Week 2 article",
+      "capturedAtEt": "2026-09-19 13:16 ET",
+      "claim": "Taylor receiving-yards threshold remains listed at 15.5; exact current live odds were not exposed in the accessible article view."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "FanDuel Research current Week 2 pages",
+      "capturedAtEt": "2026-09-19 13:16 ET",
+      "claim": "Current public references continue to show Josh Downs receiving yards 40.5 and Juwan Johnson receiving yards 38.5; both are above PRIME's stored buy ceilings."
+    }
+  ],
+  "projectionRoleChecks": [
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 projections",
+      "claim": "Rico Dowdle projected for 11.2 rushing attempts and 46.9 rushing yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "DraftKings Network Week 2 RB projections",
+      "claim": "Rico Dowdle projected for 13.7 touches, 9.3 carries and 4.4 targets; Jaylen Warren projected for 9.6 carries and 4.8 targets."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "FantasyPros / current Steelers usage analysis",
+      "claim": "Week 1 role data showed Dowdle ahead of Warren by snap share and red-zone role despite a committee backfield; this supports a modest lead-back volume edge while preserving uncertainty."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Baltimore Week 2 injury reporting",
+      "claim": "Zay Flowers is doubtful, creating a Bateman target-volume catalyst that is already reflected in a materially expensive receptions price."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "newRecommendedStakeUnits": 0.5,
+    "notes": "Repository still contains no confirmed Week 2 straight ticket. Recommend 0.5u only if the user has not already placed Dowdle O8.5 -115; do not duplicate exposure based on an unrecorded outside-repository wager."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — durable record of Dowdle exact-price re-entry and Bateman price rejection",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — current material state preserved in immutable archive pending batch reconciliation",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — Dowdle BET and Bateman PASS preserved in immutable archive pending batch reconciliation",
+    "lineHistory": "CURRENT MARKET SNAPSHOTS PRESERVED IN marketChecks pending batch reconciliation",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user straight ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO DESTRUCTIVE CSV REWRITE — Bateman PASS preserved here pending later reconciliation",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.covers.com/sport/football/nfl/players/367871/rico-dowdle",
+    "https://www.fantasypros.com/nfl/projections/rb.php",
+    "https://dknetwork.draftkings.com/2026/09/19/nfl-week-2-running-back-projections/",
+    "https://www.fanduel.com/research/rico-dowdle-nfl-fantasy-week-2-vs-patriots-2026",
+    "https://www.fantasyalarm.com/articles/nfl/player-props/nfl-player-props-week-2-best-bets-picks-sunday-september-20-2026/",
+    "https://sports.betmgm.com/en/blog/nfl/jonathan-taylor-props-odds-gaa/",
+    "https://www.fanduel.com/research/josh-downs-nfl-fantasy-week-2-vs-chiefs-2026",
+    "https://www.fanduel.com/research/juwan-johnson-nfl-fantasy-week-2-vs-ravens-2026"
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index.",
+    "Price is the catalyst in this run. Dowdle was WATCH at 11:27 ET only because the exact stored 8.5/-115 pair could not be reverified; the current bet365 board now restores that exact executable public reference.",
+    "PRIME deliberately keeps the Dowdle maximum playable line at 8.5 despite projections above nine carries. A move to 9.5 requires a fresh probability calculation and is not automatically approved.",
+    "Bateman's injury-driven target thesis is not enough at -138; the price converts the prior WATCH into PASS/REDUCED_EDGE rather than BET."
+  ]
+}
