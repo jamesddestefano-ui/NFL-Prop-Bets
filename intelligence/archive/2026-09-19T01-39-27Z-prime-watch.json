@@ -1,0 +1,190 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T01:39:27Z",
+  "runAtEt": "2026-09-18 21:39:27",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T00-37-02Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL RE-ENTRY: a current-access CLEATZ multi-book receiving-yards board shows FanDuel Dalton Schultz Over 41.5 -114 / Under 41.5 -114, while DraftKings is 45.5 -113 and Betparx/BetRivers are 44.5, restoring PRIME's stored Schultz trigger after the prior run could not independently verify a fresh 41.5/-115-or-better price. Nico Collins is officially ruled out for Week 2; Houston reporting says the Texans plan to use a WR committee and increase 12/13 personnel. Schultz's Week 1 role was already strong (8 targets, 21.1% target share, 18.2% first-read share). Restore BET_NOW at FanDuel O41.5 -114 for 0.5u, hard play-to 41.5 and max juice -115; do not chase 42.5+. Retain the previously stored conservative 57.5% fair Over probability (about -135), versus 53.27% break-even at -114, for about 4.23 percentage points of estimated edge. Jonathan Taylor O15.5 -120 BetMGM remains unchanged and actionable under the prior 15.5/-125 ceiling; no new alert for Taylor. No fresh regulated-book Rico Dowdle 8.5 rushing-attempt price was verified. Brock Bowers is doubtful, making Michael Mayer a role WATCH, but no current regulated-book Mayer yardage price was verified. No new Grok pass and no confirmed Week 2 user ticket exists in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-SCHULTZ-RECYDS-REENTRY-20260918-213927",
+      "timestampEt": "2026-09-18 21:39:27",
+      "gameDate": "2026-09-20",
+      "game": "CIN@HOU",
+      "player": "Dalton Schultz",
+      "team": "HOU",
+      "opponent": "CIN",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "FanDuel via CLEATZ multi-book current-access board",
+      "line": 41.5,
+      "odds": -114,
+      "bestMarketLine": "FanDuel O41.5 -114",
+      "consensusLine": "Current board broadly 42.5-45.5; DraftKings 45.5 -113, Betparx 44.5 -114, BetRivers 44.5 -115, Hard Rock 42.5 -115",
+      "lineAtFirstDetection": 41.5,
+      "lineAtRecommendation": 41.5,
+      "estimatedOverProbability": 0.575,
+      "estimatedUnderProbability": 0.425,
+      "fairOdds": -135.3,
+      "marketImpliedProbability": 0.5327,
+      "noVigProbability": 0.5,
+      "estimatedEdgePct": 4.23,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "confidence": "B",
+      "recommendedStakeUnits": 0.5,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW",
+      "entryTiming": "FRIDAY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "FIRST_READ_SHARE", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "LINE_SHOPPING"],
+      "correlationTags": [],
+      "thesisId": "SCHULTZ_COLLINS_OUT_TARGET_VOLUME_WEEK2",
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "reason": "Price is part of the bet. The latest PRIME state kept Schultz conditional only because a fresh 41.5/-115-or-better entry could not be verified. That exact trigger has now reappeared at FanDuel O41.5 -114 while several current books are materially higher at 42.5-45.5. Nico Collins is ruled out, Houston reporting points to more 12/13 personnel, and Schultz already earned eight Week 1 targets with a 21.1% target share and 18.2% first-read share. External projections are not unanimous, so this is not a projection-only wager; the isolated 41.5 threshold versus the broader market and the confirmed role/injury catalyst are the key advantages. Do not chase 42.5+."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "decisionStatus": "BET",
+      "sportsbook": "BetMGM",
+      "line": 15.5,
+      "odds": -120,
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "BET_NOW_UNCHANGED",
+      "reason": "Current multi-book board still shows BetMGM O15.5 -120 while other books sit 16.5-17.5. No material deterioration since the 20:37 ET archive; no duplicate alert."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "decisionStatus": "BET_IF_LIVE_VERIFIED",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE_IF_LIVE_VERIFIED",
+      "reason": "No fresh regulated-book 8.5 rushing-attempt price was independently verified in this run. Do not infer from receiving-yards or rushing-yards markets and do not chase 9.5."
+    },
+    {
+      "player": "Michael Mayer",
+      "game": "LV@LAC",
+      "propType": "RECEIVING_YARDS/RECEPTIONS",
+      "decisionStatus": "WATCH",
+      "steamState": "ROLE_CATALYST_NO_PRICE",
+      "reason": "Brock Bowers is officially doubtful after a limited Friday return, so Mayer is likely to remain the top Raiders tight end if Bowers sits. Mayer had 7 targets, 6 catches and 32 yards in Week 1, but no current regulated-book Mayer receiving-yard/reception price was verified in this run."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "sportsbook_market",
+      "source": "CLEATZ multi-book current-access board",
+      "sourceTimestampEt": "accessed 2026-09-18 21:39 ET",
+      "claim": "Dalton Schultz receiving yards: FanDuel O41.5 -114/U41.5 -114; DraftKings O45.5 -113/U45.5 -111; Betparx 44.5 -114/-114; BetRivers 44.5 -115/-115; Hard Rock 42.5 -115/-115."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Houston final Friday injury reporting / official designation",
+      "sourceTimestampEt": "2026-09-18 afternoon ET",
+      "claim": "Nico Collins is ruled out for Week 2 with a hamstring injury."
+    },
+    {
+      "classification": "attributed_reporting",
+      "source": "Houston Chronicle",
+      "sourceTimestampEt": "2026-09-18",
+      "claim": "Houston plans to use a wide receiver committee and increase 12 and 13 personnel with Collins out."
+    },
+    {
+      "classification": "usage_fact",
+      "source": "FantasyPros Week 2 outlook",
+      "sourceTimestampEt": "2026-09-17; accessed 2026-09-18",
+      "claim": "Schultz had a 21.1% target share and 18.2% first-read share in Week 1, with 8 targets, 4 catches and 35 yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Fantasy Info Central",
+      "sourceTimestampEt": "accessed 2026-09-18",
+      "claim": "Schultz is listed at 44.5 receiving yards with a 47.8-yard projection; this is supportive context only and not the basis of the wager."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "CLEATZ multi-book current-access board",
+      "sourceTimestampEt": "accessed 2026-09-18 21:39 ET",
+      "claim": "Jonathan Taylor receiving yards remains BetMGM O15.5 -120/U15.5 -110; other visible books are generally 16.5-17.5."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Raiders final injury report",
+      "sourceTimestampEt": "2026-09-18",
+      "claim": "Brock Bowers is doubtful for Week 2 after DNP Wednesday/Thursday and limited participation Friday."
+    }
+  ],
+  "lineHistoryObservations": [
+    {
+      "capturedAtEt": "2026-09-18 21:39:27",
+      "player": "Dalton Schultz",
+      "market": "Receiving Yards",
+      "sportsbook": "FanDuel via CLEATZ",
+      "side": "OVER",
+      "line": 41.5,
+      "odds": -114,
+      "oppositeSideLine": 41.5,
+      "oppositeSideOdds": -114,
+      "impliedProbability": 0.5327,
+      "noVigProbability": 0.5,
+      "note": "Material re-entry into PRIME's exact stored 41.5/-115 ceiling after the prior run lacked fresh verification. Several current books are 1-4 yards higher. Restore BET_NOW; do not chase 42.5+."
+    },
+    {
+      "capturedAtEt": "2026-09-18 21:39:27",
+      "player": "Jonathan Taylor",
+      "market": "Receiving Yards",
+      "sportsbook": "BetMGM via CLEATZ",
+      "side": "OVER",
+      "line": 15.5,
+      "odds": -120,
+      "oppositeSideLine": 15.5,
+      "oppositeSideOdds": -110,
+      "impliedProbability": 0.5455,
+      "note": "Unchanged from the 20:37 ET BET_NOW state; best visible threshold remains materially below several competing books. No duplicate user alert."
+    }
+  ],
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — this file is the durable append-only record for this run",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — updated Schultz/Taylor states preserved in this immutable archive",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — full re-entry decision preserved here with pricing and probability fields",
+    "lineHistory": "NEW SCHULTZ RE-ENTRY AND TAYLOR CONFIRMATION PRESERVED IN THIS IMMUTABLE ARCHIVE",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://cleatz.com/nfl-props-test/",
+    "https://www.fanduel.com/research/nfl/player-news/game-updates/dalton-schultz-and-texans-play-bengals-in-week-2-9-20-2026",
+    "https://www.fantasypros.com/nfl/notes/440642/dalton-schultz-2026-week-2-outlook.php",
+    "https://www.houstonchronicle.com/sports/texans/article/nico-collins-injury-report-status-22437940.php",
+    "https://www.fantasyinfocentral.com/betting/nfl/props/receiving-yards?date=2026-09-15&home=TEN",
+    "https://www.raiders.com/news/las-vegas-raiders-los-angeles-chargers-nfl-week-2-injury-report-2026-season"
+  ],
+  "researchNotes": [
+    "Grok latest remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index; therefore no new Grok pass is processed.",
+    "The Schultz upgrade is a price re-entry plus confirmed role/injury catalyst, not a projection-only recommendation.",
+    "FanDuel 41.5 -114 is an outlier-good threshold versus a broader current market around 42.5-45.5; this strengthens the line-shopping case but also makes immediate live-app verification important because isolated numbers can move quickly.",
+    "Taylor remains actionable only at the stored 15.5 threshold and price ceiling; no duplicate alert is sent because the state is unchanged.",
+    "No Week 2 user wager is inferred from prior conversation; bet_history remains authoritative."
+  ]
+}
