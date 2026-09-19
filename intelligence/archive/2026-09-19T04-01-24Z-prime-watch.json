@@ -1,0 +1,165 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T04:01:24Z",
+  "runAtEt": "2026-09-19 00:01:24",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T02-55-31Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE REQUIRING A USER ALERT. No new Grok pass. A fresh multi-book market check still shows Jonathan Taylor receiving yards at BetMGM O15.5 -120, inside PRIME's stored 15.5/-125 ceiling; Dalton Schultz receiving yards at FanDuel O41.5 -114, inside the stored 41.5/-115 ceiling; and Rico Dowdle rushing attempts centered at 12.5 across regulated books, so the prior O8.5 thesis remains PASS_AFTER_MOVE and must not be chased. Brock Bowers remains officially doubtful rather than confirmed inactive at this checkpoint, and Michael Mayer still lacks a broadly posted regulated-book receiving-yards/receptions price on the current multi-book board. Zay Flowers is officially doubtful; Rashod Bateman is broadly 35.5 receiving yards, but this is only a WATCH screen because PRIME does not have enough independent probability/projection support to promote the injury-driven role thesis to BET. Sunday-night Kansas City weather carries roughly a 59% thunderstorm/rain probability with light ~7 mph wind; this warrants continued monitoring but does not currently invalidate Taylor's short-area receiving thesis or alter its stored price ceiling. No confirmed Week 2 straight ticket exists in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "BetMGM",
+      "line": 15.5,
+      "odds": -120,
+      "estimatedOverProbability": 0.60,
+      "fairOdds": -150.0,
+      "estimatedEdgePct": 5.45,
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "BET_NOW_UNCHANGED",
+      "signalTags": ["ROLE_CHANGE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "MARKET_MOVE", "WEATHER"],
+      "reason": "BetMGM still offers the exact approved 15.5/-120 threshold while most competing books are 16.5-17.5. The Sunday-night rain/thunderstorm forecast is a monitoring item, but wind remains light and no new Colts role/injury news changes the stored recommendation. Do not duplicate if already placed and do not chase beyond 15.5/-125."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel",
+      "line": 41.5,
+      "odds": -114,
+      "estimatedOverProbability": 0.575,
+      "fairOdds": -135.3,
+      "estimatedEdgePct": 4.23,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_UNCHANGED",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "MARKET_MOVE"],
+      "reason": "FanDuel still shows the exact approved 41.5/-114 entry while DraftKings and several other books remain materially higher. Nico Collins remains OUT. No new price/news catalyst changes the prior fair probability or warrants a duplicate alert."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_MOVE",
+      "signalTags": ["RUSH_SHARE", "GAME_SCRIPT", "MARKET_MOVE"],
+      "reason": "Fresh multi-book pricing remains centered at 12.5, four attempts above PRIME's original price-specific 8.5 entry. The old edge is not transferable. Do not chase."
+    },
+    {
+      "player": "Michael Mayer",
+      "game": "LV@LAC",
+      "propType": "RECEIVING_YARDS/RECEPTIONS",
+      "decisionStatus": "WATCH",
+      "steamState": "ROLE_CATALYST_NO_EXECUTABLE_PRICE",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE"],
+      "reason": "Brock Bowers is doubtful and Mayer would again lead the tight-end room if Bowers sits, but the current multi-book board does not show a broadly posted regulated-book receiving-yards/receptions price. PrizePicks/Underdog thresholds are context only and are not treated as sportsbook truth."
+    },
+    {
+      "player": "Rashod Bateman",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "decisionStatus": "WATCH",
+      "sportsbook": "FanDuel",
+      "line": 35.5,
+      "odds": -114,
+      "steamState": "ROLE_CATALYST_RESEARCH_ONLY",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "ROUTE_SHARE", "TARGET_SHARE", "WEATHER"],
+      "reason": "Zay Flowers is officially doubtful and Bateman's receiving line is broadly 35.5, which creates a legitimate role-change screen. However, PRIME lacks enough independent established projection/probability support to clear the 4-5 percentage-point threshold, and Baltimore rain risk adds uncertainty. Do not bet solely on vacated targets."
+    },
+    {
+      "player": "Puka Nacua / Davante Adams",
+      "game": "NYG@LAR",
+      "propType": "RECEIVING_YARDS",
+      "decisionStatus": "WATCH",
+      "steamState": "INJURY_REPRICE_PENDING",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE"],
+      "reason": "Puka's Friday hip DNP remains unresolved for Monday. Treat MNF as a fresh mini-slate after official status and current prices are available."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market",
+      "source": "CLEATZ multi-book current-access board",
+      "sourceTimestampEt": "accessed 2026-09-19 about 00:01 ET",
+      "claim": "Jonathan Taylor receiving yards: BetMGM O15.5 -120/U15.5 -110; most competing books 16.5-17.5. Dalton Schultz receiving yards: FanDuel O41.5 -114/U41.5 -114; DraftKings 45.5 and other regulated books mostly 42.5-44.5. Rico Dowdle rushing attempts remain 12.5 across the visible regulated market. Rashod Bateman receiving yards is broadly 35.5, including FanDuel O35.5 -114/U35.5 -114. Michael Mayer receiving thresholds are visible only at pick'em operators on this board, not as a broadly posted regulated-book yardage/reception market."
+    }
+  ],
+  "newsChecks": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Baltimore Ravens official injury report",
+      "sourceTimestampEt": "published 2026-09-18 12:44 ET; accessed 2026-09-19",
+      "claim": "Zay Flowers returned limited Friday but is listed doubtful for Week 2 against New Orleans."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "NFL.com / Raiders Friday reporting",
+      "sourceTimestampEt": "published 2026-09-18 16:46 ET; accessed 2026-09-19",
+      "claim": "Brock Bowers returned to practice Friday and is officially doubtful; the Raiders plan a pregame workout."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Houston final injury report / established reporting",
+      "sourceTimestampEt": "Friday 2026-09-18; accessed 2026-09-19",
+      "claim": "Nico Collins is OUT with a hamstring injury; Dalton Schultz finished the week as a full participant after a rest day."
+    }
+  ],
+  "weatherChecks": [
+    {
+      "classification": "attributed_report",
+      "source": "DraftKings Network Week 2 weather report / Fantasy Alarm cross-check",
+      "sourceTimestampEt": "published 2026-09-18; accessed 2026-09-19",
+      "claim": "IND@KC Sunday night currently carries about a 59% rain/thunderstorm probability through the game window, temperatures around 75 to 70 F, and light roughly 7 mph wind. Weather is a monitoring signal but not yet a decision-changing downgrade for Taylor O15.5 receiving yards."
+    }
+  ],
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — this file is the durable append-only record for this run",
+    "livePropBoard": "NO CHANGE — no decision state supersedes the latest board",
+    "decisionLedger": "NO CHANGE — no BET/LEAN/WATCH/PASS classification requiring a new primary-ledger row beyond the current preserved state; Bateman was screened as a research WATCH only",
+    "lineHistory": "NO DUPLICATE APPEND — Taylor, Schultz and Dowdle prices match the latest preserved state; Bateman is not promoted to a formal wager candidate",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE — Dowdle PASS_AFTER_MOVE already preserved in prior immutable state",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete",
+    "propWatchState": "NO CHANGE — no material user-alert state transition"
+  },
+  "sourceUrls": [
+    "https://cleatz.com/nfl-props-test/",
+    "https://www.baltimoreravens.com/news/injury-report-zay-flowers-ravens-saints-ronnie-stanley-john-simpson-trey-hendrickson-week-2",
+    "https://www.nfl.com/news/raiders-brock-bowers-returns-to-practice-but-doubtful-for-week-2-vs-chargers",
+    "https://www.fanduel.com/research/nfl/player-news/game-updates/dalton-schultz-and-texans-play-bengals-in-week-2-9-20-2026",
+    "https://dknetwork.draftkings.com/2026/09/18/nfl-week-2-weather-forecast/",
+    "https://www.fantasyalarm.com/articles/nfl/nfl-weather/nfl-week-2-weather-report-fantasy-football-dfs-impact/195642"
+  ],
+  "researchNotes": [
+    "Grok latest remains status=live with completedAt 2026-09-12T17:05:00Z, identical to the most recently processed pass; therefore it is not new.",
+    "Current sportsbook truth continues to support the exact stored Taylor and Schultz entries but provides no new threshold/price improvement requiring a duplicate alert.",
+    "Dowdle remains a disciplined PASS_AFTER_MOVE at 12.5.",
+    "Bateman was screened because Flowers is doubtful, but PRIME does not elevate an injury-vacated-target narrative without independent probability support and acceptable current pricing.",
+    "Kansas City rain risk is elevated, but light wind and Taylor's short-area receiving role do not currently force a classification change. Reprice again Sunday under the intensity protocol.",
+    "No material change occurred after the 22:55 ET archive, so the automation should remain silent this run."
+  ]
+}
