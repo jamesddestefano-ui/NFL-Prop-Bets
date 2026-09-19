@@ -1,0 +1,223 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-19T02:42:14Z",
+  "runAtEt": "2026-09-18 22:42:14",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-19T01-39-27Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL MARKET MOVE: Rico Dowdle Over 8.5 rushing attempts is no longer a valid entry. A current-access CLEATZ multi-book board now centers Dowdle rushing attempts at 12.5, including FanDuel O12.5 -114/U12.5 -114, DraftKings 12.5 with heavier symmetric juice, and several other books at 12.5. This is four full attempts above PRIME's prior 8.5 play-to and requires PASS_AFTER_MOVE; do not chase 12.5. Jonathan Taylor O15.5 -120 BetMGM and Dalton Schultz O41.5 -114 FanDuel remain unchanged and within their stored ceilings, so there is no duplicate alert on either. Brock Bowers remains doubtful and Michael Mayer remains a role WATCH, but current regulated-book receiving-yard/reception prices are not broadly posted; pick'em numbers around 43.5-44.5 are not sportsbook truth. Puka Nacua missed Friday practice with a hip injury ahead of Monday night; this creates a Rams receiving-tree WATCH, but no bet is promoted before his status and prices are repriced. No new Grok pass and no confirmed Week 2 user ticket exists in bet_history.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2BetHistory": "NO_CONFIRMED_USER_TICKET"
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-DOWDLE-ATT-PASSMOVE-20260918-224214",
+      "timestampEt": "2026-09-18 22:42:14",
+      "gameDate": "2026-09-20",
+      "game": "PIT@NE",
+      "player": "Rico Dowdle",
+      "team": "PIT",
+      "opponent": "NE",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "sportsbook": "FanDuel via CLEATZ multi-book current-access board",
+      "line": 12.5,
+      "odds": -114,
+      "bestMarketLine": "Current regulated-book board centered at 12.5; no 8.5 found",
+      "consensusLine": "12.5 across DraftKings/FanDuel/BetMGM/Betparx/BetRivers/Hard Rock/Fanatics on the current-access board",
+      "lineAtFirstDetection": 8.5,
+      "lineAtRecommendation": 8.5,
+      "lineAtUserBet": null,
+      "estimatedOverProbability": null,
+      "estimatedUnderProbability": null,
+      "fairOdds": null,
+      "marketImpliedProbability": 0.5327,
+      "noVigProbability": 0.5,
+      "estimatedEdgePct": null,
+      "edgeBucket": null,
+      "decisionStatus": "PASS",
+      "confidence": "PASS",
+      "recommendedStakeUnits": 0.0,
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "FRIDAY",
+      "signalTags": ["MARKET_MOVE", "RUSH_SHARE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": [],
+      "thesisId": "DOWDLE_WEEK2_RUSH_VOLUME",
+      "actualUserAction": "NO_CONFIRMED_TICKET",
+      "reason": "The prior Dowdle thesis was explicitly price-specific to Over 8.5 at -115 or better. The current market is 12.5, a four-attempt move. PRIME does not transfer the old 9+ carry probability to a 13+ carry threshold. With no new role/injury catalyst sufficient to justify a new distribution at 12.5, the correct action is PASS_AFTER_MOVE. Do not chase."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel",
+      "line": 41.5,
+      "odds": -114,
+      "estimatedOverProbability": 0.575,
+      "fairOdds": -135.3,
+      "estimatedEdgePct": 4.23,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW_UNCHANGED",
+      "reason": "Current-access CLEATZ board still shows FanDuel O41.5 -114/U41.5 -114 while DraftKings is 45.5 and Betparx/BetRivers are 44.5. Nico Collins remains ruled out. No deterioration from the 21:39 ET re-entry state."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "decisionStatus": "BET",
+      "sportsbook": "BetMGM",
+      "line": 15.5,
+      "odds": -120,
+      "estimatedOverProbability": 0.60,
+      "fairOdds": -150.0,
+      "estimatedEdgePct": 5.45,
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "steamState": "BET_NOW_UNCHANGED",
+      "reason": "Current-access CLEATZ board still shows BetMGM O15.5 -120/U15.5 -110, while most other books are 16.5-17.5. FantasyPros Week 2 consensus remains 20.2 receiving yards. Kansas City weather remains a monitoring item but current forecasts show modest wind rather than a material passing-game suppressor."
+    },
+    {
+      "player": "Michael Mayer",
+      "game": "LV@LAC",
+      "propType": "RECEIVING_YARDS/RECEPTIONS",
+      "decisionStatus": "WATCH",
+      "steamState": "ROLE_CATALYST_NO_REGULATED_PRICE",
+      "reason": "Brock Bowers remains doubtful after a limited Friday return from knee surgery. Mayer led Las Vegas with seven Week 1 targets and caught six for 32 yards, but the current board shows only pick'em receiving-yard numbers around 43.5-44.5 rather than a broadly posted regulated-book receiving market. No bet without a verified sportsbook line and price."
+    },
+    {
+      "player": "Puka Nacua / Davante Adams",
+      "game": "NYG@LAR",
+      "propType": "RECEIVING_YARDS",
+      "decisionStatus": "WATCH",
+      "steamState": "INJURY_REPRICE_PENDING",
+      "reason": "Puka Nacua did not practice Friday with a hip injury ahead of Monday Night Football. Current-access lines still show Puka around 85.5-86.5 receiving yards and Davante Adams around 44.5-45.5, but Monday status is unresolved and the market has time to reprice. Do not bet from injury speculation alone."
+    }
+  ],
+  "newInformation": [
+    {
+      "classification": "sportsbook_market",
+      "source": "CLEATZ multi-book current-access board",
+      "sourceTimestampEt": "accessed 2026-09-18 22:42 ET",
+      "claim": "Rico Dowdle rushing attempts are now centered at 12.5; FanDuel O12.5 -114/U12.5 -114, with multiple other books also at 12.5. PRIME's prior actionable threshold was 8.5."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "CLEATZ multi-book current-access board",
+      "sourceTimestampEt": "accessed 2026-09-18 22:42 ET",
+      "claim": "Dalton Schultz receiving yards remain FanDuel O41.5 -114/U41.5 -114; DraftKings 45.5 -113/-111; Betparx 44.5 -114/-114; BetRivers 44.5 -115/-115."
+    },
+    {
+      "classification": "sportsbook_market",
+      "source": "CLEATZ multi-book current-access board",
+      "sourceTimestampEt": "accessed 2026-09-18 22:42 ET",
+      "claim": "Jonathan Taylor receiving yards remain BetMGM O15.5 -120/U15.5 -110; most visible competing books are 16.5-17.5."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Raiders final injury report / Klint Kubiak Friday comments",
+      "sourceTimestampEt": "2026-09-18",
+      "claim": "Brock Bowers is doubtful for Week 2 and will be evaluated pregame after a limited Friday return from knee surgery."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Rams Friday practice reporting",
+      "sourceTimestampEt": "2026-09-18",
+      "claim": "Puka Nacua did not practice Friday due to a hip injury; Monday status remains unresolved."
+    },
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 consensus",
+      "sourceTimestampEt": "last updated 2026-09-18",
+      "claim": "Jonathan Taylor receiving-yard projection is 20.2. Dalton Schultz's player page shows 42.1 receiving yards."
+    },
+    {
+      "classification": "weather",
+      "source": "SportsbookReview / ForecasterHQ current Week 2 weather context",
+      "sourceTimestampEt": "accessed 2026-09-18 22:42 ET",
+      "claim": "Colts-Chiefs Sunday night currently projects rain risk but modest wind around 7-8 mph; no material Taylor receiving downgrade is applied yet."
+    }
+  ],
+  "lineHistoryObservations": [
+    {
+      "capturedAtEt": "2026-09-18 22:42:14",
+      "player": "Rico Dowdle",
+      "market": "Rushing Attempts",
+      "sportsbook": "FanDuel via CLEATZ",
+      "side": "OVER",
+      "line": 12.5,
+      "odds": -114,
+      "oppositeSideLine": 12.5,
+      "oppositeSideOdds": -114,
+      "impliedProbability": 0.5327,
+      "noVigProbability": 0.5,
+      "note": "Four-attempt move from PRIME's prior 8.5 entry threshold. PASS_AFTER_MOVE; do not chase."
+    },
+    {
+      "capturedAtEt": "2026-09-18 22:42:14",
+      "player": "Dalton Schultz",
+      "market": "Receiving Yards",
+      "sportsbook": "FanDuel via CLEATZ",
+      "side": "OVER",
+      "line": 41.5,
+      "odds": -114,
+      "oppositeSideLine": 41.5,
+      "oppositeSideOdds": -114,
+      "impliedProbability": 0.5327,
+      "noVigProbability": 0.5,
+      "note": "Unchanged and still inside PRIME's 41.5/-115 ceiling."
+    },
+    {
+      "capturedAtEt": "2026-09-18 22:42:14",
+      "player": "Jonathan Taylor",
+      "market": "Receiving Yards",
+      "sportsbook": "BetMGM via CLEATZ",
+      "side": "OVER",
+      "line": 15.5,
+      "odds": -120,
+      "oppositeSideLine": 15.5,
+      "oppositeSideOdds": -110,
+      "impliedProbability": 0.5455,
+      "note": "Unchanged and still inside PRIME's 15.5/-125 ceiling."
+    }
+  ],
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — this file is the durable append-only record for this run",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — current moved/unchanged states preserved in immutable archive",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — Dowdle PASS_AFTER_MOVE decision preserved here with exact current price",
+    "lineHistory": "DOWDLE 12.5, SCHULTZ 41.5, AND TAYLOR 15.5 SNAPSHOTS PRESERVED IN IMMUTABLE ARCHIVE",
+    "betHistory": "NO CHANGE — no confirmed Week 2 user ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO DESTRUCTIVE CSV REWRITE — Dowdle pass preserved in immutable archive",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://cleatz.com/nfl-props-test/",
+    "https://www.fanduel.com/research/nfl/player-news/game-updates/dalton-schultz-and-texans-play-bengals-in-week-2-9-20-2026",
+    "https://www.fantasypros.com/nfl/projections/rb.php?scoring=PPR",
+    "https://www.fantasypros.com/nfl/players/dalton-schultz.php",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-call-brock-bowers-doubtful-to-play-in-week-2",
+    "https://www.turfshowtimes.com/los-angeles-rams-injuries/149210/puka-nacua-misses-rams-practice-on-friday",
+    "https://www.sportsbookreview.com/picks/nfl/weather-report-forecasts-betting-fantasy-impact-week-2-2026/"
+  ],
+  "researchNotes": [
+    "Grok latest remains status=live with completedAt 2026-09-12T17:05:00Z, matching the compact history index; therefore no new Grok pass is processed.",
+    "Dowdle is the only user-facing material change this run: the prior 8.5 recommendation is stale and invalid at the current 12.5 market.",
+    "Schultz and Taylor remain exact price-sensitive BET states; no duplicate notification is needed beyond noting they are unchanged.",
+    "Puka's Friday DNP is monitored as a Monday mini-slate injury catalyst, but no wager is promoted before status and price update.",
+    "No Week 2 user wager is inferred from conversation history; bet_history remains authoritative."
+  ]
+}
