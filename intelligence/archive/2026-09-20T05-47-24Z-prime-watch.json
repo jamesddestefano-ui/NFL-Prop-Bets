@@ -1,0 +1,172 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-20T05:47:24Z",
+  "runAtEt": "2026-09-20 01:47:24",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-20T03-56-49Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE requiring a new user alert. Rico Dowdle Over 8.5 rushing attempts remains displayed at BetRivers -103 on the current Covers page and therefore remains the existing BET_NOW 0.5u state, with PRIME's hard ceiling unchanged at 8.5 and max juice -115; do not chase 9.5+. Dalton Schultz Over 40.5 receiving yards -113 remains displayed on the current VegasInsider multi-book board and stays within the existing 41.5/-115 ceiling; duplicate notification suppressed. Justin Jefferson's Soldier Field weather risk is more concrete overnight: a current weather page shows rain potential and roughly 20 mph crosswind at kickoff, but the same current page still references Jefferson around 80.5 receiving yards with Over -117, essentially the user's 80+ parlay threshold. That does not create a disciplined cash-out or add-on signal; existing Jefferson 80+, Jeanty 50+, Taylor 15+ and Purdy 16+ parlay legs remain HOLD. Official/current injury reporting adds no adverse backfield news for Dowdle; New England CB Carlton Davis III is now OUT, while Pittsburgh WR Michael Pittman Jr. is OUT. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2StraightBetHistory": "NO_CONFIRMED_USER_STRAIGHT_TICKET",
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03
+  },
+  "decisions": [
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "BetRivers via current Covers page",
+      "line": 8.5,
+      "odds": -103,
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 59.0,
+      "fairOdds": -144.0,
+      "estimatedEdgePct": 8.26,
+      "edgeBucket": "8%+",
+      "steamState": "BET_NOW",
+      "stakeUnits": 0.5,
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "Best verified public price and threshold are unchanged from the immediately prior material alert. Covers currently still displays O8.5 -103 at BetRivers. Suppress duplicate notification."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel via current VegasInsider multi-book board",
+      "line": 40.5,
+      "odds": -113,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "Current multi-book board still displays O40.5 -113. Nico Collins remains OUT. No new line or role catalyst versus prior alert."
+    },
+    {
+      "player": "Justin Jefferson",
+      "game": "MIN@CHI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "line": 80.5,
+      "odds": -117,
+      "sportsbook": "current public weather/prop reference",
+      "steamState": "TICKET_HOLD_WEATHER_MONITOR",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_80_PLUS",
+      "alert": false,
+      "reason": "Forecast risk increased to roughly 20 mph crosswind with rain possible, but the public receiving-yard reference remains about 80.5 O-117. The user's 80+ threshold is still aligned with market rather than materially underwater. Do not add exposure; continue morning weather check."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_15_PLUS",
+      "alert": false,
+      "reason": "No new overnight evidence requiring action on the existing 15+ parlay leg."
+    },
+    {
+      "player": "Brock Purdy",
+      "game": "MIA@SF",
+      "propType": "PASS_COMPLETIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_16_PLUS",
+      "alert": false,
+      "reason": "No new overnight evidence requiring action on the existing 16+ parlay leg."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "game": "LV@LAC",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_50_PLUS",
+      "alert": false,
+      "reason": "No new adverse role/injury signal requiring action on the reduced 50+ rushing-yard parlay threshold."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Rico Dowdle player-prop page",
+      "capturedAtEt": "2026-09-20 01:47 ET",
+      "claim": "Rushing Attempts still includes BetRivers O8.5 -103; bet365/DraftKings/Fanatics/Hard Rock display O8.5 -115, Caesars O8.5 -118, and theScore shows O9.5 +135. PRIME approval remains specific to 8.5 and does not transfer to 9.5."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "VegasInsider current NFL player-prop board",
+      "capturedAtEt": "2026-09-20 01:47 ET",
+      "claim": "Dalton Schultz receiving yards still includes O40.5 -113 among current displayed book prices, inside PRIME's 41.5/-115 ceiling."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Fantasy Info Central Vikings weather/prop page",
+      "capturedAtEt": "2026-09-20 01:47 ET",
+      "claim": "Jefferson public reference is 80.5 receiving yards with Over -117 while kickoff weather is forecast around 68 F, rain possible and 20 mph crosswind."
+    }
+  ],
+  "confirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "source": "NFL official Week 2 injury report / current team reporting",
+      "claim": "New England CB Carlton Davis III is OUT; Pittsburgh CB Joey Porter Jr. is OUT; Michael Pittman Jr. has been downgraded to OUT. No Dowdle or Jaylen Warren injury designation was identified."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Houston Week 2 injury reporting",
+      "claim": "Nico Collins is OUT against Cincinnati; this remains supportive of Schultz opportunity but is not new versus the prior alert."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03,
+    "newRecommendedStakeUnits": 0.0,
+    "notes": "No additional exposure added. Existing Dowdle and Schultz recommendations remain available only within stored price ceilings. Existing parlays remain HOLD."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — no-material-change overnight checkpoint",
+    "livePropBoard": "NO CHANGE",
+    "decisionLedger": "NO CHANGE",
+    "lineHistory": "NO CHANGE — best actionable prices did not materially change",
+    "betHistory": "NO CHANGE",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.covers.com/sport/football/nfl/players/45722/rico-dowdle",
+    "https://www.vegasinsider.com/nfl/odds/player-props/",
+    "https://www.nfl.com/injuries/",
+    "https://www.fantasyinfocentral.com/nfl/weather/vikings",
+    "https://www.reuters.com/sports/steelers-wr-michael-pittman-foot-out-vs-patriots--flm-2026-09-19/"
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest is live with completedAt 2026-09-12T17:05:00Z, matching the compact Grok history index and prior processed state.",
+    "Dowdle's best public 8.5 price is unchanged from the prior alert, so duplicate notification is suppressed.",
+    "Jefferson weather risk is now notable but current market context has not repriced his receiving threshold below the user's 80+ leg; no disciplined cash-out recommendation is generated from weather alone.",
+    "Continue active overnight monitoring and re-run the explicit Sunday morning checkpoint sequence."
+  ]
+}
