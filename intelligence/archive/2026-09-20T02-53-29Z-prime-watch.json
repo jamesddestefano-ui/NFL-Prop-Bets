@@ -1,0 +1,254 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-20T02:53:29Z",
+  "runAtEt": "2026-09-19 22:53:29",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-20T02-17-49Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "ACTIONABLE PRICE IMPROVEMENT: Dalton Schultz Over 40.5 receiving yards is now displayed at FanDuel -113 on the current VegasInsider multi-book board. This is a full yard better than PRIME's prior approved FanDuel O41.5 -114 state while the broader named-book market remains mostly 41.5-42.5+ (bet365 41.5 -115; Caesars 41.5 -115; DraftKings 42.5 -111; Fanatics 40.5 -120). Nico Collins remains officially OUT. Schultz's Week 1 role was eight targets, 21.1% target share and 18.2% first-read share. PRIME keeps the prior conservative distribution (mean 47, median 45) and raises fair Over probability modestly from 57.5% at 41.5 to 58.5% at 40.5, fair odds about -141. Against -113 break-even (53.05%), estimated raw edge is about 5.45 percentage points, 4-6% edge bucket. BET_NOW 0.5u at FanDuel O40.5 -113 if still live; retain hard play-to 41.5 and max juice -115. Do not chase DraftKings O42.5 -111. Existing Week 2 parlays remain HOLD; Chicago wind/rain is a monitor for Jefferson but the current Jefferson market still sits around 79.5-80.5, so there is no cash-out recommendation. Taylor/Purdy ticket remains HOLD. Josh Oliver O1.5 receptions remains a prior small correlated BET only at plus money; current Action analyst price +121 is a minor improvement, not a new alert. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2StraightBetHistory": "NO_CONFIRMED_USER_STRAIGHT_TICKET",
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-SCHULTZ-RECYDS-20260919-225329",
+      "timestampEt": "2026-09-19 22:53:29",
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "FanDuel via current VegasInsider multi-book board",
+      "line": 40.5,
+      "odds": -113,
+      "bestMarketLine": "FanDuel 40.5 -113",
+      "consensusLine": "approximately 41.5-42.5 across the core named-book board, with Fanatics also 40.5 at worse -120",
+      "lineAtFirstDetection": 41.5,
+      "lineAtRecommendation": 40.5,
+      "ourMeanProjection": 47.0,
+      "ourMedianProjection": 45.0,
+      "estimatedOverProbability": 58.5,
+      "estimatedUnderProbability": 41.5,
+      "fairOdds": -141.0,
+      "marketImpliedProbability": 53.05,
+      "estimatedEdgePct": 5.45,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "confidence": "B",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.5,
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "FIRST_READ_SHARE", "ROUTE_SHARE", "MARKET_MOVE", "MATCHUP", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": [],
+      "thesisId": "SCHULTZ_COLLINS_OUT_VOLUME_WEEK2",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": true,
+      "reason": "The prior football thesis is unchanged but the price/threshold improved materially. Nico Collins is officially out. Schultz drew eight Week 1 targets with a 21.1% target share and 18.2% first-read share, and FantasyPros notes Cincinnati's 2025 defense allowed the third-most yards per target and second-most fantasy points per opportunity to tight ends. The wager is not approved from projection alone; the trigger is a verified sportsbook-specific one-yard improvement at acceptable juice. Keep the stored ceiling: 41.5 at -115 or better; do not transfer this approval to DraftKings 42.5."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE_PRIOR_STATE",
+      "playToLine": 15.5,
+      "maxAcceptableOdds": -125,
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_15_PLUS",
+      "alert": false,
+      "reason": "Current market still includes a 15.5 -120 offering while DraftKings is 16.5 -107 and several books are 17.5. User already owns Taylor 15+ in the Purdy/Taylor parlay; no duplicate alert or added exposure instruction in this run."
+    },
+    {
+      "player": "Brock Purdy",
+      "game": "MIA@SF",
+      "propType": "PASS_COMPLETIONS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "steamState": "PASS_AFTER_PRICE",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_16_PLUS",
+      "alert": false,
+      "reason": "Existing 16+ parlay leg is well below the main completions market; no new standalone at expensive main-line juice."
+    },
+    {
+      "player": "Justin Jefferson",
+      "game": "MIN@CHI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD_WEATHER_MONITOR",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_80_PLUS",
+      "alert": false,
+      "reason": "Chicago forecast sources consistently show rain risk and roughly 13-20 mph sustained wind, but the current multi-book receiving market remains around 79.5-80.5 and the user's 80+ leg is therefore still near market. The user-supplied matchup sheet is directionally supportive (26% TPRR, 2.02 YPRR, +7.15 weekly matchup score vs. Jaylon Johnson), but it is analyst/data context, not sportsbook truth. HOLD; no cash-out recommendation."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "game": "LV@LAC",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_50_PLUS",
+      "alert": false,
+      "reason": "Jeanty remains fully practiced with no game designation. No new main-market deterioration requiring action on the reduced 50+ parlay threshold."
+    },
+    {
+      "player": "Josh Oliver",
+      "game": "MIN@CHI",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "DraftKings via Action Network analyst article",
+      "line": 1.5,
+      "odds": 121,
+      "playToLine": 1.5,
+      "maxAcceptableOdds": 100,
+      "steamState": "STILL_PLAYABLE",
+      "stakeUnits": 0.25,
+      "correlationTags": ["SAME_THESIS"],
+      "alert": false,
+      "reason": "Action's Saturday evening article lists O1.5 +121 after the prior +118 state. The three-cent improvement is favorable but not material enough for a duplicate alert, and the user's Jefferson exposure plus weather increases correlation/exposure sensitivity."
+    },
+    {
+      "player": "Rashod Bateman",
+      "game": "NO@BAL",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "alert": false,
+      "reason": "User-supplied matchup data adds a negative supporting signal (11% TPRR, 0.70 YPRR, -3.86 weekly matchup score), reinforcing the existing no-chase stance after the Flowers-out reprice. Do not use this analyst sheet alone to create an Under or Over wager."
+    }
+  ],
+  "lineHistoryObservations": [
+    {
+      "capturedAtEt": "2026-09-19 22:53:29",
+      "player": "Dalton Schultz",
+      "market": "Receiving Yards",
+      "sportsbook": "FanDuel via VegasInsider",
+      "side": "OVER",
+      "line": 40.5,
+      "odds": -113,
+      "note": "Material one-yard improvement from prior approved FanDuel 41.5 -114 state; BET_NOW."
+    },
+    {
+      "capturedAtEt": "2026-09-19 22:53:29",
+      "player": "Dalton Schultz",
+      "market": "Receiving Yards",
+      "sportsbook": "DraftKings via VegasInsider",
+      "side": "OVER",
+      "line": 42.5,
+      "odds": -111,
+      "note": "Beyond PRIME 41.5 play-to despite cheaper juice; PASS_AFTER_MOVE at DraftKings."
+    },
+    {
+      "capturedAtEt": "2026-09-19 22:53:29",
+      "player": "Justin Jefferson",
+      "market": "Receiving Yards",
+      "sportsbook": "VegasInsider multi-book market",
+      "side": "OVER",
+      "line": "79.5-80.5",
+      "odds": null,
+      "note": "Market remains around user's 80+ ticket threshold despite adverse Chicago weather forecast; ticket HOLD."
+    }
+  ],
+  "confirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Houston Texans official Week 2 injury report",
+      "sourceTimestamp": "updated 2026-09-18 14:54 ET",
+      "claim": "Nico Collins is OUT for Week 2 against Cincinnati."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Las Vegas Raiders official Week 2 injury report",
+      "sourceTimestamp": "2026-09-18",
+      "claim": "Ashton Jeanty practiced fully Wednesday through Friday and has no game designation; Brock Bowers is doubtful."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Minnesota Vikings official Week 2 reporting",
+      "sourceTimestamp": "2026-09-18",
+      "claim": "Carson Wentz will start against Chicago; Kyler Murray and Jauan Jennings are out."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "VegasInsider current receiving-yards multi-book board",
+      "capturedAtEt": "2026-09-19 22:53 ET",
+      "player": "Dalton Schultz",
+      "claim": "bet365 O41.5 -115; Caesars O41.5 -115; DraftKings O42.5 -111; FanDuel O40.5 -113; Fanatics O40.5 -120; another named-book column O41.5 -113. FanDuel provides the best threshold/juice combination."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "VegasInsider current receiving-yards multi-book board",
+      "capturedAtEt": "2026-09-19 22:53 ET",
+      "player": "Justin Jefferson",
+      "claim": "Receiving-yard Overs are centered at 79.5-80.5 across the displayed board."
+    },
+    {
+      "classification": "analyst_opinion/model",
+      "source": "Action Network Week 2 props article",
+      "sourceTimestamp": "updated 2026-09-19 19:13 ET",
+      "player": "Josh Oliver",
+      "claim": "Article lists Over 1.5 receptions +121 at DraftKings and cites a model around 60% plus Week 1 route/target involvement. Treated as analyst/model input rather than sportsbook truth independent of the displayed price."
+    }
+  ],
+  "weatherChecks": [
+    {
+      "classification": "weather",
+      "game": "MIN@CHI",
+      "capturedAtEt": "2026-09-19 22:53 ET",
+      "claim": "Current sources show roughly 45-56% rain risk and about 13-20 mph sustained wind at Soldier Field, with some forecasts warning of stronger gusts. This is adverse for downfield efficiency but is already coexisting with a market near Jefferson 80 yards; continue monitoring through Sunday morning rather than forcing a cash-out decision."
+    },
+    {
+      "classification": "weather",
+      "game": "IND@KC",
+      "capturedAtEt": "2026-09-19 22:53 ET",
+      "claim": "Arrowhead retains meaningful shower/thunderstorm risk but sustained winds remain light around 7 mph. No material change to the already-booked Taylor 15+ receiving alt leg."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "week2OpenParlayStake": 61.0,
+    "notes": "No additional same-thesis Jefferson/Jeanty/Taylor/Purdy exposure is recommended in this run. Schultz is an independent game/thesis and the current standalone recommendation is 0.5u only at FanDuel 40.5 -113 or an equal/better price within the 41.5/-115 ceiling."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — durable material Saturday-night price-improvement record",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — current state preserved in immutable archive",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — material decision preserved here with full pricing/probability fields",
+    "lineHistory": "PRESERVED IN THIS IMMUTABLE ARCHIVE via lineHistoryObservations",
+    "betHistory": "NO CHANGE — no confirmed Week 2 straight ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE — both confirmed Week 2 parlays remain OPEN/HOLD",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.vegasinsider.com/nfl/odds/player-props/",
+    "https://www.houstontexans.com/news/week-2-injury-report-texans-vs-bengals",
+    "https://www.fantasypros.com/nfl/notes/440910/dalton-schultz-2026-week-2-outlook.php",
+    "https://www.actionnetwork.com/nfl/props/week-2-player-prop-bets-2026",
+    "https://bringmethesports.com/vikings-vs-bears-week-2-preview-x-factor-key-caleb-williams-stat-rain-and-wind-and-more",
+    "https://www.covers.com/nfl/vikings-vs-bears-prediction-picks-sept-20-2026"
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and prior processed state.",
+    "The Schultz alert is triggered by verified price/threshold improvement, not because a projection is above the line.",
+    "FanDuel 40.5 -113 is one full yard better than the prior approved 41.5 -114 price and materially better than DraftKings 42.5 -111; hard play-to remains 41.5 with max juice -115.",
+    "Sunday overnight intensity begins at 23:00 ET; next passes should prioritize weather, late injury/role reports, and repricing of existing tickets/candidates."
+  ]
+}
