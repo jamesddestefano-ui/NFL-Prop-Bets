@@ -1,0 +1,173 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-20 18:59:01",
+  "capturedAtUtc": "2026-09-20T22:59:01Z",
+  "priorArchive": "intelligence/archive/2026-09-20T22-16-46Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. The live latest completedAt matches the compact history index and the prior processed value."
+  },
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Existing-ticket update: Brock Purdy has already cleared the user's 16+ completions leg, with live NFL game data showing 20-of-22 passing and 4:03 remaining in the fourth quarter. The confirmed DraftKings Purdy/Taylor parlay therefore now depends only on Jonathan Taylor reaching 15+ receiving yards. That threshold remains favorable to the current DraftKings main receiving-yard line of 16.5, while FantasyPros' current Week 2 consensus projects Taylor for 20.2 receiving yards. A new price-qualified Sunday-night candidate also emerges conditionally: Rashee Rice 51+ receiving yards at DraftKings -114, but only if the user's live app still shows 51+ (or 50.5) at -115 or better. DraftKings Network quoted 51+ -114 today and the current DraftKings prop-splits board lists the main line at 50.5; FantasyPros projects 65.3 yards. PRIME applies a conservative 58% fair hit probability at 50.5/51+, yielding about a 4.7-point edge versus -114. Do not chase above 51.5 at standard juice. Daniel Jones rushing and Mahomes passing carry forward with no new price-qualified change.",
+  "existingTicketUpdate": {
+    "parlayId": "USER-DK-PARLAY-20260919-2057-PURDY-TAYLOR",
+    "betId": "DK639254626793456397",
+    "sportsbook": "DraftKings",
+    "stakeCash": 25.0,
+    "payoutCash": 49.27,
+    "combinedOdds": -103,
+    "status": "OPEN",
+    "legs": [
+      {
+        "player": "Brock Purdy",
+        "market": "Passing Completions Alt",
+        "threshold": "16+",
+        "status": "WIN_SECURED",
+        "verification": "Live NFL game data at 18:59 ET showed Purdy 20-of-22 for 287 yards with 4:03 left in Q4."
+      },
+      {
+        "player": "Jonathan Taylor",
+        "market": "Receiving Yards Alt",
+        "threshold": "15+",
+        "status": "OPEN",
+        "currentMarketContext": "DraftKings Network player-prop splits page currently lists Jonathan Taylor receiving yards at 16.5. FantasyPros Week 2 consensus projects 20.2 receiving yards on 2.8 receptions.",
+        "decision": "HOLD",
+        "reason": "The user's reduced 15+ threshold is still below the current 16.5 main line and below the current FantasyPros mean. No new injury designation applies to Taylor. No cash-out instruction is issued without a current verified offer."
+      }
+    ]
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-RICE-RECYDS-20260920-185901",
+      "timestampEt": "2026-09-20 18:59:01",
+      "nflWeek": 2,
+      "gameDate": "2026-09-20",
+      "game": "IND@KC",
+      "player": "Rashee Rice",
+      "team": "KC",
+      "opponent": "IND",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards Alt / Main",
+      "side": "OVER",
+      "sportsbook": "DraftKings conditional live-app verification required",
+      "line": "51+",
+      "odds": -114,
+      "bestMarketLine": "DraftKings Network quoted 51+ -114 today; DraftKings player-prop splits board lists the current main line at 50.5 but does not expose current price in the indexed page",
+      "consensusLine": "approximately 50.5-54.5 across current public references; book-specific freshness varies",
+      "ourMeanProjection": 61.0,
+      "ourMedianProjection": 57.5,
+      "marketImpliedProbabilityPct": 53.27,
+      "internalFairProbabilityPct": 58.0,
+      "fairOdds": -138.1,
+      "estimatedEdgePct": 4.73,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "steamState": "BET_NOW_IF_VERIFIED",
+      "confidence": "B",
+      "playToLine": 51.5,
+      "maxAcceptableOdds": -115,
+      "recommendedStakeUnits": 0.5,
+      "entryTiming": "PRE_GAME",
+      "signalTags": [
+        "ROUTE_SHARE",
+        "TARGET_SHARE",
+        "MATCHUP",
+        "GAME_SCRIPT",
+        "PROJECTION_DISAGREEMENT",
+        "EXPERT_CONSENSUS"
+      ],
+      "correlationTags": [
+        "POSITIVE_CORRELATION_WITH_MAHOMES_PASSING_IF_USER_PLACED_UNCONFIRMED_SLIP"
+      ],
+      "reason": "Rice's Week 1 raw target count was only two, but he still ran 29 routes and played 57 snaps (83%), the highest percentage among Chiefs wide receivers, supporting a full-time route role rather than a reduced role. DraftKings Network's same-day analysis quotes 51+ receiving yards at -114, while its current prop-splits page lists the main receiving-yard line at 50.5. FantasyPros' current Week 2 consensus is 65.3 yards on 5.5 catches. PRIME haircuts that projection because Kansas City was run-heavy in Week 1 and Rice's first-game target share was weak, producing a conservative 61-yard mean / 57.5 median and 58% fair probability. This is not a projection-only recommendation: the role remained strong, the threshold is depressed relative to his established 2025 production, the Colts allowed major perimeter/slot receiving production in Week 1, and the exact price clears PRIME's minimum edge only if still live. Do not transfer the thesis to a materially worse number.",
+      "priceDiscipline": "BET only if DraftKings still shows 51+ (or 50.5) at -115 or better. PASS_AFTER_MOVE above 51.5 at standard juice, or if the price becomes worse than -115. If the user actually placed the unconfirmed Mahomes passing slip, reduce total same-thesis exposure rather than stacking full stakes."
+    },
+    {
+      "decisionId": "2026W2-JONES-RUSHYDS-CARRYFORWARD-20260920-185901",
+      "timestampEt": "2026-09-20 18:59:01",
+      "game": "IND@KC",
+      "player": "Daniel Jones",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "priorVerifiedLine": 8.5,
+      "priorVerifiedOdds": -114,
+      "currentMarketContext": "DraftKings Network's current same-day prop-splits page still lists the rushing-yard line at 8.5 but does not expose the current price. Covers' same-day computer page uses 9.5 and projects 20.48 rushing yards.",
+      "decisionStatus": "BET_CARRYFORWARD_IF_PRICE_VERIFIED",
+      "steamState": "STILL_PLAYABLE_ONLY_WITHIN_STORED_CEILING",
+      "confidence": "B+",
+      "playToLine": 9.5,
+      "maxAcceptableOdds": -115,
+      "reason": "No new adverse role information. Ian Rapoport expects Chris Jones to play, which preserves rather than weakens the pressure/scramble thesis, but PRIME does not issue a duplicate alert without a newly verified executable price."
+    },
+    {
+      "decisionId": "2026W2-MAHOMES-PASSYDS-CARRYFORWARD-20260920-185901",
+      "timestampEt": "2026-09-20 18:59:01",
+      "game": "IND@KC",
+      "player": "Patrick Mahomes",
+      "propType": "PASS_YARDS",
+      "side": "OVER",
+      "historicalUserMarket": "DraftKings 220+ -112 at 16:34 ET; placement never confirmed",
+      "decisionStatus": "LEAN_CARRYFORWARD",
+      "steamState": "REDUCED_EDGE",
+      "playToLine": "220+ preferred; do not chase materially above 221.5 without recalculation",
+      "maxAcceptableOdds": -115,
+      "reason": "Same-day public analyst/model support remains bullish, but no fresh executable DraftKings price was independently verified at this checkpoint. The earlier screenshot remains historical sportsbook truth only."
+    }
+  ],
+  "sourceSeparation": {
+    "confirmedFacts": [
+      "Live NFL game data showed Brock Purdy at 20 completions with 4:03 remaining in the fourth quarter, mathematically clearing the user's 16+ completions leg.",
+      "Kansas City's official Friday injury report lists Patrick Mahomes and Rashee Rice as full participants with no game designation; Josh Simmons and Chamarri Conner are out; Chris Jones and Mansoor Delane were questionable.",
+      "DraftKings Network's same-day prop-splits page lists Jonathan Taylor receiving yards at 16.5, Rashee Rice receiving yards at 50.5 and Daniel Jones rushing yards at 8.5."
+    ],
+    "attributedReporting": [
+      "Ian Rapoport reported that Chris Jones is expected to play against Indianapolis; this is treated as reliable reporting, not as a substitute for the official inactive list.",
+      "DraftKings Network's same-day Rashee Rice prop article quoted 51+ receiving yards at -114."
+    ],
+    "modelProjections": [
+      "FantasyPros Week 2 consensus projects Jonathan Taylor for 20.2 receiving yards on 2.8 catches.",
+      "FantasyPros Week 2 consensus projects Rashee Rice for 65.3 receiving yards on 5.5 catches.",
+      "Covers' same-day computer projection lists Daniel Jones at 20.48 rushing yards against a 9.5 reference threshold."
+    ],
+    "analystOpinion": [
+      "DraftKings Network's Zach Thompson recommends Rashee Rice 51+ receiving yards at -114 and cites Rice's 29 routes/83% snap share from Week 1.",
+      "Covers continues to support Daniel Jones 10+ rushing yards against Kansas City's pressure-heavy defense."
+    ],
+    "speculation": [
+      "Kansas City's Week 1 run-heavy offense could again suppress receiving volume, which is the main reason PRIME discounts Rice below the raw FantasyPros mean and caps the play-to aggressively."
+    ]
+  },
+  "injuryCheckpoint": {
+    "officialSnfInactivesIndependentlyVerified": false,
+    "knownOfficialFinalReport": "Chiefs: Josh Simmons and Chamarri Conner OUT; Chris Jones and Mansoor Delane QUESTIONABLE; Mahomes and Rice no designation. Colts: Ashton Dulin OUT; DJ Giddens QUESTIONABLE; Jonathan Taylor no designation.",
+    "reliableReporting": "Ian Rapoport expects Chris Jones to play; same-day reporting also indicated Mansoor Delane was expected to be available.",
+    "impact": "No new verified inactive news changes the Taylor or Rice offensive-role theses at this checkpoint. Do not label Jones/Delane active until the official inactive list is independently verified."
+  },
+  "weather": {
+    "status": "UNCHANGED",
+    "bestCurrentHighAuthorityContext": "Kansas City's official game-day forecast previously called for cloudy conditions around 72F with no rain expected at kickoff.",
+    "impact": "No new weather downgrade found; no change to passing/receiving decisions."
+  },
+  "exposure": {
+    "confirmedOpenParlayStakeCash": 25.0,
+    "confirmedOpenStraightBetStakeCash": 0.0,
+    "confirmedOpenParlayState": "Purdy 16+ completions secured; Taylor 15+ receiving remains open",
+    "unconfirmedRecommendedBetsExcludedFromExposure": [
+      "Daniel Jones Over 8.5 rushing yards",
+      "Patrick Mahomes 220+ passing yards",
+      "Rashee Rice 51+ receiving yards"
+    ],
+    "note": "Do not count Mahomes or Jones as placed without authoritative user ticket confirmation. Rice is a new conditional recommendation, not a recorded wager."
+  },
+  "repositoryActions": [
+    "Updated data/parlay_history.csv to mark Brock Purdy 16+ completions as WIN_SECURED while keeping the Purdy/Taylor parlay OPEN.",
+    "Created this immutable 18:59 ET Sunday-night checkpoint.",
+    "Did not modify bet_history for any unconfirmed Mahomes, Jones or Rice wager.",
+    "Did not process a new Grok pass because completedAt is unchanged."
+  ]
+}
