@@ -1,0 +1,132 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-20T18:54:29Z",
+  "runAtEt": "2026-09-20 14:54:29",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-20T18-05-51Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE REQUIRING USER ATTENTION. Late-window status resolution is now available: Brock Bowers is inactive for LV@LAC and Ladd McConkey is active. Those outcomes are directionally consistent with the prior expected-status inputs and do not invalidate PRIME's previously alerted Justin Herbert rushing-over thesis. The best currently public named-book 19.5 threshold located on the CLEATZ multi-book board is FanDuel O19.5 -113, still inside PRIME's stored play-to of 20.5 and max juice of -115; BetRivers is O19.5 -115. The prior DraftKings O19.5 -109 is no longer treated as current; CLEATZ now displays DK at 18.5 with much heavier juice. Because a playable 19.5 remains available and the user has already been alerted to Herbert, this is not a new alert. Ashton Jeanty receiving yards was re-evaluated after Bowers' inactive confirmation, but current independent projections materially disagree (FIC 21.1 vs CBS 30.2) while public prices center around 25.5-26.5, so no standalone BET is promoted and existing Jeanty exposure remains sufficient. Existing Jeanty 50+ rushing, Purdy 16+ completions and Taylor 15+ receiving parlay legs remain HOLD. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2ConfirmedOpenStraightBets": 1,
+    "week2StraightBetStakeCash": 20.0,
+    "week2OpenParlayStakeCash": 61.0,
+    "week2TotalConfirmedOpenRiskCash": 81.0
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-HERBERT-RUSHYDS-RECHECK-20260920-145429",
+      "timestampEt": "2026-09-20 14:54:29",
+      "game": "LV@LAC",
+      "player": "Justin Herbert",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "sportsbook": "FanDuel via CLEATZ",
+      "line": 19.5,
+      "odds": -113,
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "playToLine": 20.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "B+",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "signalTags": ["RUSH_SHARE", "MATCHUP", "MARKET_MOVE", "INJURY"],
+      "reason": "Late inactive news resolved as Bowers OUT and McConkey ACTIVE. The prior DK 19.5 -109 is no longer treated as current, but FanDuel still offers 19.5 -113 on the public multi-book board, within the stored threshold and juice ceiling. This is a continuation of the prior alerted opportunity, not a new material change."
+    },
+    {
+      "decisionId": "2026W2-JEANTY-RECYDS-20260920-145429",
+      "timestampEt": "2026-09-20 14:54:29",
+      "game": "LV@LAC",
+      "player": "Ashton Jeanty",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "multi-book public comparison",
+      "line": 26.5,
+      "odds": -113,
+      "decisionStatus": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "confidence": "C",
+      "actualUserAction": "NO_BET",
+      "alert": false,
+      "signalTags": ["INJURY", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "EXPOSURE"],
+      "correlationTags": ["SAME_THESIS"],
+      "reason": "Bowers OUT can increase available targets, but projection disagreement is too wide to establish the required price-adjusted edge: FIC projects 21.1 receiving yards while CBS projects 30.2, and public named-book prices cluster around 25.5-26.5. User already has Jeanty 50+ rushing exposure, so no additional correlated Jeanty wager is justified."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "game": "LV@LAC",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "line": "50+",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_50_PLUS",
+      "alert": false
+    },
+    {
+      "player": "Brock Purdy",
+      "game": "MIA@SF",
+      "propType": "PASS_COMPLETIONS",
+      "side": "OVER",
+      "line": "16+",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_16_PLUS",
+      "alert": false
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "line": "15+",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD_SNF_RECHECK",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_15_PLUS",
+      "alert": false
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Los Angeles Chargers official inactives",
+      "sourceUrl": "https://www.chargers.com/news/inactives-raiders-week-2-2026",
+      "capturedAtEt": "2026-09-20 14:54 ET",
+      "claim": "Ladd McConkey is active for LV@LAC."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "ESPN/Yahoo Week 2 inactive reporting",
+      "capturedAtEt": "2026-09-20 14:54 ET",
+      "claim": "Brock Bowers is inactive for LV@LAC."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "CLEATZ multi-book player-prop comparison",
+      "sourceUrl": "https://cleatz.com/nfl-props-test/",
+      "capturedAtEt": "2026-09-20 14:54 ET",
+      "claim": "Justin Herbert rushing yards: FanDuel O19.5 -113; BetRivers O19.5 -115; DraftKings table now displays 18.5 with substantially heavier juice. The prior DK O19.5 -109 is not treated as current."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Fantasy Info Central",
+      "capturedAtEt": "2026-09-20 14:54 ET",
+      "claim": "Ashton Jeanty receiving-yards projection 21.1 versus a public FanDuel line of 26.5."
+    },
+    {
+      "classification": "model_projection",
+      "source": "CBS Week 2 projections",
+      "capturedAtEt": "2026-09-20 14:54 ET",
+      "claim": "Ashton Jeanty projected for 30.2 receiving yards, materially above FIC and illustrating projection disagreement."
+    }
+  ]
+}
