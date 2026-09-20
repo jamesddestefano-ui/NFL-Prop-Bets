@@ -1,8 +1,8 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-12T17-05-00Z.json",
-  "lastPrimeWatchArchive": "intelligence/archive/2026-09-20T10-51-04Z-prime-watch.json",
-  "processedAtEt": "2026-09-20T06:51:04-04:00",
+  "lastPrimeWatchArchive": "intelligence/archive/2026-09-20T13-43-42Z-prime-watch.json",
+  "processedAtEt": "2026-09-20T09:43:42-04:00",
   "scope": "NFL player props only",
-  "notes": "Sunday 06:51 ET Week 2 checkpoint. MATERIAL PRICE RE-VERIFICATION / USER ALERT: Covers now again identifies FanDuel Dalton Schultz O40.5 receiving yards -113, with Schultz odds last updated 05:09 ET. This exact pair is inside PRIME's 41.5/-115 ceiling and restores the prior 0.5u recommendation to STILL_PLAYABLE if the live FanDuel app agrees. Nico Collins remains officially OUT. Rico Dowdle O8.5 attempts remains PRICE_REVERIFY_REQUIRED because no newer identified regulated-book cash price was verified. Existing Week 2 parlay legs remain HOLD: Jefferson 80+ receiving, Jeanty 50+ rushing, Purdy 16+ completions, Taylor 15+ receiving. No new Grok pass; latest remains live completedAt 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-20T10-51-04Z-prime-watch.json. Next explicit Sunday rebuild: 08:00 ET."
+  "notes": "Sunday 09:43 ET Week 2 checkpoint. NO MATERIAL CHANGE requiring a new alert. Dalton Schultz remains actionable only at the already-alerted FanDuel O40.5 receiving -113; do not duplicate the alert. Rico Dowdle O8.5 attempts remains PRICE_REVERIFY_REQUIRED because no fresh named regulated cash price meeting the 8.5/-115 ceiling was verified. Existing Week 2 parlay legs remain HOLD: Jefferson 80+ receiving (market about 79.5-80.5 with moderate Chicago weather risk), Jeanty 50+ rushing (main roughly 60.5-64.5), Purdy 16+ completions (main 19.5), Taylor 15+ receiving (main about 15.5-17.5). New Sunday candidates did not clear PRIME's current price-adjusted threshold: DeMario Douglas O3.5 has projection disagreement; Roman Wilson O30.5 has worsened to -125 and is REDUCED_EDGE/LEAN; Cooper Rush Under moved from 18.5 to 17.5; Loveland and Olave moved beyond earlier analyst entries. No new Grok pass; latest remains live completedAt 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-20T13-43-42Z-prime-watch.json. Next explicit Sunday checkpoint: 10:00 ET."
 }
