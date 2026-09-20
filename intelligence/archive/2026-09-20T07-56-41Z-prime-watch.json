@@ -1,0 +1,238 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-20T07:56:41Z",
+  "runAtEt": "2026-09-20 03:56:41",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-20T07-27-58Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE. Fresh 03:49 ET Roman Wilson market data was screened after Michael Pittman Jr. was ruled out, but the actionable Sean Koerner entry has already moved: Covers now shows BetMGM O31.5 -115, DraftKings/FanDuel O33.5 -113, and Fanatics O30.5 -140 versus Koerner's earlier FanDuel O30.5 -113. Koerner projects 37.5 and roughly 60% Over at 30.5, but independent projections materially disagree (CBS approximately 21.2 receiving yards and FantasyPros consensus ranking remains low), so PRIME will not chase or promote Wilson at the moved price. Josh Oliver O1.5 receptions remains an interesting plus-money WATCH from Koerner's 60% estimate and Week 1 usage, but no sufficiently fresh timestamped executable sportsbook price was independently verified in this pass. Existing Dowdle and Schultz straight-bet recommendations are unchanged, and all four player legs in the user's two open Week 2 parlays remain HOLD. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2StraightBetHistory": "NO_CONFIRMED_USER_STRAIGHT_TICKET",
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03
+  },
+  "decisions": [
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365 via Covers",
+      "line": 8.5,
+      "odds": -115,
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 59.0,
+      "fairOdds": -144.0,
+      "estimatedEdgePct": 5.51,
+      "edgeBucket": "4-6%",
+      "confidence": "B",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SUNDAY_MORNING",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "Latest verified Dowdle board remains the 02:23 ET Covers update at O8.5 -115, exactly PRIME's stored ceiling. No better or newer executable price was verified; duplicate alert suppressed."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel via Covers",
+      "line": 40.5,
+      "odds": -113,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "SUNDAY_MORNING",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "Covers board updated 03:27 ET continues to show FanDuel O40.5 -113. No price improvement or adverse role change versus the prior checkpoint."
+    },
+    {
+      "player": "Roman Wilson",
+      "game": "PIT@NE",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "sportsbook": "BetMGM via Covers",
+      "line": 31.5,
+      "odds": -115,
+      "bestMarketLine": "30.5 -140 Fanatics; 31.5 -115 BetMGM; 33.5 -113 DraftKings/FanDuel",
+      "consensusLine": "approximately 33.5",
+      "playToLine": 30.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SUNDAY_MORNING",
+      "signalTags": "INJURY|ROLE_CHANGE|TARGET_SHARE|MARKET_MOVE|PROJECTION_DISAGREEMENT|EXPERT_CONSENSUS",
+      "actualUserAction": "NO_BET",
+      "alert": false,
+      "reason": "Sean Koerner's 19:13 ET recommendation was FanDuel O30.5 -113 with a 37.5-yard projection and roughly 60% Over probability after Pittman was ruled out. Covers at 03:49 ET shows the same FanDuel price only at 33.5, while the lowest threshold is heavily juiced. Week 1 produced six targets, three catches and 26 yards, but CBS projects roughly 21.2 yards and FantasyPros consensus remains bearish. The edge is not robust enough to transfer across the market move."
+    },
+    {
+      "player": "Josh Oliver",
+      "game": "MIN@CHI",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "DraftKings reference from Action Network",
+      "line": 1.5,
+      "odds": null,
+      "playToLine": 1.5,
+      "maxAcceptableOdds": "+100 or better pending fresh verification",
+      "steamState": "PRICE_UNVERIFIED",
+      "entryTiming": "SUNDAY_MORNING",
+      "signalTags": "ROUTE_SHARE|TARGET_SHARE|FIRST_READ|WEATHER|ROLE_CHANGE|EXPERT_CONSENSUS",
+      "actualUserAction": "NO_ACTION_YET",
+      "alert": false,
+      "reason": "Koerner recommended O1.5 +121 and projects roughly 1.9 catches / 60% Over after Oliver drew four targets on nine routes and a 26% first-read share in Week 1. RotoWire confirms Oliver and T.J. Hockenson both played 40-plus snaps, but Oliver remains a complementary/blocking TE and historical 2+ catch frequency was modest. A secondary page shows a DK +118 reference but lacks a sufficiently fresh timestamp for executable sportsbook truth. Require live price verification and another projection path before promotion."
+    },
+    {
+      "player": "Justin Jefferson",
+      "game": "MIN@CHI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD_WEATHER_MONITOR",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_80_PLUS",
+      "alert": false,
+      "reason": "Covers updated 03:37 ET still centers the receiving market around 79.5-80.5. Action's game page shows approximately 50% rain and 13 mph wind. Carson Wentz is the confirmed starter. The user's 80+ alternate remains aligned with market; no new cash-out or hedge signal."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_15_PLUS",
+      "alert": false,
+      "reason": "Covers' latest observed board remains roughly 15.5-19.5 across books, so the user's 15+ alternate is still below the main-market range. No adverse role catalyst was found."
+    },
+    {
+      "player": "Brock Purdy",
+      "game": "MIA@SF",
+      "propType": "PASS_COMPLETIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_16_PLUS",
+      "alert": false,
+      "reason": "Covers updated 03:37 ET shows the main completion market around 19.5-20.5, well above the user's 16+ alternate. No adverse new role or injury catalyst was found."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "game": "LV@LAC",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_50_PLUS",
+      "alert": false,
+      "reason": "Current public market context remains around the high-50s/low-60s rushing-yard threshold after 23 Week 1 carries. The user's 50+ alternate remains materially below that range; no new adverse catalyst requires action."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Roman Wilson player-prop page",
+      "capturedAtEt": "2026-09-20 03:56 ET",
+      "sourceUpdatedAtEt": "2026-09-20 03:49 ET",
+      "claim": "Receiving yards: BetMGM O31.5 -115; DraftKings/FanDuel O33.5 -113; Fanatics O30.5 -140; BetRivers O32.5 -117; Caesars O33.5 -122; Hard Rock O33.5 -115."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Dalton Schultz player-prop page",
+      "capturedAtEt": "2026-09-20 03:56 ET",
+      "sourceUpdatedAtEt": "2026-09-20 03:27 ET",
+      "claim": "FanDuel remains O40.5 -113; bet365 O41.5 -115; DraftKings O42.5 -110."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Brock Purdy player-prop page",
+      "capturedAtEt": "2026-09-20 03:56 ET",
+      "sourceUpdatedAtEt": "2026-09-20 03:37 ET",
+      "claim": "Passing completions remain centered around 19.5-20.5; user's 16+ alternate retains threshold cushion."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Justin Jefferson player-prop page",
+      "capturedAtEt": "2026-09-20 03:56 ET",
+      "sourceUpdatedAtEt": "2026-09-20 03:37 ET",
+      "claim": "Receiving yards remain centered around 79.5-80.5; user's 80+ alternate remains market-aligned."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Action Network / Sean Koerner",
+      "sourceTimestamp": "2026-09-19 19:13 ET",
+      "claim": "Roman Wilson projected near 37.5 receiving yards with about a 60% chance to clear 30.5; Josh Oliver projected near 1.9 receptions with about a 60% chance to clear 1.5. These are analyst/model inputs, not sportsbook truth."
+    },
+    {
+      "classification": "model_projection",
+      "source": "CBS Sports Week 2 WR projections",
+      "sourceTimestamp": "2026-09-20 current crawl",
+      "claim": "Roman Wilson is projected at approximately 21.2 receiving yards, creating material disagreement with Koerner and supporting a no-chase decision."
+    }
+  ],
+  "confirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Pittsburgh Steelers / current Steelers reporting",
+      "claim": "Michael Pittman Jr. is OUT for Week 2; Rico Dowdle and Jaylen Warren traveled with the team."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Minnesota Vikings official Week 2 preview",
+      "claim": "Carson Wentz will start at quarterback against Chicago while Kyler Murray remains out in concussion protocol."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "RotoWire Week 1 usage recap",
+      "claim": "Josh Oliver caught two of four targets for 22 yards and played 40-plus snaps alongside T.J. Hockenson in Week 1."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03,
+    "newRecommendedStakeUnits": 0.0,
+    "notes": "No new straight-bet exposure is added. Existing open parlays remain HOLD, and no same-thesis stacking is recommended."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — no-material-change overnight checkpoint with fresh Roman Wilson/Josh Oliver screen",
+    "livePropBoard": "NO CHANGE — no newly approved actionable candidate",
+    "decisionLedger": "NO CHANGE — Wilson/Oliver screen retained in immutable archive pending 08:00 ET rebuild and/or executable price verification",
+    "lineHistory": "NO CHANGE — fresh Wilson book state retained in immutable archive; no PRIME-approved entry created",
+    "betHistory": "NO CHANGE — no confirmed Week 2 straight ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.covers.com/sport/football/nfl/players/296953/roman-wilson",
+    "https://www.actionnetwork.com/nfl/nfl-props-week-2-cooper-rush-chris-godwin-courtland-sutton",
+    "https://www.fantasypros.com/nfl/rankings/roman-wilson-wr.php",
+    "https://sportsfly.cbsistatic.com/fantasy/football/stats/WR/2026/2/projections/ppr/",
+    "https://www.rotowire.com/football/player/josh-oliver-13786",
+    "https://www.vikings.com/news/bears-week-2-game-preview-2026",
+    "https://www.steelers.com/photos/travel-photos-week-2-at-patriots"
+  ],
+  "researchNotes": [
+    "No new Grok pass: latest remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and previously processed state.",
+    "Roman Wilson is a useful example of Advanced Market Learning discipline: the injury/role catalyst is real, but the best analyst entry moved and independent projections disagree materially, so no steam chase.",
+    "Josh Oliver remains price-sensitive and must not be promoted from an untimestamped/stale sportsbook reference despite an attractive analyst fair probability.",
+    "Continue Sunday intensity protocol with explicit 08:00, 09:00, 10:00, 11:30 and 12:30 ET checkpoints."
+  ]
+}
