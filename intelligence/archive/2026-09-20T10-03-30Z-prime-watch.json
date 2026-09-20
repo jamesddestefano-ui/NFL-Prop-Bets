@@ -1,0 +1,231 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-20T10:03:30Z",
+  "runAtEt": "2026-09-20 06:03:30",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-20T09-39-31Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE. The final overnight sweep found no new official injury, role, weather, or verified regulated-book move requiring a user alert. Rico Dowdle's 8.5 rushing-attempt threshold remains visible in current Sunday market/analyst context, but the newest Covers page no longer exposes a fresh regulated-book cash price for attempts; therefore the last verified bet365 O8.5 -115 quote remains historical and must be reverified in a live sportsbook before placement. The football thesis is unchanged: Dowdle played 39 snaps to Jaylen Warren's 25 in Week 1, and both backs traveled to New England. Dalton Schultz's current public-market context still centers at 40.5 receiving yards around decimal 1.88 on Sportsgambler, consistent with PRIME's stored 41.5/-115 ceiling, but that source does not identify a specific executable sportsbook and the prior FanDuel -113 quote is not treated as freshly verified. Roman Wilson remains PASS_AFTER_MOVE; Josh Oliver remains WATCH/PRICE_UNVERIFIED. Existing Week 2 parlay legs remain HOLD: Jefferson 80+ receiving, Jeanty 50+ rushing, Purdy 16+ completions, Taylor 15+ receiving. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2StraightBetHistory": "NO_CONFIRMED_USER_STRAIGHT_TICKET",
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03
+  },
+  "decisions": [
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "lastVerifiedRegulatedSportsbook": "bet365 via Covers",
+      "lastVerifiedLine": 8.5,
+      "lastVerifiedOdds": -115,
+      "lastVerifiedAtEt": "2026-09-20 02:23",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 59.0,
+      "fairOdds": -144.0,
+      "estimatedEdgePctAtLastVerifiedPrice": 5.51,
+      "edgeBucket": "4-6%",
+      "confidence": "B",
+      "steamState": "PRICE_REVERIFY_REQUIRED",
+      "entryTiming": "SUNDAY_MORNING",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "Sunday sources still show the 8.5 attempts threshold, including a current OddsShopper/Underdog recommendation and a market-data page listing 8.5 at one book, but no newer identified regulated-book price was independently verified after the 02:23 ET bet365 -115 snapshot. Do not treat the stale -115 as current; only play if a live regulated book still offers 8.5 at -115 or better."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "lastVerifiedRegulatedSportsbook": "FanDuel via Covers",
+      "lastVerifiedLine": 40.5,
+      "lastVerifiedOdds": -113,
+      "lastVerifiedAtEt": "2026-09-20 03:27",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "PRICE_REVERIFY_REQUIRED",
+      "entryTiming": "SUNDAY_MORNING",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "Fresh Sunday public-market context still lists Schultz receiving yards at 40.5 with both sides 1.88 (about -114), and Nico Collins remains out. Because the current aggregate does not identify the underlying sportsbook and the prior FanDuel -113 quote is older, placement still requires live-book confirmation at 41.5 or lower and -115 or better."
+    },
+    {
+      "player": "Roman Wilson",
+      "game": "PIT@NE",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "playToLine": 30.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SUNDAY_MORNING",
+      "actualUserAction": "NO_BET",
+      "alert": false,
+      "reason": "No fresh verified return to PRIME's 30.5 play-to at acceptable juice. Preserve the prior no-chase decision."
+    },
+    {
+      "player": "Josh Oliver",
+      "game": "MIN@CHI",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "playToLine": 1.5,
+      "maxAcceptableOdds": "+100 or better pending fresh verification",
+      "steamState": "PRICE_UNVERIFIED",
+      "entryTiming": "SUNDAY_MORNING",
+      "actualUserAction": "NO_ACTION_YET",
+      "alert": false,
+      "reason": "No new executable sportsbook price was verified; do not promote from the earlier Action/Koerner +121 reference."
+    },
+    {
+      "player": "Justin Jefferson",
+      "game": "MIN@CHI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD_WEATHER_MONITOR",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_80_PLUS",
+      "alert": false,
+      "reason": "Current Covers receiving-yards board remains around 77.5-80.5 across visible books; the user's 80+ alternate remains aligned with the main market. Carson Wentz remains the confirmed starter. No new adverse catalyst warrants a cash-out or hedge."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_15_PLUS",
+      "alert": false,
+      "reason": "Latest Covers board remains 15.5-19.5 across visible books, leaving the user's 15+ alternate below the main-market range. No adverse role catalyst was found."
+    },
+    {
+      "player": "Brock Purdy",
+      "game": "MIA@SF",
+      "propType": "PASS_COMPLETIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_16_PLUS",
+      "alert": false,
+      "reason": "Latest Covers completion market remains 19.5-20.5 across visible regulated books, leaving meaningful cushion to the user's 16+ alternate. No adverse injury or weather catalyst was found."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "game": "LV@LAC",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_50_PLUS",
+      "alert": false,
+      "reason": "Fresh 05:35 ET Covers market remains 60.5-64.5 across visible regulated books, well above the user's 50+ alternate. Raiders' official final injury report lists Jeanty as a full participant all week with no game designation."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Justin Jefferson player-prop page",
+      "sourceUpdatedAtEt": "2026-09-20 04:49",
+      "claim": "Receiving yards visible at BetVictor O77.5 -120 and several books O80.5 around -120 to -125. User's 80+ alternate remains market-aligned."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Brock Purdy player-prop page",
+      "sourceUpdatedAtEt": "2026-09-20 04:59",
+      "claim": "Passing completions visible at 19.5-20.5; DraftKings O19.5 -129 and bet365 O20.5 -115 among displayed prices. User's 16+ alternate retains cushion."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Jonathan Taylor player-prop page",
+      "sourceUpdatedAtEt": "2026-09-20 02:57",
+      "claim": "Receiving yards visible from 15.5 to 19.5; DraftKings/FanDuel O16.5 around -112/-113. User's 15+ alternate remains below the main-market range."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Ashton Jeanty player-prop page",
+      "sourceUpdatedAtEt": "2026-09-20 05:35",
+      "claim": "Rushing yards visible from 60.5 to 64.5 across regulated books; DraftKings O63.5 -112 and FanDuel O62.5 -113 among displayed prices."
+    },
+    {
+      "classification": "market_context_not_executable_book_truth",
+      "source": "Sportsgambler Bengals-Texans prop board",
+      "capturedAtEt": "2026-09-20 06:03",
+      "claim": "Dalton Schultz receiving yards displayed at O40.5/U40.5 decimal 1.88. Source does not identify an underlying sportsbook for the quote, so it confirms threshold context only."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "OddsShopper / Eric Lindquist",
+      "sourceTimestamp": "2026-09-20",
+      "claim": "Recommends Rico Dowdle Higher 8.5 rushing attempts, citing Week 1 39 snaps versus Jaylen Warren's 25 and eight carries. This supports the workload thesis but is not sportsbook truth."
+    }
+  ],
+  "confirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Pittsburgh Steelers official travel gallery",
+      "claim": "Rico Dowdle and Jaylen Warren both traveled to Foxborough on Saturday."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Minnesota Vikings official Week 2 preview",
+      "claim": "Carson Wentz will start against Chicago while Kyler Murray is out."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Las Vegas Raiders official Week 2 injury report",
+      "claim": "Ashton Jeanty was a full participant Wednesday, Thursday and Friday and carries no game-status designation."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Houston Week 2 reporting / prior official injury state",
+      "claim": "Nico Collins is out for the Bengals-Texans game; no new overnight reversal was found."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03,
+    "newRecommendedStakeUnits": 0.0,
+    "notes": "No new straight-bet exposure added. Existing parlays remain HOLD; no same-thesis stacking is recommended."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — 06:03 ET final overnight checkpoint",
+    "livePropBoard": "NO CHANGE — no newly approved actionable candidate or verified current regulated-book repricing",
+    "decisionLedger": "NO CHANGE — no durable classification change; price re-verification requirement captured in immutable archive",
+    "lineHistory": "NO CHANGE — no newer identified regulated-book Dowdle/Schultz quote suitable for authoritative line history",
+    "betHistory": "NO CHANGE — no confirmed Week 2 straight ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.oddsshopper.com/articles/expert-picks/underdog-picks-2026-09-20",
+    "https://www.sportsgambler.com/betting-tips/nfl/cincinnati-bengals-vs-houston-texans-prediction-odds-2026-09-20/",
+    "https://www.steelers.com/photos/travel-photos-week-2-at-patriots",
+    "https://www.vikings.com/news/bears-week-2-game-preview-2026",
+    "https://www.raiders.com/news/las-vegas-raiders-los-angeles-chargers-nfl-week-2-injury-report-2026-season",
+    "https://www.covers.com/sport/football/nfl/players/365960/ashton-jeanty",
+    "https://www.covers.com/sport/football/nfl/players/33175/dalton-schultz"
+  ],
+  "researchNotes": [
+    "No new Grok pass: latest remains live with completedAt 2026-09-12T17:05:00Z, identical to the compact history index and previously processed state.",
+    "Do not carry forward exact sportsbook prices as current merely because the thesis and threshold remain visible elsewhere. Dowdle -115 and Schultz -113 require live-book re-verification before placement.",
+    "No material parlay deterioration was found. Jefferson, Jeanty, Purdy and Taylor remain HOLD.",
+    "Next required explicit Sunday rebuild is 08:00 ET."
+  ]
+}
