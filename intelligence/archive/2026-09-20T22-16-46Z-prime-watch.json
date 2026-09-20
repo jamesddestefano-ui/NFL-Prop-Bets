@@ -1,0 +1,196 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-20 18:16:46",
+  "capturedAtUtc": "2026-09-20T22:16:46Z",
+  "priorArchive": "intelligence/archive/2026-09-20T20-25-22Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. Verified sportsbook truth, user tickets and final results remain authoritative."
+  },
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Sunday-night weather risk for Patrick Mahomes passing has improved materially: Kansas City's official game-day forecast is cloudy with no rain expected at kickoff, while other older public forecasts had meaningful rain risk. The user's verified 16:34 ET DraftKings screen showed Mahomes 220+ passing yards at -112, but the current broad public market is now around 221.5 -114. PRIME therefore keeps the exact 220+/-115-or-better entry as BET/STILL_PLAYABLE if it remains live in the app, while classifying 221.5 -114 as REDUCED_EDGE/LEAN rather than chasing. Daniel Jones Over 8.5 rushing yards -114 remains the prior BET and is unchanged; Patrick Mahomes rushing 17.5 -114 remains a secondary LEAN. Official SNF inactives were not yet posted at this checkpoint and must be rechecked before kickoff.",
+  "decisions": [
+    {
+      "decisionId": "2026W2-MAHOMES-PASSYDS-20260920-181646",
+      "timestampEt": "2026-09-20 18:16:46",
+      "nflWeek": 2,
+      "gameDate": "2026-09-20",
+      "game": "IND@KC",
+      "player": "Patrick Mahomes",
+      "team": "KC",
+      "opponent": "IND",
+      "propType": "PASS_YARDS",
+      "market": "Passing Yards Alt / Main",
+      "side": "OVER",
+      "verifiedUserMarket": "DraftKings 220+ -112 at 2026-09-20 16:34 ET from user screenshot; placement not confirmed",
+      "currentPublicMarket": "SportsGambler broad public market 221.5 O-114/U-114, page last updated 13:38 ET; DraftKings-specific current executable price not independently verified at 18:16 ET",
+      "bestMarket": "220+ -112 user-verified earlier; do not assume still executable",
+      "consensusLine": "about 221-227.5 across public sources, with BetMGM 227.5 and public consensus around 221",
+      "marketImpliedProbabilityAtUserPricePct": 52.83,
+      "internalFairProbabilityAt220PlusPct": 58.0,
+      "estimatedEdgeAtUserPricePct": 5.17,
+      "edgeBucketAtUserPrice": "4-6%",
+      "internalFairProbabilityAt221_5Pct": 57.0,
+      "marketImpliedProbabilityAt221_5Minus114Pct": 53.27,
+      "estimatedEdgeAt221_5Minus114Pct": 3.73,
+      "edgeBucketAtCurrentPublic": "2-4%",
+      "decisionStatusAt220Plus": "BET",
+      "decisionStatusAt221_5": "LEAN",
+      "steamState": "REDUCED_EDGE",
+      "confidence": "B",
+      "playToLine": "220+ preferred; do not chase beyond 221.5 without fresh recalculation",
+      "maxAcceptableOdds": -115,
+      "entryTiming": "SUNDAY_PRE_GAME",
+      "recommendedStakeUnits": 0.5,
+      "signalTags": [
+        "MARKET_MOVE",
+        "WEATHER",
+        "MATCHUP",
+        "PROJECTION_DISAGREEMENT",
+        "EXPERT_CONSENSUS"
+      ],
+      "correlationTags": [],
+      "reason": "The football thesis is supported by multiple independent paths but remains price-sensitive. FantasyPros Week 2 projects 241.7 Mahomes passing yards and numberFire/FanDuel Research projects 240.59. ESPN's same-day DraftKings analysis listed Mahomes Over 220.5 as a preferred prop and noted Indianapolis allowed 324 passing yards to Lamar Jackson in Week 1. Covers separately supports Mahomes Over up to 227.5. Kansas City's official game-day forecast removes the earlier rain concern by calling for cloudy conditions with no rain expected, while Mahomes is a full practice participant with no injury designation. However, the broad public market has moved to roughly 221.5 -114 and some books are higher, so the original 220+ -112 edge should not be mechanically transferred to worse numbers.",
+      "priceDiscipline": "If the live DraftKings app still shows 220+ at -115 or better, BET/STILL_PLAYABLE for 0.5u. At 221.5 -114, classify as LEAN/REDUCED_EDGE rather than a fresh bet. PASS if the live line reaches 223.5+ at standard juice unless a new inactive/news catalyst increases the fair distribution. Never infer that the earlier user screenshot remains current.",
+      "sourceSeparation": {
+        "confirmedFacts": [
+          "Kansas City official injury report lists Patrick Mahomes as a full participant Friday with no game designation.",
+          "Kansas City's official game-day forecast, as relayed by Chiefs Wire/Yahoo, calls for cloudy conditions around 72 degrees and no rain at kickoff.",
+          "User screenshot at 16:34 ET showed DraftKings Mahomes 220+ passing yards at -112; this is verified historical sportsbook truth, not assumed current at 18:16 ET."
+        ],
+        "attributedReporting": [
+          "Chiefs Wire/Yahoo reported the official Chiefs game-day weather forecast at 14:00 ET equivalent publication time and described fair weather with no rain in the forecast.",
+          "ESPN's same-day betting analysis preferred Mahomes Over 220.5 passing yards at DraftKings."
+        ],
+        "modelProjections": [
+          "FantasyPros Week 2 projection: 241.7 passing yards.",
+          "numberFire/FanDuel Research Week 2 projection: 240.59 passing yards."
+        ],
+        "analystOpinion": [
+          "Covers supports Mahomes Over 224.5 and says it is willing to play the Over up to 227.5.",
+          "SportsGambler's editorial pick is Under 221.5, creating meaningful analyst disagreement despite the same displayed market."
+        ],
+        "speculation": [
+          "Kansas City's strong Week 1 rushing success could again suppress pass volume in a favorable game script; this is the main downside to the Over."
+        ]
+      }
+    },
+    {
+      "decisionId": "2026W2-JONES-RUSHYDS-20260920-181646",
+      "timestampEt": "2026-09-20 18:16:46",
+      "game": "IND@KC",
+      "player": "Daniel Jones",
+      "propType": "RUSH_YARDS",
+      "market": "Rushing Yards",
+      "side": "OVER",
+      "line": 8.5,
+      "odds": -114,
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "confidence": "B+",
+      "playToLine": 9.5,
+      "maxAcceptableOdds": -115,
+      "reason": "No material price deterioration from the 16:25 checkpoint. The same current public board still shows 8.5 -114 and the prior pressure/scramble thesis remains intact. No duplicate alert is generated solely from unchanged information."
+    },
+    {
+      "decisionId": "2026W2-MAHOMES-RUSHYDS-20260920-181646",
+      "timestampEt": "2026-09-20 18:16:46",
+      "game": "IND@KC",
+      "player": "Patrick Mahomes",
+      "propType": "RUSH_YARDS",
+      "market": "Rushing Yards",
+      "side": "OVER",
+      "line": 17.5,
+      "odds": -114,
+      "decisionStatus": "LEAN",
+      "steamState": "STILL_PLAYABLE",
+      "confidence": "B",
+      "reason": "Current public board still shows 17.5 -114, while another DraftKings prop-splits page references an 18.5 market. Because the Jones rush Over remains the stronger same-game thesis and because market references disagree by one yard, do not add correlated QB-rush exposure without a verified live-book advantage."
+    }
+  ],
+  "marketSnapshots": [
+    {
+      "capturedAtEt": "2026-09-20 16:34:00",
+      "game": "IND@KC",
+      "player": "Patrick Mahomes",
+      "market": "Passing Yards Alt",
+      "sportsbook": "DraftKings user screenshot",
+      "side": "AT_LEAST",
+      "line": "220+",
+      "odds": -112,
+      "sourceNote": "Authoritative historical sportsbook truth from user screenshot; placement not confirmed and line is not assumed current at 18:16 ET."
+    },
+    {
+      "capturedAtEt": "2026-09-20 18:16:46",
+      "game": "IND@KC",
+      "player": "Patrick Mahomes",
+      "market": "Passing Yards",
+      "sportsbook": "SportsGambler broad public market",
+      "side": "OVER",
+      "line": 221.5,
+      "odds": -114,
+      "oppositeSideLine": 221.5,
+      "oppositeSideOdds": -114,
+      "sourceNote": "Page last updated 13:38 ET and states live market odds are updated regularly; use as current public movement context, not guaranteed executable sportsbook truth."
+    },
+    {
+      "capturedAtEt": "2026-09-20 18:16:46",
+      "game": "IND@KC",
+      "player": "Daniel Jones",
+      "market": "Rushing Yards",
+      "sportsbook": "SportsGambler broad public market",
+      "side": "OVER",
+      "line": 8.5,
+      "odds": -114,
+      "oppositeSideLine": 8.5,
+      "oppositeSideOdds": -114,
+      "sourceNote": "Unchanged from prior checkpoint."
+    },
+    {
+      "capturedAtEt": "2026-09-20 18:16:46",
+      "game": "IND@KC",
+      "player": "Patrick Mahomes",
+      "market": "Rushing Yards",
+      "sportsbook": "SportsGambler broad public market",
+      "side": "OVER",
+      "line": 17.5,
+      "odds": -114,
+      "oppositeSideLine": 17.5,
+      "oppositeSideOdds": -114,
+      "sourceNote": "DraftKings prop-splits page references 18.5, so treat as market disagreement and verify live book before action."
+    }
+  ],
+  "weather": {
+    "materialChange": true,
+    "officialTeamForecast": "Cloudy around 72F at kickoff, no rain expected according to Kansas City's official game-day forecast as relayed by Chiefs Wire/Yahoo.",
+    "conflictingOlderForecasts": "Some earlier Covers/FantasyAlarm forecasts showed substantial shower risk. The newer official-team forecast is weighted more heavily for this checkpoint.",
+    "impact": "Removes a prior adverse passing-game weather concern for Mahomes but does not justify chasing a worse market price."
+  },
+  "injuryCheckpoint": {
+    "officialInactivesPosted": false,
+    "chiefsFinalReport": "Josh Simmons and Chamarri Conner OUT; Chris Jones and Mansoor Delane QUESTIONABLE; Patrick Mahomes, Rashee Rice and L'Jarius Sneed have no game designation.",
+    "coltsFinalReport": "Ashton Dulin OUT; DJ Giddens QUESTIONABLE; Jonathan Taylor has no game designation.",
+    "nextRequiredAction": "Recheck official SNF inactives around 18:50 ET and reprice affected props."
+  },
+  "exposure": {
+    "confirmedOpenParlayStakeCash": 25.0,
+    "confirmedOpenStraightBetStakeCash": 0.0,
+    "unconfirmedRecommendedBetsExcludedFromExposure": [
+      "Daniel Jones Over 8.5 rushing yards",
+      "Patrick Mahomes 220+ passing yards",
+      "Patrick Mahomes Over 17.5 rushing yards"
+    ],
+    "note": "Do not treat the user's Mahomes bet-slip screenshot as a placed wager because no confirmation receipt was provided."
+  },
+  "repositoryActions": [
+    "Created this immutable 18:16 ET Sunday-night checkpoint.",
+    "Did not alter bet_history because no Mahomes placement confirmation was provided.",
+    "Did not overwrite prior verified sportsbook truth; the 16:34 DraftKings screenshot is preserved as historical line evidence only.",
+    "No new Grok pass was processed."
+  ]
+}
