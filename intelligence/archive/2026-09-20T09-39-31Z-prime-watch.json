@@ -1,0 +1,218 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-20T09:39:31Z",
+  "runAtEt": "2026-09-20 05:39:31",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-20T07-56-41Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE. The overnight board remains price-disciplined. Rico Dowdle O8.5 rushing attempts is still only playable at PRIME's absolute -115 ceiling based on the latest verified 02:23 ET Covers board. Dalton Schultz O40.5 receiving yards -113 remains the last verified approved entry; no newer executable price was independently verified in this pass. Roman Wilson remains PASS_AFTER_MOVE: Covers updated 04:47 ET shows BetMGM O31.5 -115 and DraftKings/FanDuel O33.5 -113, both beyond PRIME's stored 30.5 play-to, while Fanatics worsened to 35.5 -105. Josh Oliver O1.5 receptions remains WATCH because the attractive +121 Action/Koerner reference is not a fresh executable sportsbook price. A fresh 05:35 ET Ashton Jeanty board centers his rushing-yard market around 60.5-64.5, leaving the user's 50+ alternate materially below the main market with no new adverse role catalyst. Jefferson 80+, Purdy 16+ completions, Taylor 15+ receiving and Jeanty 50+ all remain HOLD. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2StraightBetHistory": "NO_CONFIRMED_USER_STRAIGHT_TICKET",
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03
+  },
+  "decisions": [
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365 via Covers",
+      "line": 8.5,
+      "odds": -115,
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 59.0,
+      "fairOdds": -144.0,
+      "estimatedEdgePct": 5.51,
+      "edgeBucket": "4-6%",
+      "confidence": "B",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SUNDAY_MORNING",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "Latest verified Covers board remains the 02:23 ET snapshot at O8.5 -115, exactly PRIME's stored ceiling. No improved price or role catalyst was found, so duplicate alert remains suppressed."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel via Covers",
+      "line": 40.5,
+      "odds": -113,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "SUNDAY_MORNING",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "The last verified executable board remains FanDuel O40.5 -113 from the 03:27 ET Covers update. No fresher verified sportsbook price or adverse role news was found in this pass."
+    },
+    {
+      "player": "Roman Wilson",
+      "game": "PIT@NE",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "sportsbook": "BetMGM via Covers",
+      "line": 31.5,
+      "odds": -115,
+      "bestMarketLine": "31.5 -115 BetMGM; 33.5 -113 DraftKings/FanDuel; 35.5 -105 Fanatics",
+      "consensusLine": "approximately 33.5",
+      "playToLine": 30.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SUNDAY_MORNING",
+      "signalTags": "INJURY|ROLE_CHANGE|TARGET_SHARE|MARKET_MOVE|PROJECTION_DISAGREEMENT|EXPERT_CONSENSUS",
+      "actualUserAction": "NO_BET",
+      "alert": false,
+      "reason": "Covers updated 04:47 ET still leaves the Over beyond PRIME's stored 30.5 play-to. Koerner's earlier 37.5-yard projection remains materially opposed by lower independent projections, so the original price-specific signal is not transferable to the moved market."
+    },
+    {
+      "player": "Josh Oliver",
+      "game": "MIN@CHI",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "DraftKings reference from Action Network",
+      "line": 1.5,
+      "odds": null,
+      "playToLine": 1.5,
+      "maxAcceptableOdds": "+100 or better pending fresh verification",
+      "steamState": "PRICE_UNVERIFIED",
+      "entryTiming": "SUNDAY_MORNING",
+      "signalTags": "ROUTE_SHARE|TARGET_SHARE|FIRST_READ|WEATHER|ROLE_CHANGE|EXPERT_CONSENSUS",
+      "actualUserAction": "NO_ACTION_YET",
+      "alert": false,
+      "reason": "The Action/Koerner +121 reference remains attractive in theory, but no fresh timestamped executable receptions price was independently verified. Do not promote from a stale analyst price."
+    },
+    {
+      "player": "Justin Jefferson",
+      "game": "MIN@CHI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD_WEATHER_MONITOR",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_80_PLUS",
+      "alert": false,
+      "reason": "No materially adverse overnight injury or weather update was found. The user's 80+ alternate remains near the prior main-market range and does not warrant a cash-out or hedge instruction at this checkpoint."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_15_PLUS",
+      "alert": false,
+      "reason": "No adverse role catalyst was found overnight. The 15+ alternate remains below the previously observed main-market range."
+    },
+    {
+      "player": "Brock Purdy",
+      "game": "MIA@SF",
+      "propType": "PASS_COMPLETIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_16_PLUS",
+      "alert": false,
+      "reason": "No adverse injury or role catalyst was found overnight. The 16+ alternate retains meaningful cushion versus the previously observed 19.5-20.5 main completion market."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "game": "LV@LAC",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "sportsbook": "Covers multi-book market",
+      "line": 50.0,
+      "odds": null,
+      "bestMarketLine": "60.5 -125 Fanatics; 61.5 -120 theScore; 62.5 -113 FanDuel; 63.5 -112 DraftKings; 63.5 -115 bet365; 64.5 -115 BetMGM",
+      "consensusLine": "approximately 63.5",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_50_PLUS",
+      "alert": false,
+      "reason": "Covers updated 05:35 ET centers the main rushing-yard market around 60.5-64.5. The user's 50+ alternate remains materially below the current main market and no new adverse role catalyst was found."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Ashton Jeanty player-prop page",
+      "capturedAtEt": "2026-09-20 05:39 ET",
+      "sourceUpdatedAtEt": "2026-09-20 05:35 ET",
+      "claim": "Rushing yards: Fanatics O60.5 -125; theScore O61.5 -120; FanDuel O62.5 -113; DraftKings O63.5 -112; bet365 O63.5 -115; BetMGM O64.5 -115; BetRivers O64.5 -118. The user's 50+ alternate remains well below the main market."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Roman Wilson player-prop page",
+      "capturedAtEt": "2026-09-20 05:39 ET",
+      "sourceUpdatedAtEt": "2026-09-20 04:47 ET",
+      "claim": "Receiving yards: BetMGM O31.5 -115; DraftKings/FanDuel O33.5 -113; Fanatics O35.5 -105. The market remains beyond PRIME's 30.5 play-to."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Rico Dowdle player-prop page",
+      "capturedAtEt": "2026-09-20 05:39 ET",
+      "sourceUpdatedAtEt": "2026-09-20 02:23 ET",
+      "claim": "Rushing attempts remain O8.5 -115 at bet365, exactly PRIME's maximum acceptable price."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Action Network / Sean Koerner",
+      "sourceTimestamp": "2026-09-19 19:13 ET",
+      "claim": "Roman Wilson was projected near 37.5 receiving yards with about a 60% chance to clear 30.5; Josh Oliver was projected near 1.9 receptions with about a 60% chance to clear 1.5. Both remain analyst/model inputs rather than sportsbook truth."
+    }
+  ],
+  "confirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Repository-carried official/team reporting",
+      "claim": "No new overnight official injury or inactive announcement was found that materially changes the role thesis for Dowdle, Schultz, Jefferson, Taylor, Purdy or Jeanty. Official early-window inactives are not yet due at this checkpoint."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03,
+    "newRecommendedStakeUnits": 0.0,
+    "notes": "No new straight-bet exposure added. Existing open parlays remain HOLD; no same-thesis stacking is recommended."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — no-material-change overnight checkpoint with fresh Jeanty and Wilson market verification",
+    "livePropBoard": "NO CHANGE — no newly approved actionable candidate",
+    "decisionLedger": "NO CHANGE — no classification change requiring a new durable row",
+    "lineHistory": "NO CHANGE — non-actionable overnight market snapshots retained in immutable archive pending the 08:00 ET rebuild",
+    "betHistory": "NO CHANGE — no confirmed Week 2 straight ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.covers.com/sport/football/nfl/players/365960/ashton-jeanty",
+    "https://www.covers.com/sport/football/nfl/players/296953/roman-wilson",
+    "https://www.covers.com/sport/football/nfl/players/33057/rico-dowdle",
+    "https://www.actionnetwork.com/nfl/nfl-props-week-2-cooper-rush-chris-godwin-courtland-sutton"
+  ],
+  "researchNotes": [
+    "No new Grok pass: latest remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and previously processed state.",
+    "Jeanty's fresh 05:35 ET main market strengthens the threshold cushion on the existing 50+ parlay leg but does not create a new straight wager by itself.",
+    "Roman Wilson remains a steam-chasing pass; the market has not returned to the stored 30.5 play-to at acceptable juice.",
+    "Josh Oliver remains price-sensitive; do not infer that the prior +121 reference is still executable.",
+    "Continue the Sunday intensity protocol with explicit 08:00, 09:00, 10:00, 11:30 and 12:30 ET checkpoints."
+  ]
+}
