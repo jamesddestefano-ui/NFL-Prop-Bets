@@ -1,0 +1,66 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-20 17:00:10",
+  "capturedAtUtc": "2026-09-20T21:00:10Z",
+  "priorArchive": "intelligence/archive/2026-09-20T20-25-22Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass; sportsbook/user-ticket truth remains authoritative."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new actionable change since the 16:25 ET Sunday-night mini-slate checkpoint. Daniel Jones Over 8.5 rushing yards remains publicly displayed at -114, unchanged and still inside the stored 9.5/-115 play-to, but this is not a new signal relative to the immediately prior checkpoint. Patrick Mahomes Over 17.5 rushing yards remains -114 and secondary only. No official SNF inactive release was available yet; the Chiefs' Friday report still lists Mahomes full with no game designation, while Chris Jones and Mansoor Delane are questionable and Josh Simmons is out. Continue monitoring for the official inactive window and any material repricing; do not repeat-alert unchanged prices.",
+  "marketChecks": [
+    {
+      "game": "IND@KC",
+      "player": "Daniel Jones",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "line": 8.5,
+      "odds": -114,
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "playToLine": 9.5,
+      "maxAcceptableOdds": -115,
+      "changeVsPriorCheckpoint": "UNCHANGED",
+      "source": "SportsGambler live market table",
+      "sourceContext": "Page states live market odds/lines update regularly and was last editorially updated Sep 20 at 14:38 ET; exact sportsbook identity is not exposed in the table, so verify in the live regulated app before placement."
+    },
+    {
+      "game": "IND@KC",
+      "player": "Patrick Mahomes",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "line": 17.5,
+      "odds": -114,
+      "decisionStatus": "LEAN",
+      "steamState": "STILL_PLAYABLE",
+      "playToLine": 17.5,
+      "maxAcceptableOdds": -115,
+      "changeVsPriorCheckpoint": "UNCHANGED",
+      "source": "SportsGambler live market table"
+    }
+  ],
+  "confirmedFacts": [
+    "Chiefs official Friday injury report: Patrick Mahomes was a full participant with no game designation; Josh Simmons was ruled out; Chris Jones and Mansoor Delane were questionable.",
+    "The current SportsGambler table still displayed Daniel Jones rushing yards O8.5/U8.5 -114 and Patrick Mahomes rushing yards O17.5/U17.5 -114 at this checkpoint.",
+    "Covers' same-day computer projection continues to list Daniel Jones Over 9.5 rushing yards with a 20.48-yard projection, but that projection is supporting context only and not the reason to bet."
+  ],
+  "attributedReporting": [
+    "Covers' same-day analysis continues to emphasize Jones' Week 1 pressure exposure and Kansas City's blitz-heavy defensive profile as the mobility/scramble thesis."
+  ],
+  "modelProjection": {
+    "DanielJonesRushingYards": 20.48,
+    "source": "Covers computer projection",
+    "usage": "supporting evidence only"
+  },
+  "speculation": [
+    "Pressure translating into additional Jones scramble volume remains a causal expectation rather than guaranteed usage, particularly given his recent Achilles recovery."
+  ],
+  "exposureNote": "Do not stack additional unchanged SNF recommendations solely because a prior BET remains playable. Existing user Taylor receiving exposure and unconfirmed prior Mahomes recommendations remain relevant to game-level concentration.",
+  "nextCheckpoint": "Official SNF inactives / material pregame line movement."
+}
