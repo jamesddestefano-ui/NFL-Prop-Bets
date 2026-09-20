@@ -1,0 +1,222 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-20T10:51:04Z",
+  "runAtEt": "2026-09-20 06:51:04",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-20T10-03-30Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL PRICE RE-VERIFICATION: the 06:03 ET checkpoint required a fresh sportsbook check before acting on Dalton Schultz because the prior FanDuel O40.5 -113 quote was no longer treated as current. The newest Covers player-prop board now again identifies FanDuel O40.5 receiving yards at -113, with the Schultz player page stating odds last updated 05:09 ET. That exact pair remains inside PRIME's stored play-to of 41.5 and max juice -115, so the prior 0.5u recommendation is actionable again if the user's live FanDuel app still shows it. Other displayed books are worse by threshold and/or price: DraftKings O42.5 -110, Fanatics O40.5 -125, BetRivers O41.5 -113, Caesars O41.5 -121, Hard Rock O41.5 -115. Nico Collins remains officially OUT. Retain the prior conservative Schultz distribution (mean 47, median 45, 58.5% Over at 40.5, fair about -141); at -113 break-even is 53.05%, estimated raw edge 5.45 percentage points, 4-6% bucket. Rico Dowdle O8.5 rushing attempts remains PRICE_REVERIFY_REQUIRED because no newer identified regulated-book cash price was verified. Existing Week 2 parlays remain HOLD. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2StraightBetHistory": "NO_CONFIRMED_USER_STRAIGHT_TICKET",
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-SCHULTZ-RECYDS-REVERIFY-20260920-065104",
+      "timestampEt": "2026-09-20 06:51:04",
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "FanDuel via Covers",
+      "line": 40.5,
+      "odds": -113,
+      "sourceOddsUpdatedAtEt": "2026-09-20 05:09",
+      "bestMarketLine": "FanDuel 40.5 -113",
+      "consensusLine": "approximately 41.5-42.5 among core displayed books, with Fanatics also 40.5 at worse -125",
+      "lineAtFirstDetection": 41.5,
+      "lineAtRecommendation": 40.5,
+      "ourMeanProjection": 47.0,
+      "ourMedianProjection": 45.0,
+      "estimatedOverProbability": 58.5,
+      "estimatedUnderProbability": 41.5,
+      "fairOdds": -141.0,
+      "marketImpliedProbability": 53.05,
+      "estimatedEdgePct": 5.45,
+      "edgeBucket": "4-6%",
+      "decisionStatus": "BET",
+      "confidence": "B",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "SUNDAY_MORNING",
+      "stakeUnits": 0.5,
+      "signalTags": ["INJURY", "ROLE_CHANGE", "TARGET_SHARE", "FIRST_READ_SHARE", "ROUTE_SHARE", "MARKET_MOVE", "MATCHUP", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": [],
+      "thesisId": "SCHULTZ_COLLINS_OUT_VOLUME_WEEK2",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": true,
+      "reason": "This is not a projection-only wager. The material trigger is sportsbook-specific price re-verification after the prior checkpoint had downgraded the quote to PRICE_REVERIFY_REQUIRED. Houston officially lists Nico Collins OUT, preserving the target-vacancy catalyst. Covers' current board shows FanDuel O40.5 -113 and its model projects 7.8 targets; the projection is supporting context only. Keep the stored ceiling at 41.5/-115 and do not chase DraftKings O42.5."
+    },
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 59.0,
+      "fairOdds": -144.0,
+      "steamState": "PRICE_REVERIFY_REQUIRED",
+      "entryTiming": "SUNDAY_MORNING",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "The 8.5 threshold remains visible in current Sunday context, but no newer identified regulated-book cash price was verified after the prior bet365 8.5 -115 snapshot. Do not carry stale juice forward as current."
+    },
+    {
+      "player": "Justin Jefferson",
+      "game": "MIN@CHI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD_WEATHER_MONITOR",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_80_PLUS",
+      "alert": false,
+      "reason": "The user's 80+ alternate remains around the current main-market threshold. Chicago wind/rain remains worth monitoring, but there is no new verified market or inactive catalyst requiring a cash-out or hedge recommendation at this checkpoint."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_15_PLUS",
+      "alert": false,
+      "reason": "No new adverse role or pricing catalyst was found that changes the reduced 15+ alternate-leg thesis."
+    },
+    {
+      "player": "Brock Purdy",
+      "game": "MIA@SF",
+      "propType": "PASS_COMPLETIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_16_PLUS",
+      "alert": false,
+      "reason": "No new adverse injury or weather catalyst was found that changes the reduced 16+ completion leg."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "game": "LV@LAC",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_50_PLUS",
+      "alert": false,
+      "reason": "No new adverse role or injury catalyst was found that changes the reduced 50+ rushing-yard leg."
+    }
+  ],
+  "lineHistoryObservations": [
+    {
+      "capturedAtEt": "2026-09-20 06:51:04",
+      "sourceOddsUpdatedAtEt": "2026-09-20 05:09",
+      "player": "Dalton Schultz",
+      "market": "Receiving Yards",
+      "sportsbook": "FanDuel via Covers",
+      "side": "OVER",
+      "line": 40.5,
+      "odds": -113,
+      "impliedProbability": 53.05,
+      "note": "Fresh re-verification of the exact PRIME buy point after the 06:03 ET state required price re-check. STILL_PLAYABLE at 0.5u if live app agrees."
+    },
+    {
+      "capturedAtEt": "2026-09-20 06:51:04",
+      "sourceOddsUpdatedAtEt": "2026-09-20 05:09",
+      "player": "Dalton Schultz",
+      "market": "Receiving Yards",
+      "sportsbook": "DraftKings via Covers",
+      "side": "OVER",
+      "line": 42.5,
+      "odds": -110,
+      "note": "Beyond PRIME's 41.5 play-to despite acceptable juice; do not chase."
+    },
+    {
+      "capturedAtEt": "2026-09-20 06:51:04",
+      "sourceOddsUpdatedAtEt": "2026-09-20 05:09",
+      "player": "Dalton Schultz",
+      "market": "Receiving Yards",
+      "sportsbook": "BetRivers via Covers",
+      "side": "OVER",
+      "line": 41.5,
+      "odds": -113,
+      "note": "Also inside PRIME ceiling, but FanDuel 40.5 -113 is the superior same-price threshold if available."
+    }
+  ],
+  "confirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Houston Texans official Week 2 injury report",
+      "sourceTimestamp": "updated 2026-09-18 14:54 ET",
+      "claim": "Nico Collins is OUT for Week 2 against Cincinnati. Dalton Schultz is not listed on the final injury report."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers NFL player-props board / Dalton Schultz player page",
+      "capturedAtEt": "2026-09-20 06:51 ET",
+      "sourceOddsUpdatedAtEt": "2026-09-20 05:09 ET",
+      "player": "Dalton Schultz",
+      "claim": "FanDuel O40.5 -113; DraftKings O42.5 -110; Fanatics O40.5 -125; BetRivers O41.5 -113; Caesars O41.5 -121; theScore Bet O42.5 -105; Hard Rock O41.5 -115. FanDuel is the best threshold/price combination on the displayed board."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Covers projection model",
+      "capturedAtEt": "2026-09-20 06:51 ET",
+      "player": "Dalton Schultz",
+      "claim": "Projects 54.92 receiving yards and 7.8 targets; treated only as supporting model context, not the reason for the bet."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "Covers Bengals-Texans analysis",
+      "sourceTimestamp": "updated 2026-09-19 10:30 ET",
+      "player": "Dalton Schultz",
+      "claim": "Analyst includes Schultz Over 39.5 receiving in a combo, citing Collins' absence and Cincinnati's prior TE receiving vulnerability. Supporting opinion only."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03,
+    "newRecommendedStakeUnits": 0.5,
+    "notes": "Schultz is a separate game/thesis from the two existing Week 2 parlays. No new same-thesis stacking is recommended."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — 06:51 ET Sunday price re-verification record",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — current material state preserved in immutable archive",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — full decision fields preserved in immutable archive",
+    "lineHistory": "PRESERVED IN THIS IMMUTABLE ARCHIVE via lineHistoryObservations",
+    "betHistory": "NO CHANGE — no confirmed Week 2 straight ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE — both Week 2 parlays remain OPEN/HOLD",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.covers.com/sport/football/nfl/player-props",
+    "https://www.covers.com/sport/football/nfl/players/33175/dalton-schultz",
+    "https://www.houstontexans.com/news/week-2-injury-report-texans-vs-bengals",
+    "https://www.covers.com/nfl/bengals-vs-texans-prediction-picks-sept-20-2026"
+  ],
+  "researchNotes": [
+    "No new Grok pass: latest remains live with completedAt 2026-09-12T17:05:00Z, identical to the compact history index and prior processed state.",
+    "The actionable change is verification status, not a new football thesis: Schultz 40.5 -113 has reappeared as a named regulated-book quote after the 06:03 checkpoint required fresh confirmation.",
+    "Do not infer that the quote will remain available after the 05:09 ET source update; user should verify live FanDuel before placement.",
+    "Rico Dowdle remains price-unverified; do not reuse stale -115 as current.",
+    "Existing Jefferson/Jeanty and Purdy/Taylor parlay legs remain HOLD. Next explicit Sunday rebuild remains 08:00 ET."
+  ]
+}
