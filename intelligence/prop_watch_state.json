@@ -1,8 +1,8 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-12T17-05-00Z.json",
-  "lastPrimeWatchArchive": "intelligence/archive/2026-09-19T18-56-24Z-prime-watch.json",
-  "processedAtEt": "2026-09-19T14:56:24-04:00",
+  "lastPrimeWatchArchive": "intelligence/archive/2026-09-20T02-53-29Z-prime-watch.json",
+  "processedAtEt": "2026-09-19T22:53:29-04:00",
   "scope": "NFL player props only",
-  "notes": "Saturday 14:56 ET Week 2 watch. NO MATERIAL USER ALERT. Josh Downs O36.5 receiving yards remains live at bet365 -115, unchanged from the 14:18 ET alert and still materially below the broader 40.5-42.5 board. Dalton Schultz O41.5 remains within ceiling at BetRivers -112/FanDuel -113. Rico Dowdle O8.5 rushing attempts is still playable and modestly improved to BetRivers -113 on a Covers page updated 14:37 ET; the two-cent improvement is logged but does not warrant a duplicate alert. BetMGM's official Jonathan Taylor article still lists 15.5 receiving yards but no fresh live odds were exposed, so the stored 15.5/-125 ceiling controls. Juwan Johnson's prior 34.5 buy was not reverified and must not be chased. No new Grok pass; latest remains live completedAt 2026-09-12T17:05:00Z. No confirmed Week 2 straight ticket in bet_history. Evidence: intelligence/archive/2026-09-19T18-56-24Z-prime-watch.json."
+  "notes": "Saturday 22:53 ET Week 2 watch. MATERIAL ALERT: Dalton Schultz receiving yards improved to FanDuel O40.5 -113 on the current VegasInsider multi-book board, one full yard better than PRIME's prior approved FanDuel O41.5 -114 state. Nico Collins remains officially OUT. Conservative fair Over probability 58.5% at 40.5 (fair about -141), raw edge about 5.45 percentage points versus -113 break-even. BET_NOW 0.5u if the live FanDuel app still shows 40.5 -113; stored ceiling remains 41.5 at -115 or better. Do not chase DraftKings O42.5 -111. Both confirmed Week 2 parlays remain HOLD; Jefferson 80+ is near the current 79.5-80.5 market despite adverse Chicago rain/wind, and Taylor/Purdy remains HOLD. Josh Oliver O1.5 +121 is only a minor improvement on a prior small correlated BET and is not a duplicate alert. No new Grok pass; latest remains live completedAt 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-20T02-53-29Z-prime-watch.json."
 }
