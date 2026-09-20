@@ -1,0 +1,178 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-20T07:27:58Z",
+  "runAtEt": "2026-09-20 03:27:58",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-20T06-26-11Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE. No verified current market update after the prior 02:26 ET checkpoint changes PRIME's action state. Rico Dowdle Over 8.5 rushing attempts remains at the exact stored ceiling on the latest verified Covers board: bet365 O8.5 -115 with the board updated 02:23 ET; do not pay worse or move to 9.5. Dalton Schultz O40.5 -113 remains the previously approved price/line state, with fresh analytical support but no newly verified executable improvement. Existing Week 2 parlays remain HOLD: Jeanty 50+ rushing, Jefferson 80+ receiving, Purdy 16+ completions, and Taylor 15+ receiving remain at or below the currently observed main-market thresholds. Fresh model/analyst disagreement on Dowdle and Jefferson is research context only and does not override verified sportsbook truth or existing tickets. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2StraightBetHistory": "NO_CONFIRMED_USER_STRAIGHT_TICKET",
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03
+  },
+  "decisions": [
+    {
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "bet365 via Covers",
+      "line": 8.5,
+      "odds": -115,
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbability": 59.0,
+      "fairOdds": -144.0,
+      "estimatedEdgePct": 5.51,
+      "edgeBucket": "4-6%",
+      "confidence": "B",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SUNDAY_MORNING",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "No further verified price change after the prior alert. O8.5 -115 remains the absolute ceiling; duplicate notification suppressed."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "sportsbook": "FanDuel via current Covers/VegasInsider board",
+      "line": 40.5,
+      "odds": -113,
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "Unchanged from the prior checkpoint; fresh analytical support does not constitute a new price signal."
+    },
+    {
+      "player": "Justin Jefferson",
+      "game": "MIN@CHI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD_WEATHER_MONITOR",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_80_PLUS",
+      "alert": false,
+      "reason": "Current main threshold remains roughly aligned with the user's 80+ alternate. One current model projects below 79.5 while another current analyst likes Over 79.5; disagreement alone is not a cash-out signal."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_15_PLUS",
+      "alert": false,
+      "reason": "No adverse role or market catalyst was verified after the prior checkpoint."
+    },
+    {
+      "player": "Brock Purdy",
+      "game": "MIA@SF",
+      "propType": "PASS_COMPLETIONS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_16_PLUS",
+      "alert": false,
+      "reason": "No adverse role or market catalyst was verified after the prior checkpoint; Miami's pass-rush injury context remains favorable rather than adverse."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "game": "LV@LAC",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_50_PLUS",
+      "alert": false,
+      "reason": "User's 50+ alternate remains materially below the current main rushing-yard market; no new adverse catalyst requires action."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Rico Dowdle player-prop page",
+      "capturedAtEt": "2026-09-20 03:27 ET",
+      "sourceUpdatedAtEt": "2026-09-20 02:23 ET",
+      "claim": "Rushing Attempts still shows bet365 O8.5 -115; no newer board timestamp or better verified price was found in this pass."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Covers current Week 2 player-prop model board",
+      "sourceTimestamp": "2026-09-20",
+      "claim": "Dalton Schultz O40.5 remains strongly supported by the current model, which projects approximately 54.9 receiving yards; this is model evidence, not sportsbook truth."
+    },
+    {
+      "classification": "model_projection",
+      "source": "MatchWiz current Week 2 Dowdle model",
+      "sourceTimestamp": "2026-09-20",
+      "claim": "A current independent model projects approximately 8.5 Dowdle carries and about a 44% Over probability, materially below PRIME's stored 59% estimate. This disagreement is logged but is not sufficient alone to flip the decision without stronger role/market evidence."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "Daily Norseman current Vikings-Bears prop analysis",
+      "sourceTimestamp": "2026-09-20",
+      "claim": "Current analysis supports Justin Jefferson Over 79.5 receiving yards while also noting wet-weather risk; this conflicts with at least one model projection and is not treated as authoritative."
+    }
+  ],
+  "confirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Pittsburgh Steelers official injury update",
+      "claim": "Michael Pittman Jr. is OUT; this remains supportive of the prior Dowdle volume thesis but is not newly breaking relative to the previous checkpoint."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "NFL official Week 2 injury report",
+      "claim": "Nico Collins is OUT for Houston and Chop Robinson is OUT for Miami; neither creates a new adverse change to the existing Schultz or Purdy-related theses."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03,
+    "newRecommendedStakeUnits": 0.0,
+    "notes": "No new straight-bet exposure is added at this checkpoint. Existing price-sensitive recommendations and open parlays are unchanged."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — no-material-change overnight checkpoint",
+    "livePropBoard": "NO CHANGE",
+    "decisionLedger": "NO CHANGE",
+    "lineHistory": "NO CHANGE — no newer verified executable line state",
+    "betHistory": "NO CHANGE — no confirmed Week 2 straight ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.covers.com/sport/football/nfl/players/45722/rico-dowdle",
+    "https://www.covers.com/sport/football/nfl/players/33068/dalton-schultz",
+    "https://www.nfl.com/injuries/league/2026/reg2",
+    "https://www.steelers.com/news/week-2-injury-report-patriots",
+    "https://www.dailynorseman.com/minnesota-vikings-odds/99350/giving-props-vikings-player-bets-against-chicago-bears"
+  ],
+  "researchNotes": [
+    "No new Grok pass: latest remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and previously processed state.",
+    "Price discipline controls: Dowdle remains playable only at O8.5 -115 or better; do not chase a worse price or higher threshold.",
+    "Schultz remains unchanged and therefore does not warrant a duplicate alert.",
+    "Current model disagreements were preserved as research inputs but did not independently create or cancel a wager.",
+    "Continue the Sunday intensity protocol with explicit 08:00, 09:00, 10:00, 11:30 and 12:30 ET checkpoints."
+  ]
+}
