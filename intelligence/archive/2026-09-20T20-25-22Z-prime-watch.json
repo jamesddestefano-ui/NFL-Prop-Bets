@@ -1,0 +1,175 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-20 16:25:22",
+  "capturedAtUtc": "2026-09-20T20:25:22Z",
+  "priorArchive": "intelligence/archive/2026-09-20T18-54-29Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. Verified sportsbook truth, user tickets and final results remain authoritative."
+  },
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "The confirmed Dalton Schultz 45+ receiving ticket won with 68 yards. The Week 2 Raiders/Jeanty/Jefferson SGPx is settled LOSS because Justin Jefferson finished with 55 receiving yards, below the 80+ leg. For the Sunday-night mini-slate, Daniel Jones Over 8.5 rushing yards at -114 is a new price-qualified BET NOW candidate; Patrick Mahomes Over 17.5 rushing yards at -114 remains a secondary WATCH/LEAN rather than an additional recommended wager.",
+  "verifiedResults": [
+    {
+      "type": "STRAIGHT_BET_RESULT",
+      "betId": "DK639255178780769581",
+      "player": "Dalton Schultz",
+      "market": "Receiving Yards Alt",
+      "ticket": "45+ -109 DraftKings",
+      "stakeCash": 20.0,
+      "payoutCash": 38.34,
+      "profitCash": 18.34,
+      "actualResult": "4 receptions, 68 receiving yards, 4 targets",
+      "outcome": "WIN",
+      "sourceClass": "final box score / reputable game coverage"
+    },
+    {
+      "type": "PARLAY_RESULT",
+      "parlayId": "USER-DK-SGPX-20260919-2050-RAIDERS-JEANTY-JEFFERSON",
+      "stakeCash": 36.0,
+      "outcome": "LOSS",
+      "decidingLeg": "Justin Jefferson 80+ receiving yards",
+      "actualResult": "3 receptions, 55 receiving yards, 6 targets",
+      "note": "LV-LAC legs were still live/unsettled at this review, but the parlay is already dead because Jefferson did not clear 80 yards. Continue grading the remaining legs independently for attribution."
+    }
+  ],
+  "decisions": [
+    {
+      "decisionId": "2026W2-JONES-RUSHYDS-20260920-162522",
+      "timestampEt": "2026-09-20 16:25:22",
+      "nflWeek": 2,
+      "gameDate": "2026-09-20",
+      "game": "IND@KC",
+      "player": "Daniel Jones",
+      "team": "IND",
+      "opponent": "KC",
+      "propType": "RUSH_YARDS",
+      "market": "Rushing Yards",
+      "side": "OVER",
+      "sportsbookContext": "Public current market page",
+      "line": 8.5,
+      "odds": -114,
+      "bestMarket": "8.5 -114 publicly displayed on the current Colts-Chiefs prop board; a same-day Covers article earlier referenced 8.5 -108, but that older price is not treated as current executable truth",
+      "consensusLine": "8.5-9.5 observed across current/same-day sources",
+      "marketImpliedProbabilityPct": 53.27,
+      "estimatedOverProbabilityPct": 60.0,
+      "estimatedUnderProbabilityPct": 40.0,
+      "fairOdds": -150.0,
+      "estimatedEdgePct": 6.73,
+      "edgeBucket": "6-8%",
+      "decisionStatus": "BET",
+      "steamState": "BET_NOW",
+      "confidence": "B+",
+      "playToLine": 9.5,
+      "maxAcceptableOdds": -115,
+      "entryTiming": "SUNDAY_PRE_GAME",
+      "recommendedStakeUnits": 0.5,
+      "signalTags": [
+        "QB_DESIGNED_RUN_SCRAMBLE",
+        "PASS_RUSH_PRESSURE",
+        "GAME_SCRIPT",
+        "MATCHUP",
+        "PROJECTION_DISAGREEMENT",
+        "EXPERT_CONSENSUS"
+      ],
+      "correlationTags": [
+        "SAME_GAME_EXPOSURE_WITH_JONATHAN_TAYLOR_15PLUS_RECEIVING_PARLAY_LEG"
+      ],
+      "reason": "This is not a projection-only play. Kansas City's official preview notes Indianapolis allowed a 41.2% pressure rate in Week 1 and Jones completed only 3-of-11 for nine yards on pressured dropbacks; Covers separately identifies Jones as the most pressured QB in Week 1 and expects Kansas City's blitz-heavy front to force him to create with his legs. Current projection references are materially above the threshold (Covers 20.48 rushing yards; MatchWiz 17.7) and Jones ran for 16 yards on three carries against Kansas City last season. The Achilles-recovery uncertainty is explicitly discounted into a conservative 60% fair probability rather than accepting the higher raw model outputs.",
+      "priceDiscipline": "Preferred entry is 8.5 at -115 or better. 9.5 remains playable only at -115 or better after recalculation; PASS at 10.5+ or juice worse than -115. Verify the live sportsbook immediately before placement.",
+      "sourceSeparation": {
+        "confirmedFacts": [
+          "Kansas City's official Friday report lists Patrick Mahomes full/no designation and LT Josh Simmons out; this does not directly drive the Jones wager but confirms the SNF injury context.",
+          "Kansas City's official preview says Indianapolis allowed a 41.2% pressure rate on Daniel Jones in Week 1 and that Jones completed 3-of-11 passes for nine yards on 14 pressured dropbacks."
+        ],
+        "attributedReporting": [
+          "Covers describes Jones as the most pressured quarterback in Week 1 and identifies Kansas City as a blitz-heavy defense that pressured Denver effectively."
+        ],
+        "modelProjections": [
+          "Covers computer projection: 20.48 Jones rushing yards versus a 9.5 reference line.",
+          "MatchWiz simulation projection: 17.7 Jones rushing yards versus 8.5."
+        ],
+        "analystOpinion": [
+          "Jason Logan/Covers recommends Jones over 8.5 rushing yards based on mobility, pressure and short-yardage usage."
+        ],
+        "speculation": [
+          "More scramble volume under pressure is a causal expectation, not a confirmed usage guarantee; the recent Achilles recovery remains a downside risk."
+        ]
+      }
+    },
+    {
+      "decisionId": "2026W2-MAHOMES-RUSHYDS-20260920-162522",
+      "timestampEt": "2026-09-20 16:25:22",
+      "game": "IND@KC",
+      "player": "Patrick Mahomes",
+      "propType": "RUSH_YARDS",
+      "market": "Rushing Yards",
+      "side": "OVER",
+      "line": 17.5,
+      "odds": -114,
+      "decisionStatus": "LEAN",
+      "steamState": "STILL_PLAYABLE",
+      "confidence": "B",
+      "playToLine": 17.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Current public market shows 17.5 -114. Mahomes is fully active, rushed seven times for 23 yards in Week 1, FantasyPros projects about 20.6 rushing yards, and an independent same-day analyst likes his rushing role. However, the edge is thinner than Jones' at the current prices and the Chiefs' heavy Kenneth Walker usage can suppress Mahomes scramble volume in favorable game script. Keep as a secondary lean instead of stacking two quarterback rush overs in the same SNF game."
+    },
+    {
+      "decisionId": "2026W2-TAYLOR-REC-LEG-20260920-162522",
+      "timestampEt": "2026-09-20 16:25:22",
+      "game": "IND@KC",
+      "player": "Jonathan Taylor",
+      "market": "Receiving Yards Alt",
+      "side": "AT_LEAST",
+      "line": "15+",
+      "decisionStatus": "HOLD",
+      "reason": "Existing parlay leg remains below the current public main receiving-yard line around 16.5 and is not stale. No hedge or cash-out signal from this refresh."
+    }
+  ],
+  "marketSnapshots": [
+    {
+      "capturedAtEt": "2026-09-20 16:25:22",
+      "game": "IND@KC",
+      "player": "Daniel Jones",
+      "market": "Rushing Yards",
+      "line": 8.5,
+      "overOdds": -114,
+      "underOdds": -114,
+      "source": "SportsGambler current Colts-Chiefs player-prop board",
+      "sourceNote": "Page last updated Sep 20 13:38 and states live market odds/lines are updated regularly; recheck live app before wagering."
+    },
+    {
+      "capturedAtEt": "2026-09-20 16:25:22",
+      "game": "IND@KC",
+      "player": "Patrick Mahomes",
+      "market": "Rushing Yards",
+      "line": 17.5,
+      "overOdds": -114,
+      "underOdds": -114,
+      "source": "SportsGambler current Colts-Chiefs player-prop board",
+      "sourceNote": "Independent SBR page last updated 14:06 ET also displayed Mahomes O17.5 -114 at FanDuel."
+    }
+  ],
+  "exposure": {
+    "confirmedWeek2SettledStraightBetPlCash": 18.34,
+    "confirmedWeek2SettledParlayPlCash": -36.0,
+    "confirmedWeek2SettledNetPlCash": -17.66,
+    "confirmedOpenParlayStakeCash": 25.0,
+    "confirmedOpenStraightBetStakeCash": 0.0,
+    "unconfirmedRecommendedBetsExcludedFromExposure": [
+      "Justin Herbert Over 19.5 rushing yards",
+      "Daniel Jones Over 8.5 rushing yards"
+    ]
+  },
+  "repositoryActions": [
+    "Settled Dalton Schultz 45+ receiving yards as WIN in data/bet_history.csv.",
+    "Settled the Raiders/Jeanty/Jefferson SGPx as LOSS in data/parlay_history.csv because Jefferson finished with 55 receiving yards.",
+    "Preserved the unconfirmed Justin Herbert rushing recommendation in data/missed_bets.csv after LV-LAC kickoff.",
+    "Created this immutable Sunday-afternoon checkpoint."
+  ]
+}
