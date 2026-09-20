@@ -1,0 +1,244 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-20T03:56:49Z",
+  "runAtEt": "2026-09-19 23:56:49",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-20T02-53-29Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MATERIAL PRICE IMPROVEMENT: Rico Dowdle Over 8.5 rushing attempts is displayed at BetRivers -103 on the Covers player-prop page with odds last updated 22:59 ET. This improves materially from PRIME's prior approved BetRivers O8.5 -113 state and the original bet365 O8.5 -115 alert while preserving the exact 8.5 threshold. PRIME retains its conservative 59% fair Over probability (fair about -144), so raw edge versus -103 break-even rises to about 8.26 percentage points, an 8%+ edge bucket. BET_NOW 0.5u if the live BetRivers app still shows O8.5 -103; hard ceiling remains 8.5 and max juice -115. Do not chase 9.5+. Pittsburgh's official Saturday update does not list Dowdle or Jaylen Warren with an injury designation; Michael Pittman Jr. was downgraded to OUT and Troy Fautanu remains questionable, so committee/game-script uncertainty remains but there is no new adverse backfield availability signal. Josh Downs' prior 36.5 buy is no longer visible on the current VegasInsider multi-book receiving-yards board; best displayed threshold there is 39.5 -113, so PASS_AFTER_MOVE and do not chase. Dalton Schultz remains available at FanDuel O40.5 -113 on the current VegasInsider board, unchanged from the prior alert. Existing Week 2 parlays remain HOLD. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2StraightBetHistory": "NO_CONFIRMED_USER_STRAIGHT_TICKET",
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-DOWDLE-CARRIES-PRICE-20260919-235649",
+      "timestampEt": "2026-09-19 23:56:49",
+      "player": "Rico Dowdle",
+      "game": "PIT@NE",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "sportsbook": "BetRivers via Covers current player-prop page",
+      "line": 8.5,
+      "odds": -103,
+      "bestMarketLine": "BetRivers 8.5 -103",
+      "consensusLine": "8.5 across the displayed regulated-book rushing-attempt board; prices range from -103 to -124 among named books",
+      "lineAtFirstDetection": 8.5,
+      "lineAtRecommendation": 8.5,
+      "ourMeanProjection": 10.1,
+      "ourMedianProjection": 10.0,
+      "estimatedOverProbability": 59.0,
+      "estimatedUnderProbability": 41.0,
+      "fairOdds": -144.0,
+      "marketImpliedProbability": 50.74,
+      "noVigProbability": null,
+      "estimatedEdgePct": 8.26,
+      "edgeBucket": "8%+",
+      "decisionStatus": "BET",
+      "confidence": "B+",
+      "playToLine": 8.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW",
+      "entryTiming": "SATURDAY",
+      "stakeUnits": 0.5,
+      "signalTags": ["SNAP_SHARE", "RUSH_SHARE", "ROLE_CHANGE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"],
+      "correlationTags": [],
+      "thesisId": "DOWDLE_LEAD_BACK_VOLUME",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": true,
+      "reason": "The football thesis is unchanged; the material trigger is price. PRIME previously assigned a conservative 59% Over probability at the same 8.5 threshold using Week 1 usage plus independent workload projections while discounting for Jaylen Warren committee risk and Pittsburgh's underdog game-script risk. Covers now shows BetRivers O8.5 -103 at 22:59 ET, ten cents better than the prior BetRivers -113 state and twelve cents better than the original -115 alert. Official Steelers Saturday reporting lists no Dowdle/Warren injury issue. This approval is price-specific and threshold-specific: verify the live BetRivers app, keep 0.5u size, and do not transfer approval to 9.5+."
+    },
+    {
+      "player": "Josh Downs",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "PASS",
+      "line": 39.5,
+      "odds": -113,
+      "sportsbook": "FanDuel via current VegasInsider multi-book board",
+      "playToLine": 36.5,
+      "maxAcceptableOdds": -120,
+      "steamState": "PASS_AFTER_MOVE",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "The prior actionable bet365 36.5 -115 buy is no longer visible on the current multi-book receiving-yards board. Best displayed threshold is FanDuel 39.5 -113, three yards beyond PRIME's hard 36.5 play-to. Do not chase."
+    },
+    {
+      "player": "Dalton Schultz",
+      "game": "CIN@HOU",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "BET",
+      "line": 40.5,
+      "odds": -113,
+      "sportsbook": "FanDuel via current VegasInsider multi-book board",
+      "playToLine": 41.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "STILL_PLAYABLE",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "FanDuel O40.5 -113 remains displayed, unchanged from the 22:53 ET material alert. Suppress duplicate notification."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_15_PLUS",
+      "alert": false,
+      "reason": "Covers' page was updated 23:47 ET and still centers public prediction-market references around 14.5-16.5. The user's 15+ parlay threshold remains a hold; no new standalone exposure is recommended in this run."
+    },
+    {
+      "player": "Justin Jefferson",
+      "game": "MIN@CHI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD_WEATHER_MONITOR",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_80_PLUS",
+      "alert": false,
+      "reason": "No new overnight injury or market evidence requiring action on the existing 80+ parlay leg. Continue weather monitoring into the Sunday morning checkpoints."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "game": "LV@LAC",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_50_PLUS",
+      "alert": false,
+      "reason": "No new adverse role/injury signal requiring action on the reduced 50+ rushing-yard parlay threshold."
+    }
+  ],
+  "lineHistoryObservations": [
+    {
+      "capturedAtEt": "2026-09-19 23:56:49",
+      "sourceTimestamp": "2026-09-19 22:59 ET",
+      "player": "Rico Dowdle",
+      "market": "Rushing Attempts",
+      "sportsbook": "BetRivers via Covers",
+      "side": "OVER",
+      "line": 8.5,
+      "odds": -103,
+      "note": "Material same-threshold price improvement from prior BetRivers -113 state; BET_NOW if live app confirms."
+    },
+    {
+      "capturedAtEt": "2026-09-19 23:56:49",
+      "player": "Josh Downs",
+      "market": "Receiving Yards",
+      "sportsbook": "FanDuel via VegasInsider",
+      "side": "OVER",
+      "line": 39.5,
+      "odds": -113,
+      "note": "Prior 36.5 buy no longer displayed; PASS_AFTER_MOVE beyond hard play-to."
+    },
+    {
+      "capturedAtEt": "2026-09-19 23:56:49",
+      "player": "Dalton Schultz",
+      "market": "Receiving Yards",
+      "sportsbook": "FanDuel via VegasInsider",
+      "side": "OVER",
+      "line": 40.5,
+      "odds": -113,
+      "note": "Unchanged from prior alert; STILL_PLAYABLE, no duplicate notification."
+    }
+  ],
+  "confirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Pittsburgh Steelers official Week 2 injury update",
+      "sourceTimestamp": "2026-09-19 13:31 ET",
+      "claim": "Michael Pittman Jr. was downgraded to OUT; Troy Fautanu remains questionable; Rico Dowdle and Jaylen Warren are not listed with injury designations."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "NFL official Week 2 injury report",
+      "sourceTimestamp": "accessed 2026-09-19 overnight",
+      "claim": "Steelers list Troy Fautanu questionable and Joey Porter Jr. out; no Dowdle or Warren designation."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Rico Dowdle player-prop page",
+      "sourceTimestamp": "odds last updated 2026-09-19 22:59 ET",
+      "player": "Rico Dowdle",
+      "claim": "Rushing Attempts Over 8.5: BetRivers -103, bet365 -115, DraftKings -116, Fanatics -120, Caesars -124, Hard Rock -115. Exact same-book Under at BetRivers was not exposed, so no-vig probability is not calculated."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "VegasInsider current NFL player-prop multi-book board",
+      "capturedAtEt": "2026-09-19 23:56 ET",
+      "player": "Dalton Schultz",
+      "claim": "Receiving Yards includes FanDuel O40.5 -113; the threshold/price remains inside PRIME's 41.5/-115 ceiling."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "VegasInsider current NFL player-prop multi-book board",
+      "capturedAtEt": "2026-09-19 23:56 ET",
+      "player": "Josh Downs",
+      "claim": "Receiving Yards no longer shows the earlier 36.5 buy; the best displayed threshold is FanDuel O39.5 -113, with other books mostly 40.5-42.5."
+    }
+  ],
+  "analystAndProjectionChecks": [
+    {
+      "classification": "model_projection",
+      "source": "Prior PRIME verified projection set",
+      "player": "Rico Dowdle",
+      "claim": "FantasyPros projected 11.2 rushing attempts; DraftKings Network projected 9.3 carries and 13.7 touches. PRIME's internal mean/median remained 10.1/10.0 and fair Over probability 59% after committee/game-script discount."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "Oddsshopper Week 2 Sunday picks",
+      "sourceTimestamp": "2026-09-20",
+      "player": "Rico Dowdle",
+      "claim": "Independent analyst article also identifies Higher 8.5 rushing attempts, noting Dowdle had eight carries on 39 snaps in Week 1. This is supporting analyst context only, not sportsbook truth."
+    }
+  ],
+  "exposureReview": {
+    "confirmedWeek2StraightTickets": 0,
+    "week2OpenParlayStake": 61.0,
+    "newRecommendedStakeUnits": 0.5,
+    "notes": "Dowdle is an independent game/thesis relative to the user's two confirmed parlays. If the user already placed Dowdle outside the repository, do not duplicate. No added Jefferson, Jeanty, Taylor or Purdy exposure is recommended in this run."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — durable overnight price-improvement alert",
+    "livePropBoard": "NO DESTRUCTIVE CSV REWRITE — current state preserved in immutable archive",
+    "decisionLedger": "NO DESTRUCTIVE CSV REWRITE — material Dowdle BET preserved here with full price/probability fields",
+    "lineHistory": "PRESERVED IN THIS IMMUTABLE ARCHIVE via lineHistoryObservations",
+    "betHistory": "NO CHANGE — no confirmed Week 2 straight ticket",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE",
+    "parlayHistory": "NO CHANGE — both confirmed Week 2 parlays remain OPEN/HOLD",
+    "weeklyAttribution": "NO CHANGE — Week 2 incomplete"
+  },
+  "sourceUrls": [
+    "https://www.covers.com/sport/football/nfl/players/45722/rico-dowdle",
+    "https://www.steelers.com/news/week-2-injury-report-patriots-x4998",
+    "https://www.nfl.com/injuries/",
+    "https://www.vegasinsider.com/nfl/odds/player-props/",
+    "https://www.oddsshopper.com/articles/expert-picks/underdog-picks-2026-09-20"
+  ],
+  "researchNotes": [
+    "No new Grok pass: grok_pulse_latest remains live with completedAt 2026-09-12T17:05:00Z, matching prop_watch_state and the compact history index.",
+    "The overnight protocol is active. The Dowdle alert is driven by a material same-threshold price improvement, not by a projection crossing the line.",
+    "No-vig probability remains blank because the Covers display did not expose BetRivers' exact opposite side at 8.5. Raw implied break-even at -103 is 50.74%.",
+    "The previous Josh Downs 36.5 exact buy should not be chased after the market moved back to 39.5+ on the current multi-book board.",
+    "Schultz O40.5 -113 remains within ceiling but is unchanged from the immediately prior alert, so duplicate notification is suppressed."
+  ]
+}
