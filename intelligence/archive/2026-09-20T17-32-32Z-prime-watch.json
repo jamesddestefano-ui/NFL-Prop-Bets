@@ -1,0 +1,131 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-20T17:32:32Z",
+  "runAtEt": "2026-09-20 13:32:32",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-20T16-34-27Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "LATE-SLATE BET NOW: Justin Herbert Over 19.5 rushing yards at DraftKings -109. Covers' current LV-LAC prop board captured at the 13:32 ET mini-slate refresh lists DK O19.5 -109, FanDuel O19.5 -113, BetRivers O19.5 -115, and Fanatics O20.5 -105; Covers projects 30.5 rushing yards and its analyst independently recommends O20.5, noting Herbert ran for 29 yards on five carries in Week 1 and has cleared 20.5 in five of his last six outings. FanDuel Research reports Herbert averaged 31.1 rushing yards per game in 2025 on 83 carries and again logged 29 rushing yards in Week 1 under the new offense. PRIME uses a conservative 60% fair Over probability rather than transferring Covers' projection directly, producing an estimated 7.85 percentage-point edge versus -109. Play-to is 20.5 at -115 or better; do not chase 21.5+. Ladd McConkey remains officially questionable; NFL Network reports optimism he can play barring a setback. This bet does not require McConkey to be inactive. Official late-window inactives have not yet populated on NFL.com's inactive page, so all other role-dependent late props remain pending. Existing Jeanty 50+ rushing and Purdy 16+ completions parlay legs remain HOLD; Taylor 15+ receiving remains scheduled for SNF recheck. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2ConfirmedOpenStraightBets": 1,
+    "week2StraightBetStakeCash": 20.0,
+    "week2OpenParlayStakeCash": 61.0,
+    "week2TotalConfirmedOpenRiskCash": 81.0
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-HERBERT-RUSHYDS-20260920-133232",
+      "timestampEt": "2026-09-20 13:32:32",
+      "game": "LV@LAC",
+      "player": "Justin Herbert",
+      "team": "LAC",
+      "opponent": "LV",
+      "propType": "RUSH_YARDS",
+      "market": "Rushing Yards",
+      "side": "OVER",
+      "sportsbook": "DraftKings via Covers",
+      "line": 19.5,
+      "odds": -109,
+      "bestMarketLine": "DraftKings O19.5 -109",
+      "consensusLine": "19.5-20.5 across major books",
+      "ourMeanProjection": 27.0,
+      "ourMedianProjection": 25.0,
+      "estimatedOverProbability": 60.0,
+      "estimatedUnderProbability": 40.0,
+      "fairOdds": -150.0,
+      "marketImpliedProbability": 52.15,
+      "estimatedEdgePct": 7.85,
+      "edgeBucket": "6-8%",
+      "decisionStatus": "BET",
+      "confidence": "B+",
+      "playToLine": 20.5,
+      "maxAcceptableOdds": -115,
+      "steamState": "BET_NOW",
+      "entryTiming": "PRE_GAME",
+      "stakeUnits": 0.5,
+      "signalTags": ["RUSH_SHARE", "SCRAMBLE_ROLE", "PRESSURE", "MARKET_PRICE", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "correlationTags": ["SAME_GAME", "MODEST_POSITIVE_CORRELATION_WITH_RAIDERS_PRESSURE_THESIS"],
+      "thesisId": "HERBERT_SCRAMBLE_VOLUME_WEEK2",
+      "actualUserAction": "UNCONFIRMED",
+      "injuryDependencies": "Ladd McConkey questionable but this wager does not require him to sit; official late inactives pending.",
+      "reason": "Current DK threshold is one yard better than the 20.5 analyst recommendation and substantially below Covers' 30.5 projection. Herbert ran 5 times for 29 yards in Week 1, averaged 31.1 rushing yards per game in 2025 on 83 carries, and has cleared 20.5 in five of his last six outings. Raiders generated five sacks in Week 1, creating scramble/pressure opportunity, but PRIME discounts for week-to-week QB-rush volatility and the possibility that easier passing versus an injured Raiders secondary suppresses scramble volume."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "game": "LV@LAC",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "line": "50+",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_50_PLUS",
+      "alert": false,
+      "reason": "Brock Bowers is expected not to play, reinforcing Jeanty's overall touch concentration, but no fresh verified rushing-yard market deterioration invalidates the user's reduced 50+ threshold. Hold and verify official late inactives before kickoff."
+    },
+    {
+      "player": "Brock Purdy",
+      "game": "MIA@SF",
+      "propType": "PASS_COMPLETIONS",
+      "side": "OVER",
+      "line": "16+",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_16_PLUS",
+      "alert": false,
+      "reason": "Latest public player-page context continues to center the main completion threshold at 19.5; user's 16+ alternate retains cushion. Official 4:25 inactives are not yet posted at this checkpoint."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "line": "15+",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD_SNF_RECHECK",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_15_PLUS",
+      "alert": false,
+      "reason": "SNF remains a fresh mini-slate; preserve the existing 15+ leg and reprice after official inactives/weather closer to kickoff."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers LV-LAC matchup prop board",
+      "capturedAtEt": "2026-09-20 13:32 ET",
+      "claim": "Justin Herbert rushing yards: DraftKings O19.5 -109; FanDuel O19.5 -113; BetRivers O19.5 -115; Fanatics O20.5 -105; Caesars O20.5 -110. Covers projection 30.5."
+    },
+    {
+      "classification": "analyst_opinion",
+      "source": "Covers Tom Oldfield LV-LAC analysis",
+      "sourceTimestampEt": "2026-09-20 13:04 ET",
+      "claim": "Recommends Herbert O20.5 rushing yards -115; notes 29 rushing yards in Week 1 and five of last six games above 20.5."
+    },
+    {
+      "classification": "confirmed_statistical_context",
+      "source": "FanDuel Research / Data Skrive",
+      "sourceTimestamp": "2026-09-18",
+      "claim": "Herbert rushed five times for 29 yards in Week 1 and totaled 498 rushing yards on 83 carries in 2025, 31.1 rushing yards per game."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "NFL.com Week 2 injuries to monitor",
+      "capturedAtEt": "2026-09-20 13:32 ET",
+      "claim": "NFL Network reports Ladd McConkey is pushing to play through a rib injury and there is optimism he can go barring a setback; Brock Bowers is not expected to play for Las Vegas."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "NFL.com Week 2 inactives page",
+      "capturedAtEt": "2026-09-20 13:32 ET",
+      "claim": "Late-game sections are present but official inactive player lists have not yet populated for the 4:05/4:25 games at this checkpoint."
+    }
+  ]
+}
