@@ -1,0 +1,231 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-20T02:17:49Z",
+  "runAtEt": "2026-09-19 22:17:49",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-20T00-54-04Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new actionable external change since the 20:54 ET PRIME archive. The durable repository now contains a second confirmed Week 2 parlay, bringing open parlay stake to $61: the prior $36 Raiders +6.5 / Ashton Jeanty 50+ rush / Justin Jefferson 80+ rec ticket plus a confirmed $25 Brock Purdy 16+ completions / Jonathan Taylor 15+ receiving ticket at -103. Fresh checks do not create a new straight-bet alert. Josh Oliver O1.5 receptions remains a price-sensitive prior BET only at +100 or better; a Week 2 comparison page continues to show DraftKings +118, essentially unchanged from the prior +117 verification. Jonathan Taylor receiving remains a prior BET state only at 15.5 and -125 or better; a fresh VegasInsider board still shows a 15.5 -120 outlier while DraftKings is 16.5 -107 and several books are 17.5, so there is no new signal to chase a worse number. Brock Purdy's main completions market is 19.5 with -135 Over in a current StatMuse board, which is too expensive for a new standalone recommendation and does not alter the already-booked 16+ parlay leg. Justin Jefferson's market is 79.5 after opening 73.5; independent projections cluster around the ticket threshold (FantasyPros 79.6, 4for4 77.8, Dimers 82.9), so do not add straight exposure solely from projection. Ashton Jeanty practiced fully all week and carries no game designation; Brock Bowers is doubtful, but there is no verified Jeanty market change requiring ticket action. Kansas City weather remains a monitor: current sources agree on meaningful shower/thunderstorm risk Sunday night but light winds, not enough to invalidate the Taylor 15+ receiving alt leg. No new Grok pass.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2StraightBetHistory": "NO_CONFIRMED_USER_STRAIGHT_TICKET",
+    "week2OpenParlayStake": 61.0,
+    "week2OpenParlayPayoutPotential": 200.03,
+    "week2OpenParlays": [
+      {
+        "id": "USER-DK-SGPX-20260919-2050-RAIDERS-JEANTY-JEFFERSON",
+        "stake": 36.0,
+        "odds": "+318",
+        "payout": 150.76,
+        "legs": ["Las Vegas Raiders +6.5", "Ashton Jeanty 50+ rushing yards", "Justin Jefferson 80+ receiving yards"]
+      },
+      {
+        "id": "USER-DK-PARLAY-20260919-2057-PURDY-TAYLOR",
+        "stake": 25.0,
+        "odds": "-103",
+        "payout": 49.27,
+        "legs": ["Brock Purdy 16+ passing completions", "Jonathan Taylor 15+ receiving yards"]
+      }
+    ]
+  },
+  "existingStates": [
+    {
+      "player": "Josh Oliver",
+      "propType": "RECEPTIONS",
+      "direction": "OVER",
+      "status": "BET",
+      "marketAction": "STILL_PLAYABLE",
+      "playTo": "1.5",
+      "minimumAcceptableOdds": "+100",
+      "currentReference": "DraftKings +118 on current Week 2 comparison page; prior executable verification +117 at 20:54 ET",
+      "stakeUnits": 0.25,
+      "reason": "Price remains the thesis; user already has Justin Jefferson exposure in the same game, so do not increase correlated MIN target-pool exposure beyond the reduced prior size. No duplicate alert."
+    },
+    {
+      "player": "Roman Wilson",
+      "propType": "RECEIVING_YARDS",
+      "direction": "OVER",
+      "status": "WATCH",
+      "marketAction": "REDUCED_EDGE",
+      "playTo": "28.5",
+      "maxJuice": "-115",
+      "stakeUnits": 0.0,
+      "reason": "Michael Pittman Jr. and Patriots CB Carlton Davis III remain officially out, but a fresh superior 28.5 price could not be independently re-verified in this run. Do not chase the published 30.5 -113 FanDuel number after prior steam from roughly 16.5."
+    },
+    {
+      "player": "Jonathan Taylor",
+      "propType": "RECEIVING_YARDS",
+      "direction": "OVER",
+      "status": "BET",
+      "marketAction": "STILL_PLAYABLE",
+      "playTo": "15.5",
+      "maxJuice": "-125",
+      "currentReference": "VegasInsider fresh multi-book board shows one 15.5 -120 offering; DraftKings 16.5 -107; multiple books 17.5",
+      "stakeUnits": 0.5,
+      "reason": "Prior price-sensitive straight-bet thesis remains intact at the stored buy point only. User already has Taylor 15+ receiving in a $25 two-leg parlay, so exposure must be considered before any additional straight stake. No duplicate alert."
+    },
+    {
+      "player": "Brock Purdy",
+      "propType": "PASS_COMPLETIONS",
+      "direction": "OVER",
+      "status": "PASS",
+      "marketAction": "PASS_AFTER_PRICE",
+      "playTo": "19.5",
+      "maxJuice": "-120",
+      "currentReference": "StatMuse current board: O19.5 -135 / U19.5 +117",
+      "stakeUnits": 0.0,
+      "reason": "Consensus projection support does not justify laying -135. Existing 16+ completions parlay leg remains booked; do not create a new straight bet at current juice."
+    },
+    {
+      "player": "Justin Jefferson",
+      "propType": "RECEIVING_YARDS",
+      "direction": "OVER",
+      "status": "WATCH",
+      "marketAction": "REDUCED_EDGE",
+      "playTo": "79.5",
+      "stakeUnits": 0.0,
+      "reason": "Current line is 79.5 after opening 73.5, and projections disagree narrowly around the threshold. Carson Wentz is the confirmed starter. The user already owns Jefferson 80+ in a $36 parlay; no added straight exposure."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "propType": "RUSHING_YARDS",
+      "direction": "OVER",
+      "status": "WATCH",
+      "marketAction": "STILL_PLAYABLE_TICKET_ONLY",
+      "stakeUnits": 0.0,
+      "reason": "Jeanty was a full participant Wednesday-Friday with no game designation. Brock Bowers is doubtful. No newly verified main rushing-yard price creates a separate straight-bet recommendation; retain the existing 50+ parlay leg without adding exposure."
+    },
+    {
+      "player": "Dalton Schultz",
+      "propType": "RECEIVING_YARDS",
+      "direction": "OVER",
+      "status": "LEAN",
+      "marketAction": "STILL_PLAYABLE_PRIOR_STATE",
+      "playTo": "41.5",
+      "maxJuice": "-115",
+      "currentReference": "Current comparison page shows 41.5 around -114",
+      "stakeUnits": 0.0,
+      "reason": "Prior state remains, but no new information or improved price warrants a duplicate alert."
+    }
+  ],
+  "ticketChecks": [
+    {
+      "ticket": "USER-DK-SGPX-20260919-2050-RAIDERS-JEANTY-JEFFERSON",
+      "status": "HOLD",
+      "actionRequired": false,
+      "notes": "Jeanty is fully practiced/no designation. Jefferson has Wentz starting and a current 79.5 market close to the user's 80+ threshold. No verified deterioration sufficient to justify a cash-out recommendation."
+    },
+    {
+      "ticket": "USER-DK-PARLAY-20260919-2057-PURDY-TAYLOR",
+      "status": "HOLD",
+      "actionRequired": false,
+      "notes": "Purdy is not listed on San Francisco's current final Week 2 injury article; current main completions market is 19.5, well above the ticket's 16+ threshold. Taylor's main receiving market remains above the ticket's 15+ threshold. Weather in Kansas City is monitored but winds remain light in current forecasts."
+    }
+  ],
+  "confirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Minnesota Vikings official final Week 2 injury report",
+      "sourceTimestamp": "2026-09-18 13:40 ET",
+      "claim": "Kyler Murray and Jauan Jennings are out; Brian O'Neill is questionable; Carson Wentz will start."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Las Vegas Raiders official final Week 2 injury report",
+      "sourceTimestamp": "2026-09-18 13:46 PT",
+      "claim": "Ashton Jeanty practiced fully Wednesday, Thursday and Friday with no game designation; Brock Bowers is doubtful."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Kansas City Chiefs official Week 2 injury report",
+      "sourceTimestamp": "2026-09-18 14:44 CT",
+      "claim": "Chris Jones and Mansoor Delane are questionable; Josh Simmons and Chamarri Conner are out. Jonathan Taylor is not listed on the Colts injury report."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "Pittsburgh/New England official-status reporting",
+      "sourceTimestamp": "2026-09-19",
+      "claim": "Michael Pittman Jr. and Carlton Davis III are out for PIT@NE."
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "VegasInsider current NFL player-prop board",
+      "capturedAtEt": "2026-09-19 22:17 ET",
+      "player": "Jonathan Taylor",
+      "claim": "Receiving-yard Over offerings include 15.5 -120, DraftKings 16.5 -107, multiple 17.5 prices, and other 16.5 prices."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "StatMuse MIA@SF current prop board",
+      "capturedAtEt": "2026-09-19 22:17 ET",
+      "player": "Brock Purdy",
+      "claim": "Passing completions O19.5 -135 / U19.5 +117."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "PropLab Week 2 receiving-yard lines",
+      "capturedAtEt": "2026-09-19 22:17 ET",
+      "player": "Justin Jefferson",
+      "claim": "Current receiving-yard line 79.5, up from 73.5 opener."
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "ParlayBuilder Week 2 comparison page",
+      "capturedAtEt": "2026-09-19 22:17 ET",
+      "player": "Josh Oliver",
+      "claim": "Receptions O1.5 with DraftKings shown at +118; Caesars +110."
+    }
+  ],
+  "projectionChecks": [
+    {
+      "classification": "model_projection",
+      "source": "FantasyPros Week 2 consensus projections",
+      "capturedAtEt": "2026-09-19 22:17 ET",
+      "claim": "Brock Purdy 22.2 completions; Justin Jefferson 79.6 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "4for4 Week 2 projections",
+      "capturedAtEt": "2026-09-19 22:17 ET",
+      "claim": "Justin Jefferson 77.8 receiving yards; Ashton Jeanty 69.8 rushing yards; Jonathan Taylor 19.4 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "source": "Dimers Week 2 projection",
+      "capturedAtEt": "2026-09-19 22:17 ET",
+      "claim": "Justin Jefferson 82.9 receiving yards."
+    }
+  ],
+  "weatherCheck": {
+    "classification": "weather",
+    "game": "IND@KC",
+    "capturedAtEt": "2026-09-19 22:17 ET",
+    "claim": "Sunday night retains meaningful shower/thunderstorm risk at Arrowhead, while current sources generally keep sustained wind in the light range around 6-8 mph. Forecast disagreement remains on exact precipitation probability, so continue monitoring rather than repricing the Taylor receiving thesis aggressively now."
+  },
+  "sources": [
+    "https://www.vikings.com/news/injury-report-week-2-chicago-bears-2026",
+    "https://www.vikings.com/news/carson-wentz-starting-week-2-at-bears",
+    "https://www.raiders.com/news/las-vegas-raiders-los-angeles-chargers-nfl-week-2-injury-report-2026-season",
+    "https://www.chiefs.com/news/2026-week-2-injury-report-colts-vs-chiefs",
+    "https://www.vegasinsider.com/nfl/odds/player-props/",
+    "https://www.statmuse.com/nfl/game/9-20-2026-mia-at-sf-19095",
+    "https://proplabsports.com/nfl-props/receiving-yards",
+    "https://parlaybuilder.ai/nfl/player/josh-oliver",
+    "https://www.fantasypros.com/nfl/projections/qb.php?week=2",
+    "https://www.fantasypros.com/nfl/projections/wr.php",
+    "https://www.4for4.com/fantasy-football-projections/ppr/rb/2026/week2",
+    "https://www.4for4.com/fantasy-football-projections/fanduel/wr/2026/week2",
+    "https://www.covers.com/nfl/colts-vs-chiefs-prediction-picks-sept-20-2026",
+    "https://www.fantasyalarm.com/articles/nfl/nfl-weather/nfl-week-2-weather-report-fantasy-football-dfs-impact/195642"
+  ]
+}
