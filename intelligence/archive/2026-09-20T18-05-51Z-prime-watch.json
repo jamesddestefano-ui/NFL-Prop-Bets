@@ -1,0 +1,98 @@
+{
+  "status": "live",
+  "generatedBy": "prime-watch",
+  "completedAt": "2026-09-20T18:05:51Z",
+  "runAtEt": "2026-09-20 14:05:51",
+  "nflWeek": 2,
+  "scope": "NFL player props only",
+  "newGrokPass": false,
+  "grokPulseCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-20T17-32-32Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "NO MATERIAL CHANGE. Justin Herbert rushing remains DraftKings O19.5 -109 on the current Covers multi-book board, unchanged from the 13:32 ET BET_NOW checkpoint and still within PRIME's 20.5/-115 play-to. FanDuel remains O19.5 -113, BetRivers O19.5 -115, and several books are already at 20.5. Brock Bowers is still expected not to play versus the Chargers, while Ladd McConkey remains questionable with reported optimism he can play barring a setback; neither item is new versus the prior PRIME archive. NFL.com's official Week 2 inactives page has not yet populated the 4:05/4:25 PM inactive lists at this 14:05 ET checkpoint, so no late-window role-dependent thesis is repriced yet. Existing Jeanty 50+ rushing and Purdy 16+ completions parlay legs remain HOLD; Taylor 15+ receiving remains queued for the SNF mini-slate. No new Grok pass and no new actionable prop beyond the previously alerted Herbert entry.",
+  "repositoryState": {
+    "grokLatestStatus": "live",
+    "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
+    "newGrokPass": false,
+    "week2ConfirmedOpenStraightBets": 1,
+    "week2StraightBetStakeCash": 20.0,
+    "week2OpenParlayStakeCash": 61.0,
+    "week2TotalConfirmedOpenRiskCash": 81.0
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-HERBERT-RUSHYDS-RECHECK-20260920-140551",
+      "timestampEt": "2026-09-20 14:05:51",
+      "game": "LV@LAC",
+      "player": "Justin Herbert",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "sportsbook": "DraftKings via Covers",
+      "line": 19.5,
+      "odds": -109,
+      "decisionStatus": "BET",
+      "steamState": "BET_NOW",
+      "playToLine": 20.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "B+",
+      "actualUserAction": "UNCONFIRMED",
+      "alert": false,
+      "reason": "Current best verified threshold/price is unchanged from the immediately prior alert, so there is no new user action to communicate. Do not chase 21.5+."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "game": "LV@LAC",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "line": "50+",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_50_PLUS",
+      "alert": false
+    },
+    {
+      "player": "Brock Purdy",
+      "game": "MIA@SF",
+      "propType": "PASS_COMPLETIONS",
+      "side": "OVER",
+      "line": "16+",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_16_PLUS",
+      "alert": false
+    },
+    {
+      "player": "Jonathan Taylor",
+      "game": "IND@KC",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "line": "15+",
+      "decisionStatus": "WATCH",
+      "steamState": "TICKET_HOLD_SNF_RECHECK",
+      "actualUserAction": "PARLAY_LEG_CONFIRMED_AT_15_PLUS",
+      "alert": false
+    }
+  ],
+  "marketChecks": [
+    {
+      "classification": "sportsbook_market_reference",
+      "source": "Covers Justin Herbert player-prop board",
+      "capturedAtEt": "2026-09-20 14:05 ET",
+      "claim": "Herbert rushing yards: DraftKings O19.5 -109; FanDuel O19.5 -113; BetRivers O19.5 -115; Fanatics O20.5 -105; Caesars O20.5 -110; bet365 O20.5 -115. No material move from 13:32 ET."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "NFL.com Week 2 injuries to monitor",
+      "capturedAtEt": "2026-09-20 14:05 ET",
+      "claim": "Brock Bowers is not expected to play versus the Chargers; Ladd McConkey is pushing to play and there is optimism he can go barring a setback. Both were already reflected in the prior PRIME checkpoint."
+    },
+    {
+      "classification": "confirmed_fact",
+      "source": "NFL.com Week 2 inactives page",
+      "capturedAtEt": "2026-09-20 14:05 ET",
+      "claim": "Official inactive player lists for the 4:05/4:25 PM late games have not yet populated."
+    }
+  ]
+}
