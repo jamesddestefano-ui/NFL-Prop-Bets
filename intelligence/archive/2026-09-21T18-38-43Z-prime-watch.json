@@ -1,0 +1,146 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-21 14:38:43",
+  "capturedAtUtc": "2026-09-21T18:38:43Z",
+  "priorArchive": "intelligence/archive/2026-09-21T17-20-25Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the compact grok_pulse_history.jsonl index."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new PRIME alert at the 14:38 ET MNF checkpoint. Jaxson Dart Over 31.5 rushing yards at FanDuel -113 remains the existing price-gated BET and is unchanged from the 13:20 ET checkpoint; the stored ceiling remains 31.5 at -115 or better and 32.5+ remains a pass. Puka Nacua remains officially Questionable. Adam Schefter's Monday Pat McAfee Show wording that Nacua is 'trending towards not playing' confirms the already-processed direction from Sunday that Nacua was more likely to sit than play, but it is not an official inactive and does not constitute a new status change. Fresh Rams derivative markets were re-evaluated. Davante Adams receiving is WATCH, not BET, despite FanDuel O62.5 -113 and a bullish Covers projection, because independent projections are materially dispersed (Covers 70.98, SportsGrid 59.5, numberFire 53.94) and current Puka uncertainty prevents a defensible 4-5 percentage-point price-adjusted edge. Kyren Williams receiving remains WATCH because current regulated-book pricing is around 14.5-16.5 while projection disagreement remains wide and the Nacua dependency is unresolved. Reprice both only after official inactives; do not front-run the injury outcome or chase a derivative move.",
+  "currentDecision": {
+    "decisionId": "2026W2-DART-RUSHYDS-20260920-211446",
+    "player": "Jaxson Dart",
+    "game": "NYG@LAR",
+    "propType": "RUSH_YARDS",
+    "market": "Rushing Yards",
+    "side": "OVER",
+    "decisionStatus": "BET",
+    "steamState": "STILL_PLAYABLE",
+    "sportsbook": "FanDuel",
+    "line": 31.5,
+    "odds": -113,
+    "observedAtEt": "2026-09-21 14:38",
+    "playToLine": 31.5,
+    "maxAcceptableOdds": -115,
+    "internalFairProbabilityPct": 58.0,
+    "fairOdds": -138.1,
+    "estimatedEdgePctAtMinus113": 4.95,
+    "edgeBucket": "4-6%",
+    "recommendedStakeUnits": 0.5,
+    "entryTiming": "PRE_GAME",
+    "signalTags": ["RUSH_SHARE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS", "MARKET_MOVE"],
+    "priceDiscipline": "31.5 at -115 or better only. PASS at 32.5+ absent a fresh recalculation."
+  },
+  "injuryState": {
+    "pukaNacua": {
+      "officialStatus": "QUESTIONABLE",
+      "confirmedFacts": "NFL.com still lists Nacua Questionable after consecutive DNPs Friday and Saturday; Jordan Whittington is Doubtful and Kamren Kinchens is Out.",
+      "attributedReporting": "Adam Schefter said Monday on the Pat McAfee Show that Nacua is 'trending towards not playing'; this is the second consecutive day his reporting has leaned toward Nacua sitting. The Rams are not giving up hope and official inactives are still pending.",
+      "classification": "attributed_report / confirmation",
+      "materialChangeSincePriorProcessedThesis": false,
+      "action": "WAIT FOR OFFICIAL INACTIVES AND REPRICE DERIVATIVE PROPS."
+    }
+  },
+  "evaluatedCandidates": [
+    {
+      "player": "Davante Adams",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "FanDuel via Covers",
+      "line": 62.5,
+      "odds": -113,
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "bestVerifiedRegulatedContext": "FanDuel O62.5 -113; DraftKings O63.5 -110; bet365 page rendering shows 62.5/65.5 -115 in separate current sections, so the inconsistent bet365 display is not promoted as executable truth.",
+      "projectionComparison": "Covers 70.98; SportsGrid 59.5; numberFire/FanDuel Research 53.94.",
+      "roleSignals": "Week 1: 21.4% target share and 28.6% first-read share per FantasyPros/Fantasy Points Data; 3 catches for 26 yards on 6 targets. Puka had 9 targets. If Puka sits, Adams is the obvious target-share beneficiary, but Los Angeles may also become more run-heavy.",
+      "reason": "Fresh price is attractive enough to monitor but projection disagreement is too wide to assign a robust 4-5 point edge before Nacua's official status. Do not recommend merely because one model projects 70.98.",
+      "conditional": "If Nacua is officially inactive, immediately reprice Adams using the then-current sportsbook line/juice; no pre-inactive bet is approved from this checkpoint."
+    },
+    {
+      "player": "Kyren Williams",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "multi-book via Covers",
+      "line": 14.5,
+      "odds": -115,
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "marketContext": "bet365 O14.5 -115; DraftKings O15.5 -114; BetRivers O15.5 -111; FanDuel O16.5 -113.",
+      "projectionComparison": "Covers 17.74 receiving yards and 3.2 targets; prior numberFire/FanDuel Research projection 8.21 yards.",
+      "roleSignals": "Williams caught 3 of 3 targets for 24 yards in Week 1. Covers cites a 55.6% route rate since last season and the Giants allowing 32 adjusted receiving yards per game to RBs over that span.",
+      "reason": "Direction is plausible, especially if Nacua sits, but projection disagreement and unresolved role redistribution prevent a robust pre-inactive edge. Wait for official inactives and fresh repricing."
+    }
+  ],
+  "sourceSeparation": {
+    "confirmedFacts": [
+      "NFL.com lists Puka Nacua Questionable, Jordan Whittington Doubtful and Kamren Kinchens Out for NYG@LAR.",
+      "Davante Adams had 6 Week 1 targets, 3 catches and 26 yards; Puka Nacua had 9 targets, 5 catches and 74 yards.",
+      "SoFi Stadium is an indoor venue, so weather is not a material prop variable."
+    ],
+    "attributedReporting": [
+      "Adam Schefter said Monday that Nacua is 'trending towards not playing' and that it 'doesn't sound promising right now'; this confirms, rather than materially changes, Sunday's already-processed lean that Nacua was more likely to sit."
+    ],
+    "modelProjection": [
+      "Covers projects Davante Adams for 70.98 receiving yards and 8.8 targets.",
+      "SportsGrid projects Davante Adams for 59.5 receiving yards.",
+      "numberFire/FanDuel Research projects Davante Adams for 53.94 receiving yards.",
+      "Covers projects Kyren Williams for 17.74 receiving yards and 3.2 targets.",
+      "Covers projects Jaxson Dart for 37.6 rushing yards and 7.2 carries."
+    ],
+    "analystOpinion": [
+      "FanDuel Research continues to list Jaxson Dart Over 31.5 rushing yards at -113 as an MNF prop pick.",
+      "Covers' current Rams board rates Davante Adams receiving Over as a model value, but PRIME does not adopt that conclusion without resolving the cross-model disagreement and injury dependency."
+    ],
+    "speculation": [
+      "If Nacua is inactive, Adams should gain targets and Williams/Corum could become more involved, but the exact redistribution and sportsbook repricing remain unknown until the status is official."
+    ]
+  },
+  "marketChecks": [
+    {
+      "source": "FanDuel Research",
+      "url": "https://www.fanduel.com/research/giants-vs-rams-props-today-3-best-nfl-picks-player-prop-bets-for-mnf",
+      "observedAtEt": "2026-09-21 14:38",
+      "classification": "sportsbook-linked market / analyst_opinion",
+      "detail": "Jaxson Dart Over 31.5 rushing yards -113 remains displayed."
+    },
+    {
+      "source": "Covers Rams picks/prop board",
+      "url": "https://www.covers.com/sport/football/nfl/teams/main/los-angeles-rams/picks",
+      "observedAtEt": "2026-09-21 14:38",
+      "classification": "sportsbook-linked multi-book market / model_projection",
+      "detail": "Davante Adams: FanDuel O62.5 -113, DraftKings O63.5 -110, Covers projection 70.98. Kyren Williams: bet365 O14.5 -115, DraftKings O15.5 -114, BetRivers O15.5 -111, FanDuel O16.5 -113; Covers projection 17.74."
+    },
+    {
+      "source": "NBC Sports / Rotoworld relaying Adam Schefter",
+      "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-21/nacua-hip-trending-towards-not-playing",
+      "observedAtEt": "2026-09-21 14:38",
+      "classification": "attributed_report",
+      "detail": "Schefter said Nacua is trending towards not playing; Rams official inactive status is still pending."
+    },
+    {
+      "source": "NFL.com injury report",
+      "url": "https://www.nfl.com/injuries/",
+      "observedAtEt": "2026-09-21 14:38",
+      "classification": "confirmed_fact",
+      "detail": "Nacua remains officially Questionable; Whittington Doubtful; Kinchens Out."
+    }
+  ],
+  "repositoryActions": [
+    "Created this immutable PRIME checkpoint on main.",
+    "Did not process Grok as new because completedAt is unchanged.",
+    "Did not duplicate the existing Dart line-history state because the actionable FanDuel 31.5/-113 reference is unchanged.",
+    "Did not add a Davante Adams or Kyren Williams formal BET because the Puka inactive is not official and independent projections do not support a robust price-adjusted edge at current prices.",
+    "Did not alter bet_history, missed_bets, pass_ledger, parlay_history or weekly_attribution because no new user wager, settlement, final pass outcome or weekly review was established.",
+    "Repository isolation preserved: NFL player-prop data only."
+  ]
+}
