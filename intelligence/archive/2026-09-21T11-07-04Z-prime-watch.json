@@ -1,0 +1,85 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-21 07:07:04",
+  "capturedAtUtc": "2026-09-21T11:07:04Z",
+  "priorArchive": "intelligence/archive/2026-09-21T10-27-21Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the most recently processed completedAt in the compact history index."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material change from the 06:27 ET PRIME checkpoint. Jaxson Dart rushing remains the only actionable MNF player-prop thesis at the stored price discipline: Over 31.5 at -115 or better. Fresh public secondary pages continue to center the market at 31.5, including a BetMGM-attributed -111 quote on Probetrics and a separate 31.5 -113 market quote, but neither provides a stronger direct-book timestamp than the stored Covers/FanDuel 05:59 ET verification, so PRIME does not overwrite verified sportsbook truth or issue a duplicate alert. DraftKings 32.5 -115 remains PASS_AFTER_MOVE under the stored maximum playable line. Official NFL injury status is unchanged: Puka Nacua is Questionable, Jordan Whittington Doubtful, Kamren Kinchens Out; Giants Deonte Banks and Micah McFadden are Questionable, while Andrew Thomas and Francis Mauigoa carry no final game designation. The previously reported Puka pregame-decision/trending-wrong-way item is not new and does not justify chasing derivative Rams receiving props before official inactives. SoFi is indoors, so weather is not a material variable.",
+  "currentDecision": {
+    "player": "Jaxson Dart",
+    "game": "NYG@LAR",
+    "propType": "RUSH_YARDS",
+    "market": "Rushing Yards",
+    "side": "OVER",
+    "decisionStatus": "BET",
+    "steamState": "STILL_PLAYABLE",
+    "storedPreferredSportsbook": "FanDuel via Covers",
+    "storedLine": 31.5,
+    "storedOdds": -113,
+    "playToLine": 31.5,
+    "maxAcceptableOdds": -115,
+    "internalFairProbabilityPct": 58.0,
+    "fairOdds": -138.1,
+    "storedEdgePctAtMinus113": 4.95,
+    "edgeBucket": "4-6%",
+    "recommendedStakeUnits": 0.5,
+    "entryTiming": "PRE_GAME",
+    "correlationTags": [],
+    "exposureStatus": "RECOMMENDED_NOT_YET_PLACED",
+    "priceDiscipline": "Do not chase 32.5+. FanDuel 31.5 -113 remains the last timestamped regulated-book verification in the durable board. BetMGM 31.5 -111 is a secondary public price lead only until directly or more authoritatively timestamp-verified; if independently confirmed live it is price-better than the stored entry, not a new thesis."
+  },
+  "marketChecks": [
+    {
+      "source": "Covers player-props board",
+      "observedAtEt": "2026-09-21 07:07",
+      "classification": "model_projection / market_context",
+      "detail": "Current page still displays Jaxson Dart Over 31.5 rushing yards with a 38.06-yard projection and 7.2 projected carries. This supports the existing thesis but is not alone sufficient to create a wager."
+    },
+    {
+      "source": "Probetrics",
+      "observedAtEt": "2026-09-21 07:07",
+      "classification": "secondary_market_quote",
+      "detail": "Current page displays Jaxson Dart rushing yards 31.5 with Over -111 and identifies MGM at -111. No explicit book-side update timestamp is exposed, so this is retained as a best-price lead rather than used to overwrite the timestamped FanDuel/Covers record."
+    },
+    {
+      "source": "NFL.com official injury report",
+      "observedAtEt": "2026-09-21 07:07",
+      "classification": "confirmed_fact",
+      "detail": "Giants-Rams final statuses remain unchanged: Deonte Banks Q, Micah McFadden Q; Puka Nacua Q, Jordan Whittington Doubtful, Kamren Kinchens Out. Andrew Thomas and Francis Mauigoa have no final game designation."
+    }
+  ],
+  "sourceSeparation": {
+    "confirmedFacts": [
+      "NFL.com still lists Puka Nacua Questionable, Jordan Whittington Doubtful and Kamren Kinchens Out for LAR; Deonte Banks and Micah McFadden are Questionable for NYG.",
+      "SoFi Stadium is an indoor venue.",
+      "The durable PRIME board's last timestamped regulated-book verification is FanDuel via Covers at Dart Over 31.5 -113 from the 05:59 ET market update."
+    ],
+    "attributedReporting": [
+      "Adam Schefter's Sunday report that Nacua would be a pregame decision and was trending the wrong way is already known from prior processing and is not treated as new in this run."
+    ],
+    "modelProjection": [
+      "Covers continues to project Dart around 38.06 rushing yards and 7.2 carries."
+    ],
+    "analystOpinion": [
+      "Covers continues to prefer Dart 30+ rushing yards based on Week 1 scramble/designed-run usage and expected negative game script."
+    ],
+    "speculation": [
+      "If Nacua is inactive, Rams target distribution would likely consolidate, but no receiving-yard Over is promoted before official inactive confirmation and fresh sportsbook repricing."
+    ]
+  },
+  "repositoryActions": [
+    "Created this immutable PRIME checkpoint on main.",
+    "Did not process Grok as new because completedAt is unchanged.",
+    "Did not alter live_prop_board, decision_ledger, line_history, bet_history, missed_bets, pass_ledger, parlay_history or weekly_attribution because there is no material verified status/line change and no newly confirmed user wager.",
+    "Repository isolation preserved: NFL player-prop data only."
+  ]
+}
