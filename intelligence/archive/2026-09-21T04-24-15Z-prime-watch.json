@@ -1,0 +1,135 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-21 00:24:15",
+  "capturedAtUtc": "2026-09-21T04:24:15Z",
+  "priorArchive": "intelligence/archive/2026-09-21T03-34-30Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. The live completedAt is unchanged from the most recently processed compact-history entry."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new actionable MNF change requiring an alert. Jaxson Dart Over 31.5 rushing remains directionally supported by role and independent projections, and a current public aggregate is still around 31.5/-114, but this run did not verify a sportsbook-specific executable 31.5 price. PRIME therefore will not carry the prior DraftKings -113 forward as current truth. Puka Nacua remains officially questionable rather than inactive; Rams target-redistribution props remain conditional and already repriced. No other reviewed NYG@LAR prop clears the required price-verification plus edge threshold.",
+  "mnfState": {
+    "game": "NYG@LAR",
+    "gameDate": "2026-09-21",
+    "jaxsonDartRushing": {
+      "priorDecisionId": "2026W2-DART-RUSHYDS-20260920-211446",
+      "priorStatus": "BET",
+      "priorRecommendation": "Over 31.5 rushing yards at DraftKings -113",
+      "playToLine": 31.5,
+      "maxAcceptableOdds": -115,
+      "currentPublicContext": "SportsGambler's page, crawled 2026-09-21, shows a generic live-market aggregate of Over 31.5 -114 / Under 31.5 -114. The underlying sportsbook is not identified, so this is market-context evidence only and not executable sportsbook truth.",
+      "independentSupport": "Covers' MNF analysis remains bullish on Dart mobility, citing five scrambles plus three designed runs in Week 1 and projecting roughly 37.6-38.1 rushing yards with about 7.2 carries.",
+      "classification": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "action": "Do not issue a new bet alert without a freshly verified regulated-book price. Prior play remains valid only if a live sportsbook still offers 31.5 at -115 or better. Pass at 32.5+ or juice worse than -115.",
+      "signals": ["RUSH_SHARE", "GAME_SCRIPT", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"]
+    },
+    "pukaNacua": {
+      "officialStatus": "QUESTIONABLE",
+      "classification": "attributed_report",
+      "confirmedFacts": "Rams list Puka Nacua questionable with a hip issue after missing Friday and Saturday practice; Jordan Whittington is doubtful and Kamren Kinchens is out.",
+      "reporting": "Recent reporting continues to describe Nacua as a game-time decision/trending toward not playing, but there is no official inactive designation yet.",
+      "action": "WATCH only. If Nacua is inactive, reprice Davante Adams, Rams tight ends and Kyren Williams receiving using live sportsbook lines rather than assuming the target-vacuum edge survives market repricing."
+    },
+    "otherCandidates": [
+      {
+        "player": "Kyren Williams",
+        "propType": "RECEIVING_YARDS",
+        "reference": "Action Network O14.5 -111 DraftKings, article updated 2026-09-20 22:06 ET",
+        "status": "WATCH",
+        "reason": "No material update from the prior checkpoint and projection disagreement remains too wide for a fresh BET. The quoted price is not re-labeled as current after this timestamp."
+      },
+      {
+        "player": "Jaxson Dart",
+        "propType": "PASS_YARDS",
+        "reference": "Action Network O213.5 -114 FanDuel, article updated 2026-09-20 22:06 ET",
+        "status": "WATCH",
+        "reason": "No new role or market catalyst sufficient to create a robust price-adjusted edge."
+      },
+      {
+        "player": "Malik Nabers",
+        "propType": "RECEIVING_YARDS",
+        "reference": "Action Network O63.5 -114 DraftKings, article updated 2026-09-20 22:06 ET",
+        "status": "PASS",
+        "reason": "Bullish target-role signals remain, but the current evidence does not establish PRIME's required price-adjusted edge at the quoted threshold."
+      }
+    ]
+  },
+  "injuryEnvironment": {
+    "giants": [
+      "Deonte Banks (calf) QUESTIONABLE",
+      "Micah McFadden (neck) QUESTIONABLE",
+      "Andrew Thomas (ankle) has no final game designation"
+    ],
+    "rams": [
+      "Puka Nacua (hip) QUESTIONABLE",
+      "Jordan Whittington (quad) DOUBTFUL",
+      "Kamren Kinchens (hamstring) OUT"
+    ],
+    "weather": "SoFi Stadium environment does not create a material weather downgrade for the reviewed props."
+  },
+  "sourceClassifications": {
+    "confirmed_fact": [
+      "Official Giants/Rams injury reports list Puka Nacua questionable, Jordan Whittington doubtful and Kamren Kinchens out; Giants Deonte Banks and Micah McFadden are questionable.",
+      "No new Grok pass exists because latest completedAt remains 2026-09-12T17:05:00Z."
+    ],
+    "attributed_report": [
+      "Recent reporting continues to characterize Puka Nacua as a game-time decision and more likely to sit than play."
+    ],
+    "model_projection": [
+      "Covers projects Jaxson Dart around 37.6-38.1 rushing yards and about 7.2 carries."
+    ],
+    "analyst_opinion": [
+      "Action Network's 22:06 ET MNF article lists Kyren Williams O14.5 receiving -111 DK, Jaxson Dart O213.5 passing -114 FD and Malik Nabers O63.5 receiving -114 DK."
+    ],
+    "speculation": [
+      "If Nacua is ruled inactive, target redistribution could benefit Davante Adams and other Rams pass catchers, but the market may already reflect much of that expectation."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_injury_report",
+      "source": "New York Giants",
+      "url": "https://www.giants.com/team/injury-report/",
+      "observedDate": "2026-09-21"
+    },
+    {
+      "type": "official_injury_report",
+      "source": "Los Angeles Rams",
+      "url": "https://www.therams.com/news/injury-report-week-2-2026-giants-puka-nacua-jordan-whittington-kamren-kinchens",
+      "publishedDate": "2026-09-19"
+    },
+    {
+      "type": "market_context",
+      "source": "SportsGambler",
+      "url": "https://www.sportsgambler.com/betting-tips/nfl/new-york-giants-vs-los-angeles-rams-prediction-odds-2026-09-21/",
+      "observedDate": "2026-09-21",
+      "note": "Generic live-market aggregate; sportsbook identity not exposed."
+    },
+    {
+      "type": "model_and_analyst_context",
+      "source": "Covers",
+      "url": "https://www.covers.com/nfl/giants-vs-rams-predictions-picks-september-21-2026",
+      "updatedAtEt": "2026-09-20 20:25"
+    },
+    {
+      "type": "analyst_opinion_and_market_reference",
+      "source": "Action Network",
+      "url": "https://www.actionnetwork.com/nfl/giants-vs-rams-player-props-jaxson-dart-malik-nabers-kyren-williams",
+      "updatedAtEt": "2026-09-20 22:06"
+    }
+  ],
+  "repositoryActions": [
+    "Created this immutable PRIME checkpoint on main.",
+    "Did not process Grok as new because completedAt is unchanged.",
+    "Did not carry the earlier DraftKings Dart -113 quote forward as current sportsbook truth.",
+    "Did not create a new bet, missed-bet record, or pass-ledger row because no fresh sportsbook-specific executable opportunity or new final pass state was established.",
+    "Preserved repository isolation: NFL player-prop data only."
+  ]
+}
