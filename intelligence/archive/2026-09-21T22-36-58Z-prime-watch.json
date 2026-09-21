@@ -1,0 +1,116 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-21 18:36:58",
+  "capturedAtUtc": "2026-09-21T22:36:58Z",
+  "priorArchive": "intelligence/archive/2026-09-21T20-21-56Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and the most recently processed completedAt."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new actionable change from the 16:21 ET checkpoint. Matthew Stafford Under 21.5 passing completions remains publicly corroborated at DraftKings -106, inside PRIME's stored 21.5/-110 ceiling. Jaxson Dart Over 31.5 rushing remains publicly displayed at FanDuel -113, inside the stored 31.5/-115 ceiling. DraftKings' current prop-splits board has Dart rushing at 33.5, further beyond the stored play-to; DraftKings was already PASS_AFTER_MOVE and this reinforces the no-chase instruction rather than creating a new alert. Puka Nacua remains officially questionable and recent reporting continues to say his availability is trending negatively, but official game inactives had not surfaced in the checked primary sources at this checkpoint.",
+  "carryForwardDecisions": [
+    {
+      "decisionId": "2026W2-STAFFORD-COMP-U-20260921-162156",
+      "player": "Matthew Stafford",
+      "game": "NYG@LAR",
+      "propType": "OTHER",
+      "market": "Passing Completions",
+      "side": "UNDER",
+      "sportsbook": "DraftKings",
+      "line": 21.5,
+      "odds": -106,
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "playToLine": 21.5,
+      "maxAcceptableOdds": -110,
+      "estimatedUnderProbabilityPct": 58.0,
+      "fairOdds": -138.1,
+      "estimatedEdgePct": 6.54,
+      "edgeBucket": "6-8%",
+      "confidence": "B",
+      "recommendedStakeUnits": 0.5,
+      "actualUserAction": "RECOMMENDED_NOT_YET_PLACED",
+      "note": "Public multi-book board still corroborates DraftKings 21.5 Over -120 / Under -106. The prior immutable archive labeled the configured prop type as PASS_ATTEMPTS; this checkpoint normalizes passing completions to OTHER under the repository's standard prop-type taxonomy. No authoritative user placement exists."
+    },
+    {
+      "decisionId": "2026W2-DART-RUSHYDS-REVERIFY-20260921-062721",
+      "player": "Jaxson Dart",
+      "game": "NYG@LAR",
+      "propType": "RUSH_YARDS",
+      "market": "Rushing Yards",
+      "side": "OVER",
+      "sportsbook": "FanDuel",
+      "line": 31.5,
+      "odds": -113,
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "playToLine": 31.5,
+      "maxAcceptableOdds": -115,
+      "estimatedOverProbabilityPct": 58.0,
+      "fairOdds": -138.1,
+      "estimatedEdgePct": 4.95,
+      "edgeBucket": "4-6%",
+      "confidence": "B+",
+      "recommendedStakeUnits": 0.5,
+      "actualUserAction": "RECOMMENDED_NOT_YET_PLACED",
+      "note": "FanDuel Research still displays Over 31.5 -113. DraftKings' current prop-splits board now lists the rushing-yard line at 33.5; do not chase DraftKings beyond PRIME's 31.5 play-to."
+    }
+  ],
+  "freshChecks": [
+    {
+      "source": "FantasyTeamAdvice public multi-book prop board",
+      "classification": "sportsbook_market_reference",
+      "observedAtEt": "2026-09-21 18:36",
+      "detail": "Matthew Stafford passing completions: DraftKings 21.5, Over -120 / Under -106; BetMGM 20.5, Over -120 / Under -110. Exact DraftKings pair remains inside PRIME's stored ceiling but is public-board evidence rather than the user's app truth."
+    },
+    {
+      "source": "FanDuel Research",
+      "classification": "sportsbook-linked market / analyst_opinion",
+      "observedAtEt": "2026-09-21 18:36",
+      "detail": "Jaxson Dart Over 31.5 rushing yards remains displayed at -113, unchanged from the prior playable state."
+    },
+    {
+      "source": "DraftKings Network prop-splits board",
+      "classification": "sportsbook_market_reference / betting_splits",
+      "publishedAtEt": "2026-09-21",
+      "observedAtEt": "2026-09-21 18:36",
+      "detail": "Matthew Stafford passing completions remains 21.5. Jaxson Dart rushing yards is now 33.5 on the DraftKings splits board. Public handle is heavily Under Stafford completions and Over Dart rushing, but betting splits are context only and are not treated as an independent edge signal."
+    },
+    {
+      "source": "NFL / Rams final injury reporting",
+      "classification": "confirmed_fact",
+      "observedAtEt": "2026-09-21 18:36",
+      "detail": "Puka Nacua is officially questionable after consecutive DNPs; Jordan Whittington is doubtful and Kamren Kinchens is out. Official game inactives had not surfaced in the checked primary sources at this checkpoint."
+    },
+    {
+      "source": "CBS Sports / ESPN reporting",
+      "classification": "attributed_report",
+      "observedAtEt": "2026-09-21 18:36",
+      "detail": "Recent reporting continues to characterize Nacua as trending toward missing the game, but that remains attributed reporting until the Rams' inactive list confirms it."
+    },
+    {
+      "source": "New York Giants official Week 2 tracker",
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-09-21 16:00",
+      "observedAtEt": "2026-09-21 18:36",
+      "detail": "Giants elevated WR Braxton Berrios and LB Malik Harrison. No material new offensive-role change invalidates the Dart rushing thesis."
+    }
+  ],
+  "marketDiscipline": {
+    "staffordCompletions": "STILL_PLAYABLE only at Under 21.5 -110 or better. Do not transfer the edge to Under 20.5 without a fresh probability recalculation.",
+    "dartRushing": "STILL_PLAYABLE at Over 31.5 -115 or better. PASS_AFTER_MOVE at DraftKings 33.5 or any 32.5+ number absent a fresh threshold recalculation."
+  },
+  "repositoryActions": [
+    "Created this immutable PRIME checkpoint on main.",
+    "Did not process Grok as new because completedAt is unchanged.",
+    "Did not add a bet_history row because no authoritative user placement exists for Stafford or Dart.",
+    "Did not generate a user alert because no materially new actionable opportunity or adverse change occurred since the prior checkpoint.",
+    "Repository isolation preserved: NFL player-prop data only."
+  ]
+}
