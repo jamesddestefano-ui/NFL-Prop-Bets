@@ -1,0 +1,194 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-21 12:00:36",
+  "capturedAtUtc": "2026-09-21T16:00:36Z",
+  "priorArchive": "intelligence/archive/2026-09-21T14-08-33Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the most recently processed completedAt in grok_pulse_history.jsonl."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material MNF change requiring a user alert at the Monday noon ET checkpoint. FanDuel Research still displays Jaxson Dart Over 31.5 rushing yards at -113, unchanged from the prior actionable PRIME state and still inside the stored 31.5/-115 ceiling. Fresh Action Network analysis at 10:58 ET introduced Dart passing, Malik Nabers receiving and Kyren Williams receiving candidates, but independent cross-checks do not support a new 4-5 percentage-point price-adjusted edge. Puka Nacua remains officially Questionable and current reporting still characterizes him as a true game-time decision/trending the wrong way; this is not a new confirmed status change. Rams derivative receiving props remain WATCH until official inactives and fresh repricing. SoFi is indoors; weather remains immaterial.",
+  "currentDecision": {
+    "decisionId": "2026W2-DART-RUSHYDS-20260920-211446",
+    "player": "Jaxson Dart",
+    "game": "NYG@LAR",
+    "propType": "RUSH_YARDS",
+    "market": "Rushing Yards",
+    "side": "OVER",
+    "decisionStatus": "BET",
+    "steamState": "STILL_PLAYABLE",
+    "sportsbook": "FanDuel",
+    "line": 31.5,
+    "odds": -113,
+    "observedAtEt": "2026-09-21 12:00",
+    "playToLine": 31.5,
+    "maxAcceptableOdds": -115,
+    "internalFairProbabilityPct": 58.0,
+    "fairOdds": -138.1,
+    "estimatedEdgePctAtMinus113": 4.95,
+    "edgeBucket": "4-6%",
+    "recommendedStakeUnits": 0.5,
+    "entryTiming": "PRE_GAME",
+    "signalTags": ["RUSH_SHARE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS", "MARKET_MOVE"],
+    "correlationTags": [],
+    "exposureStatus": "RECOMMENDED_NOT_YET_PLACED",
+    "priceDiscipline": "Still playable only at 31.5 and -115 or better. Do not chase 32.5+."
+  },
+  "evaluatedCandidates": [
+    {
+      "player": "Jaxson Dart",
+      "propType": "RUSH_ATTEMPTS",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "sportsbook": "DraftKings via BettingPros",
+      "line": 6.5,
+      "odds": -111,
+      "status": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "estimatedFairProbabilityPct": 55.0,
+      "estimatedEdgePct": 2.39,
+      "edgeBucket": "2-4%",
+      "reason": "Week 1 usage (11 official carries) and Covers' 7.2-carry projection support the direction, but Dart had 7+ attempts in only 6 of 12 2025 starts, the modeled edge does not clear PRIME's preferred threshold, and the position is SAME_THESIS with the stronger existing rushing-yards recommendation."
+    },
+    {
+      "player": "Jaxson Dart",
+      "propType": "PASS_YARDS",
+      "market": "Passing Yards",
+      "side": "OVER",
+      "sportsbook": "FanDuel via Action Network",
+      "line": 213.5,
+      "odds": -114,
+      "status": "PASS",
+      "reason": "Action Network favors the Over and one independent model projects 222 yards, but the margin over market is modest and other context models remain materially lower. A point projection above 213.5 is insufficient to establish a 4-5 point probability edge at -114."
+    },
+    {
+      "player": "Malik Nabers",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "DraftKings via Action Network",
+      "line": 63.5,
+      "odds": -114,
+      "status": "PASS",
+      "reason": "Week 1 role was strong (31% target share, 36.4% first-read share, 40% air-yard share), but FantasyPros projects 61.4 receiving yards and another independent model sits near 64. The price therefore lacks a robust probability edge despite the attractive usage profile."
+    },
+    {
+      "player": "Kyren Williams",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "DraftKings via Action Network",
+      "line": 14.5,
+      "odds": -111,
+      "status": "WATCH",
+      "reason": "Action Network cites seven straight games with 15+ receiving yards, but numberFire projects only 8.21 while another independent model projects 16 and earlier public market context centered near 12.5. Puka Nacua's unresolved status is a major role dependency. Reprice only after official inactives; do not pre-bet the injury outcome."
+    },
+    {
+      "player": "Kyren Williams",
+      "propType": "RECEPTIONS",
+      "market": "Receptions",
+      "side": "OVER",
+      "sportsbook": "DraftKings via BettingPros",
+      "line": 2.5,
+      "odds": 114,
+      "status": "WATCH",
+      "reason": "Plus money is attractive and Williams caught 3 of 3 targets in Week 1, but his 2025 baseline does not independently establish enough probability edge. Puka Nacua's status can change target distribution; wait for official inactives and fresh price rather than speculate."
+    }
+  ],
+  "marketChecks": [
+    {
+      "source": "FanDuel Research",
+      "sourceUrl": "https://www.fanduel.com/research/giants-vs-rams-props-today-3-best-nfl-picks-player-prop-bets-for-mnf",
+      "observedAtEt": "2026-09-21 12:00",
+      "classification": "sportsbook_linked_market / analyst_opinion",
+      "detail": "Still displays Jaxson Dart Over 31.5 rushing yards at -113. This is unchanged from the prior checkpoint and remains inside PRIME's stored 31.5/-115 ceiling."
+    },
+    {
+      "source": "Action Network",
+      "sourceUrl": "https://www.actionnetwork.com/nfl/giants-vs-rams-player-props-jaxson-dart-malik-nabers-kyren-williams",
+      "observedAtEt": "2026-09-21 12:00",
+      "classification": "analyst_opinion / sportsbook-linked market",
+      "detail": "Fresh 10:58 ET article lists Kyren Williams Over 14.5 receiving yards -111 DK, Jaxson Dart Over 213.5 passing yards -114 FD, and Malik Nabers Over 63.5 receiving yards -114 DK. PRIME independently evaluated all three and did not promote any to BET."
+    },
+    {
+      "source": "BettingPros",
+      "sourceUrl": "https://www.bettingpros.com/articles/nfl-monday-night-football-player-props-giants-vs-rams-week-2-2026/",
+      "observedAtEt": "2026-09-21 12:00",
+      "classification": "analyst_opinion / sportsbook-linked market",
+      "detail": "Lists Jaxson Dart Over 6.5 rushing attempts -111 DK and Kyren Williams Over 2.5 receptions +114 DK. PRIME classifies Dart attempts PASS because the edge is below threshold and duplicates the stronger Dart rushing-yards thesis; Williams receptions remains WATCH pending Puka status and repricing."
+    },
+    {
+      "source": "FantasyPros",
+      "sourceUrl": "https://www.fantasypros.com/nfl/players/malik-nabers.php",
+      "observedAtEt": "2026-09-21 12:00",
+      "classification": "model_projection / role_analysis",
+      "detail": "FantasyPros projects Malik Nabers for 61.4 receiving yards in Week 2 and notes a 69.7% route share, 31% target share and 36.4% first-read share in Week 1. This supports the role but not the O63.5 -114 price."
+    },
+    {
+      "source": "FanDuel Research / numberFire",
+      "sourceUrl": "https://www.fanduel.com/research/kyren-williams-nfl-fantasy-week-2-vs-giants-2026",
+      "observedAtEt": "2026-09-21 12:00",
+      "classification": "model_projection",
+      "detail": "Projects Kyren Williams for 8.21 receiving yards, materially below Action Network's 14.5 Over recommendation. Projection disagreement prevents a pre-inactive BET."
+    },
+    {
+      "source": "The Sport Stack",
+      "sourceUrl": "https://thesportstack.io/nfl/matchups/2026_02_NYG_LA",
+      "observedAtEt": "2026-09-21 12:00",
+      "classification": "model_projection",
+      "detail": "Projects Dart for 222 passing and 34 rushing yards, Nabers for 64 receiving yards, and Kyren Williams for 16 receiving yards. These central estimates are near the relevant current markets rather than far enough away to create automatic bets."
+    },
+    {
+      "source": "Los Angeles Rams official injury report",
+      "sourceUrl": "https://www.therams.com/news/rams-injury-report-week-2-vs-giants-kam-kinchens-ruled-out-jordan-whittington-doubtful-puka-nacua-questionable-for-monday-night-football-vs-giants",
+      "observedAtEt": "2026-09-21 12:00",
+      "classification": "confirmed_fact",
+      "detail": "Puka Nacua remains officially Questionable; Jordan Whittington Doubtful; Kamren Kinchens Out. No official Monday inactive change yet."
+    },
+    {
+      "source": "Current Monday injury reporting",
+      "sourceUrl": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-20/schefter-nacua-trending-in-wrong-direction",
+      "observedAtEt": "2026-09-21 12:00",
+      "classification": "attributed_report",
+      "detail": "Previously processed reporting continues to describe Nacua as a pre-game decision trending in the wrong direction. No new confirmed status change was found at noon ET."
+    }
+  ],
+  "sourceSeparation": {
+    "confirmedFacts": [
+      "Puka Nacua remains officially Questionable; Jordan Whittington remains Doubtful; Kamren Kinchens remains Out.",
+      "Myles Garrett is on injured reserve and Aaron Donald is expected to make his season debut.",
+      "SoFi Stadium is indoors."
+    ],
+    "attributedReporting": [
+      "Current reporting continues to characterize Nacua as a true game-time decision trending the wrong way; no new official inactive determination exists yet."
+    ],
+    "modelProjection": [
+      "Covers projects Dart for 37.6 rushing yards and 7.2 carries.",
+      "The Sport Stack projects Dart for 222 passing and 34 rushing yards, Nabers for 64 receiving yards and Kyren Williams for 16 receiving yards.",
+      "FantasyPros projects Nabers for 61.4 receiving yards.",
+      "numberFire/FanDuel Research projects Kyren Williams for 8.21 receiving yards."
+    ],
+    "analystOpinion": [
+      "FanDuel Research continues to prefer Dart rushing Over 31.5.",
+      "Action Network favors Dart passing Over 213.5, Nabers receiving Over 63.5 and Kyren receiving Over 14.5.",
+      "BettingPros favors Dart Over 6.5 rush attempts and Kyren Over 2.5 receptions. PRIME did not adopt these opinions without sufficient independent price-adjusted edge."
+    ],
+    "speculation": [
+      "If Nacua is inactive, Rams target distribution should change materially, but derivative props remain WATCH until the inactive is official and books reprice."
+    ]
+  },
+  "repositoryActions": [
+    "Created this immutable PRIME checkpoint on main.",
+    "Did not process Grok as new because completedAt is unchanged.",
+    "Preserved the existing Dart rushing-yards BET without creating a duplicate line-history state because FanDuel 31.5/-113 is unchanged.",
+    "Evaluated newly published MNF candidates in this archive and did not promote them to BET because price-adjusted edges were insufficient or status-dependent.",
+    "Did not alter bet_history, missed_bets, pass_ledger, parlay_history or weekly_attribution because no new user wager, settlement, final pass outcome or weekly review was established.",
+    "Repository isolation preserved: NFL player-prop data only."
+  ]
+}
