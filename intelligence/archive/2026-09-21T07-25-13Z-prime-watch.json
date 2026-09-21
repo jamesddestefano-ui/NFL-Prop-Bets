@@ -1,0 +1,134 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-21 03:25:13",
+  "capturedAtUtc": "2026-09-21T07:25:13Z",
+  "priorArchive": "intelligence/archive/2026-09-21T06-41-55Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json remains live at the same completedAt as the newest compact grok_pulse_history.jsonl entry."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new actionable MNF change since the 02:41 ET checkpoint. Jaxson Dart Over 31.5 rushing yards remains the only serious carry-forward candidate, but this run still did not verify a fresh regulated-sportsbook executable 31.5 price at -115 or better. Public current context continues to cluster around 30.5-31.5 and recent analyst references around -113/-115, which supports the market area but is insufficient to overwrite sportsbook truth. PRIME therefore does not re-alert or chase. Puka Nacua remains officially questionable after missing Friday and Saturday practice; Adam Schefter's report that he is trending the wrong way remains attributed reporting already known before this checkpoint, not a new change. No official overnight inactive determination was found. Rams target-redistribution props remain conditional on Nacua's final status and fresh sportsbook pricing. Action Network's latest reviewed MNF card remains updated Sep. 20 at 10:06 PM ET: Kyren Williams Over 14.5 receiving -111 DK, Jaxson Dart Over 213.5 passing -114 FanDuel, Malik Nabers Over 63.5 receiving -114 DK. None is promoted solely from the point projection or stale timestamp.",
+  "mnfState": {
+    "game": "NYG@LAR",
+    "gameDate": "2026-09-21",
+    "jaxsonDartRushing": {
+      "priorDecisionId": "2026W2-DART-RUSHYDS-20260920-211446",
+      "priorStatus": "BET",
+      "priorRecommendation": "Over 31.5 rushing yards at DraftKings -113",
+      "playToLine": 31.5,
+      "maxAcceptableOdds": -115,
+      "roleSupport": "Week 1: 54 rushing yards. Covers charted five scrambles plus three designed runs before kneel-down losses and projects roughly 37.6 rushing yards with 7.2 carries for Week 2.",
+      "currentMarketContext": [
+        "RotoBaller published Jaxson Dart Over 31.5 rushing yards at -115, but the article does not establish that exact quote as a current live regulated-book price at 03:25 ET.",
+        "StatPick currently describes Dart's rushing-yards typical line as 30.5; this is market context, not executable sportsbook truth.",
+        "Robinhood prediction-market contracts show 30+ rushing yards trading near an even-probability area; this is not a sportsbook player-prop line and is not used as bet truth.",
+        "Covers continues to recommend a reduced 30+ threshold and projects roughly 37.6 yards, but the projection/analyst signal alone does not create a bet."
+      ],
+      "classification": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "action": "No new alert. Prior recommendation remains valid only if a live regulated sportsbook still offers 31.5 at -115 or better. PASS at 32.5+ or juice worse than -115."
+    },
+    "pukaNacua": {
+      "officialStatus": "QUESTIONABLE",
+      "confirmedFacts": "The Rams/Giants official injury reporting lists Nacua questionable after missing Friday and Saturday practice. Jordan Whittington is doubtful and Kamren Kinchens is out.",
+      "attributedReporting": "Adam Schefter reported Sunday that Nacua was trending the wrong way for Monday night. That report is already incorporated from prior checkpoints and is not new to this run.",
+      "materialChangeSincePriorArchive": false,
+      "action": "WATCH only. Reprice Davante Adams, Rams tight ends and Kyren Williams receiving only after an official Nacua active/inactive determination and with fresh sportsbook-specific lines."
+    },
+    "otherCandidates": [
+      {
+        "player": "Kyren Williams",
+        "propType": "RECEIVING_YARDS",
+        "lastVerifiedReference": "Action Network O14.5 -111 DraftKings, updated 2026-09-20 22:06 ET",
+        "status": "WATCH",
+        "reason": "FantasyPros currently projects 13.1 receiving yards while Action likes Over 14.5; model/analyst disagreement plus no fresher executable price prevents promotion."
+      },
+      {
+        "player": "Jaxson Dart",
+        "propType": "PASS_YARDS",
+        "lastVerifiedReference": "Action Network O213.5 -114 FanDuel, updated 2026-09-20 22:06 ET",
+        "status": "WATCH",
+        "reason": "Week 1 role and matchup context remain supportive, but no new edge-expanding catalyst or fresher executable price was verified."
+      },
+      {
+        "player": "Malik Nabers",
+        "propType": "RECEIVING_YARDS",
+        "lastVerifiedReference": "Action Network O63.5 -114 DraftKings, updated 2026-09-20 22:06 ET",
+        "status": "PASS",
+        "reason": "Strong Week 1 usage is known, but no fresh price or role catalyst creates a robust price-adjusted edge."
+      }
+    ]
+  },
+  "sourceClassifications": {
+    "confirmed_fact": [
+      "Puka Nacua remains officially questionable after missing Friday and Saturday practice.",
+      "No new Grok pass exists because completedAt remains 2026-09-12T17:05:00Z."
+    ],
+    "attributed_report": [
+      "Adam Schefter's Sunday report says Nacua is trending the wrong way; this is not new to the present checkpoint."
+    ],
+    "model_projection": [
+      "Covers projects Jaxson Dart around 37.6 rushing yards and 7.2 carries.",
+      "FantasyPros projects Kyren Williams for 13.1 receiving yards in Week 2."
+    ],
+    "analyst_opinion": [
+      "Action Network's Sep. 20 10:06 PM ET card favors Kyren Williams Over 14.5 receiving, Jaxson Dart Over 213.5 passing and Malik Nabers Over 63.5 receiving at the listed book-specific prices.",
+      "Covers favors a reduced 30+ Jaxson Dart rushing threshold."
+    ],
+    "speculation": [
+      "If Nacua is inactive, Rams target redistribution could benefit Davante Adams, tight ends and Kyren Williams, but the market may already reprice much of that edge before kickoff."
+    ]
+  },
+  "sources": [
+    {
+      "type": "official_team_injury_report",
+      "source": "Giants.com Week 2 tracker / Rams final injury report",
+      "url": "https://www.giants.com/news/week-2-tracker-latest-news-notes-roster-moves-los-angeles-rams",
+      "observedAtEt": "2026-09-21 03:25"
+    },
+    {
+      "type": "attributed_injury_reporting",
+      "source": "Yahoo/SB Nation summary of Adam Schefter reporting",
+      "url": "https://sports.yahoo.com/articles/rams-giants-final-injury-report-171900372.html",
+      "observedAtEt": "2026-09-21 03:25"
+    },
+    {
+      "type": "analyst_opinion_and_market_reference",
+      "source": "Action Network",
+      "url": "https://www.actionnetwork.com/nfl/giants-vs-rams-player-props-jaxson-dart-malik-nabers-kyren-williams",
+      "updatedAtEt": "2026-09-20 22:06"
+    },
+    {
+      "type": "model_and_analyst_context",
+      "source": "Covers",
+      "url": "https://www.covers.com/nfl/giants-vs-rams-prediction-picks-sept-21-2026",
+      "observedAtEt": "2026-09-21 03:25"
+    },
+    {
+      "type": "model_projection",
+      "source": "FantasyPros",
+      "url": "https://www.fantasypros.com/nfl/projections/kyren-williams.php",
+      "observedAtEt": "2026-09-21 03:25"
+    },
+    {
+      "type": "market_context",
+      "source": "RotoBaller",
+      "url": "https://www.rotoballer.com/nfl-betting-picks-week-2-player-props-and-parlays-for-monday-night-football-2026/1934239",
+      "observedAtEt": "2026-09-21 03:25",
+      "note": "31.5 -115 Dart rushing reference; not treated as a freshly verified live sportsbook quote."
+    }
+  ],
+  "repositoryActions": [
+    "Created this immutable PRIME checkpoint on main.",
+    "Did not process Grok as new because completedAt is unchanged.",
+    "Did not append a new line-history snapshot because no fresher sportsbook-specific executable line/price was verified.",
+    "Did not alter live_prop_board, decision_ledger, bet_history, missed_bets, pass_ledger, parlay_history or weekly_attribution because no new actionable state, placement, settlement, missed-bet event, final pass state, parlay event or completed weekly review occurred.",
+    "Preserved repository isolation: NFL player-prop data only."
+  ]
+}
