@@ -1,0 +1,100 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-20 20:06:57",
+  "capturedAtUtc": "2026-09-21T00:06:57Z",
+  "priorArchive": "intelligence/archive/2026-09-20T22-59-01Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json and the compact history index still terminate at the same live completedAt."
+  },
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Official Sunday-night inactives are now verified. Chiefs DT Chris Jones and CB Mansoor Delane are ACTIVE because neither appears on Kansas City's official inactive list; Colts RB DJ Giddens is inactive while Jonathan Taylor has no injury designation. This resolves the main defensive uncertainty for the Daniel Jones rushing thesis in a supportive direction: Kansas City retains its pressure front, and Jones remains a conditional BET only if a live regulated book still offers 8.5 (or 9.5) rushing yards at -115 or better. DraftKings' same-day prop-splits page still lists Jones at 8.5, but it does not expose current juice, so PRIME will not invent or carry forward the earlier -114 as executable truth. Rashee Rice remains price-sensitive: same-day public sources disagree from roughly 48.5 to 53.5 and the previously quoted DK 51+ -114 is not treated as current; classify as WATCH/PASS_AFTER_MOVE until a live book verifies 51.5 or lower at -115 or better. The user's Purdy/Taylor parlay remains HOLD with Purdy 16+ already secured and Taylor 15+ receiving below the current DK main 16.5 threshold. Mahomes passing remains REDUCED_EDGE at public main lines around 221.5 and should not be chased above the stored 220+ preference. Weather is favorable: about 72F, 0% rain, 8 mph wind on Action's current game page.",
+  "officialInactives": {
+    "chiefsInactive": ["TE Jared Wiley", "QB Garrett Nussmeier (3rd QB)", "DB Chamarri Conner", "DE Jack Pyburn", "T Diego Pounds", "T Josh Simmons", "DT Bryson Eason"],
+    "chiefsActiveByExclusion": ["DT Chris Jones", "CB Mansoor Delane", "QB Patrick Mahomes", "WR Rashee Rice"],
+    "coltsInactive": ["WR Ashton Dulin", "QB Riley Leonard (3rd QB)", "RB DJ Giddens", "DE George Gumbs Jr.", "LB Austin Ajiake", "G Dalton Tucker"],
+    "offensiveImpact": "Jonathan Taylor remains active; Giddens being inactive does not create a new standalone Taylor prop recommendation because Taylor already has a dominant role and the receiving thesis is represented in the user's open parlay.",
+    "defensiveImpact": "Chris Jones active preserves Kansas City's interior pressure and supports the scramble/escape component of Daniel Jones rushing, while also increasing sack/kneel variance."
+  },
+  "decisions": [
+    {
+      "decisionId": "2026W2-JONES-RUSHYDS-INACTIVES-20260920-200657",
+      "timestampEt": "2026-09-20 20:06:57",
+      "game": "IND@KC",
+      "player": "Daniel Jones",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "sportsbook": "DraftKings line verified via same-day DK prop-splits page; current juice not exposed",
+      "line": 8.5,
+      "odds": null,
+      "marketContext": "DraftKings same-day prop-splits page lists 8.5. A separate same-day public aggregate shows approximately O8.5 -113/-114, but PRIME does not merge that price into DraftKings truth.",
+      "ourMeanProjection": 18.0,
+      "ourMedianProjection": 14.5,
+      "internalFairProbabilityPctAt8_5": 58.0,
+      "fairOddsAt8_5": -138.1,
+      "decisionStatus": "BET_IF_PRICE_VERIFIED",
+      "steamState": "STILL_PLAYABLE_ONLY_WITHIN_STORED_CEILING",
+      "confidence": "B+",
+      "playToLine": 9.5,
+      "maxAcceptableOdds": -115,
+      "recommendedStakeUnits": 0.5,
+      "entryTiming": "PRE_GAME",
+      "signalTags": ["INJURY", "DEFENSIVE_INJURY", "GAME_SCRIPT", "MATCHUP", "MARKET_MOVE"],
+      "reason": "Official inactives confirm Chris Jones and Mansoor Delane active, resolving the prior uncertainty. Jones was the most pressured QB in Week 1 according to Covers' analysis, and Kansas City generated a top-eight pressure rate with four sacks against Denver. Covers projects roughly 20.5 rushing yards at a 9.5 reference and its analyst makes Jones 18+ on the ground. The opportunity remains price-sensitive because sacks and kneel-down scoring can reduce QB rushing results and because DraftKings' current juice is not exposed publicly.",
+      "priceDiscipline": "BET only if live app shows O8.5 or O9.5 at -115 or better. PASS if moved to 10.5+ at standard juice or if price exceeds -115."
+    },
+    {
+      "decisionId": "2026W2-RICE-RECYDS-INACTIVES-20260920-200657",
+      "timestampEt": "2026-09-20 20:06:57",
+      "game": "IND@KC",
+      "player": "Rashee Rice",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "decisionStatus": "WATCH",
+      "steamState": "PASS_AFTER_MOVE_IF_ABOVE_PLAY_TO",
+      "playToLine": 51.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Rice is active and full-go, but current public line references conflict materially. The earlier same-day DK article quoted 51+ -114; later public boards show values spanning roughly 48.5 to 53.5. Without a live sportsbook-specific price, PRIME will not claim an executable edge. Keep the earlier thesis only at 51.5 or lower and -115 or better."
+    },
+    {
+      "decisionId": "2026W2-MAHOMES-PASSYDS-INACTIVES-20260920-200657",
+      "timestampEt": "2026-09-20 20:06:57",
+      "game": "IND@KC",
+      "player": "Patrick Mahomes",
+      "propType": "PASS_YARDS",
+      "side": "OVER",
+      "decisionStatus": "LEAN",
+      "steamState": "REDUCED_EDGE",
+      "playToLine": "220+ preferred",
+      "maxAcceptableOdds": -115,
+      "reason": "Mahomes is active with no injury designation, but current public main lines are around 221.5 and independent analysis is mixed, including a current Covers lean to the Under. Do not chase beyond the stored preference."
+    }
+  ],
+  "existingTicketUpdate": {
+    "parlayId": "USER-DK-PARLAY-20260919-2057-PURDY-TAYLOR",
+    "status": "OPEN",
+    "decision": "HOLD",
+    "legs": [
+      {"player": "Brock Purdy", "threshold": "16+ passing completions", "status": "WIN_SECURED"},
+      {"player": "Jonathan Taylor", "threshold": "15+ receiving yards", "status": "OPEN", "marketContext": "DraftKings same-day prop-splits page lists the main receiving-yards line at 16.5; Taylor is active."}
+    ]
+  },
+  "weather": {
+    "temperatureF": 72,
+    "rainPct": 0,
+    "windMph": 8,
+    "impact": "No material adverse weather adjustment."
+  },
+  "repositoryActions": [
+    "Created this immutable pre-SNF inactive checkpoint.",
+    "Did not overwrite any existing sportsbook ticket truth.",
+    "Did not add an unconfirmed Mahomes, Jones, or Rice wager to bet_history.",
+    "Did not append a sportsbook-specific line-history row where current executable juice could not be verified.",
+    "Did not process a new Grok pass because completedAt is unchanged."
+  ]
+}
