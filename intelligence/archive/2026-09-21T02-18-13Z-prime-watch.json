@@ -1,0 +1,152 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-20 22:18:13",
+  "capturedAtUtc": "2026-09-21T02:18:13Z",
+  "priorArchive": "intelligence/archive/2026-09-21T01-14-46Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. The live completedAt still matches the most recently processed compact-history entry."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new actionable change requiring an alert. The prior Jaxson Dart rushing recommendation remains price-gated at Over 31.5 and -115 or better, but this run did not independently re-verify an executable regulated-book pair at that threshold after the prior 21:14 ET checkpoint, so PRIME will not restate the old price as current. A fresh Action Network article updated 22:06 ET surfaced three MNF props, but independent checks show enough projection disagreement that none qualifies as a new PRIME BET without stronger price/model confirmation.",
+  "existingDecisionState": {
+    "jaxsonDartRushing": {
+      "priorDecisionId": "2026W2-DART-RUSHYDS-20260920-211446",
+      "priorStatus": "BET",
+      "priorRecommendation": "Over 31.5 rushing yards at DraftKings -113",
+      "playToLine": 31.5,
+      "maxAcceptableOdds": -115,
+      "currentRunState": "NO_NEW_VERIFIED_EXECUTABLE_PRICE",
+      "steamProtection": "Do not chase 32.5+ or juice worse than -115. If 31.5/-115 or better is not independently verified live, treat as WATCH rather than carrying the old price forward."
+    }
+  },
+  "candidateEvaluations": [
+    {
+      "player": "Jaxson Dart",
+      "team": "NYG",
+      "opponent": "LAR",
+      "propType": "PASS_YARDS",
+      "market": "Passing Yards",
+      "side": "OVER",
+      "sportsbookReference": "FanDuel via Action Network",
+      "line": 213.5,
+      "odds": -114,
+      "decisionStatus": "WATCH",
+      "steamState": "STILL_PLAYABLE_IF_REVERIFIED",
+      "confidence": "C+",
+      "estimatedEdgePct": null,
+      "edgeBucket": null,
+      "playToLine": 213.5,
+      "maxAcceptableOdds": -115,
+      "signalTags": ["GAME_SCRIPT", "MATCHUP", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS", "DEFENSIVE_INJURY"],
+      "correlationTags": ["SAME_THESIS"],
+      "reason": "Action Network's 22:06 ET article recommends Over 213.5 -114 and FantasyPros is qualitatively bullish because the Rams are without Myles Garrett and posted a low Week 1 pressure rate. However, independent point projections are dispersed: The Sport Stack is 222 passing yards, FantasySP about 218, while DraftEdge is materially lower at 178.5. Dart's 2025 per-game passing baseline was 162.3 and Week 1 was 230. The disagreement is too large to assign a defensible 4-5 percentage-point fair-probability edge at -114. Do not promote from analyst opinion plus one favorable projection path alone.",
+      "sourceClassification": {
+        "confirmed_fact": ["Dart completed 23 of 29 passes for 230 yards in Week 1."],
+        "attributed_report": ["The Rams are without Myles Garrett; Aaron Donald is expected back but his effective workload remains uncertain."],
+        "model_projection": ["The Sport Stack: 222 pass yards; FantasySP: about 218; DraftEdge: 178.5."],
+        "analyst_opinion": ["Action Network recommends Over 213.5 -114; FantasyPros gives Dart a favorable Week 2 matchup outlook."],
+        "speculation": ["A likely trailing script could increase dropbacks, but that does not by itself establish enough price-adjusted edge."]
+      }
+    },
+    {
+      "player": "Malik Nabers",
+      "team": "NYG",
+      "opponent": "LAR",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbookReference": "DraftKings via Action Network",
+      "line": 63.5,
+      "odds": -114,
+      "decisionStatus": "PASS",
+      "steamState": "PASS_AFTER_REPRICE",
+      "confidence": "C",
+      "estimatedEdgePct": null,
+      "edgeBucket": null,
+      "playToLine": 61.5,
+      "maxAcceptableOdds": -115,
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS", "MATCHUP"],
+      "correlationTags": ["POSITIVE_CORRELATION", "SAME_THESIS"],
+      "reason": "Action's 22:06 ET article cites a strong Week 1 role: nine targets, 36.4% first-read share, targets on 38% of routes and 40% of team air yards, and recommends Over 63.5 -114. But current independent projections do not create a robust price edge: FantasyPros projects 61.6, numberFire/FanDuel Research 60.58 and The Sport Stack 64. The market is also referenced around 65.5 at FanDuel. The role is bullish, but price and projection disagreement make 63.5 -114 a pass rather than a bet.",
+      "sourceClassification": {
+        "confirmed_fact": ["Nabers caught 6 of 9 targets for 69 yards in Week 1."],
+        "attributed_report": ["Nabers said he felt rusty after returning from his major knee injury but is off the Week 2 injury report."],
+        "model_projection": ["FantasyPros: 61.6 receiving yards; numberFire/FanDuel Research: 60.58; The Sport Stack: 64."],
+        "analyst_opinion": ["Action Network recommends Over 63.5 -114 based on high-value Week 1 usage."],
+        "speculation": ["A larger workload is plausible in Week 2, but the exact increase is uncertain."]
+      }
+    },
+    {
+      "player": "Kyren Williams",
+      "team": "LAR",
+      "opponent": "NYG",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbookReference": "DraftKings via Action Network",
+      "line": 14.5,
+      "odds": -111,
+      "decisionStatus": "WATCH",
+      "steamState": "STILL_PLAYABLE_IF_REVERIFIED",
+      "confidence": "C+",
+      "estimatedEdgePct": null,
+      "edgeBucket": null,
+      "playToLine": 14.5,
+      "maxAcceptableOdds": -115,
+      "signalTags": ["ROUTE_SHARE", "TARGET_SHARE", "MATCHUP", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "correlationTags": [],
+      "reason": "Action Network's 22:06 ET article recommends Over 14.5 -111 and notes Williams has reached 15+ receiving yards in seven straight games, including 24 yards on three catches in Week 1. Historical 2025 production averaged about 17 receiving yards per game and The Sport Stack projects 16, but numberFire/FanDuel Research projects only 8.21. That projection gap is too large to treat the analyst trend as a durable 4-5 point probability edge without a current multi-book line/price check.",
+      "sourceClassification": {
+        "confirmed_fact": ["Williams caught 3 passes for 24 yards in Week 1."],
+        "model_projection": ["The Sport Stack: 16 receiving yards; numberFire/FanDuel Research: 8.21."],
+        "analyst_opinion": ["Action Network recommends Over 14.5 -111 and cites seven straight games with at least 15 receiving yards."],
+        "speculation": ["New York's Week 1 allowance to an opposing running back in the passing game may inform usage, but one-game opponent splits are not enough to drive the wager."]
+      }
+    }
+  ],
+  "officialNewsCheck": {
+    "giantsRamsFinalReport": "Giants official final injury report lists Deonte Banks and Micah McFadden questionable. Rams list Kamren Kinchens out, Puka Nacua questionable and Jordan Whittington doubtful. No new official offensive designation materially changes Dart or Nabers usage in this checkpoint.",
+    "weather": "SoFi Stadium is indoors; weather is not a material input."
+  },
+  "existingExposure": {
+    "confirmedOpenWeek2Parlay": "Purdy 16+ completions / Jonathan Taylor 15+ receiving yards remains the most recently confirmed open parlay in parlay_history. Purdy leg is secured. This run could not independently verify a sufficiently current live box score to settle the Taylor leg, so repository truth is not overwritten.",
+    "confirmedWeek2StraightBet": "Dalton Schultz 45+ receiving yards -109 remains the only confirmed Week 2 straight bet in bet_history and is settled WIN.",
+    "unconfirmedTickets": "Do not convert prior Mahomes or other recommendation screenshots into bet_history without authoritative placement confirmation."
+  },
+  "sources": [
+    {
+      "type": "analyst_opinion_and_market_reference",
+      "source": "Action Network",
+      "url": "https://www.actionnetwork.com/nfl/giants-vs-rams-player-props-jaxson-dart-malik-nabers-kyren-williams",
+      "updatedAtEt": "2026-09-20 22:06:00"
+    },
+    {
+      "type": "official_injury_report",
+      "source": "New York Giants",
+      "url": "https://www.giants.com/news/injury-report-statuses-for-giants-vs-rams-on-monday-night-football",
+      "publishedAtEt": "2026-09-19 15:30:00"
+    },
+    {
+      "type": "model_projection",
+      "source": "The Sport Stack",
+      "url": "https://thesportstack.io/nfl/matchups/2026_02_NYG_LA"
+    },
+    {
+      "type": "model_projection",
+      "source": "FantasyPros / numberFire / FanDuel Research / DraftEdge cross-check",
+      "note": "Used only as independent projection paths; no single model controls the decision."
+    }
+  ],
+  "repositoryActions": [
+    "Created this immutable no-alert checkpoint on main.",
+    "Did not process Grok as new because completedAt is unchanged.",
+    "Did not create a placed bet in bet_history without authoritative user confirmation.",
+    "Did not overwrite the prior Dart rushing sportsbook price as current because no fresh executable regulated-book pair was independently verified in this run."
+  ]
+}
