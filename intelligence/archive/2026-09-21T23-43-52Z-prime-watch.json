@@ -1,0 +1,110 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-21 19:43:52",
+  "capturedAtUtc": "2026-09-21T23:43:52Z",
+  "priorArchive": "intelligence/archive/2026-09-21T22-36-58Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and the most recently processed completedAt."
+  },
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Official MNF inactives materially resolve the main Stafford-completions dependency: Rams WR Puka Nacua and WR Jordan Whittington are both inactive. Giants CB Deonte Banks and LB Micah McFadden are also inactive. Matthew Stafford Under 21.5 completions remains PRIME's preferred straight prop only if a live sportsbook still offers Under 21.5 at -110 or better. The official WR absences support the lower-completion-volume / deeper-target profile already embedded in Sean Koerner's 20.8-completion, 58% Under projection; Banks being inactive is a countervailing efficiency signal, so PRIME does not mechanically raise the 58% fair probability. DraftKings' public prop-splits board still lists Stafford completions at 21.5, but it does not expose a current executable price, so the prior 18:36 ET public -106 snapshot is not promoted to 19:43 ET sportsbook truth. Jaxson Dart rushing at DraftKings remains beyond PRIME's 31.5 play-to (DK split board 33.5), so no chase. No new Grok pass was processed.",
+  "carryForwardDecisions": [
+    {
+      "decisionId": "2026W2-STAFFORD-COMP-U-20260921-162156",
+      "player": "Matthew Stafford",
+      "game": "NYG@LAR",
+      "propType": "OTHER",
+      "market": "Passing Completions",
+      "side": "UNDER",
+      "sportsbook": "DraftKings if live price qualifies",
+      "line": 21.5,
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "playToLine": 21.5,
+      "maxAcceptableOdds": -110,
+      "estimatedUnderProbabilityPct": 58.0,
+      "fairOdds": -138.1,
+      "estimatedEdgePctAtMinus106": 6.54,
+      "edgeBucket": "6-8%",
+      "confidence": "B",
+      "recommendedStakeUnits": 0.5,
+      "actualUserAction": "RECOMMENDED_NOT_YET_PLACED",
+      "signalTags": ["INJURY", "ROLE_CHANGE", "PACE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+      "note": "Puka Nacua and Jordan Whittington are now officially inactive, removing the prior uncertainty. Deonte Banks is also inactive for New York, a counter-signal for pass efficiency. Keep the prior 58% fair Under probability rather than over-upgrading after inactives. Bet only at Under 21.5 -110 or better; do not transfer the edge to 20.5 without a fresh distribution."
+    },
+    {
+      "decisionId": "2026W2-DART-RUSHYDS-REVERIFY-20260921-062721",
+      "player": "Jaxson Dart",
+      "game": "NYG@LAR",
+      "propType": "RUSH_YARDS",
+      "market": "Rushing Yards",
+      "side": "OVER",
+      "decisionStatus": "BET only at stored price gate",
+      "playToLine": 31.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "B+",
+      "note": "DraftKings public prop-splits board is 33.5, which remains PASS_AFTER_MOVE. No fresh FanDuel 31.5 executable price was independently reverified in this 19:43 ET pass, so do not create a new alert or assume the earlier FanDuel -113 remains live."
+    }
+  ],
+  "freshChecks": [
+    {
+      "source": "Los Angeles Rams official inactives",
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-09-21 19:02",
+      "observedAtEt": "2026-09-21 19:43",
+      "detail": "Puka Nacua (hip), Jordan Whittington (quad), Kamren Kinchens, CJ Daniels, Bill Murray and Ty Simpson are inactive."
+    },
+    {
+      "source": "Los Angeles Rams official inactives / Giants inactive list",
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-09-21 19:02",
+      "observedAtEt": "2026-09-21 19:43",
+      "detail": "Giants CB Deonte Banks (calf) and LB Micah McFadden (neck) are inactive."
+    },
+    {
+      "source": "NFL.com",
+      "classification": "confirmed_fact",
+      "observedAtEt": "2026-09-21 19:43",
+      "detail": "NFL.com independently confirms Puka Nacua is officially inactive for Monday Night Football."
+    },
+    {
+      "source": "Action Network / Sean Koerner",
+      "classification": "model_projection / analyst_opinion",
+      "updatedAtEt": "2026-09-21 14:47",
+      "observedAtEt": "2026-09-21 19:43",
+      "detail": "Stafford Under 21.5 completions was recommended at -106 with 20.8 projected completions and about 58% Under probability. The thesis explicitly anticipated Nacua sitting and Whittington being unavailable, so the official inactives confirm rather than newly create the underlying model edge."
+    },
+    {
+      "source": "DraftKings Network prop-splits board",
+      "classification": "sportsbook_market_reference / betting_splits",
+      "publishedAtEt": "2026-09-21",
+      "observedAtEt": "2026-09-21 19:43",
+      "detail": "Matthew Stafford passing completions remains listed at 21.5. Jaxson Dart rushing yards remains listed at 33.5. The board does not expose current executable juice, so it is line corroboration only."
+    },
+    {
+      "source": "DraftKings Network Kyren Williams receiving analysis",
+      "classification": "analyst_opinion / sportsbook-linked market reference",
+      "publishedAtEt": "2026-09-21",
+      "observedAtEt": "2026-09-21 19:43",
+      "detail": "Kyren Williams Over 15.5 receiving yards was quoted at -114. Week 1 usage was 3 targets, 3 receptions, 24 receiving yards, and the article notes seven straight games with at least 15 receiving yards. PRIME keeps this as WATCH rather than BET because a fresh independent fair-probability estimate after the Nacua/Whittington inactive news was not sufficiently established before kickoff."
+    }
+  ],
+  "marketDiscipline": {
+    "staffordCompletions": "BET/STILL_PLAYABLE only at Under 21.5 -110 or better. Do not chase to Under 20.5 or worse juice without a fresh reprice.",
+    "dartRushing": "PASS_AFTER_MOVE at DraftKings 33.5. Only reconsider at 31.5 or lower and -115 or better with a fresh executable quote.",
+    "kyrenReceiving": "WATCH at Over 15.5 -114 reference; no formal bet without a defensible post-inactive fair probability and live executable confirmation."
+  },
+  "repositoryActions": [
+    "Created this immutable pre-kickoff PRIME checkpoint on main.",
+    "Did not process Grok as new because completedAt is unchanged.",
+    "Did not add a bet_history row because there is no authoritative user placement for Stafford, Dart or Kyren Williams.",
+    "Did not append line_history from the DK splits board because current juice is not exposed; the last verified exact Stafford price remains the prior 18:36 ET public snapshot.",
+    "Repository isolation preserved: NFL player-prop data only."
+  ]
+}
