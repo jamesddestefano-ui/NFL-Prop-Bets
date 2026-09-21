@@ -1,0 +1,86 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-20 21:14:46",
+  "capturedAtUtc": "2026-09-21T01:14:46Z",
+  "priorArchive": "intelligence/archive/2026-09-21T00-06-57Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass; latest completedAt still matches the compact history index."
+  },
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Fresh MNF candidate: Jaxson Dart Over 31.5 rushing yards at DraftKings -113. Covers' sportsbook board was updated at 20:51 ET and listed BetMGM O31.5 -111, DraftKings O31.5 -113, FanDuel O31.5 -113, bet365 O31.5 -115, and worse alternatives. The line has moved from the 30/30.5 area cited by earlier analysis, so this is a reduced-edge entry rather than a chase. Dart rushed for 54 yards in Week 1; Covers notes five scrambles plus three designed runs before three kneels cost five yards. Covers projects 37.6-38.1 rushing yards and about 7.2 carries. PRIME uses a conservative 58% fair hit probability at 31.5, implying fair odds about -138 and a roughly 4.95 percentage-point edge versus -113. BET at 31.5 -115 or better, 0.5u. Do not chase 32.5+ or juice worse than -115.",
+  "decision": {
+    "decisionId": "2026W2-DART-RUSHYDS-20260920-211446",
+    "timestampEt": "2026-09-20 21:14:46",
+    "nflWeek": 2,
+    "gameDate": "2026-09-21",
+    "game": "NYG@LAR",
+    "player": "Jaxson Dart",
+    "team": "NYG",
+    "opponent": "LAR",
+    "propType": "RUSH_YARDS",
+    "market": "Rushing Yards",
+    "side": "OVER",
+    "sportsbook": "DraftKings via Covers",
+    "line": 31.5,
+    "odds": -113,
+    "bestMarketLine": "BetMGM O31.5 -111; DraftKings O31.5 -113; FanDuel O31.5 -113 at Covers 20:51 ET update",
+    "consensusLine": "31.5 across most regulated books; Fanatics 30.5 at punitive -135; Hard Rock 32.5 -115; theScore 34.5 +105",
+    "lineAtFirstDetection": 30.5,
+    "lineAtRecommendation": 31.5,
+    "ourMeanProjection": 38.0,
+    "ourMedianProjection": 35.0,
+    "marketImpliedProbabilityPct": 53.05,
+    "internalFairProbabilityPct": 58.0,
+    "fairOdds": -138.1,
+    "estimatedEdgePct": 4.95,
+    "edgeBucket": "4-6%",
+    "decisionStatus": "BET",
+    "steamState": "REDUCED_EDGE",
+    "confidence": "B+",
+    "playToLine": 31.5,
+    "maxAcceptableOdds": -115,
+    "recommendedStakeUnits": 0.5,
+    "entryTiming": "PRE_GAME",
+    "signalTags": ["RUSH_SHARE", "GAME_SCRIPT", "MATCHUP", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+    "correlationTags": [],
+    "reason": "Dart's Week 1 rushing usage included five scrambles and three designed runs, producing 54 yards despite three kneels costing five yards. The Rams are favored by roughly a touchdown, raising the probability of dropbacks and scramble opportunities. Covers' current model is 37.6-38.1 yards with 7.2 carries. The market has already moved roughly one yard from earlier 30/30.5 references, so PRIME discounts the model and caps the wager at 31.5/-115 rather than transferring the original edge upward.",
+    "priceDiscipline": "BET only at 31.5 and -115 or better. PASS_AFTER_MOVE at 32.5+ at standard juice, or if 31.5 becomes worse than -115. Fanatics 30.5 -135 is not preferred because the price is too expensive despite the better threshold."
+  },
+  "sourceSeparation": {
+    "confirmedFacts": [
+      "Covers player page lists NYG@LAR at 8:15 PM ET on Sep. 21 and sportsbook odds updated Sep. 20 at 20:51 ET.",
+      "DraftKings is listed at Jaxson Dart Over 31.5 rushing yards -113; BetMGM -111 and FanDuel -113 at the same threshold.",
+      "Jaxson Dart rushed for 54 yards in the Giants' Week 1 win over Dallas.",
+      "SoFi Stadium is an indoor environment, so weather is not a material variable."
+    ],
+    "attributedReporting": [
+      "Giants/Rams injury reporting indicates Rams edge rusher Myles Garrett is on injured reserve; Rams DT Aaron Donald said returning Monday was the plan.",
+      "Rams WR Puka Nacua is questionable and Jordan Whittington doubtful; these do not directly change Dart's rushing role."
+    ],
+    "modelProjections": [
+      "Covers projects approximately 37.6-38.1 rushing yards and 7.2 carries for Dart."
+    ],
+    "analystOpinion": [
+      "Covers' Josh Inglis lists Dart 30+ rushing yards as his top Giants-Rams player prop, citing five Week 1 scrambles, three designed runs, and a likely trailing script."
+    ],
+    "speculation": [
+      "A likely negative Giants game script could increase dropbacks and scramble opportunities, but the absence of Myles Garrett may reduce some pressure-driven scrambling while Aaron Donald's expected return restores interior pressure."
+    ]
+  },
+  "existingExposure": {
+    "confirmedOpenWeek2Parlay": "Purdy 16+ completions / Jonathan Taylor 15+ receiving yards remains open in parlay_history as of the prior archive; Purdy leg secured.",
+    "confirmedWeek2StraightBet": "Dalton Schultz 45+ receiving yards -109 settled WIN in bet_history.",
+    "dartExposureBeforeThisDecision": "No confirmed Week 2 Jaxson Dart wager or recommendation found in repository search."
+  },
+  "repositoryActions": [
+    "Created this immutable MNF checkpoint on main.",
+    "Did not treat Grok as new because completedAt is unchanged.",
+    "Did not create a placed bet in bet_history; this is a recommendation only until authoritative user ticket confirmation exists."
+  ]
+}
