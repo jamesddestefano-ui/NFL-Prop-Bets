@@ -1,0 +1,125 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-21 19:49:20",
+  "capturedAtUtc": "2026-09-21T23:49:20Z",
+  "priorArchive": "intelligence/archive/2026-09-21T22-36-58Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index and the most recently processed completedAt."
+  },
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "Official MNF inactives are now posted, resolving the main pregame uncertainty after the 18:36 ET checkpoint: Rams WRs Puka Nacua and Jordan Whittington are inactive; Giants CB Deonte Banks and LB Micah McFadden are also inactive. Matthew Stafford Under 21.5 completions remains a price-gated BET only at -110 or better; PRIME does not increase the prior 58% fair Under probability because the analytical thesis already anticipated Nacua sitting and Banks' absence is a countervailing efficiency boost. Jaxson Dart Over rushing has materially worsened on price: current public FanDuel references now show 33.5 -113 rather than the stored 31.5 -113, so the prior FanDuel BET state becomes PASS_AFTER_MOVE at 33.5. Kyren Williams receiving is promoted only to WATCH at DraftKings 14.5 -111; the post-inactive target-vacuum thesis is plausible but does not yet clear PRIME's robust 4-5 percentage-point edge requirement.",
+  "decisions": [
+    {
+      "decisionId": "2026W2-STAFFORD-COMP-U-20260921-162156",
+      "player": "Matthew Stafford",
+      "game": "NYG@LAR",
+      "propType": "OTHER",
+      "market": "Passing Completions",
+      "side": "UNDER",
+      "sportsbook": "DraftKings",
+      "line": 21.5,
+      "odds": -106,
+      "decisionStatus": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "playToLine": 21.5,
+      "maxAcceptableOdds": -110,
+      "estimatedUnderProbabilityPct": 58.0,
+      "fairOdds": -138.1,
+      "estimatedEdgePct": 6.54,
+      "edgeBucket": "6-8%",
+      "confidence": "B",
+      "recommendedStakeUnits": 0.5,
+      "actualUserAction": "RECOMMENDED_NOT_YET_PLACED",
+      "signalTags": "INJURY|MARKET_MOVE|PROJECTION_DISAGREEMENT|EXPERT_CONSENSUS|DEFENSIVE_INJURY",
+      "note": "Keep the previously stored probability rather than double-counting Puka's inactive status. Sean Koerner's prior projection already anticipated Nacua sitting; Deonte Banks being inactive pushes in the opposite direction by improving Stafford's efficiency environment. Public Action/Koerner context still references U21.5 -106; verify the user's live book before placement. Do not transfer the edge to U20.5."
+    },
+    {
+      "decisionId": "2026W2-DART-RUSHYDS-MOVE-20260921-194920",
+      "player": "Jaxson Dart",
+      "game": "NYG@LAR",
+      "propType": "RUSH_YARDS",
+      "market": "Rushing Yards",
+      "side": "OVER",
+      "sportsbook": "FanDuel",
+      "line": 33.5,
+      "odds": -113,
+      "decisionStatus": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "playToLine": 31.5,
+      "maxAcceptableOdds": -115,
+      "confidence": "B+",
+      "actualUserAction": "NO_BET_CONFIRMED",
+      "signalTags": "MARKET_MOVE|RUSH_SHARE|GAME_SCRIPT|PROJECTION_DISAGREEMENT|EXPERT_CONSENSUS",
+      "note": "FanDuel Research's current dynamic market display and a separate multi-book comparison now corroborate O33.5 -113 at FanDuel, two yards beyond PRIME's stored 31.5 play-to. The old 58% probability at 31.5 is not transferred to 33.5. Do not chase. Reopen only if a live regulated book genuinely returns to 31.5 at -115 or better or new information justifies a fresh distribution."
+    },
+    {
+      "decisionId": "2026W2-KYREN-RECYDS-WATCH-20260921-194920",
+      "player": "Kyren Williams",
+      "game": "NYG@LAR",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "sportsbook": "DraftKings via public multi-book board",
+      "line": 14.5,
+      "odds": -111,
+      "decisionStatus": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "confidence": "C+",
+      "actualUserAction": "NO_ACTION",
+      "signalTags": "INJURY|ROUTE_SHARE|TARGET_SHARE|ROLE_CHANGE|PROJECTION_DISAGREEMENT",
+      "note": "Puka Nacua and Jordan Whittington being inactive plausibly increases short-area opportunities. Week 1 usage was 20 routes, 3 targets, 3 catches and 24 receiving yards; a current Covers computer projection is only 17.74 yards around a 15.5 line. That is not enough independent probability support to force a formal BET at -111. Do not recommend solely from projection-above-line logic."
+    }
+  ],
+  "freshChecks": [
+    {
+      "source": "Los Angeles Rams official inactives",
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-09-21 19:02",
+      "observedAtEt": "2026-09-21 19:49",
+      "detail": "Puka Nacua and Jordan Whittington are inactive for NYG@LAR."
+    },
+    {
+      "source": "New York Giants official inactives",
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-09-21 18:45",
+      "observedAtEt": "2026-09-21 19:49",
+      "detail": "Deonte Banks and Micah McFadden are inactive for NYG@LAR."
+    },
+    {
+      "source": "Action Network / Sean Koerner",
+      "classification": "model_projection / analyst_opinion / market_reference",
+      "observedAtEt": "2026-09-21 19:49",
+      "detail": "Stafford Under 21.5 completions remains referenced at -106 with prior 20.8-completion projection and approximately 58% Under probability."
+    },
+    {
+      "source": "FanDuel Research",
+      "classification": "sportsbook-linked market reference",
+      "observedAtEt": "2026-09-21 19:49",
+      "detail": "Dynamic Jaxson Dart rushing market now displays Over 33.5 at -113, materially worse than PRIME's stored 31.5 -113 entry."
+    },
+    {
+      "source": "PropCruncher multi-book comparison",
+      "classification": "sportsbook_market_reference",
+      "observedAtEt": "2026-09-21 19:49",
+      "detail": "Book-specific comparison corroborates FanDuel Jaxson Dart rushing Over 33.5 -113."
+    }
+  ],
+  "marketDiscipline": {
+    "staffordCompletions": "BET only at Under 21.5 -110 or better. Do not take Under 20.5 without a fresh probability recalculation.",
+    "dartRushing": "PASS_AFTER_MOVE at FanDuel 33.5 -113 and DraftKings 33.5. Reopen only at Over 31.5 -115 or better unless a fresh model recalculation supports a higher threshold.",
+    "kyrenReceiving": "WATCH only at Over 14.5 -111. Do not elevate solely because Puka/Whittington are out."
+  },
+  "repositoryActions": [
+    "Created this immutable PRIME checkpoint on main.",
+    "Did not process Grok as new because completedAt is unchanged.",
+    "Did not add a bet_history row because there is still no authoritative user placement for Stafford, Dart or Kyren.",
+    "Preserved the material Dart line move and current pass state in this checkpoint rather than treating the old 31.5 price as current truth.",
+    "Repository isolation preserved: NFL player-prop data only."
+  ]
+}
