@@ -1,0 +1,84 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-21 06:27:21",
+  "capturedAtUtc": "2026-09-21T10:27:21Z",
+  "priorArchive": "intelligence/archive/2026-09-21T09-29-19Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass: grok_pulse_latest.json and the compact grok_pulse_history.jsonl index still share the same completedAt."
+  },
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "MNF Jaxson Dart rushing is freshly actionable again, but line-shopping matters. Covers' sportsbook board says odds were updated 05:59 ET and currently lists FanDuel Over 31.5 rushing yards -113, bet365 Over 31.5 -115 and BetRivers Over 31.5 -115. DraftKings has moved beyond PRIME's stored play-to to Over 32.5 -115, so DK is PASS_AFTER_MOVE. PRIME retains the archived 58% fair probability at 31.5, implying fair odds about -138 and a 4.95 percentage-point raw edge versus FanDuel -113. Recommended stake remains 0.5u; do not increase size because the thesis is unchanged. Do not chase 32.5+.",
+  "decision": {
+    "decisionId": "2026W2-DART-RUSHYDS-REVERIFY-20260921-062721",
+    "priorDecisionId": "2026W2-DART-RUSHYDS-20260920-211446",
+    "timestampEt": "2026-09-21 06:27:21",
+    "nflWeek": 2,
+    "gameDate": "2026-09-21",
+    "game": "NYG@LAR",
+    "player": "Jaxson Dart",
+    "team": "NYG",
+    "opponent": "LAR",
+    "propType": "RUSH_YARDS",
+    "market": "Rushing Yards",
+    "side": "OVER",
+    "preferredSportsbook": "FanDuel via Covers",
+    "line": 31.5,
+    "odds": -113,
+    "bestMarketLine": "FanDuel O31.5 -113; bet365 O31.5 -115; BetRivers O31.5 -115; DraftKings O32.5 -115; Fanatics O30.5 -135",
+    "consensusLine": "30.5-32.5 with most playable standard-price books centered at 31.5-32.5",
+    "lineAtFirstDetection": 30.5,
+    "lineAtOriginalRecommendation": 31.5,
+    "currentPreferredLine": 31.5,
+    "ourMeanProjection": 38.0,
+    "ourMedianProjection": 35.0,
+    "externalProjection": "Covers 37.6-38.06 rushing yards and 7.2 carries",
+    "marketImpliedProbabilityPct": 53.05,
+    "internalFairProbabilityPct": 58.0,
+    "fairOdds": -138.1,
+    "estimatedEdgePct": 4.95,
+    "edgeBucket": "4-6%",
+    "decisionStatus": "BET",
+    "steamState": "STILL_PLAYABLE",
+    "confidence": "B+",
+    "playToLine": 31.5,
+    "maxAcceptableOdds": -115,
+    "recommendedStakeUnits": 0.5,
+    "entryTiming": "PRE_GAME",
+    "signalTags": ["RUSH_SHARE", "GAME_SCRIPT", "MATCHUP", "MARKET_MOVE", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+    "correlationTags": [],
+    "reason": "The football thesis is unchanged: Dart rushed for 54 yards in Week 1 and Giants reporting notes 59 yards before three victory-formation attempts; Covers charted five scrambles plus three designed runs and projects about 37.6-38.1 yards with 7.2 carries. The fresh material change is market verification: FanDuel is back at the exact archived play-to threshold and price, while DraftKings has moved one yard beyond it. Official final injury reporting lists only Deonte Banks and Micah McFadden questionable for New York, so prior Andrew Thomas/Francis Mauigoa limitations did not carry final game designations. SoFi is indoors.",
+    "priceDiscipline": "BET FanDuel O31.5 -113 for 0.5u if still live. bet365 or BetRivers O31.5 -115 are the ceiling. PASS DraftKings O32.5 -115 and any 32.5+ standard-price Over absent a fresh recalculation. Fanatics O30.5 -135 is not preferred because the extra yard is too expensive."
+  },
+  "sourceSeparation": {
+    "confirmedFacts": [
+      "Covers' Jaxson Dart player page states odds were last updated Mon Sep 21 at 05:59 ET and lists FanDuel O31.5 -113, bet365 O31.5 -115, BetRivers O31.5 -115, DraftKings O32.5 -115, and Fanatics O30.5 -135 for rushing yards.",
+      "Giants official final injury reporting lists Deonte Banks and Micah McFadden questionable; prior offensive-line limitations are not listed with final game designations.",
+      "Rams final injury reporting lists Puka Nacua questionable, Jordan Whittington doubtful and Kamren Kinchens out.",
+      "SoFi Stadium is an indoor venue."
+    ],
+    "attributedReport": [
+      "Aaron Donald said his plan is to return Monday night."
+    ],
+    "modelProjection": [
+      "Covers projects Dart for about 37.6-38.06 rushing yards and 7.2 carries."
+    ],
+    "analystOpinion": [
+      "Covers lists Dart 30+ rushing yards as its top Giants-Rams player prop, citing five Week 1 scrambles, three designed runs and likely increased scramble opportunity in a trailing script."
+    ],
+    "speculation": [
+      "A negative Giants game script may increase dropbacks and scramble volume, but that remains game-script dependent."
+    ]
+  },
+  "repositoryActions": [
+    "Created this immutable PRIME checkpoint on main.",
+    "Did not process Grok as new because completedAt is unchanged.",
+    "No bet_history entry was created because no authoritative user ticket confirms a Dart wager.",
+    "Repository isolation preserved: NFL player-prop data only."
+  ]
+}
