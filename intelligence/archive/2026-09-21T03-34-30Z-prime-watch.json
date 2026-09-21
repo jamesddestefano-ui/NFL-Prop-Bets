@@ -1,0 +1,125 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-20 23:34:30",
+  "capturedAtUtc": "2026-09-21T03:34:30Z",
+  "priorArchive": "intelligence/archive/2026-09-21T02-18-13Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. The live completedAt still matches the most recently processed compact-history entry."
+  },
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "The confirmed Week 2 DraftKings Purdy 16+ completions / Jonathan Taylor 15+ receiving-yards parlay is mathematically secured as a WIN. Purdy had already cleared his threshold; ESPN's live Colts-Chiefs box score at 23:34 ET showed Taylor with 4 receptions for 40 receiving yards with 0:40 left in the fourth quarter, clearing 15+ by 25 yards. The $25 ticket at -103 is therefore recorded as a $49.27 payout / $24.27 profit, pending only ordinary sportsbook grading. No new MNF prop clears PRIME's price-verification and edge requirements at this checkpoint.",
+  "existingTicketUpdate": {
+    "parlayId": "USER-DK-PARLAY-20260919-2057-PURDY-TAYLOR",
+    "sportsbook": "DraftKings",
+    "combinedOdds": -103,
+    "stakeCash": 25.00,
+    "payoutCash": 49.27,
+    "profitCash": 24.27,
+    "result": "WIN",
+    "legs": [
+      {
+        "leg": "Brock Purdy 16+ passing completions",
+        "result": "WIN",
+        "evidence": "Threshold had already been secured earlier Sunday with at least 20 completions against Miami."
+      },
+      {
+        "leg": "Jonathan Taylor 15+ receiving yards",
+        "result": "WIN",
+        "evidence": "ESPN live box score at 23:34 ET: 4 receptions, 40 receiving yards, 4 targets with 0:40 left in Q4 at Kansas City."
+      }
+    ],
+    "bookGradingNote": "The user has not supplied a final DraftKings settlement screenshot. Repository result is based on mathematically secured live statistics; no sportsbook grading detail is invented."
+  },
+  "mnfState": {
+    "game": "NYG@LAR",
+    "jaxsonDartRushing": {
+      "priorDecisionId": "2026W2-DART-RUSHYDS-20260920-211446",
+      "priorStatus": "BET",
+      "priorRecommendation": "Over 31.5 rushing yards at DraftKings -113",
+      "playToLine": 31.5,
+      "maxAcceptableOdds": -115,
+      "currentRunState": "NO_NEW_VERIFIED_EXECUTABLE_BOOK_PRICE",
+      "marketContext": "Current public aggregate/context remains around 31.5, but this run did not verify a fresh sportsbook-specific executable pair after the prior recommendation. Do not carry -113 forward as current truth.",
+      "steamProtection": "Do not chase 32.5+ or juice worse than -115."
+    },
+    "pukaNacua": {
+      "officialStatus": "QUESTIONABLE",
+      "classification": "attributed_report",
+      "report": "ESPN's Adam Schefter reported Nacua is trending in the wrong direction and is more likely to be sidelined Monday than play. Nacua missed Friday and Saturday practice; official Monday inactive status is not yet available.",
+      "propImpact": "Potentially bullish for Davante Adams / Rams secondary receiving options and could alter Rams run/pass distribution, but current markets have already repriced materially and PRIME will not front-run the official inactive without a verified price-adjusted edge.",
+      "action": "WATCH / REPRICE AFTER OFFICIAL INACTIVES"
+    },
+    "freshCandidateReview": [
+      {
+        "player": "Kyren Williams",
+        "propType": "RECEIVING_YARDS",
+        "reference": "Action Network O14.5 -111 DraftKings at 22:06 ET",
+        "status": "WATCH",
+        "reason": "Same number as prior archive; projection disagreement remains too wide to justify a new alert."
+      },
+      {
+        "player": "Jaxson Dart",
+        "propType": "PASS_YARDS",
+        "reference": "Action Network O213.5 -114 FanDuel at 22:06 ET",
+        "status": "WATCH",
+        "reason": "No material change from prior archive; independent projections remain dispersed."
+      },
+      {
+        "player": "Malik Nabers",
+        "propType": "RECEIVING_YARDS",
+        "reference": "Action Network O63.5 -114 DraftKings at 22:06 ET",
+        "status": "PASS",
+        "reason": "No material change from prior archive; role is bullish but price/projection disagreement remains insufficient for PRIME's edge threshold."
+      }
+    ]
+  },
+  "sourceClassifications": {
+    "confirmed_fact": [
+      "ESPN live box score showed Jonathan Taylor at 4 receptions for 40 receiving yards with 0:40 left in the fourth quarter, which mathematically clears the user's 15+ leg.",
+      "Puka Nacua is officially questionable and missed Friday and Saturday practice."
+    ],
+    "attributed_report": [
+      "Adam Schefter reported Puka Nacua is trending in the wrong direction and more likely to sit Monday than play."
+    ],
+    "model_projection": [],
+    "analyst_opinion": [
+      "Action Network continues to list Kyren Williams O14.5 receiving -111 DK, Jaxson Dart O213.5 passing -114 FD, and Malik Nabers O63.5 receiving -114 DK in its 22:06 ET MNF article."
+    ],
+    "speculation": [
+      "If Nacua is inactive, Rams target redistribution should favor other pass catchers, but the market may already reflect much of that expectation."
+    ]
+  },
+  "sources": [
+    {
+      "type": "live_box_score",
+      "source": "ESPN",
+      "url": "https://africa.espn.com/nfl/boxscore/_/gameId/401872945",
+      "observedAtEt": "2026-09-20 23:34"
+    },
+    {
+      "type": "attributed_injury_report",
+      "source": "NBC Sports relaying Adam Schefter",
+      "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-20/schefter-nacua-trending-in-wrong-direction",
+      "publishedDate": "2026-09-20"
+    },
+    {
+      "type": "analyst_opinion_and_market_reference",
+      "source": "Action Network",
+      "url": "https://www.actionnetwork.com/nfl/giants-vs-rams-player-props-jaxson-dart-malik-nabers-kyren-williams",
+      "updatedAtEt": "2026-09-20 22:06"
+    }
+  ],
+  "repositoryActions": [
+    "Updated data/parlay_history.csv to settle the confirmed Purdy/Taylor ticket as WIN after both thresholds were mathematically cleared.",
+    "Created this immutable PRIME checkpoint on main.",
+    "Did not process Grok as new because completedAt is unchanged.",
+    "Did not convert any prior Mahomes or other recommendation into bet_history because placement remains unconfirmed.",
+    "Did not issue a new MNF bet from stale or non-executable market references."
+  ]
+}
