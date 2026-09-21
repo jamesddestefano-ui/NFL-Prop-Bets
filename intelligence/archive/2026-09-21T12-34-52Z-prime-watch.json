@@ -1,0 +1,100 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-21 08:34:52",
+  "capturedAtUtc": "2026-09-21T12:34:52Z",
+  "priorArchive": "intelligence/archive/2026-09-21T11-07-04Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the most recently processed completedAt in grok_pulse_history.jsonl."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No material change requiring a user alert at the Monday 08:34 ET checkpoint. Jaxson Dart rushing remains the only actionable MNF player-prop thesis, but only at the stored price discipline: Over 31.5 rushing yards at -115 or better. The last timestamped regulated-book verification in the durable system remains FanDuel via Covers O31.5 -113 from the 05:59 ET board; no fresher sportsbook-specific executable pair was verified in this pass, so PRIME does not overwrite it or treat secondary/exchange numbers as sportsbook truth. Fresh independent context remains supportive but not unanimous: Covers currently projects 38.06 rushing yards and 7.2 carries, FantasyPros' Week 2 projection is 33.4 rushing yards on 6.7 attempts, and Statz projects about 40 rushing yards. BettingPros separately recommends Over 6.5 rush attempts -111, supporting the volume path without creating a second same-thesis wager. Official injury status is unchanged: Puka Nacua remains Questionable, Jordan Whittington Doubtful, Kamren Kinchens Out; Giants Deonte Banks and Micah McFadden remain Questionable while Andrew Thomas and Sisi Mauigoa have no final game designation. The previously processed report that Nacua is trending the wrong way remains old information, not a new catalyst. SoFi is indoors; weather remains immaterial.",
+  "currentDecision": {
+    "player": "Jaxson Dart",
+    "game": "NYG@LAR",
+    "propType": "RUSH_YARDS",
+    "market": "Rushing Yards",
+    "side": "OVER",
+    "decisionStatus": "BET",
+    "steamState": "STILL_PLAYABLE",
+    "storedPreferredSportsbook": "FanDuel via Covers",
+    "storedLine": 31.5,
+    "storedOdds": -113,
+    "playToLine": 31.5,
+    "maxAcceptableOdds": -115,
+    "internalFairProbabilityPct": 58.0,
+    "fairOdds": -138.1,
+    "storedEdgePctAtMinus113": 4.95,
+    "edgeBucket": "4-6%",
+    "recommendedStakeUnits": 0.5,
+    "entryTiming": "PRE_GAME",
+    "correlationTags": [],
+    "exposureStatus": "RECOMMENDED_NOT_YET_PLACED",
+    "priceDiscipline": "Do not chase 32.5+. Preserve FanDuel 31.5 -113 as the last timestamped regulated-book verification. Secondary prediction-market 29.5 thresholds are not treated as sportsbook truth or merged into a fictional consensus price."
+  },
+  "marketChecks": [
+    {
+      "source": "Covers NFL player-props page",
+      "observedAtEt": "2026-09-21 08:34",
+      "classification": "model_projection / market_context",
+      "detail": "Current page shows Dart rushing yards centered at 31.5 with a 38.06-yard projection and 7.2 projected carries. Its separate exchange/prediction-market panel shows 29.5 thresholds, which are preserved only as non-sportsbook market context and are not substituted for regulated-book line truth."
+    },
+    {
+      "source": "FantasyPros Week 2 projection",
+      "observedAtEt": "2026-09-21 08:34",
+      "classification": "model_projection",
+      "detail": "FantasyPros currently projects Dart for 6.7 rush attempts and 33.4 rushing yards. This is supportive of an Over 31.5 directionally but materially lower than Covers and is retained as projection disagreement rather than ignored."
+    },
+    {
+      "source": "Statz NFL Giants-Rams preview",
+      "observedAtEt": "2026-09-21 08:34",
+      "classification": "model_projection",
+      "detail": "Statz projects about 40 Dart rushing yards and also assigns significant rushing-TD probability. This supports the rushing-volume thesis but is not sportsbook truth."
+    },
+    {
+      "source": "BettingPros MNF player props",
+      "observedAtEt": "2026-09-21 08:34",
+      "classification": "analyst_opinion / market_context",
+      "detail": "BettingPros recommends Dart Over 6.5 rush attempts at -111, citing 11 Week 1 carries and six of 12 2025 starts with 7+ attempts. This is same-thesis confirmation only; PRIME does not stack a second Dart wager without a separate edge/exposure review."
+    },
+    {
+      "source": "Giants official injury report",
+      "observedAtEt": "2026-09-21 08:34",
+      "classification": "confirmed_fact",
+      "detail": "Final game statuses remain Deonte Banks Q, Micah McFadden Q, Puka Nacua Q, Jordan Whittington Doubtful, Kamren Kinchens Out; Andrew Thomas and Sisi Mauigoa have no final game designation."
+    }
+  ],
+  "sourceSeparation": {
+    "confirmedFacts": [
+      "The Giants' official injury report still lists Deonte Banks and Micah McFadden as Questionable; Andrew Thomas and Sisi Mauigoa have no final game designation.",
+      "Puka Nacua remains Questionable, Jordan Whittington Doubtful, and Kamren Kinchens Out.",
+      "SoFi Stadium is an indoor venue.",
+      "The durable PRIME board's last timestamped regulated-book verification remains FanDuel via Covers at Dart Over 31.5 -113 from the 05:59 ET market update."
+    ],
+    "attributedReporting": [
+      "The earlier Adam Schefter report that Nacua is trending in the wrong direction is already processed and is not new in this run."
+    ],
+    "modelProjection": [
+      "Covers currently projects Dart for 38.06 rushing yards and 7.2 carries.",
+      "FantasyPros currently projects Dart for 33.4 rushing yards and 6.7 attempts.",
+      "Statz currently projects approximately 40 Dart rushing yards."
+    ],
+    "analystOpinion": [
+      "BettingPros recommends Dart Over 6.5 rush attempts -111; this is supportive same-thesis context, not an additional PRIME bet."
+    ],
+    "speculation": [
+      "If Nacua is inactive, Rams target distribution would likely consolidate, but no Rams receiving prop is promoted before official inactive confirmation and fresh sportsbook repricing."
+    ]
+  },
+  "repositoryActions": [
+    "Created this immutable PRIME checkpoint on main.",
+    "Did not process Grok as new because completedAt is unchanged.",
+    "Did not alter live_prop_board, decision_ledger, line_history, bet_history, missed_bets, pass_ledger, parlay_history or weekly_attribution because no new sportsbook-verified price/status change or confirmed user wager was established.",
+    "Repository isolation preserved: NFL player-prop data only."
+  ]
+}
