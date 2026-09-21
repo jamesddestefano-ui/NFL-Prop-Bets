@@ -1,0 +1,101 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-21 16:21:56",
+  "capturedAtUtc": "2026-09-21T20:21:56Z",
+  "priorArchive": "intelligence/archive/2026-09-21T18-52-31Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history index."
+  },
+  "materialChange": true,
+  "userAlert": true,
+  "summary": "New actionable MNF prop after the 14:52 ET checkpoint: Matthew Stafford Under 21.5 pass completions at DraftKings -106. Action Network/Sean Koerner updated at 14:47 ET with a 20.8-completion projection and about 58% Under probability. A separate current public line-shopping page corroborates DraftKings 21.5 with Over -120 / Under -106, while BetMGM is already 20.5. The exact DraftKings pair is price-sensitive and materially better than moving to 20.5. Existing Jaxson Dart Over 31.5 rushing at FanDuel -113 remains unchanged and still within its stored 31.5/-115 ceiling; it is not re-alerted as new.",
+  "newDecision": {
+    "decisionId": "2026W2-STAFFORD-COMP-U-20260921-162156",
+    "player": "Matthew Stafford",
+    "game": "NYG@LAR",
+    "propType": "PASS_ATTEMPTS",
+    "market": "Passing Completions",
+    "side": "UNDER",
+    "decisionStatus": "BET",
+    "steamState": "BET_NOW",
+    "sportsbook": "DraftKings",
+    "line": 21.5,
+    "odds": -106,
+    "observedAtEt": "2026-09-21 16:21",
+    "bestMarketLine": "DraftKings U21.5 -106",
+    "consensusLine": "21.5, with BetMGM already at 20.5",
+    "ourMeanProjection": 20.8,
+    "ourMedianProjection": 21.0,
+    "estimatedUnderProbabilityPct": 58.0,
+    "estimatedOverProbabilityPct": 42.0,
+    "fairOdds": -138.1,
+    "marketImpliedProbabilityPct": 51.46,
+    "noVigUnderProbabilityPct": 48.54,
+    "estimatedEdgePct": 6.54,
+    "edgeBucket": "6-8%",
+    "confidence": "B",
+    "playToLine": 21.5,
+    "maxAcceptableOdds": -110,
+    "recommendedStakeUnits": 0.5,
+    "entryTiming": "PRE_GAME",
+    "signalTags": ["INJURY", "PACE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT", "EXPERT_CONSENSUS"],
+    "correlationTags": ["SAME_THESIS"],
+    "thesisId": "STAFFORD_LOW_COMPLETION_VOLUME_PUKA_STATUS",
+    "actualUserAction": "RECOMMENDED_NOT_YET_PLACED",
+    "priceDiscipline": "Play Under 21.5 only at -110 or better. Do not chase Under 20.5 without a fresh probability recalculation; do not transfer the 21.5 edge to a lower threshold.",
+    "rationale": "Koerner projects 20.8 completions and about 58% Under, citing likely lower total snap volume, a more run-oriented Rams approach, deeper passing concepts if Puka Nacua sits, and a potentially run-heavy Giants offense. Puka remains officially questionable, while current reporting says he is unlikely to play and Jordan Whittington is doubtful. Public disagreement exists, so confidence/stake remain controlled rather than upgraded."
+  },
+  "carryForwardDecision": {
+    "decisionId": "2026W2-DART-RUSHYDS-REVERIFY-20260921-062721",
+    "player": "Jaxson Dart",
+    "market": "Rushing Yards",
+    "side": "OVER",
+    "sportsbook": "FanDuel",
+    "line": 31.5,
+    "odds": -113,
+    "decisionStatus": "BET",
+    "steamState": "STILL_PLAYABLE",
+    "playToLine": 31.5,
+    "maxAcceptableOdds": -115,
+    "note": "Fresh FanDuel Research display at 16:16 ET still shows O31.5 -113. This is unchanged from the prior alert and therefore not a new notification trigger."
+  },
+  "freshChecks": [
+    {
+      "source": "Action Network / Sean Koerner",
+      "classification": "model_projection / analyst_opinion",
+      "publishedAtEt": "2026-09-21 14:47",
+      "observedAtEt": "2026-09-21 16:21",
+      "detail": "Matthew Stafford Under 21.5 completions -106; projection 20.8 completions and approximately 58% chance to stay Under."
+    },
+    {
+      "source": "FantasyTeamAdvice public multi-book prop board",
+      "classification": "sportsbook_market_reference",
+      "observedAtEt": "2026-09-21 16:21",
+      "detail": "DraftKings Stafford completions 21.5, Over -120 / Under -106; BetMGM 20.5, Over -120 / Under -110. This corroborates the exact DraftKings threshold/price but remains public-board evidence rather than the user's app truth."
+    },
+    {
+      "source": "Reuters",
+      "classification": "attributed_report",
+      "observedAtEt": "2026-09-21 16:21",
+      "detail": "Puka Nacua may miss MNF with a hip issue; he has not practiced since Friday and remains not formally ruled out in the latest report. Jordan Whittington is doubtful."
+    },
+    {
+      "source": "FanDuel Research",
+      "classification": "sportsbook-linked market / analyst_opinion",
+      "observedAtEt": "2026-09-21 16:16",
+      "detail": "Jaxson Dart Over 31.5 rushing yards remains displayed at -113. No line/price change from PRIME's prior playable state."
+    }
+  ],
+  "repositoryActions": [
+    "Created this immutable PRIME checkpoint on main.",
+    "Did not process Grok as new because completedAt is unchanged.",
+    "Did not add a bet_history row because no authoritative user placement exists for Stafford or Dart.",
+    "Preserved exact public sportsbook references and did not invent a current user-app line.",
+    "Repository isolation preserved: NFL player-prop data only."
+  ]
+}
