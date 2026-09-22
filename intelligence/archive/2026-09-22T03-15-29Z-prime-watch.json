@@ -1,0 +1,79 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-21 23:15:29",
+  "capturedAtUtc": "2026-09-22T03:15:29Z",
+  "priorArchive": "intelligence/archive/2026-09-22T01-54-04Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching grok_pulse_history.jsonl and the most recently processed completedAt."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "Week 2 is closed with no user action required. The Rams defeated the Giants 28-6. Official Rams postgame reporting records Matthew Stafford at 22 completions on 31 attempts, so PRIME's unplaced Under 21.5 completions recommendation lost by one-half completion; the user's no-bet execution remains correct because the live DraftKings app did not expose the standard Under and PRIME declined to manufacture a substitute. Jaxson Dart left after the opening drive with a left-knee injury and was later ruled out; no user Dart ticket existed, and the in-game AVOID remains correct process. No verified postgame or early Week 3 player-prop line/price clears PRIME thresholds in this pass, so no wager is recommended and no notification is warranted.",
+  "freshChecks": [
+    {
+      "source": "Los Angeles Rams official game recap",
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-09-21 20:12",
+      "observedAtEt": "2026-09-21 23:15",
+      "sourceUrl": "https://www.therams.com/news/game-recap-rams-defeat-giants-28-6-on-monday-night-football",
+      "detail": "Rams 28, Giants 6. Stafford finished 22-for-31 for 327 yards, four touchdowns and one interception. Dart sustained a knee injury at the end of the opening drive and was later downgraded to out in the third quarter."
+    },
+    {
+      "source": "ESPN final LV@LAC game summary",
+      "classification": "confirmed_box_score",
+      "observedAtEt": "2026-09-21 23:15",
+      "sourceUrl": "https://www.espn.co.uk/nfl/game?gameId=401872941",
+      "detail": "Raiders beat Chargers 26-14. The settled missed-bet review uses the final Justin Herbert rushing result already independently verified as 3 carries for 2 yards; no user Herbert ticket existed."
+    }
+  ],
+  "settlementLearning": {
+    "staffordCompletions": {
+      "recommendation": "UNDER 21.5 at DraftKings -106; play only through -110",
+      "userBet": false,
+      "actualResult": "22 completions on 31 attempts",
+      "outcome": "LOSS",
+      "process": "B-. The 58% fair-Under estimate missed by one completion, but execution discipline was correct because the user's live DK app did not expose the standard market. No substitute bet was forced."
+    },
+    "dartRushing": {
+      "recommendation": "Earlier OVER 31.5 -113 FanDuel, later PASS_AFTER_MOVE at 33.5 -113",
+      "userBet": false,
+      "actualResult": "Exited after opening drive with left-knee injury; later ruled out",
+      "outcome": "Not used for probability calibration because the injury invalidated the pregame distribution",
+      "process": "A for the in-game AVOID and no-chase handling."
+    },
+    "herbertRushingMissed": {
+      "recommendation": "OVER 19.5 -113 FanDuel",
+      "userBet": false,
+      "actualResult": "2 rushing yards on 3 carries",
+      "outcome": "LOSS",
+      "process": "B-. The model overestimated the rushing-volume floor; future QB rushing edges require tighter designed-run versus scramble attribution."
+    }
+  },
+  "week2Attribution": {
+    "straightBetPlCash": 31.73,
+    "parlayPlCash": -36.73,
+    "totalPlCash": -5.00,
+    "totalRecordedStakeCash": 121.00,
+    "roiPct": -4.13,
+    "clvStatus": "Unavailable for the confirmed Week 2 straight bets; closing lines/prices are left blank rather than inferred.",
+    "coreLearning": "Confirmed Week 2 straight bets were profitable while parlays produced the weekly drawdown. Preserve reduced-threshold discipline and keep parlays analytically separate. Tighten QB rushing role assumptions and continue strict no-chase/no-substitute market discipline."
+  },
+  "marketDiscipline": {
+    "currentAction": "NO_BET",
+    "week3": "Wait for verifiable openers and role/injury information rather than forcing a Monday-night postgame entry.",
+    "nextFocus": "Tuesday opener capture: exact sportsbook, line, odds, consensus, early role projections and injury carryover."
+  },
+  "repositoryActions": [
+    "Settled Matthew Stafford and Justin Herbert missed recommendations in data/missed_bets.csv without assigning user P/L.",
+    "Graded the Jaxson Dart in-game injury AVOID in data/pass_ledger.csv.",
+    "Added the Week 2 preliminary/final recorded-ticket attribution row to data/weekly_attribution.csv: straight +$31.73, parlays -$36.73, total -$5.00, ROI -4.13% on $121 recorded stake.",
+    "Created this immutable PRIME checkpoint on main.",
+    "No new Grok pass processed because completedAt is unchanged.",
+    "Repository isolation preserved: NFL player-prop data only."
+  ]
+}
