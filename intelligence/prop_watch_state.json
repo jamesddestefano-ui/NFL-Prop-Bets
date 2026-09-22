@@ -1,8 +1,8 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-12T17-05-00Z.json",
-  "lastPrimeWatchArchive": "intelligence/archive/2026-09-22T07-25-21Z-prime-watch.json",
-  "processedAtEt": "2026-09-22T03:25:21-04:00",
+  "lastPrimeWatchArchive": "intelligence/archive/2026-09-22T08-14-39Z-prime-watch.json",
+  "processedAtEt": "2026-09-22T04:14:39-04:00",
   "scope": "NFL player props only",
-  "notes": "Tuesday 03:25 ET Week 3 overnight checkpoint. NO MATERIAL CHANGE requiring a user alert. Official ATL-GB Monday injury estimates remain controlling; no Tuesday practice has occurred yet. Fresh public prop references conflict materially on Jordan Love passing yards (anonymous 226.5 vs 233.5 references), while Tucker Kraft 41.5 and Christian Watson 65.5 references also lack verified sportsbook identity and complete two-sided current pricing. No fair-probability edge is promoted from anonymous boards. PRIME remains NO BET pending named sportsbook prices, Tuesday practice participation and independent projections. No new Grok pass; latest remains live completedAt 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-22T07-25-21Z-prime-watch.json."
+  "notes": "Tuesday 04:14 ET Week 3 overnight checkpoint. NO MATERIAL CHANGE requiring a user alert. Official ATL-GB Monday injury estimates remain controlling and no Tuesday practice has occurred yet. Fresh public player-prop references remain non-executable/anonymous and conflict materially on Jordan Love passing yards (226.5 vs 233.5), while current Covers and BetMGM Week 3 previews provide game-level or team-total analysis rather than named-book player-prop prices. No fair-probability edge is promoted without sportsbook/line/odds verification. PRIME remains NO BET pending Tuesday practice participation, named sportsbook prices and independent projections. No new Grok pass; latest remains live completedAt 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-22T08-14-39Z-prime-watch.json."
 }
