@@ -1,0 +1,113 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-22 03:25:21",
+  "capturedAtUtc": "2026-09-22T07:25:21Z",
+  "priorArchive": "intelligence/archive/2026-09-22T06-26-24Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history and the most recently processed completedAt."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No new actionable Week 3 NFL player-prop opportunity is verified at this checkpoint. The controlling official ATL-GB Monday injury information is unchanged: Michael Penix Jr. is the confirmed Thursday starter and was estimated full with a knee designation; Brian Robinson Jr. was estimated limited; A.J. Terrell Jr. estimated DNP. Green Bay's Monday estimate remains the key short-week risk set, including Jayden Reed DNP (neck), Aaron Banks DNP (knee/toe), Zach Bako-Bewele DNP (knee), Donovan Jennings DNP (hand), and Javon Hargrave limited (knee/concussion). Fresh public prop pages conflict materially on Jordan Love passing yards: a Data Skrive-style public reference now shows 233.5 Over -112 versus the prior archive's anonymous 226.5 Over -114 reference. Neither identifies a trustworthy executable sportsbook or supplies a two-sided current price. Tucker Kraft 41.5 Over -110 and Christian Watson 65.5 Over -114 likewise appear only as anonymous public references. This divergence strengthens the case to wait for named sportsbook markets and Tuesday practice rather than treating early aggregator numbers as sportsbook truth. PRIME remains NO BET.",
+  "freshChecks": [
+    {
+      "source": "Green Bay Packers official injury report",
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-09-21",
+      "observedAtEt": "2026-09-22 03:25",
+      "sourceUrl": "https://www.packers.com/team/injury-report/",
+      "detail": "Green Bay did not practice Monday; estimated DNPs included Jayden Reed (neck), Aaron Banks (knee/toe), Zach Bako-Bewele (knee), Donovan Jennings (hand), Warren Brinson (calf) and Anthony Campbell (ankle). Javon Hargrave was estimated limited with knee/concussion."
+    },
+    {
+      "source": "Atlanta Falcons official",
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-09-21 16:47",
+      "observedAtEt": "2026-09-22 03:25",
+      "sourceUrl": "https://www.atlantafalcons.com/news/estimated-injury-report-released-week-3-green-bay-packers",
+      "detail": "Atlanta's Monday walkthrough estimate lists Michael Penix Jr. full (knee), Brian Robinson Jr. limited (ankle), Tua Tagovailoa limited (oblique), Jawaan Taylor limited (rib), and A.J. Terrell Jr. DNP (groin)."
+    },
+    {
+      "source": "Atlanta Falcons official",
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-09-21 16:29",
+      "observedAtEt": "2026-09-22 03:25",
+      "sourceUrl": "https://www.atlantafalcons.com/news/michael-penix-jr-starting-qb-thursday-night-football-vs-packers",
+      "detail": "Atlanta officially named Michael Penix Jr. the Week 3 starter at Green Bay."
+    },
+    {
+      "source": "Public Data Skrive-style prop references",
+      "classification": "market_reference",
+      "publishedAtEt": "2026-09-21",
+      "observedAtEt": "2026-09-22 03:25",
+      "sourceUrl": "public web search",
+      "detail": "Anonymous early boards show Jordan Love passing yards 233.5 Over -112, Tucker Kraft receiving yards 41.5 Over -110 and Christian Watson receiving yards 65.5 Over -114. These lack a verified sportsbook identity and current opposite-side prices and are not executable sportsbook truth. Love's 233.5 reference also conflicts with the prior archive's anonymous 226.5 Over -114 reference."
+    }
+  ],
+  "week3EarlyBoard": [
+    {
+      "game": "ATL@GB",
+      "player": "Jordan Love",
+      "propType": "PASS_YARDS",
+      "market": "Passing Yards",
+      "side": null,
+      "line": null,
+      "odds": null,
+      "sportsbook": null,
+      "status": "WATCH",
+      "decisionReason": "Early anonymous public references conflict by seven yards (226.5 vs 233.5) and do not identify an executable sportsbook or complete two-sided price. Green Bay OL/receiver injuries and Atlanta A.J. Terrell status remain unresolved on a short week. No fair-probability edge is assigned until a named current market and Tuesday practice update are available.",
+      "steamState": "NO_ACTION",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "signalTags": ["OL_INJURY", "INJURY", "DEFENSIVE_INJURY", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"]
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Tucker Kraft",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": null,
+      "line": null,
+      "odds": null,
+      "sportsbook": null,
+      "status": "WATCH",
+      "decisionReason": "Jayden Reed's neck injury could alter target distribution, but the only fresh 41.5/-110 reference lacks sportsbook identity and current two-sided verification. Do not convert a role hypothesis into a bet without executable price and independent projection support.",
+      "steamState": "NO_ACTION",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "signalTags": ["INJURY", "ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE"]
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Christian Watson",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": null,
+      "line": null,
+      "odds": null,
+      "sportsbook": null,
+      "status": "WATCH",
+      "decisionReason": "Watson's early-season production and Reed's injury create a possible role tailwind, but the fresh 65.5/-114 reference is anonymous and A.J. Terrell's status plus Green Bay's offensive-line health remain unresolved. No bet without a verified named sportsbook and fair-probability edge.",
+      "steamState": "NO_ACTION",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "signalTags": ["INJURY", "ROUTE_SHARE", "TARGET_SHARE", "OL_INJURY", "DEFENSIVE_INJURY"]
+    }
+  ],
+  "marketDiscipline": {
+    "currentAction": "NO_BET",
+    "week3": "Wait for named sportsbook-specific ATL-GB props with both sides, Tuesday practice participation and independent projections. Do not force a Tuesday opener from conflicting anonymous market references.",
+    "nextFocus": "Tuesday ATL-GB practice participation; Jayden Reed, Aaron Banks, Zach Bako-Bewele, A.J. Terrell and Brian Robinson status; named-book TNF prop prices; and independent projections for Love, Kraft, Watson, Penix and Bijan."
+  },
+  "repositoryActions": [
+    "Read the required methodology/configuration files and all specified durable ledgers, Grok latest/history, and the newest prior immutable archive.",
+    "No new Grok pass processed because completedAt is unchanged.",
+    "No Week 3 BET/LEAN promoted because no current named sportsbook-specific price plus modeled probability edge clears PRIME thresholds.",
+    "Durable ledgers were not modified because there is no new executable market state, user bet, material pass at a verified book, or settlement to add; this immutable archive preserves the checkpoint.",
+    "Repository isolation preserved: NFL player-prop data only."
+  ]
+}
