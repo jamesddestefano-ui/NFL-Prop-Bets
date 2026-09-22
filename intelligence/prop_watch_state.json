@@ -1,8 +1,8 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-12T17-05-00Z.json",
-  "lastPrimeWatchArchive": "intelligence/archive/2026-09-22T14-16-02Z-prime-watch.json",
-  "processedAtEt": "2026-09-22T10:16:02-04:00",
+  "lastPrimeWatchArchive": "intelligence/archive/2026-09-22T15-07-42Z-prime-watch.json",
+  "processedAtEt": "2026-09-22T11:07:42-04:00",
   "scope": "NFL player props only",
-  "notes": "Tuesday 10:16 ET Week 3 checkpoint. NO ACTIONABLE BET and no user alert. Fresh DraftKings Network market extraction continues to show Tucker Kraft 40+ receiving -157 and Jordan Love 230+ passing -113, unchanged from the 09:10 archive; newly visible Tucker Kraft 47+ receiving -111 and Drake London 64+ receiving -113 remain WATCH because PRIME lacks a sufficiently robust current fair-probability/projection stack and Tuesday ATL-GB participation dependencies remain unresolved. Do not reuse earlier Watson reception or Penix interception prices as current when they are not exposed in the fresh direct market extraction. Jaxson Dart's official MRI result remains unconfirmed in team reporting; MCL-sprain timelines remain attributed reporting. No new Grok pass; latest remains live completedAt 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-22T14-16-02Z-prime-watch.json."
+  "notes": "Tuesday 11:07 ET Week 3 checkpoint. NO ACTIONABLE BET and no user alert. Current DraftKings Network five-minute board shows Love 230+ passing -111 (two-cent improvement vs prior -113), Watson O4.5 receptions -134, Penix O0.5 interceptions -123, and Kraft 40+ receiving -157. None clears PRIME's price-adjusted edge requirement after fresh projection/injury cross-check. Tuesday ATL-GB participation and official Jaxson Dart MRI remain pending. No new Grok pass; latest remains live completedAt 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-22T15-07-42Z-prime-watch.json."
 }
