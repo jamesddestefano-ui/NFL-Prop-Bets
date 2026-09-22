@@ -1,8 +1,8 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-12T17-05-00Z.json",
-  "lastPrimeWatchArchive": "intelligence/archive/2026-09-22T11-27-02Z-prime-watch.json",
-  "processedAtEt": "2026-09-22T07:27:02-04:00",
+  "lastPrimeWatchArchive": "intelligence/archive/2026-09-22T12-27-50Z-prime-watch.json",
+  "processedAtEt": "2026-09-22T08:27:50-04:00",
   "scope": "NFL player props only",
-  "notes": "Tuesday 07:27 ET Week 3 checkpoint. NO ACTIONABLE BET and no user alert. Named DraftKings ATL-GB prices are now publicly visible, but the evaluated markets fail PRIME edge/price discipline: Christian Watson O4.5 receptions -118 conflicts with FantasyPros Week 3 projection 3.9; Watson O67.5 receiving -112 is essentially equal to the 67.1-yard projection; Tucker Kraft remains WATCH at bet365 43.5 -116 both ways / DK 40+ -150 pending Tuesday Jayden Reed and OL participation plus a stronger projection stack; Jordan Love DK 240+ +113 remains WATCH above the broader 224.5-229.5 market center; Michael Penix Jr. O0.5 INT -123 is PASS without a robust fair turnover probability. Jaxson Dart MRI remains pending in current reliable reporting. No new Grok pass; latest remains live completedAt 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-22T11-27-02Z-prime-watch.json."
+  "notes": "Tuesday 08:27 ET Week 3 checkpoint. NO ACTIONABLE BET and no user alert. Fresh rechecks show the same principal ATL-GB prices as the 07:27 ET archive: DK Christian Watson O4.5 receptions -118 and O67.5 receiving -112 remain PASS; Tucker Kraft remains WATCH at bet365 43.5 -116 both ways / DK 40+ -150; Jordan Love 240+ +113 remains WATCH; Michael Penix Jr. O0.5 INT -123 remains PASS. Jaxson Dart MRI is still pending in current reliable/official reporting; suspected MCL sprain remains attributed reporting rather than final diagnosis. Tuesday ATL-GB official participation data has not yet materially changed Monday's estimated injury state. No new Grok pass; latest remains live completedAt 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-22T12-27-50Z-prime-watch.json."
 }
