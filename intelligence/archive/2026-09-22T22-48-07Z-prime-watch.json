@@ -1,0 +1,180 @@
+{
+  "status": "live",
+  "capturedAtEt": "2026-09-22T18:48:07-04:00",
+  "capturedAtUtc": "2026-09-22T22:48:07Z",
+  "nflWeek": 3,
+  "scope": "NFL player props only",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-09-22T20-56-31Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. completedAt is unchanged, so Grok intelligence was not reprocessed and cannot overwrite verified sportsbook truth."
+  },
+  "materialChange": false,
+  "attentionRequired": false,
+  "userAlert": false,
+  "currentAction": "NO_BET",
+  "summary": "No genuinely actionable Week 3 NFL player-prop opportunity is verified at the 18:48 ET checkpoint. The best publicly visible Jordan Love passing-yards entry remains Fanatics 225.5 O-110, the same best threshold/price carried in the prior archive; DraftKings is now higher at 228.5 and should not be preferred. Christian Watson receiving remains best around 64.5 O-114 at BetParx, while his DraftKings receptions market remains O4.5 -134 / U4.5 +105. Tucker Kraft receiving remains best around 44.5 O-115 at BetMGM. These prices do not improve the prior uncertainty-adjusted edge enough to promote any WATCH/LEAN to BET while Jayden Reed and multiple Green Bay offensive linemen remain unresolved. FantasyPros' current Week 3 consensus still projects Watson at 3.9 receptions and 67.1 receiving yards, reinforcing that the current Watson markets are close to fair rather than clear value. Action Network's current prop-projection page has no Week 3 slate projections available, so no absent proprietary projection was inferred. Jaxson Dart remains AVOID for Week 3 player props: the Giants have not announced a final diagnosis/timetable, and John Harbaugh said Tuesday that the knee evaluation is ongoing and that the team must prepare for a range of possibilities; reports of a more severe injury remain attributed reporting, not official team confirmation. Wait for Wednesday ATL-GB practice participation and any official Giants quarterback update rather than force Tuesday action.",
+  "marketSnapshots": [
+    {
+      "game": "ATL@GB",
+      "player": "Jordan Love",
+      "propType": "PASS_YARDS",
+      "market": "Passing Yards O/U",
+      "side": "OVER",
+      "sportsbook": "Fanatics via CLEATZ",
+      "line": 225.5,
+      "odds": -110,
+      "oppositeOdds": -120,
+      "observedAtEt": "2026-09-22T18:48:07-04:00",
+      "bestMarketLine": "225.5 O-110 Fanatics; 225.5 O-113 BetParx; 225.5 O-114 BetRivers",
+      "consensusLine": "roughly 226.5-229.5 across currently populated regulated books",
+      "priorBest": "225.5 O-110 Fanatics at 16:56 ET",
+      "movement": "UNCHANGED_BEST; DraftKings shown higher at 228.5",
+      "projectionReference": "Prior conservative PRIME mean 235.0; no new independent projection change sufficient to alter the 55.5% fair Over estimate.",
+      "estimatedOverProbabilityPct": 55.5,
+      "marketBreakEvenPct": 52.38,
+      "estimatedEdgePctPoints": 3.12,
+      "edgeBucket": "2-4%",
+      "decision": "LEAN",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "EARLY_WEEK",
+      "confidence": "B-",
+      "maximumPlayable": "No BET at 225.5/-110 while Reed and multiple Green Bay OL statuses remain unresolved; revisit after Wednesday participation or a materially better price.",
+      "signalTags": "DEFENSIVE_INJURY|OL_INJURY|INJURY|MATCHUP|PROJECTION_DISAGREEMENT|MARKET_MOVE"
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Christian Watson",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards O/U",
+      "side": "OVER",
+      "sportsbook": "BetParx via CLEATZ",
+      "line": 64.5,
+      "odds": -114,
+      "observedAtEt": "2026-09-22T18:48:07-04:00",
+      "bestMarketLine": "64.5 O-114 BetParx; 64.5 O-115 BetRivers; 65.5 O-115 BetMGM; 66.5 O-114 FanDuel",
+      "projectionStack": {
+        "FantasyPros": 67.1,
+        "priorCBS": 72.7,
+        "priorStatsInsider": 71.0
+      },
+      "estimatedOverProbabilityPct": 55.5,
+      "marketBreakEvenPct": 53.27,
+      "estimatedEdgePctPoints": 2.23,
+      "edgeBucket": "2-4%",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "EARLY_WEEK",
+      "confidence": "B-",
+      "maximumPlayable": "No bet at 64.5/-114 yet; require a better threshold/price or clearer Wednesday role/protection news.",
+      "signalTags": "TARGET_SHARE|ROUTE_SHARE|INJURY|DEFENSIVE_INJURY|OL_INJURY|PROJECTION_DISAGREEMENT|MARKET_MOVE"
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Christian Watson",
+      "propType": "RECEPTIONS",
+      "market": "Receptions O/U",
+      "side": "UNDER",
+      "sportsbook": "DraftKings via CLEATZ",
+      "line": 4.5,
+      "odds": 105,
+      "oppositeOdds": -134,
+      "observedAtEt": "2026-09-22T18:48:07-04:00",
+      "projectionStack": {
+        "FantasyPros": 3.9,
+        "priorCBS": 4.4
+      },
+      "decision": "WATCH",
+      "steamState": "WAIT_FOR_NEWS_AND_PROJECTIONS",
+      "entryTiming": "EARLY_WEEK",
+      "confidence": "C+",
+      "edgeBucket": "UNQUANTIFIED",
+      "reason": "Projection means sit below 4.5, but the broad market remains shaded toward the Over and Reed's absence could increase target volume. Do not promote solely from point projections."
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Tucker Kraft",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards O/U",
+      "side": "OVER",
+      "sportsbook": "BetMGM via CLEATZ",
+      "line": 44.5,
+      "odds": -115,
+      "observedAtEt": "2026-09-22T18:48:07-04:00",
+      "bestMarketLine": "44.5 O-115 BetMGM; most other currently populated regulated books 45.5-49.5",
+      "decision": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "EARLY_WEEK",
+      "confidence": "B",
+      "edgeBucket": "<2%",
+      "reason": "No material improvement from the prior checkpoint; the verified projection cushion remains too small for the price and receiving-yard variance."
+    }
+  ],
+  "injuryAndRoleChecks": [
+    {
+      "classification": "confirmed_fact",
+      "subject": "Green Bay / Atlanta short-week injuries",
+      "state": "No newer official participation report found after the Packers' Tuesday report already processed at 16:56 ET; Jayden Reed and Aaron Banks remain unresolved DNPs in the controlling official report, with Green Bay OL uncertainty still material to passing efficiency."
+    },
+    {
+      "classification": "attributed_report_plus_team_comment",
+      "subject": "Jaxson Dart left knee",
+      "state": "Reports say the MRI may show a more significant injury than the initial MCL-sprain belief, but Giants coach John Harbaugh said Tuesday that evaluation is ongoing and declined to confirm a diagnosis or timetable. PRIME therefore keeps Dart AVOID and does not create Winston/Nabers props without verified markets and official role clarity."
+    }
+  ],
+  "marketLearning": {
+    "entryTiming": "EARLY_WEEK",
+    "priceDiscipline": "No Tuesday wager. The best Love, Watson and Kraft prices are effectively unchanged from the prior checkpoint and remain below PRIME's uncertainty-adjusted action threshold.",
+    "sameThesis": "Love passing Over plus Watson/Kraft receiving Overs remain correlated to the same Green Bay passing-efficiency thesis. No stacking before independent qualification.",
+    "exposure": "No Week 3 NFL player-prop exposure recorded in bet_history or parlay_history.",
+    "clv": "No ticket placed; LINE_CLV, PRICE_CLV and COMBINED_CLV are not applicable.",
+    "missedBetPolicy": "No missed-bet entry because no Week 3 evaluation is currently classified BET.",
+    "passPolicy": "Kraft remains a price-based PASS; Love remains LEAN; Watson markets remain WATCH.",
+    "calibration": "No new formal BET probability promoted for Brier tracking."
+  },
+  "sources": [
+    {
+      "classification": "market_line_shopping",
+      "name": "CLEATZ NFL player-prop consensus and line-shopping board",
+      "url": "https://cleatz.com/nfl-props-test/",
+      "observedAtEt": "2026-09-22T18:48:07-04:00"
+    },
+    {
+      "classification": "model_projection",
+      "name": "FantasyPros Week 3 WR consensus projections",
+      "url": "https://www.fantasypros.com/nfl/projections/wr.php?scoring=ppr",
+      "observedAtEt": "2026-09-22T18:48:07-04:00",
+      "note": "Christian Watson 3.9 receptions, 67.1 receiving yards."
+    },
+    {
+      "classification": "analyst_projection_availability",
+      "name": "Action Network NFL Prop Projections",
+      "url": "https://www.actionnetwork.com/nfl/prop-projections",
+      "observedAtEt": "2026-09-22T18:48:07-04:00",
+      "note": "No prop projections displayed for the selected/current slate at this checkpoint."
+    },
+    {
+      "classification": "official_team_report",
+      "name": "Packers-Falcons Injury Report | Sept. 22, 2026",
+      "url": "https://www.packers.com/news/packers-falcons-injury-report-sept-22-2026",
+      "publishedAtEt": "2026-09-22T15:26:00-04:00"
+    },
+    {
+      "classification": "reliable_news_team_comment",
+      "name": "AP/Fox Sports: Jaxson Dart knee evaluation ongoing",
+      "url": "https://www.foxsports.com/articles/nfl/jaxson-darts-knee-injury-is-still-being-evaluated-giants-coach-john-harbaugh-says",
+      "publishedAtEt": "2026-09-22T15:17:00-04:00"
+    }
+  ],
+  "nextFocus": [
+    "Wednesday Packers-Falcons participation and final short-week injury designations, especially Jayden Reed, Aaron Banks, Anthony Belton and Donovan Jennings.",
+    "Reprice Jordan Love 225.5 only if that threshold remains available after Wednesday news; never chase a worse line because the thesis remains directionally bullish.",
+    "Monitor official Giants diagnosis and Week 3 starter confirmation before evaluating any Titans-Giants passing/receiving props.",
+    "Continue scanning Sunday Week 3 markets as regulated-book pricing becomes fully populated; require exact book/line/juice and independent role/projection support before BET classification."
+  ]
+}
