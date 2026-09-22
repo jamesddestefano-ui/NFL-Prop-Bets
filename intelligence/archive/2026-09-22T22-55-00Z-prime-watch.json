@@ -1,0 +1,187 @@
+{
+  "status": "live",
+  "capturedAtEt": "2026-09-22T18:55:00-04:00",
+  "capturedAtUtc": "2026-09-22T22:55:00Z",
+  "nflWeek": 3,
+  "scope": "NFL player props only",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-09-22T19-31-56Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass; completedAt is unchanged. Grok intelligence was not reprocessed and does not overwrite verified sportsbook truth."
+  },
+  "materialChangeSincePriorArchive": true,
+  "newUserFacingAlert": false,
+  "currentAction": "NO_BET",
+  "summary": "The official Tuesday Packers-Falcons injury report is now available and confirms Jayden Reed, Aaron Banks and Zach Bako-Bewele as DNP estimates, with Donovan Jennings improving to limited. Separately, established reporting after Jaxson Dart's MRI says the knee injury is worse than the initial MCL-sprain expectation, with an extended absence and possible season-ending outcome; the Giants have not yet published a definitive diagnosis/timetable. Both developments were already surfaced to the user in the prior interactive PRIME update, so this automation does not duplicate-alert them. Current DraftKings Network popular-prop prices do not create a verified price-adjusted Week 3 edge. PRIME remains NO_BET and will not reuse the 15:31 ET Watson/Kraft/Love O/U snapshots as current when they are no longer independently visible on the live public page.",
+  "officialInjuryState": {
+    "ATL_GB": {
+      "sourceTimestampEt": "2026-09-22T15:26:00-04:00",
+      "confirmedFacts": [
+        "Green Bay WR Jayden Reed (neck): DNP estimate Tuesday after DNP estimate Monday.",
+        "Green Bay G Aaron Banks (knee/toe): DNP estimate Tuesday.",
+        "Green Bay OL Zach Bako-Bewele (knee): DNP estimate Tuesday.",
+        "Green Bay G/T Donovan Jennings (hand): limited Tuesday after DNP estimate Monday.",
+        "Green Bay G/T Anthony Belton (elbow) was newly listed limited Tuesday.",
+        "Atlanta QB Michael Penix (knee), RB Brian Robinson (ankle), QB Tua Tagovailoa (oblique) and T Jawaan Taylor (rib) were full Tuesday.",
+        "Atlanta CB A.J. Terrell Jr. is on injured reserve with a groin injury; this catalyst was already processed earlier."
+      ],
+      "propImpact": "Reed's second straight DNP preserves concentration upside for Christian Watson/Tucker Kraft/Matthew Golden, but Green Bay's unresolved offensive-line health is a counterweight. Do not promote correlated overs without independent price-adjusted edges."
+    },
+    "NYG_TEN": {
+      "confirmedFacts": [
+        "Dart left Monday night's game with a left-knee injury and did not return; initial X-rays were negative."
+      ],
+      "attributedReporting": [
+        "NFL Network/NBC Sports and SNY reporting after Tuesday MRI says the injury is worse than first believed, with an extended absence expected and a possible season-ending outcome."
+      ],
+      "pending": [
+        "Official Giants diagnosis and timetable",
+        "Official Week 3 starting-quarterback designation",
+        "Fresh NYG-TEN player-prop prices after quarterback status is fully incorporated"
+      ],
+      "decisionImpact": "AVOID stale Dart props; do not transfer pre-injury rushing or passing distributions to Week 3. Rebuild Giants skill-player props around the confirmed starter only after official status and current prices are available."
+    }
+  },
+  "verifiedMarketSnapshots": [
+    {
+      "game": "ATL@GB",
+      "player": "Christian Watson",
+      "propType": "ANYTIME_TD",
+      "market": "Anytime TD Scorer",
+      "side": "YES",
+      "sportsbook": "DraftKings",
+      "line": "YES",
+      "odds": 140,
+      "marketImpliedProbability": 41.67,
+      "observedAtEt": "2026-09-22T18:55:00-04:00",
+      "decision": "PASS",
+      "confidence": "B-",
+      "edgeBucket": "NO_VERIFIED_EDGE",
+      "signalTags": "TARGET_SHARE|RED_ZONE|INJURY|DEFENSIVE_INJURY|HIGH_VARIANCE_MARKET",
+      "reason": "Watson's role is strong and Reed remains DNP, but TD markets require stronger price discipline. FantasyPros' 0.6 receiving-TD expectation is not a direct hit probability and does not establish the required independent edge at +140."
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Tucker Kraft",
+      "propType": "ANYTIME_TD",
+      "market": "Anytime TD Scorer",
+      "side": "YES",
+      "sportsbook": "DraftKings",
+      "line": "YES",
+      "odds": 170,
+      "marketImpliedProbability": 37.04,
+      "observedAtEt": "2026-09-22T18:55:00-04:00",
+      "decision": "PASS",
+      "confidence": "B-",
+      "edgeBucket": "NO_VERIFIED_EDGE",
+      "signalTags": "ROUTE_SHARE|TARGET_SHARE|INJURY|HIGH_VARIANCE_MARKET",
+      "reason": "Kraft's Week 2 role expanded materially and Reed's absence would support underneath volume, but current projection evidence does not support a sufficiently robust TD probability above the +170 break-even rate."
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Drake London",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards Alt",
+      "side": "AT_LEAST",
+      "sportsbook": "DraftKings",
+      "line": "60+",
+      "odds": -148,
+      "marketImpliedProbability": 59.68,
+      "observedAtEt": "2026-09-22T18:55:00-04:00",
+      "projection": "FantasyPros Week 3: about 68 receiving yards",
+      "decision": "PASS",
+      "confidence": "B",
+      "edgeBucket": "NO_VERIFIED_EDGE",
+      "signalTags": "TARGET_SHARE|PROJECTION_DISAGREEMENT|PRICE",
+      "reason": "A point projection around 68 yards does not establish a greater-than-59.7% probability of reaching 60. Heavy juice requires a modeled distribution or stronger independent probability support."
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Bijan Robinson",
+      "propType": "ANYTIME_TD",
+      "market": "Anytime TD Scorer",
+      "side": "YES",
+      "sportsbook": "DraftKings",
+      "line": "YES",
+      "odds": -155,
+      "marketImpliedProbability": 60.78,
+      "observedAtEt": "2026-09-22T18:55:00-04:00",
+      "decision": "PASS",
+      "confidence": "B",
+      "edgeBucket": "NO_VERIFIED_EDGE",
+      "signalTags": "GOAL_LINE|RUSH_SHARE|HIGH_VARIANCE_MARKET|PRICE",
+      "reason": "The -155 price requires a very high hit rate. Current projection/role evidence, including Brian Robinson returning to full participation Tuesday, does not justify assigning Bijan a fair anytime-TD probability above 60.8%."
+    }
+  ],
+  "projectionAndUsageContext": {
+    "christianWatson": {
+      "FantasyProsWeek3": {"receptions": 3.9, "receivingYards": 67.1, "receivingTDs": 0.6},
+      "seasonThroughWeek2": {"targets": 19, "teamTargetSharePct": 27.5},
+      "week2Context": "FantasyPros role review reports Watson played about 90% of snaps and the passing game concentrated after Reed's early injury."
+    },
+    "tuckerKraft": {
+      "FantasyProsWeek3": {"receptions": 3.7, "receivingYards": 47.1, "receivingTDs": 0.4},
+      "week2Context": "FantasyPros reports 98% snaps in Week 2 and a five-target adjusted opportunity count including completions erased by penalties."
+    },
+    "drakeLondon": {
+      "FantasyProsWeek3": {"receptions": 5.2, "receivingYards": 68.2, "receivingTDs": 0.4}
+    },
+    "bijanRobinson": {
+      "FantasyProsWeek3": {"rushAttempts": 17.9, "rushingYards": 80.2, "rushingTDs": 0.5, "receptions": 4.6, "receivingYards": 40.0, "receivingTDs": 0.2}
+    }
+  },
+  "marketLearning": {
+    "entryTiming": "EARLY_WEEK_WAIT",
+    "priceDiscipline": "No Tuesday-evening wager. Do not infer that older 15:31 ET Love/Watson/Kraft O/U prices remain executable when the current public DraftKings page no longer surfaces them.",
+    "sameThesis": "Reed DNP plus Terrell IR are related catalysts for Green Bay pass catchers; require independent edges before stacking correlated overs or TD props.",
+    "exposure": "No Week 3 player-prop exposure recorded.",
+    "clv": "No Week 3 ticket placed; LINE_CLV, PRICE_CLV and COMBINED_CLV are not applicable.",
+    "missedBetPolicy": "No Week 3 missed-bet row; no current evaluation qualifies as BET.",
+    "calibration": "No new fair-probability forecast promoted; no Brier observation added."
+  },
+  "sources": [
+    {
+      "classification": "confirmed_fact",
+      "name": "Packers-Falcons Injury Report | Sept. 22, 2026",
+      "url": "https://www.packers.com/news/packers-falcons-injury-report-sept-22-2026",
+      "publishedAt": "2026-09-22T15:26:00-04:00"
+    },
+    {
+      "classification": "attributed_report",
+      "name": "NBC Sports / NFL Network report on Jaxson Dart MRI",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jaxson-darts-injury-could-be-season-ending",
+      "publishedAt": "2026-09-22T14:44:00-04:00"
+    },
+    {
+      "classification": "attributed_report",
+      "name": "SNY report on Jaxson Dart MRI",
+      "url": "https://sports.yahoo.com/articles/giants-qb-jaxson-dart-could-183844114.html",
+      "publishedAt": "2026-09-22T14:38:00-04:00"
+    },
+    {
+      "classification": "verified_sportsbook_market",
+      "name": "DraftKings Network current player props",
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-player-props/",
+      "observedAtEt": "2026-09-22T18:55:00-04:00",
+      "note": "Page states its displayed popular props update every five minutes; snapshots above are preserved only at this observation time."
+    },
+    {
+      "classification": "model_projection",
+      "name": "FantasyPros Week 3 consensus projections",
+      "url": "https://www.fantasypros.com/nfl/projections/",
+      "observedAtEt": "2026-09-22T18:55:00-04:00"
+    }
+  ],
+  "nextFocus": [
+    "Wednesday final ATL-GB practice/injury designations and any Jordan Love health update",
+    "Current two-sided main-line player-prop markets rather than only popular alt/TD markets",
+    "Official Giants Jaxson Dart diagnosis/timetable and Week 3 starting quarterback",
+    "Thursday weather and final TNF line shop",
+    "Alert only for a genuinely price-adjusted edge or a new material ticket-relevant change"
+  ]
+}
