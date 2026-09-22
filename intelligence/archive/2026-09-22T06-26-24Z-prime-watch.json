@@ -1,0 +1,89 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-22 02:26:24",
+  "capturedAtUtc": "2026-09-22T06:26:24Z",
+  "priorArchive": "intelligence/archive/2026-09-22T04-52-05Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history and most recently processed completedAt."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No actionable Week 3 NFL player-prop opportunity is verified at this checkpoint. The first ATL-GB short-week injury information remains the controlling official news: Michael Penix Jr. is the confirmed Thursday starter and was estimated full with a knee designation; Brian Robinson Jr. was estimated limited; A.J. Terrell Jr. estimated DNP. Green Bay's short-week injury context remains materially relevant, but no newly verified sportsbook-specific prop with both executable line/price and sufficient modeled probability edge was found. A freshly crawled Data Skrive/Bleacher Nation board still lists Jordan Love passing yards 226.5 with Over -114, but it does not identify the underlying sportsbook or provide the opposite-side price, so it remains market-reference context only and is not promoted to BET/LEAN. PRIME remains NO BET.",
+  "freshChecks": [
+    {
+      "source": "Atlanta Falcons official",
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-09-21 16:47",
+      "observedAtEt": "2026-09-22 02:26",
+      "sourceUrl": "https://www.atlantafalcons.com/news/estimated-injury-report-released-week-3-green-bay-packers",
+      "detail": "Atlanta's Monday walkthrough estimate lists Michael Penix Jr. full (knee), Brian Robinson Jr. limited (ankle), Tua Tagovailoa limited (oblique), Jawaan Taylor limited (rib), and A.J. Terrell Jr. DNP (groin)."
+    },
+    {
+      "source": "Atlanta Falcons official",
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-09-21 16:29",
+      "observedAtEt": "2026-09-22 02:26",
+      "sourceUrl": "https://www.atlantafalcons.com/news/michael-penix-jr-starting-qb-thursday-night-football-vs-packers",
+      "detail": "Atlanta officially named Michael Penix Jr. the Week 3 starter at Green Bay. He is returning from the 2025 ACL tear and the club reports he has progressed well in recent weeks."
+    },
+    {
+      "source": "Bleacher Nation / Data Skrive",
+      "classification": "market_reference",
+      "publishedAtEt": "2026-09-21",
+      "observedAtEt": "2026-09-22 02:26",
+      "sourceUrl": "https://www.bleachernation.com/picks/2026/09/21/player-prop-bets-for-packers-vs-falcons-september-24-2026/",
+      "detail": "The refreshed public board still lists Jordan Love passing yards 226.5 with Over -114, pass TDs 1.5 Over -125 and rush yards 8.5 Over -114. No sportsbook identity or opposite-side price is supplied, so these are not treated as executable sportsbook truth."
+    }
+  ],
+  "week3EarlyBoard": [
+    {
+      "game": "ATL@GB",
+      "player": "Jordan Love",
+      "propType": "PASS_YARDS",
+      "market": "Passing Yards",
+      "side": "OVER",
+      "line": 226.5,
+      "odds": -114,
+      "sportsbook": null,
+      "status": "WATCH",
+      "decisionReason": "Anonymous public market reference only. Short-week Green Bay offensive-line and receiver injuries are relevant, while Atlanta's A.J. Terrell injury is a countervailing coverage signal. No identified sportsbook, two-sided price, consensus market or modeled fair probability clears PRIME requirements.",
+      "steamState": "NO_ACTION",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "signalTags": ["OL_INJURY", "INJURY", "DEFENSIVE_INJURY", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"]
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Michael Penix Jr.",
+      "propType": "OTHER",
+      "market": "Week 3 QB props",
+      "side": null,
+      "line": null,
+      "odds": null,
+      "sportsbook": null,
+      "status": "WATCH",
+      "decisionReason": "Confirmed starter and estimated full participant, but this is his first start since the 2025 ACL tear and it comes on a short week. PRIME requires a sportsbook-specific line/price and an independent attempts/yardage/rushing distribution before assigning fair probability.",
+      "steamState": "NO_ACTION",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "signalTags": ["INJURY", "ROLE_CHANGE", "COACH_COMMENT"]
+    }
+  ],
+  "marketDiscipline": {
+    "currentAction": "NO_BET",
+    "week3": "Wait for sportsbook-specific ATL-GB lines with both sides and Tuesday practice updates. Do not force a Tuesday opener from an anonymous public prop board.",
+    "nextFocus": "Tuesday ATL-GB practice participation, Green Bay offensive-line availability, Jayden Reed status, A.J. Terrell status, Brian Robinson ankle status, and book-specific TNF prop prices plus independent projections."
+  },
+  "repositoryActions": [
+    "Read AGENTS.md, methodology, advanced market-learning rules, source hierarchy, live prop board, decision ledger, line history, bet history, missed-bet ledger, pass ledger, parlay history, weekly attribution, Grok latest/history, and the newest prior immutable archive.",
+    "No new Grok pass processed because completedAt is unchanged.",
+    "No Week 3 BET/LEAN promoted because no current verified sportsbook-specific price plus modeled probability edge clears PRIME thresholds.",
+    "Durable ledgers were not modified because there is no new executable market state, user bet, material pass at a verified book, or settlement to add; this immutable archive preserves the checkpoint.",
+    "Repository isolation preserved: NFL player-prop data only."
+  ]
+}
