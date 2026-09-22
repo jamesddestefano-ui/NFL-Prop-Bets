@@ -1,0 +1,87 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-22 00:21:45",
+  "capturedAtUtc": "2026-09-22T04:21:45Z",
+  "priorArchive": "intelligence/archive/2026-09-22T03-15-29Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history and the most recently processed completedAt."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No actionable Week 3 NFL player-prop opportunity is verified at this checkpoint. Tuesday opener work has begun, but current public TNF prop information is too thin and/or not sportsbook-specific enough to justify a BET. Atlanta has confirmed Michael Penix Jr. will start Thursday at Green Bay in his first start since the 2025 ACL tear, creating meaningful role/injury uncertainty that argues against forcing early QB props. A Data Skrive/Bleacher Nation public board lists Jordan Love passing yards at 226.5 with an Over price of -114, but the source does not identify the underlying sportsbook and no sufficiently independent probability edge has been established, so it is not treated as executable sportsbook truth. Jaxson Dart is feared to have a sprained MCL after Monday night's knee injury; X-rays were negative and an MRI is expected Tuesday. That is material football news but does not create a current user action because no Week 3 Giants prop has been verified at an actionable price. No notification is warranted.",
+  "freshChecks": [
+    {
+      "source": "Reuters",
+      "classification": "attributed_report",
+      "publishedAtEt": "2026-09-21",
+      "observedAtEt": "2026-09-22 00:21",
+      "sourceUrl": "https://www.reuters.com/sports/falcons-staying-mum-qb-front-with-thursday-game-looming--flm-2026-09-21/",
+      "detail": "Atlanta will start Michael Penix Jr. at Green Bay on Thursday. It will be his first NFL start since his November 2025 ACL tear; he has practiced for roughly three weeks."
+    },
+    {
+      "source": "Bleacher Nation / Data Skrive",
+      "classification": "market_reference",
+      "publishedAtEt": "2026-09-21",
+      "observedAtEt": "2026-09-22 00:21",
+      "sourceUrl": "https://www.bleachernation.com/picks/2026/09/21/player-prop-bets-for-packers-vs-falcons-september-24-2026/",
+      "detail": "Public TNF board lists Jordan Love passing yards 226.5 with Over -114. Sportsbook identity and opposite-side price are not supplied, so this is opener context only and is not treated as executable sportsbook truth."
+    },
+    {
+      "source": "CBS Sports citing ESPN/NFL Media",
+      "classification": "attributed_report",
+      "publishedAtEt": "2026-09-21 23:18",
+      "observedAtEt": "2026-09-22 00:21",
+      "sourceUrl": "https://www.cbssports.com/nfl/news/jaxson-dart-injury-update-giants-qb-knee/",
+      "detail": "The Giants fear Jaxson Dart suffered a sprained MCL. X-rays were negative and an MRI is expected Tuesday; the expectation is that he will miss time, although the full extent remains unconfirmed."
+    }
+  ],
+  "week3EarlyBoard": [
+    {
+      "game": "ATL@GB",
+      "player": "Jordan Love",
+      "propType": "PASS_YARDS",
+      "market": "Passing Yards",
+      "side": "OVER",
+      "line": 226.5,
+      "odds": -114,
+      "sportsbook": null,
+      "status": "WATCH",
+      "decisionReason": "Public opener context only; sportsbook identity and opposite-side price are missing, and no independent fair-probability edge clears PRIME thresholds yet.",
+      "steamState": "NO_ACTION",
+      "playToLine": null,
+      "maxAcceptableOdds": null
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Michael Penix Jr.",
+      "propType": "OTHER",
+      "market": "Week 3 QB props",
+      "side": null,
+      "line": null,
+      "odds": null,
+      "sportsbook": null,
+      "status": "WATCH",
+      "decisionReason": "Confirmed starter returning from ACL surgery on a short week. Require current sportsbook-specific line/price, practice context and an independent usage/projection distribution before evaluating any prop.",
+      "steamState": "NO_ACTION",
+      "playToLine": null,
+      "maxAcceptableOdds": null
+    }
+  ],
+  "marketDiscipline": {
+    "currentAction": "NO_BET",
+    "week3": "Capture verified sportsbook-specific openers Tuesday and Wednesday; do not force a bet from an anonymous public prop board or projection-only disagreement.",
+    "nextFocus": "ATL@GB practice/injury reports, Penix workload/health comments, Packers offensive-line/receiver injuries, and sportsbook-specific TNF player-prop prices with both sides when available."
+  },
+  "repositoryActions": [
+    "Read controlling methodology, advanced market-learning rules, source hierarchy, live board, durable ledgers, Grok latest/history, and the prior immutable archive.",
+    "No new Grok pass processed because completedAt is unchanged.",
+    "No Week 3 bet/lean promoted because no current verified sportsbook-specific price plus probability edge clears PRIME thresholds.",
+    "Created this immutable PRIME checkpoint on main.",
+    "Repository isolation preserved: NFL player-prop data only."
+  ]
+}
