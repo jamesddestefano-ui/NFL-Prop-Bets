@@ -1,0 +1,262 @@
+{
+  "status": "live",
+  "capturedAtEt": "2026-09-22T16:56:31-04:00",
+  "capturedAtUtc": "2026-09-22T20:56:31Z",
+  "nflWeek": 3,
+  "scope": "NFL player props only",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-09-22T19-31-56Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. completedAt is unchanged, so Grok intelligence was not reprocessed and cannot overwrite verified sportsbook truth."
+  },
+  "materialChange": true,
+  "attentionRequired": false,
+  "userAlert": false,
+  "currentAction": "NO_BET",
+  "summary": "The official Tuesday ATL-GB injury report is now published, resolving the prior archive's pending participation state: Jayden Reed, Aaron Banks and Zach Bako-Bewele were estimated DNP again; Anthony Belton newly appeared as limited; Donovan Jennings improved to limited; A.J. Terrell Jr. is on IR; Michael Penix Jr., Brian Robinson Jr. and Tua Tagovailoa were full. This is a material information update but does not create a price-adjusted NFL player-prop bet. Current multi-book line shopping shows Jordan Love passing yards as low as 225.5 O-110 at Fanatics, Christian Watson receiving yards as low as 64.5 O-114 at BetParx / 64.5 O-115 at BetRivers, and Watson receptions U4.5 as high as +105 at DraftKings/Bovada. Love O225.5 is the strongest early-week lean, but fresh Green Bay OL/WR uncertainty is not fully reflected in several projection sources and the conservative estimated edge remains in the 2-4% bucket. Watson receiving is only a small projection cushion relative to a high-variance market, while Watson receptions has meaningful model-vs-market disagreement plus Jayden Reed's absence can increase target volume. Wait for Wednesday participation and fresh repricing rather than force Tuesday action.",
+  "newOfficialInjuryState": {
+    "source": "Green Bay Packers official injury report",
+    "publishedAtEt": "2026-09-22T15:26:00-04:00",
+    "greenBay": {
+      "DNP": [
+        "Zach Bako-Bewele, OL — knee",
+        "Aaron Banks, G — knee/toe",
+        "Warren Brinson, DT — calf",
+        "Jayden Reed, WR — neck"
+      ],
+      "LIMITED": [
+        "Anthony Belton, G/T — elbow (new Tuesday)",
+        "Anthony Campbell, DT — ankle",
+        "Brandon Cisse, CB — teeth",
+        "Edgerrin Cooper, LB — shoulder",
+        "Javon Hargrave, DT — knee/concussion",
+        "Donovan Jennings, G/T — hand"
+      ],
+      "FULL": [
+        "Bo Melton, WR — neck",
+        "Benjamin St-Juste, CB — hamstring"
+      ],
+      "note": "Green Bay held a walkthrough Tuesday and did not practice Monday; listed participation is estimated."
+    },
+    "atlanta": {
+      "DNP": [
+        "Samson Ebukam, DE — hamstring"
+      ],
+      "FULL": [
+        "Billy Bowman, CB — Achilles",
+        "Brandon Dorlus, DE — thumb",
+        "LaCale London, DT — hip",
+        "Nick Muse, TE — shoulder",
+        "Michael Penix Jr., QB — knee",
+        "Brian Robinson Jr., RB — ankle",
+        "Tua Tagovailoa, QB — oblique",
+        "Jawaan Taylor, T — rib"
+      ],
+      "IR": [
+        "A.J. Terrell Jr., CB — groin"
+      ]
+    }
+  },
+  "marketSnapshots": [
+    {
+      "game": "ATL@GB",
+      "player": "Jordan Love",
+      "propType": "PASS_YARDS",
+      "market": "Passing Yards O/U",
+      "side": "OVER",
+      "sportsbook": "Fanatics via CLEATZ current line-shopping board",
+      "line": 225.5,
+      "odds": -110,
+      "observedAtEt": "2026-09-22T16:56:31-04:00",
+      "bestMarketLine": "225.5 O-110 Fanatics; 225.5 O-113 BetParx; 225.5 O-114 BetRivers",
+      "consensusLine": "roughly 227.5-229.5 across currently priced regulated books",
+      "projectionStack": {
+        "FantasyPros": 235.9,
+        "StatsInsider": 235.0,
+        "FantasyInfoCentral": 275.7,
+        "UnlikelyComputer": 225.0
+      },
+      "ourMeanProjection": 235.0,
+      "ourMedianProjection": 235.45,
+      "estimatedOverProbabilityPct": 55.5,
+      "estimatedUnderProbabilityPct": 44.5,
+      "fairOddsApprox": -125,
+      "marketBreakEvenPct": 52.38,
+      "estimatedEdgePctPoints": 3.12,
+      "edgeBucket": "2-4%",
+      "decision": "LEAN",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "EARLY_WEEK",
+      "confidence": "B-",
+      "maximumPlayable": "Do not promote to BET at the current -110 while Reed and multiple offensive linemen remain unresolved; revisit if 225.5 is available near even money or Wednesday participation materially improves the protection/receiver outlook.",
+      "signalTags": "DEFENSIVE_INJURY|OL_INJURY|INJURY|MATCHUP|WEATHER|PROJECTION_DISAGREEMENT|MARKET_MOVE",
+      "reason": "Terrell's IR status and an otherwise benign early weather outlook support the Over, but the fresh Green Bay injury report adds multiple OL concerns and Reed remains DNP. The independent projection stack is bullish in aggregate but dispersed, and several projections predate the final Tuesday participation report. A projection above the line is insufficient by itself; conservative fair probability leaves only a 2-4% edge bucket at -110."
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Christian Watson",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards O/U",
+      "side": "OVER",
+      "sportsbook": "BetParx via CLEATZ current line-shopping board",
+      "line": 64.5,
+      "odds": -114,
+      "observedAtEt": "2026-09-22T16:56:31-04:00",
+      "bestMarketLine": "64.5 O-114 BetParx; 64.5 O-115 BetRivers; 65.5 O-115 BetMGM; 66.5 O-114 FanDuel",
+      "projectionStack": {
+        "FantasyPros": 67.1,
+        "CBS": 72.7,
+        "StatsInsider": 71.0
+      },
+      "ourMeanProjection": 70.3,
+      "estimatedOverProbabilityPct": 55.5,
+      "marketBreakEvenPct": 53.27,
+      "estimatedEdgePctPoints": 2.23,
+      "edgeBucket": "2-4%",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "EARLY_WEEK",
+      "confidence": "B-",
+      "maximumPlayable": "No bet at 64.5/-114 yet; require either a better threshold/price or Wednesday evidence that Reed remains unavailable while Green Bay protection stabilizes.",
+      "signalTags": "TARGET_SHARE|ROUTE_SHARE|INJURY|DEFENSIVE_INJURY|OL_INJURY|PROJECTION_DISAGREEMENT|MARKET_MOVE",
+      "reason": "Watson has 19 targets, 10 catches and 188 yards through two games and Reed's DNP can condense targets, while Terrell's absence helps the matchup. However, receiving-yard variance is high, the projection cushion is modest at the current best regulated-book number, and OL uncertainty works against downfield efficiency."
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Christian Watson",
+      "propType": "RECEPTIONS",
+      "market": "Receptions O/U",
+      "side": "UNDER",
+      "sportsbook": "DraftKings via CLEATZ current line-shopping board",
+      "line": 4.5,
+      "odds": 105,
+      "observedAtEt": "2026-09-22T16:56:31-04:00",
+      "bestMarketLine": "U4.5 +105 DraftKings/Bovada; U4.5 +102 BetOnline; U4.5 +100 BetMGM",
+      "oppositeSide": "DraftKings O4.5 -134",
+      "projectionStack": {
+        "FantasyPros": 3.9,
+        "CBS": 4.4
+      },
+      "decision": "WATCH",
+      "steamState": "WAIT_FOR_NEWS_AND_PROJECTIONS",
+      "entryTiming": "EARLY_WEEK",
+      "confidence": "C+",
+      "edgeBucket": "UNQUANTIFIED",
+      "signalTags": "TARGET_SHARE|INJURY|PROJECTION_DISAGREEMENT|MARKET_MOVE",
+      "reason": "Two independent catch projections are below 4.5 and the Under is plus money, but the broader market is strongly shaded toward the Over and Reed's continued DNP can raise Watson's target volume. PRIME will not override that disagreement with a simplistic point-projection or Poisson conversion."
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Tucker Kraft",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards O/U",
+      "side": "OVER",
+      "sportsbook": "BetMGM via CLEATZ current line-shopping board",
+      "line": 44.5,
+      "odds": -115,
+      "observedAtEt": "2026-09-22T16:56:31-04:00",
+      "bestMarketLine": "44.5 O-115 BetMGM; most other regulated books roughly 45.5-49.5",
+      "projectionStack": {
+        "StatsInsider": 46.0
+      },
+      "decision": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "EARLY_WEEK",
+      "confidence": "B",
+      "edgeBucket": "<2%",
+      "signalTags": "TARGET_SHARE|INJURY|DEFENSIVE_INJURY|PROJECTION_DISAGREEMENT",
+      "reason": "The best current threshold is better than several books, but the verified projection cushion is too small to overcome -115 pricing and receiving-yard variance."
+    }
+  ],
+  "weather": {
+    "classification": "forecast",
+    "currentEarlyOutlook": "Approximately 57-60F, mostly cloudy/clear, light single-digit sustained wind at kickoff; no current precipitation signal material enough to reprice passing props.",
+    "decisionImpact": "NEUTRAL",
+    "note": "Continue to refresh closer to Thursday because outdoor Lambeau forecasts can change."
+  },
+  "marketLearning": {
+    "entryTiming": "EARLY_WEEK",
+    "priceDiscipline": "No Tuesday wager. Line-shop aggressively: isolated best numbers exist, but none currently clears PRIME's uncertainty-adjusted edge threshold after the official injury update.",
+    "sameThesis": "Love passing Over plus Watson/Kraft receiving Overs are correlated to the same Green Bay passing-efficiency thesis. Do not stack them before each leg independently qualifies.",
+    "exposure": "No Week 3 NFL player-prop exposure recorded.",
+    "clv": "No ticket placed; LINE_CLV, PRICE_CLV and COMBINED_CLV are not applicable.",
+    "missedBetPolicy": "No missed-bet row because no current evaluation is classified BET.",
+    "passPolicy": "Kraft receiving Over is a price-based PASS; Love and Watson markets remain LEAN/WATCH rather than formal recommendations.",
+    "calibration": "No new formal BET probability promoted for Brier tracking."
+  },
+  "sources": [
+    {
+      "classification": "official_team_report",
+      "name": "Packers-Falcons Injury Report | Sept. 22, 2026",
+      "url": "https://www.packers.com/news/packers-falcons-injury-report-sept-22-2026",
+      "publishedAtEt": "2026-09-22T15:26:00-04:00"
+    },
+    {
+      "classification": "market_line_shopping",
+      "name": "CLEATZ NFL player-prop consensus and line-shopping board",
+      "url": "https://cleatz.com/nfl-props-test/",
+      "observedAtEt": "2026-09-22T16:56:31-04:00"
+    },
+    {
+      "classification": "sportsbook_market_reference",
+      "name": "DraftKings Network current player props",
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-player-props/",
+      "observedAtEt": "2026-09-22T16:56:31-04:00"
+    },
+    {
+      "classification": "model_projection",
+      "name": "FantasyPros Week 3 Jordan Love projection",
+      "url": "https://www.fantasypros.com/nfl/projections/jordan-love.php",
+      "observedAtEt": "2026-09-22T16:56:31-04:00",
+      "note": "19.9 completions, 31.2 attempts, 235.9 passing yards."
+    },
+    {
+      "classification": "model_projection",
+      "name": "FantasyPros Week 3 Christian Watson projection",
+      "url": "https://www.fantasypros.com/nfl/projections/christian-watson.php?scoring=PPR",
+      "observedAtEt": "2026-09-22T16:56:31-04:00",
+      "note": "3.9 receptions, 67.1 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "name": "CBS Week 3 WR projections",
+      "url": "https://www.cbssports.com/fantasy/football/stats/WR/2026/3/projections/nonppr/",
+      "observedAtEt": "2026-09-22T16:56:31-04:00",
+      "note": "Christian Watson approximately 4.4 receptions and 72.7 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "name": "StatsInsider Packers-Falcons model",
+      "url": "https://www.statsinsider.com.au/news/packers-vs-falcons-prediction-and-preview-nfl-week-3-2026",
+      "observedAtEt": "2026-09-22T16:56:31-04:00",
+      "note": "Jordan Love 235 pass yards; Christian Watson 71 receiving yards; Tucker Kraft 46 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "name": "Fantasy Info Central Week 3 passing-yard projections",
+      "url": "https://www.fantasyinfocentral.com/betting/nfl/props/passing-yards",
+      "observedAtEt": "2026-09-22T16:56:31-04:00",
+      "note": "Jordan Love 275.7 passing yards; treated as a high outlier rather than consensus truth."
+    },
+    {
+      "classification": "usage_data",
+      "name": "SumerSports Christian Watson profile",
+      "url": "https://sumersports.com/players/4a55290/christian-watson/",
+      "observedAtEt": "2026-09-22T16:56:31-04:00",
+      "note": "Through Week 2: 19 targets, 10 receptions, 188 receiving yards; displayed target-share and efficiency context used as supporting role evidence."
+    }
+  ],
+  "nextFocus": [
+    "Wednesday ATL-GB practice/participation report and final game designations",
+    "Jayden Reed availability and effect on Watson/Golden/Kraft target concentration",
+    "Green Bay offensive-line availability, especially Banks, Bako-Bewele, Belton and Jennings",
+    "Reprice Jordan Love passing yards at the best available sportsbook after Wednesday news",
+    "Refresh Lambeau weather and current multi-book lines",
+    "Alert only if a price-adjusted edge reaches formal BET status or an existing-ticket material change emerges"
+  ]
+}
