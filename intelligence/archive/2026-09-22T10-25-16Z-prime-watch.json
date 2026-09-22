@@ -1,0 +1,137 @@
+{
+  "status": "live",
+  "scope": "NFL player props only",
+  "capturedAtEt": "2026-09-22 06:25:16",
+  "capturedAtUtc": "2026-09-22T10:25:16Z",
+  "priorArchive": "intelligence/archive/2026-09-22T09-19-12Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json remains live with completedAt 2026-09-12T17:05:00Z, matching the compact history and the most recently processed completedAt."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No actionable Week 3 NFL player-prop opportunity is verified at this checkpoint. The ATL-GB board remains WATCH-only: Michael Penix Jr. is the confirmed Thursday starter and Atlanta's Monday estimated report still has Penix full, Brian Robinson Jr. limited and A.J. Terrell Jr. DNP. Green Bay's Monday estimate remains the controlling short-week injury set, with Jayden Reed, Zach Bako-Bewele, Aaron Banks and Donovan Jennings among the DNPs; Jordan Love is not on the injury report. Fresh web research still does not establish a named, executable sportsbook-specific player-prop market with complete two-sided pricing. The Data Skrive/Bleacher Nation Jordan Love 226.5 Over -114 reference remains anonymous/incomplete and therefore is not sportsbook truth. A new post-MNF report says Jaxson Dart is feared to have a left MCL sprain, with X-rays negative and MRI pending; that is a relevant Week 3 role/injury signal for NYG-TEN but there is no current verified player-prop price or actionable replacement-QB market, so PRIME records the context without alerting or betting. PRIME remains NO BET pending Tuesday practice participation, named-book prices and independent projections.",
+  "freshChecks": [
+    {
+      "source": "Atlanta Falcons official",
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-09-21 16:29",
+      "observedAtEt": "2026-09-22 06:25",
+      "sourceUrl": "https://www.atlantafalcons.com/news/michael-penix-jr-starting-qb-thursday-night-football-vs-packers",
+      "detail": "Michael Penix Jr. remains the officially named Week 3 starter at Green Bay."
+    },
+    {
+      "source": "Atlanta Falcons official injury report",
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-09-21 16:47",
+      "observedAtEt": "2026-09-22 06:25",
+      "sourceUrl": "https://www.atlantafalcons.com/news/estimated-injury-report-released-week-3-green-bay-packers",
+      "detail": "Monday walkthrough estimate remains unchanged: Penix full (knee), Brian Robinson Jr. limited (ankle), Tua Tagovailoa limited (oblique), Jawaan Taylor limited (rib), A.J. Terrell Jr. DNP (groin), Samson Ebukam DNP (hamstring)."
+    },
+    {
+      "source": "Green Bay Packers official injury report / reliable beat follow-up",
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-09-21",
+      "observedAtEt": "2026-09-22 06:25",
+      "sourceUrl": "https://www.packers.com/team/injury-report/",
+      "detail": "Green Bay's Monday estimate remains the current official short-week report: Jayden Reed (neck), Zach Bako-Bewele (knee), Aaron Banks (knee/toe), Donovan Jennings (hand), Warren Brinson (calf) and Anthony Campbell (ankle) DNP; Javon Hargrave limited; Jordan Love is not listed."
+    },
+    {
+      "source": "Bleacher Nation / Data Skrive",
+      "classification": "market_reference",
+      "publishedAtEt": "2026-09-21",
+      "observedAtEt": "2026-09-22 06:25",
+      "sourceUrl": "https://www.bleachernation.com/picks/2026/09/21/player-prop-bets-for-packers-vs-falcons-september-24-2026/",
+      "detail": "Public reference still lists Jordan Love passing yards 226.5 with Over -114. It does not identify the sportsbook or provide a complete executable two-sided player-prop market, so it is not promoted to verified line history or a BET."
+    },
+    {
+      "source": "Reuters",
+      "classification": "attributed_report",
+      "publishedAtEt": "2026-09-22",
+      "observedAtEt": "2026-09-22 06:25",
+      "sourceUrl": "https://www.reuters.com/sports/giants-qb-jaxson-dart-knee-questionable-return--flm-2026-09-22/",
+      "detail": "Giants QB Jaxson Dart is feared to have a sprained left MCL after Monday night's knee injury; X-rays were negative and MRI results were still pending. This materially changes NYG-TEN role assumptions if confirmed, but no verified current player-prop market is available to price yet."
+    }
+  ],
+  "week3EarlyBoard": [
+    {
+      "game": "ATL@GB",
+      "player": "Jordan Love",
+      "propType": "PASS_YARDS",
+      "market": "Passing Yards",
+      "side": null,
+      "line": null,
+      "odds": null,
+      "sportsbook": null,
+      "status": "WATCH",
+      "decisionReason": "Anonymous public references remain insufficient for executable sportsbook verification, while Green Bay offensive-line/receiver health and Atlanta A.J. Terrell status remain unresolved. Wait for named current markets, Tuesday participation and independent projections.",
+      "steamState": "NO_ACTION",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "signalTags": ["OL_INJURY", "INJURY", "DEFENSIVE_INJURY", "MARKET_MOVE", "PROJECTION_DISAGREEMENT"]
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Tucker Kraft",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": null,
+      "line": null,
+      "odds": null,
+      "sportsbook": null,
+      "status": "WATCH",
+      "decisionReason": "Jayden Reed's absence risk can alter target distribution, but no current named-book Kraft line with complete pricing and independent fair-probability support is verified.",
+      "steamState": "NO_ACTION",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "signalTags": ["INJURY", "ROUTE_SHARE", "TARGET_SHARE", "MARKET_MOVE"]
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Michael Penix Jr.",
+      "propType": "PASS_YARDS",
+      "market": "Passing Yards",
+      "side": null,
+      "line": null,
+      "odds": null,
+      "sportsbook": null,
+      "status": "WATCH",
+      "decisionReason": "Starter status is confirmed, but this is Penix's first game back from a major knee injury on a short week and no verified named-book current passing-yard price plus fair-probability edge is available.",
+      "steamState": "NO_ACTION",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "signalTags": ["INJURY", "ROLE_CHANGE", "GAME_SCRIPT", "PROJECTION_DISAGREEMENT"]
+    },
+    {
+      "game": "TEN@NYG",
+      "player": "Jaxson Dart",
+      "propType": "OTHER",
+      "market": "Week 3 player props",
+      "side": null,
+      "line": null,
+      "odds": null,
+      "sportsbook": null,
+      "status": "WATCH",
+      "decisionReason": "MRI is pending after an attributed report of a suspected left MCL sprain. Any Week 3 Dart or Jameis Winston prop distribution must be rebuilt after official diagnosis/availability and current sportsbook prices; no pre-injury Week 2 assumptions transfer.",
+      "steamState": "NO_ACTION",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "signalTags": ["INJURY", "ROLE_CHANGE", "MARKET_MOVE"]
+    }
+  ],
+  "marketDiscipline": {
+    "currentAction": "NO_BET",
+    "week3": "Wait for named sportsbook-specific markets with both sides, Tuesday practice participation and independent projections. Do not force early-week positions from anonymous or incomplete market references.",
+    "nextFocus": "Tuesday ATL-GB practice/walkthrough updates; Jayden Reed, Green Bay OL, A.J. Terrell and Brian Robinson status; named-book TNF prop prices; independent projections for Love, Kraft, Watson, Penix, London and Bijan; official Jaxson Dart MRI/availability and any NYG-TEN repricing."
+  },
+  "repositoryActions": [
+    "Read AGENTS.md, methodology, advanced market learning, sources, all required durable ledgers, Grok latest/history and newest immutable archive.",
+    "No new Grok pass processed because completedAt is unchanged.",
+    "No Week 3 BET/LEAN promoted because no current named sportsbook-specific price plus modeled probability edge clears PRIME thresholds.",
+    "No durable ledger row was added because there is no new executable market state, user bet, material verified-book pass, or settlement; this immutable archive preserves the checkpoint and the new Dart injury context.",
+    "Repository isolation preserved: NFL player-prop data only."
+  ]
+}
