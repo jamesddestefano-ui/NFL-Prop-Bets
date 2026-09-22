@@ -1,8 +1,8 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-12T17-05-00Z.json",
-  "lastPrimeWatchArchive": "intelligence/archive/2026-09-22T12-27-50Z-prime-watch.json",
-  "processedAtEt": "2026-09-22T08:27:50-04:00",
+  "lastPrimeWatchArchive": "intelligence/archive/2026-09-22T14-16-02Z-prime-watch.json",
+  "processedAtEt": "2026-09-22T10:16:02-04:00",
   "scope": "NFL player props only",
-  "notes": "Tuesday 08:27 ET Week 3 checkpoint. NO ACTIONABLE BET and no user alert. Fresh rechecks show the same principal ATL-GB prices as the 07:27 ET archive: DK Christian Watson O4.5 receptions -118 and O67.5 receiving -112 remain PASS; Tucker Kraft remains WATCH at bet365 43.5 -116 both ways / DK 40+ -150; Jordan Love 240+ +113 remains WATCH; Michael Penix Jr. O0.5 INT -123 remains PASS. Jaxson Dart MRI is still pending in current reliable/official reporting; suspected MCL sprain remains attributed reporting rather than final diagnosis. Tuesday ATL-GB official participation data has not yet materially changed Monday's estimated injury state. No new Grok pass; latest remains live completedAt 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-22T12-27-50Z-prime-watch.json."
+  "notes": "Tuesday 10:16 ET Week 3 checkpoint. NO ACTIONABLE BET and no user alert. Fresh DraftKings Network market extraction continues to show Tucker Kraft 40+ receiving -157 and Jordan Love 230+ passing -113, unchanged from the 09:10 archive; newly visible Tucker Kraft 47+ receiving -111 and Drake London 64+ receiving -113 remain WATCH because PRIME lacks a sufficiently robust current fair-probability/projection stack and Tuesday ATL-GB participation dependencies remain unresolved. Do not reuse earlier Watson reception or Penix interception prices as current when they are not exposed in the fresh direct market extraction. Jaxson Dart's official MRI result remains unconfirmed in team reporting; MCL-sprain timelines remain attributed reporting. No new Grok pass; latest remains live completedAt 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-22T14-16-02Z-prime-watch.json."
 }
