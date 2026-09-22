@@ -1,0 +1,186 @@
+{
+  "status": "live",
+  "capturedAtEt": "2026-09-22T11:07:42-04:00",
+  "capturedAtUtc": "2026-09-22T15:07:42Z",
+  "nflWeek": 3,
+  "scope": "NFL player props only",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-09-22T14-16-02Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. completedAt is unchanged, so Grok intelligence is not reprocessed or allowed to overwrite verified sportsbook truth."
+  },
+  "materialChange": false,
+  "userAlert": false,
+  "currentAction": "NO_BET",
+  "summary": "No actionable Week 3 NFL player-prop opportunity is verified at 11:07 ET. DraftKings Network's current five-minute player-props board now shows Jordan Love 230+ passing yards at -111, a two-cent improvement from the prior -113 snapshot, plus Christian Watson Over 4.5 receptions at -134 and Michael Penix Jr. Over 0.5 interceptions at -123. None clears PRIME's price-adjusted edge requirement. Love's independent current passing-yard projections cluster around the low-to-mid 220s with one CBS snapshot at 232, while Green Bay's offensive-line/receiver availability remains unresolved. FantasyPros' Week 3 consensus projects Watson for 3.9 receptions, which does not support paying -134 on Over 4.5 without a materially stronger distribution. Penix is confirmed to start in his first game back from ACL surgery, but PRIME has no defensible current interception probability above the 55.2% break-even required by -123. Tucker Kraft 40+ receiving yards remains -157 and is still too expensive to promote without a quantified fair probability. Tuesday ATL-GB participation data and the official Jaxson Dart MRI result remain pending. Wait rather than force an early-week wager.",
+  "marketSnapshots": [
+    {
+      "game": "ATL@GB",
+      "player": "Jordan Love",
+      "propType": "PASS_YARDS",
+      "market": "Passing Yards Alt",
+      "side": "AT_LEAST",
+      "sportsbook": "DraftKings",
+      "line": "230+",
+      "odds": -111,
+      "priorObservedOdds": -113,
+      "observedAtEt": "2026-09-22T11:07:42-04:00",
+      "source": "DraftKings Network current player-props page",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-player-props/?itm_content=pills",
+      "decision": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "confidence": "B",
+      "edgeBucket": "NO_VERIFIED_EDGE",
+      "reason": "Price improved two cents, but independent current projections are mixed and mostly at or below the threshold: current public projections observed in this pass include roughly 223-232 yards from CBS variants and 225 yards from an independent distribution model. Green Bay's offensive-line and Jayden Reed statuses remain unresolved. No defensible fair Over probability above the -111 break-even rate is established."
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Tucker Kraft",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards Alt",
+      "side": "AT_LEAST",
+      "sportsbook": "DraftKings",
+      "line": "40+",
+      "odds": -157,
+      "observedAtEt": "2026-09-22T11:07:42-04:00",
+      "source": "DraftKings Network current player-props page",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-player-props/?itm_content=pills",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "confidence": "B",
+      "edgeBucket": "UNQUANTIFIED",
+      "reason": "Unchanged from the prior checkpoint. Current CBS Week 3 projection is 45.5 yards and role/matchup context is favorable, but -157 requires a high hit rate and PRIME does not have a sufficiently robust probability distribution to justify the price."
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Christian Watson",
+      "propType": "RECEPTIONS",
+      "market": "Receptions O/U",
+      "side": "OVER",
+      "sportsbook": "DraftKings",
+      "line": 4.5,
+      "odds": -134,
+      "marketImpliedProbability": 57.26,
+      "observedAtEt": "2026-09-22T11:07:42-04:00",
+      "source": "DraftKings Network current player-props page",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-player-props/?itm_content=pills",
+      "decision": "PASS",
+      "steamState": "PRICE_TOO_EXPENSIVE_FOR_CURRENT_EVIDENCE",
+      "confidence": "B",
+      "edgeBucket": "NO_VERIFIED_EDGE",
+      "reason": "FantasyPros' current Week 3 consensus projects 3.9 receptions. Projection below a line is not itself an Under signal, but it provides no support for paying -134 on the Over. Jayden Reed's availability is still unresolved, so no target-vacuum assumption is made."
+    },
+    {
+      "game": "ATL@GB",
+      "player": "Michael Penix Jr.",
+      "propType": "INTERCEPTIONS_THROWN",
+      "market": "Interceptions Thrown O/U",
+      "side": "OVER",
+      "sportsbook": "DraftKings",
+      "line": 0.5,
+      "odds": -123,
+      "marketImpliedProbability": 55.16,
+      "observedAtEt": "2026-09-22T11:07:42-04:00",
+      "source": "DraftKings Network current player-props page",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-player-props/?itm_content=pills",
+      "decision": "PASS",
+      "steamState": "WAIT_FOR_NEWS_AND_PROJECTIONS",
+      "confidence": "B-",
+      "edgeBucket": "NO_VERIFIED_EDGE",
+      "reason": "Penix is confirmed as Atlanta's starter in his first game back from ACL surgery, but return-from-injury narrative is not enough to justify -123. PRIME lacks an independent current interception-probability stack establishing better than the 55.2% break-even rate. Do not infer an interception from Atlanta's prior quarterbacks' turnover problems."
+    }
+  ],
+  "injuryAndNewsState": {
+    "ATL_GB": {
+      "confirmedFacts": [
+        "Michael Penix Jr. is Atlanta's announced Thursday starter and was estimated full Monday.",
+        "Green Bay's Monday estimated report listed Jayden Reed DNP with a neck injury, Aaron Banks DNP with knee/toe injuries, Zach Bako-Bewele DNP with a knee injury, and Donovan Jennings DNP with a hand injury.",
+        "Atlanta's Monday estimate listed A.J. Terrell Jr. DNP with a groin injury and Brian Robinson Jr. limited with an ankle injury."
+      ],
+      "pending": [
+        "Tuesday official participation report",
+        "Jayden Reed availability trajectory",
+        "Green Bay offensive-line availability",
+        "A.J. Terrell availability",
+        "Thursday weather refinement"
+      ]
+    },
+    "NYG_TEN": {
+      "confirmedFacts": [
+        "Jaxson Dart left Monday night with a left knee injury and did not return; X-rays were negative.",
+        "The Giants said an MRI would be performed Tuesday."
+      ],
+      "attributedReporting": [
+        "NFL Network/Reuters reporting and John Harbaugh's postgame comments place the injury in the MCL-sprain neighborhood, but the official MRI result is not yet confirmed in team reporting at this checkpoint."
+      ],
+      "pending": [
+        "Official MRI result and Week 3 availability",
+        "Giants Week 3 starting-quarterback announcement",
+        "Fresh NYG-TEN player props after quarterback status is established"
+      ]
+    }
+  },
+  "marketLearning": {
+    "entryTiming": "EARLY_WEEK_WAIT",
+    "priceDiscipline": "No Tuesday late-morning wager. A two-cent improvement on Love 230+ does not create edge when the projection stack remains mixed; expensive Watson/Kraft prices and an unquantified Penix interception market are passes/watch only.",
+    "sameThesis": "Watson/Kraft/Love overs share Green Bay passing-volume and target-concentration exposure. Do not stack without independent edges and exposure review.",
+    "exposure": "No Week 3 player-prop exposure recorded.",
+    "clv": "No ticket placed; LINE_CLV, PRICE_CLV and COMBINED_CLV are not applicable.",
+    "missedBetPolicy": "No missed-bet row because no current evaluation qualifies as BET.",
+    "calibration": "No new fair-probability forecast promoted; no Brier observation added."
+  },
+  "sources": [
+    {
+      "classification": "verified_sportsbook_market",
+      "name": "DraftKings Network current player props",
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-player-props/?itm_content=pills",
+      "observedAtEt": "2026-09-22T11:07:42-04:00",
+      "note": "Page states most-bet player props are updated every five minutes."
+    },
+    {
+      "classification": "model_projection",
+      "name": "FantasyPros Week 3 WR consensus projections",
+      "url": "https://www.fantasypros.com/nfl/projections/wr.php?scoring=ppr",
+      "observedAtEt": "2026-09-22T11:07:42-04:00",
+      "note": "Christian Watson projected 3.9 receptions and 67.1 receiving yards."
+    },
+    {
+      "classification": "model_projection",
+      "name": "CBS Sports Week 3 QB projections",
+      "url": "https://www.cbssports.com/fantasy/football/stats/QB/2026/3/projections/nonppr/",
+      "observedAtEt": "2026-09-22T11:07:42-04:00",
+      "note": "Current public CBS variants surfaced Jordan Love in the low-to-mid 220s, with one snapshot at 232."
+    },
+    {
+      "classification": "model_projection",
+      "name": "CBS Sports Week 3 RB-WR-TE projections",
+      "url": "https://secure-www.cbssports.com/fantasy/football/stats/RB-WR-TE/2026/3/projections/nonppr/",
+      "observedAtEt": "2026-09-22T11:07:42-04:00",
+      "note": "Tucker Kraft projected 45.5 receiving yards."
+    },
+    {
+      "classification": "official_team_report",
+      "name": "Packers-Falcons Injury Report | Sept. 21, 2026",
+      "url": "https://www.packers.com/news/packers-falcons-injury-report-sept-21-2026",
+      "publishedAt": "2026-09-21T16:07:00-04:00"
+    },
+    {
+      "classification": "confirmed_fact / attributed_reporting",
+      "name": "NFL / Reuters Jaxson Dart knee reporting",
+      "url": "https://www.nfl.com/news/giants-qb-jaxson-dart-suffers-apparent-knee-injury-on-first-drive-vs-rams",
+      "observedAtEt": "2026-09-22T11:07:42-04:00"
+    }
+  ],
+  "nextFocus": [
+    "Tuesday ATL-GB official participation report",
+    "Current two-sided main-line Love/Kraft/Watson/London/Penix markets",
+    "Fresh independent Week 3 projection distributions",
+    "Official Jaxson Dart MRI result and Giants quarterback announcement",
+    "Alert only if a price-adjusted edge or ticket-relevant material change emerges"
+  ]
+}
