@@ -1,0 +1,142 @@
+{
+  "status": "live",
+  "capturedAtEt": "2026-09-23T08:29:18-04:00",
+  "capturedAtUtc": "2026-09-23T12:29:18Z",
+  "nflWeek": 3,
+  "scope": "NFL player props only",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-09-23T10-52-32Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. completedAt is unchanged from the compact history index and the most recently processed value."
+  },
+  "marketChangeObserved": false,
+  "newContextObserved": true,
+  "materialChangeSincePriorArchive": false,
+  "newUserFacingAlert": false,
+  "currentAction": "BET_STILL_PLAYABLE_UNCHANGED",
+  "summary": "08:29 ET Week 3 refresh: DraftKings Network's directly opened player-props page, which states it updates every five minutes, still lists Christian Watson anytime TD at +150 for ATL@GB. The executable-price reference is unchanged from the 06:10 and 06:52 ET checkpoints, so PRIME preserves its conservative 47.0% fair TD probability, +113 fair odds, 40.00% market-implied probability, 7.00-point fair-probability edge, 6-8% edge bucket, BET / STILL_PLAYABLE classification, 0.5u recommendation only if not already placed, and +135-or-better hard floor. A fresh morning report reiterates Matt LaFleur's Tuesday statement that Jayden Reed is back in Green Bay, undergoing further neck testing, doing OK, and still has no return timeline; this adds context but does not materially change the Watson distribution because Reed's Thursday absence risk was already embedded. The official Packers-Falcons injury report still has Wednesday participation/status blank at this checkpoint. No new Sunday prop combines a verified current sportsbook price with a sufficiently robust independent probability edge. No user-facing alert is warranted.",
+  "actionableCandidate": {
+    "game": "ATL@GB",
+    "gameDate": "2026-09-24",
+    "player": "Christian Watson",
+    "team": "GB",
+    "opponent": "ATL",
+    "propType": "ANYTIME_TD",
+    "market": "Anytime TD Scorer",
+    "side": "YES",
+    "sportsbook": "DraftKings",
+    "line": "YES",
+    "odds": 150,
+    "observedAtEt": "2026-09-23T08:29:18-04:00",
+    "priorVerifiedOdds": 150,
+    "priorVerifiedAtEt": "2026-09-23T06:52:32-04:00",
+    "bestMarket": "DraftKings +150 on the directly opened current DKN player-props page",
+    "marketImpliedProbabilityPct": 40.0,
+    "internalFairProbabilityPct": 47.0,
+    "fairOddsAmerican": 113,
+    "estimatedEdgePct": 7.0,
+    "edgeBucket": "6-8%",
+    "decision": "BET",
+    "steamState": "STILL_PLAYABLE",
+    "confidence": "B",
+    "stakeUnits": 0.5,
+    "playToPrice": "+135 or better",
+    "entryTiming": "MIDWEEK",
+    "signalTags": "TARGET_SHARE|ROUTE_SHARE|RED_ZONE|INJURY|DEFENSIVE_INJURY|MARKET_MOVE|PROJECTION_DISAGREEMENT|EXPERT_CONSENSUS",
+    "correlationTags": "SAME_THESIS if paired with Jordan Love, Tucker Kraft, Matthew Golden, or other Green Bay passing/receiving overs",
+    "thesisId": "WATSON_TD_CONDENSED_REDZONE",
+    "statusNote": "No price or decision change. Do not duplicate exposure if already placed. Do not chase below +135 without a new verified catalyst and fresh probability calculation."
+  },
+  "factsAndReporting": {
+    "confirmedFacts": [
+      "DraftKings Network's directly opened current player-props page lists Christian Watson anytime TD +150 for ATL@GB and states the page updates every five minutes.",
+      "The same page lists Tucker Kraft anytime TD +190 and Bijan Robinson anytime TD -155; neither is promoted without an independent price-adjusted fair-probability edge.",
+      "The official Packers-Falcons injury report remains on the Sept. 22 update at this checkpoint with Wednesday fields blank; Tuesday listed Jayden Reed and Aaron Banks DNP and Atlanta CB A.J. Terrell Jr. on injured reserve."
+    ],
+    "attributedReporting": [
+      "Packers Wire/Yahoo published Wednesday morning that Matt LaFleur said Tuesday Jayden Reed is back in Green Bay, undergoing further neck testing and consultation, doing OK, and still without a return timeline. The underlying coach comments are Tuesday comments and do not constitute a new Wednesday practice designation."
+    ],
+    "modelProjection": [
+      "FantasyPros Week 3 WR consensus, last updated Sept. 22, remains at 3.9 receptions, 66.5 receiving yards and 0.6 receiving TDs for Christian Watson. This is supportive context only, not a standalone betting trigger."
+    ],
+    "analystOpinion": [],
+    "speculation": []
+  },
+  "marketCheck": {
+    "draftKingsWatsonAnytimeTd": "+150, unchanged from the prior canonical checkpoint",
+    "draftKingsTuckerKraftAnytimeTd": "+190, up from +185 at 06:52 ET but still PASS absent an independently defensible fair probability",
+    "draftKingsBijanRobinsonAnytimeTd": "-155, unchanged",
+    "note": "No line-history append is needed for Watson because its canonical verified price remains +150. Kraft's five-cent move does not change its PASS decision and is not material enough to promote."
+  },
+  "otherEvaluations": [
+    {
+      "player": "Tucker Kraft",
+      "market": "Anytime TD",
+      "decision": "PASS",
+      "reason": "DraftKings +190 is current, but PRIME still lacks an independently defensible fair touchdown probability that clears the high-variance market after correlation/exposure adjustment."
+    },
+    {
+      "player": "Christian Watson",
+      "market": "Receiving Yards / Receptions",
+      "decision": "WATCH",
+      "reason": "Usage and projection context remain favorable, but no exact current two-way sportsbook line/juice plus independent probability edge is verified; another Watson Over also adds SAME_THESIS exposure."
+    },
+    {
+      "player": "Jordan Love",
+      "market": "Passing Yards",
+      "decision": "WATCH",
+      "reason": "No newly verified exact two-way price plus independent probability edge is available, and Green Bay offensive-line uncertainty remains material."
+    }
+  ],
+  "exposure": {
+    "week3StraightPropExposureRecorded": 0,
+    "week3ParlayExposureRecorded": 0,
+    "recommendedNotYetConfirmed": "Christian Watson anytime TD +150, 0.5u",
+    "note": "No Week 3 user ticket is recorded in bet_history. Do not write a wager to bet_history without authoritative user placement."
+  },
+  "durableUpdates": [
+    "Created this immutable PRIME checkpoint archive.",
+    "No line_history append because Watson remains +150 from the prior canonical checkpoint.",
+    "No decision_ledger, live_prop_board, bet_history, missed_bets, pass_ledger, parlay_history or weekly_attribution changes are required because no candidate changed decision state and no Week 3 user wager is confirmed.",
+    "Grok state remains unchanged because completedAt did not change."
+  ],
+  "nextFocus": [
+    "Wednesday Packers-Falcons final participation report and short-week game designations when posted.",
+    "Recheck Watson anytime-TD price; +135 remains the minimum acceptable price under the stored 47.0% fair estimate.",
+    "If Watson moves below +135 without a new catalyst, classify PASS_AFTER_MOVE rather than chasing.",
+    "Reprice Green Bay passing/receiving props after any material Aaron Banks, Anthony Belton, Jayden Reed or other availability change.",
+    "Continue scanning Sunday openers, but promote only when exact current sportsbook line/price and independent fair-probability edge are both verified.",
+    "Alert only on a material news/price change or genuinely new actionable edge."
+  ],
+  "sources": [
+    {
+      "classification": "verified_sportsbook_market",
+      "name": "DraftKings Network current player props",
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-player-props/",
+      "observedAtEt": "2026-09-23T08:29:18-04:00"
+    },
+    {
+      "classification": "official_team_injury_report",
+      "name": "Packers-Falcons Injury Report Sept. 22, 2026",
+      "url": "https://www.packers.com/news/packers-falcons-injury-report-sept-22-2026",
+      "observedAtEt": "2026-09-23T08:29:18-04:00"
+    },
+    {
+      "classification": "attributed_reporting",
+      "name": "Packers Wire/Yahoo - Matt LaFleur update on Jayden Reed",
+      "url": "https://sports.yahoo.com/articles/matt-lafleur-provides-wr-jayden-115623467.html",
+      "observedAtEt": "2026-09-23T08:29:18-04:00"
+    },
+    {
+      "classification": "model_projection",
+      "name": "FantasyPros Week 3 WR consensus projections",
+      "url": "https://www.fantasypros.com/nfl/projections/wr.php",
+      "observedAtEt": "2026-09-23T08:29:18-04:00"
+    }
+  ]
+}
