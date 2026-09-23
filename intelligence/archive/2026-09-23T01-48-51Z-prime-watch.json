@@ -1,0 +1,145 @@
+{
+  "status": "live",
+  "capturedAtEt": "2026-09-22T21:48:51-04:00",
+  "capturedAtUtc": "2026-09-23T01:48:51Z",
+  "nflWeek": 3,
+  "scope": "NFL player props only",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-09-23T01-02-32Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. completedAt is unchanged, so Grok intelligence was not reprocessed and did not overwrite verified market or ledger truth."
+  },
+  "materialChangeSincePriorArchive": true,
+  "newUserFacingAlert": true,
+  "currentAction": "REDUCED_EDGE_STILL_PLAYABLE",
+  "summary": "Christian Watson anytime TD has moved from the verified DraftKings +150 price at 21:02 ET to +140 at 21:48 ET. PRIME holds the conservative internal fair probability at 47.0% rather than adopting a more aggressive current model display because the prior source-timestamp inconsistency remains unresolved. +140 implies 41.67%, reducing estimated fair-probability edge from 7.0 points to 5.33 points and the edge bucket from 6-8% to 4-6%. The bet remains playable for 0.5u if not already placed, but it is now REDUCED_EDGE and the hard floor stays +135 or better; pass at +130 or worse absent a fresh catalyst. No Week 3 ticket is recorded because no authoritative user placement has been supplied. No additional correlated Green Bay passing/receiving position is promoted.",
+  "actionableCandidate": {
+    "game": "ATL@GB",
+    "gameDate": "2026-09-24",
+    "player": "Christian Watson",
+    "team": "GB",
+    "opponent": "ATL",
+    "propType": "ANYTIME_TD",
+    "market": "Anytime TD Scorer",
+    "side": "YES",
+    "sportsbook": "DraftKings",
+    "line": "YES",
+    "odds": 140,
+    "observedAtEt": "2026-09-22T21:48:51-04:00",
+    "priorVerifiedOdds": 150,
+    "priorVerifiedAtEt": "2026-09-22T21:02:32-04:00",
+    "bestMarket": "DraftKings +140 and bet365 +140 among independently verified public prices",
+    "comparisonPrices": "BetMGM public Week 3 context +125 to +130",
+    "marketImpliedProbabilityPct": 41.67,
+    "internalFairProbabilityPct": 47.0,
+    "fairOddsAmerican": 113,
+    "estimatedEdgePct": 5.33,
+    "edgeBucket": "4-6%",
+    "decision": "BET",
+    "steamState": "REDUCED_EDGE",
+    "confidence": "B",
+    "stakeUnits": 0.5,
+    "playToPrice": "+135 or better",
+    "entryTiming": "MIDWEEK",
+    "signalTags": "TARGET_SHARE|RED_ZONE|INJURY|DEFENSIVE_INJURY|MARKET_MOVE|PROJECTION_DISAGREEMENT|EXPERT_CONSENSUS",
+    "correlationTags": "SAME_THESIS if paired with Jordan Love, Tucker Kraft, or other Green Bay receiving/passing overs",
+    "thesisId": "WATSON_TD_CONDENSED_REDZONE",
+    "statusNote": "The price has materially worsened but remains inside the stored play-to. Do not chase below +135."
+  },
+  "factsAndReporting": {
+    "confirmedFacts": [
+      "DraftKings Network currently displays Christian Watson anytime TD at +140.",
+      "bet365's current Falcons-Packers Week 3 article also displays Christian Watson anytime TD at +140.",
+      "Atlanta CB A.J. Terrell Jr. is on injured reserve with a groin injury.",
+      "Green Bay's short-week injury reporting has Jayden Reed dealing with a neck injury and offensive-line health as an active uncertainty."
+    ],
+    "attributedReporting": [
+      "Matt LaFleur said Jayden Reed was undergoing tests and it was too early to provide a return outlook; this was already part of the prior thesis and is not a new standalone bet trigger."
+    ],
+    "modelProjection": [
+      "Stats Insider's current Packers-Falcons page has displayed a Watson anytime-TD probability above PRIME's 47.0% internal fair probability, but PRIME is not increasing its estimate because the page-state timing discrepancy identified in the prior archive remains unresolved."
+    ],
+    "analystOpinion": [
+      "bet365's article also selects Watson anytime TD at +140, but the analyst selection is corroboration only and is not treated as sportsbook-independent proof of edge."
+    ],
+    "speculation": []
+  },
+  "marketCheck": {
+    "draftKingsWatsonAnytimeTd": "+140, down from +150 at 21:02 ET",
+    "bet365WatsonAnytimeTd": "+140",
+    "betMgmWatsonAnytimeTd": "+125 to +130 public Week 3 context",
+    "draftKingsTuckerKraftAnytimeTd": "+170 on current DraftKings board",
+    "note": "Watson remains the only formal Week 3 BET. Kraft TD, Golden receiving, Love passing/TD, and Watson reception/yardage derivatives do not clear a sufficiently robust independent price-adjusted threshold after uncertainty and SAME_THESIS exposure are considered."
+  },
+  "otherEvaluations": [
+    {
+      "player": "Tucker Kraft",
+      "market": "Anytime TD",
+      "decision": "PASS",
+      "reason": "Current price is not sufficiently separated from independent model probability once TD variance and model uncertainty are discounted."
+    },
+    {
+      "player": "Matthew Golden",
+      "market": "Receptions / receiving yards",
+      "decision": "WATCH",
+      "reason": "Analyst and projection inputs disagree materially; no robust executable price-adjusted edge is established."
+    },
+    {
+      "player": "Jordan Love",
+      "market": "Passing yards / passing TDs",
+      "decision": "WATCH",
+      "reason": "Green Bay offensive-line uncertainty and price sensitivity prevent promotion despite the favorable Atlanta secondary context."
+    }
+  ],
+  "exposure": {
+    "week3StraightPropExposureRecorded": 0,
+    "week3ParlayExposureRecorded": 0,
+    "recommendedNotYetConfirmed": "Christian Watson anytime TD +140, 0.5u",
+    "note": "Do not add to bet_history until authoritative user ticket confirmation. Do not stack correlated Green Bay passing/receiving positions solely from the same Reed/Terrell thesis."
+  },
+  "durableUpdates": [
+    "data/line_history.csv appended with the +140 DraftKings snapshot and reduced-edge classification.",
+    "data/decision_ledger.csv appended with a Week 3 Watson ANYTIME_TD decision row.",
+    "data/live_prop_board.csv appended with the current Watson +140 BET state.",
+    "data/bet_history.csv unchanged because no Week 3 user placement is confirmed.",
+    "Grok state unchanged because completedAt did not change."
+  ],
+  "nextFocus": [
+    "Wednesday Packers-Falcons practice participation and final short-week game designations.",
+    "Recheck Watson price; +135 is the current minimum acceptable plus-money price under the stored 47.0% fair estimate.",
+    "If Watson reaches +130 or worse without a new catalyst, classify PASS_AFTER_MOVE rather than chasing.",
+    "Monitor Green Bay offensive-line availability before any Love passing-volume/efficiency promotion.",
+    "Alert only on a material news/price change or a genuinely new actionable edge."
+  ],
+  "sources": [
+    {
+      "classification": "verified_sportsbook_market",
+      "name": "DraftKings Network current player props",
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-player-props/",
+      "observedAtEt": "2026-09-22T21:48:51-04:00"
+    },
+    {
+      "classification": "sportsbook_market_and_analyst_opinion",
+      "name": "bet365 Falcons-Packers Week 3 player props",
+      "url": "https://news.bet365.com/en-us/article/tnf-falcons-packers-predictions-player-props-odds/2026092215060701228",
+      "observedAtEt": "2026-09-22T21:48:51-04:00"
+    },
+    {
+      "classification": "official_team_injury_report",
+      "name": "Green Bay Packers Falcons-Packers injury report",
+      "url": "https://www.packers.com/news/packers-falcons-injury-report-sept-21-2026",
+      "observedAtEt": "2026-09-22T21:48:51-04:00"
+    },
+    {
+      "classification": "model_projection",
+      "name": "Stats Insider Packers-Falcons Week 3 simulation",
+      "url": "https://www.statsinsider.com.au/news/packers-vs-falcons-prediction-and-preview-nfl-week-3-2026",
+      "observedAtEt": "2026-09-22T21:48:51-04:00"
+    }
+  ]
+}
