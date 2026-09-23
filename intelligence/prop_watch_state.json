@@ -1,8 +1,8 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-12T17-05-00Z.json",
-  "lastPrimeWatchArchive": "intelligence/archive/2026-09-22T22-48-07Z-prime-watch.json",
-  "processedAtEt": "2026-09-22T18:48:07-04:00",
+  "lastPrimeWatchArchive": "intelligence/archive/2026-09-23T00-30-11Z-prime-watch.json",
+  "processedAtEt": "2026-09-22T20:30:11-04:00",
   "scope": "NFL player props only",
-  "notes": "Tuesday 18:48 ET Week 3 checkpoint. NO ACTIONABLE BET and no user alert. Best public ATL-GB entries are effectively unchanged from the 16:56 ET archive: Jordan Love 225.5 O-110 Fanatics remains LEAN (2-4% edge bucket), Christian Watson 64.5 O-114 remains WATCH, Watson U4.5 receptions +105 remains WATCH amid market/projection disagreement, and Tucker Kraft 44.5 O-115 remains PASS. Jayden Reed and multiple Green Bay OL statuses remain unresolved pending Wednesday participation. Jaxson Dart remains AVOID until the Giants confirm diagnosis/timetable; Harbaugh says evaluation is ongoing. No new Grok pass; latest remains live completedAt 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-22T22-48-07Z-prime-watch.json."
+  "notes": "Tuesday 20:30 ET Week 3 checkpoint. ACTIONABLE: Christian Watson anytime TD at DraftKings +150, 0.5u, playable to +135 or better. DraftKings Network currently shows +150; Stats Insider assigns a 49.7% anytime-TD probability, while PRIME discounts to a conservative 47.0% fair probability because TD markets are high variance. +150 implies 40.0%, producing a 7.0-point internal edge (6-8% bucket). Supporting context: Jayden Reed remained DNP Tuesday, A.J. Terrell is on IR, Watson's role is concentrated, and Jordan Love told reporters his elbow is a non-issue for Week 3. No Week 3 ticket is recorded until authoritative user confirmation. Do not stack SAME_THESIS Green Bay passing/receiving overs solely from this catalyst. Jordan Love 240+ passing +119 remains LEAN, Drake London 60+ receiving -134 PASS, Bijan anytime TD -150 PASS. No new Grok pass; latest remains live completedAt 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-23T00-30-11Z-prime-watch.json."
 }
