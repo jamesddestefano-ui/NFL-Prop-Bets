@@ -1,0 +1,170 @@
+{
+  "status": "live",
+  "capturedAtEt": "2026-09-23T04:15:08-04:00",
+  "capturedAtUtc": "2026-09-23T08:15:08Z",
+  "nflWeek": 3,
+  "scope": "NFL player props only",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-09-23T07-18-36Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. completedAt remains identical to the compact history index and the most recently processed state, so the old Week 1 Pulse is not reprocessed and cannot overwrite verified sportsbook or ledger truth."
+  },
+  "marketChangeObserved": false,
+  "newContextObserved": true,
+  "materialChangeSincePriorArchive": false,
+  "newUserFacingAlert": false,
+  "currentAction": "BET_STILL_PLAYABLE_UNCHANGED",
+  "summary": "04:15 ET Week 3 refresh: the primary executable monitored market is unchanged. DraftKings' current player-props board still lists Christian Watson anytime TD at +150, the same price as the 03:18 ET checkpoint. PRIME therefore keeps the stored conservative 47.0% fair TD probability, +113 fair odds, 7.00-point fair-probability edge, 6-8% edge bucket, 0.5u recommendation if not already placed, and +135-or-better hard floor. No Wednesday Packers-Falcons participation report has posted yet, so Tuesday's official report remains controlling. Fresh independent passing projections cluster modestly above a newly visible Jordan Love 226.5 passing-yards line, but exact executable juice was not verified and Green Bay offensive-line uncertainty remains unresolved; a point-projection gap alone is not enough for a BET. Watson receiving-yard projections are materially dispersed, and adding a correlated receiving Over would compound the same Green Bay passing thesis. No new Sunday candidate combines a verified exact sportsbook line/price with a sufficiently robust independent fair-probability edge. No user-facing alert is warranted.",
+  "actionableCandidate": {
+    "game": "ATL@GB",
+    "gameDate": "2026-09-24",
+    "player": "Christian Watson",
+    "team": "GB",
+    "opponent": "ATL",
+    "propType": "ANYTIME_TD",
+    "market": "Anytime TD Scorer",
+    "side": "YES",
+    "sportsbook": "DraftKings",
+    "line": "YES",
+    "odds": 150,
+    "observedAtEt": "2026-09-23T04:15:08-04:00",
+    "priorVerifiedOdds": 150,
+    "priorVerifiedAtEt": "2026-09-23T03:18:36-04:00",
+    "bestMarket": "DraftKings +150 among independently verified current public prices",
+    "comparisonPrices": "bet365 +140 from current Falcons-Packers prop article",
+    "marketImpliedProbabilityPct": 40.0,
+    "internalFairProbabilityPct": 47.0,
+    "fairOddsAmerican": 113,
+    "estimatedEdgePct": 7.0,
+    "edgeBucket": "6-8%",
+    "decision": "BET",
+    "steamState": "STILL_PLAYABLE",
+    "confidence": "B",
+    "stakeUnits": 0.5,
+    "playToPrice": "+135 or better",
+    "entryTiming": "MIDWEEK",
+    "signalTags": "TARGET_SHARE|ROUTE_SHARE|RED_ZONE|INJURY|DEFENSIVE_INJURY|MARKET_MOVE|PROJECTION_DISAGREEMENT|EXPERT_CONSENSUS",
+    "correlationTags": "SAME_THESIS if paired with Jordan Love, Tucker Kraft, Matthew Golden, or other Green Bay receiving/passing overs",
+    "thesisId": "WATSON_TD_CONDENSED_REDZONE",
+    "statusNote": "No price or decision-state change from the prior checkpoint. Do not duplicate exposure if already placed; do not chase below +135 without a fresh fair-probability recalculation."
+  },
+  "factsAndReporting": {
+    "confirmedFacts": [
+      "DraftKings Network's current NFL player-props board still lists Christian Watson anytime TD +150 for ATL@GB and states that its displayed player-prop board updates every five minutes.",
+      "DraftKings also still lists Tucker Kraft anytime TD +170, Christian Watson over 4.5 receptions -113, Jordan Love 240+ passing yards +119 and Jordan Love 220+ passing yards -137; these remain market observations rather than automatic bets.",
+      "The official Packers-Falcons injury page still has no Wednesday participation column populated at this checkpoint. Tuesday remains controlling: Jayden Reed and Aaron Banks were DNP, Anthony Belton and Donovan Jennings were limited, and Atlanta CB A.J. Terrell Jr. is on injured reserve."
+    ],
+    "attributedReporting": [
+      "Matt LaFleur's late-Tuesday comments that it was too early to know whether Jayden Reed would return this season, together with reporting that Reed returned to Green Bay for further neck testing, were already incorporated in the prior PRIME distribution and are not a new 04:15 ET catalyst."
+    ],
+    "modelProjection": [
+      "FantasyPros' current Week 3 projection has Jordan Love around 238.5 passing yards.",
+      "Stats Insider's current ATL@GB simulation projects Jordan Love around 235 passing yards and Christian Watson around 69 receiving yards.",
+      "Fantasy Info Central's current Week 3 receiving projection is materially more bullish on Watson than Stats Insider, illustrating meaningful model disagreement rather than a clean consensus receiving-yard edge."
+    ],
+    "analystOpinion": [
+      "Current public prop-analysis pages continue to identify Watson as a touchdown candidate, but PRIME does not use analyst preference as sportsbook truth or as a substitute for the stored fair-probability model."
+    ],
+    "speculation": []
+  },
+  "marketCheck": {
+    "draftKingsWatsonAnytimeTd": "+150, unchanged from 03:18 ET",
+    "bet365WatsonAnytimeTd": "+140 current article context",
+    "draftKingsTuckerKraftAnytimeTd": "+170",
+    "draftKingsChristianWatsonReceptions": "Over 4.5 -113",
+    "draftKingsJordanLove240PlusPassYards": "+119",
+    "draftKingsJordanLove220PlusPassYards": "-137",
+    "fanDuelResearchJordanLoveStandardPassYards": "226.5 line visible; exact executable price not independently verified in this checkpoint",
+    "fanDuelResearchChristianWatsonReceivingYards": "66.5 line visible; exact executable price not independently verified in this checkpoint",
+    "note": "No tracked executable price change from the immediately prior checkpoint. Newly visible standard lines are research context only until exact sportsbook juice is verified and a fair-probability edge is established."
+  },
+  "otherEvaluations": [
+    {
+      "player": "Jordan Love",
+      "market": "Passing Yards",
+      "decision": "WATCH",
+      "reason": "A 226.5 standard line is newly visible and independent projections around 235-239 are directionally above it, but exact executable juice was not verified and Green Bay offensive-line uncertainty remains unresolved. Projection-above-line is not enough by itself to create a qualifying price-adjusted edge."
+    },
+    {
+      "player": "Christian Watson",
+      "market": "Receiving Yards",
+      "decision": "WATCH",
+      "reason": "A 66.5 standard line is visible, but current independent projections are dispersed and the position is strongly SAME_THESIS with the existing Watson touchdown recommendation. Do not compound exposure without exact current juice and a separately defensible fair probability."
+    },
+    {
+      "player": "Christian Watson",
+      "market": "Receptions Over 4.5",
+      "decision": "WATCH",
+      "reason": "DraftKings remains O4.5 -113. PRIME still lacks a separately robust fair-probability edge after accounting for target competition, short-week uncertainty and correlation with the existing touchdown thesis."
+    },
+    {
+      "player": "Tucker Kraft",
+      "market": "Anytime TD",
+      "decision": "PASS",
+      "reason": "DraftKings remains +170, but this is a high-variance market and substantially shares the same Green Bay scoring thesis. No independent fair-probability estimate establishes a qualifying edge."
+    },
+    {
+      "player": "Drake London / Kyle Pitts",
+      "market": "Receiving Yards",
+      "decision": "PASS",
+      "reason": "Fresh projection sources materially disagree on Atlanta receiving distributions, and no exact current executable price plus qualifying fair-probability edge was verified."
+    }
+  ],
+  "exposure": {
+    "week3StraightPropExposureRecorded": 0,
+    "week3ParlayExposureRecorded": 0,
+    "recommendedNotYetConfirmed": "Christian Watson anytime TD +150, 0.5u",
+    "note": "No Week 3 user ticket is recorded. Do not add to bet_history unless authoritative user placement is supplied."
+  },
+  "durableUpdates": [
+    "Created this immutable PRIME checkpoint archive.",
+    "No line_history append is necessary for Watson because the verified +150 price is unchanged from the immediately prior checkpoint; this archive preserves the re-verification.",
+    "No decision_ledger, live_prop_board, bet_history, missed_bets, pass_ledger, parlay_history or weekly_attribution changes are required because no candidate changed decision state and no Week 3 user wager is confirmed.",
+    "Grok state remains unchanged because completedAt did not change."
+  ],
+  "nextFocus": [
+    "Wednesday Packers-Falcons participation report and final short-week game designations.",
+    "Recheck Watson anytime-TD price; +135 remains the minimum acceptable price under the stored 47.0% fair estimate.",
+    "If Watson moves below +135 without a new catalyst, classify PASS_AFTER_MOVE rather than chasing.",
+    "Reprice Green Bay passing and receiving props after any Aaron Banks, Anthony Belton, Jayden Reed or other material availability change.",
+    "Continue scanning Sunday openers, but promote only when an exact current sportsbook line/price and an independent fair-probability edge are both verified.",
+    "Alert only on a material news/price change or a genuinely new actionable edge."
+  ],
+  "sources": [
+    {
+      "classification": "verified_sportsbook_market",
+      "name": "DraftKings Network current player props",
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-player-props/",
+      "observedAtEt": "2026-09-23T04:15:08-04:00"
+    },
+    {
+      "classification": "official_team_injury_report",
+      "name": "Packers-Falcons Injury Report Sept. 22, 2026",
+      "url": "https://www.packers.com/news/packers-falcons-injury-report-sept-22-2026",
+      "observedAtEt": "2026-09-23T04:15:08-04:00"
+    },
+    {
+      "classification": "model_projection",
+      "name": "FantasyPros Week 3 Jordan Love projection",
+      "url": "https://www.fantasypros.com/nfl/projections/jordan-love.php",
+      "observedAtEt": "2026-09-23T04:15:08-04:00"
+    },
+    {
+      "classification": "model_projection",
+      "name": "Stats Insider Falcons-Packers player projections",
+      "url": "https://www.statsinsider.com.au/news/falcons-vs-packers-predictions-player-props-and-odds-nfl-week-3-2026",
+      "observedAtEt": "2026-09-23T04:15:08-04:00"
+    },
+    {
+      "classification": "market_context_and_projection",
+      "name": "FanDuel Research current Week 3 player-prop pages",
+      "url": "https://www.fanduel.com/research/nfl/player-news",
+      "observedAtEt": "2026-09-23T04:15:08-04:00"
+    }
+  ]
+}
