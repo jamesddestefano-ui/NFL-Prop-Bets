@@ -1,8 +1,8 @@
 {
   "lastProcessedGrokCompletedAt": "2026-09-12T17:05:00Z",
   "lastProcessedArchive": "intelligence/archive/2026-09-12T17-05-00Z.json",
-  "lastPrimeWatchArchive": "intelligence/archive/2026-09-23T13-04-12Z-prime-watch.json",
-  "processedAtEt": "2026-09-23T09:04:12-04:00",
+  "lastPrimeWatchArchive": "intelligence/archive/2026-09-23T14-05-14Z-prime-watch.json",
+  "processedAtEt": "2026-09-23T10:05:14-04:00",
   "scope": "NFL player props only",
-  "notes": "Wednesday 09:04 ET Week 3 checkpoint. DraftKings Network's directly opened current player-props page still lists Christian Watson anytime TD +150, unchanged from the 08:29 ET canonical checkpoint. PRIME preserves the 47.0% fair probability, +113 fair odds, 7.00-point edge, 6-8% bucket, BET / STILL_PLAYABLE status, 0.5u recommendation if not already placed, and +135-or-better hard floor. The official Packers-Falcons injury report still has no Wednesday participation/game-status entries at this checkpoint; Tuesday remains controlling. No new Sunday candidate clears exact-price plus independent-edge requirements. No Week 3 user ticket is recorded. No new Grok pass; completedAt remains 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-23T13-04-12Z-prime-watch.json."
+  "notes": "Wednesday 10:05 ET Week 3 checkpoint. DraftKings Network's directly opened current player-props page now lists Christian Watson anytime TD +155, improved from the 09:04 +150 checkpoint. PRIME preserves the 47.0% fair probability, +113 fair odds, 7.78-point edge, 6-8% bucket, BET / STILL_PLAYABLE status, 0.5u recommendation if not already placed, and +135-or-better hard floor. This is a non-material favorable price tick because decision, bucket, stake and play-to do not change, so no user-facing alert. The official Packers-Falcons report still has no Wednesday participation/game-status entries at this checkpoint; Tuesday remains controlling. Game weather is benign at roughly 59-60 F, light wind and no meaningful precipitation risk. No new Sunday candidate clears exact-price plus independent-edge requirements. No Week 3 user ticket is recorded. No new Grok pass; completedAt remains 2026-09-12T17:05:00Z. Evidence: intelligence/archive/2026-09-23T14-05-14Z-prime-watch.json."
 }
