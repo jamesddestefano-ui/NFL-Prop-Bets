@@ -1,0 +1,153 @@
+{
+  "status": "live",
+  "capturedAtEt": "2026-09-24T02:24:16-04:00",
+  "capturedAtUtc": "2026-09-24T06:24:16Z",
+  "nflWeek": 3,
+  "scope": "NFL player props only",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-09-24T05-11-55Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json and the compact grok_pulse_history.jsonl index still terminate at completedAt 2026-09-12T17:05:00Z."
+  },
+  "marketChangeObserved": true,
+  "newContextObserved": true,
+  "materialChangeSincePriorArchive": false,
+  "newUserFacingAlert": false,
+  "currentAction": "BET_STILL_PLAYABLE_UNCHANGED",
+  "summary": "02:24 ET Week 3 refresh: Christian Watson anytime TD remains PRIME's only actionable current Week 3 player-prop candidate. Fresh DraftKings Network search surfaces are internally variable at +155 to +160 during this checkpoint; the canonical current player-props result is +160 while another fresh indexed rendering shows +155. Both are within the public range already preserved by the 01:11 ET archive, so there is no action-changing development. PRIME holds the stored 47.0% fair TD probability: +155 implies 39.22% and a 7.78-point edge (6-8% bucket); +160 implies 38.46% and an 8.54-point edge (8%+ bucket). Decision remains BET/STILL_PLAYABLE for 0.5u only if unplaced, with +135 or better as the hard floor. Green Bay's official final report still rules out Jayden Reed and Aaron Banks, while Atlanta has Samson Ebukam out and Billy Bowman Jr. questionable; no new overnight official news changes the thesis. Fresh Action Network TNF props were independently checked: Kaleb Johnson O34.5 rushing -114 and ATD +190 are role-opinion driven without a sufficiently stable independent distribution; Matthew Golden O53.5 -115 is essentially aligned with FantasyPros' 54.2-yard projection; Tucker Kraft ATD +200 is consistent with FantasyPros' 0.4 expected-TD projection and current 30-41% external probability range rather than a robust edge; Bijan Robinson O4.5 receptions -125 is not supported by the latest FantasyPros 4.4-4.5 reception projection. No second bet is promoted.",
+  "actionableCandidate": {
+    "game": "ATL@GB",
+    "gameDate": "2026-09-24",
+    "player": "Christian Watson",
+    "team": "GB",
+    "opponent": "ATL",
+    "propType": "ANYTIME_TD",
+    "market": "Anytime TD Scorer",
+    "side": "YES",
+    "sportsbook": "DraftKings",
+    "publicPriceRangeObserved": "+155 to +160 across fresh DraftKings Network indexed surfaces",
+    "observedAtEt": "2026-09-24T02:24:16-04:00",
+    "marketImpliedProbabilityPctAt155": 39.22,
+    "marketImpliedProbabilityPctAt160": 38.46,
+    "noVigProbabilityPct": null,
+    "internalFairProbabilityPct": 47.0,
+    "fairOddsAmerican": 113,
+    "estimatedEdgePctAt155": 7.78,
+    "estimatedEdgePctAt160": 8.54,
+    "edgeBucketAt155": "6-8%",
+    "edgeBucketAt160": "8%+",
+    "decision": "BET",
+    "steamState": "STILL_PLAYABLE",
+    "confidence": "B",
+    "stakeUnits": 0.5,
+    "playToPrice": "+135 or better",
+    "entryTiming": "MIDWEEK",
+    "signalTags": "TARGET_SHARE|ROUTE_SHARE|RED_ZONE|INJURY|OL_INJURY|DEFENSIVE_INJURY|MARKET_MOVE|PROJECTION_DISAGREEMENT|EXPERT_CONSENSUS",
+    "correlationTags": "SAME_THESIS if paired with Jordan Love, Tucker Kraft, Matthew Golden, or another Green Bay passing/receiving over",
+    "thesisId": "WATSON_TD_CONDENSED_REDZONE",
+    "statusNote": "No alert: fresh public DraftKings surfaces remain inside the already-known +155/+160 range and every observed quote is above the stored +135 floor. User's executable sportsbook app controls."
+  },
+  "factsAndReporting": {
+    "confirmedFacts": [
+      "Green Bay's official final Week 3 report lists WR Jayden Reed, G Aaron Banks, OL Zach Bako-Bewele and DT Warren Brinson out for Thursday night.",
+      "Atlanta's final Week 3 status has DE Samson Ebukam out and CB Billy Bowman Jr. questionable; A.J. Terrell is on injured reserve.",
+      "DraftKings Network states its player-prop page is updated every five minutes."
+    ],
+    "modelProjection": [
+      "PRIME stored internal fair TD probability for Watson remains 47.0%.",
+      "FantasyPros Week 3 consensus projects Bijan Robinson for roughly 4.4-4.5 receptions, which does not independently support O4.5 -125.",
+      "FantasyPros Week 3 projects Matthew Golden for 54.2 receiving yards, essentially market-aligned with the cited O53.5 -115 analyst pick.",
+      "FantasyPros Week 3 projects Tucker Kraft for 0.4 receiving TDs; that expected-TD figure does not establish a robust probability edge at +200 by itself."
+    ],
+    "analystOpinion": [
+      "Action Network's late Wednesday TNF article recommends Kaleb Johnson O34.5 rushing -114 and ATD +190, Matthew Golden O53.5 receiving -115, Tucker Kraft ATD +200 and Bijan Robinson O4.5 receptions -125. PRIME does not promote these opinions without independent price-adjusted probability support."
+    ],
+    "speculation": []
+  },
+  "otherEvaluations": [
+    {
+      "player": "Kaleb Johnson",
+      "market": "Rushing Yards / Anytime TD",
+      "observedPublicPrice": "O34.5 -114 / ATD +190 via Action Network citing FanDuel",
+      "decision": "WATCH/PASS",
+      "reason": "Role may be growing, but the evidence is still analyst/usage inference in a three-back environment and no sufficiently stable independent fair distribution was verified."
+    },
+    {
+      "player": "Matthew Golden",
+      "market": "Receiving Yards",
+      "observedPublicPrice": "O53.5 -115 via Action Network citing bet365",
+      "decision": "PASS",
+      "reason": "FantasyPros' current 54.2-yard projection is essentially market-aligned; a point projection 0.7 yards above the line does not create the required price-adjusted edge."
+    },
+    {
+      "player": "Tucker Kraft",
+      "market": "Anytime TD",
+      "observedPublicPrice": "+200 via Action Network citing FanDuel",
+      "decision": "PASS",
+      "reason": "External probability context is broad and FantasyPros' 0.4 expected receiving TDs is not directly a 40% anytime-TD probability. The price does not establish a robust independent edge, and the wager is SAME_THESIS correlated with Watson."
+    },
+    {
+      "player": "Bijan Robinson",
+      "market": "Receptions",
+      "observedPublicPrice": "O4.5 -125 via Action Network citing bet365",
+      "decision": "PASS",
+      "reason": "FantasyPros consensus sits around 4.4-4.5 receptions. The expensive Over requires materially more than a point projection near the threshold."
+    }
+  ],
+  "exposure": {
+    "week3StraightPropExposureRecorded": 0,
+    "week3ParlayExposureRecorded": 0,
+    "recommendedNotYetConfirmed": "Christian Watson anytime TD, 0.5u only if unplaced and executable price is +135 or better",
+    "note": "No Week 3 user ticket is recorded in bet_history. Do not write a wager to bet_history without authoritative user placement."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — no-alert checkpoint preserving fresh market verification, official injury status and rejected TNF candidates",
+    "livePropBoard": "NO CHANGE — Watson decision, hard floor and fair probability are unchanged; the current +155/+160 public range was already preserved in the prior archive",
+    "decisionLedger": "NO CHANGE — existing Watson BET/STILL_PLAYABLE decision remains authoritative",
+    "lineHistory": "NO CHANGE — +155 and +160 states were already preserved in the prior immutable market record; no new distinct authoritative price state is created from duplicate fresh indexed surfaces",
+    "betHistory": "NO CHANGE — no authoritative Week 3 user ticket confirmation",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE — new analyst candidates were checked but do not require a durable standalone pass beyond this immutable checkpoint",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 3 not settled",
+    "grokState": "UNCHANGED — completedAt remains 2026-09-12T17:05:00Z"
+  },
+  "nextFocus": [
+    "Thursday pregame: verify official inactives and any late role limitations before repricing affected props.",
+    "Confirm the user's executable sportsbook price before placement; preserve +135 as Watson's hard floor unless the fair probability is materially recalculated.",
+    "Do not add correlated Green Bay passing/receiving exposure solely from Reed/Terrell news.",
+    "Keep Sunday developments on WATCH until exact current player-prop lines and independent probability edges are verified."
+  ],
+  "sources": [
+    {
+      "classification": "official_team_injury_report",
+      "name": "Green Bay Packers — Week 3 final injury report",
+      "url": "https://www.packers.com/news/packers-rule-out-four-list-two-questionable-vs-falcons-week-3-injury-report-2026",
+      "observedAtEt": "2026-09-24T02:24:16-04:00"
+    },
+    {
+      "classification": "sportsbook_market_public_surface",
+      "name": "DraftKings Network — Player Props Page",
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-player-props/",
+      "observedAtEt": "2026-09-24T02:24:16-04:00",
+      "freshnessNote": "Fresh indexed results varied between +155 and +160 for Watson ATD; both were already within the prior preserved public range."
+    },
+    {
+      "classification": "analyst_opinion_market_snapshot",
+      "name": "Action Network — Falcons vs Packers TNF player props",
+      "url": "https://www.actionnetwork.com/content/falcons-vs-packers-player-props-bijan-robinson-tucker-kraft-matthew-golden-kaleb-johnson/embed",
+      "observedAtEt": "2026-09-24T02:24:16-04:00"
+    },
+    {
+      "classification": "model_projection",
+      "name": "FantasyPros — Week 3 RB/WR/TE consensus projections",
+      "url": "https://www.fantasypros.com/nfl/projections/",
+      "observedAtEt": "2026-09-24T02:24:16-04:00"
+    }
+  ]
+}
