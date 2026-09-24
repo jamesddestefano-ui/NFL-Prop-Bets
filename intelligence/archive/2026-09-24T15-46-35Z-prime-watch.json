@@ -1,0 +1,163 @@
+{
+  "status": "live",
+  "capturedAtEt": "2026-09-24T11:46:35-04:00",
+  "capturedAtUtc": "2026-09-24T15:46:35Z",
+  "nflWeek": 3,
+  "scope": "NFL player props only",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-09-24T13-48-59Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json and the compact grok_pulse_history.jsonl index still terminate at completedAt 2026-09-12T17:05:00Z."
+  },
+  "marketChangeObserved": false,
+  "newContextObserved": true,
+  "materialChangeSincePriorArchive": false,
+  "newUserFacingAlert": false,
+  "currentAction": "BET_STILL_PLAYABLE_UNCHANGED",
+  "summary": "11:46 ET Week 3 refresh: no user-facing action change. Christian Watson anytime TD remains PRIME's only actionable current Week 3 player-prop candidate, but it remains deliberately small and price-sensitive. The freshest timestamped public line-shopping reference still shows Fanatics +155, while a same-day DraftKings Network article also lists +155. At +155, PRIME's stored 47.0% internal fair TD probability implies a 39.22% market break-even rate and a 7.78-point internal edge (6-8% bucket). Direct Dimers modeling is materially more conservative at 43.1%, which implies only a 3.88-point edge at +155; because anytime-TD markets require stronger price discipline, that disagreement prevents any stake increase or correlated Green Bay add-on. The game total is around 43.5 in current Dimers market context, another reason not to inflate the scoring projection. Official final injury status is unchanged: Jayden Reed, Aaron Banks, Zach Bako-Bewele and Warren Brinson are out for Green Bay; Anthony Belton is available; Samson Ebukam is out and Billy Bowman Jr. questionable for Atlanta; A.J. Terrell remains on IR. No official game-day inactives are available yet. No Week 3 user ticket is recorded. Preserve 0.5u only if unplaced and executable sportsbook price is +135 or better; if already held, do not add.",
+  "actionableCandidate": {
+    "game": "ATL@GB",
+    "gameDate": "2026-09-24",
+    "player": "Christian Watson",
+    "team": "GB",
+    "opponent": "ATL",
+    "propType": "ANYTIME_TD",
+    "market": "Anytime TD Scorer",
+    "side": "YES",
+    "bestFreshPublicSportsbookSnapshot": "Fanatics via WagerLens",
+    "bestFreshPublicOddsReference": 155,
+    "sameDayDraftKingsEditorialReference": 155,
+    "observedAtEt": "2026-09-24T11:46:35-04:00",
+    "marketImpliedProbabilityPct": 39.22,
+    "internalFairProbabilityPct": 47.0,
+    "independentDimersProbabilityPct": 43.1,
+    "fairOddsAmericanInternal": 113,
+    "fairOddsAmericanDimersApprox": 132,
+    "estimatedEdgePctInternal": 7.78,
+    "estimatedEdgePctVsDimers": 3.88,
+    "edgeBucket": "6-8% internal; 2-4% independent model cross-check",
+    "decision": "BET",
+    "steamState": "STILL_PLAYABLE",
+    "confidence": "B",
+    "stakeUnits": 0.5,
+    "playToPrice": "+135 or better",
+    "entryTiming": "GAME_DAY_MIDDAY",
+    "signalTags": "TARGET_SHARE|ROUTE_SHARE|RED_ZONE|INJURY|OL_INJURY|DEFENSIVE_INJURY|MARKET_MOVE|PROJECTION_DISAGREEMENT|EXPERT_CONSENSUS",
+    "correlationTags": "SAME_THESIS if paired with Jordan Love, Tucker Kraft, Matthew Golden, or another Green Bay passing/receiving over",
+    "thesisId": "WATSON_TD_CONDENSED_REDZONE",
+    "statusNote": "No user-facing alert because the recommended action, stake and stored +135 hard floor are unchanged. Direct Dimers disagreement is explicitly preserved as a caution signal. Executable sportsbook-app truth controls; no bet_history row without authoritative user confirmation."
+  },
+  "factsAndReporting": {
+    "confirmedFacts": [
+      "Green Bay's final injury report lists WR Jayden Reed, G Aaron Banks, T Zach Bako-Bewele and DT Warren Brinson out for Thursday night.",
+      "Green Bay T Anthony Belton was upgraded to full participation and has no game designation; G/T Donovan Jennings also has no game designation.",
+      "Atlanta's final status lists DE Samson Ebukam out and CB Billy Bowman Jr. questionable; CB A.J. Terrell is on injured reserve.",
+      "Michael Penix Jr. was a full participant throughout the short week and has no final game designation."
+    ],
+    "attributedReporting": [],
+    "modelProjection": [
+      "Dimers gives Christian Watson a 43.1% anytime-TD probability, Tucker Kraft 32.7%, Drake London 32.5% and Matthew Golden 28.6%.",
+      "Dimers projects Green Bay to win 23-18 and lists a 43.5 game total, with 54.2% probability to the Under.",
+      "Dimers yardage projections are Watson 73 receiving yards, Golden 59, Kraft 46, London 70, Love 234 passing and Penix 213 passing. These point projections are not treated as wagers without current price/probability support."
+    ],
+    "analystOpinion": [
+      "DraftKings Network lists Christian Watson +155 and Tucker Kraft +180 as its two primary anytime-TD best bets, citing Watson's three red-zone targets, three of Jordan Love's four passing touchdowns, Jayden Reed's absence and A.J. Terrell's IR placement.",
+      "WagerLens tracks Watson anytime TD at a best current +155 at Fanatics but labels the market LowEV, reinforcing that the bet remains model-sensitive rather than universally supported."
+    ],
+    "speculation": []
+  },
+  "marketCheck": {
+    "christianWatsonAnytimeTd": {
+      "wagerLensBest": "Fanatics +155; page stated data updated seven minutes ago when observed",
+      "draftKingsNetworkSameDay": "+155",
+      "dimersReference": "+155 DraftKings with 43.1% probability and 3.9% model edge",
+      "decision": "BET / STILL_PLAYABLE; 0.5u only if unplaced; no add if already held",
+      "maxPlayablePrice": "+135 or better",
+      "note": "No material price change from the prior 09:48 ET archive. The direct independent probability cross-check is below PRIME's internal fair estimate, so do not increase stake or loosen the stored price floor."
+    },
+    "tuckerKraftAnytimeTd": {
+      "draftKingsNetwork": "+180",
+      "dimersProbabilityPct": 32.7,
+      "decision": "PASS",
+      "reason": "Independent probability support remains too thin for a higher-variance TD market once price and model disagreement are considered. Do not stack the same Green Bay scoring thesis."
+    },
+    "matthewGoldenReceivingAndTd": {
+      "decision": "WATCH/PASS",
+      "reason": "Role and Reed's absence are supportive, but no new current price-adjusted probability edge strong enough to clear PRIME's threshold was verified. SAME_THESIS exposure with Watson remains relevant."
+    },
+    "drakeLondonReceivingAndTd": {
+      "decision": "WATCH/PASS",
+      "reason": "Penix's return and projected trailing script can support volume, but current model/market dispersion remains too wide for a formal new bet."
+    },
+    "jordanLovePassing": {
+      "decision": "PASS",
+      "reason": "Watson/Reed role concentration is offset by Green Bay offensive-line absences and a modest game total; no fresh exact-price probability edge clears the quality gate."
+    },
+    "sundayField": {
+      "decision": "WATCH",
+      "reason": "Current role/usage articles identify interesting Week 3 volume profiles, but this run did not verify a second player-prop candidate with both an executable current sportsbook line and a sufficiently robust independent fair-probability edge. Do not manufacture an early bet."
+    }
+  },
+  "exposure": {
+    "week3StraightPropExposureRecorded": 0,
+    "week3ParlayExposureRecorded": 0,
+    "recommendedNotYetConfirmed": "Christian Watson anytime TD +155 fresh public reference; 0.5u only if unplaced and executable price is +135 or better",
+    "note": "No Week 3 user ticket is recorded in bet_history. Do not write a wager to bet_history without authoritative user placement."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — 11:46 ET Thursday game-day checkpoint",
+    "livePropBoard": "NO CHANGE — action, stake and stored play-to are unchanged",
+    "decisionLedger": "NO CHANGE — existing Watson BET decision remains authoritative",
+    "lineHistory": "NO CHANGE — freshest +155 public state is unchanged from the prior archive; no duplicate snapshot needed",
+    "betHistory": "NO CHANGE — no authoritative Week 3 user ticket confirmation",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE — no newly material PASS/AVOID requiring canonical row",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 3 not settled",
+    "grokState": "UNCHANGED — completedAt remains 2026-09-12T17:05:00Z"
+  },
+  "nextFocus": [
+    "Continue Thursday afternoon monitoring for official inactives and late beat-reporter role or offensive-line limitations.",
+    "Reprice Watson only if the executable price crosses the stored +135 floor or new injury/role information materially changes fair probability.",
+    "Do not add correlated Green Bay passing/receiving exposure solely because Reed is out or Terrell is on IR.",
+    "Rebuild the Sunday board at the protocol checkpoints using current exact sportsbook prices, role data and official injury information."
+  ],
+  "sources": [
+    {
+      "classification": "official_team_injury_report",
+      "name": "Green Bay Packers — Week 3 final injury report",
+      "url": "https://www.packers.com/news/packers-rule-out-four-list-two-questionable-vs-falcons-week-3-injury-report-2026",
+      "observedAtEt": "2026-09-24T11:46:35-04:00"
+    },
+    {
+      "classification": "public_multi_book_market_aggregator",
+      "name": "WagerLens — Christian Watson props",
+      "url": "https://wagerlens.com/players/nfl/christian-watson/props",
+      "observedAtEt": "2026-09-24T11:46:35-04:00",
+      "freshnessNote": "Search result stated data updated seven minutes ago and showed Fanatics +155 as best Watson anytime-TD price."
+    },
+    {
+      "classification": "model_projection_and_market_reference",
+      "name": "Dimers — TNF anytime TD predictions",
+      "url": "https://www.dimers.com/nfl/news/nfl-anytime-touchdown-scorer-predictions-thursday-week-3-2026-ac",
+      "observedAtEt": "2026-09-24T11:46:35-04:00"
+    },
+    {
+      "classification": "model_projection_and_game_market_context",
+      "name": "Dimers — Falcons vs Packers prediction",
+      "url": "https://www.dimers.com/nfl/news/atlanta-falcons-vs-green-bay-packers-prediction-week-3-2026-ac",
+      "observedAtEt": "2026-09-24T11:46:35-04:00"
+    },
+    {
+      "classification": "sportsbook_editorial_market_reference",
+      "name": "DraftKings Network — Packers vs Falcons anytime TD scorer picks",
+      "url": "https://dknetwork.draftkings.com/2026/09/24/packers-vs-falcons-anytime-td-scorer-picks-best-bets-long-shots/",
+      "observedAtEt": "2026-09-24T11:46:35-04:00"
+    }
+  ]
+}
