@@ -1,0 +1,215 @@
+{
+  "status": "live",
+  "capturedAtEt": "2026-09-24T06:32:41-04:00",
+  "capturedAtUtc": "2026-09-24T10:32:41Z",
+  "nflWeek": 3,
+  "scope": "NFL player props only",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-09-24T09-13-55Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json and the compact grok_pulse_history.jsonl index still terminate at completedAt 2026-09-12T17:05:00Z."
+  },
+  "marketChangeObserved": false,
+  "newContextObserved": true,
+  "materialChangeSincePriorArchive": false,
+  "newUserFacingAlert": false,
+  "currentAction": "BET_STILL_PLAYABLE_UNCHANGED",
+  "summary": "06:32 ET Week 3 refresh: no stable action-changing development from the 05:13 ET checkpoint. DraftKings' public surfaces are not perfectly synchronized: the canonical DraftKings Network player-props table displays Christian Watson anytime TD +155, while a directly indexed DraftKings event view and a newly published 06:16 ET Athlon article citing DraftKings display +160; another DraftKings table variant has shown +165. Because the exact public snapshots disagree, PRIME does not overwrite executable sportsbook truth or claim a new canonical DK move. The user's live app remains authoritative. The current Propaholics multi-book index still reports best +160 across eight books, while CLEATZ shows a +170 Novig outlier and roughly 24.5 implied Green Bay team points; the latter is preserved as market context rather than promoted to regulated-sportsbook truth. PRIME retains the stored Watson 47.0% fair TD probability and +135 hard floor. At the conservative canonical +155 reference, implied probability is 39.22% and the stored edge is 7.78 points (6-8%); at +160 it is 38.46% and 8.54 points. The prior independent Stats Insider checkpoint of 43.4% would still leave approximately 4.2 points of edge at +155 and 4.9 points at +160, so the decision remains BET/STILL_PLAYABLE for 0.5u only if unplaced, with no stake increase. Green Bay's and Atlanta's official final injury reports are unchanged. Current DraftKings game-market context is GB -5.5 with a 42.5 total, while a current Kalshi-derived market article centers 43.5; this lower-scoring environment is noted but does not by itself invalidate the stored price floor. A fresh Athlon recommendation of Michael Penix Jr. 1+ interception at -107 was independently checked and rejected as a PRIME bet: current consensus is around O0.5 -111/U0.5 -115 and a separate simulation projects 0.7 INT with only 51% Over probability, insufficient to clear the juice. No second player prop clears PRIME's current exact-price and independent-edge standards. No Week 3 ticket is recorded in bet_history.",
+  "actionableCandidate": {
+    "game": "ATL@GB",
+    "gameDate": "2026-09-24",
+    "player": "Christian Watson",
+    "team": "GB",
+    "opponent": "ATL",
+    "propType": "ANYTIME_TD",
+    "market": "Anytime TD Scorer",
+    "side": "YES",
+    "sportsbook": "DraftKings",
+    "canonicalPublicReference": "+155 on DraftKings Network current player-props table",
+    "directDraftKingsEventContext": "+160 on a current indexed event view; another current event/query snapshot shows +155, so no single public snapshot is promoted above the user's live app",
+    "freshAnalystDraftKingsContext": "+160 in Athlon article published 06:16 ET",
+    "bestTraditionalMultiBookContext": "+160 on Propaholics across 8 books",
+    "nonTraditionalOutlierContext": "+170 at Novig via CLEATZ; preserved as context only",
+    "observedAtEt": "2026-09-24T06:32:41-04:00",
+    "marketImpliedProbabilityPctAt155": 39.22,
+    "marketImpliedProbabilityPctAt160": 38.46,
+    "internalFairProbabilityPct": 47.0,
+    "independentPriorProbabilityPct": 43.4,
+    "fairOddsAmerican": 113,
+    "estimatedEdgePctAt155": 7.78,
+    "estimatedEdgePctAt160": 8.54,
+    "independentEdgePctAt155": 4.18,
+    "independentEdgePctAt160": 4.94,
+    "edgeBucketCanonical": "6-8%",
+    "edgeBucketAt160": "8%+ using stored PRIME fair probability",
+    "decision": "BET",
+    "steamState": "STILL_PLAYABLE",
+    "confidence": "B",
+    "stakeUnits": 0.5,
+    "playToPrice": "+135 or better",
+    "entryTiming": "GAMEDAY_EARLY_MORNING",
+    "signalTags": "TARGET_SHARE|ROUTE_SHARE|RED_ZONE|INJURY|OL_INJURY|DEFENSIVE_INJURY|MARKET_MOVE|PROJECTION_DISAGREEMENT|EXPERT_CONSENSUS|GAME_TOTAL_CONTEXT",
+    "correlationTags": "SAME_THESIS if paired with Jordan Love, Tucker Kraft, Matthew Golden, or another Green Bay passing/receiving over",
+    "thesisId": "WATSON_TD_CONDENSED_REDZONE",
+    "statusNote": "No user alert because the best useful price context is not materially better than the already-communicated +160 state and the public DK snapshots are internally inconsistent. If unplaced, use the live app and require +135 or better; do not add if already ticketed."
+  },
+  "factsAndReporting": {
+    "confirmedFacts": [
+      "Green Bay's final Week 3 report rules out WR Jayden Reed, G Aaron Banks, OL Zach Bako-Bewele and DT Warren Brinson; DT Javon Hargrave and DT Anthony Campbell are questionable.",
+      "Atlanta's final report rules out DE Samson Ebukam and lists CB Billy Bowman Jr. questionable; QB Michael Penix Jr., QB Tua Tagovailoa, RB Brian Robinson Jr. and T Jawaan Taylor have no game designation.",
+      "Michael Penix Jr. is the announced Atlanta starter for Thursday night.",
+      "DraftKings Network's current player-props table displays Watson anytime TD +155; a current directly indexed DraftKings event view displays +160, demonstrating snapshot dispersion rather than a stable canonical move.",
+      "DraftKings' current directly indexed game market shows Green Bay -5.5 and total 42.5."
+    ],
+    "attributedReporting": [
+      "Athlon's 06:16 ET TNF prop article states all quoted odds are from DraftKings and lists Watson anytime TD +160 and Penix 1+ interception -107.",
+      "A current Kalshi-market article shows a 43.5 game total and 24-18 model score context."
+    ],
+    "modelProjection": [
+      "PRIME stored internal fair Watson TD probability remains 47.0%.",
+      "The prior independent Stats Insider checkpoint assigned Watson a 43.4% anytime-TD probability.",
+      "FantasyPros Week 3 projects Watson for roughly 4 receptions, 66.5 receiving yards and 0.6 receiving TDs.",
+      "MatchWiz projects Penix for 0.7 interceptions and only 51% probability of Over 0.5, which does not support laying current negative juice on the Over."
+    ],
+    "analystOpinion": [
+      "Athlon recommends Watson anytime TD +160 and Penix 1+ interception -107; PRIME keeps Watson but rejects the Penix interception recommendation after independent probability/price cross-check.",
+      "Covers' current TNF prop article prefers MarShawn Lloyd 30+ rushing, Drake London 60+ receiving and Tucker Kraft anytime TD; PRIME does not promote these analyst picks without an independent price-adjusted edge."
+    ],
+    "speculation": []
+  },
+  "otherEvaluations": [
+    {
+      "player": "Michael Penix Jr.",
+      "market": "Interceptions Thrown",
+      "observedPublicContext": "Athlon DraftKings 1+ INT -107; current consensus page around O0.5 -111 / U0.5 -115",
+      "decision": "PASS",
+      "steamState": "NO_EDGE",
+      "reason": "Independent simulation projects only 51% Over 0.5 despite a 0.7 INT mean. That does not clear the current juice or PRIME's 4-5 point minimum edge threshold, and Penix's first game back from ACL surgery adds distribution uncertainty."
+    },
+    {
+      "player": "Michael Penix Jr.",
+      "market": "Passing Yards / Completions / Rushing Yards",
+      "observedPublicContext": "Current public pages cluster around 199.5-206.5 passing yards, 18.5-19.5 completions and 3.5 rushing yards.",
+      "decision": "WATCH",
+      "reason": "Projection sources disagree materially and first-game-back role/mobility uncertainty is too large to assign a robust price-adjusted edge from point projections alone."
+    },
+    {
+      "player": "Christian Watson",
+      "market": "Receiving Yards",
+      "observedPublicContext": "Current public thresholds span roughly low-60s to upper-60s; DraftEdge lists DK 68.5 with its own 57.2 projection while FantasyPros is 66.5.",
+      "decision": "PASS",
+      "reason": "The market/projection range is too dispersed, and the lower game-total context plus Green Bay OL absences offset part of the Reed/Terrell volume thesis. Do not add correlated exposure merely because Watson ATD remains playable."
+    },
+    {
+      "player": "Tucker Kraft / Matthew Golden / Kaleb Johnson / Bijan Robinson",
+      "market": "Mixed TNF props",
+      "decision": "PASS_OR_WATCH",
+      "reason": "No new exact-price candidate independently clears PRIME's required edge after accounting for correlation, projection disagreement and existing Watson thesis exposure."
+    },
+    {
+      "player": "Sunday Week 3 field",
+      "market": "Mixed player props",
+      "decision": "WATCH",
+      "reason": "Early Thursday research found role/injury developments worth monitoring, but no newly verified exact line/price pair with an independent 4-5 point edge strong enough for a user alert. Continue after Thursday practice reports and later sportsbook repricing."
+    }
+  ],
+  "weather": {
+    "game": "ATL@GB",
+    "venue": "Lambeau Field",
+    "gameTimeLocal": "2026-09-24 19:15 CT",
+    "forecast": "Upper-50s to low-60s F, light wind, no meaningful precipitation signal in current morning weather sources",
+    "propImpact": "neutral",
+    "material": false
+  },
+  "exposure": {
+    "week3StraightPropExposureRecorded": 0,
+    "week3ParlayExposureRecorded": 0,
+    "recommendedNotYetConfirmed": "Christian Watson anytime TD, 0.5u only if unplaced and executable price is +135 or better",
+    "note": "bet_history contains no Week 3 user ticket. Never infer placement from a recommendation."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — no-alert gameday early-morning checkpoint",
+    "livePropBoard": "NO CHANGE — no stable canonical price/action change",
+    "decisionLedger": "NO CHANGE — Watson BET/STILL_PLAYABLE remains authoritative; Penix INT pass preserved in this immutable archive because no stable ledger rewrite is required for a non-material candidate",
+    "lineHistory": "NO CHANGE — conflicting public DK snapshots (+155/+160/+165) are preserved in the archive rather than promoted as one canonical executable movement",
+    "betHistory": "NO CHANGE — no authoritative Week 3 user ticket confirmation",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE — Penix INT is a fresh evaluation but not important enough to overwrite prior CSV state absent a stable executable edge",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 3 not settled",
+    "grokState": "UNCHANGED — completedAt remains 2026-09-12T17:05:00Z"
+  },
+  "nextFocus": [
+    "Thursday daytime: watch for official team/inactive updates on Javon Hargrave, Anthony Campbell and Billy Bowman and reprice only if their status changes materially.",
+    "Recheck Watson in the user's executable sportsbook/app context; preserve +135 hard floor unless the fair probability is explicitly recalculated.",
+    "Do not chase or stack correlated Green Bay passing/receiving overs solely from the Reed/Terrell thesis.",
+    "Continue Sunday Week 3 injury/role monitoring after Thursday practices produce more reliable participation information and exact prop markets mature.",
+    "Treat current public DK snapshot dispersion as a reason to verify, not as a reason to manufacture line movement."
+  ],
+  "sources": [
+    {
+      "classification": "official_team_injury_report",
+      "name": "Green Bay Packers — Week 3 final injury report",
+      "url": "https://www.packers.com/news/packers-rule-out-four-list-two-questionable-vs-falcons-week-3-injury-report-2026",
+      "observedAtEt": "2026-09-24T06:32:41-04:00"
+    },
+    {
+      "classification": "official_team_news",
+      "name": "Atlanta Falcons — Michael Penix Jr. named starting QB",
+      "url": "https://www.atlantafalcons.com/news/michael-penix-jr-starting-qb-thursday-night-football-vs-packers",
+      "observedAtEt": "2026-09-24T06:32:41-04:00"
+    },
+    {
+      "classification": "sportsbook_market_public_surface",
+      "name": "DraftKings Network — current player props",
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-player-props/",
+      "observedAtEt": "2026-09-24T06:32:41-04:00",
+      "freshnessNote": "Primary current table displays Watson ATD +155; alternate indexed DK surfaces disagree, so user's live app remains authoritative."
+    },
+    {
+      "classification": "sportsbook_market_public_surface",
+      "name": "DraftKings Sportsbook — ATL Falcons at GB Packers event",
+      "url": "https://sportsbook.draftkings.com/event/atl-falcons-%40-gb-packers/34118180",
+      "observedAtEt": "2026-09-24T06:32:41-04:00",
+      "freshnessNote": "Indexed event views currently show Watson around +155 to +160 and GB -5.5 / total 42.5; snapshot dispersion prevents treating one public scrape as executable app truth."
+    },
+    {
+      "classification": "public_multi_book_market_index",
+      "name": "Propaholics — Christian Watson anytime touchdown odds",
+      "url": "https://www.propaholics.app/nfl/christian-watson-anytime-touchdown-odds",
+      "observedAtEt": "2026-09-24T06:32:41-04:00",
+      "freshnessNote": "Current index reports best +160 across eight books."
+    },
+    {
+      "classification": "public_multi_book_market_index",
+      "name": "CLEATZ — Week 3 touchdown props",
+      "url": "https://cleatz.com/nfl/touchdown-props/",
+      "observedAtEt": "2026-09-24T06:32:41-04:00",
+      "freshnessNote": "Shows Novig +170 outlier for Watson and approximately 24.5 implied GB team points; nontraditional operator context is not promoted to regulated sportsbook truth."
+    },
+    {
+      "classification": "analyst_opinion_with_book_price",
+      "name": "Athlon — Best TNF player prop bets",
+      "url": "https://athlonsports.com/betting/2026-nfl-week3-tnf-player-prop-bets-atlanta-falcons-green-bay-packers",
+      "publishedAtEt": "2026-09-24T06:16:00-04:00",
+      "freshnessNote": "Lists Watson ATD +160 and Penix 1+ INT -107, stated as DraftKings odds."
+    },
+    {
+      "classification": "simulation_projection",
+      "name": "MatchWiz — Michael Penix Jr. projections",
+      "url": "https://matchwiz.ai/nfl/player/michael-penix-jr-9917",
+      "observedAtEt": "2026-09-24T06:32:41-04:00"
+    },
+    {
+      "classification": "model_projection",
+      "name": "FantasyPros — Christian Watson Week 3 projection",
+      "url": "https://www.fantasypros.com/nfl/players/christian-watson.php",
+      "observedAtEt": "2026-09-24T06:32:41-04:00"
+    }
+  ]
+}
