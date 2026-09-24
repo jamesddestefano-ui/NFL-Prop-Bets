@@ -1,0 +1,202 @@
+{
+  "status": "live",
+  "capturedAtEt": "2026-09-23T21:37:20-04:00",
+  "capturedAtUtc": "2026-09-24T01:37:20Z",
+  "nflWeek": 3,
+  "scope": "NFL player props only",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-09-24T00-39-19Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new Grok pass. grok_pulse_latest.json and grok_pulse_history.jsonl still terminate at completedAt 2026-09-12T17:05:00Z."
+  },
+  "marketChangeObserved": false,
+  "newContextObserved": false,
+  "materialChangeSincePriorArchive": false,
+  "newUserFacingAlert": false,
+  "currentAction": "BET_STILL_PLAYABLE_UNCHANGED",
+  "summary": "21:37 ET Week 3 refresh: no material change from the 20:39 ET checkpoint. Current CLEATZ line shopping still shows Christian Watson anytime TD at Fanatics +160, DraftKings +155 and FanDuel +155, with the broader market centered near +150. A DraftKings Network search-index view briefly surfaced +160, while the directly opened filtered DraftKings Network table and CLEATZ both show +155; because current public references conflict and the user's live sportsbook app is executable truth, PRIME does not promote the transient +160 DK index value to canonical sportsbook truth. Green Bay's final injury report is unchanged: Jayden Reed, Aaron Banks, Zach Bako-Bewele and Warren Brinson are OUT; Anthony Belton is cleared. Atlanta still has A.J. Terrell on IR, Samson Ebukam OUT and Billy Bowman Jr. questionable. PRIME holds Watson's stored 47.0% fair TD probability: +160 implies 38.46% and an 8.54-point edge; +155 implies 39.22% and a 7.78-point edge. Classification remains BET/STILL_PLAYABLE for 0.5u only if unplaced, hard floor +135 or better. No additional correlated Green Bay exposure is approved, no second Week 3 player prop clears the required current-price and probability threshold, and no Week 3 user ticket is recorded.",
+  "actionableCandidate": {
+    "game": "ATL@GB",
+    "gameDate": "2026-09-24",
+    "player": "Christian Watson",
+    "team": "GB",
+    "opponent": "ATL",
+    "propType": "ANYTIME_TD",
+    "market": "Anytime TD Scorer",
+    "side": "YES",
+    "bestSportsbookSnapshot": "Fanatics via CLEATZ",
+    "bestOddsReference": 160,
+    "draftKingsOddsReference": 155,
+    "consensusOddsApprox": 150,
+    "observedAtEt": "2026-09-23T21:37:20-04:00",
+    "marketFreshness": "CLEATZ current page observed during this checkpoint; DraftKings Network current player-props page states prices refresh every five minutes, but public filtered/index views conflicted at +155/+160. Verify executable app price before betting.",
+    "marketImpliedProbabilityPctAt160": 38.46,
+    "marketImpliedProbabilityPctAt155": 39.22,
+    "marketImpliedProbabilityPctAt150": 40.0,
+    "noVigProbabilityPct": null,
+    "internalFairProbabilityPct": 47.0,
+    "fairOddsAmerican": 113,
+    "estimatedEdgePctAt160": 8.54,
+    "estimatedEdgePctAt155": 7.78,
+    "estimatedEdgePctAt150": 7.0,
+    "edgeBucketBestMarket": "8%+",
+    "edgeBucketDraftKings": "6-8%",
+    "decision": "BET",
+    "steamState": "STILL_PLAYABLE",
+    "confidence": "B",
+    "stakeUnits": 0.5,
+    "playToPrice": "+135 or better",
+    "entryTiming": "MIDWEEK",
+    "signalTags": "TARGET_SHARE|ROUTE_SHARE|RED_ZONE|INJURY|OL_INJURY|DEFENSIVE_INJURY|MARKET_MOVE|PROJECTION_DISAGREEMENT|EXPERT_CONSENSUS",
+    "correlationTags": "SAME_THESIS if paired with Jordan Love, Tucker Kraft, Matthew Golden, or another Green Bay passing/receiving over",
+    "thesisId": "WATSON_TD_CONDENSED_REDZONE",
+    "statusNote": "Unchanged. If a Watson ticket is already held, do not add. If unplaced, Fanatics +160 remains the best current public line-shopping snapshot; DraftKings is canonically retained at +155 until executable/app truth or an unconflicted fresh source verifies a different price. Pass below +135 unless fair probability is materially recalculated."
+  },
+  "factsAndReporting": {
+    "confirmedFacts": [
+      "Green Bay's final Wednesday injury report lists WR Jayden Reed, G Aaron Banks, T Zach Bako-Bewele and DT Warren Brinson out for Thursday night.",
+      "Green Bay OL Anthony Belton was upgraded to full participation and has no game designation.",
+      "Atlanta's final status lists CB Billy Bowman Jr. questionable and DE Samson Ebukam out; CB A.J. Terrell was placed on injured reserve earlier in the week.",
+      "Green Bay's official team coverage notes Watson and Matthew Golden combined for eight receptions and 109 receiving yards after Reed exited against the Jets."
+    ],
+    "attributedReporting": [],
+    "modelProjection": [
+      "PRIME stored internal fair TD probability for Watson remains 47.0%.",
+      "The prior independent Stats Insider public estimate remains lower than PRIME, preserving meaningful model disagreement rather than supporting a stake increase.",
+      "Receiving-market thresholds remain elevated: CLEATZ currently shows Watson receiving yards at DraftKings 68.5 and receptions at 4.5 with expensive Over juice, so projection support alone does not create a second wager."
+    ],
+    "analystOpinion": [],
+    "speculation": []
+  },
+  "marketCheck": {
+    "source": "CLEATZ current NFL player-prop line shopping plus DraftKings Network current player-props page",
+    "watsonAnytimeTd": {
+      "fanatics": "+160",
+      "draftKings": "+155",
+      "fanDuel": "+155",
+      "betMGM": "+135",
+      "caesars": "+150",
+      "betRivers": "+150",
+      "betParx": "+150",
+      "ballyBet": "+150",
+      "betOnline": "+130",
+      "fliff": "+140",
+      "courtside": "+155",
+      "bovada": "+155",
+      "hardRock": "+150",
+      "consensusMedianApprox": "+150",
+      "bestMarket": "Fanatics +160",
+      "priceStateVersusPriorArchive": "UNCHANGED"
+    },
+    "watsonReceivingYards": {
+      "draftKings": "68.5 with displayed two-way juice around -137/-137 on CLEATZ",
+      "fanDuel": "68.5 around -114/-114",
+      "betMGM": "64.5 around -125/-105",
+      "decision": "WATCH",
+      "note": "Line and juice dispersion is large; no robust current-price fair-probability edge is established."
+    },
+    "watsonReceptions": {
+      "draftKings": "4.5 around -131/+102",
+      "fanDuel": "4.5 around -130/-102",
+      "betMGM": "4.5 around -130/-105",
+      "decision": "PASS",
+      "note": "Reed OUT is supportive but the Over is expensive and no independent probability edge clears PRIME's threshold."
+    },
+    "draftKingsReferenceConflict": "A DraftKings Network search-index result surfaced Watson +160, but the directly opened filtered player-props table and CLEATZ current line shopping both display DraftKings +155. PRIME preserves +155 as the canonical public snapshot and requires the user's app for executable truth rather than treating a transient index value as verified movement."
+  },
+  "weatherCheck": {
+    "game": "ATL@GB",
+    "venue": "Lambeau Field",
+    "propImpact": "neutral",
+    "note": "No newly identified weather catalyst changes the stored Watson probability or creates a separate passing/receiving edge."
+  },
+  "otherEvaluations": [
+    {
+      "player": "Christian Watson",
+      "market": "Receptions / receiving yards",
+      "decision": "WATCH/PASS",
+      "reason": "Reed OUT supports opportunity, but current thresholds and juice are expensive/dispersed and do not establish an independent price-adjusted edge."
+    },
+    {
+      "player": "Tucker Kraft",
+      "market": "Anytime TD / receiving",
+      "decision": "PASS",
+      "reason": "No independent fair-probability edge at current public prices, and the touchdown thesis is correlated with Watson."
+    },
+    {
+      "player": "Matthew Golden",
+      "market": "Anytime TD / receiving",
+      "decision": "WATCH",
+      "reason": "Role remains attractive after Reed's injury, but the opportunity signal materially overlaps with Watson and no separate current-price probability edge is verified."
+    },
+    {
+      "player": "Bijan Robinson",
+      "market": "Rushing / receiving / anytime TD",
+      "decision": "WATCH",
+      "reason": "No fresh current-price separation large enough to clear PRIME's threshold after vig and uncertainty."
+    },
+    {
+      "player": "Week 3 field",
+      "market": "Mixed player props",
+      "decision": "WATCH",
+      "reason": "No new injury, role, weather or verified market catalyst since 20:39 ET produced a second actionable current-price opportunity."
+    }
+  ],
+  "exposure": {
+    "week3StraightPropExposureRecorded": 0,
+    "week3ParlayExposureRecorded": 0,
+    "recommendedNotYetConfirmed": "Christian Watson anytime TD; Fanatics +160 best current public snapshot, DraftKings +155 canonical current public snapshot, 0.5u only if unplaced and executable price is +135 or better",
+    "note": "No Week 3 user ticket is recorded in bet_history. Do not write a wager to bet_history without authoritative user placement."
+  },
+  "ledgerMutations": {
+    "immutableArchive": "CREATED — no-change checkpoint with fresh market and official injury cross-check",
+    "livePropBoard": "NO CHANGE — Watson candidate state, play-to, stake and canonical exact key market references are unchanged",
+    "decisionLedger": "NO CHANGE — existing Watson BET/STILL_PLAYABLE decision remains authoritative",
+    "lineHistory": "NO CHANGE — best market and canonical DraftKings state are unchanged; conflicting DraftKings index value is not promoted to sportsbook truth",
+    "betHistory": "NO CHANGE — no authoritative Week 3 user ticket confirmation",
+    "missedBets": "NO CHANGE",
+    "passLedger": "NO CHANGE — no new material PASS/AVOID state requiring a canonical row",
+    "parlayHistory": "NO CHANGE",
+    "weeklyAttribution": "NO CHANGE — Week 3 not settled",
+    "grokState": "UNCHANGED — completedAt remains 2026-09-12T17:05:00Z"
+  },
+  "nextFocus": [
+    "Thursday pregame: verify late Green Bay offensive-line and Atlanta secondary availability and reprice Watson only if new information is material.",
+    "Confirm the user's executable sportsbook price before placement; preserve +135 as the hard floor unless fair probability is recalculated.",
+    "Do not add correlated Green Bay passing/receiving exposure solely from Reed/Terrell news.",
+    "Treat Thursday night as a fresh mini-slate and require exact current price before any new bet."
+  ],
+  "sources": [
+    {
+      "classification": "official_team_injury_report",
+      "name": "Green Bay Packers — Week 3 injury report",
+      "url": "https://www.packers.com/news/packers-rule-out-four-list-two-questionable-vs-falcons-week-3-injury-report-2026",
+      "observedAtEt": "2026-09-23T21:37:20-04:00"
+    },
+    {
+      "classification": "official_team_reporting",
+      "name": "Green Bay Packers — Resilient Packers know they must keep rallying",
+      "url": "https://www.packers.com/news/resilient-packers-know-they-must-keep-rallying-sept-23-2026",
+      "observedAtEt": "2026-09-23T21:37:20-04:00"
+    },
+    {
+      "classification": "sportsbook_market",
+      "name": "DraftKings Network — NFL player props",
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-player-props/",
+      "observedAtEt": "2026-09-23T21:37:20-04:00",
+      "freshnessNote": "Page states it updates every five minutes; public filtered/index views conflicted at +155/+160 for Watson, so executable app truth controls."
+    },
+    {
+      "classification": "public_multi_book_market_aggregator",
+      "name": "CLEATZ NFL Props — Consensus Edges & Line Shopping",
+      "url": "https://cleatz.com/nfl-props-test/",
+      "observedAtEt": "2026-09-23T21:37:20-04:00",
+      "freshnessNote": "Current page observed during this run; exact upstream book refresh timestamp not exposed."
+    }
+  ]
+}
