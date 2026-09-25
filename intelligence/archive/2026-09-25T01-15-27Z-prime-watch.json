@@ -1,0 +1,18 @@
+{
+  "status": "live",
+  "capturedAtEt": "2026-09-24T21:15:27-04:00",
+  "capturedAtUtc": "2026-09-25T01:15:27Z",
+  "nflWeek": 3,
+  "scope": "NFL player props only",
+  "materialChangeSincePriorArchive": true,
+  "newUserFacingAlert": false,
+  "grok": {"status": "live", "completedAt": "2026-09-12T17:05:00Z", "newPass": false},
+  "currentAction": "PROP_HIT_NO_NEW_ACTION",
+  "summary": "Official Packers in-game reporting confirms Christian Watson caught a first-quarter touchdown, settling the prior PRIME anytime-TD thesis as a winning football outcome. No Week 3 user ticket is recorded, so the result is preserved as an unconfirmed recommendation with no user P/L. Pregame prices are now locked/stale and must not be treated as current; no live or correlated replacement is authorized.",
+  "sundayWatch": [{"player":"Dalton Kincaid","market":"Receiving yards","status":"WATCH","context":"Independent projections remain above public market references, but exact current regulated sportsbook price is not sufficiently verified.","action":"Do not promote to BET until an exact current regulated sportsbook line and price are independently verified and fair probability is recalculated at that exact threshold."}],
+  "sources": [
+    {"name":"Green Bay Packers official in-game update","url":"https://www.packers.com/news/in-game-updates-week-3-falcons-2026","observedAtEt":"2026-09-24T21:15:27-04:00"},
+    {"name":"DraftKings Network pregame Watson ATD reference","url":"https://dknetwork.draftkings.com/2026/09/24/packers-vs-falcons-anytime-td-scorer-picks-best-bets-long-shots/","observedAtEt":"2026-09-24T21:15:27-04:00"},
+    {"name":"Packers-Falcons official inactives","url":"https://www.packers.com/news/packers-falcons-week-3-inactives-sept-24-2026","observedAtEt":"2026-09-24T21:15:27-04:00"}
+  ]
+}
