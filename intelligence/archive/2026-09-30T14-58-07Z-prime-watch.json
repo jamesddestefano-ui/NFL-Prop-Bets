@@ -1,0 +1,18 @@
+{
+  "status": "live",
+  "capturedAtUtc": "2026-09-30T14:58:07Z",
+  "capturedAtEt": "2026-09-30 10:58:07 ET",
+  "nflWeek": 4,
+  "materialChangeSincePriorCheckpoint": true,
+  "newUserFacingAlert": true,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-30T14-12-00Z-prime-watch.json",
+  "summary": "Judkins rushing attempts reopened at the stored price ceiling. Covers' multi-book board says odds last updated 10:42 ET and shows BetMGM O16.5 -115/U16.5 -115. PRIME conservative fair Over probability remains 58%; raw break-even is 53.49%, raw fair-probability edge +4.51 points (4-6% bucket), no-vig market probability 50%. Classify BET/BET_NOW 0.5u only at O16.5 -115 or better. Do not chase 17.5+ or worse juice. Warren O22.5 receiving remains around -114 on current public market references and is unchanged; Boston O35.5 around -114 remains outside stored -110 ceiling.",
+  "sources": [
+    "https://www.covers.com/sport/football/nfl/players/368268/quinshon-judkins",
+    "https://www.steelers.com/news/week-4-injury-report-browns",
+    "https://www.sportsgambler.com/betting-tips/nfl/pittsburgh-steelers-vs-cleveland-browns-prediction-odds-2026-10-01/",
+    "https://www.covers.com/nfl/steelers-vs-browns-prediction-picks-oct-1-2026"
+  ]
+}
