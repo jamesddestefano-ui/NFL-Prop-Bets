@@ -1,0 +1,44 @@
+{
+  "status": "live",
+  "capturedAtUtc": "2026-09-30T04:16:01Z",
+  "capturedAtEt": "2026-09-30 00:16:01 ET",
+  "nflWeek": 4,
+  "materialChangeSincePriorCheckpoint": false,
+  "newUserFacingAlert": false,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-25T08-56-13Z-prime-watch.json",
+  "repositoryHeadAtRead": "33910514ca573bf94b4e6b4bec71f75b2fb3de6a",
+  "decisions": {
+    "Denzel Boston receiving yards": {
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "storedPlayToLine": 35.5,
+      "storedMaxOdds": -110,
+      "latestDurableMarketState": "BetRivers 35.5 -113 at 2026-09-29 20:26 ET",
+      "currentResearch": "BetMGM still lists 35.5 on its Sep 29 Week 4 prop page; no newer exact regulated-book price at 35.5 or better than the stored -110 ceiling was verified during this checkpoint.",
+      "reason": "No price-qualified reopen. Jalen Ramsey's broken wrist is already incorporated; Pittsburgh lists Ramsey limited, Brandin Echols limited, Joey Porter Jr full. Cleveland OL uncertainty remains with Elgton Jenkins DNP and Tytus Howard/Teven Jenkins limited."
+    },
+    "Jaylen Warren receiving yards": {
+      "status": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "storedPlayToLine": 22.5,
+      "storedMaxOdds": -115,
+      "latestResearch": "Public current-context pages continue to show 22.5 around -114; Rico Dowdle remained DNP Tuesday. Projection disagreement widened: FIC 37.0 vs SportsGrid 21.0, so no probability upgrade or stake increase.",
+      "reason": "No material change from prior alert. Do not chase above 22.5 or worse than -115."
+    }
+  },
+  "context": {
+    "injuries": "Steelers Tuesday estimate: Dowdle DNP; Ramsey limited; Echols limited; Porter full. Browns Tuesday report: Elgton Jenkins DNP; Tytus Howard limited; Teven Jenkins improved to limited; Tyson Campbell limited.",
+    "weather": "Cleveland Thursday-night forecasts remain mixed on rain probability but generally light-to-moderate wind near kickoff; no verified weather change large enough to force a prop reprice at this checkpoint.",
+    "sources": [
+      "https://www.steelers.com/news/week-4-injury-report-browns",
+      "https://sports.betmgm.com/en/blog/nfl/denzel-boston-props-odds-gaa/",
+      "https://sports.betmgm.com/en/blog/nfl/jaylen-warren-props-odds-gaa/",
+      "https://www.fantasyinfocentral.com/betting/nfl/props/receiving-yards",
+      "https://www.sportsgamblingpodcast.com/2026/09/29/thursday-night-football-week-4-prop-bets-ep-2693/"
+    ]
+  },
+  "ledgerChanges": [],
+  "summary": "NO USER-FACING MATERIAL CHANGE. Boston remains PASS_AFTER_MOVE at the durable 35.5/-110 ceiling because no fresh exact price qualifying for a reopen was verified. Warren remains STILL_PLAYABLE only at 22.5 through -115; Dowdle is still DNP, but projection disagreement argues against increasing fair probability or exposure. No new Grok pass."
+}
