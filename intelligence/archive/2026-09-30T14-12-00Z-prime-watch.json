@@ -1,0 +1,16 @@
+{
+  "status": "live",
+  "capturedAtUtc": "2026-09-30T14:12:00Z",
+  "capturedAtEt": "2026-09-30 10:12:00 ET",
+  "nflWeek": 4,
+  "materialChangeSincePriorCheckpoint": true,
+  "newUserFacingAlert": true,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-30T04-16-01Z-prime-watch.json",
+  "summary": "Judkins rushing attempts market moved beyond the stored maximum acceptable price. Fresh Covers board at 10:12 ET shows 16.5 at -117 (William Hill) and -120 (bet365), versus PRIME max -115. Classify new entry PASS_AFTER_MOVE. Existing earlier -115 ticket, if placed, is a hold. Warren receiving and Boston receiving have no new qualifying change.",
+  "sources": [
+    "https://www.covers.com/sport/football/nfl/players/368268/quinshon-judkins",
+    "https://www.steelers.com/news/week-4-injury-report-browns"
+  ]
+}
