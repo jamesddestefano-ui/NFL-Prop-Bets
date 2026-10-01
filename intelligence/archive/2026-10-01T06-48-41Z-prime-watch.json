@@ -1,0 +1,24 @@
+{
+  "status": "live",
+  "capturedAtUtc": "2026-10-01T06:48:41Z",
+  "capturedAtEt": "2026-10-01 02:48:41 ET",
+  "nflWeek": 4,
+  "materialChangeSincePriorCheckpoint": false,
+  "newUserFacingAlert": false,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-09-30T14-58-07Z-prime-watch.json",
+  "summary": "No new user-facing alert. Jaylen Warren rushing attempts remains BetRivers O16.5 -113 on the current Covers board (odds updated 02:47 ET), inside the prior 16.5/-115 ceiling but unchanged; Warren receiving remains bet365 O22.5 -115, also unchanged. Denzel Boston receiving yards remains around O35.5 -115 and therefore outside the stored -110 maximum. Quinshon Judkins' 16.5 rushing-attempt threshold remains in the market, but no fresh exact regulated-book price at or inside PRIME's stored -115 ceiling was independently verified at this checkpoint, so the prior BetMGM -105 is not carried forward as current. Official final injury statuses remain PIT Rico Dowdle OUT, Joey Porter Jr. OUT, Jalen Ramsey QUESTIONABLE, Brandin Echols QUESTIONABLE; CLE Elgton Jenkins OUT, Teven Jenkins OUT, Tylan Wallace OUT, while Tytus Howard, Tyson Campbell and Grant Delpit are available. Weather remains non-material. No new Grok pass.",
+  "sourceTimestamps": {
+    "warrenCovers": "2026-10-01 02:47 ET",
+    "judkinsCovers": "2026-10-01 02:21 ET",
+    "steelersOfficialFinal": "2026-09-30",
+    "brownsOfficialFinal": "2026-09-30"
+  },
+  "sources": [
+    "https://www.covers.com/sport/football/nfl/players/181156/jaylen-warren",
+    "https://www.covers.com/sport/football/nfl/players/368268/quinshon-judkins",
+    "https://www.steelers.com/news/week-4-injury-report-browns",
+    "https://www.clevelandbrowns.com/news/browns-injury-report-week-4-vs-steelers"
+  ]
+}
