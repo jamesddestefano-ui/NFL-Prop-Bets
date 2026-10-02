@@ -1,0 +1,40 @@
+{
+  "status": "live",
+  "capturedAtUtc": "2026-10-02T02:54:01Z",
+  "capturedAtEt": "2026-10-01 22:54:01 ET",
+  "nflWeek": 4,
+  "materialChangeSincePriorCheckpoint": false,
+  "newUserFacingAlert": false,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-10-01T06-48-41Z-prime-watch.json",
+  "summary": "No new user-facing actionable prop at this checkpoint. PIT@CLE is already in progress, so pregame Watson/Warren/Judkins/Boston markets are locked and are not treated as new-entry opportunities. No verified live in-game player-prop price with a PRIME-qualified edge was found. Sunday Week 4 scan produced watch-only candidates: Brock Bowers receiving has a current 72.5 consensus threshold but no sufficiently verified price/probability edge; Bhayshul Tuten rushing has supportive role and projection evidence around a public 53.5 threshold, but the exact current regulated sportsbook identity/price was not sufficiently verified for a formal BET. No stale price was promoted and no projection-alone recommendation was made.",
+  "sourceTimestamps": {
+    "pitCleLive": "2026-10-01 22:54 ET checkpoint",
+    "fieldworkMarketBoard": "2026-10-01 18:15:29Z collection",
+    "fantasyProsWeek4": "2026-10-01",
+    "jaguarsOfficialInjuryReport": "2026-10-01"
+  },
+  "sources": [
+    "https://bleacherreport.com/game/nfl-pittsburgh-steelers-cleveland-browns-2026-10-1-17-0",
+    "https://www.fieldwork.ai/nfl/player-props",
+    "https://www.fantasypros.com/nfl/dfs-lineup-optimizer.php",
+    "https://www.jaguars.com/team/injury-report/week/REG-4"
+  ],
+  "watchOnly": [
+    {
+      "player": "Brock Bowers",
+      "propType": "RECEIVING_YARDS",
+      "observedThreshold": 72.5,
+      "status": "WATCH",
+      "reason": "Current multi-book threshold verified, but current exact best regulated-book odds plus a >=4-5 percentage-point fair-probability edge were not established."
+    },
+    {
+      "player": "Bhayshul Tuten",
+      "propType": "RUSH_YARDS",
+      "observedThreshold": 53.5,
+      "status": "WATCH",
+      "reason": "Role/projection evidence is supportive, but sportsbook identity and current executable price were not sufficiently verified; no projection-alone bet."
+    }
+  ]
+}
