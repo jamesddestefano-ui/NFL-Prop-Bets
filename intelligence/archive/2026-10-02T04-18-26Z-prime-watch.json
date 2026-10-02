@@ -1,0 +1,93 @@
+{
+  "status": "live",
+  "capturedAtUtc": "2026-10-02T04:18:26Z",
+  "capturedAtEt": "2026-10-02 00:18:26 ET",
+  "nflWeek": 4,
+  "materialChangeSincePriorCheckpoint": false,
+  "newUserFacingAlert": false,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-10-02T02-54-01Z-prime-watch.json",
+  "summary": "No new PRIME-qualified actionable player prop. PIT@CLE pregame markets are locked/expired and no existing Week 4 user ticket requiring action is recorded in the durable bet ledger. Sunday watchlist research sharpened but did not cross the BET threshold: Bhayshul Tuten has a current public market around 53.5 rushing yards with strong role evidence, but projection disagreement remains material (FantasyPros bullish near 62.2 versus Nuvela around 49.4) and a sufficiently fresh named-book executable price was not verified at this checkpoint; keep WATCH. Brock Bowers is healthy enough to be absent from the Raiders Thursday injury report and BetMGM posted 72.5 receiving yards, but public projections are highly dispersed (FantasyPros roughly low-60s, Dimers 71.9, BTB Data 51) while his Week 3 role was elite; without a robust 4-5 percentage-point price-adjusted edge at a fresh named-book price, keep WATCH/PASS rather than force an Under or chase an Over. No new Grok pass.",
+  "confirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "source": "Las Vegas Raiders official Week 4 injury report",
+      "sourceTimestampEt": "2026-10-01 14:22 ET",
+      "claim": "Brock Bowers is not listed on the Raiders Thursday injury report; Ashton Jeanty was a full participant. Chiefs DT Chris Jones was a full participant and CB L'Jarius Sneed was limited."
+    },
+    {
+      "classification": "attributed_report",
+      "source": "Arizona Cardinals / PHNX reporting via Sports Illustrated",
+      "sourceTimestampEt": "2026-10-01 evening",
+      "claim": "Jeremiyah Love briefly went down during the open portion of Thursday practice, returned, and was not added to the Cardinals Thursday injury report. Head coach Mike LaFleur described the Week 3 workload as partly a hot-hand decision."
+    }
+  ],
+  "marketAndProjectionChecks": [
+    {
+      "player": "Bhayshul Tuten",
+      "propType": "RUSH_YARDS",
+      "observedMarket": "53.5 Over -113 / Under +100 on current StatMuse game page; sportsbook identity not exposed",
+      "namedBookContext": "BetMGM article earlier Thursday listed 54.5 without juice; LegionReport pages show DraftKings around 53.5-55.5 but crawl freshness is insufficient for an executable PRIME entry",
+      "role": "43 carries for 204 yards through three games; 15 carries for 73 yards in Week 3; clear lead-back usage but Chris Rodriguez remains involved",
+      "projectionDisagreement": "FantasyPros consensus/analysis bullish around low-60s versus Nuvela 49.4; current evidence does not support a robust fair-probability edge at the available price",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": [
+        "ROLE_CHANGE",
+        "RUSH_SHARE",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT",
+        "EXPERT_CONSENSUS"
+      ],
+      "playTo": null,
+      "maxAcceptableOdds": null
+    },
+    {
+      "player": "Brock Bowers",
+      "propType": "RECEIVING_YARDS",
+      "observedMarket": "BetMGM 72.5 threshold; LegionReport current page also centers 72.5 with best Under around -114, but exact run-time book freshness is not strong enough to formalize a wager",
+      "role": "Week 3 return produced roughly 95% route participation, ~39-43% target share, 10 catches and 116 yards; Raiders Thursday report does not list Bowers",
+      "projectionDisagreement": "FantasyPros roughly low-60s, Dimers 71.9, BTB Data 51; bullish FantasyPros prop analysis favors Higher 76.5 based on elite Week 3 role",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": [
+        "ROUTE_SHARE",
+        "TARGET_SHARE",
+        "FIRST_READ_SHARE",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT",
+        "EXPERT_CONSENSUS"
+      ],
+      "playTo": null,
+      "maxAcceptableOdds": null
+    },
+    {
+      "player": "Ollie Gordon II / Jaylen Wright",
+      "propType": "RUSH_ATTEMPTS|RUSH_YARDS",
+      "status": "WATCH",
+      "reason": "De'Von Achane is out for the season and Gordon handled 61 snaps/17 carries last week, but Wright returned to full practice Thursday after a foot injury. The backfield distribution is unresolved and no fresh executable named-book prop price was verified."
+    }
+  ],
+  "sourceTimestamps": {
+    "raidersOfficial": "2026-10-01 14:22 ET",
+    "betMgmBowers": "2026-10-01 13:10 ET",
+    "statMuseJaxCin": "crawled 2026-10-02",
+    "fantasyProsWeek4": "2026-10-01/2026-10-02",
+    "dimersBowers": "2026-09-30 18:45 ET",
+    "btbData": "crawled 2026-10-02",
+    "nuvelaTuten": "market move timestamp shown 2026-10-01 22:00 ET"
+  },
+  "sources": [
+    "https://www.raiders.com/news/las-vegas-raiders-kansas-city-chiefs-week-4-injury-report-2026-season-nfl",
+    "https://sports.betmgm.com/en/blog/nfl/brock-bowers-props-odds-gaa/",
+    "https://www.statmuse.com/nfl/game/10-4-2026-jax-at-cin-19122",
+    "https://www.fantasypros.com/2026/10/the-primer-week-4-edition-2026-fantasy-football/",
+    "https://www.fantasypros.com/2026/10/the-10-most-intriguing-fantasy-football-players-of-week-4-2026/",
+    "https://www.dimers.com/nfl/news/brock-bowers-projected-fantasy-stats-nfl-week-4-2026-ac",
+    "https://btbgridiron.com/nfl/2026/week-4/kc-at-lv/",
+    "https://nuvela.ai/nfl/props/players/bhayshul-tuten",
+    "https://www.fantasypros.com/nfl/notes/445268/ollie-gordon-2026-week-4-outlook.php",
+    "https://www.fantasypros.com/nfl/notes/445295/jaylen-wright-2026-week-4-outlook.php"
+  ]
+}
