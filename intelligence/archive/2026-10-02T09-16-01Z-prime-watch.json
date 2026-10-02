@@ -1,0 +1,58 @@
+{
+  "capturedAtUtc": "2026-10-02T09:16:01Z",
+  "capturedAtEt": "2026-10-02 05:16:01 ET",
+  "nflWeek": 4,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-10-02T08-18-31Z-prime-watch.json",
+  "materialMarketChange": false,
+  "userAlert": false,
+  "summary": "No new PRIME-qualified actionable NFL player prop versus the 04:18 ET durable checkpoint. Bhayshul Tuten remains WATCH at the prior verified BetMGM 54.5 rushing-yard threshold: FantasyPros continues to show strong efficiency but only 27th-ranked snap rate and 24th-ranked designed-carry share among qualifying backs, so the role/projection dispersion still does not justify a 4-5 percentage-point fair-probability edge at standard juice. Brock Bowers remains PASS_AFTER_MOVE at BetMGM 76.5 receiving yards -115 both ways; the Raiders' Thursday injury report does not list Bowers, and the elite Week 3 role is intact, but the four-yard move from the earlier 72.5 context remains too expensive to chase. Jaylen Wright's upgrade from limited Wednesday to full Thursday materially reduces confidence in any Ollie Gordon II volume Over; keep that Miami backfield WATCH pending Friday status/role clarity and live prop repricing. No Week 4 user ticket requiring action is recorded in bet_history. No new Grok pass.",
+  "checks": [
+    {
+      "player": "Bhayshul Tuten",
+      "propType": "RUSH_YARDS",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "marketReference": "BetMGM 54.5 threshold remains the latest named-book reference; no fresher executable price change independently verified at this checkpoint.",
+      "signalTags": [
+        "ROLE_CHANGE",
+        "RUSH_SHARE",
+        "MATCHUP",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "reason": "FantasyPros: 16 touches/80 total yards per game, strong efficiency, but only 27th in snap rate and 24th in designed carry share among 42 qualifying backs. No robust price-adjusted edge."
+    },
+    {
+      "player": "Brock Bowers",
+      "propType": "RECEIVING_YARDS",
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "marketReference": "BetMGM 76.5 -115 both ways",
+      "signalTags": [
+        "ROUTE_SHARE",
+        "TARGET_SHARE",
+        "MARKET_MOVE"
+      ],
+      "reason": "Raiders Thursday injury report does not list Bowers; Week 3 role remains elite. The market is still four yards above the prior PRIME 72.5 context, so do not chase and do not auto-flip Under."
+    },
+    {
+      "player": "Ollie Gordon II / Jaylen Wright",
+      "propType": "RUSH_ATTEMPTS|RUSH_YARDS",
+      "status": "WATCH",
+      "signalTags": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "RUSH_SHARE"
+      ],
+      "reason": "Jaylen Wright was upgraded from limited Wednesday to full Thursday after missing Week 3. That materially increases split uncertainty behind the injured De'Von Achane and weakens any Gordon volume-Over thesis pending Friday status and role confirmation."
+    }
+  ],
+  "sources": [
+    "https://www.fantasypros.com/nfl/notes/445217/bhayshul-tuten-2026-week-4-outlook.php",
+    "https://sports.betmgm.com/en/blog/nfl/bhayshul-tuten-props-odds-gaa/",
+    "https://sports.betmgm.com/en/blog/nfl/chiefs-raiders-prediction-odds-player-prop-bets-picks-week-4-jaa/",
+    "https://www.raiders.com/news/las-vegas-raiders-kansas-city-chiefs-week-4-injury-report-2026-season-nfl",
+    "https://www.fantasypros.com/nfl/news/611756/jaylen-wright-foot-upgraded-to-full-participant-thursday.php"
+  ]
+}
