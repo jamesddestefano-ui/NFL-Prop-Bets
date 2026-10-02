@@ -1,0 +1,53 @@
+{
+  "capturedAtUtc": "2026-10-02T08:18:31Z",
+  "capturedAtEt": "2026-10-02 04:18:31 ET",
+  "nflWeek": 4,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-10-02T04-18-26Z-prime-watch.json",
+  "materialMarketChange": true,
+  "userAlert": false,
+  "summary": "No new PRIME-qualified actionable player prop. Bhayshul Tuten now has a named-book BetMGM rushing-yards market at 54.5 -115 both ways, but the projection/role evidence remains too dispersed to support a robust 4-5 percentage-point fair-probability edge; keep WATCH. Brock Bowers has moved from the prior PRIME 72.5 market context to BetMGM 76.5 -115 both ways. That four-yard move removes any Over entry at the old thesis; classify PASS_AFTER_MOVE. Do not auto-flip to Under because his Week 3 route/target role was elite and public projections/analyst views remain highly dispersed. Ollie Gordon II/Jaylen Wright remains unresolved after Wright returned to full practice Thursday. No Week 4 user ticket requiring action is recorded in bet_history. No new Grok pass.",
+  "marketAndProjectionChecks": [
+    {
+      "player": "Bhayshul Tuten",
+      "propType": "RUSH_YARDS",
+      "sportsbook": "BetMGM",
+      "line": 54.5,
+      "overOdds": -115,
+      "underOdds": -115,
+      "marketImpliedOverProbability": 0.5349,
+      "noVigOverProbability": 0.5,
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": ["ROLE_CHANGE","RUSH_SHARE","MATCHUP","MARKET_MOVE","PROJECTION_DISAGREEMENT","EXPERT_CONSENSUS"],
+      "reason": "FantasyPros documents strong efficiency and 16 touches per game but only 27th-ranked snap rate and 24th-ranked designed carry share among qualifying backs. Bullish FantasyPros/ESPN projections conflict with the prior Nuvela 49.4-yard estimate, so no defensible 4-5 point price-adjusted edge is assigned at -115."
+    },
+    {
+      "player": "Brock Bowers",
+      "propType": "RECEIVING_YARDS",
+      "sportsbook": "BetMGM",
+      "line": 76.5,
+      "overOdds": -115,
+      "underOdds": -115,
+      "marketImpliedOverProbability": 0.5349,
+      "noVigOverProbability": 0.5,
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "signalTags": ["ROUTE_SHARE","TARGET_SHARE","MARKET_MOVE","PROJECTION_DISAGREEMENT","EXPERT_CONSENSUS"],
+      "reason": "BetMGM now lists 76.5, four yards above the prior PRIME 72.5 market context. Elite Week 3 usage remains supportive, but public projections range from roughly the low-50s through low-70s and FantasyPros is bullish at 76.5. The old Over thesis cannot be transferred across the move, and the elite role prevents an automatic Under flip."
+    },
+    {
+      "player": "Ollie Gordon II / Jaylen Wright",
+      "propType": "RUSH_ATTEMPTS|RUSH_YARDS",
+      "status": "WATCH",
+      "reason": "Jaylen Wright was a full participant Thursday after missing Week 3. Gordon handled 17 carries with Wright out, but Miami's Week 4 split remains unresolved and no fresh executable named-book prop price was verified at this checkpoint."
+    }
+  ],
+  "sources": [
+    "https://sports.betmgm.com/en/blog/nfl/jaguars-bengals-prediction-odds-player-prop-bets-picks-week-4-jaa/",
+    "https://www.fantasypros.com/nfl/notes/445217/bhayshul-tuten-2026-week-4-outlook.php",
+    "https://sports.betmgm.com/en/blog/nfl/chiefs-raiders-prediction-odds-player-prop-bets-picks-week-4-jaa/",
+    "https://www.raiders.com/news/las-vegas-raiders-kansas-city-chiefs-week-4-injury-report-2026-season-nfl"
+  ]
+}
