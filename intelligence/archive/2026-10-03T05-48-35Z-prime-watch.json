@@ -1,0 +1,118 @@
+{
+  "capturedAtUtc": "2026-10-03T05:48:35Z",
+  "capturedAtEt": "2026-10-03 01:48:35 ET",
+  "nflWeek": 4,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-10-03T02-06-45Z-prime-watch.json",
+  "materialMarketChange": false,
+  "userAlert": false,
+  "summary": "No new PRIME-qualified actionable NFL player prop requiring a user alert. Overnight checks confirm the previously communicated price-specific plays/theses rather than creating a new edge. Braelon Allen remains the Jets' lead-back setup with Breece Hall officially OUT; Covers' board updated 00:42 ET shows bet365 O9.5 receiving yards -110, which is the same stored playable threshold already communicated, while rushing markets span 54.5-59.5 and attempts 13.5-14.5. The lower 54.5 rushing threshold at BetMGM -115 does not clear PRIME's 4-5 percentage-point edge requirement after accounting for Allen's early-season rushing efficiency, Dylan Parham being OUT, and projection/market dispersion; WATCH/PASS rather than chase the role headline. Christian Watson ATD remains Fanatics +170 on a Covers board updated 21:49 ET Friday, exactly matching the prior alert and therefore not a new alert. Ashton Jeanty longest rush U12.5 -114 FanDuel and Kaleb Johnson longest rush U9.5 -110 bet365 were reconfirmed by Action Network's Friday 18:07 ET update, but the prices are not treated as current at 01:48 ET without fresh book verification. Brock Bowers remains active/no game designation after a Friday knee limitation. No new Grok pass.",
+  "checks": [
+    {
+      "player": "Braelon Allen",
+      "propType": "RECEIVING_YARDS",
+      "status": "BET_PREVIOUSLY_ALERTED",
+      "steamState": "STILL_PLAYABLE_IF_EXACT_PRICE_REMAINS",
+      "sportsbook": "bet365 via Covers",
+      "line": 9.5,
+      "odds": -110,
+      "marketTimestampEt": "2026-10-03 00:42 ET",
+      "playToLine": 9.5,
+      "maxAcceptableOdds": -115,
+      "reason": "Fresh Covers board still shows the exact stored threshold/price. This is confirmation, not a new recommendation."
+    },
+    {
+      "player": "Braelon Allen",
+      "propType": "RUSH_YARDS",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "sportsbook": "BetMGM via Covers",
+      "line": 54.5,
+      "odds": -115,
+      "consensusLineRange": "54.5-59.5",
+      "marketTimestampEt": "2026-10-03 00:42 ET",
+      "reason": "Hall OUT and lead-back role are bullish, but Allen's season rushing efficiency, Jets LG Dylan Parham OUT, and projection/market dispersion keep the price-adjusted edge below PRIME's normal formal-bet threshold. Do not promote merely because 54.5 is lower than earlier public references."
+    },
+    {
+      "player": "Braelon Allen",
+      "propType": "RUSH_ATTEMPTS",
+      "status": "WATCH",
+      "steamState": "NO_NEW_ACTION",
+      "marketTimestampEt": "2026-10-03 00:42 ET",
+      "marketRange": "13.5-14.5 depending on sportsbook; BetRivers O14.5 +110, bet365 O14.5 -115, several books O13.5 heavily juiced",
+      "reason": "Role thesis is confirmed but the market has already repriced it. No new standalone carry bet is created from the user's unconfirmed 16+ SGP construction."
+    },
+    {
+      "player": "Christian Watson",
+      "propType": "ANYTIME_TD",
+      "status": "BET_PREVIOUSLY_ALERTED",
+      "steamState": "STILL_PLAYABLE_IF_EXACT_PRICE_REMAINS",
+      "sportsbook": "Fanatics via Covers",
+      "line": "YES",
+      "odds": 170,
+      "marketTimestampEt": "2026-10-02 21:49 ET",
+      "reason": "Fanatics +170 remains the best displayed price, exactly matching the earlier communicated PRIME play. No new alert."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "propType": "OTHER_LONGEST_RUSH",
+      "status": "BET_PREVIOUSLY_ALERTED",
+      "steamState": "PRICE_REQUIRED",
+      "marketReference": "FanDuel U12.5 -114 in Action Network article updated 2026-10-02 18:07 ET",
+      "reason": "Official Raiders report has Jeanty full all week/no game designation and Jackson Powers-Johnson OUT. Action still supports the longest-rush Under, but the article quote is not assumed live at 01:48 ET."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "propType": "OTHER_RUSH_PLUS_RECEIVING_YARDS",
+      "status": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "marketReference": "FanDuel Research U82.5 -114 dynamic Friday board",
+      "signalTags": [
+        "PROJECTION_DISAGREEMENT",
+        "ROLE_CHANGE",
+        "MARKET_MOVE",
+        "SAME_THESIS"
+      ],
+      "reason": "Independent projections from Slate Stats and Razzball remain around 106-108 scrimmage yards, far above the 82.5 market, while Jeanty retains a bell-cow snap profile. Do not add a second Jeanty Under merely because one model likes it."
+    },
+    {
+      "player": "Zay Flowers",
+      "propType": "RECEIVING_YARDS",
+      "status": "PASS",
+      "steamState": "NO_NEW_ACTION",
+      "marketReference": "FanDuel Research U71.5 -114 dynamic Friday board",
+      "signalTags": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "reason": "Ravens' official Friday report lists Flowers questionable but his hamstring is described as feeling behind him after full Thursday work; team reporting expects a workload closer to full participation. The Week 3 snap-limit thesis is stale, so the Under is not promoted."
+    },
+    {
+      "player": "Brock Bowers",
+      "propType": "RECEIVING_YARDS",
+      "status": "PASS_WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Official Raiders final report: limited Friday with knee issue but no game designation. No sufficiently strong price-adjusted edge found overnight."
+    }
+  ],
+  "officialNews": [
+    "Jets official Friday injury report: Breece Hall OUT; Dylan Parham OUT; Braelon Allen has been taking the majority of practice reps.",
+    "Raiders official Friday injury report: Ashton Jeanty full all week with no game designation; Jackson Powers-Johnson OUT; Brock Bowers limited Friday but carries no game designation.",
+    "Ravens official Friday report/team comments: Zay Flowers questionable after Friday limitation/rest context, but he had a full Thursday practice and reports the hamstring feels behind him."
+  ],
+  "sources": [
+    "https://www.newyorkjets.com/news/braelon-allen-prepared-to-play-in-breece-hall-absence-10-02-2026",
+    "https://www.covers.com/sport/football/nfl/players/297759/braelon-allen",
+    "https://www.covers.com/sport/football/nfl/players/220741/christian-watson",
+    "https://www.actionnetwork.com/nfl/player-props-for-nfl-week-4-ashton-jeanty-kaleb-johnson",
+    "https://www.raiders.com/news/las-vegas-raiders-kansas-city-chiefs-week-4-injury-report-2026-season-nfl",
+    "https://www.baltimoreravens.com/team/injury-report/"
+  ],
+  "notes": [
+    "No user bet placement inferred from the Braelon Allen SGP screenshot because placement was not confirmed.",
+    "No sportsbook line is treated as current solely because an older article still displays it.",
+    "No line/price was invented. Repository isolation preserved: NFL player props only."
+  ]
+}
