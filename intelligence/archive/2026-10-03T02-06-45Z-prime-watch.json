@@ -1,0 +1,72 @@
+{
+  "capturedAtUtc": "2026-10-03T02:06:45Z",
+  "capturedAtEt": "2026-10-02 22:06:45 ET",
+  "nflWeek": 4,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-10-02T09-16-01Z-prime-watch.json",
+  "materialMarketChange": false,
+  "userAlert": false,
+  "summary": "No new PRIME-qualified actionable NFL player prop requiring a user alert versus the recommendations already communicated earlier Friday. Official Friday news now durably confirms Breece Hall OUT and Braelon Allen in the lead-back setup, but that catalyst had already been incorporated into the existing Allen receiving/workload thesis. Allen rushing references published Friday afternoon remain around 56.5, but no sufficiently fresh named regulated-book late-night price was independently verified to create a new price-specific recommendation. Ashton Jeanty longest rush Under 12.5 -114 FanDuel and Kaleb Johnson longest rush Under 9.5 -110 bet365 remain the most recent independently sourced qualified plays already communicated; no new price improvement or adverse catalyst was found. Brock Bowers was limited Friday with a knee issue but carries no game designation, leaving the prior PASS/WATCH intact amid projection disagreement. Christian Watson anytime-TD +170 Fanatics was already communicated earlier Friday; no fresher better price was independently verified. Weather checks for NYJ@CHI, TB@GB and NE@BUF show no material prop repricing catalyst. No new Grok pass.",
+  "checks": [
+    {
+      "player": "Braelon Allen",
+      "propType": "RUSH_YARDS|RECEIVING_YARDS|RUSH_ATTEMPTS",
+      "status": "WATCH_EXISTING_THESIS",
+      "steamState": "NO_NEW_ACTION",
+      "reason": "Breece Hall OUT and Allen lead-back role are confirmed, but the role catalyst was already priced into prior PRIME recommendations. Late-night exact regulated-book price not freshly verified; do not invent or chase."
+    },
+    {
+      "player": "Ashton Jeanty",
+      "propType": "OTHER_LONGEST_RUSH",
+      "status": "BET_PREVIOUSLY_ALERTED",
+      "steamState": "STILL_PLAYABLE_IF_EXACT_PRICE_REMAINS",
+      "marketReference": "FanDuel Under 12.5 -114 from Action Network Friday 15:02 ET",
+      "reason": "No adverse Friday-night role/injury update found. Do not treat the afternoon quote as current without live-book verification."
+    },
+    {
+      "player": "Kaleb Johnson",
+      "propType": "OTHER_LONGEST_RUSH",
+      "status": "BET_PREVIOUSLY_ALERTED",
+      "steamState": "STILL_PLAYABLE_IF_EXACT_PRICE_REMAINS",
+      "marketReference": "bet365 Under 9.5 -110 from Action Network Friday 15:02 ET",
+      "reason": "Packers OL absences remain supportive; Tampa defensive absences are counterweights already incorporated. No new late-night catalyst or verified price improvement."
+    },
+    {
+      "player": "Brock Bowers",
+      "propType": "RECEIVING_YARDS",
+      "status": "PASS_WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Friday limited knee participation but no game designation. Role remains elite, yet projection disagreement and lack of a fresh executable line prevent a formal play."
+    },
+    {
+      "player": "Christian Watson",
+      "propType": "ANYTIME_TD",
+      "status": "BET_PREVIOUSLY_ALERTED",
+      "steamState": "PRICE_REQUIRED",
+      "marketReference": "Fanatics +170 from Friday public board/article",
+      "reason": "No later independently verified better price. TD variance requires strict price discipline; prior hard threshold remains controlling."
+    }
+  ],
+  "officialNews": [
+    "Jets: Breece Hall OUT for Sunday; Braelon Allen expected to lead the backfield with Isaiah Davis support.",
+    "Raiders: Brock Bowers limited Friday with knee issue but no game designation.",
+    "Packers/Buccaneers: Aaron Banks and Jacob Monk OUT for Green Bay; Tampa Bay ruled out Baker Mayfield, Rueben Bain Jr., Ko Kieft and Benjamin Morrison; several defenders questionable.",
+    "Patriots/Bills: Christian Barmore and Christian Gonzalez OUT for New England; Buffalo has additional defensive/injury uncertainty but no new player-prop edge met PRIME threshold."
+  ],
+  "weather": "No material weather-driven repricing signal identified for the principal games checked.",
+  "sources": [
+    "https://www.actionnetwork.com/nfl/player-props-for-nfl-week-4-ashton-jeanty-kaleb-johnson",
+    "https://www.newyorkjets.com/news/",
+    "https://www.raiders.com/news/las-vegas-raiders-kansas-city-chiefs-week-4-injury-report-2026-season-nfl",
+    "https://www.buccaneers.com/news/buccaneers-packers-injury-report-oct-2-week-4-2026",
+    "https://www.packers.com/news/",
+    "https://www.patriots.com/news/week-4-injury-report-bills-at-patriots",
+    "https://www.covers.com/"
+  ],
+  "notes": [
+    "No user bet placement inferred from the Braelon Allen SGP screenshot because placement was not confirmed.",
+    "No sportsbook line is treated as current merely because an afternoon article still displays it.",
+    "Repository isolation preserved: NFL player props only."
+  ]
+}
