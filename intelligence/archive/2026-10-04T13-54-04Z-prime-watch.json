@@ -1,0 +1,16 @@
+{
+  "capturedAtUtc": "2026-10-04T13:54:04Z",
+  "capturedAtEt": "2026-10-04 09:54:04 ET",
+  "nflWeek": 4,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-10-04T07-48-36Z-prime-watch.json",
+  "materialMarketChange": false,
+  "userAlert": false,
+  "summary": "Near-10 AM Sunday refresh completed. No material decision-state change from the prior archive and no new user-facing alert. Current public market checks did not produce a new qualifying entry. Early-window official inactives remain pending the 11:30 ET checkpoint.",
+  "notes": [
+    "No Week 4 user placement inferred.",
+    "No new Grok pass.",
+    "Repository isolation preserved: NFL player props only."
+  ]
+}
