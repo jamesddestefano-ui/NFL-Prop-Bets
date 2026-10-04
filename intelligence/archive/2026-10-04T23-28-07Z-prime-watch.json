@@ -1,0 +1,16 @@
+{
+  "capturedAtUtc": "2026-10-04T23:28:07Z",
+  "capturedAtEt": "2026-10-04 19:28:07 ET",
+  "nflWeek": 4,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-10-04T21-38-52Z-prime-watch.json",
+  "materialChange": true,
+  "userAlert": false,
+  "summary": "Official Carolina inactives confirm Jalen Coker is out. The existing Waller receiving-yards thesis remains a pass after market movement; McMillan receiving and Gibbs rushing also do not clear PRIME's price-adjusted threshold at current public markets. No new user action is warranted.",
+  "notes": [
+    "No user bet inferred.",
+    "Pass ledger was updated for Waller, McMillan, and Gibbs.",
+    "No new Grok pass."
+  ]
+}
