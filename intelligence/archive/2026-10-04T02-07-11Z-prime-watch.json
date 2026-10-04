@@ -1,0 +1,17 @@
+{
+  "capturedAtUtc": "2026-10-04T02:07:11Z",
+  "capturedAtEt": "2026-10-03 22:07:11 ET",
+  "nflWeek": 4,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-10-04T00-03-27Z-prime-watch.json",
+  "materialMarketChange": false,
+  "userAlert": false,
+  "summary": "Saturday-night refresh found no new material user-facing change from the most recently communicated Week 4 states. Greg Dulcich receiving-yards market remained at the previously communicated preferred bet365 threshold/price on the latest Covers board; no new verified price improvement or adverse move was found. Braelon Allen rushing volume was reviewed after Breece Hall was ruled out, but the currently located 56.5 pricing was analyst-reported rather than a freshly verified sportsbook board, so it remains WATCH rather than a new formal recommendation. Oronde Gadsden's low receiving-yard threshold was rejected as a projection-only candidate because Week 3 role metrics and the Seattle TE matchup materially conflict with the optimistic projection.",
+  "notes": [
+    "No user bet placement inferred.",
+    "No new Grok pass.",
+    "No official Sunday inactive list is available yet.",
+    "Repository isolation preserved: NFL player props only."
+  ]
+}
