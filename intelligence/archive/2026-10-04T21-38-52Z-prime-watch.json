@@ -1,0 +1,85 @@
+{
+  "capturedAtUtc": "2026-10-04T21:38:52Z",
+  "capturedAtEt": "2026-10-04 17:38:52 ET",
+  "nflWeek": 4,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-10-04T16-27-26Z-prime-watch.json",
+  "materialMarketChange": true,
+  "userAlert": false,
+  "slate": "SNF pre-inactives",
+  "summary": "SNF refresh: Darren Waller receiving-yards market has steamed from roughly 24 open / 26.5 earlier recommendation territory to 34.5 at DraftKings (-112 current public tracker), so the prior Over thesis is PASS_AFTER_MOVE rather than chase. Jahmyr Gibbs rushing sits 94.5 with current public price around -117 while FantasyPros consensus is 96.3 yards, an insufficient price-adjusted edge. Waller anytime TD remains a WATCH at best around +270, but the high-variance market does not clear PRIME's stronger TD threshold before official inactives. Jalen Coker is reportedly unlikely to play, Xavier Legette is on IR, and official SNF inactives are still pending.",
+  "candidates": [
+    {
+      "player": "Darren Waller",
+      "prop_type": "RECEIVING_YARDS",
+      "side": "OVER",
+      "market_line": 34.5,
+      "sportsbook": "DraftKings",
+      "odds": -112,
+      "opening_line": 24,
+      "line_at_first_detection": 26.5,
+      "status": "PASS",
+      "steam_state": "PASS_AFTER_MOVE",
+      "play_to_line": 30.5,
+      "max_acceptable_odds": -115,
+      "signals": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "TARGET_SHARE",
+        "MATCHUP",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "rationale": "Current market has moved 8+ yards beyond earlier actionable thresholds. FantasyPros projects 33.3 yards and Waller's recent role is only 55.6% route share / 13.1% target share. Even with Coker trending out and Detroit vulnerable to TEs, the old edge is not transferable to 34.5."
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "prop_type": "RUSH_YARDS",
+      "side": "OVER",
+      "market_line": 94.5,
+      "sportsbook": "current public market",
+      "odds": -117,
+      "opening_line": 97.5,
+      "status": "PASS",
+      "steam_state": "REDUCED_EDGE",
+      "play_to_line": null,
+      "max_acceptable_odds": null,
+      "signals": [
+        "RUSH_SHARE",
+        "MATCHUP",
+        "GAME_SCRIPT",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "rationale": "FantasyPros consensus is 96.3 rushing yards, only 1.8 above market. At -117 the raw projection gap does not support PRIME's preferred 4-5 percentage-point edge threshold."
+    },
+    {
+      "player": "Darren Waller",
+      "prop_type": "ANYTIME_TD",
+      "side": "YES",
+      "market_line": "YES",
+      "sportsbook": "best current public reference",
+      "odds": "+270",
+      "status": "WATCH",
+      "steam_state": "STILL_PLAYABLE",
+      "play_to_line": "YES",
+      "max_acceptable_odds": "+270",
+      "signals": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "RED_ZONE",
+        "MATCHUP",
+        "EXPERT_CONSENSUS"
+      ],
+      "rationale": "Current public references still show +250 to +270 and independent touchdown estimates near 27-31%, but Waller has only two red-zone targets through three games. High-variance TD pricing requires stronger confirmation; wait for official inactives and fresh executable price."
+    }
+  ],
+  "notes": [
+    "No new Grok pass; latest live completedAt remains 2026-09-12T17:05:00Z.",
+    "No user bet inferred from prior conversation; bet_history unchanged.",
+    "Late-afternoon games are already in progress; no pregame recommendations were created from live-game information.",
+    "Official SNF inactives expected later; next checkpoint should materially reprice Waller/McMillan/Young if Jalen Coker is confirmed out and re-check Detroit secondary availability.",
+    "Repository isolation preserved: NFL player props only."
+  ]
+}
