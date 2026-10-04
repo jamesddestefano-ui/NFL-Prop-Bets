@@ -1,0 +1,55 @@
+{
+  "capturedAtUtc": "2026-10-04T00:03:27Z",
+  "capturedAtEt": "2026-10-03 20:03:27 ET",
+  "nflWeek": 4,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-10-03T23-35-36Z-prime-watch.json",
+  "materialMarketChange": true,
+  "userAlert": true,
+  "summary": "Saturday evening reprice checkpoint: no new qualifying sportsbook bet verified, but three prior Week 4 candidate numbers have moved beyond PRIME play-to thresholds. Maye attempts market now 30.5 vs prior U31.5 recommendation; Allen receiving yards now 11.5 vs prior O8.5/O9.5 ceiling; Downs receptions now 7 and receiving yards 71.5 after Allen OUT. Rice moved to 55.5 consensus, exact maximum playable line, but no current regulated price independently verified.",
+  "decisions": [
+    {
+      "player": "Drake Maye",
+      "propType": "PASS_ATTEMPTS",
+      "prior": "UNDER 31.5 -115",
+      "currentConsensusLine": 30.5,
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "Do not transfer the prior Under edge across a one-attempt adverse move; current model separation at 30.5 is small."
+    },
+    {
+      "player": "Braelon Allen",
+      "propType": "RECEIVING_YARDS",
+      "prior": "OVER 8.5 -115; play-to OVER 9.5",
+      "currentConsensusLine": 11.5,
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "Current threshold is materially beyond the stored maximum playable line."
+    },
+    {
+      "player": "Josh Downs",
+      "propType": "RECEPTIONS",
+      "prior": "Conditional OVER 5.5 +115 if executable",
+      "currentConsensusLine": 7,
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "Keenan Allen OUT is now materially repriced; stale 5.5 should not be treated as current sportsbook truth."
+    },
+    {
+      "player": "Rashee Rice",
+      "propType": "RECEIVING_YARDS",
+      "prior": "OVER 54.5 -115; play-to OVER 55.5 through -115",
+      "currentConsensusLine": 55.5,
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Threshold is at the maximum playable line; requires a verified live regulated sportsbook price at -115 or better before any new bet."
+    }
+  ],
+  "notes": [
+    "No user bet placement inferred.",
+    "No new Grok pass.",
+    "Consensus-market sources are not treated as current sportsbook truth where book/price is unverifiable.",
+    "Repository isolation preserved: NFL player props only."
+  ]
+}
