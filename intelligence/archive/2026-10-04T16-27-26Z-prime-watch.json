@@ -1,0 +1,18 @@
+{
+  "capturedAtUtc": "2026-10-04T16:27:26Z",
+  "capturedAtEt": "2026-10-04 12:27:26 ET",
+  "nflWeek": 4,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-10-04T13-54-04Z-prime-watch.json",
+  "materialMarketChange": true,
+  "userAlert": true,
+  "summary": "Final early-window pregame review: Braelon Allen rushing yards improved to bet365 O51.5 -115 on Covers' 12:05 ET board, one yard better than the prior O52.5 -115 alert and below the broader 54.5-57.5 market range. Official NFL inactives confirm Breece Hall OUT and Allen active. Kincaid U4.5 is now FanDuel -148 on the 12:24 ET board and remains PASS_AFTER_MOVE.",
+  "notes": [
+    "Allen: BET_NOW 0.5u only if O51.5 -115 remains live; play-to O52.5 through -120.",
+    "Kincaid: PASS at U4.5 -148; original max acceptable price -122.",
+    "No Week 4 user placement inferred; bet_history unchanged.",
+    "No new Grok pass.",
+    "Repository isolation preserved: NFL player props only."
+  ]
+}
