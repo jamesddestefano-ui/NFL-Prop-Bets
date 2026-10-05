@@ -1,0 +1,78 @@
+{
+  "capturedAtUtc": "2026-10-05T09:06:48Z",
+  "capturedAtEt": "2026-10-05 05:06:48 ET",
+  "nflWeek": 4,
+  "priorRelevantArchive": "intelligence/archive/2026-10-05T08-36-49Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "slate": "MNF ATL@NO pre-dawn rebuild",
+  "summary": "No material user-facing change from the 04:36 ET checkpoint. Juwan Johnson remains WATCH / PRICE_VERIFY_REQUIRED rather than a new BET because the freshest named regulated-book quote found is a DraftKings O3.5 receptions -111 price published in a Yahoo/Action Network article overnight, while Covers' player page was refreshed at 04:27 ET but currently shows prediction-market probabilities rather than a named regulated sportsbook for receptions. PRIME will not promote a stale/secondary sportsbook quote to current executable truth. Covers' 04:27 ET refresh centers Juwan at 3.5 receptions and roughly 39.5-40.5 receiving yards; independent role evidence remains supportive, but price verification remains the gating condition. Drake London remains PASS_AFTER_MOVE around 78.5-79.5; Kyle Pitts remains PASS_AFTER_MOVE around 29.5 after older 27.5 support; Tyler Shough remains PASS / PRICE_VERIFY_REQUIRED around 254.5-259.5 because projections and price references remain dispersed. No alert.",
+  "officialFacts": [
+    "Saints final injury context remains: Kaden Elliss, Carl Granderson and Anfernee Jennings out; Pete Werner and Noah Fant questionable.",
+    "Falcons final injury context remains: Divine Deablo, Samson Ebukam and Yasir Abdullah questionable; no new official Monday-morning inactive list exists yet.",
+    "Game is indoors; weather is immaterial."
+  ],
+  "marketChecks": [
+    {
+      "player": "Juwan Johnson",
+      "propType": "RECEPTIONS",
+      "currentMarketContext": "Covers player page odds last updated 04:27 ET; consensus/prediction-market threshold remains 3.5 with Over indications around 52-54% and Under around 50-52%.",
+      "lastNamedRegulatedBookQuote": "DraftKings O3.5 -111 in overnight Yahoo/Action Network article; not treated as current executable at 05:06 ET without a fresher direct/aggregated named-book timestamp.",
+      "decision": "WATCH",
+      "steamState": "PRICE_VERIFY_REQUIRED",
+      "signals": [
+        "ROUTE_SHARE",
+        "TARGET_SHARE",
+        "FIRST_READ_SHARE",
+        "GAME_SCRIPT",
+        "PROJECTION_DISAGREEMENT",
+        "MARKET_MOVE"
+      ],
+      "rationale": "FantasyPros lists 13.6% target share, 1.73 YPRR and 17.2% first-read share; another current projection path estimates ~4.16 receptions. BettingPros cites four-plus catches in 9 of 11 Shough-led games and a pass-funnel matchup. Supportive football case, but no fresh named sportsbook price means no formal bet."
+    },
+    {
+      "player": "Juwan Johnson",
+      "propType": "RECEIVING_YARDS",
+      "currentMarketContext": "Covers 04:27 ET shows current prediction-market center near 39.5-40.5; StatMuse current crawl lists 40.5.",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "rationale": "Role remains supportive, but current threshold is materially higher than older 36.5-38.5 references and does not justify a new wager without a fresh named regulated-book price and recalculated edge."
+    },
+    {
+      "player": "Drake London",
+      "propType": "RECEIVING_YARDS",
+      "currentMarketContext": "Current public context remains around 78.5-79.5; opening context was ~72.5.",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE"
+    },
+    {
+      "player": "Kyle Pitts",
+      "propType": "RECEIVING_YARDS",
+      "currentMarketContext": "Action Network page shows current expert picks around 29.5; earlier support was at 27.5.",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE"
+    },
+    {
+      "player": "Tyler Shough",
+      "propType": "PASS_YARDS",
+      "currentMarketContext": "Current public references range from ~254.5 to 259.5; current Action expert pick is 254.5 -114 while other sources differ.",
+      "decision": "PASS",
+      "steamState": "PRICE_VERIFY_REQUIRED"
+    }
+  ],
+  "sources": [
+    "https://www.covers.com/sport/football/nfl/players/42000/juwan-johnson",
+    "https://sports.yahoo.com/nfl/betting/article/atlanta-falcons-at-new-orleans-saints-monday-night-football-betting-odds-picks-and-predictions-best-bets-player-props-030417874.html",
+    "https://www.bettingpros.com/articles/nfl-monday-night-football-betting-primer-falcons-vs-saints-picks/",
+    "https://www.fantasypros.com/nfl/notes/445189/juwan-johnson-2026-week-4-outlook.php",
+    "https://www.actionnetwork.com/nfl-game/atlanta-falcons-new-orleans-saints/290902",
+    "https://www.statmuse.com/nfl/game/10-5-2026-no-vs-atl-19128"
+  ],
+  "notes": [
+    "No user bet inferred; bet_history unchanged.",
+    "No canonical ledger write made because no candidate entered a new formal actionable state.",
+    "Repository isolation preserved; NFL player props only."
+  ]
+}
