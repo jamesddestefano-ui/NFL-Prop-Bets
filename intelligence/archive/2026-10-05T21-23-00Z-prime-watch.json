@@ -1,0 +1,13 @@
+{
+  "capturedAtUtc": "2026-10-05T21:23:00Z",
+  "capturedAtEt": "2026-10-05 17:23:00 ET",
+  "nflWeek": 4,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "slate": "MNF ATL@NO pre-inactives",
+  "summary": "No new actionable player prop. Juwan Johnson receptions remains PASS_AFTER_MOVE; Drake London receiving yards remains PASS_AFTER_MOVE; Kyle Pitts receiving yards and Chris Olave receiving yards remain WATCH/REDUCED_EDGE; Alvin Kamara rushing under remains PASS because independent projections disagree. Official inactives are still pending.",
+  "nextCheckpoint": "Official MNF inactives and reprice before kickoff.",
+  "notes": ["No user bet inferred; bet_history unchanged.", "Repository isolation preserved; NFL player props only."]
+}
