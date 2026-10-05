@@ -1,0 +1,46 @@
+{
+  "capturedAtUtc": "2026-10-05T23:53:25Z",
+  "capturedAtEt": "2026-10-05 19:53:25 ET",
+  "nflWeek": 4,
+  "priorRelevantArchive": "intelligence/archive/2026-10-05T23-20-55Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "slate": "MNF ATL@NO final pre-kickoff",
+  "summary": "Final pre-kickoff refresh found no PRIME-qualified wager. Noah Fant remains officially inactive. Fresh current-market research shows Juwan Johnson receiving yards at 43.5 -115 on bet365 with other books higher; the current Covers projection is essentially at that threshold, so no 4-5 point probability edge is established. Juwan receptions is 3.5 at heavy juice or 4.5 at plus money, neither of which qualifies under the prior conservative distribution. Tyler Shough over 16.5 rushing yards at standard juice remains WATCH/REDUCED_EDGE under the tightened QB-rushing calibration. Kamara rushing/receiving markets remain projection-and-role disagreement passes. No new Grok pass.",
+  "classifications": [
+    {
+      "player": "Juwan Johnson",
+      "propType": "RECEIVING_YARDS",
+      "decision": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Fant OUT supports opportunity, but the market repriced and current projection is essentially at the best verified threshold."
+    },
+    {
+      "player": "Juwan Johnson",
+      "propType": "RECEPTIONS",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "The prior 3.5 thesis no longer clears the price ceiling; 4.5 is a different threshold and does not inherit the earlier edge."
+    },
+    {
+      "player": "Tyler Shough",
+      "propType": "RUSH_YARDS",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Supportive projections exist, but QB rushing is volatile and prior weekly calibration requires stronger role evidence before promotion."
+    },
+    {
+      "player": "Alvin Kamara",
+      "propType": "RUSH_YARDS/RECEIVING_YARDS",
+      "decision": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Role uncertainty and projection disagreement prevent a robust edge at the current thresholds."
+    }
+  ],
+  "notes": [
+    "No user bet inferred; bet_history unchanged.",
+    "Repository isolation preserved; NFL player props only."
+  ]
+}
