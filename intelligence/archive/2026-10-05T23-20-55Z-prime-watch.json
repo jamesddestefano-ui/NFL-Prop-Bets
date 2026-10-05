@@ -1,0 +1,17 @@
+{
+  "capturedAtUtc": "2026-10-05T23:20:55Z",
+  "capturedAtEt": "2026-10-05 19:20:55 ET",
+  "nflWeek": 4,
+  "priorRelevantArchive": "intelligence/archive/2026-10-05T22-44-55Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "slate": "MNF ATL@NO post-inactives",
+  "summary": "No new actionable player prop. New Orleans officially ruled Noah Fant inactive. Atlanta officially confirmed Divine Deablo and Samson Ebukam active. Juwan Johnson receiving-yards public threshold is now 45.5 on the current DraftKings Network splits page, but exact post-inactive odds are not displayed; earlier 44.5 -115 public pricing predates the inactive announcement. Covers projects 43.94 receiving yards. Preserve PASS_AFTER_MOVE/no-chase pending an exact current price. No new Grok pass.",
+  "nextCheckpoint": "Final pre-kickoff exact-price verification.",
+  "notes": [
+    "No user bet inferred; bet_history unchanged.",
+    "Repository isolation preserved; NFL player props only."
+  ]
+}
