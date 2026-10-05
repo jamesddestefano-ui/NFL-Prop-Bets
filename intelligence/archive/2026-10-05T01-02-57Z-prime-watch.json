@@ -1,0 +1,88 @@
+{
+  "capturedAtUtc": "2026-10-05T01:02:57Z",
+  "capturedAtEt": "2026-10-04 21:02:57 ET",
+  "nflWeek": 4,
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "priorRelevantArchive": "intelligence/archive/2026-10-04T23-28-07Z-prime-watch.json",
+  "materialChange": false,
+  "userAlert": false,
+  "slate": "SNF live / MNF early pregame",
+  "summary": "No material user-facing change. SNF is already in progress, so PRIME does not create new pregame recommendations from live game state; the prior Waller, McMillan and Gibbs pass decisions remain controlling. The initial MNF ATL@NO rebuild also produces no current price-adjusted bet: Drake London receiving has moved from an opener around 72.5 to roughly 78.5-79.5 while independent central projections are only modestly above the current number; Bijan Robinson rushing around 85.5 is essentially aligned with FantasyPros' 86.8-yard projection despite New Orleans front-seven absences; Michael Penix Jr. around 224.5 passing lacks sufficiently robust independent separation; Juwan Johnson around 40.5 receiving has stronger role/projection support but the exact current regulated-book price is not sufficiently fresh/verified and Noah Fant remains questionable. No alert.",
+  "candidates": [
+    {
+      "player": "Drake London",
+      "game": "ATL@NO",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "currentPublicLineRange": "78.5-79.5",
+      "openingLine": 72.5,
+      "projectionContext": "FantasyPros 81.4; Covers approximately 84.9-86",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "signals": [
+        "MARKET_MOVE",
+        "TARGET_SHARE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "rationale": "The market has already moved materially from the opener and the remaining projection gap is not robust enough to clear PRIME's price-adjusted edge threshold. Do not chase."
+    },
+    {
+      "player": "Bijan Robinson",
+      "game": "ATL@NO",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "currentPublicLine": 85.5,
+      "projectionContext": "FantasyPros 86.8",
+      "decision": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "signals": [
+        "RUSH_SHARE",
+        "DEFENSIVE_INJURY",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "rationale": "Central projection is essentially market-aligned. Saints front-seven injuries are a matchup input, not sufficient on their own to create a wager."
+    },
+    {
+      "player": "Michael Penix Jr.",
+      "game": "ATL@NO",
+      "propType": "PASS_YARDS",
+      "side": "OVER",
+      "currentPublicLine": 224.5,
+      "decision": "PASS",
+      "signals": [
+        "PACE",
+        "GAME_SCRIPT",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "rationale": "No sufficiently robust current probability edge is verified at the available public number."
+    },
+    {
+      "player": "Juwan Johnson",
+      "game": "ATL@NO",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "currentPublicLine": 40.5,
+      "projectionContext": "FantasyPros 48.2; recent usage context includes six red-zone targets and 17.2% first-read share",
+      "decision": "WATCH",
+      "steamState": "PRICE_VERIFY_REQUIRED",
+      "signals": [
+        "TARGET_SHARE",
+        "RED_ZONE",
+        "INJURY",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "dependencies": [
+        "Noah Fant questionable"
+      ],
+      "priceVerificationRequired": true,
+      "rationale": "Role and projection support are interesting, but PRIME will not convert a public aggregate into a bet without a fresh sportsbook-specific executable price and final injury context."
+    }
+  ],
+  "notes": [
+    "No user bet inferred; bet_history unchanged.",
+    "No new Grok pass.",
+    "No live-game prop recommendation created from SNF game state.",
+    "Repository isolation preserved: NFL player props only."
+  ]
+}
