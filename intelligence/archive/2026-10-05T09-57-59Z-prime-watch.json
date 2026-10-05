@@ -1,0 +1,80 @@
+{
+  "capturedAtUtc": "2026-10-05T09:57:59Z",
+  "capturedAtEt": "2026-10-05 05:57:59 ET",
+  "nflWeek": 4,
+  "priorRelevantArchive": "intelligence/archive/2026-10-05T09-06-48Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "slate": "MNF ATL@NO pre-dawn rebuild",
+  "summary": "No new actionable prop and no material user-facing change. Fresh multi-book line data now verifies Juwan Johnson receptions at 3.5 with FanDuel O3.5 -114/U3.5 -114, DraftKings O3.5 -127/U3.5 -101, BetRivers O3.5 -130, and other shops worse. This confirms the previously communicated PASS_AFTER_MOVE state: the best verified regulated-book Over price is beyond PRIME's stored -112 ceiling and yields only ~3.7 percentage points of raw edge if the conservative 57% fair estimate is retained. Do not chase. Juwan receiving yards remain REDUCED_EDGE around 39.5-42.5 depending book; Drake London remains PASS_AFTER_MOVE around 75.5-78.5; Tyler Shough passing yards remains price/projection-disagreement territory around 254.5. No new Grok pass.",
+  "officialFacts": [
+    "Saints final injury context unchanged: Kaden Elliss, Carl Granderson and Anfernee Jennings out; Pete Werner and Noah Fant questionable.",
+    "Falcons final injury context unchanged; no Monday inactive list yet.",
+    "Game is indoors; weather immaterial."
+  ],
+  "marketChecks": [
+    {
+      "player": "Juwan Johnson",
+      "propType": "RECEPTIONS",
+      "sportsbook": "FanDuel via Edge Labs",
+      "line": 3.5,
+      "overOdds": -114,
+      "underOdds": -114,
+      "consensusLine": 3.5,
+      "impliedProbabilityOver": 53.27,
+      "noVigProbabilityOver": 50,
+      "internalFairProbabilityOver": 57,
+      "estimatedEdgePct": 3.73,
+      "edgeBucket": "2-4%",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "playToLine": 3.5,
+      "maxAcceptableOdds": -112,
+      "entryTiming": "EARLY_MONDAY",
+      "signals": [
+        "ROUTE_SHARE",
+        "TARGET_SHARE",
+        "FIRST_READ_SHARE",
+        "GAME_SCRIPT",
+        "PROJECTION_DISAGREEMENT",
+        "MARKET_MOVE"
+      ],
+      "rationale": "Role thesis remains supportive, but price is part of the bet. Best verified regulated-book Over is -114, beyond the stored -112 ceiling and below PRIME's normal 4-5 point edge threshold at the retained 57% fair estimate."
+    },
+    {
+      "player": "Juwan Johnson",
+      "propType": "RECEIVING_YARDS",
+      "currentMarketContext": "FanDuel 40.5 -113, BetMGM 39.5 -115, DraftKings 42.5 -110 on current multi-book tracker",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE"
+    },
+    {
+      "player": "Drake London",
+      "propType": "RECEIVING_YARDS",
+      "currentMarketContext": "Current multi-book range roughly 75.5-78.5; opener ~67.5",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE"
+    },
+    {
+      "player": "Tyler Shough",
+      "propType": "PASS_YARDS",
+      "currentMarketContext": "StatMuse current line 254.5 O -113/U +106; projections remain dispersed",
+      "decision": "PASS",
+      "steamState": "PRICE_VERIFY_REQUIRED"
+    }
+  ],
+  "sources": [
+    "https://edgelabs.bet/nfl/props?market=player_receptions",
+    "https://edgelabs.bet/nfl/props",
+    "https://www.statmuse.com/nfl/game/10-5-2026-no-vs-atl-19128",
+    "https://www.neworleanssaints.com/news/injury-report-atlanta-falcons-vs-new-orleans-saints-2026-nfl-week-4-saturday",
+    "https://www.bettingpros.com/articles/nfl-monday-night-football-betting-primer-falcons-vs-saints-picks/"
+  ],
+  "notes": [
+    "No user bet inferred; bet_history unchanged.",
+    "Repository isolation preserved; NFL player props only.",
+    "No user-facing alert because this confirms an already-communicated no-chase state rather than creating a new actionable opportunity."
+  ]
+}
