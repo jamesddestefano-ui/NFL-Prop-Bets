@@ -1,0 +1,29 @@
+{
+  "capturedAtUtc": "2026-10-05T08:36:49Z",
+  "capturedAtEt": "2026-10-05 04:36:49 ET",
+  "nflWeek": 4,
+  "priorRelevantArchive": "intelligence/archive/2026-10-05T01-02-57Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "slate": "MNF ATL@NO overnight rebuild",
+  "summary": "No material user-facing change. Fresh Monday-night research did not produce a newly verified price-adjusted PRIME entry. Juwan Johnson remains WATCH pending a named regulated-book price and Noah Fant's final status. Drake London remains PASS after the move to the 78.5 area because independent projections disagree. Kyle Pitts is PASS_AFTER_MOVE after public context moved from 27.5 to 29.5. Tyler Shough remains PASS/PRICE_VERIFY_REQUIRED at 254.5 because independent evidence is mixed and public sportsbook attribution is inconsistent. No old or unnamed quote was promoted to executable truth.",
+  "officialFacts": [
+    "New Orleans: Kaden Elliss, Carl Granderson and Anfernee Jennings are out; Pete Werner and Noah Fant are questionable.",
+    "Atlanta: Divine Deablo, Samson Ebukam and Yasir Abdullah are questionable; no Falcon is listed out.",
+    "The game is indoors."
+  ],
+  "decisions": [
+    {"player":"Juwan Johnson","propType":"RECEPTIONS","decision":"WATCH","steamState":"PRICE_VERIFY_REQUIRED"},
+    {"player":"Juwan Johnson","propType":"RECEIVING_YARDS","decision":"WATCH","steamState":"PRICE_VERIFY_REQUIRED"},
+    {"player":"Drake London","propType":"RECEIVING_YARDS","decision":"PASS","steamState":"PASS_AFTER_MOVE"},
+    {"player":"Kyle Pitts","propType":"RECEIVING_YARDS","decision":"PASS","steamState":"PASS_AFTER_MOVE"},
+    {"player":"Tyler Shough","propType":"PASS_YARDS","decision":"PASS","steamState":"PRICE_VERIFY_REQUIRED"}
+  ],
+  "notes": [
+    "No user bet inferred; bet_history unchanged.",
+    "No canonical ledger write was made because no candidate reached a new formal actionable state.",
+    "Repository isolation preserved."
+  ]
+}
