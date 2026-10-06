@@ -1,0 +1,114 @@
+{
+  "capturedAtUtc": "2026-10-06T16:46:09Z",
+  "capturedAtEt": "2026-10-06 12:46:09 ET",
+  "nflWeek": 5,
+  "priorRelevantArchive": "intelligence/archive/2026-10-06T15-19-24Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "slate": "TNF TB@DAL early-week checkpoint",
+  "sourceRefresh": {
+    "official": [
+      "Tampa Bay official Oct. 5 injury report remains the latest verified team report at this checkpoint; no new Tuesday practice report located.",
+      "Dallas official updates remain consistent with CeeDee Lamb full on Monday, Tyler Smith limited/return window opened, and Tampa Bay Antoine Winfield Jr. out."
+    ],
+    "market": [
+      "Cade Otton receptions/receiving-yards Covers board still carries the same 11:15 ET update as the prior checkpoint: best O3.5 receptions +115 BetMGM; FanDuel O27.5 receiving yards -114.",
+      "CeeDee Lamb receptions board remains unchanged from the prior checkpoint: O6.5 +125 BetRivers best verified, with bet365 O6.5 +115/U6.5 -145 reference.",
+      "MoneyLine current passing-yard board remains Jalon Daniels O178.5 -114 at BetOnline, consistent with the prior 178.5 consensus."
+    ],
+    "analyst": [
+      "A new Oct. 6 Sports Gambling Podcast Network article lists Jalon Daniels O174.5 passing, O43.5 rushing, Ted Hurst O22.5 receiving, Chris Godwin O3.5 receptions +135, Cade Otton O27.5 receiving, Chris Godwin O27.5 receiving, Javonte Williams longest rush U15.5, and Dak Prescott interception +110.",
+      "Those article prices are not promoted to sportsbook truth. Jalon 174.5 is already stale versus the independently verified 178.5 market; Godwin +135 lacks a sufficiently fresh independent sportsbook confirmation; Hurst's case conflicts with current role data showing reduced playing time."
+    ]
+  },
+  "evaluations": [
+    {
+      "player": "Cade Otton",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "line": 27.5,
+      "bestPrice": "-114 FanDuel",
+      "status": "WATCH",
+      "steamState": "STILL_PLAYABLE",
+      "reason": "Standing thesis unchanged; same verified price as prior checkpoint, so no new alert or add."
+    },
+    {
+      "player": "Cade Otton",
+      "market": "Receptions",
+      "side": "OVER",
+      "line": 3.5,
+      "bestPrice": "+115 BetMGM",
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "Still below the previously established +120 minimum."
+    },
+    {
+      "player": "CeeDee Lamb",
+      "market": "Receptions",
+      "side": "OVER",
+      "line": 6.5,
+      "bestPrice": "+125 BetRivers",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Price and no-vig context are unchanged; no new probability evidence creates the required 4-5 percentage-point edge."
+    },
+    {
+      "player": "Jalon Daniels",
+      "market": "Passing Yards",
+      "side": "OVER",
+      "line": 178.5,
+      "bestPrice": "-114 BetOnline via current MoneyLine board",
+      "status": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Current market remains above the new analyst article's 174.5 quote, confirming that article number is stale; one-start sample and large model disagreement remain."
+    },
+    {
+      "player": "Jalon Daniels",
+      "market": "Rushing Yards",
+      "side": "OVER",
+      "line": "43.5-44.5",
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "No new role information justifies chasing the move from the 40.5 opener."
+    },
+    {
+      "player": "Ted Hurst",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "line": 22.5,
+      "status": "PASS",
+      "steamState": "PRICE_VERIFY_REQUIRED",
+      "reason": "Analyst pick is not independently current-priced, and usage data indicates playing time has declined, including a material snap-share drop from Week 1."
+    },
+    {
+      "player": "Chris Godwin",
+      "market": "Receptions",
+      "side": "OVER",
+      "line": 3.5,
+      "quotedPrice": "+135 analyst article",
+      "status": "WATCH",
+      "steamState": "PRICE_VERIFY_REQUIRED",
+      "reason": "Recent target-share trend is supportive, but the quoted price is not independently verified fresh enough to become a PRIME bet."
+    },
+    {
+      "player": "Bucky Irving",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "line": "13.5-14.5",
+      "status": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "reason": "No new information resolves the three-back usage conflict; recent role data and Bowles comments still argue against forcing an Over."
+    }
+  ],
+  "decision": "NO_ALERT",
+  "reason": "No material change since the 11:19 ET checkpoint and no newly verified straight player prop clears PRIME's price-adjusted edge threshold. New analyst picks either use stale/unverified prices or conflict with current role evidence.",
+  "grokNote": "No new live Grok pass; completedAt remains 2026-09-12T17:05:00Z.",
+  "durableActions": [
+    "Preserved immutable Week 5 TNF checkpoint.",
+    "No bet_history mutation because no user wager is recorded.",
+    "No CSV decision-state mutation because the verified primary market states are unchanged from the immediately prior checkpoint; new analyst-only candidates remain price-unverified/pass-watch items.",
+    "Repository isolation preserved; NFL player props only."
+  ]
+}
