@@ -1,0 +1,143 @@
+{
+  "capturedAtUtc": "2026-10-06T18:12:30Z",
+  "capturedAtEt": "2026-10-06 14:12:30 ET",
+  "nflWeek": 5,
+  "priorRelevantArchive": "intelligence/archive/2026-10-06T16-46-09Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "slate": "TNF TB@DAL early-week checkpoint",
+  "verifiedFacts": {
+    "quarterback": "Tampa Bay has confirmed Jalon Daniels remains the Week 5 starter while Baker Mayfield is out.",
+    "godwinWeek4Usage": "Chris Godwin played 90% of snaps, ran a route on 83% of dropbacks, and drew 7 targets (27% Week 4 target share) for 6 catches and 31 yards in Daniels' first start.",
+    "godwinSeasonUsage": "Through Week 4 Godwin has 18 targets, 16 catches, 142 yards; season target share about 14.9-15.6%, snap share about 80.8%, aDOT 3.8. Catch rate 88.9% is treated as regression-prone.",
+    "dallasDefense": "Dallas reports Cobie Durant and DeMarvion Overshown remain absent/likely out; Joey Porter Jr. is active and Tyler Smith's return window is open.",
+    "injuryReport": "No newer official Tuesday practice report was located at this checkpoint; Monday official report remains controlling."
+  },
+  "marketSnapshots": [
+    {
+      "player": "Chris Godwin",
+      "propType": "RECEPTIONS",
+      "source": "Covers sportsbook board",
+      "sourceUpdatedEt": "2026-10-06 13:40 ET",
+      "sportsbook": "BetRivers",
+      "line": 3.5,
+      "side": "OVER",
+      "odds": "+120",
+      "pairedSameBookReference": "bet365 O3.5 +100 / U3.5 -130",
+      "sameBookNoVigOverProbabilityPct": 46.94,
+      "rawBreakEvenPct": 45.45,
+      "consensusLine": 3.5
+    },
+    {
+      "player": "Chris Godwin",
+      "propType": "RECEIVING_YARDS",
+      "source": "Covers sportsbook board",
+      "sourceUpdatedEt": "2026-10-06 13:40 ET",
+      "bestOver": "FanDuel O27.5 -114",
+      "note": "Separate same-thesis yardage market; do not stack automatically."
+    }
+  ],
+  "projections": [
+    "CBS Week 5 projection: 4.5 receptions, 49.5 receiving yards.",
+    "Fantasy Society Week 5 scoring projections imply approximately 4.4 receptions (PPR 9.9 vs standard 5.5) and rate Dallas as a favorable WR matchup.",
+    "PRIME does not use either point projection alone; they are blended with role evidence and the no-vig market."
+  ],
+  "evaluations": [
+    {
+      "player": "Chris Godwin",
+      "team": "TB",
+      "opponent": "DAL",
+      "market": "Receptions",
+      "standardizedPropType": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "BetRivers",
+      "line": 3.5,
+      "odds": "+120",
+      "bestMarketLine": "O3.5 +120 BetRivers",
+      "consensusLine": 3.5,
+      "internalMeanProjection": 4.2,
+      "internalMedianProjection": 4,
+      "marketImpliedProbabilityPct": 45.45,
+      "noVigMarketProbabilityPct": 46.94,
+      "internalFairProbabilityPct": 52,
+      "fairOdds": "-108",
+      "estimatedEdgePct": 6.55,
+      "edgeBucket": "6-8%",
+      "confidence": "B-",
+      "status": "BET",
+      "steamState": "BET_NOW",
+      "entryTiming": "EARLY_WEEK",
+      "stakeUnits": 0.25,
+      "playToLine": 3.5,
+      "maxAcceptablePrice": "+115 or better",
+      "signalTags": [
+        "ROLE_CHANGE",
+        "SNAP_SHARE",
+        "ROUTE_SHARE",
+        "TARGET_SHARE",
+        "GAME_SCRIPT",
+        "MATCHUP",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT",
+        "EXPERT_CONSENSUS"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "rationale": "The +120 price is now freshly sportsbook-verified after the prior checkpoint had only an analyst +135 quote. Godwin's Week 4 role jumped to 90% snaps/83% routes and 7 targets in Daniels' first start; two independent Week 5 projections land near 4.4-4.5 catches. PRIME heavily shrinks those inputs toward the same-line no-vig market (~46.9%) because Daniels has one NFL start and Godwin's 88.9% catch rate is unsustainable, yielding a conservative 52% fair probability. At +120, break-even is 45.45%, leaving ~6.55 percentage points of edge.",
+      "dependencies": "Recheck if Tuesday/Wednesday injury news materially changes Godwin availability, Tampa receiving competition, Dallas secondary, or if the price moves below +115.",
+      "exposureRule": "Do not stack with Cade Otton/Godwin receiving-yard overs solely from the same short-area rookie-QB/trailing-script thesis."
+    },
+    {
+      "player": "Cade Otton",
+      "market": "Receptions",
+      "line": 3.5,
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "Latest verified +115 remains below prior +120 minimum; no chase."
+    },
+    {
+      "player": "Cade Otton",
+      "market": "Receiving Yards",
+      "line": 27.5,
+      "odds": "-114 FanDuel",
+      "status": "WATCH",
+      "steamState": "STILL_PLAYABLE",
+      "reason": "Standing market state unchanged; no new add generated."
+    },
+    {
+      "player": "CeeDee Lamb",
+      "market": "Receptions",
+      "line": 6.5,
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "No new independent edge evidence; prior +125 best price has not improved."
+    },
+    {
+      "player": "Jalon Daniels",
+      "market": "Passing/Rushing",
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE/REDUCED_EDGE",
+      "reason": "One-start sample and wide model disagreement remain; no chase."
+    }
+  ],
+  "decision": "ALERT_GODWIN_RECEPTIONS",
+  "grokNote": "No new live Grok pass; completedAt remains 2026-09-12T17:05:00Z.",
+  "durableActions": [
+    "Create immutable Week 5 checkpoint.",
+    "Record fresh Godwin receptions market snapshot and BET decision if repository mutation safety allows.",
+    "Do not touch bet_history because no user ticket is confirmed.",
+    "Preserve repository isolation; NFL player props only."
+  ],
+  "sources": [
+    "https://www.covers.com/sport/football/nfl/players/30661/chris-godwin-jr",
+    "https://www.rotowire.com/football/article/nfl-box-score-breakdown-week-4-recap-usage-stats-139055",
+    "https://www.cbssports.com/fantasy/football/stats/WR/2026/tp/projections/ppr/",
+    "https://thefantasysociety.com/nfl/start-sit/chris-godwin-jr-vs-kayshon-boutte",
+    "https://www.buccaneers.com/news/next-game-tampa-bay-buccaneers-vs-dallas-cowboys-nfl-season-week-5-2026",
+    "https://www.buccaneers.com/news/buccaneers-cowboys-injury-report-oct-5-week-5-2026",
+    "https://www.dallascowboys.com/news/updates-october-2026"
+  ]
+}
