@@ -1,0 +1,167 @@
+{
+  "capturedAtUtc": "2026-10-06T15:19:24Z",
+  "capturedAtEt": "2026-10-06 11:19:24 ET",
+  "nflWeek": 5,
+  "priorRelevantArchive": "intelligence/archive/2026-10-06T02-31-23Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "slate": "TNF TB@DAL early-week checkpoint",
+  "verifiedFacts": {
+    "officialInjuryReport": {
+      "source": "Tampa Bay Buccaneers official Oct. 5 injury report",
+      "sourceUrl": "https://www.buccaneers.com/news/buccaneers-cowboys-injury-report-oct-5-week-5-2026",
+      "notes": [
+        "Tampa Bay: Antoine Winfield Jr. rib DNP, Baker Mayfield right thumb DNP, Benjamin Morrison quad DNP, SirVocea Dennis ankle/foot DNP; Ko Kieft and Josiah Trotter limited.",
+        "Dallas: CeeDee Lamb thigh full participant; Cobie Durant, DeMarvion Overshown and Drew Shelton DNP; Tyler Smith thumb limited."
+      ]
+    },
+    "buccaneersBackfield": {
+      "source": "Buccaneers official Todd Bowles comments Oct. 5",
+      "sourceUrl": "https://www.buccaneers.com/news/todd-bowles-bucs-need-to-split-backfield-reps-three-ways",
+      "note": "Bowles said Tampa Bay needs to find a way to split work among Bucky Irving, Kenny Gainwell and Sean Tucker, with hot-hand flexibility."
+    },
+    "quarterback": {
+      "note": "Jalon Daniels remains the announced Thursday starter after going 19-of-27 for 148 passing yards, 1 TD, 2 INT and 55 rushing yards in his first NFL start."
+    }
+  },
+  "marketSnapshots": [
+    {
+      "player": "CeeDee Lamb",
+      "propType": "RECEPTIONS",
+      "source": "Covers",
+      "sourceUrl": "https://www.covers.com/sport/football/nfl/players/40978/ceedee-lamb",
+      "sourceUpdatedEt": "2026-10-06 10:11 ET",
+      "openingLine": 5.5,
+      "consensusLine": 6.5,
+      "bestOver": "BetRivers O6.5 +125",
+      "pairedReference": "bet365 O6.5 +115 / U6.5 -145",
+      "note": "The line has moved one full reception from the opener. The same-book bet365 pair implies about 44% no-vig Over probability, close to the +125 best-price break-even of 44.44%, so line-shopping alone does not establish a PRIME edge."
+    },
+    {
+      "player": "Cade Otton",
+      "propType": "RECEPTIONS",
+      "source": "Covers",
+      "sourceUrl": "https://www.covers.com/sport/football/nfl/players/47167/cade-otton",
+      "sourceUpdatedEt": "2026-10-06 11:15 ET",
+      "consensusLine": 3.5,
+      "bestOver": "BetMGM O3.5 +115",
+      "priorPrimeMinimum": "+120",
+      "note": "Current best verified price is below the previously communicated PRIME minimum."
+    },
+    {
+      "player": "Cade Otton",
+      "propType": "RECEIVING_YARDS",
+      "source": "Covers",
+      "sourceUrl": "https://www.covers.com/sport/football/nfl/players/47167/cade-otton",
+      "sourceUpdatedEt": "2026-10-06 11:15 ET",
+      "bestOver": "FanDuel O27.5 -114",
+      "consensusRange": "27.5-31.5",
+      "note": "No material move from the previously identified yardage entry; no new add generated."
+    },
+    {
+      "player": "Bucky Irving",
+      "propType": "RUSH_ATTEMPTS",
+      "source": "Covers",
+      "sourceUrl": "https://www.covers.com/sport/football/nfl/players/296649/bucky-irving",
+      "sourceUpdatedEt": "2026-10-06 11:14 ET",
+      "openingLine": 14.5,
+      "currentExamples": [
+        "DraftKings O13.5 -125",
+        "FanDuel O14.5 -102",
+        "BetRivers O14.5 +112",
+        "theScore O14.5 +115"
+      ],
+      "note": "Market is split between 13.5 and 14.5 while Tampa Bay has publicly discussed expanding the three-back rotation."
+    },
+    {
+      "player": "Jalon Daniels",
+      "propType": "PASSING_YARDS",
+      "source": "current public prop aggregators",
+      "consensusLine": 178.5,
+      "projectionDisagreement": [
+        "SportsLine 234 yards",
+        "CBS 233 yards",
+        "FantasyPros public projection page 140.1 yards"
+      ],
+      "note": "One-start NFL sample plus unusually wide model disagreement prevents a projection-only Over."
+    },
+    {
+      "player": "Jalon Daniels",
+      "propType": "RUSHING_YARDS",
+      "source": "Edge Labs / MoneyLine current public boards",
+      "consensusLine": "43.5-44.5",
+      "openingLine": 40.5,
+      "note": "Market has already moved roughly 3-4 yards after his 55-yard starting debut; PRIME will not chase the steam."
+    }
+  ],
+  "evaluations": [
+    {
+      "player": "CeeDee Lamb",
+      "market": "Receptions",
+      "side": "OVER",
+      "line": 6.5,
+      "bestPrice": "+125 BetRivers",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Fresh +125 is now verified, but the consensus/no-vig market prices 7+ catches around 44-45%. Elite usage is offset by regression from an 80.4% catch rate and the 21-target Week 4 spike plus favorite-game-script risk. No independent probability case clears PRIME's required edge."
+    },
+    {
+      "player": "Cade Otton",
+      "market": "Receptions",
+      "side": "OVER",
+      "line": 3.5,
+      "bestPrice": "+115 BetMGM",
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "Below the previously established +120 minimum; do not chase."
+    },
+    {
+      "player": "Cade Otton",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "line": 27.5,
+      "bestPrice": "-114 FanDuel",
+      "status": "WATCH",
+      "steamState": "STILL_PLAYABLE",
+      "reason": "Price/line unchanged from prior identified entry; no new user action generated at this checkpoint."
+    },
+    {
+      "player": "Bucky Irving",
+      "market": "Rushing Attempts",
+      "side": "OVER",
+      "line": "13.5-14.5",
+      "status": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Role/market/projection disagreement is material: recent 15-17 carry games and some projections remain bullish, but Bowles explicitly wants more three-back sharing and the market has moved down from 14.5."
+    },
+    {
+      "player": "Jalon Daniels",
+      "market": "Passing Yards",
+      "side": "OVER",
+      "line": 178.5,
+      "status": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "reason": "SportsLine/CBS project 233-234, but FantasyPros public projection is materially lower and the rookie has one NFL start with 148 yards; do not wager from the projection gap alone."
+    },
+    {
+      "player": "Jalon Daniels",
+      "market": "Rushing Yards",
+      "side": "OVER",
+      "line": "43.5-44.5",
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "The line has risen from about 40.5 after his 55-yard debut. Preserve the no-chase discipline while role distribution remains one-start data."
+    }
+  ],
+  "decision": "NO_ALERT",
+  "reason": "No newly verified straight player prop clears PRIME's price-adjusted edge threshold after role, projection and market-disagreement checks. Existing Otton yardage thesis is unchanged, Otton receptions is below its price floor, CeeDee +125 is fairly aligned with the no-vig market, and Daniels/Irving candidates remain projection-or-role disagreement passes.",
+  "grokNote": "No new live Grok pass; completedAt is unchanged at 2026-09-12T17:05:00Z.",
+  "durableActions": [
+    "Preserved immutable Week 5 TNF checkpoint.",
+    "No bet_history mutation because no user wager is recorded.",
+    "No parlay recommendation generated.",
+    "Repository isolation preserved; NFL player props only."
+  ]
+}
