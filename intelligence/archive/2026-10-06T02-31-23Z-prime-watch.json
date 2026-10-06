@@ -1,0 +1,58 @@
+{
+  "capturedAtUtc": "2026-10-06T02:31:23Z",
+  "capturedAtEt": "2026-10-05 22:31:23 ET",
+  "nflWeek": 4,
+  "priorRelevantArchive": "intelligence/archive/2026-10-05T23-53-25Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "slate": "MNF ATL@NO in-game checkpoint",
+  "gameState": {
+    "score": "ATL 24 - NO 10",
+    "period": "3rd",
+    "clock": "7:38",
+    "source": "CBS Sports GameTracker",
+    "sourceUrl": "https://www.cbssports.com/nfl/gametracker/live/NFL_20261005_ATL@NO/"
+  },
+  "observedPlayerState": [
+    {
+      "player": "Juwan Johnson",
+      "receiving": {
+        "targets": 6,
+        "receptions": 5,
+        "yards": 53,
+        "td": 0
+      },
+      "note": "In-game observation only; prior pregame PASS decisions are not reclassified or settled until final."
+    },
+    {
+      "player": "Alvin Kamara",
+      "receiving": {
+        "targets": 5,
+        "receptions": 4,
+        "yards": 31,
+        "td": 0
+      },
+      "note": "In-game observation only; no user wager is recorded in bet_history."
+    },
+    {
+      "player": "Chris Olave",
+      "receiving": {
+        "targets": 7,
+        "receptions": 5,
+        "yards": 83,
+        "td": 0
+      },
+      "note": "In-game observation only."
+    }
+  ],
+  "decision": "NO_ALERT",
+  "reason": "MNF is already in progress, the repository contains no recorded Week 4 user straight wager requiring management, and no current executable live sportsbook player-prop line/price was independently verified. PRIME does not create a wager from in-game box-score production or stale pregame prices.",
+  "grokNote": "No new live Grok pass; completedAt unchanged from most recently processed 2026-09-12T17:05:00Z.",
+  "durableActions": [
+    "Preserved immutable in-game checkpoint only.",
+    "Did not mutate bet_history, missed_bets, pass_ledger, or settlements before final.",
+    "Repository isolation preserved; NFL player props only."
+  ]
+}
