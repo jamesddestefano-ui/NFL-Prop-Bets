@@ -1,0 +1,18 @@
+{
+  "capturedAtUtc": "2026-10-06T21:35:27Z",
+  "capturedAtEt": "2026-10-06 17:35:27 ET",
+  "nflWeek": 5,
+  "priorRelevantArchive": "intelligence/archive/2026-10-06T18-12-30Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": true,
+  "userAlert": true,
+  "decision": "Chris Godwin O3.5 receptions moved from +120 to a best verified +112 by 17:29 ET; this is below the stored +115-or-better threshold, so the current state is PASS_AFTER_MOVE for new entry.",
+  "officialNews": "Buccaneers official Oct. 6 injury report: Mayfield, Morrison, Winfield, Dennis and McLaughlin DNP; Dallas Durant, Overshown and Shelton DNP; Lamb and Porter full; Tyler Smith limited.",
+  "secondaryEvaluation": "George Pickens O4.5 receptions -105 was evaluated but did not clear the required edge threshold.",
+  "sources": [
+    "https://www.covers.com/sport/football/nfl/players/30661/chris-godwin-jr",
+    "https://www.buccaneers.com/news/buccaneers-cowboys-injury-report-oct-6-week-5",
+    "https://www.covers.com/sport/football/nfl/players/181656/george-pickens"
+  ]
+}
