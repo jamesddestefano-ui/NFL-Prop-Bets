@@ -1,0 +1,32 @@
+{
+  "capturedAtUtc": "2026-10-07T07:42:05Z",
+  "capturedAtEt": "2026-10-07 03:42:05 ET",
+  "nflWeek": 5,
+  "priorRelevantArchive": "intelligence/archive/2026-10-07T06-48-27Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "currentState": {
+    "chrisGodwinReceptions": "PASS_AFTER_MOVE / PRICE_VERIFY_REQUIRED — latest timestamped Covers Godwin page updated 2026-10-07 02:47 ET does not expose a regulated-book O3.5 price; prior verified regulated best was +112, below PRIME's +115 floor. KofSports currently displays DraftKings O3.5 +116 but provides no sufficiently clear source timestamp, so it is not promoted to executable truth under PRIME's no-stale-line rule.",
+    "cadeOttonReceptions": "PASS_AFTER_MOVE — latest Covers regulated-book board located was last updated 2026-10-06 19:21 ET and showed best O3.5 +115 (BetMGM), below PRIME's stored +120 floor. No fresher qualifying regulated price was verified.",
+    "ceedeeLambReceptions": "WATCH / REDUCED_EDGE — Covers board updated 2026-10-07 02:08 ET shows O6.5 +115 at bet365 and +114 at William Hill. This does not resolve the material projection disagreement or create a stronger edge than the prior WATCH state.",
+    "jalonDanielsRushing": "PASS / PROJECTION_DISAGREEMENT — CBS analyst card from 2026-10-06 14:56 ET supports O43.5 -114, but the market had already moved materially from first detection near 40.5 and no new post-checkpoint role/news catalyst justifies chasing. Preserve PASS unless a better threshold/price or new verified role information appears.",
+    "georgePickensReceptions": "PASS — no fresher post-checkpoint regulated price/news combination was verified that clears PRIME's threshold."
+  },
+  "officialNews": "No new official injury catalyst after Tampa Bay's 2026-10-06 injury report. Baker Mayfield remains out with a right-thumb injury and Jalon Daniels is scheduled to make his second start Thursday. CeeDee Lamb was a full participant Tuesday; Antoine Winfield Jr. and Benjamin Morrison remained DNP for Tampa Bay.",
+  "marketNotes": [
+    "No current regulated sportsbook line was promoted without a source timestamp.",
+    "No stale line was treated as executable.",
+    "No projection-only candidate was promoted to BET.",
+    "No new bet, missed-bet, pass-ledger, parlay, or weekly-attribution mutation is warranted because decision states are unchanged."
+  ],
+  "sources": [
+    "https://www.buccaneers.com/news/buccaneers-cowboys-injury-report-oct-6-week-5",
+    "https://www.buccaneers.com/news/buccaneers-cowboys-week-5-2026-game-preview",
+    "https://www.covers.com/sport/football/nfl/players/30661/chris-godwin-jr",
+    "https://www.covers.com/sport/football/nfl/players/285527/cade-otton",
+    "https://www.covers.com/sport/football/nfl/players/280741/ceedee-lamb",
+    "https://www.cbssports.com/betting/news/buccaneers-cowboys-nfl-player-props-best-bets-picks-thursday-night-football-week-5-2026/"
+  ]
+}
