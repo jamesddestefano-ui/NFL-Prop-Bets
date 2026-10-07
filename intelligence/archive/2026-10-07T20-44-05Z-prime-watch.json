@@ -1,0 +1,83 @@
+{
+  "capturedAtUtc": "2026-10-07T20:44:05Z",
+  "capturedAtEt": "2026-10-07 16:44:05 ET",
+  "nflWeek": 5,
+  "priorRelevantArchive": "intelligence/archive/2026-10-07T19-24-34Z-prime-watch.json",
+  "scope": "NFL player props only",
+  "materialUserActionChange": false,
+  "userAlert": false,
+  "newGrokPass": false,
+  "grokStatus": "live",
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "confirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "summary": "Final team injury report retains Baker Mayfield, Antoine Winfield Jr., Benjamin Morrison and SirVocea Dennis OUT. CeeDee Lamb full; Tyler Smith questionable; Cobie Durant and DeMarvion Overshown out.",
+      "source": "https://www.buccaneers.com/news/buccaneers-cowboys-injury-report-oct-7-week-5",
+      "publishedAtEt": "2026-10-07 15:04"
+    }
+  ],
+  "snapshots": [
+    {
+      "player": "Cade Otton",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "DraftKings via Covers",
+      "line": 27.5,
+      "odds": -110,
+      "sourceUpdatedAtEt": "2026-10-07 14:44",
+      "status": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "playTo": 27.5,
+      "maxJuice": -120,
+      "estimatedFairProbability": 0.6,
+      "edgePctPoints": 7.62,
+      "notes": "Unchanged existing approved candidate; no duplicate alert. Model disagreement retained."
+    },
+    {
+      "player": "Cade Otton",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "BetMGM via Covers",
+      "line": 3.5,
+      "odds": 115,
+      "sourceUpdatedAtEt": "2026-10-07 14:44",
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "minimumOdds": 120
+    },
+    {
+      "player": "Chris Godwin",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "BetRivers via Covers",
+      "line": 3.5,
+      "odds": -108,
+      "sourceUpdatedAtEt": "2026-10-07 16:19",
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "minimumOdds": 115
+    },
+    {
+      "player": "CeeDee Lamb",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers",
+      "line": 6.5,
+      "odds": 115,
+      "sourceUpdatedAtEt": "2026-10-07 16:13",
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "notes": "Meaningful projection disagreement; no new approved fair-edge calculation."
+    }
+  ],
+  "risk": "No Week 5 wager newly confirmed in bet_history. Otton and Godwin overs share SAME_THESIS TB_SHORT_PASS_VOLUME; do not stack automatically.",
+  "attribution": "No Week 5 settled results or verified user entries. CLV and Brier fields remain null.",
+  "sources": [
+    "https://www.covers.com/sport/football/nfl/players/47167/cade-otton",
+    "https://www.covers.com/sport/football/nfl/players/30661/chris-godwin-jr",
+    "https://www.covers.com/sport/football/nfl/players/40978/ceedee-lamb",
+    "https://www.buccaneers.com/news/buccaneers-cowboys-injury-report-oct-7-week-5"
+  ],
+  "writeStatus": "Archive creation attempted independently of CSV ledger changes."
+}
