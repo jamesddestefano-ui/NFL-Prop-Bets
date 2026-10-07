@@ -1,0 +1,25 @@
+{
+  "capturedAtUtc": "2026-10-07T06:48:27Z",
+  "capturedAtEt": "2026-10-07 02:48:27 ET",
+  "nflWeek": 5,
+  "priorRelevantArchive": "intelligence/archive/2026-10-06T21-35-27Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "currentState": {
+    "chrisGodwinReceptions": "PASS_AFTER_MOVE — FanDuel O3.5 +112 on Covers board last updated 2026-10-06 22:45 ET; stored PRIME floor remains +115 or better.",
+    "cadeOttonReceptions": "PASS_AFTER_MOVE — last independently verified best O3.5 +115; stored PRIME floor remains +120 or better.",
+    "ceedeeLambReceptions": "WATCH / REDUCED_EDGE — no qualifying new price or role catalyst; do not promote from projection disagreement alone.",
+    "jalonDaniels": "PASS on current passing/rushing markets because current prices have already repriced and independent projections remain materially dispersed.",
+    "georgePickensReceptions": "PASS — no new price/news combination clears PRIME threshold."
+  },
+  "officialNews": "No new overnight official injury catalyst beyond Tampa Bay and Dallas Oct. 6 injury report. Jalon Daniels remains slated for his second start Thursday while Baker Mayfield is out.",
+  "sources": [
+    "https://www.covers.com/sport/football/nfl/players/30661/chris-godwin-jr",
+    "https://www.buccaneers.com/news/buccaneers-cowboys-injury-report-oct-6-week-5",
+    "https://www.buccaneers.com/news/buccaneers-cowboys-week-5-2026-game-preview",
+    "https://www.moneyline.com/nfl/player-props/jalon-daniels"
+  ],
+  "writeNotes": "Attempt to append the latest Godwin +112 snapshot to data/line_history.csv was blocked by the GitHub connector safety layer; no CSV mutation was made."
+}
