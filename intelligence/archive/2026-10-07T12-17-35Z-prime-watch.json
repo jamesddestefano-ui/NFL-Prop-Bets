@@ -1,0 +1,26 @@
+{
+  "capturedAtUtc": "2026-10-07T12:17:35Z",
+  "capturedAtEt": "2026-10-07 08:17:35 ET",
+  "nflWeek": 5,
+  "priorRelevantArchive": "intelligence/archive/2026-10-07T08-43-59Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "summary": "No decision state changed at this checkpoint. Fresh research found no verified price/news combination that crossed the existing PRIME action thresholds. Wednesday official practice/injury updates were not yet available at the checkpoint.",
+  "currentState": {
+    "chrisGodwinReceptions": "PASS_AFTER_MOVE / PRICE_VERIFY_REQUIRED",
+    "cadeOttonReceptions": "PASS_AFTER_MOVE",
+    "ceedeeLambReceptions": "WATCH / REDUCED_EDGE",
+    "jalonDanielsRushing": "PASS / PROJECTION_DISAGREEMENT",
+    "georgePickensReceptions": "PASS",
+    "willShipley": "WATCH / NO MARKET"
+  },
+  "repositoryMutationNote": "Attempt to append the fresh CeeDee market snapshot to data/line_history.csv was blocked by the connector safety layer; no ledger file was changed.",
+  "sources": [
+    "https://www.covers.com/sport/football/nfl/players/40978/ceedee-lamb",
+    "https://www.covers.com/sport/football/nfl/players/30661/chris-godwin-jr",
+    "https://www.buccaneers.com/news/buccaneers-cowboys-injury-report-oct-6-week-5",
+    "https://www.philadelphiaeagles.com/news/eagles-place-rb-tank-bigsby-on-injured-reserve-release-lb-anfernee-orji-from-the-practice-squad"
+  ]
+}
