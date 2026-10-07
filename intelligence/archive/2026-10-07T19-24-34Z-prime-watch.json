@@ -1,0 +1,138 @@
+{
+  "capturedAtUtc": "2026-10-07T19:24:34Z",
+  "capturedAtEt": "2026-10-07 15:24:34 ET",
+  "nflWeek": 5,
+  "priorRelevantArchive": "intelligence/archive/2026-10-07T12-17-35Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokStatus": "live",
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialUserActionChange": false,
+  "userAlert": false,
+  "scope": "NFL player props only",
+  "nflConfirmedFacts": [
+    {
+      "classification": "confirmed_fact",
+      "subject": "TB at DAL TNF October 8",
+      "fact": "Todd Bowles ruled out Baker Mayfield, Antoine Winfield Jr., Benjamin Morrison and SirVocea Dennis; Rueben Bain Jr. is expected to play. Jalon Daniels to start again; no new receiver injury creating target vacuum.",
+      "source": "https://www.buccaneers.com/news/october-2026-updates",
+      "accessedAtEt": "2026-10-07 15:24 ET"
+    },
+    {
+      "classification": "attributed_report",
+      "subject": "Chase McLaughlin",
+      "fact": "Coach Todd Bowles says kicker is expected to play despite Tuesday DNP; not a player-prop opportunity.",
+      "source": "https://www.cbssports.com/fantasy/football/news/buccaneers-chase-mclaughlin-will-play-thursday/"
+    },
+    {
+      "classification": "attributed_report",
+      "subject": "Lamar Jackson / Tyler Huntley",
+      "fact": "Jackson did not practice Wednesday with an ankle injury; Huntley preparing for Falcons. No fresh, executable player-prop line/odds verified, so WATCH only.",
+      "source": "https://www.reuters.com/sports/ravens-rest-lamar-jackson-prepare-tyler-huntley-falcons--flm-2026-10-07/"
+    }
+  ],
+  "marketSnapshots": [
+    {
+      "player": "Cade Otton",
+      "propType": "RECEIVING_YARDS",
+      "book": "DraftKings via Covers",
+      "side": "OVER",
+      "line": 27.5,
+      "odds": -110,
+      "oddsLastUpdatedEt": "2026-10-07 14:44 ET",
+      "breakEvenProbability": 0.52381,
+      "noVigSameBook": null,
+      "storedFairProbability": 0.6,
+      "storedFairOdds": -150,
+      "storedEdgePercentagePoints": 7.62,
+      "edgeBucket": "6-8%",
+      "status": "BET",
+      "steamState": "STILL_PLAYABLE",
+      "entryTiming": "MIDWEEK",
+      "playToLine": 27.5,
+      "maxJuice": -120,
+      "stakeUnitsIfNotAlreadyBet": 0.5,
+      "thesisId": "TB_SHORT_PASS_VOLUME",
+      "correlation": "SAME_THESIS Godwin reception/yardage overs",
+      "marketSources": [
+        "https://www.covers.com/sport/football/nfl/players/47167/cade-otton"
+      ],
+      "notes": "Same price as previously alerted; unchanged recommendation, no duplicate alert. Same-threshold FanDuel O27.5 -114/U27.5 -114 no-vig 50%; both sides from same book. Fresh independent model disagrees materially: Prop Drop & Roll's 2154-simulation model assigns 47.1% Over for 27.5 despite mean 37.2, and does not qualify play. Preserve disagreement and do not increase stake or fair probability; model method/validation unknown."
+    },
+    {
+      "player": "Cade Otton",
+      "propType": "RECEPTIONS",
+      "book": "BetMGM via Covers",
+      "side": "OVER",
+      "line": 3.5,
+      "odds": 115,
+      "oppositeOdds": -155,
+      "oddsLastUpdatedEt": "2026-10-07 14:44 ET",
+      "breakEvenProbability": 0.46512,
+      "noVigSameBook": 0.4335,
+      "storedFairProbability": 0.51,
+      "rawEdgePercentagePoints": 4.49,
+      "edgeBucket": "4-6%",
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "minPlayableOdds": 120,
+      "notes": "Best verified regulated-book Over +115, below stored +120 floor; do not chase."
+    },
+    {
+      "player": "Chris Godwin",
+      "propType": "RECEPTIONS",
+      "book": "BetRivers via Covers",
+      "side": "OVER",
+      "line": 3.5,
+      "odds": -108,
+      "oddsLastUpdatedEt": "2026-10-07 14:11 ET",
+      "breakEvenProbability": 0.51923,
+      "noVigSameBook": null,
+      "storedFairProbability": 0.52,
+      "rawEdgePercentagePoints": 0.08,
+      "edgeBucket": "<2%",
+      "status": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "minPlayableOdds": 115,
+      "notes": "Previous +120/+116 disappeared; prior +112 no-chase remains valid. No bet_history entry, so no user wager assumed."
+    },
+    {
+      "player": "CeeDee Lamb",
+      "propType": "RECEPTIONS",
+      "line": 6.5,
+      "book": null,
+      "odds": null,
+      "marketTimestampEt": null,
+      "status": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "notes": "Reliable regulated-book contemporaneous best price not verified at this checkpoint; not promoted on projection alone. Market aggregators/model estimates alone are not sportsbook truth."
+    },
+    {
+      "player": "George Pickens",
+      "propType": "RECEPTIONS",
+      "line": 4.5,
+      "book": null,
+      "odds": null,
+      "status": "PASS",
+      "notes": "No independent price-adjusted edge; no current exact publicly verified regulated-book pair."
+    },
+    {
+      "player": "Jalon Daniels",
+      "propType": "RUSH_YARDS",
+      "book": null,
+      "line": null,
+      "odds": null,
+      "status": "PASS",
+      "notes": "Rookie small-sample uncertainty and projection disagreement; no current book-specific market confirms actionable edge."
+    }
+  ],
+  "exposure": "No new user-confirmed Week 5 bets in data/bet_history.csv; no new ticket inferred. Parlays kept separate.",
+  "attribution": "No settled Week 5 results; LINE_CLV, PRICE_CLV, COMBINED_CLV and Brier stay null until user entry/close/results are verifiable.",
+  "sources": [
+    "https://www.covers.com/sport/football/nfl/players/47167/cade-otton",
+    "https://www.covers.com/sport/football/nfl/players/30661/chris-godwin-jr",
+    "https://www.covers.com/sport/football/nfl/players/40978/ceedee-lamb",
+    "https://propdropandroll.com/player/1046",
+    "https://www.buccaneers.com/news/october-2026-updates",
+    "https://www.fantasypros.com/2026/10/6-fantasy-football-risers-fallers-week-5-2026/"
+  ]
+}
