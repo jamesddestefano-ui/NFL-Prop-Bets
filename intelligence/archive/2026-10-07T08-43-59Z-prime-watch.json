@@ -1,0 +1,37 @@
+{
+  "capturedAtUtc": "2026-10-07T08:43:59Z",
+  "capturedAtEt": "2026-10-07 04:43:59 ET",
+  "nflWeek": 5,
+  "priorRelevantArchive": "intelligence/archive/2026-10-07T07-42-05Z-prime-watch.json",
+  "newGrokPass": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "materialChange": false,
+  "userAlert": false,
+  "currentState": {
+    "chrisGodwinReceptions": "PASS_AFTER_MOVE / PRICE_VERIFY_REQUIRED — freshest timestamped Covers page still does not provide a qualifying regulated-book O3.5 price; stored PRIME floor remains +115 or better. Do not promote untimestamped/less-verifiable prices.",
+    "cadeOttonReceptions": "PASS_AFTER_MOVE — no fresher regulated price verified at PRIME's stored +120-or-better floor.",
+    "ceedeeLambReceptions": "WATCH / REDUCED_EDGE — current public threshold remains 6.5 and projections remain materially dispersed; no new role catalyst or robust price-adjusted edge.",
+    "jalonDanielsRushing": "PASS / PROJECTION_DISAGREEMENT — public models remain sharply split around the moved 43.5-45.5 market; do not chase the move or auto-flip.",
+    "georgePickensReceptions": "PASS — no new price/news combination clears PRIME threshold.",
+    "willShipley": "WATCH / NO MARKET — Philadelphia officially placed Tank Bigsby on IR Tuesday night after a Week 4 injury, while Saquon Barkley's hamstring status remains unresolved entering Wednesday. This materially raises Shipley's contingent role value, but no fresh verified regulated Week 5 Shipley prop line/price was located, so no bet is authorized."
+  },
+  "officialNews": [
+    "Philadelphia officially placed Tank Bigsby on Injured Reserve on 2026-10-06 at 19:45 ET.",
+    "Nick Sirianni said more clarity on Saquon Barkley's hamstring status was expected Wednesday; Barkley has not been treated as officially out in this checkpoint.",
+    "Tampa Bay's Tuesday injury state remains unchanged: Baker Mayfield DNP/right thumb and Jalon Daniels is slated for his second start Thursday; CeeDee Lamb was full for Dallas."
+  ],
+  "marketNotes": [
+    "No new sportsbook line was promoted without an adequately fresh verifiable source.",
+    "No projection-only candidate was promoted to BET.",
+    "Will Shipley is elevated to a conditional WATCH pending Wednesday Barkley status and a verifiable rushing/receiving market.",
+    "No CSV ledger mutation is warranted because no current decision crossed into BET/LEAN or changed an existing price-specific decision state."
+  ],
+  "sources": [
+    "https://www.philadelphiaeagles.com/news/eagles-place-rb-tank-bigsby-on-injured-reserve-release-lb-anfernee-orji-from-the-practice-squad",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-more-answers-wednesday-on-saquon-barkleys-status",
+    "https://www.buccaneers.com/news/buccaneers-cowboys-injury-report-oct-6-week-5",
+    "https://www.buccaneers.com/news/buccaneers-cowboys-week-5-2026-game-preview",
+    "https://www.covers.com/sport/football/nfl/players/30661/chris-godwin-jr",
+    "https://www.covers.com/sport/football/nfl/players/40978/ceedee-lamb"
+  ]
+}
