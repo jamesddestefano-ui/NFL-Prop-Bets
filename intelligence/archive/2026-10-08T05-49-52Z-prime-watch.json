@@ -1,0 +1,166 @@
+{
+  "capturedAtUtc": "2026-10-08T05:49:52Z",
+  "capturedAtEt": "2026-10-08 01:49:52 ET",
+  "scope": "NFL player props only",
+  "nflWeek": 5,
+  "priorRelevantArchive": "intelligence/archive/2026-10-08T05-09-59Z-prime-watch.json",
+  "newGrokPass": false,
+  "grok": {
+    "status": "live",
+    "completedAt": "2026-09-12T17:05:00Z",
+    "latestProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "notes": "No new live completedAt; Grok excluded from authoritative price decisions"
+  },
+  "materialUserActionChange": false,
+  "userAlert": false,
+  "news": [
+    {
+      "classification": "confirmed_fact",
+      "source": "https://www.buccaneers.com/news/2026-game-preview-buccaneers-cowboys-week-5",
+      "date": "2026-10-07",
+      "summary": "Mayfield, Winfield, Morrison, SirVocea Dennis out for TB; DAL Durant, Overshown, Shelton out; Lamb full; Tyler Smith and Jonathan Mingo questionable. Daniels second start. No changes to role assumptions."
+    }
+  ],
+  "marketSnapshots": [
+    {
+      "player": "Cade Otton",
+      "game": "TB@DAL",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "BetMGM",
+      "line": 28.5,
+      "odds": -111,
+      "bestMarket": "O28.5 -111 BetMGM",
+      "consensusLine": "28.5-30.5, mostly 28.5-29.5",
+      "marketUpdatedAtEt": "2026-10-08 01:20",
+      "source": "https://www.covers.com/sport/football/nfl/players/47167/cade-otton",
+      "priorRecommendation": "O27.5 -110 DK on 2026-10-07",
+      "playToLine": 27.5,
+      "maxAcceptableOdds": -120,
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "estimatedFairProbability": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": null,
+      "notes": "At new threshold 28.5 the older 60% fair probability for 27.5 is inapplicable. Price move does not reinstate precommitted threshold. No bet."
+    },
+    {
+      "player": "Cade Otton",
+      "game": "TB@DAL",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "bet365",
+      "line": 3.5,
+      "odds": 110,
+      "bestMarket": "O3.5 +110 bet365",
+      "consensusLine": "3.5",
+      "marketUpdatedAtEt": "2026-10-08 01:20",
+      "source": "https://www.covers.com/sport/football/nfl/players/47167/cade-otton",
+      "minimumAcceptableOdds": 120,
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "notes": "Below +120 minimum. No new injury-driven target vacancy."
+    },
+    {
+      "player": "Chris Godwin",
+      "game": "TB@DAL",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "BetRivers",
+      "line": 3.5,
+      "odds": -109,
+      "bestMarket": "O3.5 -109 BetRivers",
+      "consensusLine": "3.5",
+      "marketUpdatedAtEt": "2026-10-08 01:38",
+      "source": "https://www.covers.com/sport/football/nfl/players/30661/chris-godwin-jr",
+      "minimumAcceptableOdds": 115,
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "notes": "Fresh regulated-book quote confirms prior +115 minimum is unavailable, no change to user action."
+    },
+    {
+      "player": "Chris Godwin",
+      "game": "TB@DAL",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "FanDuel",
+      "line": 28.5,
+      "odds": -113,
+      "bestMarket": "O28.5 -113 FanDuel",
+      "consensusLine": "28.5-29.5",
+      "marketUpdatedAtEt": "2026-10-08 01:38",
+      "source": "https://www.covers.com/sport/football/nfl/players/30661/chris-godwin-jr",
+      "playToLine": 27.5,
+      "maxAcceptableOdds": -120,
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "notes": "Previously recommended 27.5 no longer publicly verified; 28.5/-113 exceeds stored fallback 28.5/-110 and prior 27.5 threshold."
+    },
+    {
+      "player": "CeeDee Lamb",
+      "game": "TB@DAL",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "bet365 / BetRivers / theScore Bet",
+      "line": 6.5,
+      "odds": 115,
+      "bestMarket": "O6.5 +115",
+      "consensusLine": "6.5 (FanDuel 5.5 heavily juiced)",
+      "marketUpdatedAtEt": "2026-10-08 01:26",
+      "source": "https://www.covers.com/sport/football/nfl/players/40978/ceedee-lamb",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "estimatedFairProbability": null,
+      "estimatedEdgePct": null,
+      "notes": "Unchanged best price. Independent projection disagreement persists; no defensible new edge estimate."
+    }
+  ],
+  "additionalWatches": [
+    {
+      "player": "George Pickens",
+      "propType": "RECEPTIONS",
+      "decision": "PASS",
+      "reason": "No independently verified price-adjusted advantage."
+    },
+    {
+      "player": "Jalon Daniels",
+      "propType": "RUSH_YARDS",
+      "decision": "PASS",
+      "reason": "One-start rushing distribution uncertain; no new line/price edge."
+    },
+    {
+      "player": "Tyler Huntley",
+      "decision": "WATCH",
+      "reason": "Ravens quarterback status uncertain; no relevant verifiable prop quote."
+    },
+    {
+      "player": "Malik Nabers",
+      "decision": "WATCH",
+      "reason": "Knee DNP reported Wednesday, no confirmed Sunday designation/price."
+    }
+  ],
+  "causalTags": [
+    "ROUTE_SHARE",
+    "TARGET_SHARE",
+    "ROLE_CHANGE",
+    "MARKET_MOVE",
+    "PROJECTION_DISAGREEMENT",
+    "INJURY",
+    "GAME_SCRIPT"
+  ],
+  "exposure": {
+    "week5UserConfirmedStraightBets": 0,
+    "exposureCash": null,
+    "sharedThesis": "TB_SHORT_PASS_VOLUME",
+    "correlationTag": "SAME_THESIS",
+    "note": "Do not treat recommendations as actual user tickets. Bet history unchanged. Parlays separate."
+  },
+  "calibration": {
+    "lineClv": null,
+    "priceClv": null,
+    "combinedClv": null,
+    "brierScore": null,
+    "weeklyAttribution": "No settled Week 5 user-confirmed tickets; leave metrics null"
+  },
+  "nextReview": "TNF later Oct 8 pregame market and official inactive confirmation; Sunday checkpoints as protocol."
+}
