@@ -1,0 +1,25 @@
+{
+  "capturedAtEt": "2026-10-08 17:56:14 ET",
+  "nflWeek": 5,
+  "scope": "NFL player props only",
+  "grokLatestCompletedAt": "2026-09-12T17:05:00Z",
+  "newGrokPass": false,
+  "verifiedNews": "Cowboys official October 8 13:27 ET report: Tyler Smith activated from IR and will suit up. Official NFL injuries: Mayfield, Winfield, Morrison, Dennis TB out; Durant, Overshown, Shelton DAL out. Final inactives not yet released.",
+  "marketSource": "Covers public player prop pages, Oct 8 17:40-17:51 ET",
+  "marketStates": [
+    "Otton O29.5 DK -110 PASS_AFTER_MOVE; max O27.5 -120",
+    "Javonte U16.5 FD -114 PASS_AFTER_MOVE; prior ceiling U17.5 -118",
+    "Godwin O3.5 rec bet365 -120 PASS_AFTER_MOVE; +115 minimum",
+    "Godwin O30.5 rec yards BetRivers -113 PASS_AFTER_MOVE",
+    "Lamb O6.5 rec WATCH; executable sportsbook quote not reverified"
+  ],
+  "decision": "NO NEW BET",
+  "betHistoryModified": false,
+  "notification": false,
+  "sources": [
+    "https://www.dallascowboys.com/news/tyler-smith-officially-activated-from-ir-for-cowboys-vs-buccaneers",
+    "https://www.nfl.com/injuries/league/2026/reg5",
+    "https://www.covers.com/sport/football/nfl/players/47167/cade-otton",
+    "https://www.covers.com/sport/football/nfl/players/52976/javonte-williams"
+  ]
+}
