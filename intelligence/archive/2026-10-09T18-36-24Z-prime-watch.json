@@ -1,0 +1,157 @@
+{
+  "capturedAtEt": "2026-10-09 14:36:24 ET",
+  "nflWeek": 5,
+  "scope": "NFL player props only",
+  "repo": "jamesddestefano-ui/NFL-Prop-Bets@main",
+  "priorArchive": "intelligence/archive/2026-10-09T12-39-50Z-prime-watch.json",
+  "grok": {
+    "status": "live",
+    "completedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "reason": "No completedAt change versus compact index and latest previously processed archive"
+  },
+  "materialNews": [
+    {
+      "classification": "attributed_report_with_coach_confirmation",
+      "player": "Ashton Jeanty",
+      "team": "LV",
+      "game": "LV@NE",
+      "detail": "Jeanty developed foot issue Thursday, did not practice Friday Oct 9, and coach Klint Kubiak says questionable. Mike Washington Jr. would start if Jeanty is inactive. Official Raiders online table was still only populated through Thursday as checked.",
+      "sources": [
+        "https://www.silverandblackpride.com/las-vegas-raiders-news/142369/raiders-injury-news-ashton-jeanty-foot-questionable-patriots",
+        "https://www.raiders.com/news/las-vegas-raiders-new-england-patriots-week-5-injury-report-2026"
+      ],
+      "impact": "High-importance backfield conditional; don't auto-play backup prop at stale number."
+    },
+    {
+      "classification": "attributed_report_of_final_game_designations",
+      "team": "NE",
+      "game": "LV@NE",
+      "detail": "Patriots CB Christian Gonzalez, CB Carlton Davis III, CB Karon Prunty, CB Channing Canada, WR Mack Hollins, FB Reggie Gilliam all reported OUT Friday Oct 9. Significant cornerback depletion. Rhamondre Stevenson knee questionable/limited.",
+      "source": "https://www.patspulpit.com/new-england-patriots-news/140012/patriots-vs-raiders-friday-injury-report-christian-gonzalez-carlton-davis-iii-mack-hollins-six-ruled-out",
+      "impact": "Coverage signal raises LV receiving role watch; do not extrapolate fixed target volume."
+    },
+    {
+      "classification": "attributed_report_of_coach_statement",
+      "player": "Lamar Jackson",
+      "game": "BAL@ATL",
+      "detail": "Coach Jesse Minter announced Lamar Jackson OUT for Sunday Night Football Oct 11; Tyler Huntley expected to start. Trey Hendrickson OUT as well.",
+      "source": "https://www.thebanner.com/sports/ravens-nfl/ravens-lamar-jackson-trey-hendrickson-out-falcons-KSEGONYEWVCDDJRCQSJGG5BUYM/",
+      "impact": "Material QB change; need repriced Henry carries, Baltimore receiving and Huntley rush/pass props. No unpriced bets."
+    },
+    {
+      "classification": "confirmed_injury_designation_attributed_reporting",
+      "player": "Breece Hall",
+      "game": "CLE@NYJ",
+      "detail": "Hall ruled out again (quad) along with Adonai Mitchell and offensive lineman Dylan Parham; returning Braelon Allen lead-back role is not first-week surprise.",
+      "source": "https://www.reuters.com/sports/jets-rule-out-rb-breece-hall-quad-wr-adonai-mitchell-finger--flm-2026-10-09/",
+      "impact": "Watch Allen rush shares / Wilson targets; no unchanged-price edge inferred."
+    }
+  ],
+  "marketSnapshots": [
+    {
+      "game": "LV@NE",
+      "player": "Brock Bowers",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "FanDuel via LegionReport dynamic aggregator",
+      "line": 70.5,
+      "odds": -114,
+      "marketImpliedProbability": 0.5327,
+      "bestMarketLine": "70.5 at FanDuel -114",
+      "consensus": "~70.5-73.5, BetMGM article Oct7 73.5; different timestamps",
+      "modelComparison": "CBS via 4for4 74.9; CBS public stats table 61.9; significant projection disagreement",
+      "classification": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "fairProbability": null,
+      "edgeBucket": null,
+      "reason": "NE CBs out supports coverage thesis but Bowers has knee-managed return and only two 2026 games; different CBS snapshots conflict; cannot document >=4-5 pp conservative edge.",
+      "source": "https://legionreport.com/raiders-vs-patriots-player-props/"
+    },
+    {
+      "game": "LV@NE",
+      "player": "Brock Bowers",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "DraftKings via LegionReport dynamic aggregator",
+      "line": 6.5,
+      "odds": 100,
+      "marketImpliedProbability": 0.5,
+      "modelComparison": "CBS via 4for4 6.8 catches; other CBS public table 6.0",
+      "classification": "WATCH",
+      "fairProbability": null,
+      "edgeBucket": null,
+      "reason": "Two-game sample 10 and 6 catches and coverage news are insufficient to overcome projection dispersion; no real-time app execution verified.",
+      "source": "https://legionreport.com/raiders-vs-patriots-player-props/"
+    },
+    {
+      "game": "LV@NE",
+      "player": "Tre Tucker",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "BetMGM via LegionReport dynamic aggregator",
+      "line": 41.5,
+      "odds": -115,
+      "marketImpliedProbability": 0.5349,
+      "modelComparison": "FantasyPros 42.3, Sleeper via Statchasers 37.5",
+      "classification": "PASS",
+      "fairProbability": null,
+      "edgeBucket": null,
+      "reason": "Even after NE secondary injuries, independent mean projections near/under the quoted market. Cannot claim probability advantage.",
+      "source": "https://legionreport.com/raiders-vs-patriots-player-props/"
+    },
+    {
+      "game": "LV@NE",
+      "player": "Mike Washington Jr.",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "sportsbook": "FanDuel via LegionReport dynamic aggregator",
+      "line": 23.5,
+      "odds": -114,
+      "marketImpliedProbability": 0.5327,
+      "classification": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "fairProbability": null,
+      "edgeBucket": null,
+      "reason": "Jeanty questionable; 23.5 is a backup-role price and likely not executable if he is confirmed OUT. Must verify official inactive, role projection and fresh book price; never pre-bet purely on hypothetical.",
+      "source": "https://legionreport.com/raiders-vs-patriots-player-props/"
+    },
+    {
+      "game": "LV@NE",
+      "player": "Ashton Jeanty",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "UNDER",
+      "sportsbook": "DraftKings via LegionReport dynamic aggregator",
+      "line": 16.5,
+      "odds": -103,
+      "marketImpliedProbability": 0.5074,
+      "classification": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "fairProbability": null,
+      "edgeBucket": null,
+      "reason": "Foot/ankle injury is new but playing status, limitations and line repricing uncertain; no independent probability model, cannot auto-target Under.",
+      "source": "https://legionreport.com/raiders-vs-patriots-player-props/"
+    }
+  ],
+  "context": {
+    "raidersTargetShares": "Statchasers through Week 4 lists Bowers 17.6%, Mayer 17.6%, Jeanty 17.6%, Tucker 16.9%; slow neutral pace 34.2 sec and slight -2.9% PROE.",
+    "source": "https://statchasers.com/nfl/teams/las-vegas-raiders/usage/",
+    "sameThesis": "LV receiving OVERs share NE depleted secondary; avoid stacking Bowers/Tucker/Mayer under same hypothesis."
+  },
+  "otherWatch": {
+    "london": "PHI@JAX 2026-10-11 09:30 ET; prior Shipley, Hurts, Goedert entries retain WATCH/PASS until Friday final injury designations and materially fresher executable quotes",
+    "ravens": "Lamar OUT is confirmed by coach as reported; no Henry or Huntley wager without repriced odds/projection",
+    "jets": "Hall OUT second straight is confirmation not new opportunity"
+  },
+  "controls": {
+    "newStraightBetRecommendation": false,
+    "confirmedUserWeek5Tickets": 0,
+    "betHistoryUnchanged": true,
+    "noParlayChanges": true,
+    "staleLineNotTreatedAsLive": true,
+    "consensusNoVigUnknown": true,
+    "CLV": "Unknown; no new confirmed ticket or closing price",
+    "entryTiming": "MIDWEEK",
+    "nextCheckpoint": "Friday final reports then Sunday London 08:00 ET inactives; LV/NE 11:30 ET inactives."
+  }
+}
