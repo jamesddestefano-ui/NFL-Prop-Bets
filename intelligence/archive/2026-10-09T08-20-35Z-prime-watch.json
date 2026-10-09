@@ -1,0 +1,19 @@
+{
+  "capturedAtEt": "2026-10-09 04:20:35 ET",
+  "nflWeek": 5,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "newGrokPass": false,
+  "tnf": {
+    "game": "TB@DAL",
+    "result": "TB 24 DAL 16",
+    "ottonReceivingYards": 25,
+    "williamsCarries": 12,
+    "godwinReceptions": 3,
+    "godwinReceivingYards": 37,
+    "lambReceptions": 2
+  },
+  "sundayStatus": "WATCH only; no new bet",
+  "notPlaced": "No confirmed user Week 5 ticket",
+  "next": "Friday injury status and prices",
+  "source": "https://www.statmuse.com/nfl/game/10-8-2026-tb-at-dal-19129"
+}
