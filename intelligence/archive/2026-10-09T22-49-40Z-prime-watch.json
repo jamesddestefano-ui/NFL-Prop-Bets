@@ -1,0 +1,175 @@
+{
+  "capturedAtEt": "2026-10-09 18:49:40 ET",
+  "capturedAtUtc": "2026-10-09T22:49:40Z",
+  "nflWeek": 5,
+  "scope": "NFL player props only",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-10-09T18-36-24Z-prime-watch.json",
+  "grok": {
+    "status": "live",
+    "completedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "Same completedAt as compact history and previously processed PRIME archive; no repetition or authoritative overwrite."
+  },
+  "officialNews": [
+    {
+      "classification": "confirmed_fact",
+      "game": "PHI@JAX",
+      "fact": "NFL Friday 16:49 ET consolidated report: Barkley, DeVonta Smith, Marquise Brown, center Drew Kendall OUT; JAX CB Jaylon Jones OUT, S Eric Murray DOUBTFUL.",
+      "impact": "Pre-existing London offensive-replacement thesis; no independent new edge."
+    },
+    {
+      "classification": "confirmed_fact",
+      "game": "LV@NE",
+      "fact": "NFL Friday consolidated report: Jeanty QUESTIONABLE; NE CBs Gonzalez, Carlton Davis III, Karon Prunty, Channing Canada OUT.",
+      "impact": "Reconfirm Washington conditional lead-back and Raiders receiving WATCH; previously alerted, no new inactives yet."
+    },
+    {
+      "classification": "confirmed_fact",
+      "game": "CHI@GB",
+      "fact": "Monangai OUT; Caleb Williams QUESTIONABLE; Green Bay guards Aaron Banks and Jacob Monk DOUBTFUL.",
+      "impact": "Swift carry volume WATCH already repriced; matchup/QB caveats prevent blind Overs."
+    },
+    {
+      "classification": "confirmed_fact",
+      "game": "IND@PIT",
+      "fact": "Steelers WR Michael Pittman, CB Jamel Dean OUT; CB Jalen Ramsey QUESTIONABLE. Colts WR Keenan Allen and Darius Slayton QUESTIONABLE.",
+      "impact": "Target/COVERAGE uncertainty for Metcalf/Roman Wilson and Colts pass catchers; wait for Sunday inactives and market."
+    },
+    {
+      "classification": "confirmed_fact",
+      "game": "SF@SEA",
+      "fact": "SEA Charbonnet OUT, RB George Holani QUESTIONABLE, SF DE Nick Bosa OUT; Seattle's lead-back Emanuel Wilson role is not a new surprise (Macdonald said Charbonnet would miss Week 5 on October 5).",
+      "impact": "Recheck Wilson rush+receive vs elevated book line; no role-vacuum arbitrage inferred."
+    },
+    {
+      "classification": "confirmed_fact",
+      "game": "BAL@ATL",
+      "fact": "Lamar Jackson OUT; Tyler Huntley expected to start; Zay Flowers QUESTIONABLE.",
+      "impact": "Reprice Henry and Ravens passing props after official statuses, no pregame price edge established."
+    }
+  ],
+  "researchSignals": [
+    {
+      "player": "Christian McCaffrey",
+      "game": "SF@SEA",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "analystLine": 4.5,
+      "analystPrice": -155,
+      "openingReferencePrice": -125,
+      "book": "not named in EVAnalytics page",
+      "sourceObservedAtEt": "2026-10-09 10:57 ET",
+      "sourceType": "analyst_opinion/aggregate_market",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "signalTags": [
+        "MARKET_MOVE",
+        "ROUTE_SHARE",
+        "PACE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "reason": "Over 4.5 juice reportedly moved from -125 to -155; adjusted catches 4.0 in 2026 and routes 66.2% vs 81.0% prior season; 6.2 target model alone cannot justify -155. No up-to-the-minute executable quote."
+    },
+    {
+      "player": "Jalen Hurts",
+      "game": "PHI@JAX",
+      "propType": "PASS_YARDS",
+      "side": "UNDER",
+      "priorAnalystLine": 199.5,
+      "latestObservedBookLine": null,
+      "latestObservedBookOdds": null,
+      "sourceType": "analyst_opinion",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "signalTags": [
+        "OL_INJURY",
+        "INJURY",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "reason": "BettingPros October 9 proposed Under 199.5 but earlier Week 5 sportsbook references were already materially lower ~185.5-195.5. PropSims older Oct 8 median 208 was built with Barkley/Smith listed and must not be used unchanged. Cannot carry an old Under to a lower price."
+    },
+    {
+      "player": "Emanuel Wilson",
+      "game": "SF@SEA",
+      "propType": "OTHER",
+      "market": "RUSH+RECEIVING_YARDS",
+      "side": "UNDER",
+      "priorAnalystLine": 79.5,
+      "latestVerifiedBookOdds": null,
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": [
+        "RUSH_SHARE",
+        "ROLE_CHANGE",
+        "GAME_SCRIPT",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "reason": "BettingPros Oct 9 mentioned Under 79.5 combined yards without verifiable sportsbook/juice. Charbonnet OUT already known October 5; Wilson received 24 Week 4 touches and SF matchup requires fresh projection. No qualifying price edge established."
+    },
+    {
+      "player": "Brock Bowers",
+      "game": "LV@NE",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "lastArchiveReference": "O6.5 +100 DraftKings via aggregator at 14:36 ET",
+      "latestVerifiedBookOdds": null,
+      "decision": "WATCH",
+      "signalTags": [
+        "DEFENSIVE_INJURY",
+        "TARGET_SHARE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "LV_PASS_CATCHERS_NE_CBS_OUT",
+      "reason": "No later executable price found; NE CB absences already captured and projections conflict (6.0-6.8 catches). Do not issue BET solely for favorable matchup."
+    },
+    {
+      "player": "Will Shipley",
+      "game": "PHI@JAX",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "lastArchiveReference": "O2.5 +101 DK aggregator 08:39 ET",
+      "latestVerifiedBookOdds": null,
+      "decision": "WATCH",
+      "signalTags": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "OL_INJURY",
+        "ROUTE_SHARE"
+      ],
+      "reason": "Barkley OUT confirms opportunity but pass-down usage/route share and executable price remain uncertain; strong Jacksonville front and reshuffled Eagles line."
+    }
+  ],
+  "accounting": {
+    "newConfirmedUserWeek5Bets": 0,
+    "betHistoryChanged": false,
+    "parlayHistoryChanged": false,
+    "openWeek5ExposureCash": 0,
+    "modeledFairProbabilities": null,
+    "edgeBuckets": null,
+    "clv": "Not available: no confirmed Week 5 tickets with valid close",
+    "week5Attribution": "Thu paper plays: Javonte Under17.5 won; Otton Over27.5 lost; Godwin Over3.5 receptions lost. Do not conflate with user P/L.",
+    "existingLedgerTruthPreserved": true
+  },
+  "result": {
+    "materialNewBet": false,
+    "notificationEligible": false,
+    "reason": "Friday final designations largely confirm previously flagged injuries; fresh research found no independently supported ≥4–5 percentage-point price-adjusted edge at a verified currently executable sportsbook quote."
+  },
+  "next": "Saturday beat-report/market sweep; Sunday 08:00 London official inactives and 09:00/09:15 pre-kick checks; regular 08:00,09:00,10:00,11:30,12:30 ET checkpoints.",
+  "sources": [
+    "https://fantasy-www.nfl.com/news/nfl-week-5-injury-report-player-statuses-for-all-15-games",
+    "https://www.patriots.com/news/injury-report-analysis-patriots-rule-out-six-players-for-sunday-s-week-5-matchup-vs-the-raiders",
+    "https://www.bettingpros.com/articles/nfl-betting-primer-picks-predictions-week-5-2026/",
+    "https://evanalytics.com/nfl/writenow/player/prop/christian-mccaffrey-receptions-player-prop-2026-week-5",
+    "https://www.nbcsports.com/fantasy/football/player-news/2026-10-05/macdonald-charbonnet-knee-wont-play-week-5",
+    "https://www.fantasypros.com/nfl/projections/najee-harris-rb.php",
+    "https://legionreport.com/colts-vs-steelers-player-props/"
+  ]
+}
