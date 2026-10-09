@@ -1,0 +1,184 @@
+{
+  "capturedAtEt": "2026-10-09 08:39:50 ET",
+  "nflWeek": 5,
+  "scope": "NFL player props only",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets@main",
+  "event": "Friday morning TNF settlement and London game market watch",
+  "grok": {
+    "status": "live",
+    "completedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "reason": "completedAt unchanged vs compact history and latest processed archive"
+  },
+  "tnf": {
+    "game": "TB@DAL",
+    "date": "2026-10-08",
+    "finalScore": "Tampa Bay 24 Dallas 16",
+    "sourceType": "confirmed_fact",
+    "gradedTheses": [
+      {
+        "player": "Javonte Williams",
+        "propType": "RUSH_ATTEMPTS",
+        "side": "UNDER",
+        "recommendedLine": 17.5,
+        "recommendedOdds": -115,
+        "sportsbook": "BetMGM via Covers",
+        "recommendationTimeEt": "2026-10-08 09:18 ET",
+        "modeledFairProbability": 0.59,
+        "actual": 12,
+        "outcome": "WIN",
+        "brier": 0.1681,
+        "confirmedUserTicket": false,
+        "notes": "Positive paper result only. No Week 5 ticket in bet_history; no user P/L or CLV inferred. Original 17.5 no-chase limit -118, market later moved to 16.5."
+      },
+      {
+        "player": "Cade Otton",
+        "propType": "RECEIVING_YARDS",
+        "side": "OVER",
+        "recommendedLine": 27.5,
+        "recommendedOdds": -115,
+        "sportsbook": "bet365 via Covers",
+        "recommendationTimeEt": "2026-10-08 03:20 ET",
+        "modeledFairProbability": 0.6,
+        "actual": 25,
+        "outcome": "LOSS",
+        "brier": 0.36,
+        "confirmedUserTicket": false,
+        "notes": "Failed to reach 27.5, later 28.5-29.5 passes were sound price discipline; assess target volume given 25 QB pass attempts."
+      },
+      {
+        "player": "Chris Godwin",
+        "propType": "RECEPTIONS",
+        "side": "OVER",
+        "recommendedLine": 3.5,
+        "recommendedOdds": 116,
+        "sportsbook": "DraftKings via public tracker",
+        "recommendationTimeEt": "2026-10-06 late ET",
+        "modeledFairProbability": 0.52,
+        "actual": 3,
+        "outcome": "LOSS",
+        "brier": 0.2704,
+        "confirmedUserTicket": false,
+        "notes": "Three targets/three catches. Very small early-season role sample. No user P/L or closing quote inferred."
+      },
+      {
+        "player": "Chris Godwin",
+        "propType": "RECEIVING_YARDS",
+        "actual": 37,
+        "notes": "Clear 27.5 in hindsight; no new/add-on recommendation at latest checkpoints."
+      },
+      {
+        "player": "CeeDee Lamb",
+        "propType": "RECEPTIONS",
+        "actual": 2,
+        "injury": "Exited with quadriceps injury",
+        "notes": "Prior O6.5 WATCH / NO BET remains correct without fair-probability convergence; injury affects Week 6 watch, not current Week 5 betting."
+      }
+    ]
+  },
+  "sundayLondon": {
+    "game": "PHI@JAX",
+    "kickoffEt": "2026-10-11 09:30 ET",
+    "checkpointEt": [
+      "2026-10-11 08:00 ET (official inactives expected ~90 min before kickoff)",
+      "2026-10-11 09:00 ET (final market check)",
+      "2026-10-11 09:15 ET (last pregame check)"
+    ],
+    "news": [
+      {
+        "claim": "Saquon Barkley, DeVonta Smith, Hollywood Brown and Drew Kendall did not practice Thu Oct 8",
+        "classification": "confirmed_fact",
+        "source": "Eagles official Oct 8 18:00 ET"
+      },
+      {
+        "claim": "Dallas Goedert and Dontayvion Wicks limited Thu Oct 8; Goedert says expects to play",
+        "classification": "confirmed_fact",
+        "source": "Eagles official Oct 8 18:00 ET"
+      },
+      {
+        "claim": "Barkley likely to miss Week 5, Shipley projected lead back",
+        "classification": "attributed_report/analyst_opinion",
+        "source": "FantasyPros Derek Brown Oct 8 13:35 ET, no final OUT designation yet"
+      }
+    ],
+    "marketSnapshots": [
+      {
+        "player": "Will Shipley",
+        "market": "RUSH_YARDS",
+        "side": "OVER",
+        "line": 36.5,
+        "odds": -105,
+        "sportsbook": "BetMGM",
+        "sourceType": "public_aggregator_10min_refresh",
+        "sourceCapturedEt": "2026-10-09 08:39:50 ET",
+        "decision": "PASS",
+        "steamState": "REDUCED_EDGE",
+        "reason": "Sleeper projects 37.4 yards and 13.9 carries, FantasyPros expects only 12-15 touches; strong JAX run defense, poor/uncertain PHI OL, backfield allocation unresolved. No support for 4-5 percentage point edge. Prior 35.5 snapshot no longer assumed available."
+      },
+      {
+        "player": "Will Shipley",
+        "market": "RECEPTIONS",
+        "side": "OVER",
+        "line": 2.5,
+        "odds": 101,
+        "sportsbook": "DraftKings",
+        "sourceType": "public_aggregator_10min_refresh",
+        "sourceCapturedEt": "2026-10-09 08:39:50 ET",
+        "decision": "WATCH",
+        "steamState": "REDUCED_EDGE",
+        "reason": "Sleeper single-feed catch projection 3.13 is not sufficient; need final Barkley status, routes, pass-game use and current slip."
+      },
+      {
+        "player": "Jalen Hurts",
+        "market": "RUSH_YARDS",
+        "side": "UNDER",
+        "line": 27.5,
+        "odds": -114,
+        "sportsbook": "FanDuel",
+        "sourceType": "public_aggregator_10min_refresh",
+        "sourceCapturedEt": "2026-10-09 08:39:50 ET",
+        "decision": "WATCH",
+        "reason": "PropSims median 21 but OL/WR injuries may increase scramble/short-yardage designed rushing; no independent fair probability."
+      },
+      {
+        "player": "Trevor Lawrence",
+        "market": "RUSH_ATTEMPTS",
+        "side": "OVER",
+        "line": 3.5,
+        "odds": -108,
+        "sportsbook": "DraftKings",
+        "sourceType": "public_aggregator_10min_refresh",
+        "sourceCapturedEt": "2026-10-09 08:39:50 ET",
+        "decision": "PASS",
+        "reason": "Covers model projects 4.68 but assumes projected 16.3% carry share versus actual season 8.0%; too much single-model role extrapolation."
+      },
+      {
+        "player": "Dallas Goedert",
+        "market": "RECEIVING_YARDS/RECEPTIONS",
+        "decision": "WATCH",
+        "reason": "No fresh complete two-way yardage/reception price verified while he returns from knee injury; do not infer line."
+      }
+    ],
+    "newQualifyingStraightBets": 0,
+    "exposureCashFromUserConfirmedWeek5Tickets": 0
+  },
+  "controls": {
+    "noSportsbookLinesInvented": true,
+    "unverifiedInApp": true,
+    "noNewGrokOverwrite": true,
+    "noWeek5UserTicketRecorded": true,
+    "clv": "Unknown without closing book prices; retained null.",
+    "notifications": false
+  },
+  "next": "Friday final Eagles/Jags injury designations and other Week 5 final reports, then London 8:00 ET Sunday inactives; Sunday 11:30 ET inactives for regular 1:00 ET window.",
+  "sources": [
+    "https://www.buccaneers.com/news/bucs-win-dallas-cowboys-week-5-2026-score-24-16",
+    "https://www.footballdb.com/games/boxscore/tampa-bay-buccaneers-vs-dallas-cowboys-2026100801",
+    "https://www.nfl.com/players/javonte-williams/stats/logs/2026/",
+    "https://www.philadelphiaeagles.com/news/eagles-at-jaguars-injury-report-2026-nfl-week-5-london-international-game-saquon-barkley-devonta-smith",
+    "https://legionreport.com/eagles-vs-jaguars-player-props/",
+    "https://www.fantasypros.com/nfl/notes/454861/will-shipley-2026-week-5-outlook.php",
+    "https://statchasers.com/redraft-command/who-should-i-start/will-shipley",
+    "https://propsims.com/games/phi-at-jac/"
+  ]
+}
