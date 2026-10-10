@@ -1,0 +1,205 @@
+{
+  "capturedAtEt": "2026-10-10 02:18:08 ET",
+  "capturedAtUtc": "2026-10-10T06:18:08Z",
+  "nflWeek": 5,
+  "scope": "NFL player props only",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-10-10T02-25-02Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "completedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false
+  },
+  "verifiedInformation": [
+    {
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-10-09 16:30",
+      "detail": "Philadelphia Eagles announced Carson Steele and Jake Majors signed to active roster, with Dameon Pierce also active after Barkley and Bigsby injuries. Third RB and replacement center both reduce reliability of any concentrated Shipley volume thesis.",
+      "source": "https://www.philadelphiaeagles.com/news/eagles-sign-jake-majors-and-carson-steele",
+      "newSincePreviousCheckpoint": false
+    },
+    {
+      "classification": "confirmed_fact",
+      "publishedAtEt": "2026-10-09",
+      "detail": "Raiders final injury report has Jeanty questionable (FP Wednesday, LP Thursday, DNP Friday), Bowers FP Friday, two Raiders WRs OUT; NE CBs Gonzalez, Davis, Canada, Prunty OUT. No Saturday official inactive.",
+      "source": "https://www.raiders.com/news/las-vegas-raiders-new-england-patriots-week-5-injury-report-2026",
+      "newSincePreviousCheckpoint": false
+    },
+    {
+      "classification": "attributed_report",
+      "publishedAtEt": "2026-10-09 15:49",
+      "detail": "Broncos intend to place Pat Bryant on short-term IR; already out for Week 5. An added roster move, not a new market-qualifying prop catalyst.",
+      "source": "https://www.milehighreport.com/denver-broncos-injuries/188133/denver-broncos-pat-bryant-short-term-injured-reserve",
+      "newSincePreviousCheckpoint": false
+    }
+  ],
+  "quotes": [
+    {
+      "game": "LV@NE",
+      "player": "Brock Bowers",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "BetMGM via Covers",
+      "line": 6.5,
+      "odds": -115,
+      "sourceUpdatedAtEt": "2026-10-10 01:32",
+      "breakEvenProbability": 0.534884,
+      "consensusLine": 6.5,
+      "noVigProbability": null,
+      "estimatedFairProbability": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": null,
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signals": [
+        "TARGET_SHARE",
+        "DEFENSIVE_INJURY",
+        "PROJECTION_DISAGREEMENT",
+        "MARKET_MOVE"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "LV_PASS_CATCHERS_NE_CBS_OUT",
+      "reason": "Same best listed sportsbook/line/odds as 22:25 ET prior checkpoint; no verified new fair-probability edge. Do not chase earlier unverified +100."
+    },
+    {
+      "game": "LV@NE",
+      "player": "Brock Bowers",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "BetRivers via Covers",
+      "line": 73.5,
+      "odds": -113,
+      "oppositeSideLine": 73.5,
+      "oppositeSideOdds": -118,
+      "sourceUpdatedAtEt": "2026-10-10 01:32",
+      "noVigProbability": 0.497,
+      "consensusLine": "73.5-74.5",
+      "estimatedFairProbability": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": null,
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signals": [
+        "TARGET_SHARE",
+        "DEFENSIVE_INJURY",
+        "PROJECTION_DISAGREEMENT",
+        "MARKET_MOVE"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "LV_PASS_CATCHERS_NE_CBS_OUT",
+      "reason": "No improvement versus prior market; player receiving projection range overlaps book. Best easier threshold 70.5 costs -135 Fanatics, 72.5 -115 BetMGM; none verified live in app."
+    },
+    {
+      "game": "PHI@JAX",
+      "player": "Will Shipley",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "FanDuel via LegionReport",
+      "line": 2.5,
+      "odds": -108,
+      "sourceObservedAtEt": "2026-10-10 02:18",
+      "executionVerified": false,
+      "consensusLine": 2.5,
+      "estimatedFairProbability": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": null,
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SATURDAY",
+      "signals": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "ROUTE_SHARE",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "PHI_BARKLEY_ABSENCE_BACKFIELD",
+      "reason": "Earlier public BetMGM +100 reference was not executable verified and differs by book; latest aggregator shows -108 best common 2.5, still no independent pass-down route/target-share proof of a qualifying edge. Pierce/Steele on roster."
+    },
+    {
+      "game": "PHI@JAX",
+      "player": "Will Shipley",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "sportsbook": "BetMGM via LegionReport",
+      "line": 10.5,
+      "odds": -105,
+      "sourceObservedAtEt": "2026-10-10 02:18",
+      "executionVerified": false,
+      "consensusLine": 10.5,
+      "estimatedFairProbability": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": null,
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SATURDAY",
+      "signals": [
+        "INJURY",
+        "RUSH_SHARE",
+        "GAME_SCRIPT",
+        "OL_INJURY",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "PHI_BARKLEY_ABSENCE_BACKFIELD",
+      "reason": "Unchanged public quote; independent attempts projections differ (9.8 vs 13.9), and backup RB rotation/third-string center make a model fair probability unstable."
+    },
+    {
+      "game": "LV@NE",
+      "player": "Mike Washington Jr.",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "sportsbook": null,
+      "line": null,
+      "odds": null,
+      "decision": "WATCH",
+      "steamState": null,
+      "entryTiming": "SATURDAY",
+      "signals": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "RUSH_SHARE"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "LV_JEANTY_STATUS",
+      "reason": "Contingent on Jeanty Sunday inactive; no priced rushing prop located in latest aggregator, no stale 25.5 carry forward."
+    }
+  ],
+  "accounting": {
+    "confirmedWeek5StraightBets": 0,
+    "confirmedWeek5Parlays": 0,
+    "confirmedWeek5OpenRiskCash": 0,
+    "lineClv": null,
+    "priceClv": null,
+    "combinedClv": null,
+    "brier": null,
+    "weeklyAttribution": "Not yet due; unchanged."
+  },
+  "result": {
+    "qualifyingNewBet": false,
+    "materialActionForExistingTickets": false,
+    "materialNewNewsSincePriorArchive": false,
+    "notifyUser": false,
+    "reason": "No new eligible Grok pass, no new official status change requiring a bet revision, no verified fresh price with supported >=4-5pp edge. Keep precommitted no-chase decisions."
+  },
+  "nextCheckpoints": [
+    "Saturday injury/transaction/role and current price sweep",
+    "Sunday London official inactives around 08:00 ET; market reviews at 09:00/09:15 ET",
+    "Sunday regular 08:00,09:00,10:00,11:30,12:30 ET",
+    "late afternoon/SNF/MNF mini-slates"
+  ]
+}
