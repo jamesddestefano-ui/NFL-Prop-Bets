@@ -1,0 +1,280 @@
+{
+  "capturedAtEt": "2026-10-09 22:25:02 ET",
+  "capturedAtUtc": "2026-10-10T02:25:02Z",
+  "nflWeek": 5,
+  "scope": "NFL player props only",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-10-10T01-24-29Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "note": "No new completedAt; Week 1 feed, not current sportsbook truth."
+  },
+  "intelligenceSources": [
+    {
+      "classification": "confirmed_fact",
+      "details": "Friday official Week 5 designations remain operative: Saquon Barkley, DeVonta Smith, Marquise Brown, Drew Kendall OUT for PHI; Jeanty QUESTIONABLE LV, Lamar Jackson OUT BAL; New England cornerbacks depleted. No independently verified new official late-night status change.",
+      "urls": [
+        "https://fantasy-www.nfl.com/news/nfl-week-5-injury-report-player-statuses-for-all-15-games",
+        "https://www.raiders.com/"
+      ]
+    },
+    {
+      "classification": "attributed_report",
+      "details": "Barkley absence should increase Shipley's rushing opportunity, but third-down/two-minute and route share not sufficiently established. Raiders coach suggests Mike Washington Jr. starts if Jeanty ruled out.",
+      "urls": [
+        "https://www.fantasypros.com/",
+        "https://legionreport.com/eagles-vs-jaguars-player-props/"
+      ]
+    },
+    {
+      "classification": "model_projection",
+      "details": "Shipley carry estimates materially diverge; ~9.8 from FantasySP and ~13.9 from Sleeper references (not probability estimates). Neither justifies a bet from means alone.",
+      "urls": [
+        "https://www.fantasysp.com/",
+        "https://sleeper.com/"
+      ]
+    },
+    {
+      "classification": "market_aggregator_not_execution_verified",
+      "details": "LegionReport BALLDONTLIE-derived public sportsbook comparisons state refresh every 10 minutes but offer no per-book change timestamp. These values are snapshots, not confirmed live app/executable slips.",
+      "urls": [
+        "https://legionreport.com/eagles-vs-jaguars-player-props/",
+        "https://legionreport.com/raiders-vs-patriots-player-props/"
+      ]
+    }
+  ],
+  "evaluatedCandidates": [
+    {
+      "game": "LV@NE",
+      "player": "Brock Bowers",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "line": 6.5,
+      "odds": -115,
+      "sportsbook": "BetMGM (public LegionReport board)",
+      "bestMarketLine": 6.5,
+      "consensusLine": 6.5,
+      "marketImpliedProbability": 0.534884,
+      "noVigProbability": null,
+      "estimatedFairProbability": null,
+      "estimatedEdge": null,
+      "edgeBucket": null,
+      "entryTiming": "SATURDAY_APPROACHING",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "signalTags": [
+        "MARKET_MOVE",
+        "TARGET_SHARE",
+        "DEFENSIVE_INJURY",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "LV_PASS_CATCHERS_NE_CBS_OUT",
+      "reason": "Quote matches previous 21:24 ET checkpoint; earlier +100 source was never execution-verified. Projection consensus/market cannot substantiate >=4-5 pp edge. No fresh catalyst, no chasing."
+    },
+    {
+      "game": "LV@NE",
+      "player": "Brock Bowers",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "line": 73.5,
+      "odds": -113,
+      "sportsbook": "BetRivers (public LegionReport board)",
+      "bestMarketLine": 73.5,
+      "consensusLine": "approximately 73.5-74.5",
+      "marketImpliedProbability": 0.530516,
+      "noVigProbability": null,
+      "estimatedFairProbability": null,
+      "estimatedEdge": null,
+      "edgeBucket": null,
+      "entryTiming": "SATURDAY_APPROACHING",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "signalTags": [
+        "TARGET_SHARE",
+        "DEFENSIVE_INJURY",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "LV_PASS_CATCHERS_NE_CBS_OUT",
+      "reason": "Public threshold and price no more attractive than latest archive; estimates vary substantially; keep at PASS."
+    },
+    {
+      "game": "PHI@JAX",
+      "player": "Will Shipley",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "line": 2.5,
+      "odds": 100,
+      "sportsbook": "BetMGM (public LegionReport board)",
+      "bestMarketLine": 2.5,
+      "consensusLine": 2.5,
+      "marketImpliedProbability": 0.5,
+      "noVigProbability": null,
+      "estimatedFairProbability": null,
+      "estimatedEdge": null,
+      "edgeBucket": null,
+      "entryTiming": "SATURDAY_APPROACHING",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "ROUTE_SHARE",
+        "OL_INJURY",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "PHI_BARKLEY_ABSENCE_BACKFIELD",
+      "reason": "Better displayed public number than prior bet365 -105 reference but across books, no verified new movement or live app slip. Small historical passing role and unknown pass-down route share preclude confident 4-5 pp price-adjusted edge. Other backs promoted; pricing warrants Sunday inactives and participation check."
+    },
+    {
+      "game": "PHI@JAX",
+      "player": "Will Shipley",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "line": 10.5,
+      "odds": -105,
+      "sportsbook": "BetMGM (public LegionReport board)",
+      "bestMarketLine": 10.5,
+      "consensusLine": 10.5,
+      "marketImpliedProbability": 0.512195,
+      "noVigProbability": null,
+      "estimatedFairProbability": null,
+      "estimatedEdge": null,
+      "edgeBucket": null,
+      "entryTiming": "SATURDAY_APPROACHING",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "RUSH_SHARE",
+        "GAME_SCRIPT",
+        "OL_INJURY",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "PHI_BARKLEY_ABSENCE_BACKFIELD",
+      "reason": "Starter injury supports elevated volume, but cited 9.8 and 13.9 rush-attempt means conflict; no verified fair probability at 10.5, and backups could rotate. Price-gated watch only."
+    },
+    {
+      "game": "LV@NE",
+      "player": "Mike Washington Jr.",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "line": null,
+      "odds": null,
+      "sportsbook": null,
+      "bestMarketLine": null,
+      "consensusLine": null,
+      "marketImpliedProbability": null,
+      "estimatedFairProbability": null,
+      "estimatedEdge": null,
+      "edgeBucket": null,
+      "entryTiming": "SATURDAY_APPROACHING",
+      "decision": "WATCH",
+      "steamState": null,
+      "signalTags": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "RUSH_SHARE",
+        "OL_INJURY"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "LV_JEANTY_STATUS",
+      "reason": "Jeanty remains QUESTIONABLE, not OUT; refreshed public Legion market no longer displays Washington rushing yards. Do not carry an older 25.5 reference forward as current. Reprice from scratch only if Jeanty ruled inactive."
+    },
+    {
+      "game": "PHI@JAX",
+      "player": "Jalen Hurts",
+      "propType": "PASS_YARDS",
+      "side": "OVER",
+      "line": 186.5,
+      "odds": -114,
+      "sportsbook": "FanDuel (public LegionReport board)",
+      "bestMarketLine": 186.5,
+      "consensusLine": null,
+      "marketImpliedProbability": 0.53271,
+      "noVigProbability": null,
+      "estimatedFairProbability": null,
+      "estimatedEdge": null,
+      "edgeBucket": null,
+      "entryTiming": "SATURDAY_APPROACHING",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": [
+        "INJURY",
+        "OL_INJURY",
+        "PACE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "PHI_PASS_GAME_INJURY_VACUUM",
+      "reason": "Barkley and multiple pass-catchers out; backup center; market line differs from prior models that included unavailable starters. No reprojected pass distribution; cannot recommend under/over."
+    }
+  ],
+  "weather": [
+    {
+      "game": "HOU@TEN",
+      "classification": "forecast_not_confirmed_game_conditions",
+      "details": "NWS Nashville Friday issued rain/gust alerts for remnants of Hurricane Isaias this weekend, with heaviest effects before Sunday; one stadium-hour forecast models around 10-11 mph game-hour winds, not 45 mph. Do not extrapolate flood watch to a Sunday passing-under bet.",
+      "sources": [
+        "https://www.weather.gov/ohx",
+        "https://weatherfootball.com/"
+      ]
+    },
+    {
+      "game": "CLE@NYJ",
+      "classification": "forecast_uncertainty",
+      "details": "MetLife forecasts diverge on Sunday rain probability, with modest 10 mph sustained wind reported by one model. Sunday morning stadium-hour refresh required; no automated weather Under.",
+      "sources": [
+        "https://weatherqb.com/",
+        "https://www.weather.gov/"
+      ]
+    }
+  ],
+  "accounting": {
+    "confirmedWeek5StraightBets": 0,
+    "confirmedWeek5Parlays": 0,
+    "confirmedWeek5OpenRiskCash": 0,
+    "lineCLV": null,
+    "priceCLV": null,
+    "combinedCLV": null,
+    "brier": null,
+    "weeklyAttribution": "Pending; prior TNF paper outcomes stay separate from user tickets.",
+    "betHistoryChanged": false,
+    "parlayHistoryChanged": false
+  },
+  "result": {
+    "qualifyingNewBet": false,
+    "materialActionForExistingTickets": false,
+    "materialFreshNewsSincePriorArchive": false,
+    "notifyUser": false,
+    "reason": "No user-confirmed Week 5 tickets; key market lines unchanged or unverified across sportsbooks and projections remain unresolved. No verified current line/probability combination clears PRIME threshold."
+  },
+  "nextCheckpoints": [
+    "Saturday injury/practice and market sweep",
+    "Sunday 08:00 ET London official inactives",
+    "Sunday 09:00 and 09:15 ET London prices",
+    "Sunday 08:00,09:00,10:00,11:30,12:30 ET main slate checks",
+    "Late-window, SNF, MNF independent repricing"
+  ]
+}
