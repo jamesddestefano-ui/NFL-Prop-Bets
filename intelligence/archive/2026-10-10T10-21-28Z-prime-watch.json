@@ -1,0 +1,232 @@
+{
+  "capturedAtEt": "2026-10-10 06:21:28 ET",
+  "capturedAtUtc": "2026-10-10T10:21:28Z",
+  "nflWeek": 5,
+  "branch": "main",
+  "scope": "NFL player props only",
+  "priorArchive": "intelligence/archive/2026-10-10T06-18-08Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false
+  },
+  "sourceHierarchy": [
+    {
+      "classification": "confirmed_fact",
+      "detail": "Philadelphia Eagles Friday final report: Barkley, DeVonta Smith, Marquise Brown, Drew Kendall OUT; Goedert available; Philly signed RB Carson Steele and center Jake Majors, Dameon Pierce also available. No new Saturday change corroborated.",
+      "url": "https://www.philadelphiaeagles.com/news/eagles-at-jaguars-injury-report-2026-nfl-week-5-london-international-game-saquon-barkley-devonta-smith"
+    },
+    {
+      "classification": "confirmed_fact",
+      "detail": "Raiders Friday final injury report: Jeanty questionable with ankle/foot problem, Bowers practiced fully; New England ruled four CBs out; Sunday inactives not yet available.",
+      "url": "https://www.raiders.com/news/las-vegas-raiders-new-england-patriots-week-5-injury-report-2026"
+    },
+    {
+      "classification": "model_projection",
+      "detail": "Shipley attempts projections split ~9.8 FantasySP vs 13.9 Sleeper. FantasyPros Derek Brown estimates 12-15 TOUCHES, not carries, with Jacksonville poor RB efficiency matchup. A mean projection is not a probability distribution.",
+      "url": "https://www.fantasypros.com/nfl/notes/454861/will-shipley-2026-week-5-outlook.php"
+    }
+  ],
+  "observedQuotes": [
+    {
+      "player": "Will Shipley",
+      "game": "PHI@JAX",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "line": 9.5,
+      "odds": -108,
+      "sportsbook": "BetVictor via Covers",
+      "sourceUpdatedAtEt": "2026-10-10 05:35",
+      "observedAtEt": "2026-10-10 06:21",
+      "impliedProbability": 0.519231,
+      "consensusLine": "9.5-10.5",
+      "noVigProbability": null,
+      "fairProbability": null,
+      "edgeBucket": null,
+      "entryTiming": "SATURDAY",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signals": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "RUSH_SHARE",
+        "GAME_SCRIPT",
+        "OL_INJURY",
+        "PROJECTION_DISAGREEMENT",
+        "MARKET_MOVE"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "PHI_BARKLEY_ABSENCE_BACKFIELD",
+      "reason": "A full attempt easier than the prior 10.5 -105 U.S. aggregator, but BetVictor may not be an executable NJ book, and conflicting carry projections plus backfield rotation do not establish a robust >=4-5pp edge. Bet365 shows 9.5 -115; confirm any U.S. quote in app."
+    },
+    {
+      "player": "Will Shipley",
+      "game": "PHI@JAX",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "line": 9.5,
+      "odds": -115,
+      "sportsbook": "bet365 via Covers",
+      "sourceUpdatedAtEt": "2026-10-10 05:35",
+      "observedAtEt": "2026-10-10 06:21",
+      "impliedProbability": 0.534884,
+      "consensusLine": "9.5-10.5",
+      "noVigProbability": null,
+      "fairProbability": null,
+      "edgeBucket": null,
+      "entryTiming": "SATURDAY",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signals": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "RUSH_SHARE",
+        "GAME_SCRIPT",
+        "OL_INJURY",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "PHI_BARKLEY_ABSENCE_BACKFIELD",
+      "reason": "Better threshold than previous 10.5 but -115 price and uncertain workload split preclude a vetted wager. No app verification."
+    },
+    {
+      "player": "Will Shipley",
+      "game": "PHI@JAX",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "line": 2.5,
+      "odds": -105,
+      "sportsbook": "bet365 via Covers",
+      "sourceUpdatedAtEt": "2026-10-10 05:35",
+      "observedAtEt": "2026-10-10 06:21",
+      "impliedProbability": 0.512195,
+      "consensusLine": 2.5,
+      "noVigProbability": null,
+      "fairProbability": null,
+      "edgeBucket": null,
+      "entryTiming": "SATURDAY",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signals": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "ROUTE_SHARE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "PHI_BARKLEY_ABSENCE_BACKFIELD",
+      "reason": "Similar to prior bet365 -105 reference; no verified 3+ catch target/route role, not a new actionable edge."
+    },
+    {
+      "player": "Brock Bowers",
+      "game": "LV@NE",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "line": 6.5,
+      "odds": -115,
+      "sportsbook": "BetMGM via LegionReport",
+      "sourceObservedAtEt": "2026-10-10 06:21",
+      "impliedProbability": 0.534884,
+      "consensusLine": 6.5,
+      "noVigProbability": null,
+      "fairProbability": null,
+      "edgeBucket": null,
+      "entryTiming": "SATURDAY",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "signals": [
+        "TARGET_SHARE",
+        "DEFENSIVE_INJURY",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "LV_PASS_CATCHERS_NE_CBS_OUT",
+      "reason": "Same prior best listed 6.5 -115; Covers 05:05 ET also shows a worse William Hill -120, no qualified edge or favorable move."
+    },
+    {
+      "player": "Brock Bowers",
+      "game": "LV@NE",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "line": 74.5,
+      "odds": -115,
+      "sportsbook": "bet365 via Covers",
+      "sourceUpdatedAtEt": "2026-10-10 05:05",
+      "impliedProbability": 0.534884,
+      "consensusLine": "73.5-74.5",
+      "noVigProbability": null,
+      "fairProbability": null,
+      "edgeBucket": null,
+      "entryTiming": "SATURDAY",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "signals": [
+        "TARGET_SHARE",
+        "DEFENSIVE_INJURY",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "LV_PASS_CATCHERS_NE_CBS_OUT",
+      "reason": "Worse yard threshold than prior BetRivers 73.5 -113, which remains listed; no fair probability establishes an edge at either."
+    },
+    {
+      "player": "Mike Washington Jr.",
+      "game": "LV@NE",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "line": null,
+      "odds": null,
+      "sportsbook": null,
+      "entryTiming": "SATURDAY",
+      "decision": "WATCH",
+      "signals": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "RUSH_SHARE"
+      ],
+      "thesisId": "LV_JEANTY_STATUS",
+      "reason": "No priced market found on latest public Raiders board. Conditional on Jeanty inactive, not yet confirmed."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.covers.com/sport/football/nfl/players/297383/will-shipley",
+    "https://www.covers.com/sport/football/nfl/players/296310/brock-bowers",
+    "https://legionreport.com/eagles-vs-jaguars-player-props/",
+    "https://legionreport.com/raiders-vs-patriots-player-props/"
+  ],
+  "accounting": {
+    "confirmedWeek5StraightBets": 0,
+    "confirmedWeek5Parlays": 0,
+    "weeklyOpenRiskCash": 0,
+    "LINE_CLV": null,
+    "PRICE_CLV": null,
+    "COMBINED_CLV": null,
+    "brier": null,
+    "weeklyAttribution": "Not due yet; no Week 5 settlement"
+  },
+  "result": {
+    "qualifyingNewBet": false,
+    "materialActionForExistingTickets": false,
+    "materialNewNewsSincePriorArchive": false,
+    "notifyUser": false,
+    "reason": "Fresh 05:05/05:35 ET public prices did not produce independent >=4-5pp fair-probability edge or executable-app confirmation; no change in official designations or Grok. Do not chase."
+  },
+  "nextCheckpoints": [
+    "Saturday afternoon practice/news and fresh app price sweep",
+    "Sunday London 08:00 ET official inactives and 09:00/09:15 ET price checks",
+    "Sunday normal 08:00,09:00,10:00,11:30,12:30 ET checks; late/SNF/MNF mini-slates"
+  ]
+}
