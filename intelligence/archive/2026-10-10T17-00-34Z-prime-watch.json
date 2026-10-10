@@ -1,0 +1,229 @@
+{
+  "capturedAtEt": "2026-10-10 13:00:34 ET",
+  "capturedAtUtc": "2026-10-10T17:00:34Z",
+  "nflWeek": 5,
+  "scope": "NFL player props only",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-10-10T10-21-28Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false
+  },
+  "materialNews": [
+    {
+      "classification": "attributed_report",
+      "reportedBy": "Adam Schefter (ESPN), relayed by CBS Sports and RotoWire",
+      "publishedAtEt": "2026-10-10 11:25 ET (CBS report)",
+      "player": "Marvin Harrison Jr.",
+      "team": "ARI",
+      "game": "DET@ARI",
+      "detail": "Cardinals reportedly told Harrison he will be inactive Sunday, October 11, while the club finalizes a trade. Sunday official 90-minute inactive list has not yet been issued; trade is not yet official.",
+      "sources": [
+        "https://www.cbssports.com/nfl/news/cardinals-marvin-harrison-jr-trade-2026/",
+        "https://www.rotowire.com/football/headlines/marvin-harrison-news-set-to-miss-sundays-game-641735"
+      ],
+      "newSincePriorArchive": true,
+      "impact": "Remove small (~8.8% / 13 of ~148) Harrison season target share in conditional model, with potential marginal extra work for Trey McBride, Michael Wilson, Kendrick Bourne. Do not treat it as automatic large target vacuum: McBride ~46 targets (31.1%), Wilson ~44 (29.7%) through 4 games. A top-line production jump beyond market adjustment cannot be assumed."
+    }
+  ],
+  "observedMarkets": [
+    {
+      "player": "Trey McBride",
+      "game": "DET@ARI",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers",
+      "line": 7.5,
+      "odds": -115,
+      "impliedProbability": 0.534884,
+      "sourceUpdatedAtEt": "2026-10-10 12:56",
+      "observedAtEt": "2026-10-10 13:00",
+      "consensus": "7.5-8.5 by book; BetMGM O7.5 -140, DK O8.5 +109; no-vig same-book opposite price not available",
+      "modelProjections": "Dimers 7.2 (Oct 7); ESPN 7.6; Fantasy Info Central 8.7 (older); 2026 8.25 actual through 4 games",
+      "fairProbability": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": null,
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SATURDAY",
+      "signals": [
+        "INJURY",
+        "TARGET_SHARE",
+        "DEFENSIVE_INJURY",
+        "GAME_SCRIPT",
+        "PROJECTION_DISAGREEMENT",
+        "MARKET_MOVE"
+      ],
+      "correlation": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "ARI_MHJ_REPORTED_INACTIVE_TARGETS",
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "reason": "Despite better -115 bet365 quote versus books -140 at 7.5, pre-inactive projections span 7.2-8.7, and no defensible >=4-5pp edge after distribution and trade uncertainty. Source is public price, not live app execution.",
+      "sourceUrl": "https://www.covers.com/sport/football/nfl/players/248444/trey-mcbride"
+    },
+    {
+      "player": "Trey McBride",
+      "game": "DET@ARI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers",
+      "line": 78.5,
+      "odds": -115,
+      "impliedProbability": 0.534884,
+      "sourceUpdatedAtEt": "2026-10-10 12:56",
+      "observedAtEt": "2026-10-10 13:00",
+      "consensus": "78.5-85.5 across books; DK O84.5 -112, BetMGM O81.5 -115",
+      "modelProjections": "Dimers 78.4, Fantasy Info Central 68.4; major disagreement",
+      "fairProbability": null,
+      "estimatedEdgePct": null,
+      "edgeBucket": null,
+      "decision": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SATURDAY",
+      "signals": [
+        "TARGET_SHARE",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT",
+        "INJURY"
+      ],
+      "correlation": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "ARI_MHJ_REPORTED_INACTIVE_TARGETS",
+      "reason": "No independent quantified advantage at current threshold; do not chase 84.5. Distinguish bookmaker line split and unverified app availability.",
+      "sourceUrl": "https://www.covers.com/sport/football/nfl/players/248444/trey-mcbride"
+    },
+    {
+      "player": "Michael Wilson",
+      "game": "DET@ARI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "DraftKings via LegionReport",
+      "line": 79.5,
+      "odds": -111,
+      "impliedProbability": 0.526066,
+      "observedAtEt": "2026-10-10 13:00",
+      "consensus": "75.5-79.5 recent aggregator observations, no uniform same-timestamp sportsbook board",
+      "priorReference": "BetMGM 71.5 on Oct 7 article (NOT current); LegionReport earlier 75.5",
+      "estimatedEdgePct": null,
+      "edgeBucket": null,
+      "decision": "WATCH",
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signals": [
+        "TARGET_SHARE",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT",
+        "INJURY"
+      ],
+      "correlation": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "ARI_MHJ_REPORTED_INACTIVE_TARGETS",
+      "reason": "Current listed line is eight yards above Oct 7 reference, so do not transfer stale earlier Over thesis; role already 44 targets/25 catches before Harrison report. Cannot isolate precise causal share of movement; no vetted fair distribution or app confirmation.",
+      "sourceUrl": "https://legionreport.com/lions-vs-cardinals-player-props/"
+    },
+    {
+      "player": "Michael Wilson",
+      "game": "DET@ARI",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "FanDuel via LegionReport",
+      "line": 6.5,
+      "odds": -114,
+      "impliedProbability": 0.53271,
+      "observedAtEt": "2026-10-10 13:00",
+      "consensus": "6.5 main line; no-vig opposite side same-book unavailable",
+      "estimatedEdgePct": null,
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "entryTiming": "SATURDAY",
+      "signals": [
+        "TARGET_SHARE",
+        "INJURY",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlation": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "ARI_MHJ_REPORTED_INACTIVE_TARGETS",
+      "reason": "6.25 receptions/game so far and 29.7% targets; no robust incremental role distribution or >=4-5 point edge; public aggregator only.",
+      "sourceUrl": "https://legionreport.com/lions-vs-cardinals-player-props/"
+    },
+    {
+      "player": "Kendrick Bourne",
+      "game": "DET@ARI",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "DraftKings via LegionReport",
+      "line": 31.5,
+      "odds": -113,
+      "impliedProbability": 0.530516,
+      "observedAtEt": "2026-10-10 13:00",
+      "priorReference": "LegionReport earlier 24.5, not contemporaneous; current after new report 31.5",
+      "decision": "WATCH",
+      "steamState": "PASS_AFTER_MOVE",
+      "entryTiming": "SATURDAY",
+      "signals": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "MARKET_MOVE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlation": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "ARI_MHJ_REPORTED_INACTIVE_TARGETS",
+      "reason": "Receiving yard line repriced upward 7 yards vs earlier aggregator, no independent new fair line. Do not chase. No sportsbook execution confirmation.",
+      "sourceUrl": "https://legionreport.com/lions-vs-cardinals-player-props/"
+    }
+  ],
+  "carryForward": [
+    {
+      "player": "Will Shipley",
+      "game": "PHI@JAX",
+      "markets": "RUSH_ATTEMPTS O9.5 -115 bet365; RECEPTIONS O2.5 -110 bet365",
+      "latestPriceUpdatedEt": "2026-10-10 12:54",
+      "decision": "WATCH",
+      "reason": "Official Barkley/Smith OUT already priced, 9.8 vs 13.9 attempt projections split; Pierce/Steele active on roster. Receptions Over juice worsened -105 -> -110 with no new role evidence."
+    },
+    {
+      "player": "Brock Bowers",
+      "game": "LV@NE",
+      "market": "RECEPTIONS O6.5 -115 BetMGM",
+      "latestPriceUpdatedEt": "2026-10-10 12:53",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "Unchanged best number versus overnight; model disagreement/no new qualifier. Jeanty still questionable, no official inactive."
+    }
+  ],
+  "accounting": {
+    "week5StraightBetsConfirmed": 0,
+    "week5ParlaysConfirmed": 0,
+    "openRiskCash": 0,
+    "lineClv": null,
+    "priceClv": null,
+    "combinedClv": null,
+    "brier": null,
+    "weeklyAttribution": "pending games"
+  },
+  "result": {
+    "materialNewNewsSincePriorArchive": true,
+    "qualifyingNewBet": false,
+    "materialActionForExistingTickets": false,
+    "notifyUser": true,
+    "reason": "First verified Saturday report that Marvin Harrison Jr. is expected inactive due to an imminent trade. New Cardinals receiving-market WATCH/PASS entries; no bet satisfies robust price-qualified edge. Alert is news/thesis change, not a bet."
+  },
+  "nextCheckpoints": [
+    "Saturday Cardinals team announcement and sportsbook repricing",
+    "Sunday London 08:00 ET inactives, 09:00 pregame price checks",
+    "Sunday 11:30 ET early NFL official inactives; 12:30 final review",
+    "Sunday 16:25 ET DET@ARI late game official inactives and final repricing"
+  ]
+}
