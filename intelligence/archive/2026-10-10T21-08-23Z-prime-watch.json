@@ -1,0 +1,51 @@
+{
+  "capturedAtEt": "2026-10-10 17:08 ET",
+  "nflWeek": 5,
+  "scope": "NFL player props only",
+  "priorArchive": "intelligence/archive/2026-10-10T17-00-34Z-prime-watch.json",
+  "grok": {
+    "status": "live",
+    "completedAt": "2026-09-12T17:05:00Z",
+    "newPass": false
+  },
+  "material": [
+    {
+      "type": "market_move",
+      "player": "Trey McBride",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers",
+      "prior": {
+        "line": 7.5,
+        "odds": -115,
+        "updatedEt": "2026-10-10 12:56"
+      },
+      "now": {
+        "line": 7.5,
+        "odds": -145,
+        "updatedEt": "2026-10-10 16:39"
+      },
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "fairProbability": null,
+      "source": "https://www.covers.com/sport/football/nfl/players/248444/trey-mcbride"
+    },
+    {
+      "type": "official_injury",
+      "team": "NE",
+      "detail": "Mack Hollins placed on injured reserve 16:00 ET; prior Week 5 OUT unchanged.",
+      "source": "https://www.patriots.com/news/patriots-activate-s-brenden-schooler-to-the-53-man-roster-place-fb-reggie-gilliam-and-wr-mack-hollins-on-injured-reserve-make-additional-roster-moves"
+    },
+    {
+      "type": "official_injury",
+      "team": "BUF",
+      "detail": "Joshua Palmer OUT and DJ Moore QUESTIONABLE for Monday; conditional Kincaid/Shakir WATCH.",
+      "source": "https://www.buffalobills.com/news/buffalo-bills-injury-report-vs-rams-week-5"
+    }
+  ],
+  "result": {
+    "qualifiedNewBets": 0,
+    "week5ConfirmedBets": 0,
+    "notify": true
+  }
+}
