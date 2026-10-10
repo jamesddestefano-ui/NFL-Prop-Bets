@@ -1,0 +1,233 @@
+{
+  "capturedAtEt": "2026-10-09 21:24:29 ET",
+  "capturedAtUtc": "2026-10-10T01:24:29Z",
+  "nflWeek": 5,
+  "scope": "NFL player props only",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-10-09T22-49-40Z-prime-watch.json",
+  "grok": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "priorProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "reason": "No change in completedAt versus compact index and most recent immutable archive; Grok feed is Week 1 and not present market truth."
+  },
+  "officialNews": {
+    "classification": "confirmed_fact",
+    "source": "https://fantasy-www.nfl.com/news/nfl-week-5-injury-report-player-statuses-for-all-15-games",
+    "sourceUpdatedEt": "2026-10-09 16:49 ET",
+    "sincePriorArchive": "No newly verified NFL official game designations material to a fresh wager. Friday statuses including Barkley/Smith OUT, Jeanty QUESTIONABLE, Lamar OUT, Monangai OUT, Patriots depleted secondary were already evaluated."
+  },
+  "materialMarketUpdates": [
+    {
+      "game": "LV@NE",
+      "player": "Brock Bowers",
+      "propType": "RECEPTIONS",
+      "market": "Receptions",
+      "side": "OVER",
+      "priorPublicReference": {
+        "book": "DraftKings via LegionReport",
+        "line": 6.5,
+        "odds": "+100",
+        "timestampEt": "2026-10-09 14:36",
+        "executionVerified": false
+      },
+      "currentPublicQuotes": [
+        {
+          "book": "BetMGM",
+          "line": 6.5,
+          "odds": -115
+        },
+        {
+          "book": "DraftKings",
+          "line": 6.5,
+          "odds": -123,
+          "oppositeSideLine": 6.5,
+          "oppositeSideOdds": -104,
+          "noVigOverProbability": 0.519675
+        },
+        {
+          "book": "FanDuel",
+          "line": 6.5,
+          "odds": -132,
+          "oppositeSideLine": 6.5,
+          "oppositeSideOdds": 100,
+          "noVigOverProbability": 0.532258
+        }
+      ],
+      "bestOver": {
+        "book": "BetMGM",
+        "line": 6.5,
+        "odds": -115,
+        "breakEvenOverProbability": 0.534884
+      },
+      "consensus": "6.5 receptions, Over -120 to -135 at most listed books",
+      "marketUpdatedEt": "2026-10-09 19:54",
+      "source": "https://www.covers.com/sport/football/nfl/players/296310/brock-bowers",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "independentModels": "Published projections materially disagree around 6.0-6.8 receptions; no verified >=4-5 percentage point fair-probability edge.",
+      "fairProbability": null,
+      "estimatedEdge": null,
+      "edgeBucket": null,
+      "playToLine": null,
+      "maxAcceptablePrice": null,
+      "reason": "Best current Over -115 is substantially worse than earlier unverified +100 tracker; the price change is not proof of market steam because sources differ. No buy authorization at a worse price without rebuilding usage model. No verified live sportsbook slip.",
+      "signalTags": [
+        "MARKET_MOVE",
+        "TARGET_SHARE",
+        "DEFENSIVE_INJURY",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "LV_PASS_CATCHERS_NE_CBS_OUT"
+    },
+    {
+      "game": "LV@NE",
+      "player": "Brock Bowers",
+      "propType": "RECEIVING_YARDS",
+      "market": "Receiving Yards",
+      "side": "OVER",
+      "priorPublicReference": {
+        "book": "FanDuel via LegionReport",
+        "line": 70.5,
+        "odds": -114,
+        "timestampEt": "2026-10-09 14:36",
+        "executionVerified": false
+      },
+      "currentPublicQuotes": [
+        {
+          "book": "Fanatics",
+          "line": 70.5,
+          "odds": -135
+        },
+        {
+          "book": "BetMGM",
+          "line": 72.5,
+          "odds": -115
+        },
+        {
+          "book": "FanDuel",
+          "line": 73.5,
+          "odds": -114,
+          "oppositeSideLine": 73.5,
+          "oppositeSideOdds": -114
+        },
+        {
+          "book": "BetRivers",
+          "line": 73.5,
+          "odds": -113,
+          "oppositeSideLine": 73.5,
+          "oppositeSideOdds": -118
+        },
+        {
+          "book": "DraftKings",
+          "line": 75.5,
+          "odds": -112
+        }
+      ],
+      "bestByThreshold": {
+        "book": "Fanatics",
+        "line": 70.5,
+        "odds": -135
+      },
+      "bestBalancedPrice": {
+        "book": "BetMGM",
+        "line": 72.5,
+        "odds": -115
+      },
+      "consensus": "73.5-74.5 yards",
+      "marketUpdatedEt": "2026-10-09 19:54",
+      "source": "https://www.covers.com/sport/football/nfl/players/296310/brock-bowers",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "fairProbability": null,
+      "estimatedEdge": null,
+      "edgeBucket": null,
+      "reason": "Earlier 70.5/-114 at a different unverified aggregator is not offered in this Covers snapshot; 70.5/-135 is much more costly and 72.5/-115 adds 2 yards. Projections conflict on 62-75 yards and market is not independently beaten.",
+      "signalTags": [
+        "MARKET_MOVE",
+        "DEFENSIVE_INJURY",
+        "TARGET_SHARE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "thesisId": "LV_PASS_CATCHERS_NE_CBS_OUT"
+    },
+    {
+      "game": "PHI@JAX",
+      "player": "Will Shipley",
+      "propType": "RECEPTIONS",
+      "market": "Receptions",
+      "side": "OVER",
+      "priorPublicReference": {
+        "book": "DraftKings via aggregator",
+        "line": 2.5,
+        "odds": 101,
+        "timestampEt": "2026-10-09 08:39",
+        "executionVerified": false
+      },
+      "currentPublicQuotes": [
+        {
+          "book": "bet365",
+          "line": 2.5,
+          "odds": -105
+        },
+        {
+          "book": "William Hill",
+          "line": 2.5,
+          "odds": -113
+        }
+      ],
+      "bestOver": {
+        "book": "bet365",
+        "line": 2.5,
+        "odds": -105,
+        "breakEvenProbability": 0.512195
+      },
+      "marketUpdatedEt": "2026-10-09 18:42",
+      "source": "https://www.covers.com/sport/football/nfl/players/297383/will-shipley",
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "fairProbability": null,
+      "estimatedEdge": null,
+      "edgeBucket": null,
+      "reason": "Barkley OUT confirms lead-back opportunity but four-game receiving sample 0,1,2,1 and unknown pass-down route share, reshuffled center and Jaguars front; independent updated probability and executable sportsbook slip absent. +101 prior tracker vs -105 current book does not create a bet.",
+      "signalTags": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "ROUTE_SHARE",
+        "MARKET_MOVE",
+        "OL_INJURY",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "thesisId": "PHI_BARKLEY_ABSENCE_BACKFIELD"
+    }
+  ],
+  "otherExistingWatches": [
+    "Ashton Jeanty Sunday official status and Mike Washington rushing; Bengals Ja'Marr Chase/Tee Higgins; Vikings Justin Jefferson/Jordan Addison/OL; Chargers Ladd McConkey and Denver CB absences; Eagles London 9:30 ET; Lamar Jackson backup impact; Saints Alvin Kamara; D'Andre Swift with Monangai out."
+  ],
+  "accounting": {
+    "confirmedWeek5StraightBets": 0,
+    "confirmedWeek5Parlays": 0,
+    "placedWeek5ExposureCash": 0,
+    "closingLineValue": null,
+    "priceClv": null,
+    "combinedClv": null,
+    "brier": null,
+    "weeklyAttribution": "Pending settlement; no new user-confirmed bets. Week 5 recommendations are paper-only until execution confirmation.",
+    "noUnconfirmedBetHistoryWrites": true
+  },
+  "result": {
+    "newQualifyingBet": false,
+    "materialPriceDeteriorationOnExistingWatch": true,
+    "notifyUser": true,
+    "summary": "Price-only watchlist downgrade: Bowers Over 6.5 receptions best displayed BetMGM -115 versus earlier unverified DK +100 reference; receiving yards also repriced unfavorably. Do not chase. Shipley Over 2.5 receptions remains WATCH at bet365 -105."
+  },
+  "next": "Saturday injury/usage/repricing sweep; Sunday 08:00 ET London inactives and price; 09:00/09:15 London pregame; 08:00,09:00,10:00,11:30,12:30 ET main slate; late/SNF/MNF independent."
+}
