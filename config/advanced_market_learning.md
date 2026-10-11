@@ -1,6 +1,6 @@
 # PRIME NFL PROP WATCH — Advanced Market Learning Module
 
-This module is mandatory for the NFL Player Prop learning system. It extends the base methodology with market-aware decision tracking, CLV, calibration, timing, specialization, exposure, pass/missed-bet learning, and parlay separation.
+This module is mandatory for the NFL Player Prop learning system. It extends the base methodology with market-aware decision tracking, CLV, calibration, timing, specialization, exposure, pass/missed-bet learning, and parlay separation. `config/positive_ev_framework.md` is co-controlling for market-truth verification, de-vigging, fair probability, expected ROI, conservative EV, line shopping, and bankroll-risk controls.
 
 ## 1. Price is part of the bet
 
@@ -61,6 +61,15 @@ When sufficient information exists estimate:
 - `estimated_edge`
 
 Do not recommend a wager merely because a point projection sits above/below the market line. The modeled probability advantage must be sufficient to overcome uncertainty and sportsbook pricing.
+
+
+## 4A. Expected-value gate
+
+For every candidate with sufficient market and probability information, calculate both:
+- probability edge = internal fair probability minus break-even probability
+- expected ROI = internal fair probability × decimal odds − 1
+
+A formal BET should have positive conservative EV after reasonable probability uncertainty, not merely a positive central estimate. Market quotes must meet the Market Truth Confidence requirements in `config/positive_ev_framework.md`; stale or weakly timestamped quotes cannot independently support a BET.
 
 ## 5. Edge buckets
 
