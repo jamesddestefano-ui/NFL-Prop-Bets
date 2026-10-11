@@ -59,3 +59,8 @@ These are separate dated additions. The advanced-session package, prior records,
 
 - [Rush-attempt thresholds and stale evidence](2026-10-11-half-point-threshold-correction.md): corrects the preserved checkpoint’s push explanation. Under 19.5 and Under 20.5 differ by P(X = 20); neither integer-count contract has a threshold push. The refusal to transfer an unverified probability and the NO BET result remain intact. The note also confirms the feed staleness already recognized by that checkpoint.
 
+
+
+## Initial Sunday opportunity review — 2026-10-11
+
+- [Bounded completed-game review](2026-10-11T2344Z-sunday-opportunity-initial-review.md): injury-contingent Allen workload, production versus opportunity, and unit-matched injury-affected Shipley comparison. Seattle final and SNF results unverified in this window; no full-week grades, source ranking, EV or adopted rule.
