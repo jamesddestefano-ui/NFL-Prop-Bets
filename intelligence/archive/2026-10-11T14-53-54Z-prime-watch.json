@@ -1,0 +1,174 @@
+{
+  "capturedAtEt": "2026-10-11 10:53:54 ET (run start; market pages read during same pass)",
+  "capturedAtUtc": "2026-10-11T14:53:54Z",
+  "nflWeek": 5,
+  "scope": "NFL player props only",
+  "branch": "main",
+  "previousArchive": "intelligence/archive/2026-10-11T05-58-58Z-prime-watch.json",
+  "methodology": [
+    "config/methodology.md",
+    "config/advanced_market_learning.md",
+    "config/positive_ev_framework.md"
+  ],
+  "grok": {
+    "status": "live",
+    "completedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false
+  },
+  "evidence": [
+    {
+      "classification": "confirmed_fact",
+      "event": "Eagles/Jaguars London official inactives",
+      "publishedEt": "2026-10-11 08:05 ET",
+      "detail": "PHI Saquon Barkley, DeVonta Smith, Hollywood Brown, Marcus Epps, Jonathan Greenard, Drew Kendall inactive. JAX Eric Murray and six others inactive. Greenard was previously questionable; official OUT newly confirmed. 09:30 ET game already underway by this pass: no pregame bet.",
+      "url": "https://www.philadelphiaeagles.com/news/eagles-at-jaguars-inactives-2026-nfl-week-6-london-international-game-saquon-barkley-lane-johnson",
+      "action": "PASS_LOST_PREGAME_WINDOW"
+    },
+    {
+      "classification": "confirmed_fact",
+      "event": "Jeanty practice report",
+      "detail": "Jeanty ankle/foot questionable; absence Friday documented; no Raiders/Patriots official Sunday inactive list yet at ~10:54 ET. Roman Hemby elevated is a roster-depth fact, not confirmation Jeanty is out.",
+      "url": "https://www.reuters.com/sports/raiders-rb-ashton-jeanty-anklefoot-questionable-against-patriots--flm-2026-10-09/",
+      "action": "WATCH_1130_INACTIVES"
+    },
+    {
+      "classification": "attributed_report",
+      "event": "Patriots Stevenson expected active",
+      "detail": "NFL Network Ian Rapoport reportedly expects Stevenson to play; official 11:30 ET inactive verification still required; limits speculative Henderson volume thesis.",
+      "url": "https://www.thebiglead.com/rhamondre-stevenson-playing-today-injury-update-fantasy-advice-week-5/",
+      "action": "WATCH"
+    },
+    {
+      "classification": "confirmed_fact",
+      "event": "Bills Monday",
+      "detail": "Joshua Palmer and Ed Oliver ruled out, DJ Moore questionable. Previously reported; conditional Kincaid/Shakir market watch only, no quote authenticated this pass.",
+      "url": "https://www.buffalobills.com/news/buffalo-bills-injury-report-vs-rams-week-5",
+      "action": "WATCH_MNF"
+    },
+    {
+      "classification": "attributed_report",
+      "event": "Marvin Harrison Jr",
+      "detail": "Reported inactive pending trade; Sunday 4:25 official inactives pending. Already incorporated as report into McBride market; not a verified new catalyst.",
+      "url": "https://nypost.com/2026/10/10/sports/marvin-harrison-jr-inactive-for-week-5-as-cardinals-finalize-trade/",
+      "action": "WATCH_4PM"
+    }
+  ],
+  "markets": [
+    {
+      "player": "Brock Bowers",
+      "game": "LV@NE",
+      "prop_type": "RECEPTIONS",
+      "line": 6.5,
+      "book": "FanDuel via Covers",
+      "side": "OVER",
+      "odds": -130,
+      "oppositeOdds": -102,
+      "rawBreakEvenPct": 56.52,
+      "noVigSameBookPct": 52.81,
+      "siteLastUpdatedEt": "2026-10-11 10:00 ET",
+      "marketTruthConfidence": "B",
+      "internalFairProbability": null,
+      "estimatedEdge": null,
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "rationale": "Odds cost > no-vig market estimate; no validated model probability supports 4-5 point fair edge; older -115 quote not playable at current -130.",
+      "url": "https://www.covers.com/sport/football/nfl/players/296310/brock-bowers"
+    },
+    {
+      "player": "Brock Bowers",
+      "game": "LV@NE",
+      "prop_type": "ANYTIME_TD",
+      "line": "YES",
+      "book": "BetRivers via Covers",
+      "odds": 148,
+      "rawBreakEvenPct": 40.32,
+      "siteLastUpdatedEt": "2026-10-11 10:00 ET",
+      "marketTruthConfidence": "B",
+      "internalFairProbability": null,
+      "estimatedEdge": null,
+      "decision": "PASS",
+      "rationale": "No calibrated TD fair probability. Two recent scoring outcomes insufficient; high variance and incomplete paired NO market.",
+      "url": "https://www.covers.com/sport/football/nfl/players/296310/brock-bowers"
+    },
+    {
+      "player": "Trey McBride",
+      "game": "DET@ARI",
+      "prop_type": "RECEPTIONS",
+      "line": 7.5,
+      "book": "FanDuel via Covers",
+      "side": "OVER",
+      "odds": -140,
+      "oppositeOdds": 106,
+      "rawBreakEvenPct": 58.33,
+      "noVigSameBookPct": 54.58,
+      "siteLastUpdatedEt": "2026-10-11 10:34 ET",
+      "marketTruthConfidence": "B",
+      "internalFairProbability": null,
+      "estimatedEdge": null,
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "rationale": "Repriced from prior -115 to -140 for 7.5; reported Harrison inactive is already in price; no independently calibrated +EV.",
+      "url": "https://www.covers.com/sport/football/nfl/players/248444/trey-mcbride"
+    },
+    {
+      "player": "DeMario Douglas",
+      "game": "LV@NE",
+      "prop_type": "RECEPTIONS",
+      "line": 2.5,
+      "book": "Covers prediction-market aggregator",
+      "side": "OVER",
+      "odds": null,
+      "siteLastUpdatedEt": "2026-10-11 08:56 ET",
+      "marketTruthConfidence": "C (displayed percent contracts not regulated-book American odds)",
+      "internalFairProbability": null,
+      "estimatedEdge": null,
+      "decision": "WATCH",
+      "rationale": "Mack Hollins IR suggests target reallocation but Douglas' routes and target share, calibrated fair probability, and exact sportsbook line/price require verification. Do not convert prediction-market percentages to fictional sportsbook odds.",
+      "url": "https://www.covers.com/sport/football/nfl/players/183263/demario-douglas"
+    },
+    {
+      "player": "Mike Washington Jr",
+      "game": "LV@NE",
+      "prop_type": "RUSH_YARDS",
+      "line": null,
+      "book": null,
+      "odds": null,
+      "marketTruthConfidence": "D",
+      "internalFairProbability": null,
+      "estimatedEdge": null,
+      "decision": "WATCH",
+      "rationale": "Jeanty still questionable; official inactives pending. The indexed Mike Washington Covers odds page remains Sep 10 old Week 1 quote, unusable for Oct 11 Week 5.",
+      "url": "https://www.covers.com/sport/football/nfl/players/399286/mike-washington"
+    }
+  ],
+  "accounting": {
+    "week5ConfirmedStraightBets": 0,
+    "week5ConfirmedParlays": 0,
+    "openRiskCash": 0,
+    "closingLineValue": null,
+    "priceCLV": null,
+    "combinedCLV": null,
+    "probabilityCalibration": null
+  },
+  "audit": {
+    "allRequestedFilesRead": true,
+    "currentLineHistoryUpdated": false,
+    "lineHistoryWriteAttempted": true,
+    "lineHistoryWriteError": "GitHub update_file blocked by safety checks; original untouched.",
+    "userNotification": false
+  },
+  "nextCheckpoints": [
+    "2026-10-11 11:30 ET official 1pm inactives incl Jeanty/Stevenson",
+    "2026-10-11 12:30 ET final 1pm slate price check",
+    "2026-10-11 16:05/16:25 ET slate incl McBride/MHJ",
+    "2026-10-11 SNF Ravens/Falcons with Lamar OUT",
+    "2026-10-12 MNF Bills/Rams"
+  ],
+  "result": {
+    "actionableBet": false,
+    "materialActionOnExistingBet": false,
+    "newGrokPass": false,
+    "sendAlert": false
+  }
+}
