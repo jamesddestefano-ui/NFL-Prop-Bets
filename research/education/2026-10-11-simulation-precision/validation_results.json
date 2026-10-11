@@ -1,0 +1,26 @@
+{
+  "assumptions": "iid Bernoulli draws; fixed model; fixed N; fixed price; binary settlement",
+  "n": 10000,
+  "hits": 5280,
+  "phat": 0.528,
+  "decimal_price": 1.9090909090909092,
+  "break_even_p": 0.5238095238095238,
+  "plugin_mcse_p": 0.004992153843783262,
+  "wilson_approx_95_p": [
+    0.5182066791830441,
+    0.5377718169081981
+  ],
+  "ev_per_accounting_unit": 0.008000000000000007,
+  "mcse_ev": 0.009530475519949864,
+  "wilson_approx_95_ev": [
+    -0.010696339741461225,
+    0.02665528682474183
+  ],
+  "oracle_p0": 0.528,
+  "oracle_mean_phat": 0.5280000000000001,
+  "oracle_variance_phat": 2.4921600000000005e-05,
+  "formula_variance_phat": 2.49216e-05,
+  "oracle_wilson_coverage": 0.9491935484065955,
+  "projected_mcse_at_1000000_same_p": 0.0004992153843783262,
+  "validation": "PASS: exact binomial summation within stated numerical tolerances"
+}

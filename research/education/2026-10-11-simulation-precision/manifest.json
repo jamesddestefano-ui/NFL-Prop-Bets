@@ -1,0 +1,69 @@
+{
+  "title": "Simulation precision educational review",
+  "review_date_et": "2026-10-11",
+  "package_status": "Prepublication verification snapshot",
+  "scope": "Public written sources and one invented fixed-model example. No audiovisual review, NFL calibration test, live market evaluation or policy implementation.",
+  "source_review": {
+    "reported_access_window_utc": "2026-10-11 22:06–22:07",
+    "details": "Exact per-source access times, publication/version metadata and full-page versus focused versus abstract-only review limits appear in README.md.",
+    "source_families": [
+      "NIST/SEMATECH handbook",
+      "Stan Reference Manual and posterior package documentation (related source family)",
+      "Howard et al. authors’ arXiv abstract and bibliographic landing page"
+    ],
+    "new_video_reviews": 0
+  },
+  "independent_review": [
+    {
+      "window_utc": "2026-10-11 approximately 22:09:26–22:10",
+      "scope": "Read-only lesson review; reran all six validator assertions and matched saved output; checked five evidence labels, source access/publication distinctions and Howard bibliographic attribution.",
+      "result": "PASS; no correction required"
+    },
+    {
+      "window_utc": "2026-10-11 approximately 22:09:06–22:10:57",
+      "scope": "Read-only lesson audit; reran all six assertions and byte-matched JSON; independently inverted the score test (accepted counts 5183–5377, coverage 0.9491935484065954); directly checked posterior mcse_mean, Stan Posterior Analysis and Howard v9 abstract/bibliographic metadata. Did not separately reread NIST or the Howard paper body. Checked iid/MCMC/shared-latent distinctions, fixed-N EV/coverage interpretation, labels and access boundaries.",
+      "result": "PASS; no correction required"
+    }
+  ],
+  "packaging_review": {
+    "window_utc": "2026-10-11 22:12–22:13",
+    "scope": "Read complete lesson and script, reran validator in a fresh process, checked syntax, confirmed original three files copied byte-identically and prior index fully preserved.",
+    "result": "PASS"
+  },
+  "reproducibility": {
+    "command": "python validate_precision.py",
+    "dependencies": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "deterministic_assertions": 6,
+    "enumerated_binomial_counts": 10001,
+    "syntax_check": "PASS",
+    "fresh_process_output_byte_identical": true,
+    "oracle_scope": "Floating-point summation over all counts for the invented p=0.528, N=10000; tolerances are specified in the script. Passing checks does not validate an NFL probability model.",
+    "wilson_coverage_at_this_p_and_n": 0.9491935484065955
+  },
+  "related_records": {
+    "opportunity_source_context": "https://github.com/jamesddestefano-ui/NFL-Prop-Bets/blob/e96918c047e2a178bacbe0a745b0dec2264c20ec/research/education/2026-10-11-nfl-opportunity-models/README.md",
+    "advanced_session": "https://github.com/jamesddestefano-ui/NFL-Prop-Bets/blob/52b97e163e1294cc8c2961b6eeda2b6ebb2bc049/research/education/2026-10-11-advanced-ev-session/README.md"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 10329,
+      "sha256": "5309552cfc11a70ac36dc0cf9b5f96f6eadfcd175bd6e4ec5cea58faaffc276b"
+    },
+    {
+      "path": "validate_precision.py",
+      "bytes": 1872,
+      "sha256": "ed483768c3ca35cbf6f0803b8559a8cb861d6ed84e56f5ab5bb2d74fe5713ca3"
+    },
+    {
+      "path": "validation_results.json",
+      "bytes": 856,
+      "sha256": "d99035adf796aebce235ea351cc44cb3ec5f0236e94e5a8c17d1df4d3231e28f"
+    }
+  ],
+  "hash_scope": "The manifest lists the other three package files; it excludes its own hash."
+}

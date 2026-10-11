@@ -48,3 +48,9 @@ Earlier records, controlling files and ledgers remain unchanged. This entry reco
 
 These are separate dated additions. The advanced-session package, prior records, controlling rules and ledgers remain unchanged. Empirical NFL improvement remains untested.
 
+
+## Simulation precision — 2026-10-11
+
+- [What 10,000 simulations can and cannot establish](2026-10-11-simulation-precision/README.md): Monte Carlo numerical error, correlated draws, shared input uncertainty and fixed-N versus sequential checks, with an invented price example and six deterministic binomial-oracle assertions. More simulated draws improve numerical precision under the model; no NFL calibration, executable edge or performance improvement is established.
+- [Reproduction and review record](2026-10-11-simulation-precision/manifest.json): actual source-access scope, review checks and artifact hashes. This is a separate written-source addition; prior research packages and controlling files remain unchanged.
+
