@@ -10,6 +10,7 @@ All agents must follow:
 - `config/methodology.md`
 - `config/advanced_market_learning.md`
 - `config/positive_ev_framework.md`
+- `config/ev_account_accountability.md` (X/EV analyst signal attribution and performance measurement)
 
 The advanced market-learning module and positive-EV framework are mandatory for every material prop evaluation. Price, timing, CLV, pass decisions, missed bets, signal attribution, correlation, exposure, calibration, and weekly attribution are part of the decision record rather than optional commentary.
 
