@@ -13,7 +13,7 @@ Use a 100-point review framework as a disciplined checklist, not as fake precisi
 
 A strong prop should normally have support from role, price, and at least one independent projection path. Matchup is an adjustment, not the starting point.
 
-`config/advanced_market_learning.md` is mandatory and extends this methodology. Where this file is less specific, the advanced market-learning rules control.
+`config/advanced_market_learning.md` and `config/positive_ev_framework.md` are mandatory and extend this methodology. The positive-EV framework controls market-truth grading, de-vigging, fair-probability construction, expected ROI, conservative EV, line shopping, and bankroll-risk principles. Where this file is less specific, the advanced modules control.
 
 ## Preferred metrics by market
 
