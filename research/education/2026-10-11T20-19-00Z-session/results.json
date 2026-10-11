@@ -1,0 +1,665 @@
+{
+  "label": "SYNTHETIC DEMONSTRATION; NOT NFL HISTORICAL EVIDENCE",
+  "odds_convention": "Decimal odds include returned stake; ROI per unit risked.",
+  "common_decimal_odds": {
+    "decimal": 1.9090909090909092,
+    "exact": "21/11"
+  },
+  "common_break_even": {
+    "decimal": 0.5238095238095238,
+    "exact": "11/21"
+  },
+  "example_1_mean_median_do_not_price_tail": {
+    "A": {
+      "pmf": {
+        "20": {
+          "decimal": 0.4,
+          "exact": "2/5"
+        },
+        "60": {
+          "decimal": 0.2,
+          "exact": "1/5"
+        },
+        "100": {
+          "decimal": 0.4,
+          "exact": "2/5"
+        }
+      },
+      "mean": {
+        "decimal": 60.0,
+        "exact": "60"
+      },
+      "variance": {
+        "decimal": 1280.0,
+        "exact": "1280"
+      },
+      "lower_median": 60,
+      "P_yards_over_49_5": {
+        "decimal": 0.6,
+        "exact": "3/5"
+      },
+      "ROI_minus_110": {
+        "decimal": 0.14545454545454545,
+        "exact": "8/55"
+      }
+    },
+    "B": {
+      "pmf": {
+        "40": {
+          "decimal": 0.49,
+          "exact": "49/100"
+        },
+        "60": {
+          "decimal": 0.02,
+          "exact": "1/50"
+        },
+        "80": {
+          "decimal": 0.49,
+          "exact": "49/100"
+        }
+      },
+      "mean": {
+        "decimal": 60.0,
+        "exact": "60"
+      },
+      "variance": {
+        "decimal": 392.0,
+        "exact": "392"
+      },
+      "lower_median": 60,
+      "P_yards_over_49_5": {
+        "decimal": 0.51,
+        "exact": "51/100"
+      },
+      "ROI_minus_110": {
+        "decimal": -0.026363636363636363,
+        "exact": "-29/1100"
+      }
+    }
+  },
+  "example_2_fixed_random_targets_and_beta_binomial": {
+    "fixed_8_targets": {
+      "pmf": {
+        "0": {
+          "decimal": 0.0002251875390625,
+          "exact": "5764801/25600000000"
+        },
+        "1": {
+          "decimal": 0.0033456434375,
+          "exact": "10706059/3200000000"
+        },
+        "2": {
+          "decimal": 0.02174668234375,
+          "exact": "139178767/6400000000"
+        },
+        "3": {
+          "decimal": 0.0807733915625,
+          "exact": "258474853/3200000000"
+        },
+        "4": {
+          "decimal": 0.187509658984375,
+          "exact": "480024727/2560000000"
+        },
+        "5": {
+          "decimal": 0.2785857790625,
+          "exact": "891474493/3200000000"
+        },
+        "6": {
+          "decimal": 0.25868679484375,
+          "exact": "1655595487/6400000000"
+        },
+        "7": {
+          "decimal": 0.1372623809375,
+          "exact": "439239619/3200000000"
+        },
+        "8": {
+          "decimal": 0.0318644812890625,
+          "exact": "815730721/25600000000"
+        }
+      },
+      "mean": {
+        "decimal": 5.2,
+        "exact": "26/5"
+      },
+      "variance": {
+        "decimal": 1.82,
+        "exact": "91/50"
+      },
+      "lower_median": 5,
+      "P_receptions_ge_5": {
+        "decimal": 0.7063994361328125,
+        "exact": "3616765113/5120000000"
+      },
+      "P_receptions_ge_6": {
+        "decimal": 0.4278136570703125,
+        "exact": "10952029621/25600000000"
+      },
+      "P_receptions_ge_8": {
+        "decimal": 0.0318644812890625,
+        "exact": "815730721/25600000000"
+      },
+      "ROI_over_4_5_minus_110": {
+        "decimal": 0.3485807417080966,
+        "exact": "19632067373/56320000000"
+      }
+    },
+    "targets_4_or_12_equal_weights": {
+      "pmf": {
+        "0": {
+          "decimal": 0.007504814610254028,
+          "exact": "61479441287201/8192000000000000"
+        },
+        "1": {
+          "decimal": 0.05577515417137549,
+          "exact": "114227515742977/2048000000000000"
+        },
+        "2": {
+          "decimal": 0.1556533604647639,
+          "exact": "637556164463673/4096000000000000"
+        },
+        "3": {
+          "decimal": 0.194618421924729,
+          "exact": "79715705620369/409600000000000"
+        },
+        "4": {
+          "decimal": 0.09920197732833191,
+          "exact": "162532519654739/1638400000000000"
+        },
+        "5": {
+          "decimal": 0.029562304061329103,
+          "exact": "30271799358801/1024000000000000"
+        },
+        "6": {
+          "decimal": 0.06405165879954638,
+          "exact": "131177797221471/2048000000000000"
+        },
+        "7": {
+          "decimal": 0.10195978339519629,
+          "exact": "104406818196681/1024000000000000"
+        },
+        "8": {
+          "decimal": 0.11834617715513855,
+          "exact": "193898376650979/1638400000000000"
+        },
+        "9": {
+          "decimal": 0.09768255892170166,
+          "exact": "40010776134329/409600000000000"
+        },
+        "10": {
+          "decimal": 0.05442313997066235,
+          "exact": "222917181319833/4096000000000000"
+        },
+        "11": {
+          "decimal": 0.018376644665418457,
+          "exact": "37635368274777/2048000000000000"
+        },
+        "12": {
+          "decimal": 0.0028440045315528567,
+          "exact": "23298085122481/8192000000000000"
+        }
+      },
+      "mean": {
+        "decimal": 5.2,
+        "exact": "26/5"
+      },
+      "variance": {
+        "decimal": 8.58,
+        "exact": "429/50"
+      },
+      "lower_median": 4,
+      "P_receptions_ge_5": {
+        "decimal": 0.48724627150054567,
+        "exact": "399152145613247/819200000000000"
+      },
+      "P_receptions_ge_6": {
+        "decimal": 0.4576839674392166,
+        "exact": "1874673530631031/4096000000000000"
+      },
+      "P_receptions_ge_8": {
+        "decimal": 0.2916725252444739,
+        "exact": "238938132680273/819200000000000"
+      },
+      "ROI_over_4_5_minus_110": {
+        "decimal": -0.06980257258986738,
+        "exact": "-629004942121813/9011200000000000"
+      }
+    },
+    "fixed_8_targets_beta_6_5_3_5": {
+      "pmf": {
+        "0": {
+          "decimal": 0.0036529541015625,
+          "exact": "1197/327680"
+        },
+        "1": {
+          "decimal": 0.0180908203125,
+          "exact": "741/40960"
+        },
+        "2": {
+          "decimal": 0.04998779296875,
+          "exact": "819/16384"
+        },
+        "3": {
+          "decimal": 0.0999755859375,
+          "exact": "819/8192"
+        },
+        "4": {
+          "decimal": 0.158294677734375,
+          "exact": "5187/32768"
+        },
+        "5": {
+          "decimal": 0.2045654296875,
+          "exact": "8379/40960"
+        },
+        "6": {
+          "decimal": 0.2138638583096591,
+          "exact": "192717/901120"
+        },
+        "7": {
+          "decimal": 0.16973322088068182,
+          "exact": "15295/90112"
+        },
+        "8": {
+          "decimal": 0.08183566006747159,
+          "exact": "58995/720896"
+        }
+      },
+      "mean": {
+        "decimal": 5.2,
+        "exact": "26/5"
+      },
+      "variance": {
+        "decimal": 2.978181818181818,
+        "exact": "819/275"
+      },
+      "lower_median": 5,
+      "P_receptions_ge_5": {
+        "decimal": 0.6699981689453125,
+        "exact": "43909/65536"
+      },
+      "P_receptions_ge_6": {
+        "decimal": 0.4654327392578125,
+        "exact": "152513/327680"
+      },
+      "P_receptions_ge_8": {
+        "decimal": 0.08183566006747159,
+        "exact": "58995/720896"
+      },
+      "ROI_over_4_5_minus_110": {
+        "decimal": 0.27908741344105115,
+        "exact": "201193/720896"
+      }
+    }
+  },
+  "example_3_uncertainty_and_price_gates": {
+    "narrow": {
+      "equally_weighted_parameter_scenarios": [
+        {
+          "decimal": 0.53,
+          "exact": "53/100"
+        },
+        {
+          "decimal": 0.57,
+          "exact": "57/100"
+        }
+      ],
+      "mean_probability": {
+        "decimal": 0.55,
+        "exact": "11/20"
+      },
+      "parameter_variance": {
+        "decimal": 0.0004,
+        "exact": "1/2500"
+      },
+      "E_conditional_outcome_variance": {
+        "decimal": 0.2471,
+        "exact": "2471/10000"
+      },
+      "predictive_single_Bernoulli_variance": {
+        "decimal": 0.2475,
+        "exact": "99/400"
+      },
+      "mean_ROI_minus_110": {
+        "decimal": 0.05,
+        "exact": "1/20"
+      },
+      "worst_scenario_ROI_minus_110": {
+        "decimal": 0.011818181818181818,
+        "exact": "13/1100"
+      },
+      "worst_scenario_probability": {
+        "decimal": 0.53,
+        "exact": "53/100"
+      },
+      "zero_ROI_min_decimal_odds": {
+        "decimal": 1.8867924528301887,
+        "exact": "100/53"
+      },
+      "zero_ROI_equivalent_american": {
+        "decimal": -112.76595744680851,
+        "exact": "-5300/47"
+      },
+      "five_pct_ROI_min_decimal_odds": {
+        "decimal": 1.9811320754716981,
+        "exact": "105/53"
+      },
+      "five_pct_ROI_equivalent_american": {
+        "decimal": -101.92307692307692,
+        "exact": "-1325/13"
+      }
+    },
+    "wide": {
+      "equally_weighted_parameter_scenarios": [
+        {
+          "decimal": 0.49,
+          "exact": "49/100"
+        },
+        {
+          "decimal": 0.61,
+          "exact": "61/100"
+        }
+      ],
+      "mean_probability": {
+        "decimal": 0.55,
+        "exact": "11/20"
+      },
+      "parameter_variance": {
+        "decimal": 0.0036,
+        "exact": "9/2500"
+      },
+      "E_conditional_outcome_variance": {
+        "decimal": 0.2439,
+        "exact": "2439/10000"
+      },
+      "predictive_single_Bernoulli_variance": {
+        "decimal": 0.2475,
+        "exact": "99/400"
+      },
+      "mean_ROI_minus_110": {
+        "decimal": 0.05,
+        "exact": "1/20"
+      },
+      "worst_scenario_ROI_minus_110": {
+        "decimal": -0.06454545454545454,
+        "exact": "-71/1100"
+      },
+      "worst_scenario_probability": {
+        "decimal": 0.49,
+        "exact": "49/100"
+      },
+      "zero_ROI_min_decimal_odds": {
+        "decimal": 2.0408163265306123,
+        "exact": "100/49"
+      },
+      "zero_ROI_equivalent_american": {
+        "decimal": 104.08163265306122,
+        "exact": "5100/49"
+      },
+      "five_pct_ROI_min_decimal_odds": {
+        "decimal": 2.142857142857143,
+        "exact": "15/7"
+      },
+      "five_pct_ROI_equivalent_american": {
+        "decimal": 114.28571428571429,
+        "exact": "800/7"
+      }
+    }
+  },
+  "example_4_joint_probability_sensitivity": {
+    "P_QB_over_249_5": 0.6,
+    "P_WR_over_69_5": 0.55,
+    "frechet_joint_bounds": [
+      0.1499999999999999,
+      0.55
+    ],
+    "decimal_price": 3.0,
+    "price_american": 200,
+    "break_even": 0.3333333333333333,
+    "scenarios": [
+      {
+        "indicator_correlation": -0.2,
+        "joint_probability": 0.28125576957218423,
+        "ROI_plus_200": -0.1562326912834473,
+        "pmf_2x2": {
+          "both_win": 0.28125576957218423,
+          "QB_only": 0.31874423042781574,
+          "WR_only": 0.2687442304278158,
+          "neither": 0.1312557695721842
+        },
+        "fair_decimal": 3.5554826182626993,
+        "fair_american": 255.54826182626994
+      },
+      {
+        "indicator_correlation": 0.0,
+        "joint_probability": 0.33,
+        "ROI_plus_200": -0.010000000000000009,
+        "pmf_2x2": {
+          "both_win": 0.33,
+          "QB_only": 0.26999999999999996,
+          "WR_only": 0.22000000000000003,
+          "neither": 0.18
+        },
+        "fair_decimal": 3.0303030303030303,
+        "fair_american": 203.03030303030303
+      },
+      {
+        "indicator_correlation": 0.2,
+        "joint_probability": 0.3787442304278158,
+        "ROI_plus_200": 0.1362326912834475,
+        "pmf_2x2": {
+          "both_win": 0.3787442304278158,
+          "QB_only": 0.22125576957218418,
+          "WR_only": 0.17125576957218425,
+          "neither": 0.22874423042781578
+        },
+        "fair_decimal": 2.640304246669147,
+        "fair_american": 164.03042466691468
+      }
+    ],
+    "equal_weight_script_mixture": {
+      "high_script_marginals": [
+        {
+          "decimal": 0.8,
+          "exact": "4/5"
+        },
+        {
+          "decimal": 0.75,
+          "exact": "3/4"
+        }
+      ],
+      "low_script_marginals": [
+        {
+          "decimal": 0.4,
+          "exact": "2/5"
+        },
+        {
+          "decimal": 0.35,
+          "exact": "7/20"
+        }
+      ],
+      "joint_under_conditional_independence": {
+        "decimal": 0.37,
+        "exact": "37/100"
+      },
+      "ROI_plus_150": {
+        "decimal": -0.075,
+        "exact": "-3/40"
+      },
+      "ROI_plus_200": {
+        "decimal": 0.11,
+        "exact": "11/100"
+      }
+    }
+  },
+  "validation_calibration_is_not_brier_alone": {
+    "A_always_50_pct": {
+      "n": 200,
+      "brier": {
+        "decimal": 0.25,
+        "exact": "1/4"
+      },
+      "reliability": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "resolution": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "uncertainty": {
+        "decimal": 0.25,
+        "exact": "1/4"
+      },
+      "bins": [
+        {
+          "forecast": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          },
+          "count": 200,
+          "wins": 100,
+          "observed": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          }
+        }
+      ]
+    },
+    "B_30_then_70_pct": {
+      "n": 200,
+      "brier": {
+        "decimal": 0.17,
+        "exact": "17/100"
+      },
+      "reliability": {
+        "decimal": 0.01,
+        "exact": "1/100"
+      },
+      "resolution": {
+        "decimal": 0.09,
+        "exact": "9/100"
+      },
+      "uncertainty": {
+        "decimal": 0.25,
+        "exact": "1/4"
+      },
+      "bins": [
+        {
+          "forecast": {
+            "decimal": 0.3,
+            "exact": "3/10"
+          },
+          "count": 100,
+          "wins": 20,
+          "observed": {
+            "decimal": 0.2,
+            "exact": "1/5"
+          }
+        },
+        {
+          "forecast": {
+            "decimal": 0.7,
+            "exact": "7/10"
+          },
+          "count": 100,
+          "wins": 80,
+          "observed": {
+            "decimal": 0.8,
+            "exact": "4/5"
+          }
+        }
+      ]
+    },
+    "C_20_then_80_pct": {
+      "n": 200,
+      "brier": {
+        "decimal": 0.16,
+        "exact": "4/25"
+      },
+      "reliability": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "resolution": {
+        "decimal": 0.09,
+        "exact": "9/100"
+      },
+      "uncertainty": {
+        "decimal": 0.25,
+        "exact": "1/4"
+      },
+      "bins": [
+        {
+          "forecast": {
+            "decimal": 0.2,
+            "exact": "1/5"
+          },
+          "count": 100,
+          "wins": 20,
+          "observed": {
+            "decimal": 0.2,
+            "exact": "1/5"
+          }
+        },
+        {
+          "forecast": {
+            "decimal": 0.8,
+            "exact": "4/5"
+          },
+          "count": 100,
+          "wins": 80,
+          "observed": {
+            "decimal": 0.8,
+            "exact": "4/5"
+          }
+        }
+      ]
+    }
+  },
+  "validation_push_contract": {
+    "p_win": {
+      "decimal": 0.5,
+      "exact": "1/2"
+    },
+    "p_loss": {
+      "decimal": 0.4,
+      "exact": "2/5"
+    },
+    "p_push": {
+      "decimal": 0.1,
+      "exact": "1/10"
+    },
+    "decimal_odds": {
+      "decimal": 1.9090909090909092,
+      "exact": "21/11"
+    },
+    "correct_ROI": {
+      "decimal": 0.05454545454545454,
+      "exact": "3/55"
+    },
+    "incorrect_push_as_loss_ROI": {
+      "decimal": -0.045454545454545456,
+      "exact": "-1/22"
+    },
+    "conditional_on_no_push_win_probability": {
+      "decimal": 0.5555555555555556,
+      "exact": "5/9"
+    },
+    "fair_decimal_odds_with_push": {
+      "decimal": 1.8,
+      "exact": "9/5"
+    },
+    "fair_inverse_odds_conditional_probability": {
+      "decimal": 0.5555555555555556,
+      "exact": "5/9"
+    },
+    "toy_market_normalized_over_minus120_under_plus100": {
+      "decimal": 0.5217391304347826,
+      "exact": "12/23"
+    },
+    "market_unconditional_over_if_push_is_10_pct": {
+      "decimal": 0.46956521739130436,
+      "exact": "54/115"
+    }
+  },
+  "verification": "All exact arithmetic and consistency assertions passed."
+}

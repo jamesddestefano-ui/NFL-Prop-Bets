@@ -1,0 +1,16 @@
+{
+  "scipy_version": "1.17.0",
+  "comparisons": [
+    {
+      "distribution": "binomial_n8",
+      "maximum_pmf_absolute_error": 1.1102230246251565e-16,
+      "all_threshold_tails_0_to_9_match": true
+    },
+    {
+      "distribution": "beta_binomial_n8",
+      "maximum_pmf_absolute_error": 1.1102230246251565e-16,
+      "all_threshold_tails_0_to_9_match": true
+    }
+  ],
+  "tolerance": 1e-12
+}

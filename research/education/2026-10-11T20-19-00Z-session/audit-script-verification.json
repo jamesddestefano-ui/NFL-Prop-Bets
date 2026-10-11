@@ -1,0 +1,23 @@
+{
+  "script": "audit_csv.py",
+  "script_sha256": "4f0ac7cde69dde029eb8127f849a71991bf966337d15d356988880452a060d91",
+  "reference_commit": "36bcb5eab6fdad040dddcc0214c7897657db5249",
+  "checks": {
+    "pinned_bytes_cli_success": true,
+    "source_bytes_and_file_set_unchanged": true,
+    "wrong_blob_fails_before_output": true,
+    "missing_input_fails_before_output": true,
+    "quoted_commas_and_escaped_quotes": true,
+    "quoted_newlines_physical_spans": true,
+    "blank_lines_preserve_physical_numbering": true,
+    "unterminated_quote_rejected": true
+  },
+  "observed_totals": {
+    "data_records": 117,
+    "files": 8,
+    "width_mismatched_records": 14
+  },
+  "temporary_input_copies_removed": true,
+  "source_repository_changed": false,
+  "network_used_by_script": false
+}

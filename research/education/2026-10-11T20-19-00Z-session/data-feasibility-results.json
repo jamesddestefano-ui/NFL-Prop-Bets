@@ -1,0 +1,549 @@
+{
+  "audit_type": "read_only_data_feasibility",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "commit": "36bcb5eab6fdad040dddcc0214c7897657db5249",
+  "read_window_utc": "2026-10-11 20:06-20:09",
+  "scope": "Eight named CSV files; headers, full-file structural counts, selected record inspection. No model backtest or repository mutation.",
+  "parsers": [
+    "Independent JavaScript quote-state parser",
+    "Python csv.reader(io.StringIO(text), strict=True); record boundaries from reader.line_num"
+  ],
+  "notes": [
+    "Blank physical lines excluded from data-row counts.",
+    "No quoted multiline records found in the eight files.",
+    "CSV syntax parsing success does not imply header-width or semantic validity.",
+    "Coverage for decision/pass files reported only for header-width-consistent records; even these are not certified semantically valid."
+  ],
+  "files": [
+    {
+      "path": "data/line_history.csv",
+      "data_rows": 56,
+      "header_cells": 15,
+      "multiline_records": [],
+      "anomalies": [],
+      "blob_sha": "2acb68477aaf34f6a11d69d981111e85a6399c71",
+      "url": "https://github.com/jamesddestefano-ui/NFL-Prop-Bets/blob/36bcb5eab6fdad040dddcc0214c7897657db5249/data/line_history.csv",
+      "headers": [
+        "captured_at_et",
+        "nfl_week",
+        "game",
+        "player",
+        "market",
+        "sportsbook",
+        "side",
+        "line",
+        "odds",
+        "opposite_side_line",
+        "opposite_side_odds",
+        "implied_probability",
+        "no_vig_probability",
+        "source_url",
+        "notes"
+      ]
+    },
+    {
+      "path": "data/decision_ledger.csv",
+      "data_rows": 26,
+      "header_cells": 60,
+      "multiline_records": [],
+      "anomalies": [
+        {
+          "start_line": 6,
+          "end_line": 6,
+          "cells": 61,
+          "id": "2026W1-COOK-RECYDS-20260912-032128"
+        },
+        {
+          "start_line": 7,
+          "end_line": 7,
+          "cells": 61,
+          "id": "2026W1-OTTON-RECYDS-20260912-0453"
+        },
+        {
+          "start_line": 12,
+          "end_line": 12,
+          "cells": 61,
+          "id": "2026W1-OTTON-RECYDS-20260912-1050"
+        },
+        {
+          "start_line": 13,
+          "end_line": 13,
+          "cells": 61,
+          "id": "2026W1-BIJAN-RUSH-20260912-1226"
+        },
+        {
+          "start_line": 26,
+          "end_line": 26,
+          "cells": 59,
+          "id": "2026W3-WATSON-ATD-20260922-214851"
+        },
+        {
+          "start_line": 27,
+          "end_line": 27,
+          "cells": 59,
+          "id": "2026W3-WATSON-ATD-20260923-023726"
+        }
+      ],
+      "blob_sha": "82f1a4297ee7e7c64dc1f2d37f78ec19729ef416",
+      "url": "https://github.com/jamesddestefano-ui/NFL-Prop-Bets/blob/36bcb5eab6fdad040dddcc0214c7897657db5249/data/decision_ledger.csv",
+      "headers": [
+        "decision_id",
+        "timestamp_et",
+        "nfl_week",
+        "game_date",
+        "game",
+        "player",
+        "team",
+        "opponent",
+        "prop_type",
+        "market",
+        "side",
+        "sportsbook",
+        "line",
+        "odds",
+        "best_market_line",
+        "consensus_line",
+        "opening_line",
+        "line_at_first_detection",
+        "line_at_recommendation",
+        "line_at_user_bet",
+        "closing_line",
+        "opening_odds",
+        "bet_odds",
+        "closing_odds",
+        "our_mean_projection",
+        "our_median_projection",
+        "estimated_over_probability",
+        "estimated_under_probability",
+        "fair_odds",
+        "market_implied_probability",
+        "no_vig_probability",
+        "estimated_edge_pct",
+        "edge_bucket",
+        "decision_status",
+        "decision_reason",
+        "confidence",
+        "play_to_line",
+        "max_acceptable_odds",
+        "steam_state",
+        "entry_timing",
+        "signal_tags",
+        "correlation_tags",
+        "thesis_id",
+        "stake_cash",
+        "stake_units",
+        "weekly_exposure_cash",
+        "game_exposure_cash",
+        "player_exposure_cash",
+        "thesis_exposure_cash",
+        "actual_user_action",
+        "actual_result",
+        "outcome",
+        "line_clv",
+        "price_clv",
+        "combined_clv",
+        "brier_score",
+        "process_grade",
+        "outcome_grade",
+        "result_notes",
+        "reviewed_at"
+      ]
+    },
+    {
+      "path": "data/pass_ledger.csv",
+      "data_rows": 17,
+      "header_cells": 25,
+      "multiline_records": [],
+      "anomalies": [
+        {
+          "start_line": 15,
+          "end_line": 15,
+          "cells": 26,
+          "id": "2026W4-WALLER-RECYDS-20261004-192807"
+        },
+        {
+          "start_line": 16,
+          "end_line": 16,
+          "cells": 26,
+          "id": "2026W4-MCMILLAN-RECYDS-20261004-192807"
+        },
+        {
+          "start_line": 17,
+          "end_line": 17,
+          "cells": 26,
+          "id": "2026W4-GIBBS-RUSHYDS-20261004-192807"
+        }
+      ],
+      "blob_sha": "e1644b9ee70ba6b39aa1579eae1e03b22151265c",
+      "url": "https://github.com/jamesddestefano-ui/NFL-Prop-Bets/blob/36bcb5eab6fdad040dddcc0214c7897657db5249/data/pass_ledger.csv",
+      "headers": [
+        "decision_id",
+        "timestamp_et",
+        "nfl_week",
+        "game",
+        "player",
+        "prop_type",
+        "market",
+        "side",
+        "sportsbook",
+        "line",
+        "odds",
+        "estimated_edge_pct",
+        "decision_status",
+        "pass_reason",
+        "play_to_line",
+        "max_acceptable_odds",
+        "signal_tags",
+        "closing_line",
+        "closing_odds",
+        "actual_result",
+        "would_have_won",
+        "process_grade",
+        "outcome_grade",
+        "notes",
+        "reviewed_at"
+      ]
+    },
+    {
+      "path": "data/bet_history.csv",
+      "data_rows": 5,
+      "header_cells": 26,
+      "multiline_records": [],
+      "anomalies": [
+        {
+          "start_line": 2,
+          "end_line": 2,
+          "cells": 27,
+          "id": "DK639247585716405917"
+        },
+        {
+          "start_line": 3,
+          "end_line": 3,
+          "cells": 27,
+          "id": "DK639247586957102490"
+        },
+        {
+          "start_line": 4,
+          "end_line": 4,
+          "cells": 27,
+          "id": "DK639247588400505659"
+        },
+        {
+          "start_line": 5,
+          "end_line": 5,
+          "cells": 27,
+          "id": "DK639255178780769581"
+        },
+        {
+          "start_line": 6,
+          "end_line": 6,
+          "cells": 27,
+          "id": "DK639255333180727451"
+        }
+      ],
+      "blob_sha": "9035f654eff5fb3a0be188542593c62c3ba00b05",
+      "url": "https://github.com/jamesddestefano-ui/NFL-Prop-Bets/blob/36bcb5eab6fdad040dddcc0214c7897657db5249/data/bet_history.csv",
+      "headers": [
+        "bet_id",
+        "placed_at_et",
+        "nfl_week",
+        "game_date",
+        "game",
+        "player",
+        "market",
+        "side",
+        "sportsbook",
+        "bet_line",
+        "bet_odds",
+        "stake_units",
+        "internal_projection",
+        "internal_fair_probability",
+        "estimated_edge_pct",
+        "play_to_line",
+        "confidence",
+        "closing_line",
+        "closing_odds",
+        "actual_result",
+        "outcome",
+        "profit_units",
+        "line_clv",
+        "price_clv",
+        "process_review",
+        "notes"
+      ]
+    },
+    {
+      "path": "data/ev_source_signals.csv",
+      "data_rows": 0,
+      "header_cells": 45,
+      "multiline_records": [],
+      "anomalies": [],
+      "blob_sha": "4f4326f53f6d9955e0277ff9617443c8d97ccdb3",
+      "url": "https://github.com/jamesddestefano-ui/NFL-Prop-Bets/blob/36bcb5eab6fdad040dddcc0214c7897657db5249/data/ev_source_signals.csv",
+      "headers": [
+        "signal_id",
+        "nfl_week",
+        "game",
+        "player",
+        "prop_type",
+        "side",
+        "source_handle",
+        "original_post_url",
+        "post_published_at_utc",
+        "observed_at_utc",
+        "first_detected_at_utc",
+        "original_or_repost",
+        "attribution_role",
+        "independence_cluster",
+        "upstream_source",
+        "thesis_id",
+        "signal_tags",
+        "source_classification",
+        "sportsbook",
+        "quoted_line",
+        "quoted_american_odds",
+        "quote_timestamp_utc",
+        "quote_verified",
+        "consensus_line",
+        "market_at_first_detection_line",
+        "market_at_first_detection_odds",
+        "market_at_first_detection_timestamp_utc",
+        "source_projection",
+        "source_fair_probability",
+        "prime_fair_probability",
+        "prime_decision",
+        "prime_reason",
+        "play_to_line",
+        "max_juice",
+        "steam_state",
+        "first_verified_move_at_utc",
+        "lead_minutes",
+        "closing_line",
+        "closing_odds",
+        "line_clv",
+        "price_clv",
+        "combined_clv",
+        "result",
+        "flat_stake_return_units",
+        "verification_notes"
+      ]
+    },
+    {
+      "path": "data/weekly_attribution.csv",
+      "data_rows": 1,
+      "header_cells": 27,
+      "multiline_records": [],
+      "anomalies": [],
+      "blob_sha": "36a9212ca43dd37011eaa4d2deaed9eee7973ad1",
+      "url": "https://github.com/jamesddestefano-ui/NFL-Prop-Bets/blob/36bcb5eab6fdad040dddcc0214c7897657db5249/data/weekly_attribution.csv",
+      "headers": [
+        "nfl_week",
+        "reviewed_at",
+        "straight_bet_pl_cash",
+        "parlay_pl_cash",
+        "total_pl_cash",
+        "roi_pct",
+        "average_line_clv",
+        "median_line_clv",
+        "average_price_clv",
+        "clv_hit_rate",
+        "best_bet",
+        "worst_bet",
+        "best_process_loss",
+        "worst_process_win",
+        "best_signal",
+        "worst_signal",
+        "best_prop_market",
+        "worst_prop_market",
+        "timing_performance",
+        "missed_opportunities",
+        "correct_passes",
+        "calibration_50_54",
+        "calibration_55_59",
+        "calibration_60_64",
+        "calibration_65_plus",
+        "model_changes",
+        "notes"
+      ]
+    },
+    {
+      "path": "data/missed_bets.csv",
+      "data_rows": 5,
+      "header_cells": 27,
+      "multiline_records": [],
+      "anomalies": [],
+      "blob_sha": "a35dd76bc078d6667dd344ebf901cfe05928d5c6",
+      "url": "https://github.com/jamesddestefano-ui/NFL-Prop-Bets/blob/36bcb5eab6fdad040dddcc0214c7897657db5249/data/missed_bets.csv",
+      "headers": [
+        "decision_id",
+        "recommended_at_et",
+        "nfl_week",
+        "game",
+        "player",
+        "prop_type",
+        "market",
+        "side",
+        "sportsbook",
+        "recommended_line",
+        "recommended_odds",
+        "play_to_line",
+        "max_acceptable_odds",
+        "estimated_edge_pct",
+        "confidence",
+        "reason_not_bet",
+        "closing_line",
+        "closing_odds",
+        "actual_result",
+        "outcome",
+        "line_clv",
+        "price_clv",
+        "combined_clv",
+        "process_grade",
+        "outcome_grade",
+        "notes",
+        "reviewed_at"
+      ]
+    },
+    {
+      "path": "data/expert_signals.csv",
+      "data_rows": 7,
+      "header_cells": 17,
+      "multiline_records": [],
+      "anomalies": [],
+      "blob_sha": "5b087aaefb301d6c5b179beccd4f5475cbb60ef9",
+      "url": "https://github.com/jamesddestefano-ui/NFL-Prop-Bets/blob/36bcb5eab6fdad040dddcc0214c7897657db5249/data/expert_signals.csv",
+      "headers": [
+        "captured_at_et",
+        "nfl_week",
+        "source_name",
+        "source_handle",
+        "source_type",
+        "classification",
+        "player",
+        "team",
+        "opponent",
+        "market",
+        "signal",
+        "projection_or_line",
+        "confidence_or_strength",
+        "source_url",
+        "verified_elsewhere",
+        "impact_on_thesis",
+        "notes"
+      ]
+    }
+  ],
+  "coverage": {
+    "line_history": {
+      "rows": 56,
+      "recorded_capture_timestamp": 56,
+      "recorded_odds": 54,
+      "opposite_line_and_odds": 23,
+      "no_vig_probability": 23,
+      "source_url": 52,
+      "first_capture": "2026-09-11 17:22:51 ET",
+      "last_capture": "2026-10-08 14:29:59 ET",
+      "explicit_close_indicator_column": false,
+      "separate_source_quote_timestamp_column": false
+    },
+    "decision_ledger": {
+      "rows": 26,
+      "header_width_consistent_rows": 20,
+      "width_consistent_rows_with_over_and_under_probability": 12,
+      "unique_week_game_player_prop_groups_in_these_12": 7,
+      "among_width_consistent_rows": {
+        "actual_result": 0,
+        "outcome": 0,
+        "brier_score": 0,
+        "closing_line": 0,
+        "closing_odds": 0
+      }
+    },
+    "pass_ledger": {
+      "rows": 17,
+      "header_width_consistent_rows": 14,
+      "among_width_consistent_rows": {
+        "closing_line": 0,
+        "closing_odds": 0,
+        "actual_result": 1,
+        "would_have_won": 0
+      }
+    },
+    "bet_history": {
+      "rows": 5,
+      "width_mismatch_rows": 5,
+      "observation": "Each row has one extra trailing field. Win/loss text appears in the expected outcome position, but these are not parser-certified complete records. Only one internal_fair_probability entry is populated in its expected position; no blanket semantic certification."
+    },
+    "missed_bets": {
+      "rows": 5,
+      "recorded_outcomes": 3,
+      "recorded_closing_line": 0,
+      "recorded_closing_odds": 0
+    },
+    "ev_source_signals": {
+      "rows": 0,
+      "status": "present, header-only"
+    },
+    "expert_signals": {
+      "rows": 7,
+      "scope": "all recorded Week 1; schema lacks eventual settlement, closing odds and precommitted fair-probability fields"
+    },
+    "weekly_attribution": {
+      "rows": 1,
+      "week": "2",
+      "calibration_note": "Stafford58% Under, outcome0/1, Brier0.3364; note excludes Dart after injury",
+      "closing_metrics": "blank"
+    }
+  },
+  "concrete_drift_example": {
+    "path": "data/decision_ledger.csv",
+    "physical_line": 7,
+    "header_width": 60,
+    "record_width": 61,
+    "first_field_id": "2026W1-OTTON-RECYDS-20260912-0453",
+    "literal_header_based_mapping": {
+      "estimated_over_probability": "29.5",
+      "estimated_under_probability": "57.5",
+      "market_implied_probability": "-135.3",
+      "decision_status": "4-6%",
+      "decision_reason": "BET"
+    },
+    "limitation": "These are intentionally reported as parser positions demonstrating drift, not correct football probabilities or a reconstructed record."
+  },
+  "arithmetic_checks": {
+    "scope": "Recalculation from the recorded odds only; not historical quote verification, settlement validation, benchmark validation or profitability evidence.",
+    "implied_probability": {
+      "rows": 54,
+      "max_absolute_difference_percentage_points": 0.004545454545457517
+    },
+    "multiplicative_no_vig": {
+      "rows": 23,
+      "max_absolute_difference_percentage_points": 0.01684684684684612,
+      "different_recorded_threshold_rows": 0,
+      "rounding_discrepancies_over_0_005_percentage_points": [
+        {
+          "record": 16,
+          "book": "Action Network market aggregate",
+          "side": "UNDER",
+          "line": "14.5",
+          "oppositeLine": "14.5",
+          "sameThreshold": true,
+          "observed": 46.82,
+          "calc": 46.81457358029717,
+          "errorPP": 0.005426419702828866
+        },
+        {
+          "record": 27,
+          "book": "BetVictor via Covers",
+          "side": "UNDER",
+          "line": "15.5",
+          "oppositeLine": "15.5",
+          "sameThreshold": true,
+          "observed": 53.08,
+          "calc": 53.096846846846844,
+          "errorPP": -0.01684684684684612
+        }
+      ]
+    }
+  }
+}

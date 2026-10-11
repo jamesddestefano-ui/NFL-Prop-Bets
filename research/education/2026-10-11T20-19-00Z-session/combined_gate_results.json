@@ -1,0 +1,493 @@
+{
+  "label": "SYNTHETIC RESEARCH FIXTURES; NO POLICY ADOPTION OR HISTORICAL VALIDATION",
+  "thresholds": {
+    "probability_edge": {
+      "decimal": 0.04,
+      "exact": "1/25"
+    },
+    "central_ROI": {
+      "decimal": 0.05,
+      "exact": "1/20"
+    },
+    "adverse_gate": "strictly greater than zero"
+  },
+  "no_push_central_55_pct": {
+    "narrow_bounds": {
+      "edge_bound_inclusive": {
+        "decimal": 1.9607843137254901,
+        "exact": "100/51"
+      },
+      "central_ROI_bound_inclusive": {
+        "decimal": 1.9090909090909092,
+        "exact": "21/11"
+      },
+      "adverse_bound_strict": {
+        "decimal": 1.8867924528301887,
+        "exact": "100/53"
+      }
+    },
+    "narrow_at_minus_110": {
+      "decimal_odds": {
+        "decimal": 1.9090909090909092,
+        "exact": "21/11"
+      },
+      "American_equivalent": {
+        "decimal": -110.0,
+        "exact": "-110"
+      },
+      "central_conditional_probability": {
+        "decimal": 0.55,
+        "exact": "11/20"
+      },
+      "central_probability_edge": {
+        "decimal": 0.02619047619047619,
+        "exact": "11/420"
+      },
+      "central_ROI": {
+        "decimal": 0.05,
+        "exact": "1/20"
+      },
+      "scenario_ROIs": [
+        {
+          "decimal": 0.011818181818181818,
+          "exact": "13/1100"
+        },
+        {
+          "decimal": 0.08818181818181818,
+          "exact": "97/1100"
+        }
+      ],
+      "worst_scenario_ROI": {
+        "decimal": 0.011818181818181818,
+        "exact": "13/1100"
+      },
+      "edge_pass": false,
+      "central_ROI_pass": true,
+      "adverse_positive_EV_pass": true,
+      "all_numeric_gates_pass": false
+    },
+    "narrow_at_edge_boundary": {
+      "decimal_odds": {
+        "decimal": 1.9607843137254901,
+        "exact": "100/51"
+      },
+      "American_equivalent": {
+        "decimal": -104.08163265306122,
+        "exact": "-5100/49"
+      },
+      "central_conditional_probability": {
+        "decimal": 0.55,
+        "exact": "11/20"
+      },
+      "central_probability_edge": {
+        "decimal": 0.04,
+        "exact": "1/25"
+      },
+      "central_ROI": {
+        "decimal": 0.0784313725490196,
+        "exact": "4/51"
+      },
+      "scenario_ROIs": [
+        {
+          "decimal": 0.0392156862745098,
+          "exact": "2/51"
+        },
+        {
+          "decimal": 0.11764705882352941,
+          "exact": "2/17"
+        }
+      ],
+      "worst_scenario_ROI": {
+        "decimal": 0.0392156862745098,
+        "exact": "2/51"
+      },
+      "edge_pass": true,
+      "central_ROI_pass": true,
+      "adverse_positive_EV_pass": true,
+      "all_numeric_gates_pass": true
+    },
+    "narrow_at_minus_104": {
+      "decimal_odds": {
+        "decimal": 1.9615384615384615,
+        "exact": "51/26"
+      },
+      "American_equivalent": {
+        "decimal": -104.0,
+        "exact": "-104"
+      },
+      "central_conditional_probability": {
+        "decimal": 0.55,
+        "exact": "11/20"
+      },
+      "central_probability_edge": {
+        "decimal": 0.04019607843137255,
+        "exact": "41/1020"
+      },
+      "central_ROI": {
+        "decimal": 0.07884615384615384,
+        "exact": "41/520"
+      },
+      "scenario_ROIs": [
+        {
+          "decimal": 0.039615384615384615,
+          "exact": "103/2600"
+        },
+        {
+          "decimal": 0.11807692307692308,
+          "exact": "307/2600"
+        }
+      ],
+      "worst_scenario_ROI": {
+        "decimal": 0.039615384615384615,
+        "exact": "103/2600"
+      },
+      "edge_pass": true,
+      "central_ROI_pass": true,
+      "adverse_positive_EV_pass": true,
+      "all_numeric_gates_pass": true
+    },
+    "narrow_at_minus_105": {
+      "decimal_odds": {
+        "decimal": 1.9523809523809523,
+        "exact": "41/21"
+      },
+      "American_equivalent": {
+        "decimal": -105.0,
+        "exact": "-105"
+      },
+      "central_conditional_probability": {
+        "decimal": 0.55,
+        "exact": "11/20"
+      },
+      "central_probability_edge": {
+        "decimal": 0.03780487804878049,
+        "exact": "31/820"
+      },
+      "central_ROI": {
+        "decimal": 0.07380952380952381,
+        "exact": "31/420"
+      },
+      "scenario_ROIs": [
+        {
+          "decimal": 0.034761904761904765,
+          "exact": "73/2100"
+        },
+        {
+          "decimal": 0.11285714285714285,
+          "exact": "79/700"
+        }
+      ],
+      "worst_scenario_ROI": {
+        "decimal": 0.034761904761904765,
+        "exact": "73/2100"
+      },
+      "edge_pass": false,
+      "central_ROI_pass": true,
+      "adverse_positive_EV_pass": true,
+      "all_numeric_gates_pass": false
+    },
+    "wide_bounds": {
+      "edge_bound_inclusive": {
+        "decimal": 1.9607843137254901,
+        "exact": "100/51"
+      },
+      "central_ROI_bound_inclusive": {
+        "decimal": 1.9090909090909092,
+        "exact": "21/11"
+      },
+      "adverse_bound_strict": {
+        "decimal": 2.0408163265306123,
+        "exact": "100/49"
+      }
+    },
+    "wide_at_adverse_boundary": {
+      "decimal_odds": {
+        "decimal": 2.0408163265306123,
+        "exact": "100/49"
+      },
+      "American_equivalent": {
+        "decimal": 104.08163265306122,
+        "exact": "5100/49"
+      },
+      "central_conditional_probability": {
+        "decimal": 0.55,
+        "exact": "11/20"
+      },
+      "central_probability_edge": {
+        "decimal": 0.06,
+        "exact": "3/50"
+      },
+      "central_ROI": {
+        "decimal": 0.12244897959183673,
+        "exact": "6/49"
+      },
+      "scenario_ROIs": [
+        {
+          "decimal": 0.0,
+          "exact": "0"
+        },
+        {
+          "decimal": 0.24489795918367346,
+          "exact": "12/49"
+        }
+      ],
+      "worst_scenario_ROI": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "edge_pass": true,
+      "central_ROI_pass": true,
+      "adverse_positive_EV_pass": false,
+      "all_numeric_gates_pass": false
+    },
+    "wide_at_plus_105": {
+      "decimal_odds": {
+        "decimal": 2.05,
+        "exact": "41/20"
+      },
+      "American_equivalent": {
+        "decimal": 105.0,
+        "exact": "105"
+      },
+      "central_conditional_probability": {
+        "decimal": 0.55,
+        "exact": "11/20"
+      },
+      "central_probability_edge": {
+        "decimal": 0.06219512195121951,
+        "exact": "51/820"
+      },
+      "central_ROI": {
+        "decimal": 0.1275,
+        "exact": "51/400"
+      },
+      "scenario_ROIs": [
+        {
+          "decimal": 0.0045,
+          "exact": "9/2000"
+        },
+        {
+          "decimal": 0.2505,
+          "exact": "501/2000"
+        }
+      ],
+      "worst_scenario_ROI": {
+        "decimal": 0.0045,
+        "exact": "9/2000"
+      },
+      "edge_pass": true,
+      "central_ROI_pass": true,
+      "adverse_positive_EV_pass": true,
+      "all_numeric_gates_pass": true
+    }
+  },
+  "push_central_win54_push10": {
+    "scenario_win_push_pairs": [
+      [
+        {
+          "decimal": 0.5,
+          "exact": "1/2"
+        },
+        {
+          "decimal": 0.1,
+          "exact": "1/10"
+        }
+      ],
+      [
+        {
+          "decimal": 0.51,
+          "exact": "51/100"
+        },
+        {
+          "decimal": 0.05,
+          "exact": "1/20"
+        }
+      ]
+    ],
+    "bounds": {
+      "edge_bound_inclusive": {
+        "decimal": 1.7857142857142858,
+        "exact": "25/14"
+      },
+      "central_ROI_bound_inclusive": {
+        "decimal": 1.7592592592592593,
+        "exact": "95/54"
+      },
+      "adverse_bound_strict": {
+        "decimal": 1.8627450980392157,
+        "exact": "95/51"
+      }
+    },
+    "at_minus_110": {
+      "decimal_odds": {
+        "decimal": 1.9090909090909092,
+        "exact": "21/11"
+      },
+      "American_equivalent": {
+        "decimal": -110.0,
+        "exact": "-110"
+      },
+      "central_conditional_probability": {
+        "decimal": 0.6,
+        "exact": "3/5"
+      },
+      "central_probability_edge": {
+        "decimal": 0.0761904761904762,
+        "exact": "8/105"
+      },
+      "central_ROI": {
+        "decimal": 0.13090909090909092,
+        "exact": "36/275"
+      },
+      "scenario_ROIs": [
+        {
+          "decimal": 0.05454545454545454,
+          "exact": "3/55"
+        },
+        {
+          "decimal": 0.023636363636363636,
+          "exact": "13/550"
+        }
+      ],
+      "worst_scenario_ROI": {
+        "decimal": 0.023636363636363636,
+        "exact": "13/550"
+      },
+      "edge_pass": true,
+      "central_ROI_pass": true,
+      "adverse_positive_EV_pass": true,
+      "all_numeric_gates_pass": true
+    },
+    "at_decimal_1_85": {
+      "decimal_odds": {
+        "decimal": 1.85,
+        "exact": "37/20"
+      },
+      "American_equivalent": {
+        "decimal": -117.6470588235294,
+        "exact": "-2000/17"
+      },
+      "central_conditional_probability": {
+        "decimal": 0.6,
+        "exact": "3/5"
+      },
+      "central_probability_edge": {
+        "decimal": 0.05945945945945946,
+        "exact": "11/185"
+      },
+      "central_ROI": {
+        "decimal": 0.099,
+        "exact": "99/1000"
+      },
+      "scenario_ROIs": [
+        {
+          "decimal": 0.025,
+          "exact": "1/40"
+        },
+        {
+          "decimal": -0.0065,
+          "exact": "-13/2000"
+        }
+      ],
+      "worst_scenario_ROI": {
+        "decimal": -0.0065,
+        "exact": "-13/2000"
+      },
+      "edge_pass": true,
+      "central_ROI_pass": true,
+      "adverse_positive_EV_pass": false,
+      "all_numeric_gates_pass": false
+    },
+    "at_minus_115": {
+      "decimal_odds": {
+        "decimal": 1.8695652173913044,
+        "exact": "43/23"
+      },
+      "American_equivalent": {
+        "decimal": -115.0,
+        "exact": "-115"
+      },
+      "central_conditional_probability": {
+        "decimal": 0.6,
+        "exact": "3/5"
+      },
+      "central_probability_edge": {
+        "decimal": 0.06511627906976744,
+        "exact": "14/215"
+      },
+      "central_ROI": {
+        "decimal": 0.10956521739130434,
+        "exact": "63/575"
+      },
+      "scenario_ROIs": [
+        {
+          "decimal": 0.034782608695652174,
+          "exact": "4/115"
+        },
+        {
+          "decimal": 0.0034782608695652175,
+          "exact": "2/575"
+        }
+      ],
+      "worst_scenario_ROI": {
+        "decimal": 0.0034782608695652175,
+        "exact": "2/575"
+      },
+      "edge_pass": true,
+      "central_ROI_pass": true,
+      "adverse_positive_EV_pass": true,
+      "all_numeric_gates_pass": true
+    },
+    "at_minus_116": {
+      "decimal_odds": {
+        "decimal": 1.8620689655172413,
+        "exact": "54/29"
+      },
+      "American_equivalent": {
+        "decimal": -116.0,
+        "exact": "-116"
+      },
+      "central_conditional_probability": {
+        "decimal": 0.6,
+        "exact": "3/5"
+      },
+      "central_probability_edge": {
+        "decimal": 0.06296296296296296,
+        "exact": "17/270"
+      },
+      "central_ROI": {
+        "decimal": 0.10551724137931034,
+        "exact": "153/1450"
+      },
+      "scenario_ROIs": [
+        {
+          "decimal": 0.03103448275862069,
+          "exact": "9/290"
+        },
+        {
+          "decimal": -0.0003448275862068965,
+          "exact": "-1/2900"
+        }
+      ],
+      "worst_scenario_ROI": {
+        "decimal": -0.0003448275862068965,
+        "exact": "-1/2900"
+      },
+      "edge_pass": true,
+      "central_ROI_pass": true,
+      "adverse_positive_EV_pass": false,
+      "all_numeric_gates_pass": false
+    }
+  },
+  "edge_vs_ROI_gate_crossover_conditional_p": {
+    "no_push": {
+      "decimal": 0.84,
+      "exact": "21/25"
+    },
+    "10_pct_push": {
+      "decimal": 0.76,
+      "exact": "19/25"
+    }
+  },
+  "grid_analytic_vs_direct_assertions_passed": 168
+}
