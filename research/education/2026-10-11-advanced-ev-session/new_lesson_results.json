@@ -1,0 +1,829 @@
+{
+  "scope": "All NFL inputs and outcomes invented; mathematical education only. No empirical NFL validation or trading activity.",
+  "python_version": "3.12.14",
+  "arithmetic": "fractions.Fraction except Gamma-Poisson posterior predictive tails evaluated in double precision and independently checked by recurrence and log-gamma formulas",
+  "test_status": "PASS",
+  "test_count": 68,
+  "test_names": [
+    "high PMF normalizes",
+    "high comb PMF equals independent convolution",
+    "high binomial expectation",
+    "high survival probabilities monotone",
+    "ordinary PMF normalizes",
+    "ordinary comb PMF equals independent convolution",
+    "ordinary binomial expectation",
+    "ordinary survival probabilities monotone",
+    "one report posterior is 2/3",
+    "exact copied report leaves posterior unchanged",
+    "two conditionally independent reports posterior is 6/7",
+    "incremental conditional likelihood ratio 1.5 yields 3/4",
+    "partial source evidence lies between copy and independent cases",
+    "predictive mixture equals joint event enumeration",
+    "one-report expected ROI positive at -110",
+    "invented 50% role stress reverses ROI sign",
+    "market prior that already includes report remains unchanged on reread",
+    "incorrect reapplication of original LR equals naive duplication",
+    "fictional action-win/action-loss/void vector normalizes",
+    "conditional action probability is retained",
+    "refund expected ROI equals action probability times active ROI",
+    "treating void as loss changes EV by void probability",
+    "fictional void-as-loss error reverses ROI sign",
+    "zero-probability evidence rejected",
+    "high-role fair line has 50% tail",
+    "limited-role fair line has 50% tail",
+    "midpoint of state fair lines is not mixture fair line",
+    "exact offered line must be evaluated separately",
+    "each supplied joint stress scenario has positive ROI",
+    "rectangular minimum uses low prior/sensitivity and high false-positive",
+    "enlarged rectangular stress set can reverse sign",
+    "rectangular minimizer is absent from supplied joint scenarios",
+    "componentwise p and odds minima add an unattested pair",
+    "uncertain reference can change model-reference edge sign",
+    "posterior increases with prior at false-positive 3/20",
+    "posterior increases with prior at false-positive 1/4",
+    "posterior increases with prior at false-positive 7/20",
+    "stale price positive but executable price negative",
+    "capacity-weighted decimal odds are 1.83",
+    "capacity-weighted ROI is 0.65%",
+    "return-state enumeration equals weighted expected profit",
+    "probability stress gives -4.84% ROI",
+    "ideal candidate cohort modeled ROI is 4%",
+    "losing highest-edge fifth leaves modeled ROI 2%",
+    "random fifth missing retains expected ROI 4%",
+    "opportunity loss is not a losing settled wager",
+    "negative-binomial recurrence matches independent log-gamma evaluation",
+    "mean PPC is not extreme",
+    "zero-rate PPC reveals large mismatch",
+    "zero-frequency posterior predictive upper bound is below 1e-50",
+    "fitted bin map has zero in-sample displayed calibration error",
+    "locked fitted map later calibration error is 0.3",
+    "raw later calibration error is 0.1",
+    "synthetic later Brier scores 0.34 vs 0.26",
+    "uniform-prior Bernoulli denominator n+2 verified by integration",
+    "n+1 formula fails all-success posterior-mean fixture",
+    "posterior predictive log score averages densities before logging",
+    "signal joint distribution normalizes",
+    "signal_A individually calibrated at signal 0",
+    "signal_A individually calibrated at signal 1",
+    "signal_B individually calibrated at signal 0",
+    "signal_B individually calibrated at signal 1",
+    "mean of calibrated forecasts can be uncalibrated",
+    "ensemble population ECE is 0.096",
+    "copied .8 signal must not become 16/17",
+    "single calibrated source population Brier is 0.16",
+    "averaging improves Brier here despite losing calibration",
+    "correctly fused conditional forecast population Brier is 2/17"
+  ],
+  "examples": {
+    "1_role_news_update": {
+      "contract": "Invented WR Over 4.5 receptions, both roles active, no push/void",
+      "catch_probability": {
+        "exact": "13/20",
+        "decimal": 0.65
+      },
+      "high_role_targets": 8,
+      "ordinary_role_targets": 6,
+      "high_role_over_probability": {
+        "exact": "3616765113/5120000000",
+        "decimal": 0.7063994361328125
+      },
+      "ordinary_role_over_probability": {
+        "exact": "4084223/12800000",
+        "decimal": 0.319079921875
+      },
+      "prior_high_role_probability": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "report_sensitivity": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "report_false_positive": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "cases": [
+        {
+          "name": "before_report",
+          "role_posterior": {
+            "exact": "2/5",
+            "decimal": 0.4
+          },
+          "event_probability": {
+            "exact": "6067298913/12800000000",
+            "decimal": 0.474007727578125
+          },
+          "roi_at_minus110": {
+            "exact": "-13386722827/140800000000",
+            "decimal": -0.09507615644176136
+          }
+        },
+        {
+          "name": "one_report",
+          "role_posterior": {
+            "exact": "2/3",
+            "decimal": 0.6666666666666666
+          },
+          "event_probability": {
+            "exact": "4433609713/7680000000",
+            "decimal": 0.5772929313802083
+          },
+          "roi_at_minus110": {
+            "exact": "2875267991/28160000000",
+            "decimal": 0.10210468718039772
+          }
+        },
+        {
+          "name": "exact_duplicate_correct",
+          "role_posterior": {
+            "exact": "2/3",
+            "decimal": 0.6666666666666666
+          },
+          "event_probability": {
+            "exact": "4433609713/7680000000",
+            "decimal": 0.5772929313802083
+          },
+          "roi_at_minus110": {
+            "exact": "2875267991/28160000000",
+            "decimal": 0.10210468718039772
+          }
+        },
+        {
+          "name": "two_independent_reports_or_wrongly_treated_copy",
+          "role_posterior": {
+            "exact": "6/7",
+            "decimal": 0.8571428571428571
+          },
+          "event_probability": {
+            "exact": "1666734277/2560000000",
+            "decimal": 0.651068076953125
+          },
+          "roi_at_minus110": {
+            "exact": "6841419817/28160000000",
+            "decimal": 0.24294814691051136
+          }
+        },
+        {
+          "name": "second_report_conditional_LR_1.5",
+          "role_posterior": {
+            "exact": "3/4",
+            "decimal": 0.75
+          },
+          "event_probability": {
+            "exact": "12483984539/20480000000",
+            "decimal": 0.6095695575683594
+          },
+          "roi_at_minus110": {
+            "exact": "36883675319/225280000000",
+            "decimal": 0.16372370081232243
+          }
+        },
+        {
+          "name": "unvalidated_role_stress",
+          "role_posterior": {
+            "exact": "1/2",
+            "decimal": 0.5
+          },
+          "event_probability": {
+            "exact": "5250454313/10240000000",
+            "decimal": 0.5127396790039063
+          },
+          "roi_at_minus110": {
+            "exact": "-2380459427/112640000000",
+            "decimal": -0.021133340083451704
+          }
+        }
+      ],
+      "midpoint_line_counterexample": {
+        "high_yards_uniform_integer_support": [
+          61,
+          100
+        ],
+        "limited_yards_uniform_integer_support": [
+          1,
+          60
+        ],
+        "role_weights": [
+          {
+            "exact": "1/2",
+            "decimal": 0.5
+          },
+          {
+            "exact": "1/2",
+            "decimal": 0.5
+          }
+        ],
+        "conditional_fair_lines": [
+          {
+            "exact": "161/2",
+            "decimal": 80.5
+          },
+          {
+            "exact": "61/2",
+            "decimal": 30.5
+          }
+        ],
+        "midpoint_line": {
+          "exact": "111/2",
+          "decimal": 55.5
+        },
+        "probability_over_midpoint": {
+          "exact": "13/24",
+          "decimal": 0.5416666666666666
+        },
+        "offered_line": {
+          "exact": "119/2",
+          "decimal": 59.5
+        },
+        "probability_over_offered_line": {
+          "exact": "61/120",
+          "decimal": 0.5083333333333333
+        }
+      },
+      "fictional_inactive_refund_guard": {
+        "action_probability": {
+          "exact": "4/5",
+          "decimal": 0.8
+        },
+        "conditional_active_win_probability": {
+          "exact": "4433609713/7680000000",
+          "decimal": 0.5772929313802083
+        },
+        "unconditional_win": {
+          "exact": "4433609713/9600000000",
+          "decimal": 0.46183434510416665
+        },
+        "unconditional_loss": {
+          "exact": "3246390287/9600000000",
+          "decimal": 0.33816565489583333
+        },
+        "unconditional_void": {
+          "exact": "1/5",
+          "decimal": 0.2
+        },
+        "roi_per_posted_stake": {
+          "exact": "2875267991/35200000000",
+          "decimal": 0.08168374974431818
+        },
+        "roi_per_active_stake": {
+          "exact": "2875267991/28160000000",
+          "decimal": 0.10210468718039772
+        },
+        "incorrect_void_as_loss_roi": {
+          "exact": "-4164732009/35200000000",
+          "decimal": -0.11831625025568182
+        },
+        "settlement_scope": "Fictional full-refund clause only; no actual sportsbook rule is represented."
+      }
+    },
+    "2_joint_uncertainty_set": {
+      "joint_scenarios": [
+        {
+          "id": "A",
+          "prior": {
+            "exact": "3/10",
+            "decimal": 0.3
+          },
+          "sensitivity": {
+            "exact": "13/20",
+            "decimal": 0.65
+          },
+          "false_positive": {
+            "exact": "3/20",
+            "decimal": 0.15
+          },
+          "decimal_odds": {
+            "exact": "19/10",
+            "decimal": 1.9
+          },
+          "role_posterior": {
+            "exact": "13/20",
+            "decimal": 0.65
+          },
+          "event_probability": {
+            "exact": "58453770869/102400000000",
+            "decimal": 0.5708376061425782
+          },
+          "roi": {
+            "exact": "86621646511/1024000000000",
+            "decimal": 0.08459145167089843
+          }
+        },
+        {
+          "id": "B",
+          "prior": {
+            "exact": "1/2",
+            "decimal": 0.5
+          },
+          "sensitivity": {
+            "exact": "17/20",
+            "decimal": 0.85
+          },
+          "false_positive": {
+            "exact": "7/20",
+            "decimal": 0.35
+          },
+          "decimal_odds": {
+            "exact": "17/10",
+            "decimal": 1.7
+          },
+          "role_posterior": {
+            "exact": "17/24",
+            "decimal": 0.7083333333333334
+          },
+          "event_probability": {
+            "exact": "72920831321/122880000000",
+            "decimal": 0.5934312444742839
+          },
+          "roi": {
+            "exact": "10854132457/1228800000000",
+            "decimal": 0.008833115606282553
+          }
+        }
+      ],
+      "minimum_joint_scenario_roi": {
+        "exact": "10854132457/1228800000000",
+        "decimal": 0.008833115606282553
+      },
+      "componentwise_probability_and_price_minimum_roi": {
+        "exact": "-30285895227/1024000000000",
+        "decimal": -0.02957606955761719
+      },
+      "enlarged_rectangle_worst_case": {
+        "prior": {
+          "exact": "3/10",
+          "decimal": 0.3
+        },
+        "sensitivity": {
+          "exact": "13/20",
+          "decimal": 0.65
+        },
+        "false_positive": {
+          "exact": "7/20",
+          "decimal": 0.35
+        },
+        "decimal_odds": {
+          "exact": "17/10",
+          "decimal": 1.7
+        },
+        "role_posterior": {
+          "exact": "39/88",
+          "decimal": 0.4431818181818182
+        },
+        "event_probability": {
+          "exact": "221104610207/450560000000",
+          "decimal": 0.490732888421076
+        },
+        "roi": {
+          "exact": "-746821626481/4505600000000",
+          "decimal": -0.1657540896841708
+        }
+      },
+      "rectangle_corner_count": 16,
+      "central_model_probability": {
+        "exact": "4433609713/7680000000",
+        "decimal": 0.5772929313802083
+      },
+      "alternative_reference_probabilities": [
+        {
+          "exact": "11/20",
+          "decimal": 0.55
+        },
+        {
+          "exact": "59/100",
+          "decimal": 0.59
+        }
+      ],
+      "model_minus_reference_probability_edges": [
+        {
+          "exact": "209609713/7680000000",
+          "decimal": 0.027292931380208333
+        },
+        {
+          "exact": "-97590287/7680000000",
+          "decimal": -0.012707068619791666
+        }
+      ],
+      "coverage_claim": "None. These are invented scenario sets; neither is a calibrated confidence or credible region."
+    },
+    "3_executable_price_selection": {
+      "repricing": {
+        "event_probability": {
+          "exact": "4433609713/7680000000",
+          "decimal": 0.5772929313802083
+        },
+        "stale_decimal": {
+          "exact": "21/11",
+          "decimal": 1.9090909090909092
+        },
+        "stale_roi": {
+          "exact": "2875267991/28160000000",
+          "decimal": 0.10210468718039772
+        },
+        "executable_decimal": {
+          "exact": "17/10",
+          "decimal": 1.7
+        },
+        "executable_roi": {
+          "exact": "-1428634879/76800000000",
+          "decimal": -0.018602016653645834
+        }
+      },
+      "capacity": {
+        "event_probability": {
+          "exact": "11/20",
+          "decimal": 0.55
+        },
+        "invented_allocation": [
+          {
+            "stake": {
+              "exact": "10",
+              "decimal": 10.0
+            },
+            "decimal": {
+              "exact": "21/10",
+              "decimal": 2.1
+            }
+          },
+          {
+            "stake": {
+              "exact": "90",
+              "decimal": 90.0
+            },
+            "decimal": {
+              "exact": "9/5",
+              "decimal": 1.8
+            }
+          }
+        ],
+        "headline_roi": {
+          "exact": "31/200",
+          "decimal": 0.155
+        },
+        "effective_decimal": {
+          "exact": "183/100",
+          "decimal": 1.83
+        },
+        "effective_roi": {
+          "exact": "13/2000",
+          "decimal": 0.0065
+        },
+        "probability_stress": {
+          "exact": "13/25",
+          "decimal": 0.52
+        },
+        "stress_roi": {
+          "exact": "-121/2500",
+          "decimal": -0.0484
+        }
+      },
+      "latency_selection": {
+        "candidate_count": 100,
+        "high_EV_count": 20,
+        "high_EV": {
+          "exact": "3/25",
+          "decimal": 0.12
+        },
+        "other_EV": {
+          "exact": "1/50",
+          "decimal": 0.02
+        },
+        "ideal_expected_profit_units": {
+          "exact": "4",
+          "decimal": 4.0
+        },
+        "ideal_mean_roi": {
+          "exact": "1/25",
+          "decimal": 0.04
+        },
+        "nonrandom_missing_count": 20,
+        "remaining_mean_roi": {
+          "exact": "1/50",
+          "decimal": 0.02
+        },
+        "remaining_expected_profit_units": {
+          "exact": "8/5",
+          "decimal": 1.6
+        },
+        "random_missing_expected_profit_units": {
+          "exact": "16/5",
+          "decimal": 3.2
+        },
+        "random_missing_expected_mean_roi": {
+          "exact": "1/25",
+          "decimal": 0.04
+        }
+      },
+      "execution_claim": "No quote, capacity, allocation, accepted wager, or fill was observed or attempted."
+    },
+    "4_predictive_checks_and_holdout": {
+      "gamma_poisson": {
+        "invented_counts": {
+          "zero": 50,
+          "ten": 50
+        },
+        "prior_shape": 1,
+        "prior_rate": 1,
+        "posterior_shape": 501,
+        "posterior_rate": 101,
+        "observed_mean": {
+          "exact": "5",
+          "decimal": 5.0
+        },
+        "predictive_mean": {
+          "exact": "501/101",
+          "decimal": 4.96039603960396
+        },
+        "predictive_variance": {
+          "exact": "51102/10201",
+          "decimal": 5.009508871679247
+        },
+        "mean_statistic_posterior_predictive_tail": 0.44996596414839407,
+        "loggamma_crosscheck_absolute_error": 5.040412531798211e-14,
+        "observed_zero_fraction": {
+          "exact": "1/2",
+          "decimal": 0.5
+        },
+        "predictive_zero_probability": 0.00718327035841562,
+        "expected_zero_count": 0.718327035841562,
+        "P_replicated_zero_count_ge_50_upper_bound": 3.1725726867846924e-59
+      },
+      "heldout_calibrator": {
+        "calibration_window": [
+          {
+            "raw_p": {
+              "exact": "2/5",
+              "decimal": 0.4
+            },
+            "n": 20,
+            "wins": 4,
+            "fitted_p": {
+              "exact": "1/5",
+              "decimal": 0.2
+            }
+          },
+          {
+            "raw_p": {
+              "exact": "3/5",
+              "decimal": 0.6
+            },
+            "n": 20,
+            "wins": 16,
+            "fitted_p": {
+              "exact": "4/5",
+              "decimal": 0.8
+            }
+          }
+        ],
+        "later_window": [
+          {
+            "raw_p": {
+              "exact": "2/5",
+              "decimal": 0.4
+            },
+            "n": 20,
+            "wins": 10,
+            "locked_calibrated_p": {
+              "exact": "1/5",
+              "decimal": 0.2
+            }
+          },
+          {
+            "raw_p": {
+              "exact": "3/5",
+              "decimal": 0.6
+            },
+            "n": 20,
+            "wins": 10,
+            "locked_calibrated_p": {
+              "exact": "4/5",
+              "decimal": 0.8
+            }
+          }
+        ],
+        "in_sample_calibrated_ECE": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "later_calibrated_ECE": {
+          "exact": "3/10",
+          "decimal": 0.3
+        },
+        "later_raw_ECE": {
+          "exact": "1/10",
+          "decimal": 0.1
+        },
+        "later_calibrated_Brier": {
+          "exact": "17/50",
+          "decimal": 0.34
+        },
+        "later_raw_Brier": {
+          "exact": "13/50",
+          "decimal": 0.26
+        }
+      },
+      "transcript_formula_guard": {
+        "uniform_prior_Bernoulli_n": 3,
+        "successes": 3,
+        "correct_posterior_mean": {
+          "exact": "4/5",
+          "decimal": 0.8
+        },
+        "incorrect_n_plus_1_result": {
+          "exact": "1",
+          "decimal": 1.0
+        }
+      },
+      "predictive_log_score_guard": {
+        "equal_weight_draw_likelihoods": [
+          0.2,
+          0.8
+        ],
+        "correct_log_mean_likelihood": -0.6931471805599453,
+        "incorrect_mean_log_likelihood": -0.916290731874155
+      },
+      "scope": "The check is under the assumed model. Passing chosen predictive checks does not establish real future calibration. The later data are a constructed counterexample, not empirical evidence that recalibration generally harms."
+    },
+    "5_calibrated_source_ensemble": {
+      "base_event_probability": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "signal_correct_probability": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "conditional_independence_assumed": true,
+      "joint_probability_cells": [
+        {
+          "outcome": 0,
+          "signal_A": 0,
+          "signal_B": 0,
+          "mass": {
+            "exact": "8/25",
+            "decimal": 0.32
+          },
+          "count_in_exact_50_row_fixture": 16
+        },
+        {
+          "outcome": 0,
+          "signal_A": 0,
+          "signal_B": 1,
+          "mass": {
+            "exact": "2/25",
+            "decimal": 0.08
+          },
+          "count_in_exact_50_row_fixture": 4
+        },
+        {
+          "outcome": 0,
+          "signal_A": 1,
+          "signal_B": 0,
+          "mass": {
+            "exact": "2/25",
+            "decimal": 0.08
+          },
+          "count_in_exact_50_row_fixture": 4
+        },
+        {
+          "outcome": 0,
+          "signal_A": 1,
+          "signal_B": 1,
+          "mass": {
+            "exact": "1/50",
+            "decimal": 0.02
+          },
+          "count_in_exact_50_row_fixture": 1
+        },
+        {
+          "outcome": 1,
+          "signal_A": 0,
+          "signal_B": 0,
+          "mass": {
+            "exact": "1/50",
+            "decimal": 0.02
+          },
+          "count_in_exact_50_row_fixture": 1
+        },
+        {
+          "outcome": 1,
+          "signal_A": 0,
+          "signal_B": 1,
+          "mass": {
+            "exact": "2/25",
+            "decimal": 0.08
+          },
+          "count_in_exact_50_row_fixture": 4
+        },
+        {
+          "outcome": 1,
+          "signal_A": 1,
+          "signal_B": 0,
+          "mass": {
+            "exact": "2/25",
+            "decimal": 0.08
+          },
+          "count_in_exact_50_row_fixture": 4
+        },
+        {
+          "outcome": 1,
+          "signal_A": 1,
+          "signal_B": 1,
+          "mass": {
+            "exact": "8/25",
+            "decimal": 0.32
+          },
+          "count_in_exact_50_row_fixture": 16
+        }
+      ],
+      "ensemble_cohorts": [
+        {
+          "signal_A": 0,
+          "signal_B": 0,
+          "mass": {
+            "exact": "17/50",
+            "decimal": 0.34
+          },
+          "mean_forecast": {
+            "exact": "1/5",
+            "decimal": 0.2
+          },
+          "actual_conditional_probability": {
+            "exact": "1/17",
+            "decimal": 0.058823529411764705
+          }
+        },
+        {
+          "signal_A": 0,
+          "signal_B": 1,
+          "mass": {
+            "exact": "4/25",
+            "decimal": 0.16
+          },
+          "mean_forecast": {
+            "exact": "1/2",
+            "decimal": 0.5
+          },
+          "actual_conditional_probability": {
+            "exact": "1/2",
+            "decimal": 0.5
+          }
+        },
+        {
+          "signal_A": 1,
+          "signal_B": 0,
+          "mass": {
+            "exact": "4/25",
+            "decimal": 0.16
+          },
+          "mean_forecast": {
+            "exact": "1/2",
+            "decimal": 0.5
+          },
+          "actual_conditional_probability": {
+            "exact": "1/2",
+            "decimal": 0.5
+          }
+        },
+        {
+          "signal_A": 1,
+          "signal_B": 1,
+          "mass": {
+            "exact": "17/50",
+            "decimal": 0.34
+          },
+          "mean_forecast": {
+            "exact": "4/5",
+            "decimal": 0.8
+          },
+          "actual_conditional_probability": {
+            "exact": "16/17",
+            "decimal": 0.9411764705882353
+          }
+        }
+      ],
+      "ensemble_population_ECE": {
+        "exact": "12/125",
+        "decimal": 0.096
+      },
+      "copied_signal_positive_posterior": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "single_source_population_Brier": {
+        "exact": "4/25",
+        "decimal": 0.16
+      },
+      "averaged_forecast_population_Brier": {
+        "exact": "82/625",
+        "decimal": 0.1312
+      },
+      "correctly_fused_population_Brier": {
+        "exact": "2/17",
+        "decimal": 0.11764705882352941
+      },
+      "scope": "Exact population construction. Calibrated source forecasts alone do not identify their dependence or make an equal-weight ensemble calibrated."
+    }
+  }
+}

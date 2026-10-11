@@ -1,0 +1,144 @@
+{
+  "scope": "All inputs invented. Active WR Over 4.5 receptions, matching same-time hypothetical Over -110 and Under -110. No push or void in this card. Adverse probability is an assumption-only role stress, not a calibrated lower bound.",
+  "offered_decimal": {
+    "exact": "21/11",
+    "decimal": 1.9090909090909092
+  },
+  "offered_raw_implied_probability": {
+    "exact": "11/21",
+    "decimal": 0.5238095238095238
+  },
+  "same_book_complementary_raw_implied_probability": {
+    "exact": "11/21",
+    "decimal": 0.5238095238095238
+  },
+  "two_way_overround": {
+    "exact": "1/21",
+    "decimal": 0.047619047619047616
+  },
+  "proportional_no_vig_probability": {
+    "exact": "1/2",
+    "decimal": 0.5
+  },
+  "cases": [
+    {
+      "name": "raw_central",
+      "p": {
+        "exact": "4433609713/7680000000",
+        "decimal": 0.5772929313802083
+      },
+      "minus_offered_break_even": {
+        "exact": "2875267991/53760000000",
+        "decimal": 0.053483407570684524
+      },
+      "minus_no_vig_reference": {
+        "exact": "593609713/7680000000",
+        "decimal": 0.07729293138020833
+      },
+      "roi_at_minus110": {
+        "exact": "2875267991/28160000000",
+        "decimal": 0.10210468718039772
+      },
+      "zero_EV_decimal": {
+        "exact": "7680000000/4433609713",
+        "decimal": 1.7322228380818236
+      },
+      "zero_EV_American": {
+        "exact": "-443360971300/3246390287",
+        "decimal": -136.57044658968326
+      },
+      "whole_integer_price_checks": [
+        {
+          "american": -136,
+          "decimal": {
+            "exact": "59/34",
+            "decimal": 1.7352941176470589
+          },
+          "roi": {
+            "exact": "462973067/261120000000",
+            "decimal": 0.0017730279833026961
+          }
+        },
+        {
+          "american": -137,
+          "decimal": {
+            "exact": "237/137",
+            "decimal": 1.72992700729927
+          },
+          "roi": {
+            "exact": "-464832673/350720000000",
+            "decimal": -0.0013253668824133211
+          }
+        }
+      ]
+    },
+    {
+      "name": "assumption_only_adverse",
+      "p": {
+        "exact": "5250454313/10240000000",
+        "decimal": 0.5127396790039063
+      },
+      "minus_offered_break_even": {
+        "exact": "-2380459427/215040000000",
+        "decimal": -0.01106984480561756
+      },
+      "minus_no_vig_reference": {
+        "exact": "130454313/10240000000",
+        "decimal": 0.01273967900390625
+      },
+      "roi_at_minus110": {
+        "exact": "-2380459427/112640000000",
+        "decimal": -0.021133340083451704
+      },
+      "zero_EV_decimal": {
+        "exact": "10240000000/5250454313",
+        "decimal": 1.950307419044863
+      },
+      "zero_EV_American": {
+        "exact": "-525045431300/4989545687",
+        "decimal": -105.22910586187804
+      },
+      "whole_integer_price_checks": [
+        {
+          "american": -105,
+          "decimal": {
+            "exact": "41/21",
+            "decimal": 1.9523809523809523
+          },
+          "roi": {
+            "exact": "228626833/215040000000",
+            "decimal": 0.0010631828171502977
+          }
+        },
+        {
+          "american": -106,
+          "decimal": {
+            "exact": "103/53",
+            "decimal": 1.9433962264150944
+          },
+          "roi": {
+            "exact": "-1923205761/542720000000",
+            "decimal": -0.003543642690521816
+          }
+        }
+      ]
+    }
+  ],
+  "boundary_rule": "Equality is zero EV. Positive EV requires decimal odds strictly above the zero-EV decimal boundary, equivalently a strictly better American price.",
+  "operational_status": "No operational play-to price or line. Role, calibration, reference-quality and other applicable gates remain unresolved. These boundaries enforce positive EV only.",
+  "test_count": 11,
+  "checks": [
+    "matching same-time complementary -110 prices imply no-vig .50",
+    "raw implied probability is 11/21",
+    "raw_central exact break-even gives zero EV",
+    "raw_central American boundary matches decimal",
+    "raw_central better whole-number price strictly positive",
+    "raw_central next worse whole-number price negative",
+    "assumption_only_adverse exact break-even gives zero EV",
+    "assumption_only_adverse American boundary matches decimal",
+    "assumption_only_adverse better whole-number price strictly positive",
+    "assumption_only_adverse next worse whole-number price negative",
+    "central positive but adverse negative at offered price"
+  ],
+  "status": "PASS"
+}

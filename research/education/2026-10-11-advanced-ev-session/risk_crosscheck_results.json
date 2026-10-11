@@ -1,0 +1,119 @@
+{
+  "status": "PASS",
+  "named_check_count": 37,
+  "checks": [
+    "half_log_optimum exact mean",
+    "half_log_optimum Decimal log growth",
+    "half_log_optimum exact compounded arithmetic mean",
+    "half_log_optimum exponentiated expected log",
+    "log_optimum exact mean",
+    "log_optimum Decimal log growth",
+    "log_optimum exact compounded arithmetic mean",
+    "log_optimum exponentiated expected log",
+    "oversized exact mean",
+    "oversized Decimal log growth",
+    "oversized exact compounded arithmetic mean",
+    "oversized exponentiated expected log",
+    "analytical first derivative zero at optimum",
+    "positive arithmetic EV but negative log growth at .20",
+    "exact half-growth ratio matches reported value",
+    "57 wins lose and 58 wins gain",
+    "wealth is strictly increasing in win count",
+    "exact rational terminal loss probability agrees",
+    "55-win path equals exponentiated expected log",
+    "five-loss decline exact",
+    "independent joint distribution valid",
+    "independent shared-time payoff mean",
+    "independent covariance-based variance",
+    "independent high-precision standard deviation",
+    "independent indicator correlation",
+    "independent high-precision joint expected log",
+    "positively_dependent joint distribution valid",
+    "positively_dependent shared-time payoff mean",
+    "positively_dependent covariance-based variance",
+    "positively_dependent high-precision standard deviation",
+    "positively_dependent indicator correlation",
+    "positively_dependent high-precision joint expected log",
+    "distinct posterior fixtures share mean .55",
+    "same posterior mean gives identical one-step expected log",
+    "reported Beta posteriors have same mean but different variance",
+    "worst-case .51 model has negative derivative at zero",
+    "robust no-positive-exposure result matches numerical checks"
+  ],
+  "single_prop": [
+    {
+      "name": "half_log_optimum",
+      "fraction_exact": "101/3640",
+      "mean_exact": "10201/7280000",
+      "log_growth_70_digit": "0.00105230078112203586070811776284620349343013856435384444276684749608779",
+      "mean_terminal_wealth_100": "1.150303182784858472609661942266469398177310878434941144798445201462013",
+      "exponentiated_expected_log_100": "1.110966189956648971731384691155846217602954228923424229784143097262705"
+    },
+    {
+      "name": "log_optimum",
+      "fraction_exact": "101/1820",
+      "mean_exact": "10201/3640000",
+      "log_growth_70_digit": "0.00140423410700862996324737376429574115624978423899174342618437902848766",
+      "mean_terminal_wealth_100": "1.322938359076891451417305084472849503277119559791162861719978224416790",
+      "exponentiated_expected_log_100": "1.150760940215740006869392457543899839629129291777290807813683829985645"
+    },
+    {
+      "name": "oversized",
+      "fraction_exact": "1/5",
+      "mean_exact": "101/10000",
+      "log_growth_70_digit": "-0.00845024265024583954876761271968318280798882973650423019738228594030698",
+      "mean_terminal_wealth_100": "2.731725840049336528539969399856372165400838738344426763678888274827427",
+      "exponentiated_expected_log_100": "0.4295469351173407662493374285916335360659929421973799385635727942473545"
+    }
+  ],
+  "half_growth_ratio": "0.7493770275696406827852142232889212548570442984349843063997083462204726",
+  "terminal_loss": {
+    "break_even_win_count": "57.16477797401205776668049616790858439011435838143979219175292235071960",
+    "wealth_57_wins": "0.9377036440294993761020926649744647069416630052727691395088954321719389",
+    "wealth_58_wins": "1.385457134053585328190841912499771604506307090290516403624393001034040",
+    "probability_exact": "1095485731196544996323389904053528265826055768646373266735701088731717616597971647468787463900796570788933668303513119770917356621/1584563250285286751870879006720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "probability_decimal": "0.6913486924547267983419416161391981812130370297326157604428554597208168"
+  },
+  "two_prop": [
+    {
+      "name": "independent",
+      "joint_cells_exact": [
+        "121/400",
+        "99/400",
+        "99/400",
+        "81/400"
+      ],
+      "mean_exact": "303/100000",
+      "variance_exact": "32504571/20000000000",
+      "standard_deviation": "0.04031412345568237702149159082591468768165582269757388083524100775329133",
+      "correlation_exact": "0",
+      "expected_log_growth": "0.00221329152235675470956342969697489146209255129969627390396387518712033"
+    },
+    {
+      "name": "positively_dependent",
+      "joint_cells_exact": [
+        "9/20",
+        "1/10",
+        "1/10",
+        "7/20"
+      ],
+      "mean_exact": "303/100000",
+      "variance_exact": "25937991/10000000000",
+      "standard_deviation": "0.05092935401121832411102396080009201039184806195937018568957254626683506",
+      "correlation_exact": "59/99",
+      "expected_log_growth": "0.00172557503521098739721070225555226164538474606114815893348529627886041"
+    }
+  ],
+  "same_mean_posteriors": {
+    "Beta_means": [
+      "11/20",
+      "11/20"
+    ],
+    "Beta_variances": [
+      "99/40400",
+      "9/36400"
+    ],
+    "robust_derivative_at_zero_p_51": "-259/10000"
+  },
+  "scope": "Independent arithmetic and stated-assumption review only. No empirical NFL model, actual bankroll advice or source-transcript audit. Brownian example excluded."
+}

@@ -1,0 +1,51 @@
+{
+  "single": [
+    {
+      "name": "half_log_optimum",
+      "exposure": 0.027747252747252746,
+      "arithmetic_mean": 0.0014012362637362637,
+      "expected_log_growth": 0.0010523007811220394,
+      "five_loss_wealth": 0.8687521550904,
+      "mean_wealth_100": 1.150303182784867,
+      "exp_expected_log_wealth_100": 1.1109661899566494
+    },
+    {
+      "name": "log_optimum",
+      "exposure": 0.05549450549450549,
+      "arithmetic_mean": 0.0028024725274725273,
+      "expected_log_growth": 0.0014042341070086353,
+      "five_loss_wealth": 0.7516617374584166,
+      "mean_wealth_100": 1.322938359076882,
+      "exp_expected_log_wealth_100": 1.1507609402157406
+    },
+    {
+      "name": "oversized",
+      "exposure": 0.2,
+      "arithmetic_mean": 0.0101,
+      "expected_log_growth": -0.008450242650245826,
+      "five_loss_wealth": 0.32768,
+      "mean_wealth_100": 2.731725840049336,
+      "exp_expected_log_wealth_100": 0.4295469351173413
+    }
+  ],
+  "pair": [
+    {
+      "name": "independent",
+      "mean": 0.00303,
+      "variance": 0.00162522855,
+      "sd": 0.040314123455682374,
+      "correlation": 0.0,
+      "expected_log_growth": 0.0022132915223567534
+    },
+    {
+      "name": "positively_dependent",
+      "mean": 0.00303,
+      "variance": 0.0025937991,
+      "sd": 0.05092935401121832,
+      "correlation": 0.5959595959595959,
+      "expected_log_growth": 0.0017255750352109878
+    }
+  ],
+  "oversized_terminal_loss_probability_100": 0.6913486924547305,
+  "exact_half_growth_ratio": 0.7493770275696403
+}

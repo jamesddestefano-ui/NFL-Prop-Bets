@@ -28,3 +28,15 @@ NFL player-prop education only. The dated reports are immutable research records
 
 Methodology changes require review under the controlling config files. This index records completed research and proposal status; it is not evidence that a future scheduled cycle has run.
 
+
+
+## Advanced evening session — 2026-10-11
+
+- [New evidence, available prices, and honest validation](2026-10-11-advanced-ev-session/README.md): incremental Bayesian evidence accounting, settlement-eligible targets, execution delay/capacity, predictive checks versus future evaluation, and calibration of combined forecasts.
+- [Worked examples and reproducible checks](2026-10-11-advanced-ev-session/worked-appendix.md): invented inputs only; the numerical results are not empirical NFL validation or adopted policy.
+- [Source register](2026-10-11-advanced-ev-session/source-register.md): core transcript reviews and official written teaching material, with actual access methods, review windows, source-family ties and metadata conflicts.
+- [Optional portfolio-risk lesson](2026-10-11-advanced-ev-session/risk-supplement.md): equal expected profit can hide different joint downside; Bayesian averaging, robust criteria and drawdown objectives remain distinct.
+- [Market-reference sensitivity](2026-10-11-advanced-ev-session/market-reference-supplement.md): asymmetric de-vig choices can reverse apparent EV; the reviewed empirical study covers tennis bookmaker averages and racing totes, not NFL props.
+- [Review-only protocols](2026-10-11-advanced-ev-session/test-proposals.md): further T2/T3 design refinements. Empirical NFL testing remains proposed; no probability model, source ranking, executable edge or sizing policy was validated.
+
+Earlier records, controlling files and ledgers remain unchanged. This entry records educational work only and does not establish that a future cycle ran or that another workflow adopted a proposal.

@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "test_count": 10,
+  "checks": [
+    "overround exact",
+    "proportional probability exact",
+    "additive probability exact",
+    "Shin parameter feasible for this example",
+    "binary Shin normalized identity for 5/19",
+    "binary Shin normalized identity for 4/5",
+    "power probabilities normalize",
+    "devig choice reverses modeled EV sign",
+    "favorable proportional case below illustrative 4pp edge hurdle",
+    "favorable proportional case below illustrative 5percent ROI hurdle"
+  ],
+  "scope": "Invented active-receiver Over 99.5 yards, identical settlement and notional time, no actual quote/fill. This illustrates existing sensitivity requirements; it does not identify true probability or validate a reference book. Nominal hurdles are arithmetic fixtures, not rule changes.",
+  "reference_Over_American": 280,
+  "reference_Under_American": -400,
+  "raw_implied_Over": {
+    "exact": "5/19",
+    "decimal": 0.2631578947368421
+  },
+  "raw_implied_Under": {
+    "exact": "4/5",
+    "decimal": 0.8
+  },
+  "raw_implied_sum": {
+    "exact": "101/95",
+    "decimal": 1.063157894736842
+  },
+  "offered_American": 320,
+  "offered_decimal": {
+    "exact": "21/5",
+    "decimal": 4.2
+  },
+  "offered_break_even": {
+    "exact": "5/21",
+    "decimal": 0.23809523809523808
+  },
+  "binary_Shin_parameter": {
+    "exact": "10491/162206",
+    "decimal": 0.06467701564677016
+  },
+  "power_exponent": 1.12649999174229,
+  "methods": [
+    {
+      "method": "proportional",
+      "p": {
+        "exact": "25/101",
+        "decimal": 0.24752475247524752
+      },
+      "roi": {
+        "exact": "4/101",
+        "decimal": 0.039603960396039604
+      },
+      "minus_offered_break_even": {
+        "exact": "20/2121",
+        "decimal": 0.00942951438000943
+      }
+    },
+    {
+      "method": "additive_equals_binary_Shin",
+      "p": {
+        "exact": "22/95",
+        "decimal": 0.23157894736842105
+      },
+      "roi": {
+        "exact": "-13/475",
+        "decimal": -0.02736842105263158
+      },
+      "minus_offered_break_even": {
+        "exact": "-13/1995",
+        "decimal": -0.006516290726817042
+      }
+    },
+    {
+      "method": "power",
+      "p": 0.22226638352660325,
+      "roi": -0.06648118918826629,
+      "minus_offered_break_even": -0.015828854568634837
+    }
+  ],
+  "Shin_derivation": "Assume q_i\u00b2/Q=(1-z)p_i\u00b2+z*p_i and p1+p2=1. Subtraction gives q1-q2=p1-p2, hence p1=(1+q1-q2)/2, exactly the additive transform for two outcomes."
+}

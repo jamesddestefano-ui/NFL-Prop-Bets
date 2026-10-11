@@ -1,0 +1,109 @@
+{
+  "scope": "Synthetic consistency cross-checks only; no empirical NFL validation.",
+  "status": "PASS",
+  "check_count": 14,
+  "python_version": "3.12.14",
+  "scipy_version": "1.17.0",
+  "quadrature_absolute_error_estimate": 2.4139569752934167e-14,
+  "quadrature_omitted_tail_upper_bound": 2.45375007939957e-75,
+  "checks": [
+    {
+      "name": "8-target tail from scipy binomial survival",
+      "calculated": 0.7063994361328125,
+      "reference": 0.7063994361328125,
+      "absolute_error": 0.0,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "6-target tail from scipy binomial survival",
+      "calculated": 0.319079921875,
+      "reference": 0.319079921875,
+      "absolute_error": 0.0,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "mixture using scipy tails",
+      "calculated": 0.5772929313802083,
+      "reference": 0.5772929313802083,
+      "absolute_error": 0.0,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "binary payoff from win/loss expectation",
+      "calculated": 0.10210468718039767,
+      "reference": 0.10210468718039772,
+      "absolute_error": 5.551115123125783e-17,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "replicated total upper tail from scipy negative binomial",
+      "calculated": 0.44996596414839446,
+      "reference": 0.44996596414839407,
+      "absolute_error": 3.885780586188048e-16,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "single replicated zero probability by direct quadrature",
+      "calculated": 0.007183270358416733,
+      "reference": 0.00718327035841562,
+      "absolute_error": 1.1128251098391218e-15,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "shared-lambda union bound on log scale",
+      "calculated": -134.6979776547886,
+      "reference": -134.6979776547887,
+      "absolute_error": 1.1368683772161603e-13,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "component 0 calibration for signal 0",
+      "calculated": 0.2,
+      "reference": 0.2,
+      "absolute_error": 0.0,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "component 1 calibration for signal 0",
+      "calculated": 0.2,
+      "reference": 0.2,
+      "absolute_error": 0.0,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "component 0 calibration for signal 1",
+      "calculated": 0.8,
+      "reference": 0.8,
+      "absolute_error": 0.0,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "component 1 calibration for signal 1",
+      "calculated": 0.8,
+      "reference": 0.8,
+      "absolute_error": 0.0,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "single-source Brier from explicit rows",
+      "calculated": 0.16000000000000003,
+      "reference": 0.16,
+      "absolute_error": 2.7755575615628914e-17,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "averaged Brier from explicit rows",
+      "calculated": 0.1312,
+      "reference": 0.1312,
+      "absolute_error": 0.0,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "fused Brier from explicit rows",
+      "calculated": 0.11764705882352942,
+      "reference": 0.11764705882352941,
+      "absolute_error": 1.3877787807814457e-17,
+      "tolerance": 1e-11
+    }
+  ]
+}

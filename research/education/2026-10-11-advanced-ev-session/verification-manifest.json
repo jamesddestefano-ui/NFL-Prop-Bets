@@ -1,0 +1,114 @@
+{
+  "record_type": "Prepublication verification of immutable dated educational package",
+  "verified_at_utc": "2026-10-11T21:53:53Z",
+  "date_et": "2026-10-11",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "intended_package_path": "research/education/2026-10-11-advanced-ev-session",
+  "governance_baseline_commit": "06f5e1f08f13ef886087eff58cccc7b28fb5a5e6",
+  "destination_absence_and_governance_recheck_utc": "2026-10-11T21:51:54Z",
+  "destination_absent_at_recheck": true,
+  "governance_and_index_blob_shas_unchanged_at_recheck": true,
+  "scope": "Public sources, public repository governance and invented examples only. No empirical NFL validation, live quote, bet, ledger repair, production code or policy change.",
+  "verification": {
+    "standard_library_core_named_checks": 68,
+    "independent_scipy_comparisons": 14,
+    "exact_price_card_named_checks": 11,
+    "independent_high_precision_risk_checks": 37,
+    "optional_devig_named_checks": 10,
+    "risk_payoff_invariant_assertions": "PASS",
+    "all_scripts_syntax": "PASS",
+    "fresh_process_output_reproduction": "PASS: all six outputs byte-identical",
+    "relative_markdown_links": {
+      "status": "PASS",
+      "count": 34,
+      "basis": "Proposed package plus verified baseline repository paths",
+      "counting_convention": "Relative Markdown link occurrences with nonempty file target; repeated links counted separately, anchors stripped for file resolution."
+    },
+    "source_review": "Full/focused transcript reading, captions, written teaching and recording metadata explicitly separated. No audiovisual playback claimed.",
+    "independent_content_review": "Mathematical, probability-target, selection/leakage, provenance and scope reviews completed; identified precision changes applied."
+  },
+  "files": {
+    "README.md": {
+      "sha256": "c524043aab9d07337d8371eb335a3ff5d6492530b9cafd566a72bff512d58de7",
+      "bytes": 20552
+    },
+    "crosscheck_scipy.json": {
+      "sha256": "a0edf91c8844c8f60115b91170c1e5cdf80a69984e01e1c183af0f5771ed5dd1",
+      "bytes": 3127
+    },
+    "crosscheck_scipy.py": {
+      "sha256": "10614ef7d0599e92bcfacfe027f557d4d0b5f16196d06ab6f3ea59dda84c23cd",
+      "bytes": 4472
+    },
+    "devig_sensitivity_verified.json": {
+      "sha256": "93eaa929da8ab509266b69f53bbeb479bbf8d9794a043fe9f9d6dc34632a163b",
+      "bytes": 2493
+    },
+    "evaluation_card_verified.json": {
+      "sha256": "c0de05a1b689a4837e03d71aaa709a554f16de043d34715bc0b5be86c1285833",
+      "bytes": 4549
+    },
+    "market-reference-supplement.md": {
+      "sha256": "a446b82949c90e6e001927ab659fd2573a62fcc743c4ada03e9f4fb65aa155ab",
+      "bytes": 7305
+    },
+    "mathematical-sources.md": {
+      "sha256": "3e2281055d7818101c64fbdc9b2b4437ae0b5ebed077afa13c968596d92e6c3a",
+      "bytes": 5570
+    },
+    "new_lesson_results.json": {
+      "sha256": "eefe7805a2784d14479d172bbf7e03cc8526eb7bc6d1eda81eeea97183aacceb",
+      "bytes": 23955
+    },
+    "risk-sources.md": {
+      "sha256": "a49483332e3398dbfde4660eec64da13bc390693394f520b70ccf6c04620c38f",
+      "bytes": 5639
+    },
+    "risk-supplement.md": {
+      "sha256": "347dc5d207a750f9c1483b87ab350e7ea4fe3741f15e6be5c49999a3428270d1",
+      "bytes": 6211
+    },
+    "risk_crosscheck.py": {
+      "sha256": "e5660d19f8cea7b7a6e52171f1d0e4c21bed95e00b6fc06c13c8e679766e679a",
+      "bytes": 6158
+    },
+    "risk_crosscheck_results.json": {
+      "sha256": "d8827550a05aab8b48e0ee758f618fc9a94d6d1bc75902d93bb9cdca4e48c522",
+      "bytes": 5415
+    },
+    "risk_results.json": {
+      "sha256": "04158b38684b6493f9d67cecf7250ae855b6bf1a944c54aa9e6e9badff5eb3a7",
+      "bytes": 1531
+    },
+    "source-register.md": {
+      "sha256": "e837caf56504e820d7149879ec639da9d6472ed8fa6497deab807d30b70ba412",
+      "bytes": 12040
+    },
+    "test-proposals.md": {
+      "sha256": "c7beb57f0581886833d3a92f705c972cc9699d5b0c34cd84640c3fa7aa5eceea",
+      "bytes": 13315
+    },
+    "verify_devig_sensitivity.py": {
+      "sha256": "b09dd8e39a2fadde0d12ee5df1480f2620d0c69ebada6051db404351d63c1618",
+      "bytes": 3045
+    },
+    "verify_evaluation_card.py": {
+      "sha256": "77df2fb84c9cff37a6a425d1fc08fa839fa9dbbbf7767fc1226e2669d3982c85",
+      "bytes": 2929
+    },
+    "verify_new_lessons.py": {
+      "sha256": "888498203c52b68aecf535d9f5379bab97dc34f917ae05d8cf5add75ca9328a5",
+      "bytes": 22244
+    },
+    "verify_risk_math.py": {
+      "sha256": "3bcb4bdb4a2edc96f85a037e4ae531844a5b1a7fbeefed3e93579840cd07a706",
+      "bytes": 2194
+    },
+    "worked-appendix.md": {
+      "sha256": "a35fbb583e44ae10ec13cd856d24c845a67e1e0957b84310169f948a3f9b8959",
+      "bytes": 18354
+    }
+  },
+  "manifest_note": "Manifest excludes its own hash. Publication and remote-commit verification occur separately; this record does not claim empirical model performance.",
+  "verification_started_utc": "2026-10-11T21:52:20Z"
+}
