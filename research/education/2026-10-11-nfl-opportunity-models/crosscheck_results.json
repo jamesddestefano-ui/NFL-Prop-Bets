@@ -1,0 +1,11 @@
+{
+  "method": "SciPy binomial PMF and survival function, six tail comparisons",
+  "checks": {
+    "carry_mixture_tail": true,
+    "same_mean_tail": true,
+    "receiver_baseline_rec_tail": true,
+    "receiver_baseline_yards_tail": true,
+    "receiver_expanded_deep_routes_rec_tail": true,
+    "receiver_expanded_deep_routes_yards_tail": true
+  }
+}

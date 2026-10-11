@@ -1,0 +1,22 @@
+{
+  "research_date_utc": "2026-10-11",
+  "source_review_window_utc": "Approximately 21:57\u201321:59",
+  "status": "Prepublication verification snapshot; educational calculations only",
+  "research_scope": "Two original written NFL sources; official documentation check; invented examples only",
+  "verification": {
+    "standard_library_checks": 13,
+    "scipy_tail_checks": 6,
+    "independent_rational_checks": 21
+  },
+  "files": {
+    "README.md": "6f682d1692f05747768b0140c7c5288088be4576ccbe043bcb8dc82c9b4b6a93",
+    "crosscheck_examples.py": "69035f9d8b3373e33b5f3f6b62aa8590844354c828c564d1bc89c64eb50f77e3",
+    "crosscheck_results.json": "a10883399b3268e8c5a7d6526e4a1536b3e0022bd46abdd8cda27cddb4d6979d",
+    "example_results.json": "a9a9d1106ab7b903d11c3434abbeef48ed02435d1745cb93f8a821fddfa22199",
+    "independent_rational_checks.py": "a49c93e0901a03a9f35e652df266e1b36d44fe68469d1f03b092d0c9a99d8525",
+    "rational_audit_results.json": "0b65049494b55bd8808306d163d34282cdf3f955b3aaf839452b9e93a92fd8b9",
+    "verify_examples.py": "a957cc17fd5f46b78bc2f2dcad432b587033328b5aa31bd6a2dd4085d8ace33e"
+  },
+  "independent_reproduction_utc": "2026-10-11T22:06:49Z",
+  "independent_reproduction": "All three outputs reproduced byte-identically in an isolated copy; source hashes and syntax checks passed."
+}

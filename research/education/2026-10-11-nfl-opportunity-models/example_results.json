@@ -1,0 +1,47 @@
+{
+  "label": "All inputs invented; arithmetic only, not empirical NFL probabilities",
+  "receiver_baseline": {
+    "routes": 24,
+    "route_participation": 0.6,
+    "expected_targets": 6.0,
+    "expected_targets_per_route": 0.25,
+    "receptions": {
+      "mean": 4.56,
+      "variance": 3.5136
+    },
+    "p_over_4_5_receptions": 0.4927635734392504,
+    "yards": {
+      "mean": 41.76,
+      "variance": 417.4848
+    },
+    "p_over_49_5_yards": 0.27817525811153754
+  },
+  "receiver_expanded_deep_routes": {
+    "routes": 36,
+    "route_participation": 0.9,
+    "expected_targets": 7.199999999999999,
+    "expected_targets_per_route": 0.19999999999999998,
+    "receptions": {
+      "mean": 5.039999999999997,
+      "variance": 3.974399999999998
+    },
+    "p_over_4_5_receptions": 0.5880736624114847,
+    "yards": {
+      "mean": 56.159999999999975,
+      "variance": 832.2047999999998
+    },
+    "p_over_49_5_yards": 0.5200805308913271
+  },
+  "carry_mixture": {
+    "mean": 17.100000000000033,
+    "variance": 76.74300000000005,
+    "p_over_19_5": 0.46691474607175854
+  },
+  "carry_same_mean_binomial": {
+    "mean": 17.100000000000055,
+    "variance": 12.226500000000039,
+    "p_over_19_5": 0.24293136678970237
+  },
+  "carry_product_of_mean_rates": 16.199999999999996,
+  "passed_checks": 13
+}

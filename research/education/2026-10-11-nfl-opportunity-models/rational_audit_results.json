@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "named_check_count": 21,
+  "checks": [
+    "receiver_baseline exact normalization",
+    "receiver_baseline reception tail",
+    "receiver_baseline yardage tail",
+    "receiver_baseline exact reception mean",
+    "receiver_baseline yardage mean",
+    "receiver_baseline reception variance",
+    "receiver_baseline yardage variance",
+    "receiver_expanded_deep_routes exact normalization",
+    "receiver_expanded_deep_routes reception tail",
+    "receiver_expanded_deep_routes yardage tail",
+    "receiver_expanded_deep_routes exact reception mean",
+    "receiver_expanded_deep_routes yardage mean",
+    "receiver_expanded_deep_routes reception variance",
+    "receiver_expanded_deep_routes yardage variance",
+    "carry variance by total-variance decomposition",
+    "single-binomial carry variance",
+    "carry_mixture exact normalization",
+    "carry_mixture tail",
+    "carry_same_mean_binomial exact normalization",
+    "carry_same_mean_binomial tail",
+    "product-of-means mean error"
+  ],
+  "receiver_results": [
+    {
+      "case": "receiver_baseline",
+      "reception_tail": {
+        "exact_fraction": "350129577554448073563291170330189/710542735760100185871124267578125",
+        "decimal_approximation": 0.4927635734392505
+      },
+      "yardage_tail": {
+        "exact_fraction": "197655408919343881660636417995533/710542735760100185871124267578125",
+        "decimal_approximation": 0.27817525811153754
+      },
+      "reception_mean": {
+        "exact_fraction": "114/25",
+        "decimal_approximation": 4.56
+      },
+      "yardage_mean": {
+        "exact_fraction": "1044/25",
+        "decimal_approximation": 41.76
+      },
+      "reception_variance": {
+        "exact_fraction": "2196/625",
+        "decimal_approximation": 3.5136
+      },
+      "yardage_variance": {
+        "exact_fraction": "260928/625",
+        "decimal_approximation": 417.4848
+      }
+    },
+    {
+      "case": "receiver_expanded_deep_routes",
+      "reception_tail": {
+        "exact_fraction": "24905888373751530553092622636331629008044055569453/42351647362715016953416125033982098102569580078125",
+        "decimal_approximation": 0.5880736624114851
+      },
+      "yardage_tail": {
+        "exact_fraction": "110131336222615541031966240815716656148808256074977/211758236813575084767080625169910490512847900390625",
+        "decimal_approximation": 0.5200805308913273
+      },
+      "reception_mean": {
+        "exact_fraction": "126/25",
+        "decimal_approximation": 5.04
+      },
+      "yardage_mean": {
+        "exact_fraction": "1404/25",
+        "decimal_approximation": 56.16
+      },
+      "reception_variance": {
+        "exact_fraction": "2484/625",
+        "decimal_approximation": 3.9744
+      },
+      "yardage_variance": {
+        "exact_fraction": "520128/625",
+        "decimal_approximation": 832.2048
+      }
+    }
+  ],
+  "carry_results": [
+    {
+      "case": "carry_mixture",
+      "tail": {
+        "exact_fraction": "186765898428702819892311322710901272155459625253324243555255917370052103738707490158667613375525731822674612177703281433/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "decimal_approximation": 0.46691474607175704
+      }
+    },
+    {
+      "case": "carry_same_mean_binomial",
+      "tail": {
+        "exact_fraction": "56016159383076159199839778590047816723108818449451893695027860078673687793131612372681773545188192236063425842079933471757891693869927033/230584300921369395200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "decimal_approximation": 0.24293136678970179
+      }
+    }
+  ],
+  "carry_within_script_variance": {
+    "exact_fraction": "11133/1000",
+    "decimal_approximation": 11.133
+  },
+  "carry_between_script_variance": {
+    "exact_fraction": "6561/100",
+    "decimal_approximation": 65.61
+  },
+  "run_probability_carry_share_covariance": {
+    "exact_fraction": "3/200",
+    "decimal_approximation": 0.015
+  },
+  "product_of_means_error": {
+    "exact_fraction": "9/10",
+    "decimal_approximation": 0.9
+  },
+  "scope": "Invented fixtures only. Exact finite rational probabilities and moments; no NFL data, source-performance verification or model validation."
+}

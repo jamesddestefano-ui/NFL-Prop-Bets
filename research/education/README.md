@@ -40,3 +40,11 @@ Methodology changes require review under the controlling config files. This inde
 - [Review-only protocols](2026-10-11-advanced-ev-session/test-proposals.md): further T2/T3 design refinements. Empirical NFL testing remains proposed; no probability model, source ranking, executable edge or sizing policy was validated.
 
 Earlier records, controlling files and ledgers remain unchanged. This entry records educational work only and does not establish that a future cycle ran or that another workflow adopted a proposal.
+
+## Source confidence and NFL opportunity continuation — 2026-10-11
+
+- [Source-confidence addendum](2026-10-11-source-confidence-addendum.md): separate qualitative judgments for access/attribution, supported mathematical or methodological claims, and evidence for NFL transfer. These are scoped assessments, not audit certifications or source-profit rankings.
+- [NFL opportunity distributions](2026-10-11-nfl-opportunity-models/README.md): route participation, route composition, target earning and game-script allocation, with two public written-source reviews and 40 reproducible illustrative checks. The next-play research does not validate a pregame player-prop model; absent offered prices, EV and play-to quantities remain unassessed.
+
+These are separate dated additions. The advanced-session package, prior records, controlling rules and ledgers remain unchanged. Empirical NFL improvement remains untested.
+
