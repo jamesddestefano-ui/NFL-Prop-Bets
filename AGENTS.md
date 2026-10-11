@@ -9,8 +9,9 @@ This repository is ONLY for NFL player-prop research, recommendations, line trac
 All agents must follow:
 - `config/methodology.md`
 - `config/advanced_market_learning.md`
+- `config/positive_ev_framework.md`
 
-The advanced market-learning module is mandatory for every material prop evaluation. Price, timing, CLV, pass decisions, missed bets, signal attribution, correlation, exposure, calibration, and weekly attribution are part of the decision record rather than optional commentary.
+The advanced market-learning module and positive-EV framework are mandatory for every material prop evaluation. Price, timing, CLV, pass decisions, missed bets, signal attribution, correlation, exposure, calibration, and weekly attribution are part of the decision record rather than optional commentary.
 
 ## Source hierarchy
 
