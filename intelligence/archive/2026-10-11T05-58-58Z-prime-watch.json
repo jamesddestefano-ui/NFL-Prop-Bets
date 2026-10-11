@@ -1,0 +1,180 @@
+{
+  "capturedAtEt": "2026-10-11 01:58:58 ET",
+  "capturedAtUtc": "2026-10-11T05:58:58Z",
+  "nflWeek": 5,
+  "scope": "NFL player props only",
+  "branch": "main",
+  "priorArchive": "intelligence/archive/2026-10-10T21-08-23Z-prime-watch.json",
+  "grok": {
+    "status": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false
+  },
+  "newOfficialInactives": false,
+  "verifiedNews": [
+    {
+      "sourceClass": "confirmed_fact",
+      "topic": "Eagles/Jaguars London",
+      "detail": "Philadelphia officially ruled out Saquon Barkley, DeVonta Smith, Marquise Brown, Drew Kendall and Marcus Epps; backup RB rotation includes Shipley, Pierce and Steele; kickoff Sunday at 09:30 ET.",
+      "source": "https://www.philadelphiaeagles.com/news/eagles-at-jaguars-injury-report-2026-nfl-week-5-london-international-game-saquon-barkley-devonta-smith",
+      "newSincePrior": false
+    },
+    {
+      "sourceClass": "confirmed_fact",
+      "topic": "Raiders",
+      "detail": "Ashton Jeanty officially questionable for 13:00 ET game vs New England, Bowers full practice; no official gameday inactive designation yet.",
+      "source": "https://www.raiders.com/news/las-vegas-raiders-new-england-patriots-week-5-injury-report-2026",
+      "newSincePrior": false
+    },
+    {
+      "sourceClass": "attributed_report",
+      "topic": "Raiders",
+      "detail": "Raiders reportedly elevated Roman Hemby from practice squad Saturday; this is depth contingency and does not prove Jeanty will sit.",
+      "source": "https://sports.yahoo.com/articles/ashton-jeanty-questionable-raiders-elevate-201809447.html",
+      "newSincePrior": false
+    },
+    {
+      "sourceClass": "attributed_report",
+      "topic": "Cardinals",
+      "detail": "Associated Press and Reuters reported Marvin Harrison Jr expected inactive as trade talks continue; Sunday official inactives not yet available.",
+      "source": "https://www.reuters.com/sports/report-cards-finalizing-trade-wr-marvin-harrison-jr--flm-2026-10-10/",
+      "newSincePrior": false
+    }
+  ],
+  "marketObservations": [
+    {
+      "player": "Will Shipley",
+      "game": "PHI@JAX",
+      "market": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "William Hill via Covers",
+      "line": 2.5,
+      "odds": -108,
+      "underLine": 2.5,
+      "underOdds": -121,
+      "siteUpdatedAtEt": "2026-10-11 01:27 ET",
+      "marketTruthConfidence": "B",
+      "noVigMarketOver": 0.4867,
+      "internalFairProbability": null,
+      "decision": "WATCH",
+      "reason": "Same-book de-vig plus full backfield competition; insufficient independently calibrated passing-down route/target probability.",
+      "source": "https://www.covers.com/sport/football/nfl/players/297383/will-shipley"
+    },
+    {
+      "player": "Will Shipley",
+      "game": "PHI@JAX",
+      "market": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "sportsbook": "William Hill via Covers",
+      "line": 10.5,
+      "odds": 106,
+      "siteUpdatedAtEt": "2026-10-11 01:27 ET",
+      "marketTruthConfidence": "B",
+      "noVigMarketOver": null,
+      "internalFairProbability": null,
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "reason": "Prior 9.5 -115 bet365 is a different book/threshold, not transferable. Projections for attempts span approximately 9.8 to 13.9, creating unresolved role/usage variance.",
+      "source": "https://www.covers.com/sport/football/nfl/players/297383/will-shipley"
+    },
+    {
+      "player": "Brock Bowers",
+      "game": "LV@NE",
+      "market": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers",
+      "line": 6.5,
+      "odds": -125,
+      "siteUpdatedAtEt": "2026-10-11 01:27 ET",
+      "marketTruthConfidence": "B",
+      "internalFairProbability": null,
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "Latest displayed -125 is worse than earlier listed best -115 on another sportsbook; cross-book movement is not same-book CLV. No independent >=4pp advantage.",
+      "source": "https://www.covers.com/sport/football/nfl/players/296310/brock-bowers"
+    },
+    {
+      "player": "Brock Bowers",
+      "game": "LV@NE",
+      "market": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "bet365 via Covers",
+      "line": 73.5,
+      "odds": -115,
+      "siteUpdatedAtEt": "2026-10-11 01:27 ET",
+      "marketTruthConfidence": "B",
+      "referenceSameThresholdOtherBook": "William Hill Over 73.5 -128 / Under 73.5 -102",
+      "noVigMarketOverReference": 0.5265,
+      "internalFairProbability": null,
+      "decision": "PASS",
+      "reason": "One-yard threshold better than earlier bet365 74.5 at same juice but no independent probability edge; William Hill two-way no-vig benchmark below bet365 break-even.",
+      "source": "https://www.covers.com/sport/football/nfl/players/296310/brock-bowers"
+    },
+    {
+      "player": "Trey McBride",
+      "game": "DET@ARI",
+      "market": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": "FanDuel via Covers",
+      "line": 7.5,
+      "odds": -140,
+      "underLine": 7.5,
+      "underOdds": 106,
+      "siteUpdatedAtEt": "2026-10-11 01:37 ET",
+      "marketTruthConfidence": "B",
+      "internalFairProbability": null,
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "reason": "Harrison report already priced in; -140 break-even 58.33% versus same-book fair market about 54.6%; no independently estimated model probability supports a bet.",
+      "source": "https://www.covers.com/sport/football/nfl/players/248444/trey-mcbride"
+    },
+    {
+      "player": "Trey McBride",
+      "game": "DET@ARI",
+      "market": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "FanDuel via Covers",
+      "line": 81.5,
+      "odds": -113,
+      "underLine": 81.5,
+      "underOdds": -113,
+      "siteUpdatedAtEt": "2026-10-11 01:37 ET",
+      "marketTruthConfidence": "B",
+      "internalFairProbability": null,
+      "decision": "PASS",
+      "reason": "At even no-vig 50% and -113 price, 53.05% break-even, no independent proof of excess 3pp, much less minimum 4-5pp.",
+      "source": "https://www.covers.com/sport/football/nfl/players/248444/trey-mcbride"
+    }
+  ],
+  "accounting": {
+    "week5ConfirmedStraightBets": 0,
+    "week5ConfirmedParlays": 0,
+    "openRiskCash": 0,
+    "closingLineValue": null,
+    "priceClosingLineValue": null,
+    "combinedCLV": null,
+    "brier": null
+  },
+  "audit": {
+    "lineHistoryUpdateAttempted": 8,
+    "lineHistoryUpdated": false,
+    "lineHistoryWriteError": "GitHub update_file blocked by safety checks; original CSV unchanged",
+    "noCSVWrites": true
+  },
+  "result": {
+    "newGrokPass": false,
+    "qualifyingNewBet": false,
+    "materialNewFootballNews": false,
+    "materialActionExistingTicket": false,
+    "notifyUser": false
+  },
+  "nextCheckpoints": [
+    "Sunday 08:00 ET London official inactives",
+    "Sunday 09:00 ET London line review",
+    "Sunday 10:00 ET main board",
+    "Sunday 11:30 ET main-slate inactives",
+    "Sunday 12:30 ET early slate final review",
+    "Sunday 16:25/SNF/MNF mini-slates"
+  ]
+}
