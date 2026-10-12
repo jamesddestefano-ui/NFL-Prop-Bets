@@ -64,3 +64,9 @@ These are separate dated additions. The advanced-session package, prior records,
 ## Initial Sunday opportunity review — 2026-10-11
 
 - [Bounded completed-game review](2026-10-11T2344Z-sunday-opportunity-initial-review.md): injury-contingent Allen workload, production versus opportunity, and unit-matched injury-affected Shipley comparison. Seattle final and SNF results unverified in this window; no full-week grades, source ranking, EV or adopted rule.
+
+
+## Monday selection-procedure education — 2026-10-12
+
+- [Selection is part of the model](2026-10-12-selection-procedure/README.md): deeper numerical and experiment-manifest treatment of existing nested-validation safeguards, with an original JMLR reading, 18 deterministic illustrative checks and explicit X access gaps. No empirical NFL edge or production validation established.
+- [McBride forecast observation](2026-10-12-selection-procedure/mcbride-comparison.json): preserved attributed reception/yardage projections compared with a verified final box, retaining source-age and point-estimate limits; no source ranking, probability calibration, wager settlement or CLV inferred.
