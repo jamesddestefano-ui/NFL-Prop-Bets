@@ -1,0 +1,41 @@
+{
+  "record_type": "educational_forecast_observation",
+  "classification": "EMPIRICAL EVIDENCE",
+  "player": "Trey McBride",
+  "game": "Detroit at Arizona, October 11, 2026",
+  "recorded_at_utc": "2026-10-12T13:23:09Z",
+  "preserved_forecast_source": {
+    "url": "https://github.com/jamesddestefano-ui/NFL-Prop-Bets/blob/66125d31256de3af2c2d0c8f5fc9b42f2ae52a9b/intelligence/archive/2026-10-10T17-00-34Z-prime-watch.json",
+    "captured_at": "2026-10-10T17:00:34Z",
+    "blob_sha": "e45810f714faf756a3940261448addf2e74849ae",
+    "access": "Repository archive read in full; external model values are preserved attributions, not independently reverified original model outputs",
+    "caveats": "Receptions Dimers explicitly dated Oct7; ESPN age unspecified; Fantasy Info Central labeled older without exact date. Yardage model dates unspecified. Model methodology and meaning of each point estimate not verified. Values are not necessarily contemporaneous or decision-time means."
+  },
+  "verified_outcome": {
+    "status": "FINAL",
+    "receptions": 9,
+    "receiving_yards": 66,
+    "receiving_touchdowns": 1,
+    "sources": [
+      {"creator":"Detroit Lions","title":"Lions at Cardinals Week 5 Box Score","url":"https://www.detroitlions.com/game-day/2026/reg-week5/lions-at-cardinals/box-score","retrieved_at":"2026-10-12T13:23:09Z","published_at":null,"access":"Official HTML FINAL box text"},
+      {"creator":"Arizona Cardinals","title":"Trey McBride player page: Recent Games","url":"https://www.azcardinals.com/team/players-roster/trey-mcbride/","retrieved_at":"2026-10-12T13:23:03Z","published_at":null,"access":"Current official player-log text returned by search; older /logs path showed prior season and was not used"}
+    ]
+  },
+  "descriptive_errors": {
+    "classification": "VERIFIED MATHEMATICAL PRINCIPLE",
+    "definition": "Actual minus archived attributed point projection; positive means actual exceeded that value",
+    "rows": [
+      {"metric":"receptions","source_attribution":"Dimers","projection":7.2,"actual":9,"signed_error":1.8,"absolute_error":1.8},
+      {"metric":"receptions","source_attribution":"ESPN","projection":7.6,"actual":9,"signed_error":1.4,"absolute_error":1.4},
+      {"metric":"receptions","source_attribution":"Fantasy Info Central, older","projection":8.7,"actual":9,"signed_error":0.3,"absolute_error":0.3},
+      {"metric":"receiving_yards","source_attribution":"Dimers","projection":78.4,"actual":66,"signed_error":-12.4,"absolute_error":12.4},
+      {"metric":"receiving_yards","source_attribution":"Fantasy Info Central","projection":68.4,"actual":66,"signed_error":-2.4,"absolute_error":2.4}
+    ]
+  },
+  "interpretation": {
+    "classification": "ANALYST OPINION",
+    "text": "This one observation illustrates that a high reception result need not produce high yardage. Retain all attributed forecasts, including larger errors, without hindsight substitution. Do not rank sources or update weights from this game. The original WATCH/PASS records are preserved; known outcomes do not retroactively establish profitable pregame odds."
+  },
+  "not_established": ["Model or source quality ranking","Brier score: no internal event probability was preserved","Calibration or distribution fit","Executed wager or settlement","P/L or closing-line value","Validated long-term edge"],
+  "preservation": "Original forecast archive remains unchanged. This is an educational comparison, not an authoritative ledger repair."
+}
