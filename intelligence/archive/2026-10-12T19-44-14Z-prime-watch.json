@@ -1,0 +1,250 @@
+{
+  "capturedAtEt": "2026-10-12 15:44 ET",
+  "capturedAtUtc": "2026-10-12T19:44:14Z",
+  "nflWeek": 5,
+  "game": "BUF@LAR",
+  "gameDate": "2026-10-12",
+  "scheduledKickoffEt": "20:15",
+  "scope": "NFL player props only",
+  "branch": "main",
+  "repositoryHeadBeforeWrite": "2c71f5cfa70adc6d210ec804d46af0251d8b4905",
+  "sourcesReviewed": [
+    "AGENTS.md",
+    "config/methodology.md",
+    "config/advanced_market_learning.md",
+    "config/sources.md",
+    "config/positive_ev_framework.md",
+    "config/ev_account_accountability.md",
+    "config/ev_daily_education_directive.md",
+    "data/live_prop_board.csv",
+    "data/decision_ledger.csv",
+    "data/line_history.csv",
+    "data/bet_history.csv",
+    "data/missed_bets.csv",
+    "data/pass_ledger.csv",
+    "data/parlay_history.csv",
+    "data/weekly_attribution.csv",
+    "intelligence/grok_pulse_latest.json",
+    "intelligence/grok_pulse_history.jsonl",
+    "intelligence/archive/2026-09-12T17-05-00Z.json",
+    "intelligence/archive/2026-10-11T14-53-54Z-prime-watch.json"
+  ],
+  "grok": {
+    "status": "live",
+    "completedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "warning": "Historical Week 1 Grok Pulse is stale for Week 5. Later immutable PRIME watch archives are independent research snapshots, not new Grok production."
+  },
+  "officialInjuries": [
+    {
+      "evidence": "confirmed_fact",
+      "team": "BUF",
+      "detail": "Joshua Palmer WR (shoulder) OUT and Ed Oliver DL (knee) OUT; DJ Moore (shoulder), Dee Alford (ankle), Landon Jackson (knee) QUESTIONABLE; no official final inactives yet at capture.",
+      "publishedAtEt": "2026-10-10 14:25",
+      "url": "https://www.buffalobills.com/news/buffalo-bills-injury-report-vs-rams-week-5"
+    },
+    {
+      "evidence": "confirmed_fact",
+      "team": "LAR",
+      "detail": "Aaron Donald, Colby Parkinson and Jaylen Watson cleared in final practice report; Quentin Lake QUESTIONABLE; no official final inactives yet.",
+      "publishedAtEt": "2026-10-10 14:36",
+      "url": "https://www.therams.com/news/rams-injury-report-week-5-2026-vs-bills-aaron-donald-colby-parkinson-and-jaylen-watson-good-to-go-for-monday-night-football"
+    }
+  ],
+  "markets": [
+    {
+      "player": "Dalton Kincaid",
+      "team": "BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "openingLine": 3.5,
+      "currentConsensusLine": 4.5,
+      "lineMovement": "+1.0 reception",
+      "marketSource": "Prop Lab",
+      "sourceUpdatedDate": "2026-10-12",
+      "quoteObservedAtEt": null,
+      "sourceUrl": "https://proplabsports.com/nfl-props/receptions",
+      "sportsbookSpecificCorroboration": {
+        "sportsbook": "BetMGM",
+        "line": 4.5,
+        "overOdds": -111,
+        "underOdds": -120,
+        "articlePublishedAtEt": "2026-10-12 09:05",
+        "url": "https://www.sportsbettingdime.com/news/nfl/bills-vs-rams-touchdown-picks-player-props-mnf-week-5/"
+      },
+      "marketImpliedOverProbPct": 52.61,
+      "noVigOverProbPct": 49.61,
+      "internalFairProbability": null,
+      "estimatedEdge": null,
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "confidence": "LOW",
+      "decision": "PASS",
+      "steamState": "PASS_AFTER_MOVE",
+      "timing": "MNF_DAY_AFTERNOON",
+      "signalTags": [
+        "INJURY",
+        "COACH_COMMENT",
+        "MARKET_MOVE",
+        "TARGET_SHARE_UNVERIFIED"
+      ],
+      "correlationTags": [
+        "SAME_THESIS_BUF_TARGET_REDISTRIBUTION"
+      ],
+      "rationale": "Market has repriced full catch higher from opening 3.5 to 4.5. Coach Joe Brady demanded more Kincaid involvement, but the increase may already price that narrative and Palmer absence. No defensible calibrated P(>=5) and Moore remains questionable; do not chase the old contract or transfer win probabilities from 3.5 to 4.5."
+    },
+    {
+      "player": "Kyren Williams",
+      "team": "LAR",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "openingLine": 2.5,
+      "currentConsensusLine": 3.5,
+      "lineMovement": "+1.0 reception",
+      "marketSource": "Prop Lab",
+      "sourceUpdatedDate": "2026-10-12",
+      "quoteObservedAtEt": null,
+      "sourceUrl": "https://proplabsports.com/nfl-props/receptions",
+      "sportsbookSpecificCorroboration": null,
+      "internalFairProbability": null,
+      "estimatedEdge": null,
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": [
+        "ROLE",
+        "TARGET_SHARE_UNVERIFIED",
+        "MARKET_MOVE"
+      ],
+      "correlationTags": [
+        "SAME_THESIS_LAR_RB_PASS_USAGE"
+      ],
+      "rationale": "Full-reception increase since opener; no sportsbook-specific current price or matched model probability verified, so cannot assume actionable Over. Receiving-role commentary should be tested against route/target evidence."
+    },
+    {
+      "player": "Keon Coleman",
+      "team": "BUF",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "openingLine": 2.5,
+      "currentConsensusLine": 3.5,
+      "lineMovement": "+1.0 reception",
+      "marketSource": "Prop Lab",
+      "sourceUpdatedDate": "2026-10-12",
+      "quoteObservedAtEt": null,
+      "sourceUrl": "https://proplabsports.com/nfl-props/receptions",
+      "internalFairProbability": null,
+      "estimatedEdge": null,
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "decision": "WATCH",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": [
+        "INJURY",
+        "TARGET_SHARE_UNVERIFIED",
+        "MARKET_MOVE"
+      ],
+      "correlationTags": [
+        "SAME_THESIS_BUF_TARGET_REDISTRIBUTION"
+      ],
+      "rationale": "Market repriced Coleman's reception expectation with Palmer out and Moore questionable; too little verified pricing/model evidence to recommend."
+    },
+    {
+      "player": "Khalil Shakir",
+      "team": "BUF",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "DraftKings via Sharp Six public odds tracker",
+      "line": 46.5,
+      "odds": -112,
+      "sourceUpdatedAtEt": null,
+      "sourceRetrievedAtEt": "2026-10-12 15:44",
+      "sourceUrl": "https://sharpsixsports.com/players/khalil-shakir-wr",
+      "comparator": {
+        "source": "AccuScore",
+        "medianProjectedYards": 45,
+        "reportedOverProbabilityPct": 50.7,
+        "sourceUrl": "https://new.accuscore.com/players/khalil-shakir"
+      },
+      "marketImpliedProbabilityPct": 52.83,
+      "internalFairProbability": null,
+      "estimatedEdge": null,
+      "decision": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": [
+        "INJURY",
+        "MARKET_PRICE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "correlationTags": [
+        "SAME_THESIS_BUF_TARGET_REDISTRIBUTION"
+      ],
+      "rationale": "Palmer OUT is real but the available model estimate 50.7% Over at the nearby threshold does not support even price break-even; no robust independent fair probability. Tracker quote is not executable verified app price. Avoid over from narrative alone."
+    },
+    {
+      "player": "Matthew Stafford",
+      "team": "LAR",
+      "propType": "PASS_YARDS",
+      "side": "OVER",
+      "sportsbook": "FanDuel via FanDuel Research article",
+      "line": 278.5,
+      "odds": -113,
+      "articleDate": "2026-10-12",
+      "quoteObservedAtEt": null,
+      "sourceUrl": "https://www.fanduel.com/research/bills-vs-rams-props-3-best-nfl-player-prop-bets-picks-for-mnf",
+      "independentMedianProjection": 271,
+      "projectionUpdatedAtEt": "2026-10-12 14:08",
+      "projectionUrl": "https://propsims.com/teams/lar/",
+      "internalFairProbability": null,
+      "estimatedEdge": null,
+      "decision": "PASS",
+      "steamState": "REDUCED_EDGE",
+      "signalTags": [
+        "PASS_VOLUME",
+        "GAME_ENVIRONMENT",
+        "MODEL_DISAGREEMENT"
+      ],
+      "rationale": "FanDuel columnist likes Over but independent simulation median is 271 below the displayed line; without tail probability or matched executable quote this is not a positive-EV wager."
+    },
+    {
+      "player": "Kyren Williams",
+      "team": "LAR",
+      "propType": "RUSH_YARDS",
+      "side": "OVER",
+      "sportsbook": "FanDuel via FanDuel Research article",
+      "line": 68.5,
+      "odds": -113,
+      "articleDate": "2026-10-12",
+      "quoteObservedAtEt": null,
+      "sourceUrl": "https://www.fanduel.com/research/bills-vs-rams-props-3-best-nfl-player-prop-bets-picks-for-mnf",
+      "independentMedianProjection": 65,
+      "projectionUpdatedAtEt": "2026-10-12 14:08",
+      "projectionUrl": "https://propsims.com/teams/lar/",
+      "internalFairProbability": null,
+      "estimatedEdge": null,
+      "decision": "PASS",
+      "signalTags": [
+        "RUN_SHARE",
+        "GAME_SCRIPT",
+        "MODEL_DISAGREEMENT"
+      ],
+      "rationale": "An analyst pick does not establish p; independent median 65 and rising Rams offensive-line questions prevent declaring an Over edge from Buffalo's Ed Oliver absence alone."
+    }
+  ],
+  "portfolio": {
+    "confirmedUserWeek5TicketsInRepository": 0,
+    "clvAvailable": false,
+    "brierAvailable": false,
+    "confirmedUserParlays": 0
+  },
+  "result": {
+    "verifiedPositiveEvBets": 0,
+    "newGrokPass": false,
+    "materialMarketRepricing": true,
+    "notifyOnMove": true,
+    "canonicalLedgersMutated": false
+  },
+  "notes": "Research snapshot is not a bet or a user ticket. Public third-party article prices have no quote-level timestamp and may be stale; exact sportsbook app verification and final inactives needed. Numeric no-vig for Kincaid estimated solely from the matched -111/-120 BetMGM contract, not pooled books. No inferred CLV. Book source notes may change after publication."
+}
