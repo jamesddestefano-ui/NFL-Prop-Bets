@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "checks": [
+    "binomial_mass",
+    "one_tail",
+    "family",
+    "max_in_range",
+    "one_search_mean",
+    "true_null_roi",
+    "60win_roi",
+    "symmetrical_devig",
+    "central_ev",
+    "conservative_ev",
+    "sensitivity_fails",
+    "max_juice",
+    "minus112_passes_numeric",
+    "minus113_fails_numeric",
+    "next_threshold_fails",
+    "duplicate_variance_factor",
+    "eligible_labels_only",
+    "no_same_game_split"
+  ],
+  "count": 18,
+  "one_trial_tail": 0.028443966820490395,
+  "independent_100_trial_tail": 0.9441805824558209,
+  "expected_max_wins": 62.476196729132624,
+  "selected_apparent_roi": 0.19272739210162282,
+  "true_future_roi": -0.045454545454545414,
+  "central_ev": 0.08818181818181814,
+  "conservative_ev": 0.030909090909090997,
+  "max_negative_juice_magnitude": 112.76595744680849,
+  "limitations": "Deterministic synthetic identities and tiny illustrative eligibility fixtures only; not empirical NFL or production validation."
+}
