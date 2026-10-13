@@ -1,0 +1,268 @@
+{
+  "schemaVersion": "prime_watch_v1",
+  "capturedAtUtc": "2026-10-13T17:42:08Z",
+  "capturedAtEt": "2026-10-13 13:42:08 EDT",
+  "scope": "NFL_PLAYER_PROPS_ONLY",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "previousArchive": "intelligence/archive/2026-10-13T14-53-12Z-prime-watch.json",
+  "governingInputsRead": [
+    "AGENTS.md",
+    "config/methodology.md",
+    "config/advanced_market_learning.md",
+    "config/positive_ev_framework.md",
+    "config/sources.md",
+    "data/live_prop_board.csv",
+    "data/decision_ledger.csv",
+    "data/line_history.csv",
+    "data/bet_history.csv",
+    "data/missed_bets.csv",
+    "data/pass_ledger.csv",
+    "data/parlay_history.csv",
+    "data/weekly_attribution.csv",
+    "intelligence/grok_pulse_latest.json",
+    "intelligence/grok_pulse_history.jsonl",
+    "intelligence/archive/2026-10-13T14-53-12Z-prime-watch.json"
+  ],
+  "pulse": {
+    "status": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "lastProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPulse": false,
+    "reason": "Identical completedAt; Week 1 feed is stale and not current Week 6 news."
+  },
+  "repositoryDataStatus": {
+    "livePropBoardLatest": "2026-10-07 12:34 ET",
+    "lineHistoryLatest": "2026-10-08 14:29:59 ET",
+    "documentedCsvAlignmentRisk": {
+      "decisionLedgerMisalignedRows": 6,
+      "betHistoryMisalignedRows": 5,
+      "passLedgerMisalignedRows": 3,
+      "priorIssue": true,
+      "newIssue": false
+    },
+    "confirmedNewWeek6StraightTickets": false,
+    "confirmedNewWeek6Parlays": false,
+    "authoritativeLedgersEdited": false,
+    "clvAvailable": false,
+    "brierAvailable": false,
+    "weeklyAttributionNotUpdated": true,
+    "note": "No zero-loss/zero-exposure inference from lack of newly reported tickets. Do not parse uncorrected malformed CSV as valid columns."
+  },
+  "newInformation": [
+    {
+      "classification": "attributed_report",
+      "newsAtUtc": "2026-10-13T15:09:00Z",
+      "player": "TreVeyon Henderson",
+      "team": "NE",
+      "report": "ESPN reports high ankle sprain with expected multiple-week absence; no surgery expected; Reuters/Field Level Media corroborated reporting.",
+      "officialFinalDesignation": false,
+      "sourceUrl": "https://www.reuters.com/sports/report-pats-rb-treveyon-henderson-out-multiple-weeks--flm-2026-10-13/",
+      "propEffect": "Potential reallocation of rushing/receiving opportunities from Henderson to Rhamondre Stevenson and Corey Kiner, not a one-for-one transfer. Watch 2026-10-18 NYJ@NE once route/carry split, practice, book lines and prices are confirmed.",
+      "novelty": "New since the 14:53Z immutable archive and worthy of preserving, but no immediate executable positive-EV wager verified."
+    },
+    {
+      "classification": "attributed_report",
+      "player": "Will Campbell",
+      "team": "NE",
+      "report": "Starting left tackle reportedly week-to-week with knee injury; backup Caleb Lomu took 49 offensive snaps after exit in Week 5.",
+      "sourceUrl": "https://www.patspulpit.com/new-england-patriots-injuries/140590/will-campbell-injury-update-patriots-ot-receives-positive-news",
+      "propEffect": "Countervailing offensive-line uncertainty for Stevenson rush efficiency and Drake Maye pressure; confirm official participation."
+    }
+  ],
+  "thursdaySlate": {
+    "game": "SEA@DEN",
+    "gameDate": "2026-10-15",
+    "kickoffEt": "20:15",
+    "officialInjurySnapshot": {
+      "asOf": "2026-10-13 13:42 EDT",
+      "sourceUrl": "https://www.seahawks.com/news/week-6-injury-report-seahawks-at-broncos",
+      "fact": "Monday initial reports were estimates because neither team practiced. Seattle JSN ankle LIMITED; Denver Patrick Surtain II ankle DNP, Talanoa Hufanga ankle DNP, Riley Moss ribs LIMITED. JSN completed Sunday game. Charbonnet remained PUP; coach Macdonald said unlikely to activate this week, subject to change.",
+      "actualTuesdayParticipationConfirmed": false,
+      "impact": "Secondary injuries are supportive matchup context, but ankle uncertainty on target WR and unknown coverage replacements prevent a reliable target/yardage distribution."
+    },
+    "weather": {
+      "classification": "model_projection",
+      "sourceUrl": "https://www.forecasterhq.com/tools/nfl-weather/game/seahawks-at-broncos-week-6",
+      "forecastAtKickoff": "~52 F, ~10 mph mostly along field, 33% precipitation chance, forecast only; check fresh again closer to kickoff",
+      "materialHighWindCurrently": false
+    },
+    "observedMarket": {
+      "source": "Covers JSN public page",
+      "sourceUrl": "https://www.covers.com/sport/football/nfl/players/196870/jaxon-smith-njigba",
+      "pageUpdatedAtEt": "2026-10-13 13:42",
+      "sourceMarketTruthGrade": "C",
+      "visibleReceptions": "o6.5 56% and u6.5 47% shown as exchange/prediction-market percentages, without an independently verified named regulated sportsbook moneyline",
+      "visibleReceivingYards": "o89.5 56% and u90.5 55%, different thresholds and no named sportsbook; cannot pair for no-vig",
+      "precedingSnapshot": "Oct 13 10:53 ET archive included DK 6.5 O-120/U-107 and FanDuel 6.5 both -114, plus DK 89.5 O-113 and FanDuel 90.5 U-114; NOT reverified as current executable.",
+      "warning": "Page-wide update time is not per-book per-contract quote update. Do not invent sportsbook odds from exchange probability percentages or infer a current price from morning archive."
+    },
+    "projections": [
+      {
+        "classification": "model_projection",
+        "player": "Jaxon Smith-Njigba",
+        "receptions": 5.8,
+        "yards": 84,
+        "source": "SportsLine in prior immutable morning archive",
+        "freshness": "morning snapshot only"
+      },
+      {
+        "classification": "model_projection",
+        "player": "Jaxon Smith-Njigba",
+        "receptions": 6.1,
+        "yards": 91.3,
+        "source": "Dimers in prior immutable morning archive",
+        "freshness": "2026-10-13 04:36 ET"
+      },
+      {
+        "classification": "model_projection",
+        "player": "Jaxon Smith-Njigba",
+        "receptions": 7.2,
+        "source": "FantasyInfoCentral morning archive",
+        "freshness": "publication time unavailable"
+      }
+    ],
+    "evaluations": [
+      {
+        "player": "Jaxon Smith-Njigba",
+        "propType": "RECEPTIONS",
+        "side": "BOTH",
+        "status": "WATCH",
+        "reason": "Existing projection means 5.8/6.1/7.2 straddle 6.5, but no conservative calibrated P(>=7), sportsbook offer, or injury practice confirmation.",
+        "fairProbability": null,
+        "pConservative": null,
+        "expectedRoi": null,
+        "playToLine": null,
+        "maxAcceptableOdds": null,
+        "steamState": null,
+        "signalTags": [
+          "INJURY",
+          "DEFENSIVE_INJURY",
+          "PROJECTION_DISAGREEMENT"
+        ],
+        "thesisId": "SEA_PASS_OFFENSE_DEN_SECONDARY_OCT15",
+        "correlationTags": [
+          "SAME_THESIS"
+        ]
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "propType": "RECEIVING_YARDS",
+        "side": "BOTH",
+        "status": "WATCH",
+        "reason": "Two independent means 84 and 91.3 around 89.5/90.5; no full outcome distribution or current book-price authenticity.",
+        "fairProbability": null,
+        "pConservative": null,
+        "expectedRoi": null,
+        "playToLine": null,
+        "maxAcceptableOdds": null,
+        "steamState": null,
+        "signalTags": [
+          "INJURY",
+          "DEFENSIVE_INJURY",
+          "PROJECTION_DISAGREEMENT"
+        ],
+        "thesisId": "SEA_PASS_OFFENSE_DEN_SECONDARY_OCT15",
+        "correlationTags": [
+          "SAME_THESIS"
+        ]
+      },
+      {
+        "player": "Emanuel Wilson",
+        "propType": "RUSH_ATTEMPTS",
+        "side": "BOTH",
+        "status": "WATCH",
+        "reason": "Charbonnet still expected unavailable; Wilson versus Holani rush/third-down/two-minute division unverified at current price.",
+        "fairProbability": null,
+        "pConservative": null,
+        "expectedRoi": null,
+        "playToLine": null,
+        "maxAcceptableOdds": null,
+        "signalTags": [
+          "INJURY",
+          "ROLE_CHANGE",
+          "RUSH_SHARE"
+        ],
+        "thesisId": "SEA_BACKFIELD_CHARBONNET_EXPECTED_ABSENT_OCT15",
+        "correlationTags": [
+          "SAME_THESIS"
+        ]
+      },
+      {
+        "player": "Rhamondre Stevenson",
+        "propType": "RUSH_ATTEMPTS",
+        "side": "OVER",
+        "status": "WATCH",
+        "reason": "Henderson reported out multiple weeks but no priced threshold, verified snap/carry distribution, Kiner role or OL availability for NYJ@NE. Do not convert injury to automatic Over.",
+        "fairProbability": null,
+        "pConservative": null,
+        "expectedRoi": null,
+        "playToLine": null,
+        "maxAcceptableOdds": null,
+        "signalTags": [
+          "INJURY",
+          "ROLE_CHANGE",
+          "RUSH_SHARE",
+          "OL_INJURY"
+        ],
+        "thesisId": "NE_RB_HENDERSON_EXPECTED_ABSENT_OCT18",
+        "correlationTags": [
+          "SAME_THESIS"
+        ]
+      },
+      {
+        "player": "Rhamondre Stevenson",
+        "propType": "RUSH_YARDS",
+        "side": "OVER",
+        "status": "WATCH",
+        "reason": "Potential share gain offset by offensive-line and game-script risks; no sportsbook line/price, distribution or quantified EV.",
+        "fairProbability": null,
+        "pConservative": null,
+        "expectedRoi": null,
+        "playToLine": null,
+        "maxAcceptableOdds": null,
+        "signalTags": [
+          "INJURY",
+          "ROLE_CHANGE",
+          "RUSH_SHARE",
+          "OL_INJURY"
+        ],
+        "thesisId": "NE_RB_HENDERSON_EXPECTED_ABSENT_OCT18",
+        "correlationTags": [
+          "SAME_THESIS"
+        ]
+      },
+      {
+        "player": "Corey Kiner",
+        "propType": "RUSH_ATTEMPTS",
+        "side": "BOTH",
+        "status": "WATCH",
+        "reason": "Backup role may expand but unknown initial market coverage and exact split.",
+        "fairProbability": null,
+        "pConservative": null,
+        "expectedRoi": null,
+        "playToLine": null,
+        "maxAcceptableOdds": null,
+        "signalTags": [
+          "INJURY",
+          "ROLE_CHANGE",
+          "RUSH_SHARE"
+        ],
+        "thesisId": "NE_RB_HENDERSON_EXPECTED_ABSENT_OCT18",
+        "correlationTags": [
+          "SAME_THESIS"
+        ]
+      }
+    ]
+  },
+  "review": {
+    "actionableBets": 0,
+    "conditionalBets": 0,
+    "formalPlayToThresholds": 0,
+    "materialNewInjuryNews": true,
+    "materialUserActionRequiredNow": false,
+    "notification": false,
+    "notifyReason": "New Henderson report changes Week 6 watchlist but not a verified bet opportunity or existing user ticket requiring immediate action.",
+    "nextChecks": "Watch NE official Wednesday injury report, Stevenson/Kiner role commentary, Week 6 line/price publication and Charbonnet status; on Thursday use final injury reports, independent projections and fresh named-book markets. Do not chase, manufacture probability or amend malformed authority records."
+  }
+}
