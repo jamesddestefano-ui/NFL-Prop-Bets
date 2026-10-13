@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "prime_watch_v1",
+  "capturedAtUtc": "2026-10-13T13:43:23Z",
+  "capturedAtEt": "2026-10-13 09:43:23 EDT",
+  "scope": "NFL_PLAYER_PROPS_ONLY",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "previousArchive": "intelligence/archive/2026-10-13T12-36-15Z-prime-watch.json",
+  "grok": {
+    "status": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPass": false,
+    "week": 1
+  },
+  "marketIntegrity": {
+    "lastCanonicalBoardUpdate": "2026-10-07 12:34 ET",
+    "lastCanonicalLineHistoryUpdate": "2026-10-08 14:29:59 ET",
+    "csvAlignmentRiskPreviouslyFlagged": true,
+    "canonicalLedgerWrites": false
+  },
+  "game": "SEA@DEN",
+  "gameDate": "2026-10-15",
+  "kickoffEt": "20:15",
+  "injuries": [
+    {
+      "team": "SEA",
+      "player": "Jaxon Smith-Njigba",
+      "classification": "confirmed_fact",
+      "detail": "Listed limited for ankle on MONDAY ESTIMATE, although team did not practice; finished Sunday game. No Tuesday practice status yet verified at this checkpoint.",
+      "sourceUrl": "https://www.seahawks.com/news/week-6-injury-report-seahawks-at-broncos",
+      "sourcePublishedAtEt": "2026-10-12 14:10"
+    },
+    {
+      "team": "DEN",
+      "player": "Patrick Surtain II",
+      "classification": "confirmed_fact",
+      "detail": "Estimated DNP Monday with ankle, not an official Thursday OUT designation.",
+      "sourceUrl": "https://www.seahawks.com/news/week-6-injury-report-seahawks-at-broncos"
+    },
+    {
+      "team": "DEN",
+      "player": "Talanoa Hufanga",
+      "classification": "confirmed_fact",
+      "detail": "Estimated DNP Monday with ankle, not an official Thursday OUT designation.",
+      "sourceUrl": "https://www.seahawks.com/news/week-6-injury-report-seahawks-at-broncos"
+    },
+    {
+      "team": "SEA",
+      "player": "Zach Charbonnet",
+      "classification": "attributed_report",
+      "detail": "Coach Mike Macdonald said Monday activation remains unlikely; no official final inactive announcement.",
+      "sourceUrl": "https://www.seahawks.com/news/week-6-injury-report-seahawks-at-broncos"
+    }
+  ],
+  "marketResearch": [
+    {
+      "player": "Jaxon Smith-Njigba",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "DraftKings via Covers",
+      "line": 89.5,
+      "odds": -113,
+      "sourceBoardUpdatedAtEt": "2026-10-13 07:56",
+      "researchObservedAtEt": "2026-10-13 09:43",
+      "sourceUrl": "https://www.covers.com/sport/football/nfl/players/196870/jaxon-smith-njigba",
+      "marketTruthConfidence": "C",
+      "reason": "Covers timestamp applies to board, not demonstrably this exact book quote; two-hour-old update and injury uncertainty. FanDuel U90.5 -114 is a DIFFERENT threshold and is not the opposing side for de-vig."
+    },
+    {
+      "player": "Jaxon Smith-Njigba",
+      "propType": "RECEIVING_YARDS",
+      "side": "UNDER",
+      "sportsbook": "FanDuel via Covers",
+      "line": 90.5,
+      "odds": -114,
+      "sourceBoardUpdatedAtEt": "2026-10-13 07:56",
+      "researchObservedAtEt": "2026-10-13 09:43",
+      "sourceUrl": "https://www.covers.com/sport/football/nfl/players/196870/jaxon-smith-njigba",
+      "marketTruthConfidence": "C",
+      "reason": "Different contract from DraftKings O89.5. Do not construct a two-way no-vig book from cross-book mismatched quotes."
+    },
+    {
+      "player": "Jaxon Smith-Njigba",
+      "propType": "RECEPTIONS",
+      "side": "OVER",
+      "sportsbook": null,
+      "line": 6.5,
+      "odds": -111,
+      "sourceBoardUpdatedAtEt": null,
+      "researchObservedAtEt": "2026-10-13 09:43",
+      "sourceUrl": "https://www.statmuse.com/nfl/game/10-15-2026-den-vs-sea-19143",
+      "marketTruthConfidence": "C",
+      "reason": "Aggregated/mirrored listing has no confirmed named sportsbook and no exact quote-update time; not presently actionable."
+    },
+    {
+      "player": "Emanuel Wilson",
+      "propType": "RUSH_ATTEMPTS",
+      "side": "OVER",
+      "sportsbook": null,
+      "line": 18.5,
+      "odds": 108,
+      "sourceBoardUpdatedAtEt": null,
+      "researchObservedAtEt": "2026-10-13 09:43",
+      "sourceUrl": "https://www.statmuse.com/nfl/game/10-15-2026-den-vs-sea-19143",
+      "marketTruthConfidence": "C",
+      "reason": "Unattributed third-party price, no matched exact-contract current book or quote timestamp."
+    }
+  ],
+  "projectionResearch": [
+    {
+      "source": "SportsLine game projection",
+      "sourceUrl": "https://www.sportsline.com/nfl/game-forecast/NFL_20261015_SEA@DEN/daily-fantasy-projections/",
+      "retrievedAtEt": "2026-10-13 09:43",
+      "classification": "model_projection",
+      "JaxonSmithNjigba": {
+        "receptions": 5.8,
+        "receivingYards": 84
+      },
+      "EmanuelWilson": {
+        "rushingAttempts": 16.6,
+        "rushingYards": 56
+      },
+      "GeorgeHolani": {
+        "rushingAttempts": 6.1,
+        "rushingYards": 17
+      },
+      "warning": "Point projections are not fair tail probabilities and are dynamic; no independent calibrated variance, injury branch or conservative bound established."
+    }
+  ],
+  "evaluations": [
+    {
+      "player": "Jaxon Smith-Njigba",
+      "propTypes": [
+        "RECEIVING_YARDS",
+        "RECEPTIONS"
+      ],
+      "decision": "WATCH",
+      "fairProbability": null,
+      "edgeBucket": null,
+      "expectedRoi": null,
+      "conservativeEv": null,
+      "maxPlayableLine": null,
+      "maxAcceptableOdds": null,
+      "steamState": null,
+      "signalTags": [
+        "INJURY",
+        "DEFENSIVE_INJURY",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "thesisId": "SEA_PASS_OFFENSE_DEN_SECONDARY_OCT15",
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "reason": "Ankle status and Denver starting-secondary availability unresolved; average-based model direction conflicts with season production and cannot price exact threshold without distribution. No fresh exact-contract actionable line/price verified."
+    },
+    {
+      "player": "Emanuel Wilson",
+      "propTypes": [
+        "RUSH_ATTEMPTS",
+        "RUSH_YARDS"
+      ],
+      "decision": "WATCH",
+      "fairProbability": null,
+      "edgeBucket": null,
+      "expectedRoi": null,
+      "conservativeEv": null,
+      "maxPlayableLine": null,
+      "maxAcceptableOdds": null,
+      "steamState": null,
+      "signalTags": [
+        "INJURY",
+        "RUSH_SHARE",
+        "ROLE_CHANGE",
+        "GAME_SCRIPT",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "thesisId": "SEA_BACKFIELD_CHARBONNET_EXPECTED_ABSENT_OCT15",
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "reason": "Short-week Charbonnet likely unavailable but Wilson-Holani workload not certain. Published SportsLine means (16.6 carries/56 yards) alone cannot justify an Under at unauthenticated aggregated lines."
+    },
+    {
+      "player": "J.K. Dobbins",
+      "propTypes": [
+        "RUSH_YARDS",
+        "RUSH_ATTEMPTS"
+      ],
+      "decision": "PASS",
+      "reason": "No independent same-contract reliable market-projection probability or demonstrated conservative edge."
+    }
+  ],
+  "crossSlate": {
+    "EaglesRunningBackInjuries": "ESPN via Reuters reports Will Shipley partial plantar-fascia tear; verify team activity and Barkley eligibility before any Pierce/Steele role evaluation. No sportsbook-specific quote and no bet.",
+    "sourceUrl": "https://www.reuters.com/sports/report-eagles-rb-will-shipley-has-torn-plantar-fascia--flm-2026-10-12/",
+    "classification": "attributed_report"
+  },
+  "portfolio": {
+    "newUserConfirmedBet": false,
+    "betsAdded": 0,
+    "parlaysAdded": 0,
+    "lineClv": null,
+    "priceClv": null,
+    "combinedClv": null,
+    "brierScore": null,
+    "exposuresNotInferred": true
+  },
+  "result": {
+    "formalBets": 0,
+    "newActionableEdge": false,
+    "materialChangeRequiringUserAttention": false,
+    "notify": false,
+    "status": "NO_ACTION",
+    "reason": "No revised final injuries or verified A/B currently executable sportsbook quote plus robust calibrated fair-probability edge; conditional Thursday WATCH only."
+  }
+}
