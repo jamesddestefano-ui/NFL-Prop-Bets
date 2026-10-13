@@ -1,0 +1,266 @@
+{
+  "schemaVersion": "prime_watch_v1",
+  "capturedAtUtc": "2026-10-13T01:11:36Z",
+  "capturedAtEt": "2026-10-12 21:11:36 EDT",
+  "scope": "NFL_PLAYER_PROPS_ONLY",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "nflWeek": 5,
+  "readSources": [
+    "AGENTS.md",
+    "config/methodology.md",
+    "config/advanced_market_learning.md",
+    "config/positive_ev_framework.md",
+    "config/sources.md",
+    "data/live_prop_board.csv",
+    "data/decision_ledger.csv",
+    "data/line_history.csv",
+    "data/bet_history.csv",
+    "data/missed_bets.csv",
+    "data/pass_ledger.csv",
+    "data/parlay_history.csv",
+    "data/weekly_attribution.csv",
+    "intelligence/grok_pulse_latest.json",
+    "intelligence/grok_pulse_history.jsonl",
+    "intelligence/archive/2026-09-12T17-05-00Z.json",
+    "intelligence/archive/2026-10-12T19-44-14Z-prime-watch.json"
+  ],
+  "pulse": {
+    "latestStatus": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "newPulse": false,
+    "notes": "Grok status live describes old Week 1 pass only; ignore as Week 5 actionable source."
+  },
+  "marketIntegrity": {
+    "livePropBoardLatestResearchedAt": "2026-10-07 12:34 ET (among latest rows; no Oct 12 BUF@LAR candidate)",
+    "lineHistoryLatestCapturedAt": "2026-10-08 14:29:59 ET",
+    "decisionLedgerLatestTimestamp": "2026-09-23 02:37:26 ET",
+    "realtimeSpecificSportsbookQuotesAvailable": false,
+    "notes": "No matching post-inactives sportsbook player-prop quotes with executable availability/observedAt available at this checkpoint. No live in-game quote verified. All missing market/fair/consensus/CLV data left unknown."
+  },
+  "primaryGame": {
+    "matchup": "BUF@LAR",
+    "date": "2026-10-12",
+    "kickoffEt": "20:15",
+    "phase": "IN_PROGRESS_AFTER_KICKOFF",
+    "officialFacts": [
+      {
+        "fact": "DJ Moore, Joshua Palmer, Dee Alford, Ed Oliver, Landon Jackson inactive; Bills official Oct 12 18:44 ET",
+        "url": "https://www.buffalobills.com/news/dj-moore-among-bills-inactives-vs-rams",
+        "classification": "confirmed_fact",
+        "publishedAtEt": "2026-10-12 18:44 EDT"
+      },
+      {
+        "fact": "Rams listed C.J. Daniels Jr., Ty Simpson (emergency QB), Larrell Murchison, Bill Murray, Max Klare inactive; Quentin Lake active",
+        "url": "https://www.therams.com/news/among-rams-inactives-for-monday-night-football-vs-bills-in-week-5-2026",
+        "classification": "confirmed_fact",
+        "publishedAtEt": "2026-10-12 15:59 EDT"
+      }
+    ],
+    "evaluations": [
+      {
+        "player": "Khalil Shakir",
+        "team": "BUF",
+        "propType": "RECEPTIONS",
+        "side": "OVER",
+        "previousPrematchThesis": "TARGET_SHARE/INJURY: Moore and Palmer absent",
+        "decision": "PASS",
+        "decisionReason": "Game underway; previously published pre-kickoff market no longer executable, no verified in-play offer or valid fresh win probability",
+        "sportsbook": null,
+        "line": null,
+        "odds": null,
+        "bookQuoteObservedAt": null,
+        "bestMarketLine": null,
+        "consensusLine": null,
+        "fairProbability": null,
+        "edgePct": null,
+        "edgeBucket": null,
+        "expectedRoi": null,
+        "maxPlayableLine": null,
+        "maxAcceptableOdds": null,
+        "steamState": null,
+        "entryTiming": "IN_GAME_UNVERIFIED",
+        "signalTags": [
+          "INJURY",
+          "TARGET_SHARE"
+        ],
+        "correlationTags": [
+          "SAME_THESIS"
+        ],
+        "thesisId": "BUF_TARGET_VACUUM_OCT12"
+      },
+      {
+        "player": "Dalton Kincaid",
+        "team": "BUF",
+        "propType": "RECEPTIONS",
+        "side": "OVER",
+        "decision": "PASS",
+        "decisionReason": "Game underway; old O4.5 repricing cannot be transferred into a live market. No timestamped verified in-play quote, model or no-vig fair probability.",
+        "sportsbook": null,
+        "line": null,
+        "odds": null,
+        "bookQuoteObservedAt": null,
+        "bestMarketLine": null,
+        "consensusLine": null,
+        "fairProbability": null,
+        "edgePct": null,
+        "edgeBucket": null,
+        "expectedRoi": null,
+        "maxPlayableLine": null,
+        "maxAcceptableOdds": null,
+        "steamState": null,
+        "entryTiming": "IN_GAME_UNVERIFIED",
+        "signalTags": [
+          "INJURY",
+          "MARKET_MOVE"
+        ],
+        "correlationTags": [
+          "SAME_THESIS"
+        ],
+        "thesisId": "BUF_TARGET_VACUUM_OCT12"
+      },
+      {
+        "player": "Keon Coleman",
+        "team": "BUF",
+        "propType": "RECEPTIONS",
+        "side": "OVER",
+        "decision": "PASS",
+        "decisionReason": "Game underway with no authenticated post-inactives in-play line/odds, so no new bet.",
+        "sportsbook": null,
+        "line": null,
+        "odds": null,
+        "bookQuoteObservedAt": null,
+        "bestMarketLine": null,
+        "consensusLine": null,
+        "fairProbability": null,
+        "edgePct": null,
+        "edgeBucket": null,
+        "expectedRoi": null,
+        "maxPlayableLine": null,
+        "maxAcceptableOdds": null,
+        "steamState": null,
+        "entryTiming": "IN_GAME_UNVERIFIED",
+        "signalTags": [
+          "INJURY",
+          "ROLE_CHANGE"
+        ],
+        "correlationTags": [
+          "SAME_THESIS"
+        ],
+        "thesisId": "BUF_TARGET_VACUUM_OCT12"
+      }
+    ]
+  },
+  "nextSlate": {
+    "matchup": "SEA@DEN",
+    "date": "2026-10-15",
+    "kickoffEt": "20:15",
+    "officialFacts": [
+      {
+        "fact": "Seahawks Monday estimated practice: Jaxon Smith-Njigba limited with ankle injury; he finished Sunday game. Note NO actual Monday practice.",
+        "url": "https://www.seahawks.com/news/week-6-injury-report-seahawks-at-broncos",
+        "classification": "confirmed_fact",
+        "publishedAtEt": "2026-10-12 14:10 EDT"
+      },
+      {
+        "fact": "Broncos Monday estimated practice: Pat Surtain II (ankle) and Talanoa Hufanga (ankle) DNP; Riley Moss (ribs) limited. NO actual Monday practice.",
+        "url": "https://www.denverbroncos.com/news/injury-report-cb-riley-moss-listed-as-limited-participant-on-initial-practice-report-ahead-of-week-6-game-vs-seahawks",
+        "classification": "confirmed_fact",
+        "publishedAtEt": "2026-10-12 14:22 EDT"
+      },
+      {
+        "fact": "Coach Macdonald said Charbonnet unlikely to be activated by Thursday; backfield likely Wilson, Holani, other depth pending game status.",
+        "url": "https://www.seahawks.com/news/rb-zach-charbonnet-not-expected-to-make-return-for-seahawks-week-6-game-at-denver",
+        "classification": "attributed_report",
+        "publishedAtEt": "2026-10-11 18:28 EDT"
+      }
+    ],
+    "evaluations": [
+      {
+        "player": "Jaxon Smith-Njigba",
+        "team": "SEA",
+        "propType": "RECEIVING_YARDS",
+        "side": "BOTH_DIRECTIONS_FOR_RESEARCH",
+        "decision": "WATCH",
+        "signalTags": [
+          "INJURY",
+          "DEFENSIVE_INJURY",
+          "TARGET_SHARE"
+        ],
+        "correlationTags": [
+          "SAME_THESIS"
+        ],
+        "thesisId": "SEA_PASS_OFFENSE_DEN_SECONDARY_OCT15",
+        "decisionReason": "Mixed forces: new ankle listing adds usage uncertainty; DEN star CB/S estimated DNP increases potential matchup opportunity, but no player matchup assignment/route adjustment demonstrated. Thursday participation and exact current book price required.",
+        "sportsbook": null,
+        "line": null,
+        "odds": null,
+        "consensusLine": null,
+        "fairProbability": null,
+        "edgePct": null,
+        "maxPlayableLine": null,
+        "maxAcceptableOdds": null
+      },
+      {
+        "player": "Emanuel Wilson",
+        "team": "SEA",
+        "propType": "RUSH_ATTEMPTS",
+        "side": "BOTH_DIRECTIONS_FOR_RESEARCH",
+        "decision": "WATCH",
+        "signalTags": [
+          "INJURY",
+          "ROLE_CHANGE",
+          "RUSH_SHARE",
+          "GAME_SCRIPT"
+        ],
+        "correlationTags": [
+          "SAME_THESIS"
+        ],
+        "thesisId": "SEA_BACKFIELD_CHARBONNET_EXPECTED_ABSENT_OCT15",
+        "decisionReason": "Charbonnet activation unlikely (not official OUT) and Price still on IR; Wilson-Holani committee and turnover risk prevent assumed workhorse carry share. No verified attempts line/odds.",
+        "sportsbook": null,
+        "line": null,
+        "odds": null,
+        "consensusLine": null,
+        "fairProbability": null,
+        "edgePct": null,
+        "maxPlayableLine": null,
+        "maxAcceptableOdds": null
+      }
+    ],
+    "nextChecks": [
+      "SEA and DEN Tuesday actual or estimated practice updates and Wednesday final game statuses",
+      "Verified book-specific same-contract Thu props/odds/time, best line, consensus and independent receiving/carry probabilities",
+      "Correlation/price and injury sensitivity before any BET"
+    ]
+  },
+  "portfolio": {
+    "confirmedWeek5UserSingleTicketsInCanonicalBetHistory": 0,
+    "confirmedWeek5UserParlaysInCanonicalParlayHistory": 0,
+    "notes": "Canonical bet_history and parlay_history contain no Week 5 user-confirmed wager; this does NOT establish the user placed none.",
+    "weeklyExposureCash": null,
+    "gameExposureCash": null,
+    "playerExposureCash": null,
+    "thesisExposureCash": null,
+    "lineClv": null,
+    "priceClv": null,
+    "combinedClv": null,
+    "brierScore": null,
+    "weeklyAttributionPending": true
+  },
+  "modelAndAccounting": {
+    "projectionUncertaintyUnquantified": true,
+    "formalEvCalculated": false,
+    "missingOddsAndProbabilitiesLeftNull": true,
+    "priceMovementNotInferred": true,
+    "parlaysNotMixedWithStraightBetData": true,
+    "priorWeekDataUnchanged": true
+  },
+  "result": {
+    "formalBets": 0,
+    "materialActionOnVerifiedExistingTicket": false,
+    "notifications": false,
+    "reason": "No executable NFL player-prop edge; already-known Bills inactives and newly scoped Thursday early-week conditional watches do not require immediate betting action."
+  }
+}
