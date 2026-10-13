@@ -1,0 +1,24 @@
+{
+  "retrievedAt": "2026-10-13T12:30:26Z",
+  "files": {
+    "data/line_history.csv": {
+      "sha": "2acb68477aaf34f6a11d69d981111e85a6399c71"
+    },
+    "data/decision_ledger.csv": {
+      "sha": "82f1a4297ee7e7c64dc1f2d37f78ec19729ef416"
+    },
+    "data/pass_ledger.csv": {
+      "sha": "e1644b9ee70ba6b39aa1579eae1e03b22151265c"
+    },
+    "data/bet_history.csv": {
+      "sha": "9035f654eff5fb3a0be188542593c62c3ba00b05"
+    },
+    "data/ev_source_signals.csv": {
+      "sha": "4f4326f53f6d9955e0277ff9617443c8d97ccdb3"
+    }
+  },
+  "mnf": {
+    "archive": "b60bf9bbb0349cf3d55b39526872247b09f060eb",
+    "correction": "3a04eea328dbcd26b469e9bc4f92fcf0b6cb7669"
+  }
+}
