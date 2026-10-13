@@ -70,3 +70,12 @@ These are separate dated additions. The advanced-session package, prior records,
 
 - [Selection is part of the model](2026-10-12-selection-procedure/README.md): deeper numerical and experiment-manifest treatment of existing nested-validation safeguards, with an original JMLR reading, 18 deterministic illustrative checks and explicit X access gaps. No empirical NFL edge or production validation established.
 - [McBride forecast observation](2026-10-12-selection-procedure/mcbride-comparison.json): preserved attributed reception/yardage projections compared with a verified final box, retaining source-age and point-estimate limits; no source ranking, probability calibration, wager settlement or CLV inferred.
+
+
+## Tuesday PRIME assignment research — 2026-10-13
+
+- [001: Push-aware contracts and probability bases](../dot_reports/PRIME-DOT-20261012-001/2026-10-13-integer-prop-contracts.md): mathematical deliverable COMPLETE; actual jurisdiction-specific rule distinctions, noncomplementary early-win caution, conditional Kelly and scoring schema proposals. 29 synthetic tests; no production/empirical edge claim.
+- [002: Prospective same-contract de-vig protocol](../dot_reports/PRIME-DOT-20261012-002/2026-10-13-prospective-devig-protocol.md): protocol deliverable COMPLETE; timestamp/complementarity gates, paired chronological evaluation, policy versus forecast endpoints and unchanged-data audit. 62 synthetic tests after independent solver-bound correction. Empirical NFL experiment remains unrun.
+- [003: Independence-aware educator scorecard](../dot_reports/PRIME-DOT-20261012-003/2026-10-13-account-independence-scorecard.md): substantial original transcript/article research and operational scorecard delivered, but overall INCONCLUSIVE for original X execution/early-originator evidence. Nine synthetic checks; no source ranking or audited ROI established.
+
+The three packages passed independent research/math review; 100 total deterministic fixtures are not production validation or an NFL backtest. Status events preserve the append-only queue. Prior records, methodology and actual betting ledgers remain unchanged. Source/contract uncertainty, missing original-X evidence and a complete prospective quote/outcome panel remain open; no claim another ChatGPT conversation consumed this handoff.
