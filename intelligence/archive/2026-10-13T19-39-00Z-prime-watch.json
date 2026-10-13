@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "prime_watch_v1",
+  "capturedAtUtc": "2026-10-13T19:39:00Z",
+  "scope": "NFL_PLAYER_PROPS_ONLY",
+  "previousArchive": "intelligence/archive/2026-10-13T19-38-00Z-prime-watch.json",
+  "inputsReviewed": [
+    "AGENTS.md",
+    "config/methodology.md",
+    "config/advanced_market_learning.md",
+    "config/positive_ev_framework.md",
+    "config/sources.md",
+    "data/live_prop_board.csv",
+    "data/decision_ledger.csv",
+    "data/line_history.csv",
+    "data/bet_history.csv",
+    "data/missed_bets.csv",
+    "data/pass_ledger.csv",
+    "data/parlay_history.csv",
+    "data/weekly_attribution.csv",
+    "intelligence/grok_pulse_latest.json",
+    "intelligence/grok_pulse_history.jsonl",
+    "intelligence/archive/2026-10-13T17-42-08Z-prime-watch.json"
+  ],
+  "pulse": {
+    "status": "live",
+    "completedAt": "2026-09-12T17:05:00Z",
+    "new": false
+  },
+  "market": {
+    "source": "https://www.covers.com/sport/football/nfl/players/196870/jaxon-smith-njigba",
+    "updatedAtEt": "2026-10-13 15:20",
+    "grade": "C",
+    "note": "Percent contract displays only; no verified two-sided sportsbook prices, prior morning quotes are stale."
+  },
+  "news": [
+    {
+      "status": "attributed_report",
+      "player": "Anton Harrison",
+      "summary": "Reported knee surgery expected, Walker Little to replace at LT.",
+      "source": "https://www.reuters.com/sports/reports-jaguars-lt-anton-harrison-knee-undergo-surgery--flm-2026-10-13/"
+    },
+    {
+      "status": "confirmed_fact",
+      "subject": "SEA-DEN Monday initial practice ESTIMATES",
+      "summary": "JSN limited ankle; DEN Surtain/Hufanga DNP; Moss limited; no verified Tuesday participation.",
+      "source": "https://www.seahawks.com/news/week-6-injury-report-seahawks-at-broncos"
+    }
+  ],
+  "evaluations": [
+    {
+      "player": "Jaxon Smith-Njigba",
+      "types": [
+        "RECEPTIONS",
+        "RECEIVING_YARDS"
+      ],
+      "status": "WATCH",
+      "reason": "Injury and model disagreement; current named-book quote and calibrated distribution unavailable."
+    },
+    {
+      "player": "Emanuel Wilson",
+      "type": "RUSH_ATTEMPTS",
+      "status": "WATCH",
+      "reason": "Uncertain backfield allocation; no current priced market."
+    },
+    {
+      "player": "Rhamondre Stevenson",
+      "type": "RUSH_ATTEMPTS",
+      "status": "WATCH",
+      "reason": "Henderson injury already known; workload/OL/price unverified."
+    },
+    {
+      "player": "Jacksonville QB and RBs",
+      "types": [
+        "PASS_YARDS",
+        "RUSH_YARDS"
+      ],
+      "status": "WATCH",
+      "reason": "New offensive-line injury; unknown statistical or price consequence."
+    }
+  ],
+  "dataIntegrity": {
+    "priorCsvAlignmentIssueStillOpen": true,
+    "authoritativeLedgersUpdated": false,
+    "clv": null,
+    "brier": null
+  },
+  "decision": {
+    "actionableBets": 0,
+    "notify": false,
+    "reason": "No qualifying market-price and conservative-EV signal, or material change to confirmed ticket."
+  }
+}
