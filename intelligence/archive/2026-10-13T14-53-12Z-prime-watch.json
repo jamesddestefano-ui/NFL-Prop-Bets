@@ -1,0 +1,260 @@
+{
+  "schemaVersion": "prime_watch_v1",
+  "capturedAtUtc": "2026-10-13T14:53:12.236Z",
+  "scope": "NFL_PLAYER_PROPS_ONLY",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "previousArchive": "intelligence/archive/2026-10-13T13-43-23Z-prime-watch.json",
+  "readInputs": [
+    "AGENTS.md",
+    "config/methodology.md",
+    "config/advanced_market_learning.md",
+    "config/positive_ev_framework.md",
+    "config/sources.md",
+    "data/live_prop_board.csv",
+    "data/decision_ledger.csv",
+    "data/line_history.csv",
+    "data/bet_history.csv",
+    "data/missed_bets.csv",
+    "data/pass_ledger.csv",
+    "data/parlay_history.csv",
+    "data/weekly_attribution.csv",
+    "intelligence/grok_pulse_latest.json",
+    "intelligence/grok_pulse_history.jsonl",
+    "intelligence/archive/2026-10-13T13-43-23Z-prime-watch.json"
+  ],
+  "grok": {
+    "status": "live",
+    "latestCompletedAt": "2026-09-12T17:05:00Z",
+    "mostRecentlyProcessedCompletedAt": "2026-09-12T17:05:00Z",
+    "isNew": false,
+    "reason": "Same completedAt as history and last processed; Week 1 research only."
+  },
+  "canonicalBoard": {
+    "lastResearchedAtEt": "2026-10-07 12:34",
+    "lineHistoryLastAtEt": "2026-10-08 14:29:59",
+    "noCurrentSEA_DENCandidate": true
+  },
+  "dataIntegrity": {
+    "alreadyFlagged": true,
+    "checkedReadOnly": true,
+    "rowsMisaligned": {
+      "decision_ledger.csv": 6,
+      "bet_history.csv": 5,
+      "pass_ledger.csv": 3
+    },
+    "controlLedgersChanged": false,
+    "comments": "CSV field-count mismatch is old known issue, not new alert; no automated repairs or synthetic bet results."
+  },
+  "game": {
+    "matchup": "SEA@DEN",
+    "date": "2026-10-15",
+    "kickoffEt": "20:15",
+    "nextSlate": "Thursday Night Football"
+  },
+  "officialInjuries": {
+    "asOf": "2026-10-13 approximately 10:49 ET",
+    "JSN": "Seattle official Monday estimated LIMITED ankle; finished Sunday game; no verified Tuesday official report yet.",
+    "DEN": "Denver Monday estimates Surtain II and Hufanga DNP with ankle, Moss limited ribs; not Thursday official OUT.",
+    "SEA_RB": "Seattle coach says Charbonnet unlikely to be activated; no final inactives.",
+    "urls": [
+      "https://www.seahawks.com/news/week-6-injury-report-seahawks-at-broncos",
+      "https://www.denverbroncos.com/news/injury-report-cb-riley-moss-listed-as-limited-participant-on-initial-practice-report-ahead-of-week-6-game-vs-seahawks"
+    ]
+  },
+  "marketObservations": [
+    {
+      "source": "Covers multi-book board",
+      "url": "https://www.covers.com/sport/football/nfl/players/196870/jaxon-smith-njigba",
+      "sourcePageUpdatedAtEt": "2026-10-13 10:29",
+      "observedDuringThisPass": true,
+      "quotePerBookUpdateUnknown": true,
+      "marketTruthGrade": "C",
+      "player": "Jaxon Smith-Njigba",
+      "propType": "RECEIVING_YARDS",
+      "quotes": [
+        {
+          "book": "DraftKings",
+          "side": "OVER",
+          "line": 89.5,
+          "odds": -113
+        },
+        {
+          "book": "FanDuel",
+          "side": "UNDER",
+          "line": 90.5,
+          "odds": -114
+        }
+      ],
+      "warning": "Different thresholds/books, not a valid binary pair for de-vig. Same price as preceding archive at 09:43."
+    },
+    {
+      "source": "Covers multi-book board",
+      "url": "https://www.covers.com/sport/football/nfl/players/196870/jaxon-smith-njigba",
+      "sourcePageUpdatedAtEt": "2026-10-13 10:29",
+      "quotePerBookUpdateUnknown": true,
+      "marketTruthGrade": "C",
+      "player": "Jaxon Smith-Njigba",
+      "propType": "RECEPTIONS",
+      "sameBookPairs": [
+        {
+          "book": "DraftKings",
+          "threshold": 6.5,
+          "overOdds": -120,
+          "underOdds": -107,
+          "proportionalNoVigOverProbability": 0.5134353038445638
+        },
+        {
+          "book": "FanDuel",
+          "threshold": 6.5,
+          "overOdds": -114,
+          "underOdds": -114,
+          "proportionalNoVigOverProbability": 0.5
+        }
+      ],
+      "note": "Mathematical no-vig benchmark only. Page refresh timestamp is not per-contract confirmed quote timestamp; no BET."
+    },
+    {
+      "source": "StatMuse mirrored odds",
+      "url": "https://www.statmuse.com/nfl/game/10-15-2026-den-vs-sea-19143",
+      "marketTruthGrade": "C",
+      "book": null,
+      "player": "Emanuel Wilson",
+      "propType": "RUSH_ATTEMPTS",
+      "line": 18.5,
+      "overOdds": 108,
+      "underOdds": -113,
+      "quoteUpdatedAt": null,
+      "note": "Unauthenticated bookmaker; preserved as secondary directional market context only."
+    }
+  ],
+  "modelProjections": [
+    {
+      "player": "Jaxon Smith-Njigba",
+      "source": "SportsLine (previous verified research archive)",
+      "date": "2026-10-13 09:43 ET research",
+      "receptions": 5.8,
+      "receivingYards": 84,
+      "provenance": "model_projection"
+    },
+    {
+      "player": "Jaxon Smith-Njigba",
+      "source": "Dimers",
+      "url": "https://www.dimers.com/nfl/news/jaxon-smith-njigba-projected-fantasy-stats-nfl-week-6-2026-ac",
+      "sourceUpdatedAtEt": "2026-10-13 04:36",
+      "receptions": 6.1,
+      "receivingYards": 91.3,
+      "provenance": "model_projection"
+    },
+    {
+      "player": "Jaxon Smith-Njigba",
+      "source": "FantasyInfoCentral",
+      "url": "https://www.fantasyinfocentral.com/betting/nfl/props/receptions",
+      "sourceUpdatedAtEt": null,
+      "receptions": 7.2,
+      "provenance": "model_projection",
+      "note": "Displayed Week 6 projections with no exact publication time."
+    }
+  ],
+  "evaluations": [
+    {
+      "player": "Jaxon Smith-Njigba",
+      "propType": "RECEIVING_YARDS",
+      "decision": "WATCH",
+      "side": "BOTH",
+      "steamState": null,
+      "signalTags": [
+        "INJURY",
+        "DEFENSIVE_INJURY",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "thesisId": "SEA_PASS_OFFENSE_DEN_SECONDARY_OCT15",
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "fairProbability": null,
+      "conservativeEv": null,
+      "expectedRoi": null,
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "reason": "No newly verified Tuesday participation or exact-per-contract live sportsbook quote; injury uncertainty and 84 vs 91.3 modeled yard projections straddle market 89.5/90.5, no estimated tail probability."
+    },
+    {
+      "player": "Jaxon Smith-Njigba",
+      "propType": "RECEPTIONS",
+      "decision": "WATCH",
+      "side": "BOTH",
+      "steamState": null,
+      "signalTags": [
+        "INJURY",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "thesisId": "SEA_PASS_OFFENSE_DEN_SECONDARY_OCT15",
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "noVigOverProbRange": [
+        0.5,
+        0.5134353038445638
+      ],
+      "fairProbability": null,
+      "edgePct": null,
+      "conservativeEv": null,
+      "expectedRoi": null,
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "reason": "Independent reception means diverge (5.8, 6.1, 7.2). No distribution, confidence bounds or validated conservatism. Quote provenance grade C; no actionable bet."
+    },
+    {
+      "player": "Emanuel Wilson",
+      "propType": "RUSH_ATTEMPTS",
+      "decision": "WATCH",
+      "side": "BOTH",
+      "steamState": null,
+      "signalTags": [
+        "INJURY",
+        "ROLE_CHANGE",
+        "RUSH_SHARE",
+        "GAME_SCRIPT"
+      ],
+      "thesisId": "SEA_BACKFIELD_CHARBONNET_EXPECTED_ABSENT_OCT15",
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "fairProbability": null,
+      "conservativeEv": null,
+      "expectedRoi": null,
+      "playToLine": null,
+      "maxAcceptableOdds": null,
+      "reason": "Likely Charbonnet absence known already; Wilson/Holani workload uncertain; unauthenticated aggregated 18.5 line not actionable. SportsLine prior projected 16.6 carries but mean alone is not enough."
+    },
+    {
+      "player": "J.K. Dobbins",
+      "propType": "RUSH_ATTEMPTS",
+      "decision": "PASS",
+      "side": "BOTH",
+      "signalTags": [
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "reason": "No verified conservative probabilistic edge or executable current quote."
+    }
+  ],
+  "portfolio": {
+    "newUserTicket": false,
+    "betHistoryChanged": false,
+    "parlaysChanged": false,
+    "confirmedNewWeek6Exposure": false,
+    "lineClv": null,
+    "priceClv": null,
+    "combinedClv": null,
+    "brier": null,
+    "weeklyAttributionPending": true
+  },
+  "result": {
+    "status": "NO_ACTION",
+    "formalBets": 0,
+    "notification": false,
+    "materialChangeSincePreviousArchive": false,
+    "reason": "No new official Tuesday injury update or qualifying fresh executable price and calibrated positive-EV probability; all relevant changes are either unchanged, secondary-market-only or independent projection disagreements. Existing CSV alignment issue already flagged."
+  }
+}
