@@ -1,0 +1,12 @@
+{
+  "capturedAtUtc": "2026-10-13T12:36:15Z",
+  "scope": "NFL_PLAYER_PROPS_ONLY",
+  "newGrokPulse": false,
+  "grokCompletedAt": "2026-09-12T17:05:00Z",
+  "status": "NO_ACTION",
+  "reason": "Existing Thursday Seattle at Denver injury watches remain unresolved. No newly verified current sportsbook-specific player-prop lines or positive-EV evaluation. Existing CSV field-alignment problem remains unresolved; betting ledgers unchanged.",
+  "sources": [
+    "https://www.seahawks.com/news/week-6-injury-report-seahawks-at-broncos",
+    "https://www.reuters.com/sports/reports-michael-penix-jrs-rib-injury-not-serious--flm-2026-10-12/"
+  ]
+}
