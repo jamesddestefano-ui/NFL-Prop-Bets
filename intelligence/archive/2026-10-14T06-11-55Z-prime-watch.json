@@ -1,0 +1,34 @@
+{
+  "capturedAtUtc": "2026-10-14T06:11:55Z",
+  "scope": "NFL_PLAYER_PROPS_ONLY",
+  "previousArchive": "intelligence/archive/2026-10-14T04-14-50Z-prime-watch.json",
+  "grok": {
+    "status": "live",
+    "completedAt": "2026-09-12T17:05:00Z",
+    "new": false
+  },
+  "officialUpdate": "Seattle and Denver Tuesday injury estimates unchanged. Wednesday final designations pending.",
+  "market": "Covers updated JSN page at 2026-10-14 01:32 ET. Displays exchange/prediction prices, not verified book quotes.",
+  "evaluations": [
+    {
+      "player": "Jaxon Smith-Njigba",
+      "status": "WATCH"
+    },
+    {
+      "player": "Emanuel Wilson",
+      "status": "WATCH"
+    },
+    {
+      "player": "Rhamondre Stevenson",
+      "status": "WATCH"
+    },
+    {
+      "player": "Matthew Stafford",
+      "status": "WATCH"
+    }
+  ],
+  "actionable": false,
+  "notify": false,
+  "reason": "No new confirmed injury change or qualifying live quote",
+  "betLedgerChanged": false
+}
