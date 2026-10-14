@@ -1,0 +1,70 @@
+{
+  "decision_ledger.csv": {
+    "nonblank_data_rows": 26,
+    "header_width": 60,
+    "width_valid_rows": 20,
+    "width_mismatches": 6,
+    "nonempty_fields_among_width_valid_rows": {
+      "odds": 18,
+      "estimated_over_probability": 12,
+      "estimated_under_probability": 12,
+      "no_vig_probability": 10,
+      "actual_result": 0,
+      "closing_odds": 0
+    }
+  },
+  "bet_history.csv": {
+    "nonblank_data_rows": 5,
+    "header_width": 26,
+    "width_valid_rows": 0,
+    "width_mismatches": 5,
+    "nonempty_fields_among_width_valid_rows": {}
+  },
+  "pass_ledger.csv": {
+    "nonblank_data_rows": 17,
+    "header_width": 25,
+    "width_valid_rows": 14,
+    "width_mismatches": 3,
+    "nonempty_fields_among_width_valid_rows": {
+      "odds": 13,
+      "actual_result": 1,
+      "closing_odds": 0
+    }
+  },
+  "missed_bets.csv": {
+    "nonblank_data_rows": 5,
+    "header_width": 27,
+    "width_valid_rows": 5,
+    "width_mismatches": 0,
+    "nonempty_fields_among_width_valid_rows": {
+      "recommended_odds": 5,
+      "outcome": 3,
+      "closing_odds": 0
+    }
+  },
+  "line_history.csv": {
+    "nonblank_data_rows": 56,
+    "header_width": 15,
+    "width_valid_rows": 56,
+    "width_mismatches": 0,
+    "nonempty_fields_among_width_valid_rows": {
+      "odds": 54,
+      "opposite_side_odds": 23,
+      "source_url": 52
+    }
+  },
+  "ev_source_signals.csv": {
+    "nonblank_data_rows": 0,
+    "header_width": 45,
+    "width_valid_rows": 0,
+    "width_mismatches": 0,
+    "nonempty_fields_among_width_valid_rows": {}
+  },
+  "weekly_attribution.csv": {
+    "nonblank_data_rows": 1,
+    "header_width": 27,
+    "width_valid_rows": 1,
+    "width_mismatches": 0,
+    "nonempty_fields_among_width_valid_rows": {}
+  }
+}

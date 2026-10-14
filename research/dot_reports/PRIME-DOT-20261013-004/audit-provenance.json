@@ -1,0 +1,15 @@
+{
+  "snapshot_commit": "7181df1fa25300649f3a0f8cefddc5b56da24532",
+  "retrieval_date": "2026-10-14",
+  "source_blob_shas": {
+    "data/decision_ledger.csv": "82f1a4297ee7e7c64dc1f2d37f78ec19729ef416",
+    "data/bet_history.csv": "9035f654eff5fb3a0be188542593c62c3ba00b05",
+    "data/line_history.csv": "2acb68477aaf34f6a11d69d981111e85a6399c71",
+    "data/missed_bets.csv": "a35dd76bc078d6667dd344ebf901cfe05928d5c6",
+    "data/pass_ledger.csv": "e1644b9ee70ba6b39aa1579eae1e03b22151265c",
+    "data/ev_source_signals.csv": "4f4326f53f6d9955e0277ff9617443c8d97ccdb3",
+    "data/weekly_attribution.csv": "36a9212ca43dd37011eaa4d2deaed9eee7973ad1"
+  },
+  "scope": "Aggregate calculations on fetched text only; no source rows or account data published; authoritative files unchanged.",
+  "source_blob_sha_verification": "API-provided source references only; exact source-byte reproduction remains unverified for publication after an initial local materialization mismatch."
+}

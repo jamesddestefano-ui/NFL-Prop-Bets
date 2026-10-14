@@ -79,3 +79,11 @@ These are separate dated additions. The advanced-session package, prior records,
 - [003: Independence-aware educator scorecard](../dot_reports/PRIME-DOT-20261012-003/2026-10-13-account-independence-scorecard.md): substantial original transcript/article research and operational scorecard delivered, but overall INCONCLUSIVE for original X execution/early-originator evidence. Nine synthetic checks; no source ranking or audited ROI established.
 
 The three packages passed independent research/math review; 100 total deterministic fixtures are not production validation or an NFL backtest. Status events preserve the append-only queue. Prior records, methodology and actual betting ledgers remain unchanged. Source/contract uncertainty, missing original-X evidence and a complete prospective quote/outcome panel remain open; no claim another ChatGPT conversation consumed this handoff.
+
+
+## Wednesday candidate-universe education — 2026-10-14
+
+- [004: Immutable candidate universe and honest shadow replay](../dot_reports/PRIME-DOT-20261013-004/2026-10-14-candidate-universe-manifest.md): review-only schema and falsifiable capture plan; bounded read-only audit, exact as-of/settlement identity, observed offers versus accepted fills, complete denominators and missingness bounds. Original technical-paper/provider-education review; no video playback or verified current original X tip. 41 independently reviewed synthetic assertions and a seven-file fetched-text coverage audit (exact source-byte reproduction unverified after an initial materialization mismatch); no production repair or empirical NFL edge.
+- Current official Seattle/Denver participation reports are estimates, not multiple actual practice observations. No current executable quote or player probability established.
+
+The design deliverable is completed only after verified publication. Prospective capture/holdout testing remains unrun; PRIME keeps review authority. Task003 original-X execution evidence remains unresolved. Prior forecasts, failed hypotheses, governing files and betting records remain unchanged.
