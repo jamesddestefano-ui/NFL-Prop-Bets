@@ -1,0 +1,277 @@
+{
+  "schemaVersion": "prime_watch_v1",
+  "capturedAtUtc": "2026-10-14T00:39:02Z",
+  "capturedAtEt": "2026-10-13 20:39:02 EDT",
+  "scope": "NFL_PLAYER_PROPS_ONLY",
+  "repository": "jamesddestefano-ui/NFL-Prop-Bets",
+  "branch": "main",
+  "previousArchive": "intelligence/archive/2026-10-13T19-39-00Z-prime-watch.json",
+  "governingInputsRead": [
+    "AGENTS.md",
+    "config/methodology.md",
+    "config/advanced_market_learning.md",
+    "config/positive_ev_framework.md",
+    "config/sources.md",
+    "data/live_prop_board.csv",
+    "data/decision_ledger.csv",
+    "data/line_history.csv",
+    "data/bet_history.csv",
+    "data/missed_bets.csv",
+    "data/pass_ledger.csv",
+    "data/parlay_history.csv",
+    "data/weekly_attribution.csv",
+    "intelligence/grok_pulse_latest.json",
+    "intelligence/grok_pulse_history.jsonl",
+    "intelligence/archive/2026-09-12T17-05-00Z.json",
+    "intelligence/archive/2026-10-13T19-39-00Z-prime-watch.json"
+  ],
+  "grok": {
+    "status": "live",
+    "completedAt": "2026-09-12T17:05:00Z",
+    "new": false,
+    "reason": "Same completedAt as prior processed pulse; signals are September Week 1 context, not fresh Week 6 information."
+  },
+  "news": [
+    {
+      "classification": "confirmed_fact",
+      "game": "SEA@DEN 2026-10-15",
+      "subject": "Denver secondary",
+      "publishedAtEt": "2026-10-13 16:03 EDT",
+      "details": "Official Broncos Tuesday walkthrough estimates: Pat Surtain II ankle and Talanoa Hufanga ankle DNP second straight day; Riley Moss ribs limited second straight; game status to be released Wednesday. No Thursday OUT designation yet.",
+      "url": "https://www.denverbroncos.com/news/injury-report-cb-riley-moss-remains-limited-practice-participant-ahead-of-week-6-game-vs-seahawks",
+      "causalTags": [
+        "DEFENSIVE_INJURY",
+        "COVERAGE"
+      ]
+    },
+    {
+      "classification": "attributed_report",
+      "game": "SEA@DEN 2026-10-15",
+      "subject": "Jaxon Smith-Njigba ankle",
+      "publishedAtEt": "2026-10-13 18:35 EDT",
+      "details": "Seahawks Tuesday estimated participation JSN limited again, Leonard Williams limited; Beau Stephens improved to full. Source is PFT citing team report, corroborated Seattle local. No final Wednesday status yet.",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaxson-smith-njigba-leonard-williams-listed-as-limited-practice-participants-again-on-tuesday",
+      "causalTags": [
+        "INJURY",
+        "ROLE_CHANGE"
+      ]
+    },
+    {
+      "classification": "confirmed_fact",
+      "game": "SEA@DEN 2026-10-15",
+      "subject": "Irv Charles",
+      "publishedAtEt": "2026-10-13 13:18 EDT",
+      "details": "Seahawks activated Irv Charles off IR; team's article describes primarily special-teams role, not evidence of a meaningful WR receiving-target redistribution.",
+      "url": "https://www.seahawks.com/news/seahawks-activate-wr-irv-charles-from-injured-reserve",
+      "causalTags": [
+        "ROLE_CHANGE"
+      ]
+    },
+    {
+      "classification": "confirmed_fact",
+      "game": "ARI@LAR 2026-10-18",
+      "subject": "Alaric Jackson LT suspension",
+      "publishedAtEt": "2026-10-13 19:02 EDT",
+      "details": "NFL officially announced starting Rams LT Alaric Jackson suspended two games following postgame incident. Barring appeal, he misses Weeks 6 and 7. Backup LT rotation unconfirmed; potential Stafford protection/pressure, pass-game efficiency and scoring effect is unmodeled, not an automatic Under.",
+      "url": "https://amp.nfl.com/news/rams-lt-alaric-jackson-suspended-two-games-for-striking-bradley-chubb-following-monday-night-s-game",
+      "causalTags": [
+        "OL_INJURY",
+        "ROLE_CHANGE",
+        "GAME_SCRIPT"
+      ]
+    },
+    {
+      "classification": "attributed_report",
+      "game": "NE@NYJ 2026-10-18",
+      "subject": "TreVeyon Henderson",
+      "details": "Reuters reports high ankle sprain expected to sideline Henderson multiple weeks, increasing potential Stevenson/Kiner opportunity but no verified role shares or current odds. Already mentioned in earlier Tuesday archive; not new to this run.",
+      "url": "https://www.reuters.com/sports/report-pats-rb-treveyon-henderson-out-multiple-weeks--flm-2026-10-13/",
+      "causalTags": [
+        "INJURY",
+        "RUSH_SHARE"
+      ]
+    }
+  ],
+  "marketEvidence": [
+    {
+      "game": "SEA@DEN 2026-10-15",
+      "player": "Jaxon Smith-Njigba",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "DraftKings",
+      "line": "80+ alternate",
+      "odds": -174,
+      "source": "https://dknetwork.draftkings.com/draftkings-sportsbook-player-props/",
+      "sourceObservedAtEt": null,
+      "sourcePageUpdatedAtEt": null,
+      "marketTruthGrade": "C",
+      "reason": "Public board lists a precise offered line/odds but no verified sportsbook quote refresh timestamp; not necessarily executable."
+    },
+    {
+      "game": "SEA@DEN 2026-10-15",
+      "player": "Jaxon Smith-Njigba",
+      "propType": "RECEIVING_YARDS",
+      "side": "OVER",
+      "sportsbook": "DraftKings via legionreport.com",
+      "line": 91.5,
+      "odds": -110,
+      "oppositeOdds": -114,
+      "source": "https://legionreport.com/seahawks-vs-broncos/",
+      "sourceObservedAtEt": null,
+      "sourcePageUpdatedAtEt": null,
+      "marketTruthGrade": "C",
+      "reason": "Third-party comparison page has no attributable exact quote observation time. Not usable for de-vig at this run or live recommendation."
+    },
+    {
+      "game": "SEA@DEN 2026-10-15",
+      "player": "Jaxon Smith-Njigba",
+      "propType": "RECEIVING_YARDS",
+      "side": "AT_LEAST",
+      "sportsbook": "Kalshi (prediction contract, not sportsbook prop)",
+      "line": "80+",
+      "yesCents": 62,
+      "noCents": 42,
+      "source": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26oct15seaden",
+      "sourceObservedAtEt": null,
+      "marketTruthGrade": "C",
+      "reason": "Contract payout/rules/fees differ from sportsbook; not a sportsbook executable substitute. Observed price time not individually authenticated."
+    }
+  ],
+  "weather": {
+    "game": "SEA@DEN 2026-10-15",
+    "classification": "model_projection",
+    "tempFAtKickoff": 52,
+    "windMph": 10,
+    "rainChancePct": 33,
+    "source": "https://www.fantasyinfocentral.com/nfl/weather/broncos",
+    "note": "Third-party forecast, not final. Wind magnitude roughly 10mph; insufficient by itself for quantified prop adjustment. Source differs on wind direction from other vendor, so no crosswind conclusion."
+  },
+  "evaluations": [
+    {
+      "game": "SEA@DEN",
+      "player": "Jaxon Smith-Njigba",
+      "propTypes": [
+        "RECEPTIONS",
+        "RECEIVING_YARDS"
+      ],
+      "decisionStatus": "WATCH",
+      "signalTags": [
+        "INJURY",
+        "DEFENSIVE_INJURY",
+        "TARGET_SHARE",
+        "PROJECTION_DISAGREEMENT"
+      ],
+      "thesisId": "SEA_JSN_ANKLE_DEN_SECONDARY",
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "priceState": "NO_CURRENT_B_GRADE_QUOTE",
+      "reason": "Broncos CB/S injuries remain estimates and JSN ankle participation limited; unverified alt/main quote timing and no calibrated threshold-specific probability or conservative EV. Recheck Wednesday official injury designations and live named-book prices.",
+      "fairProbability": null,
+      "expectedRoiPct": null,
+      "playToLine": null,
+      "maxAcceptableOdds": null
+    },
+    {
+      "game": "SEA@DEN",
+      "player": "Emanuel Wilson",
+      "propTypes": [
+        "RUSH_ATTEMPTS",
+        "RUSH_YARDS"
+      ],
+      "decisionStatus": "WATCH",
+      "signalTags": [
+        "INJURY",
+        "RUSH_SHARE",
+        "ROLE_CHANGE"
+      ],
+      "thesisId": "SEA_BACKFIELD_CHARBONNET_PUP",
+      "reason": "Charbonnet still on PUP with coach expecting no return; Wilson/Holani carry splits and current priced contracts not independently verified.",
+      "fairProbability": null,
+      "expectedRoiPct": null,
+      "playToLine": null,
+      "maxAcceptableOdds": null
+    },
+    {
+      "game": "ARI@LAR",
+      "player": "Matthew Stafford",
+      "propTypes": [
+        "PASS_YARDS",
+        "PASS_ATTEMPTS"
+      ],
+      "decisionStatus": "WATCH",
+      "signalTags": [
+        "OL_INJURY",
+        "GAME_SCRIPT",
+        "MARKET_MOVE"
+      ],
+      "thesisId": "LAR_LT_ALARIC_SUSPENSION",
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "reason": "Starting LT suspension newly confirmed; net pass-volume vs efficiency, sack/pressure effects ambiguous. No fresh quoted exact player prop market or calibrated distribution. Do not mechanically switch to Under.",
+      "fairProbability": null,
+      "expectedRoiPct": null,
+      "playToLine": null,
+      "maxAcceptableOdds": null
+    },
+    {
+      "game": "ARI@LAR",
+      "player": "Puka Nacua",
+      "propTypes": [
+        "RECEPTIONS",
+        "RECEIVING_YARDS"
+      ],
+      "decisionStatus": "WATCH",
+      "signalTags": [
+        "OL_INJURY",
+        "TARGET_SHARE",
+        "GAME_SCRIPT"
+      ],
+      "thesisId": "LAR_LT_ALARIC_SUSPENSION",
+      "correlationTags": [
+        "SAME_THESIS"
+      ],
+      "reason": "More quick-game targets could offset lower aDOT/efficiency; no verified pre/post role/price or edge.",
+      "fairProbability": null,
+      "expectedRoiPct": null,
+      "playToLine": null,
+      "maxAcceptableOdds": null
+    },
+    {
+      "game": "NE@NYJ",
+      "player": "Rhamondre Stevenson",
+      "propTypes": [
+        "RUSH_ATTEMPTS",
+        "RECEPTIONS"
+      ],
+      "decisionStatus": "WATCH",
+      "signalTags": [
+        "INJURY",
+        "RUSH_SHARE",
+        "ROLE_CHANGE",
+        "OL_INJURY"
+      ],
+      "thesisId": "NE_HENDERSON_ANKLE",
+      "reason": "Previously known Henderson injury creates role watch; no verified split/projection/price and NE OL injury counterweight.",
+      "fairProbability": null,
+      "expectedRoiPct": null,
+      "playToLine": null,
+      "maxAcceptableOdds": null
+    }
+  ],
+  "dataIntegrity": {
+    "priorCsvAlignmentIssueStillOpen": true,
+    "ledgersUnchanged": true,
+    "betHistoryConfirmedEntries": 5,
+    "materialNewUserTicketsFound": false,
+    "brierCalculated": false,
+    "clvCalculated": false
+  },
+  "decision": {
+    "actionableBets": 0,
+    "actualBetsPlaced": 0,
+    "notify": false,
+    "reason": "One significant OL suspension and unchanged Seattle/Denver injury estimates merit future monitoring but no confirmed upcoming ticket is impacted and no A/B market quote plus conservative positive EV validates an immediate action; no alert."
+  }
+}
