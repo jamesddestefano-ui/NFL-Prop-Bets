@@ -92,3 +92,12 @@ The design deliverable is completed only after verified publication. Prospective
 ## Ibe ChatGPT workflow review — 2026-10-14
 
 - [Prompt discipline versus demonstrated prediction](2026-10-14-ibe-chatgpt-ev-review.md): full timestamped YouTube transcript and public linked prompt-document review, with explicit access limits; prompts and short performance claims do not establish a calibrated NFL model or operating scanner. Checked hypothetical -110 uncertainty example and proposed paired frozen-input workflow test extending task004/006 and the Sunday shadow-pilot plan. No pilot, live quote, wager, profitability result or controlling-rule change.
+
+
+## Thursday source-byte and prospective-capture education — 2026-10-15
+
+- [005: Exact-byte CSV remediation proposal](../dot_reports/PRIME-DOT-20261014-005/2026-10-15-source-byte-csv-remediation-proposal.md): all three source and three supporting archive blobs verified; 14 malformed records across 48 audited records, 12 synthetic tests and reversible conditional mappings. Research proposal COMPLETE; all production repairs require separate approval and original-evidence review. Public artifacts omit raw tickets, monetary fields and full candidate CSVs.
+- [006: Operational capture specification](../dot_reports/PRIME-DOT-20261014-006/2026-10-15-operational-capture-specification.md): substantive Unabated article/provider-documentation review, line-versus-board freshness, self-inclusion benchmark algebra and proposed half-point-only Sunday cohort. 38 independently reproduced synthetic assertions; four bounded source-access observations, zero admitted empirical quotes. Specification delivered; actual capture feasibility INCONCLUSIVE. No collector deployed or NFL performance established.
+- Official TNF availability was rechecked, but actual routes/carry shares, executable quotes and priced probabilities were unavailable in this bounded pass. HOU–JAX's 09:30 EDT Sunday kickoff excludes it from a 10:00 pregame cohort without a separately preserved earlier snapshot.
+
+Independent review verified the report packages within their stated scope. Prior forecasts and failed hypotheses remain preserved; no methodology, ledger, schedule or wager changed. Task 007 remains pending authorization reconciliation and task 008's actual Sunday research remains future work.

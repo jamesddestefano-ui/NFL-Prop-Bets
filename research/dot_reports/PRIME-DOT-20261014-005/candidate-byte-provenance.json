@@ -1,0 +1,29 @@
+[
+  {
+    "path": "decision_ledger.csv",
+    "source_git_sha": "82f1a4297ee7e7c64dc1f2d37f78ec19729ef416",
+    "candidate_sha256": "b9c104b3c8a487650298f4f7dd5bea6aa666d66f709d9d4bdac27e5a2a185aa3",
+    "candidate_git_sha": "49ed1a3e7978a154af7d0254ce3b5b8b80053803",
+    "changed_records": 6,
+    "unaffected_records_byte_identical": true,
+    "reversible_from_source_archive": true
+  },
+  {
+    "path": "bet_history.csv",
+    "source_git_sha": "9035f654eff5fb3a0be188542593c62c3ba00b05",
+    "candidate_sha256": "b995562e183b242cc365d22c99522805b599526ce8e3427dffcf6fbcdc8b261c",
+    "candidate_git_sha": "3ede9db8843103a2fdad3b9697004618a42aa712",
+    "changed_records": 5,
+    "unaffected_records_byte_identical": true,
+    "reversible_from_source_archive": true
+  },
+  {
+    "path": "pass_ledger.csv",
+    "source_git_sha": "e1644b9ee70ba6b39aa1579eae1e03b22151265c",
+    "candidate_sha256": "b3b45e46e900045443be91b4c2310d8533bbd073ea72471b017fddfa2768ce50",
+    "candidate_git_sha": "8fccb40e9b0a7bc099d223f55a22cc9666b5643a",
+    "changed_records": 3,
+    "unaffected_records_byte_identical": true,
+    "reversible_from_source_archive": true
+  }
+]

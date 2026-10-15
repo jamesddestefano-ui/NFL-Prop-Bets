@@ -1,0 +1,14 @@
+{
+  "retrieved_window_utc": "2026-10-15T12:18Z/2026-10-15T12:23Z",
+  "medium": "web text retrieval",
+  "notes": "Source-specific exact clock instants not separately recorded; window retained honestly. Public read-only observations only, no API credentials used.",
+  "attempts": [
+    {"url":"https://sportsbook.draftkings.com/leagues/football/nfl","result":"PARTIAL","missing":["usable player-prop contract","source update time","jurisdiction/rules verification"],"accepted_quote_count":0},
+    {"url":"https://www.vegasinsider.com/nfl/odds/player-props/","result":"PARTIAL","missing":["explicit source-update timestamp","complete contract/rule/jurisdiction verification"],"accepted_quote_count":0},
+    {"url":"https://the-odds-api.com/liveapi/guides/v4/index.html","result":"DOCUMENTATION_ONLY","missing":["authorized API connection","current quote response"],"accepted_quote_count":0},
+    {"url":"https://docs.unabated.com/guides/odds","result":"DOCUMENTATION_ONLY","missing":["authorized API connection","current quote response"],"accepted_quote_count":0}
+  ],
+  "original_x_access": "Article Edge Tool Twitter link retrieval returned internal error; bounded original-X search found no verified current original tip and matched book timestamp. No content inferred.",
+  "accepted_empirical_quotes":0,
+  "confirmed_fills":0
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "task006-review-proposal-1",
+  "status": "PROPOSED_NOT_DEPLOYED",
+  "task_id": "PRIME-DOT-20261014-006",
+  "pilot_date": "2026-10-18",
+  "timezone": "America/New_York",
+  "scope": "NFL player props only",
+  "candidate_limit": 10,
+  "candidate_identity": "game/player/stat/threshold/period/rule-equivalence-class; both sides and cross-book offers retained separately",
+  "stat_order": [
+    "RECEPTIONS",
+    "RECEIVING_YARDS",
+    "RUSH_YARDS"
+  ],
+  "selection": "First ten enumerated eligible economic contracts ordered by official kickoff/game_id/player_id/stat_order/threshold before model-edge review; retain all rejected attempts. Observed frame only.",
+  "books": null,
+  "jurisdictions": null,
+  "books_and_jurisdiction_missing_reason": "No complete eligible public quote source independently verified in bounded access test; freeze supported list before pilot capture.",
+  "intended_checkpoints_utc": [
+    "2026-10-18T14:00:00Z",
+    "2026-10-18T15:30:00Z",
+    "2026-10-18T16:30:00Z"
+  ],
+  "scheduler_created": false,
+  "strict_freshness_seconds": 120,
+  "sensitivity_freshness_seconds": [
+    30,
+    60,
+    300
+  ],
+  "freshness_basis": "Specific market/line source modification time, never newest board constituent timestamp",
+  "pregame_guard": "decision_at strictly before independently verified kickoff; HOU-JAX09:30EDT excluded from10AM cohort",
+  "closing_policy": "Last preserved active exact-contract observation before actual kickoff; report lag; if absent CLV unavailable.12:30checkpoint is not automatically close.",
+  "outcome_sources": "Official NFL/team gamebook/statistics plus preserved named-book jurisdiction settlement terms; revision history retained",
+  "actual_fill_default": "NO_CONFIRMED_FILL",
+  "empirical_quote_records": [],
+  "evaluated_model_probabilities": [],
+  "acceptance": "All attempts accounted for; zero identity/time/settlement violations admitted; retain failures and missingness; up-to-ten sample establishes no predictive or profit edge.",
+  "future_deliverables": "PRIME-DOT-20261014-008 pregame before10AM and later postgame critique remain pending actual execution",
+  "threshold_scope": "Half-integer thresholds of integer-valued statistics only; integer thresholds excluded from this initial cohort",
+  "as_of_gate": "All feature/model/training/calibration cutoffs and durable prediction recorded_at <= decision_at; preserve original forecasts, later revisions append only"
+}
