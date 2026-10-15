@@ -87,3 +87,8 @@ The three packages passed independent research/math review; 100 total determinis
 - Current official Seattle/Denver participation reports are estimates, not multiple actual practice observations. No current executable quote or player probability established.
 
 The design deliverable is completed only after verified publication. Prospective capture/holdout testing remains unrun; PRIME keeps review authority. Task003 original-X execution evidence remains unresolved. Prior forecasts, failed hypotheses, governing files and betting records remain unchanged.
+
+
+## Ibe ChatGPT workflow review — 2026-10-14
+
+- [Prompt discipline versus demonstrated prediction](2026-10-14-ibe-chatgpt-ev-review.md): full timestamped YouTube transcript and public linked prompt-document review, with explicit access limits; prompts and short performance claims do not establish a calibrated NFL model or operating scanner. Checked hypothetical -110 uncertainty example and proposed paired frozen-input workflow test extending task004/006 and the Sunday shadow-pilot plan. No pilot, live quote, wager, profitability result or controlling-rule change.
