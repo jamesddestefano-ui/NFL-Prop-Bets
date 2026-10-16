@@ -1,0 +1,13 @@
+{
+  "checks": "8 assertions passed",
+  "poisson_over4_5": 0.5237412463743913,
+  "push5": 0.17474768364388282,
+  "over5": 0.3489935627305085,
+  "under5": 0.47625875362560866,
+  "fair_over5_decimal": 2.364663433615748,
+  "over4_5_roi_minus110": -0.0001303478307074224,
+  "two_sided_80pct_n_unrounded": 2847.484126713468,
+  "one_sided_80pct_n_unrounded": 2242.297516904423,
+  "two_sided_power_n1450_normal_upper_tail": 0.5147783984050844,
+  "binomial8_p06_over4_5": 0.5940864
+}

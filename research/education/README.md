@@ -107,3 +107,8 @@ Independent review verified the report packages within their stated scope. Prior
 
 - [Coherent probabilities across alternate reception thresholds](2026-10-16-threshold-coherence/README.md): original statistical-paper/official-documentation reading, a deliberately impossible threshold-specific blend, and a review-only nested-event diagnostic extending the earlier ensemble work. A common-weight full-distribution mixture preserves ordering; monotone repair can change probability mass and calibration. 35 executed synthetic assertions and independent arithmetic review; hypothetical −110 central/adverse ROI +16.45%/−6.45%. No actual PRIME bug, empirical NFL gain or usable price established.
 - Official 49ers transcript/depth-chart cross-read distinguishes opportunity comments from measured routes. No current route allocation or player probability inferred. Original X retrieval failed; task003 remains unresolved. Queue007 approval and008 Sunday execution remain pending; no status, ledger, methodology or schedule edits.
+
+
+## V2 learning supplement — 2026-10-16
+
+- [Power, distribution sensitivity and a bounded Sunday test](2026-10-16-v2-learning-supplement/README.md): public original NIST education, same-mean reception counterexample, confidence precision versus power, promotional-payout counterexamples, and review-only common-input Sunday comparison. Eight executed synthetic assertions; no empirical NFL gain, live quote, wager or new policy. Current v2 controls already preserve relevant qualifications. Faster learning emphasizes complete capture and informative paper tests, not increased stakes or a forced sample target.
