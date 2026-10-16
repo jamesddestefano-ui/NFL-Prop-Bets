@@ -122,3 +122,8 @@ Independent review verified the report packages within their stated scope. Prior
 ## Original X provenance supplement — 2026-10-16
 
 - [Historical xTD and next-game probability](2026-10-16-original-x-xtd-provenance.md): original public KoalatyStats post/chart and exact timestamp verified; attributed Weeks 3–5 model outputs illustrate recency hidden by an aggregate deficit. Official Browns post/article crosscheck demonstrates practice-eligibility scope. Public ffopportunity documentation reviewed; model version and future probability remain unverified. Proposed chronological feature-ablation test only; no quote, account-performance score, empirical edge or task003 completion.
+
+
+## Observation-time boundary review — 2026-10-16
+
+- [Collector timestamp correction proposed for review](../dot_reports/PRIME-DOT-20261016-010/2026-10-16-observation-time-boundary-review.md): current collector labels observations with request-start time and lacks a completed-receipt kickoff check. Four synthetic predicate cases demonstrate the boundary failure; no actual post-kickoff sample is established. Original sample provenance is preserved; no production fix, queue status change, executable quote or empirical edge claimed.
