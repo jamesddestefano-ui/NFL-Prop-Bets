@@ -101,3 +101,9 @@ The design deliverable is completed only after verified publication. Prospective
 - Official TNF availability was rechecked, but actual routes/carry shares, executable quotes and priced probabilities were unavailable in this bounded pass. HOU–JAX's 09:30 EDT Sunday kickoff excludes it from a 10:00 pregame cohort without a separately preserved earlier snapshot.
 
 Independent review verified the report packages within their stated scope. Prior forecasts and failed hypotheses remain preserved; no methodology, ledger, schedule or wager changed. Task 007 remains pending authorization reconciliation and task 008's actual Sunday research remains future work.
+
+
+## Friday threshold-coherence education — 2026-10-16
+
+- [Coherent probabilities across alternate reception thresholds](2026-10-16-threshold-coherence/README.md): original statistical-paper/official-documentation reading, a deliberately impossible threshold-specific blend, and a review-only nested-event diagnostic extending the earlier ensemble work. A common-weight full-distribution mixture preserves ordering; monotone repair can change probability mass and calibration. 35 executed synthetic assertions and independent arithmetic review; hypothetical −110 central/adverse ROI +16.45%/−6.45%. No actual PRIME bug, empirical NFL gain or usable price established.
+- Official 49ers transcript/depth-chart cross-read distinguishes opportunity comments from measured routes. No current route allocation or player probability inferred. Original X retrieval failed; task003 remains unresolved. Queue007 approval and008 Sunday execution remain pending; no status, ledger, methodology or schedule edits.
