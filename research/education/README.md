@@ -117,3 +117,8 @@ Independent review verified the report packages within their stated scope. Prior
 ## Distribution-versus-price addendum — 2026-10-16
 
 - [A more likely Under can still lose money at its price](2026-10-16-distribution-price-addendum/README.md): explicit target-count and lognormal reconstructions, an Under with 51.2% probability and negative ROI at -110, and a counterexample to blanket volatility-direction rules. Six executed synthetic assertions; reconstructed assumptions are not verified simulation provenance or an empirical NFL fit. All current decision gates remain unchanged.
+
+
+## Original X provenance supplement — 2026-10-16
+
+- [Historical xTD and next-game probability](2026-10-16-original-x-xtd-provenance.md): original public KoalatyStats post/chart and exact timestamp verified; attributed Weeks 3–5 model outputs illustrate recency hidden by an aggregate deficit. Official Browns post/article crosscheck demonstrates practice-eligibility scope. Public ffopportunity documentation reviewed; model version and future probability remain unverified. Proposed chronological feature-ablation test only; no quote, account-performance score, empirical edge or task003 completion.
