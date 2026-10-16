@@ -1,5 +1,16 @@
 # AGENTS.md
 
+## PRIME headquarters and durable coordination — October 16, 2026
+
+- **ChatGPT PRIME conversation is the user-facing command center** for requests, research discussion, model reviews, and user-approved decisions. It is not a machine-readable shared chat log; never claim the Dot or Claude can read its private conversation automatically.
+- **GitHub main is the durable system of record** for source-verified NFL player-prop research, odds captures, dated model forecasts, pass decisions, actual user-confirmed wagers, settlement, methodology, and agent handoffs. Keep NFL player-prop data isolated from fantasy/DFS projects.
+- **NFL Research Dot** reads assigned tasks in `research/dot_task_queue.jsonl`, researches NFL news/X/YouTube where its own access permits, and publishes nonduplicate timestamped reports to `research/dot_reports/` with source URLs, publication times, observation times, and uncertainty. Verify commits/readback. Do not imply the Dot directly messages this chat.
+- **Claude** is an independent external reviewer. Only user-provided or explicitly authorized Claude output is eligible for archiving; preserve its as-of time, original wording or source, model assumptions, and provenance in `research/claude_reviews/` or a relevant dated pilot folder. Do not invent Claude forecasts or claim live Claude access.
+- **PRIME learning** continues on its existing scheduled research cycles. Archive meaningful, novel methodological findings, reproducible tests and reviews in `research/education/` or `research/reviews/`; avoid repetitive summaries. Preserve failures, missingness and contradictory evidence.
+- **Odds API collector** stores sanitized, timestamped, source-specific observations under `data/odds_api/` or immutable research storage. API secrets never belong in GitHub files, chat reports, logs, or shared documents. API-observed prices are not automatically executable New Jersey prices.
+- **Change control:** Do not silently change authoritative bet history, settled outcomes, model gates, source truth, or user instructions. Write a dated proposal/review first, get required approval, then commit and verify readback. A user-confirmed no-bet remains $0 staked and $0 realized P/L.
+- **Communication:** A chat response may summarize verified GitHub findings. Research written in GitHub becomes available to future PRIME and Dot runs, but is not automatically delivered into this chat between scheduled runs. Alert the user only for material developments, genuine actionable verified EV, or critical data-integrity issues.
+
 ## Scope
 
 This repository is ONLY for NFL player-prop research, recommendations, line tracking, results, and market-learning analysis. Do not import fantasy-league roster/ownership/FAAB truth from Sparta, Mongo, or any other fantasy repository.
