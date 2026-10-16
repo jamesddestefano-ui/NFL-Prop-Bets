@@ -207,28 +207,24 @@ Create a reasonable probability range using:
 
 Use the adverse end of that reasonable range as p_conservative for the bet side.
 
-## 9. Initial bet thresholds
+## 9. Initial bet thresholds — updated October 16, 2026 (v2.0)
 
-Until PRIME accumulates enough data to learn better thresholds from its own ledger, use both probability edge and expected ROI.
+The user-directed `config/prime_ev_playbook_v2.md` is controlling for these provisional research gates. Do not retain a redundant independent 5% ROI threshold: for a binary no-push contract, central expected ROI = (p_fair - p_break_even) * decimal_odds.
 
-### Standard two-way yardage / attempts / receptions
-A normal BET should generally require:
-- Market Truth Confidence A or B
-- central probability edge approximately 4 percentage points or greater
-- positive conservative EV
-- expected ROI approximately 5% or greater
-- no unresolved material role/injury dependency
+### Standard props with American odds -150 through +150
+A formal BET normally requires:
+- Market Truth Confidence A or B with exact verified sportsbook, line, price, and timestamp.
+- Central fair-probability edge **at least 4 percentage points over break-even** at that exact price.
+- Conservative EV **greater than or equal to zero**, with meaningful uncertainty stress tests.
+- No unresolved material role/injury/settlement dependency; correlation and bankroll limits respected.
 
-### High-variance markets such as anytime TD
-Require stronger pricing discipline:
-- multiple independent support paths
-- central probability edge generally at least about 5 percentage points
-- expected ROI generally at least about 8%
-- positive conservative EV
+### Longer odds and high-variance markets, including touchdown props
+Require central expected ROI **at least 15%**, conservative EV **at least zero**, multiple independent support paths, and rigorous contract/price verification.
 
-These are starting gates, not eternal constants. Re-estimate them from actual PRIME CLV, calibration, and outcomes by prop type.
+### Boosts and bonus bets
+Estimate positive EV against a credible same-contract de-vigged fair probability using the actual promotion payout and eligibility rules, including nonreturned bonus stakes, boosts, limits and opportunity costs. Do not treat a promotional label as automatic value.
 
-A wager can be PASS even when its central estimated EV is positive if model uncertainty is too large.
+These are starting decision gates, not proven NFL predictive edges. Recalibrate only on genuinely prospective, correctly captured data. Retain PASS/AVOID when the market is stale or a probability is unvalidated. For push-refunded contracts use settlement-aware unconditional probabilities rather than blindly applying binary EV.
 
 ## 10. Line shopping
 
