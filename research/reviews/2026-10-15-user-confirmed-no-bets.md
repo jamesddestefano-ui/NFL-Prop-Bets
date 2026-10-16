@@ -1,0 +1,5 @@
+# User-confirmed no wagers — Thursday October 15, 2026
+
+User confirmed on October 16 that they **passed** on all Thursday October 15 NFL player-prop wagers discussed for Seattle at Denver. This is user confirmation of **no bets placed**; actual stake $0, realized P/L $0. Do not create tickets, count hypothetical wins as user profit, or count passed bets as monetary losses.
+
+Research candidates discussed included JSN receiving yards Over, J.K. Dobbins rushing yards Under, A.J. Barner receiving yards Over, RJ Harvey receptions and receiving yards Over, and Emanuel Wilson rushing yards Over. Prior conversation contains screenshot quotes and hypothetical postgame outcomes; those are research observations only, not accepted fills or proof of positive EV. Review process from decision-time evidence and independent pregame probabilities, not hindsight. Retain PASS and missed-opportunity analysis separately from authoritative betting history. This note is a user-action reconciliation, not a new sportsbook price, a model recalibration, or a settlement audit.
