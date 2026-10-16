@@ -4,6 +4,10 @@
 
 This repository is ONLY for NFL player-prop research, recommendations, line tracking, results, and market-learning analysis. Do not import fantasy-league roster/ownership/FAAB truth from Sparta, Mongo, or any other fantasy repository.
 
+## October 16, 2026 — user-directed PRIME v2.0 update
+
+Read `config/prime_ev_playbook_v2.md` first for the revised decision gates, market-first source priority, settlement-aware probability math, quarter-Kelly risk caps, and October 18 screenshot-based prospective comparison. Its v2 gate replaces the prior redundant 5% ROI test; all original market-truth, provenance, exposure and no-fabrication protections remain in force. Never imply Claude results or a separate Dot schedule have been received or changed without verification.
+
 ## Controlling learning modules
 
 All agents must follow:
