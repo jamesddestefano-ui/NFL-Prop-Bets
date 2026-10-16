@@ -112,3 +112,8 @@ Independent review verified the report packages within their stated scope. Prior
 ## V2 learning supplement — 2026-10-16
 
 - [Power, distribution sensitivity and a bounded Sunday test](2026-10-16-v2-learning-supplement/README.md): public original NIST education, same-mean reception counterexample, confidence precision versus power, promotional-payout counterexamples, and review-only common-input Sunday comparison. Eight executed synthetic assertions; no empirical NFL gain, live quote, wager or new policy. Current v2 controls already preserve relevant qualifications. Faster learning emphasizes complete capture and informative paper tests, not increased stakes or a forced sample target.
+
+
+## Distribution-versus-price addendum — 2026-10-16
+
+- [A more likely Under can still lose money at its price](2026-10-16-distribution-price-addendum/README.md): explicit target-count and lognormal reconstructions, an Under with 51.2% probability and negative ROI at -110, and a counterexample to blanket volatility-direction rules. Six executed synthetic assertions; reconstructed assumptions are not verified simulation provenance or an empirical NFL fit. All current decision gates remain unchanged.

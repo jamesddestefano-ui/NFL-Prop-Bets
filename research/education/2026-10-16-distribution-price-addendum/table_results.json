@@ -1,0 +1,65 @@
+{
+  "status": "6 assertions passed",
+  "assumptions": "Synthetic distributions; not historical NFL results or reproduction of claimed simulations.",
+  "receptions": [
+    {
+      "model": "locked",
+      "target_variance": 0.25,
+      "reception_sd": 1.352922762023021,
+      "over": 0.5970519937515522,
+      "under": 0.40294800624844784,
+      "over_roi": 0.13982653352569052,
+      "under_roi": -0.23073562443478135
+    },
+    {
+      "model": "poisson",
+      "target_variance": 7.5,
+      "reception_sd": 2.1908902300206643,
+      "over": 0.5237412463743916,
+      "under": 0.47625875362560843,
+      "over_roi": -0.0001303478307069783,
+      "under_roi": -0.09077874307838385
+    },
+    {
+      "model": "negative_binomial_2x",
+      "target_variance": 15,
+      "reception_sd": 2.805708466680029,
+      "over": 0.4879239177517361,
+      "under": 0.512076082248264,
+      "over_roi": -0.06850888429214008,
+      "under_roi": -0.022400206616950635
+    },
+    {
+      "model": "negative_binomial_3x",
+      "target_variance": 22.5,
+      "reception_sd": 3.3081717005016533,
+      "over": 0.4636963315497379,
+      "under": 0.5363036684502621,
+      "over_roi": -0.11476154885959122,
+      "under_roi": 0.023852457950500394
+    }
+  ],
+  "yardage": [
+    {
+      "cv": 0.5,
+      "median": 58.13776741499453,
+      "over55_5": 0.5391508160534173,
+      "over60_5": 0.46640375926993677,
+      "over100": 0.1254573599258344
+    },
+    {
+      "cv": 0.7,
+      "median": 53.25007483373763,
+      "over55_5": 0.47387446436126474,
+      "over60_5": 0.4199065315344125,
+      "over100": 0.15916013591070427
+    },
+    {
+      "cv": 0.9,
+      "median": 48.31411950606581,
+      "over55_5": 0.42857154919445106,
+      "over60_5": 0.385144007783383,
+      "over100": 0.17248376005200272
+    }
+  ]
+}
