@@ -17,12 +17,9 @@ ONE_SIDED_OVER_MARKETS = {("betrivers", "player_receptions")}
 def summarize_capture_failures(payload):
     base=screen_capture(payload)
     if base["status"]=="QUARANTINED":
-        unexpected_reviews=review_groups-sum(expected_one_sided.values())
-    return {**base, "diagnostic_version":2,
-            "status":"REVIEW_REQUIRED" if unexpected_reviews else ("EXPECTED_ONE_SIDED_OBSERVED" if expected_one_sided else "SCREENED_API_OBSERVATIONS"),
-            "unexpected_review_groups":unexpected_reviews,
-            "expected_one_sided_groups":sum(expected_one_sided.values()),
-            "expected_one_sided_by_book_market":[{"bookmaker":b,"market":m,"groups":n,"evidence":"BETRIVERS_NJ_UI_2026-10-17"} for (b,m),n in sorted(expected_one_sided.items())],
+        return {**base, "diagnostic_version":2,
+                "unexpected_review_groups":0, "expected_one_sided_groups":0,
+                "expected_one_sided_by_book_market":[],
                 "failure_counts":{"NOT_PREGAME":1},
                 "group_counts":{}, "observed_quote_rows":len(payload["quotes"])}
     event=payload["event"]
