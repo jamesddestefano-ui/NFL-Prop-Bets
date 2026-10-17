@@ -56,7 +56,7 @@ folder=pathlib.Path("data/odds_api");folder.mkdir(parents=True,exist_ok=True)
 out=folder/(odds_received.strftime("%Y-%m-%dT%H-%M-%S-%fZ")+"-sample.json")
 out.write_text(json.dumps({"captured_at":odds_received.isoformat(),"timestamp_semantics":"completed odds response receipt (UTC)","event_request_sent_utc":event_sent.isoformat(),"event_response_received_utc":event_received.isoformat(),"odds_request_sent_utc":odds_sent.isoformat(),"odds_response_received_utc":odds_received.isoformat(),"pregame_eligible":True,"event":{k:event.get(k) for k in ("id","commence_time","home_team","away_team")},"markets_requested":list(MARKET_KEYS),"quotes":rows,"quota":q,"limitations":["Regional US feed not verified equal to NJ executable quotes","No assumption of missing markets as zero","API-observed quote is not a placed wager"]},indent=2)+"\n")
 # Screening is read-only; no MotherDuck writes or executable-price promotion.
-from scripts.prime_odds_capture_screen import screen_capture
+from prime_odds_capture_screen import screen_capture
 capture=json.loads(out.read_text(encoding="utf-8"))
 screen=screen_capture(capture)
 screen_path=out.with_name(out.stem+"-screen.json")
