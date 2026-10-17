@@ -20,6 +20,29 @@ class Tests(unittest.TestCase):
         self.assertEqual(r["missing_opposite_by_bookmaker"],{"book":1})
         self.assertEqual(r["missing_side_direction_by_book_market"][0]["missing_side"],"Under")
         self.assertEqual(r["book_market_group_coverage"][0]["missing_opposite_groups"],1)
+    def test_betrivers_over_only_is_expected_but_preserved(self):
+        f=fixture()
+        f["quotes"]=[{**f["quotes"][0],"bookmaker":"betrivers"}]
+        r=summarize_capture_failures(f)
+        self.assertEqual(r["status"],"EXPECTED_ONE_SIDED_OBSERVED")
+        self.assertEqual(r["expected_one_sided_groups"],1)
+        self.assertEqual(r["review_groups"],1)
+        self.assertEqual(r["unexpected_review_groups"],0)
+        self.assertFalse(r["eligible_for_motherduck"])
+    def test_betrivers_under_only_still_requires_review(self):
+        f=fixture()
+        f["quotes"]=[{**f["quotes"][1],"bookmaker":"betrivers"}]
+        r=summarize_capture_failures(f)
+        self.assertEqual(r["status"],"REVIEW_REQUIRED")
+        self.assertEqual(r["expected_one_sided_groups"],0)
+    def test_other_book_over_only_requires_review(self):
+        f=fixture()
+        f["quotes"].pop()
+        self.assertEqual(summarize_capture_failures(f)["status"],"REVIEW_REQUIRED")
+    def test_betrivers_other_market_requires_review(self):
+        f=fixture()
+        f["quotes"]=[{**f["quotes"][0],"bookmaker":"betrivers","market":"player_rush_yds"}]
+        self.assertEqual(summarize_capture_failures(f)["status"],"REVIEW_REQUIRED")
     def test_duplicate_side(self):
         f=fixture();f["quotes"][1]["side"]="Over"
         self.assertEqual(summarize_capture_failures(f)["failure_counts"]["duplicate_side"],1)
