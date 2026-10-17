@@ -14,6 +14,7 @@ on:
       - 'scripts/prime_ingest_orchestrator.py'
       - 'scripts/prime_ingest_reconcile.py'
       - 'scripts/prime_ingest_health_report.py'
+      - 'scripts/prime_odds_capture_screen.py'
       - 'scripts/prime_commander_health_contract.py'
       - 'scripts/prime_commander_flight_adapter.py'
       - 'tests_support_prime.py'
@@ -25,6 +26,7 @@ on:
       - 'tests/test_prime_ingest_reconcile.py'
       - 'tests/test_prime_ingest_recovery.py'
       - 'tests/test_prime_ingest_health_report.py'
+      - 'tests/test_prime_odds_capture_screen.py'
       - 'tests/test_prime_commander_health_contract.py'
       - 'tests/test_prime_commander_flight_adapter.py'
       - 'tests/test_prime_ingest_stateful.py'
@@ -55,6 +57,7 @@ jobs:
           python -m unittest discover -s tests -p 'test_prime_ingest_reconcile.py' -v
           python -m unittest discover -s tests -p 'test_prime_ingest_recovery.py' -v
           python -m unittest discover -s tests -p 'test_prime_ingest_health_report.py' -v
+          python -m unittest discover -s tests -p 'test_prime_odds_capture_screen.py' -v
           python -m unittest discover -s tests -p 'test_prime_commander_health_contract.py' -v
           python -m unittest discover -s tests -p 'test_prime_commander_flight_adapter.py' -v
           python -m unittest discover -s tests -p 'test_prime_ingest_stateful.py' -v
