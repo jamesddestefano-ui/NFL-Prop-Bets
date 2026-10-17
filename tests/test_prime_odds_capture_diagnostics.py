@@ -16,6 +16,8 @@ class Tests(unittest.TestCase):
         f=fixture();f["quotes"].pop()
         r=summarize_capture_failures(f)
         self.assertEqual(r["failure_counts"]["missing_opposite_side"],1)
+        self.assertEqual(r["missing_opposite_by_market"],{"player_receptions":1})
+        self.assertEqual(r["missing_opposite_by_bookmaker"],{"book":1})
     def test_duplicate_side(self):
         f=fixture();f["quotes"][1]["side"]="Over"
         self.assertEqual(summarize_capture_failures(f)["failure_counts"]["duplicate_side"],1)
