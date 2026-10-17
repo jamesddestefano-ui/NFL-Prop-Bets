@@ -75,3 +75,5 @@ print("Screening invalid-row reasons",json.dumps(screen.get("invalid_row_reasons
 
 print('Missing opposite sides by market',json.dumps(screen.get('missing_opposite_by_market',{}),sort_keys=True))
 print('Missing opposite sides by bookmaker',json.dumps(screen.get('missing_opposite_by_bookmaker',{}),sort_keys=True))
+print('Missing side direction by book and market',json.dumps(screen.get('missing_side_direction_by_book_market',[]),sort_keys=True))
+print('Book market group coverage',json.dumps(screen.get('book_market_group_coverage',[]),sort_keys=True))
