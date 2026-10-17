@@ -3,7 +3,12 @@
 Never logs raw quotes, player names, odds, or secrets.
 """
 from collections import Counter, defaultdict
-from scripts.prime_odds_capture_screen import screen_capture, parse_utc, MARKETS
+try:
+    from scripts.prime_odds_capture_screen import screen_capture, parse_utc, MARKETS
+except ModuleNotFoundError as exc:
+    if exc.name != 'scripts':
+        raise
+    from prime_odds_capture_screen import screen_capture, parse_utc, MARKETS
 
 def summarize_capture_failures(payload):
     base=screen_capture(payload)
