@@ -1,28 +1,25 @@
-name: PRIME NFL Odds API Sample
+name: PRIME NFL Odds API Sample (Manual Diagnostic)
 on:
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 jobs:
   sample:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          persist-credentials: true
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Collect one NFL game prop sample
+      - name: Validate offline collector
+        run: |
+          python -m py_compile scripts/odds_api_collect.py
+          python -m unittest discover -s tests -p 'test_odds_capture_boundary.py' -v
+      - name: Collect one NFL game for isolated diagnostic
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python scripts/odds_api_collect.py
-      - name: Commit sanitized research snapshot
-        run: |
-          if [ -n "$(git status --porcelain -- data/odds_api)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/odds_api
-            git commit -m "Capture one NFL prop odds API sample"
-            git push
-          fi
+      - name: Confirm capture remains runner-local
+        run: echo "Raw API data is not committed, uploaded or published. Ephemeral runner data is discarded."
