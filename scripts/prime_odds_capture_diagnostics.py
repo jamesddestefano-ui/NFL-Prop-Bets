@@ -79,7 +79,12 @@ def summarize_capture_failures(payload):
     review_groups=sum(v for k,v in classified.items() if k!="CLEAN_PAIR")+sum(invalid.values())
     if review_groups!=base["review_groups"] or classified["CLEAN_PAIR"]!=base["clean_pairs"]:
         raise AssertionError("screening and diagnostics disagree")
-    return {**base, "diagnostic_version":1,
+    unexpected_reviews=review_groups-sum(expected_one_sided.values())
+    return {**base, "diagnostic_version":2,
+            "status":"REVIEW_REQUIRED" if unexpected_reviews else ("EXPECTED_ONE_SIDED_OBSERVED" if expected_one_sided else "SCREENED_API_OBSERVATIONS"),
+            "unexpected_review_groups":unexpected_reviews,
+            "expected_one_sided_groups":sum(expected_one_sided.values()),
+            "expected_one_sided_by_book_market":[{"bookmaker":b,"market":m,"groups":n,"evidence":"BETRIVERS_NJ_UI_2026-10-17"} for (b,m),n in sorted(expected_one_sided.items())],
             "observed_quote_rows":len(payload["quotes"]),
             "group_counts":dict(sorted(classified.items())),
             "invalid_row_reasons":dict(sorted(invalid.items())),
