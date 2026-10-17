@@ -40,3 +40,42 @@ def reconcile_synthetic(connection):
             findings.append({"batch_sha256":batch,"reasons":reasons})
     return {"status":"PASS" if not findings else "REVIEW_REQUIRED",
             "synthetic_batches_checked":len(rows),"findings":findings}
+
+def find_orphan_audit_events(connection):
+    """Read-only: audit events with a batch fingerprint absent from synthetic batches.
+
+    Failure events without a batch fingerprint are expected for pre-validation
+    failures and are reported separately, not labeled orphaned.
+    """
+    sql=f"""
+    SELECT a.audit_event_id, a.batch_sha256, a.status
+    FROM {AUDIT} a
+    WHERE a.source_type='SYNTHETIC_TEST_ONLY'
+      AND a.batch_sha256 IS NOT NULL
+      AND NOT EXISTS (
+        SELECT 1 FROM {BATCH} b
+        WHERE b.batch_sha256=a.batch_sha256
+          AND b.source_type='SYNTHETIC_TEST_ONLY'
+      )
+    ORDER BY a.audit_event_id
+    """
+    rows=connection.execute(sql).fetchall()
+    return {"status":"PASS" if not rows else "REVIEW_REQUIRED",
+            "orphan_audit_events":[{"audit_event_id":event_id,
+                                    "batch_sha256":batch,
+                                    "status":status}
+                                   for event_id,batch,status in rows]}
+
+def plan_recovery(reconciliation, orphan_audits):
+    """Plan only: never mutate or automatically replay quotes."""
+    tasks=[]
+    for item in reconciliation["findings"]:
+        tasks.append({"batch_sha256":item["batch_sha256"],
+                      "action":"MANUAL_RECONCILIATION",
+                      "reasons":item["reasons"]})
+    for item in orphan_audits["orphan_audit_events"]:
+        tasks.append({"batch_sha256":item["batch_sha256"],
+                      "audit_event_id":item["audit_event_id"],
+                      "action":"INVESTIGATE_ORPHAN_AUDIT"})
+    return {"status":"PASS" if not tasks else "REVIEW_REQUIRED",
+            "automatic_reimports":0,"tasks":tasks}
