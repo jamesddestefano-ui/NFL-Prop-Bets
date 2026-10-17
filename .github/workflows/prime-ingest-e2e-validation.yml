@@ -20,6 +20,7 @@ on:
       - 'tests/test_prime_ingest_audit_db.py'
       - 'tests/test_prime_ingest_orchestrator.py'
       - 'tests/test_prime_ingest_reconcile.py'
+      - 'tests/test_prime_ingest_recovery.py'
       - 'tests/test_prime_ingest_stateful.py'
       - 'tests/test_prime_ingest_boundary.py'
       - 'tests/test_prime_ingest_persist.py'
@@ -46,6 +47,7 @@ jobs:
           python -m unittest discover -s tests -p 'test_prime_ingest_audit_db.py' -v
           python -m unittest discover -s tests -p 'test_prime_ingest_orchestrator.py' -v
           python -m unittest discover -s tests -p 'test_prime_ingest_reconcile.py' -v
+          python -m unittest discover -s tests -p 'test_prime_ingest_recovery.py' -v
           python -m unittest discover -s tests -p 'test_prime_ingest_stateful.py' -v
       - name: Rehearse validation, idempotency and rollback
         run: python -m scripts.prime_ingest_e2e --output artifacts/prime_ingest_e2e_audit.json
