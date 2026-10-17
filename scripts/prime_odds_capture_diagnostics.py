@@ -52,13 +52,17 @@ def summarize_capture_failures(payload):
     classified=Counter()
     missing_by_market=Counter()
     missing_by_book=Counter()
+    missing_side_by_book_market=Counter()
+    groups_by_book_market=Counter()
     for key,sides in groups.items():
+        groups_by_book_market[(key[1],key[2])]+=1
         if len(sides)==2 and set(sides)=={"Over","Under"}:
             classified["CLEAN_PAIR"]+=1
         elif len(sides)==1:
             classified["MISSING_OPPOSITE_SIDE"]+=1
             missing_by_book[key[1]]+=1
             missing_by_market[key[2]]+=1
+            missing_side_by_book_market[(key[1],key[2], 'Under' if sides[0]=='Over' else 'Over')]+=1
         elif len(sides)==2:
             classified["DUPLICATE_SIDE"]+=1
         else:
@@ -76,4 +80,6 @@ def summarize_capture_failures(payload):
                               "invalid_rows":sum(invalid.values())},
             "missing_opposite_by_market":dict(sorted(missing_by_market.items())),
             "missing_opposite_by_bookmaker":dict(sorted(missing_by_book.items())),
+            "missing_side_direction_by_book_market":[{"bookmaker":b,"market":m,"missing_side":side,"count":n} for (b,m,side),n in sorted(missing_side_by_book_market.items())],
+            "book_market_group_coverage":[{"bookmaker":b,"market":m,"total_groups":total,"missing_opposite_groups":sum(n for (bb,mm,_),n in missing_side_by_book_market.items() if bb==b and mm==m),"clean_groups":sum(1 for key,sides in groups.items() if key[1]==b and key[2]==m and len(sides)==2 and set(sides)=={"Over","Under"})} for (b,m),total in sorted(groups_by_book_market.items())],
             "raw_quotes_exported":False}
