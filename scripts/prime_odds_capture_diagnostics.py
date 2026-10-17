@@ -10,10 +10,19 @@ except ModuleNotFoundError as exc:
         raise
     from prime_odds_capture_screen import screen_capture, parse_utc, MARKETS
 
+# Observed in BetRivers NJ UI on 2026-10-17; narrowly scoped and provisional.
+# This is not a blanket exemption for the sportsbook or other markets.
+ONE_SIDED_OVER_MARKETS = {("betrivers", "player_receptions")}
+
 def summarize_capture_failures(payload):
     base=screen_capture(payload)
     if base["status"]=="QUARANTINED":
-        return {**base, "diagnostic_version":1,
+        unexpected_reviews=review_groups-sum(expected_one_sided.values())
+    return {**base, "diagnostic_version":2,
+            "status":"REVIEW_REQUIRED" if unexpected_reviews else ("EXPECTED_ONE_SIDED_OBSERVED" if expected_one_sided else "SCREENED_API_OBSERVATIONS"),
+            "unexpected_review_groups":unexpected_reviews,
+            "expected_one_sided_groups":sum(expected_one_sided.values()),
+            "expected_one_sided_by_book_market":[{"bookmaker":b,"market":m,"groups":n,"evidence":"BETRIVERS_NJ_UI_2026-10-17"} for (b,m),n in sorted(expected_one_sided.items())],
                 "failure_counts":{"NOT_PREGAME":1},
                 "group_counts":{}, "observed_quote_rows":len(payload["quotes"])}
     event=payload["event"]
@@ -54,6 +63,7 @@ def summarize_capture_failures(payload):
     missing_by_book=Counter()
     missing_side_by_book_market=Counter()
     groups_by_book_market=Counter()
+    expected_one_sided=Counter()
     for key,sides in groups.items():
         groups_by_book_market[(key[1],key[2])]+=1
         if len(sides)==2 and set(sides)=={"Over","Under"}:
@@ -63,6 +73,8 @@ def summarize_capture_failures(payload):
             missing_by_book[key[1]]+=1
             missing_by_market[key[2]]+=1
             missing_side_by_book_market[(key[1],key[2], 'Under' if sides[0]=='Over' else 'Over')]+=1
+            if (key[1],key[2]) in ONE_SIDED_OVER_MARKETS and sides==["Over"]:
+                expected_one_sided[(key[1],key[2])]+=1
         elif len(sides)==2:
             classified["DUPLICATE_SIDE"]+=1
         else:
