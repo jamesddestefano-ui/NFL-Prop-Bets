@@ -9,9 +9,11 @@ on:
       - 'scripts/prime_ingest_e2e.py'
       - 'scripts/prime_ingest_runner.py'
       - 'scripts/prime_ingest_healthcheck.py'
+      - 'scripts/prime_ingest_retry.py'
       - 'tests_support_prime.py'
       - 'tests/test_prime_ingest_runner.py'
       - 'tests/test_prime_ingest_healthcheck.py'
+      - 'tests/test_prime_ingest_retry.py'
       - 'tests/test_prime_ingest_stateful.py'
       - 'tests/test_prime_ingest_boundary.py'
       - 'tests/test_prime_ingest_persist.py'
@@ -34,6 +36,7 @@ jobs:
           python -m unittest discover -s tests -p 'test_prime_ingest_persist.py' -v
           python -m unittest discover -s tests -p 'test_prime_ingest_runner.py' -v
           python -m unittest discover -s tests -p 'test_prime_ingest_healthcheck.py' -v
+          python -m unittest discover -s tests -p 'test_prime_ingest_retry.py' -v
           python -m unittest discover -s tests -p 'test_prime_ingest_stateful.py' -v
       - name: Rehearse validation, idempotency and rollback
         run: python -m scripts.prime_ingest_e2e --output artifacts/prime_ingest_e2e_audit.json
