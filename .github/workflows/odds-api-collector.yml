@@ -18,6 +18,7 @@ jobs:
           python -m py_compile scripts/odds_api_collect.py
           python -m unittest discover -s tests -p 'test_odds_capture_boundary.py' -v
           python -m unittest discover -s tests -p 'test_prime_odds_capture_screen.py' -v
+          python -m unittest discover -s tests -p 'test_prime_odds_capture_diagnostics.py' -v
       - name: Collect one NFL game for isolated diagnostic
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
