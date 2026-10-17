@@ -6,6 +6,8 @@ on:
       - 'scripts/odds_api_collect.py'
       - 'tests/test_odds_capture_boundary.py'
       - 'tests/test_odds_collector_screen_wiring.py'
+      - 'scripts/prime_odds_capture_diagnostics.py'
+      - 'tests/test_prime_odds_capture_diagnostics.py'
       - 'scripts/prime_ingest_boundary.py'
       - 'scripts/prime_ingest_persist.py'
       - 'tests/test_prime_ingest_boundary.py'
@@ -30,6 +32,7 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_odds_capture_boundary.py' -v
           python -m unittest discover -s tests -p 'test_odds_collector_screen_wiring.py' -v
+          python -m unittest discover -s tests -p 'test_prime_odds_capture_diagnostics.py' -v
       - name: Offline synthetic ingestion regression tests
         run: |
           python -m unittest discover -s tests -p 'test_prime_ingest_boundary.py' -v
