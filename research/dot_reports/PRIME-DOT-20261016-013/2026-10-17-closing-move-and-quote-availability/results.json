@@ -1,0 +1,732 @@
+{
+  "betting_recommendation": false,
+  "checkpoint_availability": {
+    "active": 6,
+    "attempts": 10,
+    "complete_case": {
+      "decimal": 0.75,
+      "exact": "3/4"
+    },
+    "inactive": 2,
+    "lower": {
+      "decimal": 0.6,
+      "exact": "3/5"
+    },
+    "unknown": 2,
+    "upper": {
+      "decimal": 0.8,
+      "exact": "4/5"
+    }
+  },
+  "continuity": {
+    "active_active": "not_identified",
+    "active_inactive_active": "refuted"
+  },
+  "controls_v2_context_only": {
+    "central_edge_min_probability_points": 4,
+    "conservative_ev_min": 0,
+    "separate_five_percent_roi_gate": false,
+    "standard_american_odds_max": 150,
+    "standard_american_odds_min": -150
+  },
+  "current_quote": false,
+  "duplicate_rows": {
+    "game_equal_weight_mean": {
+      "decimal": 0.0,
+      "exact": "0"
+    },
+    "game_level_standard_error": 0.009128709291752768,
+    "game_mean_variance": {
+      "decimal": 8.333333333333333e-05,
+      "exact": "1/12000"
+    },
+    "games": 4,
+    "naive_row_mean_variance": {
+      "decimal": 6.41025641025641e-06,
+      "exact": "1/156000"
+    },
+    "naive_row_standard_error": 0.0025318484177091665,
+    "row_mean": {
+      "decimal": 0.0,
+      "exact": "0"
+    },
+    "rows": 40
+  },
+  "guards": {
+    "outcomes": {
+      "all_books_unknown": {
+        "matched": false,
+        "reasons": [
+          "initial_book_missing_or_invalid",
+          "close_book_missing_or_invalid",
+          "initial_opposite_book_missing_or_invalid",
+          "close_opposite_book_missing_or_invalid"
+        ]
+      },
+      "all_sides_unknown": {
+        "matched": false,
+        "reasons": [
+          "initial_side_invalid",
+          "close_side_invalid",
+          "initial_opposite_side_invalid",
+          "close_opposite_side_invalid"
+        ]
+      },
+      "different_required_lag": {
+        "matched": false,
+        "reasons": [
+          "close_lag_outside_fixture_target"
+        ]
+      },
+      "forecast_at_decision": {
+        "matched": false,
+        "reasons": [
+          "forecast_not_locked_before_decision"
+        ]
+      },
+      "incorrect_recorded_lag": {
+        "matched": false,
+        "reasons": [
+          "close_lag_mismatch"
+        ]
+      },
+      "missing_threshold": {
+        "matched": false,
+        "reasons": [
+          "close_threshold_missing"
+        ]
+      },
+      "request_at_kickoff": {
+        "matched": false,
+        "reasons": [
+          "close_completion_not_before_kickoff",
+          "close_lag_mismatch",
+          "close_lag_outside_fixture_target"
+        ]
+      },
+      "same_side_instead_of_opposite": {
+        "matched": false,
+        "reasons": [
+          "initial_opposite_side_mismatch"
+        ]
+      },
+      "timezone_naive_kickoff": {
+        "matched": false,
+        "reasons": [
+          "kickoff_at_missing_or_not_timezone_aware"
+        ]
+      },
+      "valid": {
+        "matched": true,
+        "reasons": []
+      },
+      "wrong_book": {
+        "matched": false,
+        "reasons": [
+          "close_book_mismatch"
+        ]
+      },
+      "wrong_region": {
+        "matched": false,
+        "reasons": [
+          "close_region_mismatch"
+        ]
+      },
+      "wrong_settlement": {
+        "matched": false,
+        "reasons": [
+          "close_settlement_mismatch"
+        ]
+      },
+      "wrong_threshold": {
+        "matched": false,
+        "reasons": [
+          "close_threshold_mismatch"
+        ]
+      }
+    },
+    "valid_input": {
+      "close": {
+        "book": "SYNTHETIC_BOOK_A",
+        "event": "SYNTHETIC_GAME_1",
+        "market": "passing_yards",
+        "participant": "SYNTHETIC_PLAYER_1",
+        "period": "full_game",
+        "region": "SYNTHETIC_REGION_A",
+        "settlement": "include_overtime_void_if_dnp",
+        "side": "over",
+        "threshold": {
+          "decimal": 249.5,
+          "exact": "499/2"
+        }
+      },
+      "close_completed_at": "2026-01-01T12:59:00+00:00",
+      "close_opposite": {
+        "book": "SYNTHETIC_BOOK_A",
+        "event": "SYNTHETIC_GAME_1",
+        "market": "passing_yards",
+        "participant": "SYNTHETIC_PLAYER_1",
+        "period": "full_game",
+        "region": "SYNTHETIC_REGION_A",
+        "settlement": "include_overtime_void_if_dnp",
+        "side": "under",
+        "threshold": {
+          "decimal": 249.5,
+          "exact": "499/2"
+        }
+      },
+      "close_started_at": "2026-01-01T12:58:58+00:00",
+      "decision_at": "2026-01-01T12:00:10+00:00",
+      "forecast_recorded_at": "2026-01-01T12:00:00+00:00",
+      "initial": {
+        "book": "SYNTHETIC_BOOK_A",
+        "event": "SYNTHETIC_GAME_1",
+        "market": "passing_yards",
+        "participant": "SYNTHETIC_PLAYER_1",
+        "period": "full_game",
+        "region": "SYNTHETIC_REGION_A",
+        "settlement": "include_overtime_void_if_dnp",
+        "side": "over",
+        "threshold": {
+          "decimal": 249.5,
+          "exact": "499/2"
+        }
+      },
+      "initial_completed_at": "2026-01-01T12:00:05+00:00",
+      "initial_opposite": {
+        "book": "SYNTHETIC_BOOK_A",
+        "event": "SYNTHETIC_GAME_1",
+        "market": "passing_yards",
+        "participant": "SYNTHETIC_PLAYER_1",
+        "period": "full_game",
+        "region": "SYNTHETIC_REGION_A",
+        "settlement": "include_overtime_void_if_dnp",
+        "side": "under",
+        "threshold": {
+          "decimal": 249.5,
+          "exact": "499/2"
+        }
+      },
+      "initial_started_at": "2026-01-01T12:00:03+00:00",
+      "kickoff_at": "2026-01-01T13:00:00+00:00",
+      "recorded_close_lag_seconds": 60,
+      "required_close_lag_seconds": 60
+    }
+  },
+  "mechanical": {
+    "correlation": {
+      "decimal": 0.8,
+      "exact": "4/5"
+    },
+    "covariance_model_close_level": {
+      "decimal": 0.0,
+      "exact": "0"
+    },
+    "covariance_move_model": {
+      "decimal": 0.0004,
+      "exact": "1/2500"
+    },
+    "level_pair_counts": {
+      "49/100|49/100": 2,
+      "49/100|51/100": 2,
+      "51/100|49/100": 2,
+      "51/100|51/100": 2
+    },
+    "loss_constant": {
+      "decimal": 0.0001,
+      "exact": "1/10000"
+    },
+    "loss_model": {
+      "decimal": 0.0002,
+      "exact": "1/5000"
+    },
+    "loss_no_change": {
+      "decimal": 0.0005,
+      "exact": "1/2000"
+    },
+    "paired_improvement_constant": {
+      "decimal": -0.0001,
+      "exact": "-1/10000"
+    },
+    "paired_improvement_no_change": {
+      "decimal": 0.0003,
+      "exact": "3/10000"
+    },
+    "rows": [
+      {
+        "a": {
+          "decimal": 0.49,
+          "exact": "49/100"
+        },
+        "close_move": {
+          "decimal": 0.01,
+          "exact": "1/100"
+        },
+        "e": {
+          "decimal": -0.01,
+          "exact": "-1/100"
+        },
+        "loss_constant": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "loss_model": {
+          "decimal": 0.0,
+          "exact": "0"
+        },
+        "loss_no_change": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "m0": {
+          "decimal": 0.48,
+          "exact": "12/25"
+        },
+        "mc": {
+          "decimal": 0.49,
+          "exact": "49/100"
+        },
+        "model_deviation": {
+          "decimal": 0.01,
+          "exact": "1/100"
+        },
+        "paired_improvement_constant": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "paired_improvement_no_change": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "u": {
+          "decimal": -0.02,
+          "exact": "-1/50"
+        },
+        "v": {
+          "decimal": -0.01,
+          "exact": "-1/100"
+        },
+        "weight": {
+          "decimal": 0.125,
+          "exact": "1/8"
+        }
+      },
+      {
+        "a": {
+          "decimal": 0.49,
+          "exact": "49/100"
+        },
+        "close_move": {
+          "decimal": 0.03,
+          "exact": "3/100"
+        },
+        "e": {
+          "decimal": -0.01,
+          "exact": "-1/100"
+        },
+        "loss_constant": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "loss_model": {
+          "decimal": 0.0004,
+          "exact": "1/2500"
+        },
+        "loss_no_change": {
+          "decimal": 0.0009,
+          "exact": "9/10000"
+        },
+        "m0": {
+          "decimal": 0.48,
+          "exact": "12/25"
+        },
+        "mc": {
+          "decimal": 0.51,
+          "exact": "51/100"
+        },
+        "model_deviation": {
+          "decimal": 0.01,
+          "exact": "1/100"
+        },
+        "paired_improvement_constant": {
+          "decimal": -0.0003,
+          "exact": "-3/10000"
+        },
+        "paired_improvement_no_change": {
+          "decimal": 0.0005,
+          "exact": "1/2000"
+        },
+        "u": {
+          "decimal": -0.02,
+          "exact": "-1/50"
+        },
+        "v": {
+          "decimal": 0.01,
+          "exact": "1/100"
+        },
+        "weight": {
+          "decimal": 0.125,
+          "exact": "1/8"
+        }
+      },
+      {
+        "a": {
+          "decimal": 0.51,
+          "exact": "51/100"
+        },
+        "close_move": {
+          "decimal": 0.01,
+          "exact": "1/100"
+        },
+        "e": {
+          "decimal": 0.01,
+          "exact": "1/100"
+        },
+        "loss_constant": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "loss_model": {
+          "decimal": 0.0004,
+          "exact": "1/2500"
+        },
+        "loss_no_change": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "m0": {
+          "decimal": 0.48,
+          "exact": "12/25"
+        },
+        "mc": {
+          "decimal": 0.49,
+          "exact": "49/100"
+        },
+        "model_deviation": {
+          "decimal": 0.03,
+          "exact": "3/100"
+        },
+        "paired_improvement_constant": {
+          "decimal": -0.0003,
+          "exact": "-3/10000"
+        },
+        "paired_improvement_no_change": {
+          "decimal": -0.0003,
+          "exact": "-3/10000"
+        },
+        "u": {
+          "decimal": -0.02,
+          "exact": "-1/50"
+        },
+        "v": {
+          "decimal": -0.01,
+          "exact": "-1/100"
+        },
+        "weight": {
+          "decimal": 0.125,
+          "exact": "1/8"
+        }
+      },
+      {
+        "a": {
+          "decimal": 0.51,
+          "exact": "51/100"
+        },
+        "close_move": {
+          "decimal": 0.03,
+          "exact": "3/100"
+        },
+        "e": {
+          "decimal": 0.01,
+          "exact": "1/100"
+        },
+        "loss_constant": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "loss_model": {
+          "decimal": 0.0,
+          "exact": "0"
+        },
+        "loss_no_change": {
+          "decimal": 0.0009,
+          "exact": "9/10000"
+        },
+        "m0": {
+          "decimal": 0.48,
+          "exact": "12/25"
+        },
+        "mc": {
+          "decimal": 0.51,
+          "exact": "51/100"
+        },
+        "model_deviation": {
+          "decimal": 0.03,
+          "exact": "3/100"
+        },
+        "paired_improvement_constant": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "paired_improvement_no_change": {
+          "decimal": 0.0009,
+          "exact": "9/10000"
+        },
+        "u": {
+          "decimal": -0.02,
+          "exact": "-1/50"
+        },
+        "v": {
+          "decimal": 0.01,
+          "exact": "1/100"
+        },
+        "weight": {
+          "decimal": 0.125,
+          "exact": "1/8"
+        }
+      },
+      {
+        "a": {
+          "decimal": 0.49,
+          "exact": "49/100"
+        },
+        "close_move": {
+          "decimal": -0.03,
+          "exact": "-3/100"
+        },
+        "e": {
+          "decimal": -0.01,
+          "exact": "-1/100"
+        },
+        "loss_constant": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "loss_model": {
+          "decimal": 0.0,
+          "exact": "0"
+        },
+        "loss_no_change": {
+          "decimal": 0.0009,
+          "exact": "9/10000"
+        },
+        "m0": {
+          "decimal": 0.52,
+          "exact": "13/25"
+        },
+        "mc": {
+          "decimal": 0.49,
+          "exact": "49/100"
+        },
+        "model_deviation": {
+          "decimal": -0.03,
+          "exact": "-3/100"
+        },
+        "paired_improvement_constant": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "paired_improvement_no_change": {
+          "decimal": 0.0009,
+          "exact": "9/10000"
+        },
+        "u": {
+          "decimal": 0.02,
+          "exact": "1/50"
+        },
+        "v": {
+          "decimal": -0.01,
+          "exact": "-1/100"
+        },
+        "weight": {
+          "decimal": 0.125,
+          "exact": "1/8"
+        }
+      },
+      {
+        "a": {
+          "decimal": 0.49,
+          "exact": "49/100"
+        },
+        "close_move": {
+          "decimal": -0.01,
+          "exact": "-1/100"
+        },
+        "e": {
+          "decimal": -0.01,
+          "exact": "-1/100"
+        },
+        "loss_constant": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "loss_model": {
+          "decimal": 0.0004,
+          "exact": "1/2500"
+        },
+        "loss_no_change": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "m0": {
+          "decimal": 0.52,
+          "exact": "13/25"
+        },
+        "mc": {
+          "decimal": 0.51,
+          "exact": "51/100"
+        },
+        "model_deviation": {
+          "decimal": -0.03,
+          "exact": "-3/100"
+        },
+        "paired_improvement_constant": {
+          "decimal": -0.0003,
+          "exact": "-3/10000"
+        },
+        "paired_improvement_no_change": {
+          "decimal": -0.0003,
+          "exact": "-3/10000"
+        },
+        "u": {
+          "decimal": 0.02,
+          "exact": "1/50"
+        },
+        "v": {
+          "decimal": 0.01,
+          "exact": "1/100"
+        },
+        "weight": {
+          "decimal": 0.125,
+          "exact": "1/8"
+        }
+      },
+      {
+        "a": {
+          "decimal": 0.51,
+          "exact": "51/100"
+        },
+        "close_move": {
+          "decimal": -0.03,
+          "exact": "-3/100"
+        },
+        "e": {
+          "decimal": 0.01,
+          "exact": "1/100"
+        },
+        "loss_constant": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "loss_model": {
+          "decimal": 0.0004,
+          "exact": "1/2500"
+        },
+        "loss_no_change": {
+          "decimal": 0.0009,
+          "exact": "9/10000"
+        },
+        "m0": {
+          "decimal": 0.52,
+          "exact": "13/25"
+        },
+        "mc": {
+          "decimal": 0.49,
+          "exact": "49/100"
+        },
+        "model_deviation": {
+          "decimal": -0.01,
+          "exact": "-1/100"
+        },
+        "paired_improvement_constant": {
+          "decimal": -0.0003,
+          "exact": "-3/10000"
+        },
+        "paired_improvement_no_change": {
+          "decimal": 0.0005,
+          "exact": "1/2000"
+        },
+        "u": {
+          "decimal": 0.02,
+          "exact": "1/50"
+        },
+        "v": {
+          "decimal": -0.01,
+          "exact": "-1/100"
+        },
+        "weight": {
+          "decimal": 0.125,
+          "exact": "1/8"
+        }
+      },
+      {
+        "a": {
+          "decimal": 0.51,
+          "exact": "51/100"
+        },
+        "close_move": {
+          "decimal": -0.01,
+          "exact": "-1/100"
+        },
+        "e": {
+          "decimal": 0.01,
+          "exact": "1/100"
+        },
+        "loss_constant": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "loss_model": {
+          "decimal": 0.0,
+          "exact": "0"
+        },
+        "loss_no_change": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "m0": {
+          "decimal": 0.52,
+          "exact": "13/25"
+        },
+        "mc": {
+          "decimal": 0.51,
+          "exact": "51/100"
+        },
+        "model_deviation": {
+          "decimal": -0.01,
+          "exact": "-1/100"
+        },
+        "paired_improvement_constant": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "paired_improvement_no_change": {
+          "decimal": 0.0001,
+          "exact": "1/10000"
+        },
+        "u": {
+          "decimal": 0.02,
+          "exact": "1/50"
+        },
+        "v": {
+          "decimal": 0.01,
+          "exact": "1/100"
+        },
+        "weight": {
+          "decimal": 0.125,
+          "exact": "1/8"
+        }
+      }
+    ],
+    "variance_close_move": {
+      "decimal": 0.0005,
+      "exact": "1/2000"
+    },
+    "variance_model_deviation": {
+      "decimal": 0.0005,
+      "exact": "1/2000"
+    }
+  },
+  "private_data": false,
+  "task": "PRIME task013 synthetic educational fixtures"
+}

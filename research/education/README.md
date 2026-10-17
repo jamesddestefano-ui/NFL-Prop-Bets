@@ -127,3 +127,9 @@ Independent review verified the report packages within their stated scope. Prior
 ## Observation-time boundary review — 2026-10-16
 
 - [Collector timestamp correction proposed for review](../dot_reports/PRIME-DOT-20261016-010/2026-10-16-observation-time-boundary-review.md): current collector labels observations with request-start time and lacks a completed-receipt kickoff check. Four synthetic predicate cases demonstrate the boundary failure; no actual post-kickoff sample is established. Original sample provenance is preserved; no production fix, queue status change, executable quote or empirical edge claimed.
+
+## Saturday closing-move and quote-availability education — 2026-10-17
+
+- [Task013: a shared starting price can reward the wrong forecaster](../dot_reports/PRIME-DOT-20261016-013/2026-10-17-closing-move-and-quote-availability/README.md): original statistical reading, an exact 0.80 shared-baseline correlation counterexample, paired close-loss baselines, reversible-quote observation limits, finite missingness bounds and game/week dependence. Thirty-one synthetic tests and scoped independent review pass; no actual NFL model superiority, executable edge or continuous quote survival is established.
+- [Proposed as-of protocol](../dot_reports/PRIME-DOT-20261016-013/2026-10-17-closing-move-and-quote-availability/protocol.md) and [source register](../dot_reports/PRIME-DOT-20261016-013/2026-10-17-closing-move-and-quote-availability/source-register.md): frozen common cohort, unchanged v2 controls, +2/+5/+15/+60 minute checkpoint states, current original-X/official-status crosscheck and source-access limits. The report delivers the requested design/tests; empirical execution remains future work. Tasks 011/012 and actual Sunday 008 execution remain separate.
+

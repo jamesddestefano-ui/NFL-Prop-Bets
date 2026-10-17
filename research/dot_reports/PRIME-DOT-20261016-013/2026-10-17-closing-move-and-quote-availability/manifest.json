@@ -1,0 +1,91 @@
+{
+  "task_id": "PRIME-DOT-20261016-013",
+  "date_et": "2026-10-17",
+  "scope": "Review-only statistical learning, proposed as-of closing-move/checkpoint-availability protocol and synthetic fixtures. No empirical NFL experiment or production change.",
+  "review_windows_utc": {
+    "governance_and_duplicate_review": "2026-10-17 approximately 12:24–12:27",
+    "clifton_full_html_and_appendix": "2026-10-17 approximately 12:27–12:28; PDF text recheck at 12:32",
+    "cluster_censoring_retrieval": "2026-10-17 approximately 12:27:23–12:28:59; selected-section analysis through 12:33",
+    "original_x_and_official_crosscheck": "2026-10-17 approximately 12:25:35–12:25:59",
+    "packaged_reproduction": "2026-10-17 approximately 12:35–12:36"
+  },
+  "governance_base_commit": "b0c61f91b3b6bfa15bb724d24c3e3e8cafe7829a",
+  "in_progress_queue_commit": "545e0a9622e3f13bcc6c7e1a59f67c79eb6eebc1",
+  "source_review": "See source-register.md for primary URLs, publication/access medium, exact scope, source-family and confidence limits. No video/playback review claimed.",
+  "verification": {
+    "command": "python -B verify.py",
+    "python": "3.12.14",
+    "standard_library_only": true,
+    "unit_test_cases_passed": 31,
+    "syntax_check": "PASS for all three Python files",
+    "two_fresh_process_outputs_byte_identical": true,
+    "saved_results_byte_identical": true,
+    "exact_fraction_oracles": "PASS",
+    "math_sha256_manifest": "PASS",
+    "relative_markdown_targets_resolve": true,
+    "fixture_limit": "Selected known-identity, timing and contract guards only; not a complete source-freshness/opposite-side-clock, quote-execution or production validator."
+  },
+  "independent_read_only_review": {
+    "scope": "Reviewed probability-scale covariance/loss arithmetic, paired measurement and missingness/censoring interpretation, clustering example, report/protocol and guard tests. Reran final 31-test suite and byte/hash checks; unknown-book/side mutation checks now fail safely.",
+    "corrections_applied": [
+      "Reject equal-but-unknown identity and invalid sides/times/thresholds in fixtures.",
+      "Distinguish composite original-or-better availability from conditional price quality.",
+      "Require the close observation to postdate entry/forecast decision.",
+      "Define common confirmatory cohort and separate supplementary pair-specific results.",
+      "Qualify last-positive first-failure brackets and retain possible coarser (t0,U] interval."
+    ],
+    "remaining_limit": "Current quotes, model skill and the entire operational pipeline were not independently validated.",
+    "substantive_window_utc": "2026-10-17 approximately 12:29–12:34",
+    "final_packaging_window_utc": "2026-10-17 approximately 12:39:32–12:39:57",
+    "final_packaging_result": "PASS: source-access wording boundaries, all nine artifact hashes/sizes and local Markdown targets verified; no new external source or live quote access claimed by this check."
+  },
+  "result_interpretation": "Protocol and fixture deliverable only. Empirical performance, jurisdiction-specific executability, quote lifetimes, profitable EV and policy adoption remain unestablished.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 9888,
+      "sha256": "9e5e014859ad31e6d406cfe803a1e43dd949fc17daef4fc965ed6b7fd117ff8d"
+    },
+    {
+      "path": "SHA256SUMS",
+      "bytes": 403,
+      "sha256": "0840300af67bbe709c57f1810d42d499191ec92aa221f04baa7a52f447430704"
+    },
+    {
+      "path": "fixture_math.py",
+      "bytes": 12085,
+      "sha256": "ceb6b1c98a680e394e044f48166ae817565dc57bced728d5142d3d2f5f7810b1"
+    },
+    {
+      "path": "math_note.md",
+      "bytes": 9447,
+      "sha256": "fea0eeb6ad6e64cb8042594a327b594027c4e789cd5ca559c296addb3206f797"
+    },
+    {
+      "path": "protocol.md",
+      "bytes": 13653,
+      "sha256": "e0760a7962e537b68a6f0d8a21b959eeac56e9d6b335d8bf7ad086df568ae5e8"
+    },
+    {
+      "path": "results.json",
+      "bytes": 16948,
+      "sha256": "004c8c703303245a55ce8ae7ce790fd024acae609fff68e455b60863d82de279"
+    },
+    {
+      "path": "source-register.md",
+      "bytes": 7190,
+      "sha256": "26537243f8dd4e7b97d881a3c940c7eda80eec9490ee5ea59dae96254d63c9c4"
+    },
+    {
+      "path": "test_fixture_math.py",
+      "bytes": 11408,
+      "sha256": "f65dee8915308e5b9aac617af4c4a1e3d822637887619006de5d76993354d04e"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 3050,
+      "sha256": "5ec53ea698509a9d4f78ac27eacfc4e6775b36ccce860ac3fa3ac959bf99c55c"
+    }
+  ],
+  "hash_scope": "This manifest covers the other nine package files and excludes its own hash; SHA256SUMS covers the five math source/output files listed there."
+}
