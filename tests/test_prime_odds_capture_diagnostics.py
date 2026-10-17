@@ -18,6 +18,8 @@ class Tests(unittest.TestCase):
         self.assertEqual(r["failure_counts"]["missing_opposite_side"],1)
         self.assertEqual(r["missing_opposite_by_market"],{"player_receptions":1})
         self.assertEqual(r["missing_opposite_by_bookmaker"],{"book":1})
+        self.assertEqual(r["missing_side_direction_by_book_market"][0]["missing_side"],"Under")
+        self.assertEqual(r["book_market_group_coverage"][0]["missing_opposite_groups"],1)
     def test_duplicate_side(self):
         f=fixture();f["quotes"][1]["side"]="Over"
         self.assertEqual(summarize_capture_failures(f)["failure_counts"]["duplicate_side"],1)
