@@ -50,11 +50,15 @@ def summarize_capture_failures(payload):
         key=(q["event_id"],q["bookmaker"],q["market"],q["player"],point)
         groups[key].append(q["side"])
     classified=Counter()
-    for sides in groups.values():
+    missing_by_market=Counter()
+    missing_by_book=Counter()
+    for key,sides in groups.items():
         if len(sides)==2 and set(sides)=={"Over","Under"}:
             classified["CLEAN_PAIR"]+=1
         elif len(sides)==1:
             classified["MISSING_OPPOSITE_SIDE"]+=1
+            missing_by_book[key[1]]+=1
+            missing_by_market[key[2]]+=1
         elif len(sides)==2:
             classified["DUPLICATE_SIDE"]+=1
         else:
@@ -70,4 +74,6 @@ def summarize_capture_failures(payload):
                               "duplicate_side":classified["DUPLICATE_SIDE"],
                               "excess_or_conflicting":classified["EXCESS_OR_CONFLICTING_ROWS"],
                               "invalid_rows":sum(invalid.values())},
+            "missing_opposite_by_market":dict(sorted(missing_by_market.items())),
+            "missing_opposite_by_bookmaker":dict(sorted(missing_by_book.items())),
             "raw_quotes_exported":False}
