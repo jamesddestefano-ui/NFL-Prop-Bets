@@ -70,3 +70,5 @@ screen_path.write_text(json.dumps({
 print("Saved",str(out),"rows",len(rows),"quota remaining",q.get("x-requests-remaining"))
 print("Screened",str(screen_path),"status",screen["status"],
       "clean_pairs",screen["clean_pairs"],"review_groups",screen["review_groups"])
+print("Screening failure counts",json.dumps(screen.get("failure_counts",{}),sort_keys=True))
+print("Screening invalid-row reasons",json.dumps(screen.get("invalid_row_reasons",{}),sort_keys=True))
