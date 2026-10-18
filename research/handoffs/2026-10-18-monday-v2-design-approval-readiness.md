@@ -1,3 +1,15 @@
+## Official FanDuel NJ document — new scoped evidence, NOT_READY
+
+Retrieved the supplied [official FanDuel NJ policy](https://policies.fanduel.com/SB/NJ/2026-10-15T12-42-58.html) at **October18 5:15:15.531343 PM EDT /21:15:15.531343Z**, HTTP200. OriginalHTML SHA256 **025c74df6a37f9a46d6d0c4929667f03ae34e052704f12badd50985c18e42f72**. Body confirms NewJersey and “LastUpdated:15October2026”; no exact publicationtime inferred. Private original/text/retrieval/selector evidence committed at **6ea0a01**. All13 earlier archived rule response/text files remain byte-identical.
+
+The document supplies actual NFL participation/DNP, fullgame overtime, game-interruption/abandonment and correction/resettlement provisions. Ordinary fullgame playerprops use snap participation; do not import quarter/drive or anotherbook's injury rules. General virus/disease-withdrawal void and other specialcases require explicit scope review. Exact-line refund clauses for score/points do not automatically establish integer reception/yardage push policy. Halfline equality is mathematically impossible for verified integer stats; that does not imply zero void probability. The source improves settlement evidence but does not itself approve an actual future contract or certify the existing simple profile covers every exception.
+
+**Unchanged-selector reconciliation:** Sunday's preserved165targetrows produce72modalrows across11groups; originalfourrowpreview selectsBetMGM/FanDuel. FanDuel has18modalrows across9groups only when otherbook quotes supply consensus. Even optimistically admitting allFanDuelstandardcontracts, removing unsupportedbooks BEFORE the unchangedthreebookmodal leaves **0groups**, below required2. Filtering onlyaftermodal, using unsupportedterms for baseline, or reranking a replacementbook changes admission/reference semantics; none wasimplemented orapproved. Originalfulluniverse, sourcehash, preview and per-contract exclusions retained privately. No actualMondaycohort or contract approved.
+
+**Readiness: NOT_READY / runtime disabled.** Need enough applicable supported same-contract bookmaker evidence to satisfy three-book modal and two-group requirements, or a separately approved prospective design decision—not a silent selector change. Monday datedpreflight and eligible registration remainpending; existing approvedwindow/operator/USER_CONFIRMED_ROTATED decisions remainresolved. No additionalOddsAPIrequest, newarchitecture, activation or completedtest rerun. PriorPR16/259-test/mainCIbaseline unchanged. MODEL_SUSPECT;bet_eligible=false.
+
+---
+
 ## New evidence closure findings — Sunday after 5 PM EDT
 
 Private evidence commit **41168d0** records original rule-tool responses, returned text, metadata/cache limitations, archive-observation bounds and a verified 13-file SHA-256 manifest. Extracted text is not mislabeled original publisher HTML. No code or new infrastructure; prior259-test/PR16 CI remains the technical baseline.
