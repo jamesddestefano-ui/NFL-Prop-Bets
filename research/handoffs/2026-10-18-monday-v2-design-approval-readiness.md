@@ -1,3 +1,37 @@
+# Current Monday authorization preparation — approved window, runtime disabled
+
+This current section supersedes earlier pending-window, unavailable-operator and rotation-confirmation statements preserved below as dated preparation history. October 18 classifications are unchanged.
+
+The user approved Monday October 19 capture **5:00–6:00 PM EDT**, confirmed operator availability **6:15–7:30 PM**, and confirmed Odds API key rotation. Status **USER_CONFIRMED_ROTATED** is a genuine user attestation, not independently verified metadata. Rotation is resolved for user-action purposes; no further rotation confirmation is requested. GitHub published this directive at **October 18, 4:53:41 PM EDT / 20:53:41 UTC**, private issue #9 comment6255020475. Original directive bytes/hash and metadata are retained privately; exact user transport receipt remains unknown. Activation is explicitly NOT authorized.
+
+Implementation: private [PR #16](https://github.com/jamesddestefano-ui/-NFL-Prop-Odds-Data/pull/16), reviewed head **8bf12d8fa038dcadd294f37fd73214e1d58eff9e**. Merged **a628c5b430a44508f89fd2b0bca224ae94a005fa** at **2026-10-18T20:58:03Z / 4:58:03 PM EDT**. All four PR/push validation runs succeeded:39165581587,39165581655,39165595061,39165595104. The actual full CI log records **259 tests passed**. Read-back verifies protocolAPPROVED, original schedule approval hash, USER_CONFIRMED_ROTATED, operator availability, enabledfalse and activationauthorizationnull. Merged-main workflows all succeeded: [continuous39165699405](https://github.com/jamesddestefano-ui/-NFL-Prop-Odds-Data/actions/runs/39165699405), [Phase239165699377](https://github.com/jamesddestefano-ui/-NFL-Prop-Odds-Data/actions/runs/39165699377), [safety39165699379](https://github.com/jamesddestefano-ui/-NFL-Prop-Odds-Data/actions/runs/39165699379). **51 focused tests passed**, including two new boundary regressions. A separate engineering reviewer passed four focused registration tests with no material findings. Prior completed rehearsal and unrelated regression work were not repeated.
+
+| Gate | Status | Evidence class / remaining condition |
+|---|---|---|
+| Approved design and 5–6 PM capture window | VERIFIED | Genuine original directive, GitHub publication and committed approval hashes. |
+| Authorized operator and 6:15–7:30 availability | VERIFIED | USER_ATTESTED; genuine Phase 4 channels and existing shared prompt/intake mechanics. Future participation is not fabricated. |
+| Odds API rotation | VERIFIED as USER_CONFIRMED_ROTATED | User attestation; unavailable independent metadata is not a recurring blocker. |
+| Official kickoff / preliminary identity crosswalk | VERIFIED | Official team schedule, retained hashes and 12/12 explicitly namespaced player crosswalks. Recheck day-of. |
+| Budget/reserve/dedup controls and retained provider evidence | VERIFIED | Last retained actual remaining19,084 atOct18 3:42:17.813669PM EDT; reserve2,000; sharedOct18–19 envelope remaining6,668. Target request estimated3 credits; actual headers govern. No unknown-cost history or latest-run errors. |
+| Monday operational freshness/auth/coverage | BLOCKED pending day-of evidence | Sunday success does not establish Monday coverage. No new paid probe or frequency change. Ordinary authentication/security checks remain. |
+| Exact selected-contract settlement review | BLOCKED | No Monday frozen cohort exists. Review only its two matched groups/four rows; exact identities, book/market/threshold/side, DNP/void/push, overtime and corrections need authentic scoped sources. Fewer than two valid groups means NOT_READY. |
+| Manual forecast/lock capability | VERIFIED OFFLINE | Original shared prompt template, strict four-row FORECAST/ABSTAIN intake, verbatim originals and GitHub source/receipt validation. Actual final packet cannot be populated before genuine freeze/review. |
+| Successful eligible pre-window registration | BLOCKED | Required after effective approved sources and substantive readiness; completion strictly before5 PM. New guard uses successful GitHub updated_at as a conservative completion upper bound; late/unknown bound fails closed. |
+| Future captures, model responses and outcomes | NOT APPLICABLE to pre-collection completion | Must be genuinely verified afterward; not prerequisites to authorizing a prospective collection. |
+| Activation | BLOCKED / NOT AUTHORIZED | Runtime remains disabled, readiness review and activation authorization null. Request only after readiness and eligible registration succeed. |
+| Third-party human observer | NOT APPLICABLE | Optional audit only. |
+
+Approved Monday schedule (America/New_York, EDT): successful registration strictlybefore5 PM; actual capture5–6 PM; cohort AND common input publication strictlybefore6:15 PM; separate model responses approximately6:15–7:15 PM; actual GitHub locks strictlybefore7:20 PM; completion review7:20–7:30 PM; official kickoff8:15 PM.
+
+Existing5:17 PM collection can qualify by actual receipt only. A delayed4:17 target response can suppress it under the unchanged one-hour duplicate guard. Last retained target prices are Sunday nonqualifying observations; later five runs skipped that target. Reusing the schedule adds no new dispatches; normal scheduled requests still consume actual authorized subscription credits. No new scheduler, requests, frequency increase, purchases or safeguards relaxed.
+
+Before collection, resolve substantive readiness and eligible registration, then obtain a separate express user activation decision before the window. After collection, verify actual receipts, reviewed frozen rows, identical pre-published packet deliveries, genuine verbatim isolated responses and both timely locks. Pre-collection authorization does not certify later completion. Missing gates/cutoffs cancel; do not reconstruct evidence.
+
+**NO-GO / disabled remains the recommendation.** No further schedule, operator-availability or key-rotation confirmation is requested. Authentic scoped settlement evidence and day-of operational review/registration remain outstanding. Any necessary official rules export should contain source URL/scope and original evidence, never credentials or sportsbook-account access. Activation will require a later separate decision after successful gates. MODEL_SUSPECT; bet_eligible=false. No wagers, additional spending, authoritative record changes or historical reclassification.
+
+---
+# Earlier preparation history — superseded where stated above
+
 # Monday v2 — design approved; runtime NO-GO
 
 This is a sanitized research handoff. Raw sportsbook responses, source archives, screenshots and private receipt metadata remain in the private evidence repository.
