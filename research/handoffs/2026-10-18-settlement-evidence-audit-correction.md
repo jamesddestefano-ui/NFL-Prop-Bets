@@ -24,3 +24,15 @@ DraftKings general evidence previously identified as Virginia must not be relabe
 Five existing original HTML bodies were rehashed against content-addressed filenames, all matched. No invalid or empty-input hash was detected among these five; unmatched audit identifiers are quarantined as claims, not authoritative hashes. Newly appended verification metadata records execution time and the bounded search scope. No retrospective source edits or duplicate research performed. Existing selector validation remains unchanged; this correction introduces no new qualifying group. No code changed, so the prior CI baseline is not represented as a fresh test run.
 
 **NO-GO:** qualifying_groups=0; settlement compatibility not established; three-book requirement unchanged; pilot activation disabled; MODEL_SUSPECT; bet_eligible=false. Required next evidence: original audit captures/acquisition records and exact contract-level compatible settlement support. Neither approval nor activation is requested while these gates remain unresolved.
+
+## Closure review — missing external files, not GitHub access
+
+GitHub remote readback verified at **2026-10-18T23:34:35.106348Z**: both files in private commit `8c288f25f5b217dc6dfc67028fc86467b4d9c5fa` match local bytes. Issue publication reference6256485442 was created by GitHub at **2026-10-18T23:26:30Z**; this is server-side comment publication, not original capture time or exact commit-push time. Authorized GitHub publication is available.
+
+Reported Claude local commit `364436fc6902dfde5d33a3fc20af5614da4dad95` is absent locally and GitHub's target private-repository commit lookup returned422/no commit found. Its two actual file contents were not supplied and cannot be reconstructed from summaries. Their publication is **BLOCKED_MISSING_SOURCE_FILES**, not a credentials rejection.
+
+The two FanDuel files remain distinct: verification of the existing683,885-byte original neither validates nor invalidates the reported590,076-byte capture. The latter original/acquisition record is unavailable here; it must be supplied before comparative inspection. No merge or overwrite.
+
+DraftKings article identifiers **KB0012036 and KB0012329 are conflicting, user-reported identifiers**. Neither is confirmed by an original rendered article in this correction. Over-side incompatibility is therefore **UNVERIFIED**, not an independently proven finding. No article URL or quotations are inferred from either identifier. Captured NJ Terms, when supplied, must remain separate and cannot establish prop settlement behavior.
+
+Current matrix: FanDuel CONDITIONAL; DraftKings EXCLUDE pending evidence reconciliation; BetRivers INCOMPLETE; BetMGM UNVERIFIED. Required external action: provide Claude's two exact handoff files, both claimed source captures and their acquisition records, including original rendered Early Exit content if available. No rerun of the settlement investigation or credential reconnection is needed solely to publish supplied files. All operational restrictions and NO-GO remain unchanged.
