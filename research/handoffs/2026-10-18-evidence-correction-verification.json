@@ -1,0 +1,59 @@
+{
+  "record_type": "append_only_evidence_correction_verification",
+  "executed_utc": "2026-10-18T23:29:50Z/2026-10-18T23:31:00Z",
+  "parent_commit": "430463a938f7192d323c487a511ec55d50af32ed",
+  "supersedes_nothing": "Appends to, does not edit, 2026-10-18-phase5-settlement-compatibility-resolution.md and 2026-10-18-settlement-evidence-audit-correction.md",
+  "search_scope": [
+    "jamesddestefano-ui/NFL-Prop-Bets all branches (main, claude/evidence-correction-audit-vxxsas)",
+    "GitHub issues of the same repository (zero returned; issue #9 returned 404)",
+    "list_repos for the account: no private evidence repository is accessible in this session"
+  ],
+  "not_located": {
+    "audit_fanduel_capture": "reported 590,076 bytes, reported Oct 18 7:08:03 PM EDT; no bytes, hash or acquisition record available here",
+    "audit_draftkings_terms_capture": "reported hash not available in this session",
+    "private_evidence_commit_bad2a46": "object not present in this clone; not independently checkable",
+    "audit_document": "the Protocol Evaluation Audit text was not supplied in this session"
+  },
+  "verifications": [
+    {
+      "book": "FanDuel NJ",
+      "url": "https://policies.fanduel.com/SB/NJ/2026-10-15T12-42-58.html",
+      "purpose": "independent re-fetch to test the recorded original",
+      "request_start_utc": "2026-10-18T23:29:50.607974744Z",
+      "request_end_utc": "2026-10-18T23:29:51.239596656Z",
+      "http_status": 200,
+      "bytes": 683885,
+      "sha256": "025c74df6a37f9a46d6d0c4929667f03ae34e052704f12badd50985c18e42f72",
+      "result": "MATCH: byte size and SHA-256 equal the recorded original (recorded receipt 2026-10-18T21:15:15.531343Z). Corroborates content only; the original receipt time remains the one in the existing retrieval.json and is not re-derived.",
+      "rule_locations_verified_in_bytes": [
+        "Part B (Sportsbook House Rules) > General Rules > Results and Market Settlement",
+        "Part B > General Rules > Odds Boosts; Miscellaneous (promotions at FanDuel discretion)",
+        "Part B > Part C Specific Sports Rules > American Football > General Rules (full-game action conditions, OT counts, 60-hour reschedule)",
+        "Part B > Part C > American Football > Proposition bets (player prop void only when player does not play a snap; abandoned-game Over-already-won rule)",
+        "Part F - Master Offer and Promotions Terms (exists; applicability to specific contracts not resolved)"
+      ]
+    },
+    {
+      "book": "DraftKings NJ",
+      "url": "https://sportsbook.draftkings.com/legal/nj-terms-of-use",
+      "purpose": "new bounded capture of NJ Terms of Use; NOT the audit's artifact",
+      "request_start_utc": "2026-10-18T23:30:16.299769809Z",
+      "http_status": 200,
+      "bytes": 495683,
+      "sha256": "cd03210b9695210720a85d0a9bdc2fe7003851f880d0e4dc43fa63b39e00fa4c",
+      "result": "Title 'Terms of Use | DraftKings Sportsbook'; body names Crown NJ Gaming Inc. and the NJ Division of Gaming Enforcement. Dynamic page: hash is capture-specific and cannot confirm or refute the audit's reported hash. Contains no NFL prop settlement or Early Exit eligibility rules; embedded client UI strings only state that eligible Early Exit bets have stake returned."
+    },
+    {
+      "book": "DraftKings",
+      "url": "https://support.draftkings.com/dk?id=kb_article_view&sysparm_article=KB0012329",
+      "resolved_url": "https://support.draftkings.com/dk/en/what-is-early-exit?id=kb_article_view&sysparm_article=KB0012329",
+      "request_start_utc": "2026-10-18T23:30:32.034173455Z",
+      "http_status": 200,
+      "bytes": 469339,
+      "sha256": "644218af768fbb6d9ae5d41459fd0d57b5e70be6f09d616967d28b290879db1c",
+      "result": "Script-rendered portal shell only; article body NOT captured. Early Exit terms, side (Over) and NJ applicability remain UNVERIFIED from primary text."
+    }
+  ],
+  "raw_body_storage": "Raw sportsbook bodies are not committed to this public repository, per the existing public-handoff convention. The FanDuel body is reproducible from its versioned URL and SHA-256 above.",
+  "status_flags": {"MODEL_SUSPECT": true, "bet_eligible": false, "pilot_activation": "disabled", "qualifying_groups": 0}
+}
