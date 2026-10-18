@@ -57,3 +57,25 @@ Canonical IDs require reviewed exact player-ID crosswalks and game context, sour
 All models remain MODEL_SUSPECT, bet_eligible=false and production_feature_eligible=false. Existing sportsbook observations, The Odds API frequency and Sunday pilot workflows are unchanged. No wagers or additional purchases.
 
 This public handoff contains only derived verification metadata and source hashes. Original API content, credentials, account details and raw player/news records remain private.
+
+
+## Final security update — PR 4 merged
+
+PR: https://github.com/jamesddestefano-ui/-NFL-Prop-Odds-Data/pull/4
+Merge commit: `8e5ae96f8cd4c8d8cdfc0cecb17fbd175cb279ed`, merged 2026-10-18T00:49:36Z.
+Reviewed PR head: `c387aa2b71bfa0ef78b754a5811973a4c0f7f315`.
+Replacement-check implementation: `863f3ed8ff13de2e4f8b009fb0c2228bc4b43311`.
+
+The owner confirms the exposed key was rotated. A fresh GitHub Actions request using the currently configured FANTASYPROS_API_KEY and documented x-api-key header succeeded: https://github.com/jamesddestefano-ui/-NFL-Prop-Odds-Data/actions/runs/39083670533 . Exactly one read-only news request, category injury, limit 1; HTTP 200 and schema-valid; receipt 2026-10-18T00:41:51.436317Z. No credentials were printed or committed. Provider revocation and secret-update timestamps could not be independently audited (GitHub secret metadata returns 403); owner confirmation and actual authentication are separate evidence.
+
+Source body SHA-256: `aa8ac8b6ccfefa9dd91935d73afd2488995d0b8c466928546e3907c0dd09f7ba`.
+Capture SHA-256: `9c3f32e6899bc2742aeb81d25df19b2fbde7a7152d75f6d6732b08806b9142bd`.
+Private connection artifact: 12119024263; original requests, receipts and bodies retained append-only. Public handoff contains sanitized metadata only.
+
+198 full offline tests passed, including 32 FantasyPros tests. Independent review found no material defects. Final-head CI passed: FantasyPros 39083764359, pilot safety 39083764364, Phase 2 39083764354. No protections bypassed. Post-merge checks are tracked separately below.
+
+BLOCKERS: no quota headers returned; numerical rate limits, plan allowances, billing units and remaining endpoint permissions are UNKNOWN. Only NFL news access has been authenticated. Players, injuries, weekly projections, rankings and player-points adapters are implemented and offline tested, not live-permission verified. Account key-management documentation requires login. Local limits are safeguards, not entitlements.
+
+Routine ingestion, production probe and further one-time verification are all disabled; no FantasyPros schedule exists. The October 18 pilot and Odds API frequency are unchanged. No original sportsbook records, betting records or eligibility rules were modified. All models remain MODEL_SUSPECT and bet_eligible=false; no predictive superiority or profitability is claimed. No purchases or wagers.
+
+Next: obtain provider-documented usage allowances and endpoint entitlements, then review activation evidence and separately authorize bounded checks. Do not activate from this single successful request. Preserve separate FantasyPros provenance and pregame availability requirements.
