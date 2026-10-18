@@ -1,0 +1,181 @@
+{
+  "brier": {
+    "fallback_all": {
+      "decimal": 0.226,
+      "exact": "113/500"
+    },
+    "fallback_minus_market_all": {
+      "decimal": 0.008,
+      "exact": "1/125"
+    },
+    "market_all": {
+      "decimal": 0.218,
+      "exact": "109/500"
+    },
+    "market_covered": {
+      "decimal": 0.09,
+      "exact": "9/100"
+    },
+    "mixture_covered": {
+      "decimal": 0.0925,
+      "exact": "37/400"
+    },
+    "mixture_fallback_all": {
+      "decimal": 0.2185,
+      "exact": "437/2000"
+    },
+    "mixture_fallback_minus_market_all": {
+      "decimal": 0.0005,
+      "exact": "1/2000"
+    },
+    "model_covered": {
+      "decimal": 0.13,
+      "exact": "13/100"
+    },
+    "model_minus_market_covered": {
+      "decimal": 0.04,
+      "exact": "1/25"
+    }
+  },
+  "cohort_n": 50,
+  "coverage": 0.2,
+  "covered_n": 10,
+  "empirical_validation": false,
+  "epsilon_changes_primary_forecasts": false,
+  "epsilon_envelope_for_masked_log_bounds": 0.01,
+  "evidence_type": "invented_deterministic_educational_fixture",
+  "log_loss_nats": {
+    "fallback_all": 0.6427986904434468,
+    "fallback_minus_market_all": 0.02326435131720095,
+    "market_all": 0.6195343391262459,
+    "market_covered": 0.3250829733914482,
+    "mixture_covered": 0.33597903503658555,
+    "mixture_fallback_all": 0.6217135514552734,
+    "mixture_fallback_minus_market_all": 0.0021792123290275134,
+    "model_covered": 0.4414047299774528,
+    "model_minus_market_covered": 0.11632175658600458
+  },
+  "masked_demo": {
+    "fallback_brier_bounds_exact": [
+      "109/500",
+      "113/500"
+    ],
+    "fallback_log_loss_bounds_nats": [
+      0.6258527332357027,
+      0.6427986904434468
+    ],
+    "market_brier_bounds_exact": [
+      "101/500",
+      "109/500"
+    ],
+    "market_log_loss_bounds_nats": [
+      0.5755898475795215,
+      0.6195343391262459
+    ],
+    "mask_rule": "Before labels: event ID suffix not divisible by 10 is observed",
+    "missing_n": 5,
+    "observed_n": 45,
+    "observed_only_fallback_brier": {
+      "decimal": 0.218,
+      "exact": "109/500"
+    },
+    "observed_only_market_brier": {
+      "decimal": 0.202,
+      "exact": "101/500"
+    },
+    "paired_delta_bounds_exact": [
+      "1/125",
+      "2/125"
+    ],
+    "target_n": 50
+  },
+  "mixture_weight_market": 0.75,
+  "mixture_weight_model": 0.25,
+  "optional_equal_coverage_routing": {
+    "a_covered_n": 20,
+    "b_covered_n": 20,
+    "brier": {
+      "a_common": {
+        "decimal": 0.2104,
+        "exact": "263/1250"
+      },
+      "a_own_covered": {
+        "decimal": 0.15145,
+        "exact": "3029/20000"
+      },
+      "a_policy_all": {
+        "decimal": 0.1918,
+        "exact": "959/5000"
+      },
+      "a_policy_minus_b_policy": {
+        "decimal": 0.007933333333333334,
+        "exact": "119/15000"
+      },
+      "b_common": {
+        "decimal": 0.2116,
+        "exact": "529/2500"
+      },
+      "b_own_covered": {
+        "decimal": 0.2308,
+        "exact": "577/2500"
+      },
+      "b_policy_all": {
+        "decimal": 0.18386666666666668,
+        "exact": "1379/7500"
+      },
+      "market_all": {
+        "decimal": 0.19166666666666668,
+        "exact": "23/120"
+      }
+    },
+    "brier_difference_total_by_route_exact": {
+      "a_only": "1/40",
+      "b_only": "9/40",
+      "both": "-3/250",
+      "neither": "0"
+    },
+    "cohort_n": 30,
+    "common_n": 10,
+    "evidence_type": "invented_deterministic_educational_fixture",
+    "log_loss_nats": {
+      "a_common": 0.6117940215248987,
+      "a_own_covered": 0.4738865282807422,
+      "a_policy_all": 0.5626918589523501,
+      "a_policy_minus_b_policy": 0.01844723790697056,
+      "b_common": 0.614503709184745,
+      "b_own_covered": 0.6538254448723452,
+      "b_policy_all": 0.5442446210453795,
+      "market_all": 0.5606267241004451
+    },
+    "specification": [
+      {
+        "a_p_or_abstain_null": 0.85,
+        "b_p_or_abstain_null": null,
+        "market_p": 0.9,
+        "n": 10,
+        "positive_labels": 9,
+        "stratum": "easy"
+      },
+      {
+        "a_p_or_abstain_null": 0.68,
+        "b_p_or_abstain_null": 0.66,
+        "market_p": 0.65,
+        "n": 10,
+        "positive_labels": 7,
+        "stratum": "common"
+      },
+      {
+        "a_p_or_abstain_null": null,
+        "b_p_or_abstain_null": 0.5,
+        "market_p": 0.65,
+        "n": 10,
+        "positive_labels": 5,
+        "stratum": "hard"
+      }
+    ]
+  },
+  "probability_basis": "binary_affirmative_no_push",
+  "score_orientation": "Lower is better; all deltas are policy minus market",
+  "statistical_significance_estimated": false,
+  "weighting": "One equal-weight observation per underlying binary event"
+}

@@ -1,0 +1,97 @@
+{
+  "task_id": "PRIME-DOT-20261014-008",
+  "date_et": "2026-10-18",
+  "status_scope": "Partial pregame educational contribution; actual prospective/postgame assessment INCONCLUSIVE.",
+  "publication_scope": "Public original-source education and invented deterministic examples only.",
+  "governance_read_at_utc": "2026-10-18T12:35:56Z/2026-10-18T12:37:28Z",
+  "public_governance_commit": "907323213825ae020fca87823014e6dd6cababd0",
+  "start_event_commit": "00fb5986a86fdc1524f80071e107e96512d4e0ed",
+  "source_access": {
+    "technical_review_window_utc": "2026-10-18T12:38:16Z/2026-10-18T12:40:33Z",
+    "synthesis_source_crosscheck_window_utc": "2026-10-18T12:43:15Z/2026-10-18T12:44:46Z",
+    "primary": "El-Yaniv and Wiener (2010), original 37-page JMLR PDF available; substantive selected-section review, not a complete line-by-line read.",
+    "primary_sections": "1–4; section 5 impossibility construction; section 7 main bounds/strategy; 8; 9; 11. Central compression/generalization machinery and all appendix proofs not systematically reviewed.",
+    "background": "Gneiting and Raftery (2007): search-visible abstract/introduction and bibliographic information only. Direct PDF errors and DOI 403; full paper not accessed.",
+    "public_news_review_window_utc": "2026-10-18T12:38:55Z/2026-10-18T12:40:23Z",
+    "x_original_post": "https://x.com/RapSheet/status/2111782850705932467",
+    "x_published_at_utc": "2026-10-18T11:34:01Z",
+    "x_method": "Original public search result and direct permalink read in dot cloud browser; DOM datetime checked. Underlying reporting sources unnamed; no final activation or workload verified.",
+    "no_audiovisual_playback_claim": true
+  },
+  "verification": {
+    "unit_tests": 34,
+    "fresh_assembly_test_at_utc": "2026-10-18T12:46:42Z",
+    "fresh_directory_reproduction_at_utc": "2026-10-18T12:47:13Z",
+    "fixture_and_results_regenerated_byte_identically": true,
+    "python_files_compile": 2,
+    "math_manifest_entries_verified": 5,
+    "independent_review": "PASS within numerical/source-boundary and final package-inventory scope.",
+    "independent_review_window_utc": "Approximately 2026-10-18T12:44:15Z/2026-10-18T12:47:13Z; final packaging 2026-10-18T12:50:32Z/2026-10-18T12:50:46Z.",
+    "independent_checks": [
+      "34-test rerun",
+      "Exact Fraction enumeration of 50-case scores",
+      "All 32 missing-outcome completions",
+      "30-case equal-coverage reversal",
+      "In-memory fixture/results equality and two fresh-process results checks",
+      "Math hashes",
+      "Original JMLR definitions and metadata",
+      "Official Steelers articles and game-page claims",
+      "Exact 10-file inventory and all nine package-manifest hashes/sizes",
+      "Package-local Markdown targets; external repository-relative targets checked separately by assembly"
+    ],
+    "review_corrections": [
+      "Covered-cohort average replaces incorrect every-case wording",
+      "Paired log-loss infinity-minus-infinity explicitly rejected with regression test",
+      "Sharp missing-outcome bounds qualified for unconstrained joint completions"
+    ],
+    "independent_limits": "Direct web X retrieval errored; reviewer did not independently attest browser DOM. No actual NFL probabilities, current executable quotes, deployed scorer or pilot completion validated.",
+    "assembly_reproduction_scope": "The fresh-directory fixture and results regeneration was a separate assembly check; both outputs matched saved bytes."
+  },
+  "files": {
+    "DERIVATION.md": {
+      "bytes": 15195,
+      "sha256": "248a9843d917a048c32d3f5f4756ca44c5259176a142885cff3633d07177c527"
+    },
+    "README.md": {
+      "bytes": 12086,
+      "sha256": "90bd35b188b9239f1e708d01f4b7cfdc31ab68e154acfe882e6f099439899c31"
+    },
+    "SHA256SUMS.json": {
+      "bytes": 447,
+      "sha256": "630351f2954930df3184aabc9994d6bc678cd4849853114e51e79ad7e4ac822c"
+    },
+    "fixture.json": {
+      "bytes": 13598,
+      "sha256": "8693b906beaa29fad05e270893619c98c732fdeb30fcf274fbb8ab8dae240196"
+    },
+    "news-ledger.md": {
+      "bytes": 5203,
+      "sha256": "8e690383b7dea64d8eabd05da5df8b2f6a87341034de1835018103e0e555a413"
+    },
+    "results.json": {
+      "bytes": 4642,
+      "sha256": "fa8e262da5c08ba507518e67b2c14ed42ad7999c81b392eed813e32bb9289baf"
+    },
+    "score_fixture.py": {
+      "bytes": 14240,
+      "sha256": "ba834ad50990b23d9e950d6741548eaa62a2515cc3d0ec9dfc103fddfa0cacd0"
+    },
+    "source-register.md": {
+      "bytes": 4396,
+      "sha256": "d3ce1bc08965bf2e3980685daea17879e5d465571e4438edf9ed51d282bfede6"
+    },
+    "test_score_fixture.py": {
+      "bytes": 13676,
+      "sha256": "df07cc3f1aa0898656d5fa31112f24c3e9e99dbbebe2cb9008a73500b1e36c2b"
+    }
+  },
+  "hash_scope": "SHA-256 and bytes cover the other 9 package files; this manifest excludes itself. SHA256SUMS.json additionally covers the 5 math source/fixture/results/note files.",
+  "boundaries": [
+    "No actual frozen cohort or model submission included",
+    "No final outcome or matched-close scoring",
+    "No NFL empirical validation or significance claim",
+    "No raw private provenance or user ticket information",
+    "No policy/production/ledger repair or wager"
+  ],
+  "created_at_utc": "2026-10-18T12:47:43Z"
+}
