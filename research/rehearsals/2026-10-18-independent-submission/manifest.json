@@ -1,0 +1,19 @@
+{
+  "bet_eligible": false,
+  "classification": "REHEARSAL_ONLY",
+  "cohort_id": "PRIME-REHEARSAL-2026-10-18-FOUR-CONTRACTS",
+  "files": {
+    "PROMPT.txt": "96fcef641828e47925ac2b7b4345c9402ac3b2ed501eaad6557ba4f3005a0002",
+    "cohort.json": "6397225c698f53beb540fc638f077be40195adbe31427951afaedc30d030a42f",
+    "input-packet.json": "2739e933d3772d13d81efe7586fe0d1b7c7c9a24225533b9b20f50206c2d59f5",
+    "synthetic-history.json": "edebd856b1fec2d8874579e50cf3c900abddcf04cd0d2d34c88ab6e141099d1b"
+  },
+  "genuine_submissions_received": {
+    "ChatGPT": false,
+    "Claude": false
+  },
+  "model_status": "MODEL_SUSPECT",
+  "monday_activation": false,
+  "observer_status": "BLOCKED_NO_GENUINE_OBSERVER_ACKNOWLEDGEMENT",
+  "prepared_at_utc": "2026-10-18T18:18:29.506864+00:00"
+}

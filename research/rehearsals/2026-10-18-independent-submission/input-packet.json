@@ -1,0 +1,81 @@
+{
+  "bookmaker": "NONE_SYNTHETIC_ONLY",
+  "classification": "REHEARSAL_ONLY",
+  "cohort_id": "PRIME-REHEARSAL-2026-10-18-FOUR-CONTRACTS",
+  "cohort_sha256": "6397225c698f53beb540fc638f077be40195adbe31427951afaedc30d030a42f",
+  "contracts": [
+    {
+      "contract_id": "REHEARSAL-C1",
+      "line": 4,
+      "market": "SYNTHETIC_RECEPTIONS",
+      "series_id": "TOY-A-RECEPTIONS",
+      "side": "Over",
+      "synthetic_game_id": "TOY-GAME-1",
+      "synthetic_player_id": "TOY-A"
+    },
+    {
+      "contract_id": "REHEARSAL-C2",
+      "line": 4,
+      "market": "SYNTHETIC_RECEPTIONS",
+      "series_id": "TOY-A-RECEPTIONS",
+      "side": "Under",
+      "synthetic_game_id": "TOY-GAME-1",
+      "synthetic_player_id": "TOY-A"
+    },
+    {
+      "contract_id": "REHEARSAL-C3",
+      "line": 60.5,
+      "market": "SYNTHETIC_RECEIVING_YARDS",
+      "series_id": "TOY-B-RECEIVING-YARDS",
+      "side": "Over",
+      "synthetic_game_id": "TOY-GAME-2",
+      "synthetic_player_id": "TOY-B"
+    },
+    {
+      "contract_id": "REHEARSAL-C4",
+      "line": 35,
+      "market": "SYNTHETIC_RUSHING_YARDS",
+      "series_id": "TOY-C-RUSHING-YARDS",
+      "side": "Under",
+      "synthetic_game_id": "TOY-GAME-2",
+      "synthetic_player_id": "TOY-C"
+    }
+  ],
+  "prices_provided": false,
+  "settlement": "Toy values strictly above/below line win the named side, equality pushes; no voids in this invented fixture",
+  "source": {
+    "classification": "REHEARSAL_ONLY",
+    "limitations": [
+      "Invented toy observations, not NFL data",
+      "No predictive performance or wager use"
+    ],
+    "series": {
+      "TOY-A-RECEPTIONS": [
+        2,
+        4,
+        4,
+        5,
+        7
+      ],
+      "TOY-B-RECEIVING-YARDS": [
+        40,
+        60,
+        61,
+        75,
+        90
+      ],
+      "TOY-C-RUSHING-YARDS": [
+        0,
+        20,
+        35,
+        50,
+        60
+      ]
+    },
+    "source_available_utc": "2026-10-18T18:18:29.506864+00:00",
+    "source_id": "PRIME-SYNTHETIC-MECHANICS-V1",
+    "synthetic": true
+  },
+  "source_available_utc": "2026-10-18T18:18:29.506864+00:00",
+  "source_sha256": "edebd856b1fec2d8874579e50cf3c900abddcf04cd0d2d34c88ab6e141099d1b"
+}

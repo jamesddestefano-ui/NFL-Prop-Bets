@@ -1,0 +1,15 @@
+# Prospective amendment proposal — NOT APPROVED, NOT EFFECTIVE
+
+This four-contract REHEARSAL_ONLY exercise tests manual submission mechanics with invented inputs. It changes no Monday protocol, cohort, schedule, runtime gate or authoritative record. The existing price-blind proposal remains a proposal.
+
+For a future authorized pilot, approve and register the following BEFORE its capture window:
+
+- A deterministic allowlist deriving identical price-blind packets from the original frozen denominator. Keep exact contract IDs and reviewed canonical player/game/market/book/threshold/settlement identities; seal prices and market probabilities from both models until both locks. Hash the transformation, source, packet and identical prompt. Do not quietly select a smaller favorable cohort.
+- A prospectively fixed maximum cohort size based on measured full-path rehearsal time and participant capacity. Four toy rows demonstrate mechanics only; they do not validate the existing full-cohort workload. Any proposed cap and deterministic selection/exclusions need explicit approval before observation.
+- Actual cohort delivery and model input-availability evidence, separately retained original responses, visible model labels when verifiable, and truthful unknown generation metadata. A model's self-reported timestamp is insufficient. Approval must define acceptable independent evidence of manual receipt and generation; current production requirements are not waived.
+- Earlier freeze/delivery targets and conservative buffers established from actual independent trials, including GitHub delays and worst-case full-cohort workload. Existing Monday latest cohort-before19:15 EDT and lock-before19:45 EDT remain effective. No retrospective deadline extension. If adequate lead time cannot be demonstrated before registration, leave disabled and select a later officially verified slate.
+- An authorized observer who independently checks actual delivery/response/publication events, confirms authorization and independence, reviews IDs/settlement exclusions, and records dated acknowledgement, observation and escalation evidence. Workflow metadata corroborates possession, not human independence. Unknown or absent observer means BLOCKED.
+- Exactly one FORECAST or explicit ABSTAIN per frozen contract per model; preserve all missing/invalid rows and original failed attempts. Pre-register whether any retry is permitted, with identical inputs, deadlines and retained attempts. No invented predictions, quiet repairs or denominator changes.
+- Fail closed on missing permissions, observers, source identity, complete accounting, authentic model route, receipt/lock evidence or deadlines. Escalate to Central Command and classify NOT_READY; no activation without separately authorized verified gates.
+
+Acceptance requires genuine Claude AND separate genuine ChatGPT submissions, verified publication, authorized independent observation and recorded elapsed intervals. Rehearsal results cannot establish predictive superiority or bet eligibility. MODEL_SUSPECT; bet_eligible=false.

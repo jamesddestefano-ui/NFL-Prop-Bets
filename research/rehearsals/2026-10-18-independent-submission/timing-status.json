@@ -1,0 +1,27 @@
+{
+  "classification": "REHEARSAL_ONLY",
+  "status": "AWAITING_GENUINE_EXTERNAL_PARTICIPATION",
+  "cohort_delivery": {
+    "Claude": null,
+    "ChatGPT": null
+  },
+  "model_response_elapsed_seconds": {
+    "Claude": null,
+    "ChatGPT": null
+  },
+  "receipt_verification_seconds": {
+    "Claude": null,
+    "ChatGPT": null
+  },
+  "github_publication_seconds": {
+    "Claude": null,
+    "ChatGPT": null
+  },
+  "independent_review_seconds": null,
+  "observer_status": "BLOCKED",
+  "monday_window_feasibility": "NOT_VERIFIED",
+  "no_go_recommendation": "NO_GO_UNTIL_GENUINE_SUBMISSIONS_AND_OBSERVER_EVIDENCE",
+  "monday_enabled": false,
+  "model_status": "MODEL_SUSPECT",
+  "bet_eligible": false
+}

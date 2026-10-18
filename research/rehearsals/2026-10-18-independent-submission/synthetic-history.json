@@ -1,0 +1,33 @@
+{
+  "classification": "REHEARSAL_ONLY",
+  "limitations": [
+    "Invented toy observations, not NFL data",
+    "No predictive performance or wager use"
+  ],
+  "series": {
+    "TOY-A-RECEPTIONS": [
+      2,
+      4,
+      4,
+      5,
+      7
+    ],
+    "TOY-B-RECEIVING-YARDS": [
+      40,
+      60,
+      61,
+      75,
+      90
+    ],
+    "TOY-C-RUSHING-YARDS": [
+      0,
+      20,
+      35,
+      50,
+      60
+    ]
+  },
+  "source_available_utc": "2026-10-18T18:18:29.506864+00:00",
+  "source_id": "PRIME-SYNTHETIC-MECHANICS-V1",
+  "synthetic": true
+}
