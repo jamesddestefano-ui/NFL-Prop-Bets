@@ -1,0 +1,46 @@
+# Phase5 Monday acceleration — readiness NO-GO
+
+Current decision: NO-GO / disabled, issue9OPEN. No mandatory third-party human observer. User is the authorized operator by Phase5 directive; optional audit absence cannot independently disqualify future pilots. Preserve originalOctober18 PILOT_INCOMPLETE/late-slateNOT_READY, Phase4 raw replies/screenshots/retry history and Mondayv1 registration unchanged. Repositories remain separate.
+
+## Minimum prospective implementation
+
+User-authorized observer-removal amendment: research/governance/2026-10-18-user-operated-pilots-amendment.md. Activation now requires authorized_operator, channels, official kickoff, canonical identity plan, protocol_approval and activation_authorization as distinct committed hash-bound evidence. Disabled config selects NEW context PRIME-2026-10-19-PHASE5-V2 under research/pilots/2026-10-19/phase5/, with approval statusPENDING. Neither engineering completion nor proposed plan acceptance activates it.
+
+Architecture acceleration accepted targets are configured as a DISABLED candidate: exactly4 directional contracts; capture17:30–18:00EDT, manualfreeze18:03/07/11, strict cohort-server receiptbefore18:15, response target19:15, strict model GitHub lockbefore19:20, kickoff20:15. EDT=UTC-4; cutoffs22:15/23:20UTC October19, kickoff00:15UTC October20. V1 context/path/source history retained, not relabeled. Existing manual workflows/receipt infrastructure reused; read-only readiness warning schedules updated; no new scheduler/platform, collector frequency increase or provider call.
+
+Four rows are2 complete bookmaker Over/Under pairs from2 unique player/market/threshold groups. Shared3bookmodal exact pairing selector retains full market universe privately; stable SHA256 grouping/book selection produces4-row subset. Source validator reconstructs entire priced universe and exact deterministic subset; source/price/selection tampering rejected. No favorable-looking or prediction-based selection. Canonical/rule verification required before release; no actual future IDs/prices invented. Governance/proposal/checklist/source refs join registration fingerprint; old registration cannot authorize changed sources.
+
+New protocol draft and checklist: phase5/PROTOCOL_V2_PROPOSAL.md and OPERATOR_CHECKLIST.md. Price-blind inputs retain ID/canonical player/team/game/opponent/market/line/side/kickoff/exact settlement and identical pre-cutoff research inputs; exclude prices/PRIME estimates/other-answer. Original priced observations sealed privately. Formal amendment approval and manual schema/settlement decision still required before use.
+
+## Readiness matrix
+
+| Mandatory gate | VERIFIED / BLOCKED | Exact evidence / limit |
+|---|---|---|
+| Prospective observer removal/user designation | VERIFIED within authorized engineering scope | Amendment and scripts/monday_pilot.py use authorized_operator, no independent human key; separate protocol/activation approvals required. PR14 subject to CI/merge evidence below. |
+| Official game/kickoff | VERIFIED | Fresh https://www.49ers.com/schedule/ retrieved2026-10-18T19:21:16.801886Z HTTP200; SHA2563114ad62a70ec0a0bfad22bcf7e9cd0ab6e7f7b70218294315a0c943651c3394, explicitOct19 17:15 -07:00 =>20:15EDT. Private phase5/schedule original+retrieval.json. |
+| Bounded selection/time cutoff/regression controls | VERIFIED OFFLINE | New context/4-row/full-universe tamper/insufficient-groups/disabled-policy regressions; legacySunday/Mondayv1 checks retained. Manual freeze reused. This is not evidence of an actual cohort. |
+| Actual capture coverage/security/current quota | BLOCKED | Existing tick17:17EDT precedes proposed17:30window; next18:17 too late. Proposed budget/security-approved replacement manual17:47 capture or approved earlier17:00–17:30 window needed. No frequency changed. OddsAPI rotation UNVERIFIED; FantasyPros rotation is unrelated. Last retained quota19,096 atOct18 18:40:27Z, reserve2,000/resetNov1UTC, run20261018T184026673468Z hadzeroquotes/NO_REQUEST_NEEDED and21600s event dedup. Monday needs current actual headers/cost/envelope; no quota probe dispatched. |
+| Canonical player/game matching | BLOCKED for players | Official game corroborated. Existing readiness-review/player-candidates.json all12 canonicalIDsnull/unverified; exact-contracts.json all165 Sunday preparation rows unresolved, not Monday-window evidence. No live4contract review yet. |
+| Exact bookmaker settlement rules | BLOCKED | readiness-review/settlement-review.json all15book/market combinations unverified, URL/DNP/void/overtime/corrections missing. Halfline prevents equality pushes, not voids. Need contract-scoped authentic rule sources/review. |
+| Authentic user-operated channels | VERIFIED at user-attributed mechanics level | Phase4 raw replies/hashes/screenshot manifest and user attestation; visibleClaudeOpus5.5Medium/ChatGPTMedium corroborated. Backendbuild/authorship not independently authenticated; original precise receipts unknown. No human observer required. |
+| Manual process/actual live capacity | BLOCKED | Checklist prepared; user must confirm real availability and4contract research-to-lock path. Toy fixture timing does not establish live research throughput. |
+| Price-blind/manual V2 schema and void handling | BLOCKED | Candidate design not formally approved. Existing pilot_submission V1 requires actual generation/training metadata unavailable for subscription models and onlyINTEGER_PUSH_NO_VOID/p_void0, with settlement at player/game scope. Must not fake metadata or bypass it; approve truthful manual evidence and contract-scoped settlement policy, then targeted integration/tests before activation. No claimed operational packet/forecasts yet. |
+| Actual qualifying source/hash/cohort/model receipt evidence | BLOCKED | Window is future; no qualifying v2cohort or genuine liveforecasts. Existing GitHub hash/receipt mechanics verified in Phase4 only. |
+| New approved-source pre-window registration | BLOCKED | Old registration39144751389 eligiblefalse; cannot authorize new spec. Need successful v2eligible registration before capture after mandatory approvals/readiness. |
+| Postgame context/evaluation | BLOCKED for Monday orchestration | Shared Phase2 scoring tested; existing pilot_evaluation/outcomes wrappers Oct18-specific, V1nonvoid assumptions. Need approved manual/settlement context before truthful Monday bridge. Fourcontracts/onegame cannot support profitability or meaningful gamecluster uncertainty. |
+| Formal protocol and express activation authorization | BLOCKED | Source config enabledfalse, readiness_reviewnull, protocol_approval_statusPENDING, activation_authorizationnull. Accepted acceleration targets do not satisfy explicit formal amendment/activation gates. |
+
+Parallel read-only engineering checks independently confirmed kickoff/sourcehash,0verified player mappings,0verified settlement rules and old quota/security evidence. These agent checks are technical reviews, never represented as third-party HUMAN observation. No paid/API requests.
+
+## Tests / publication
+
+240 full offline tests passed: python -m unittest discover -s tests -q. YAML for both modified workflows parsed successfully; git diff checks clean. One old AST regression initially flagged helper local variable naming; corrected without changing legacy full-universe guard, fullsuite passed. Tests use synthetic fixtures, not fabricated model participation. PR14 contains reviewable changes; exact head/merge/CI readback will be appended after actual results. No unnecessary manual workflows run.
+
+## Final action boundary
+
+By Mondaynoon obtain formal approval of new price-blind/manual timestamp/contract-scoped settlement protocol and actual sourced identity/rule review. Preflight16:30–17:00EDT; if missing gates at17:00reportNOT_READY. Registration strictlybefore17:30 only after approved tested integration, actual security/quota/collection plan and operator availability. Command receives readiness before separate express user activation authorization. Missing source/identity/rules/forecasts/locks/deadlines cancels; preserve nonqualifying archive, no retrospective reconstruction or deadline weakening.
+
+User action needed: formal protocol/manual-evidence policy approval, approved collection-window/credit/security choice and real availability/retained rotation evidence (no keys). Activation remains a separate later decision after allgates. No third-party human needed. MODEL_SUSPECT; bet_eligible=false. No wagers, purchases, credentials, authoritative-record changes or automatic model promotion.
+
+
+Verified publication: PR14 https://github.com/jamesddestefano-ui/-NFL-Prop-Odds-Data/pull/14 merged at c828decab397cabbc0107ed9b7b31cd4bdf073fc. Reviewed/tested head8ea6125ae14f3c67c5165a61f01279fd46ef371d. PR Phase2 run39159480268 and safety39159480274 succeeded; push runs39159476642/39159476663 succeeded. Technical review identified bounded-ID validation regression; duplicate/empty/null/nonstring tests failed before fix and passed after,240fulltests passed. No other material finding. No required checks bypassed; repository main unprotected/rulesets empty at review. This merge publishes authorized engineering/governance only; candidate formal approval and activation remain explicitly pending/disabled.
