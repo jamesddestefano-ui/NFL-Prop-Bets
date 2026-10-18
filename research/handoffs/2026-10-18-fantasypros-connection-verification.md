@@ -79,3 +79,5 @@ BLOCKERS: no quota headers returned; numerical rate limits, plan allowances, bil
 Routine ingestion, production probe and further one-time verification are all disabled; no FantasyPros schedule exists. The October 18 pilot and Odds API frequency are unchanged. No original sportsbook records, betting records or eligibility rules were modified. All models remain MODEL_SUSPECT and bet_eligible=false; no predictive superiority or profitability is claimed. No purchases or wagers.
 
 Next: obtain provider-documented usage allowances and endpoint entitlements, then review activation evidence and separately authorize bounded checks. Do not activate from this single successful request. Preserve separate FantasyPros provenance and pregame availability requirements.
+
+Post-merge verification: all four main-branch workflows succeeded at merge SHA `8e5ae96f8cd4c8d8cdfc0cecb17fbd175cb279ed`: FantasyPros 39084196222, pilot safety 39084196213, research continuous validation 39084196263, Phase 2 39084196270. Main policy independently read back: enabled=false, allow_probe=false, allow_connection_verification=false.
