@@ -1,0 +1,29 @@
+# Settlement gate decision options — DRAFT, NO APPROVAL OR ACTIVATION
+
+This is a concrete prospective decision packet for Central Command, not an amendment, runtime change, relaxation, new cohort or activation request. CurrentMondayv2 remains NOT_READY/disabled. Approvedwindow17:00–18:00EDT, operator18:15–19:30 and USER_CONFIRMED_ROTATED remainresolved. Separate express activation remains required even after any separately approved design change and successful eligible preregistration.
+
+## Why further parsing does not close the gate
+
+Current NJ sources establish settlement asymmetry/path dependence for MGM/Fanatics; DKapplicability/profile also unverified/unsupported. EvenoptimisticallyadmittingFD+BR,only2books<3required;unchangedselector0groups. The originalproviderresponse SHA256a0faf2fa8252db9580fcfd05bfbac90baedd604c0adc3aaa2fef9a3331c82425 wasinspectedoffline:bookkeys key/markets/title; marketkeys key/last_update/outcomes;outcomekeys description/name/point/price. No protectionicon/termsprofileidentifier exists inthisactualresponse. Absenceisnotproofofunprotectedstatus. Privatefieldinventory/sourcehash/timepreserved;no new APIrequest/accountaccess. This doesnotassertproviderwillneveraddfields.
+
+## Option A — retain effective design (default, recommended absent new evidence)
+
+Keepthreebookmodal selection, deterministicgroup/bookranking, exactsupportedsame-contractbaseline and existingprofiles/locks. Resolve at leastone excluded book's genuine applicable contract/protection state in addition to supportedFD/BR evidence so3validbookpairs sharethemodal line; exactselectedcontracts mustpassesreview. Evidence mustprecederegistration/inputdelivery,notbe reconstructedafteroutcomes. IfnotpossiblebyMondaypre17:00registrationdeadline, recordMondayNOT_READY,leaveOFF,preservesourceevidence andpreparethenexteligible opportunity aftersourcedgame/scheduleapproval. No furtherdesignapprovalisneededjusttokeeptheseexistinggates. NoactivationdecisioncanbeGOuntilrealreadinessandregistrationpass.
+
+## Option B — separate model-only operational experiment (requires explicit prospective design approval)
+
+Candidate registration ID PRIME-2026-10-19-MODEL-ONLY-DRAFT; neverrenamecurrentv2orsupplementearliercohorts. Exactscope:
+
+- Fourdirectionalcontracts,two distinctplayer/market/thresholdgroups, one exactsame-bookOver/Underpair pergroup fromFanDuelNJonly. Standard full-game integer-valued reception/yardage markets at half-lines; documentedfull-rule exceptions retained, unsupported identity/scope excluded under criteria fixedbeforeselection. Nointegerlinepushassumption. Ifnovalid2groups,cancel.
+- **Explicitmaterialchange:** remove3bookmodal admission criterion for thisnewexperimentonly; do not callthisunchangedMondayv2. Deterministic stableidentityhashgrouporderingandpairselection, no price/forecastfavorability, fulloriginalmarketuniverse preserved with exclusions; no opportunisticpost-forecastreplacement.
+- Originalpricedobservationsremainprivate. Oneidenticalprepublishedpriceblindpacket/genuinefreshChatGPT/Claudesessions; originalverbatimresponses, oneFORECAST/genuineABSTAINpercontract, finite4waymass, honesttimestamp/modelunknowns, actualdelivery/receipt/GitHublocks. Allspecialvoid/correctionrulesmustbequotedandbound,notflattenedtoDNP-only.
+- **Explicitmaterialchange:** marketbaselinecomparisonNOT_AVAILABLE unlessgenuinecomplementary exactcontracttermsare independentlyverified. Do notderivea marketprobabilitybyrenormalizingincompatibleprices. ReportChatGPT-vs-Claudeonidenticallyeligiblecontracts; do not excludeotherwisevalidmodel-vs-modelrowsmerelybecausemarketbaselineismissing. No positiveEV/profitability/market-superiorityclaim.
+- CurrentproductioncodeisNOTcertifiedforthisdesign. Afterapprovalonly,targeted reviewedimplementation wouldneedanewversionedcontext/receiptbinding, deterministicFD-onlyselectorwithfulluniverse/exclusionvalidation, explicitruleexceptionbindings/outcomehandling, andscoreadapterseparatingmodel-onlydenominatorfromoptionalvalidmarketbaseline. Reuseexistingmanualworkflows/scoringhelpers; no new platform. Relevantleakage/source/selection/schema/metric/regressionCIrequired. Do notclaimCIorimplementationdoneforthisdraft.
+- Sameapproveddate/kickoff/capturewindow/cohort18:15/model19:20cutoffs onlyifactualengineering+CI+freshpreflight+successfulnewhashboundregistrationcompletebefore17:00 withactivationdecisionbuffer. No automaticreuse ofv2registration,approvalrecords or forecastsources; no deadlineextensionafterwindow.
+- Postgameofficialoutcome/participation/exceptionevidence; retainp_voidoriginals, settledthreewayscoresconditionalonnonvoid, void/missing/ABSTAINexclusions, onegameinsufficientclusterintervals. Fourcontractsareoperationalproofonly. No automaticpromotion,eligibilitychange,wager,accountactorpurchase.
+
+This draftdoesnotrecommendrushinglatechangesorclaimfeasibility. Ifapproval/engineering/evidencecannotfit,OptionA/defaultNOT_READYremains. Acknowledgingthisdraftisnotactivationauthorization. Broaderinjury/pathdependentprobabilitymodellingacrossbooksisnotpartofthisMondayproposal.
+
+## Approval boundary and next action
+
+Userstandingautonomyrequires separateapprovalfor materialgovernance/betting-eligibilitychanges. OptionBchangesadmission/marketcomparisonrequirements,soCodexMUST NOTimplementoreffectitundergeneric“keepworking.” CentralCommandmayselectOptionA/currentprotocol or explicitlyapprove/rejectOptionB'soutlinedprospectivedesign. Onlythenwouldimplementation/preflight/registrationbeassessed; activationrequiresalaterseparatedecision. No repeatedschedule/availability/rotationquestion. HistoricalOctober18classificationsunchanged;MODEL_SUSPECT;bet_eligible=false.
