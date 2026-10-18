@@ -1,3 +1,15 @@
+## New evidence closure findings — Sunday after 5 PM EDT
+
+Private evidence commit **41168d0** records original rule-tool responses, returned text, metadata/cache limitations, archive-observation bounds and a verified 13-file SHA-256 manifest. Extracted text is not mislabeled original publisher HTML. No code or new infrastructure; prior259-test/PR16 CI remains the technical baseline.
+
+- Existing scheduled collector **39166038772** succeeded. Actual target receipt **October18 5:02:47.012309 PM EDT**,165rows, targetcost3credits; totalrun6. Updated actual remaining **19,078**, reserve2,000, sharedOct18–19enveloperemaining **6,662**. Sourcecapturecommit **cdbc6807a50c24b0d75f2ce3c19c60f699e78562**, audit **0945e1084753f3d6c4f98358d26c02da09fad6a5**. This supersedes the older latest-target/quota snapshot below; it is Sunday/nonqualifying preparation, NOT Mondaycoverage. No extra Odds API request dispatched here.
+- [Retrieved DraftKings football rules](https://sportsbook.draftkings.com/help/sport-rules/football) contain an injury/illness second-half void exception that distinguishes Overs from Unders. This retrieved version does not fit the existing simple DNP-only settlement profile. Do not flatten the exception or assume paid Early Exit+ coverage. [Retrieved general rules](https://sportsbook.draftkings.com/help/general-betting-rules) explicitly apply to Virginia; the participation, push, initial-statistics and resettlement passages are useful source evidence but NOT proof of NJ/actual-contract applicability. No current DraftKings contract was approved.
+- Tested [FanDuel NJ page](https://www.fanduel.com/fanduel-sportsbook-house-rules-nj) yielded HTTP200 metadata without usable rule text. Virginia results and old Massachusetts regulatory PDFs were not substituted for current applicable terms. Bounded BetMGM official-source search did not resolve current scoped rules.
+- Settlement remains genuinely BLOCKED. Sunday deterministic preview is preparation only; final four must be frozen from Monday's approved actual receipt window. Review only the needed two exact matched groups; unsupported scoped rules cannot be invented or replaced opportunistically.
+- MondayOctober19 operational preflight and successful eligible registration **have not occurred on Sunday**. No future receipts or capacity facts invented; no new scheduler or paid probe. Runtime remains disabled and issue9 open. If readiness/registration succeed before Monday5 PM, publish GO evidence and request separate express activation; otherwise NOT_READY at the deadline. No schedule/operator/rotation reconfirmation is requested. An authentic applicable official-rule source/export remains the genuine unresolved evidence requirement.
+
+---
+
 # Current Monday authorization preparation — approved window, runtime disabled
 
 This current section supersedes earlier pending-window, unavailable-operator and rotation-confirmation statements preserved below as dated preparation history. October 18 classifications are unchanged.
