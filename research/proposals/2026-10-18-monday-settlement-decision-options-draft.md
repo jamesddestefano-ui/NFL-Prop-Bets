@@ -1,3 +1,5 @@
+**Disposition — user retains Option A/current protocol. Option B is NOT APPROVED.** See [the recorded decision](../decisions/2026-10-18-retain-current-monday-protocol.md). No runtime activation. Original draft follows unchanged.
+
 # Settlement gate decision options — DRAFT, NO APPROVAL OR ACTIVATION
 
 This is a concrete prospective decision packet for Central Command, not an amendment, runtime change, relaxation, new cohort or activation request. CurrentMondayv2 remains NOT_READY/disabled. Approvedwindow17:00–18:00EDT, operator18:15–19:30 and USER_CONFIRMED_ROTATED remainresolved. Separate express activation remains required even after any separately approved design change and successful eligible preregistration.
