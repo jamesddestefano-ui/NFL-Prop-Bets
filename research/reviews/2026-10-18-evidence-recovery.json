@@ -1,0 +1,337 @@
+{
+  "classification": "CODEX_EVIDENCE_RECOVERY_NOT_EXTERNAL_MISSING_JSON",
+  "executed_at_utc": "2026-10-18T23:44:31.861595+00:00",
+  "remote_search": {
+    "repository_reference_resolution": {
+      "supplied_repository": "jamesddestefano-ui/NFL-Prop-Bets",
+      "supplied_commit": "4cd55ddb174aa8a1dce6958fe54564febad17d18",
+      "actual_repository": "jamesddestefano-ui/-NFL-Prop-Odds-Data",
+      "public_commit_lookup": "422_NO_COMMIT",
+      "private_commit_lookup": "VERIFIED"
+    },
+    "public_head": "3c35cf43f416fa9ad843fef5da7f0ab47541d30a",
+    "public_tree_truncated": false,
+    "public_tree_missing_evidence_candidates": [],
+    "public_handoff_history": [
+      {
+        "sha": "3c35cf43f416fa9ad843fef5da7f0ab47541d30a",
+        "message": "docs: clarify evidence publication blocker without duplicating handoff"
+      },
+      {
+        "sha": "430463a938f7192d323c487a511ec55d50af32ed",
+        "message": "research: publish corrected settlement evidence disposition"
+      }
+    ],
+    "private_branches": [
+      {
+        "name": "docs/monday-readiness-evidence",
+        "head": "3267b3e1553323f28bd37ebc827d1be8450bbe8d",
+        "truncated": false,
+        "entry_count": 561,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "feat/fantasypros-public-v2",
+        "head": "c387aa2b71bfa0ef78b754a5811973a4c0f7f315",
+        "truncated": false,
+        "entry_count": 397,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "feat/independent-submission-rehearsal",
+        "head": "1757eb7dd11f8b53e08d4d421cfb0623f867bd28",
+        "truncated": false,
+        "entry_count": 621,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "feat/monday-approved-window",
+        "head": "8bf12d8fa038dcadd294f37fd73214e1d58eff9e",
+        "truncated": false,
+        "entry_count": 734,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "feat/monday-prospective-controls",
+        "head": "c7a57f469cd2e66a64fefe3fc264e29c8b66f371",
+        "truncated": false,
+        "entry_count": 555,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "feat/monday-v2-manual-evidence",
+        "head": "ec49632f90ac1d56c6dd80bb204343871a610e5e",
+        "truncated": false,
+        "entry_count": 720,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "feat/phase2-model-learning",
+        "head": "f37d3b484511e767ea122fe337131f4d97b252e9",
+        "truncated": false,
+        "entry_count": 284,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "feat/phase3-prospective-pilot",
+        "head": "47b67bd65eda09d8f378aef616b00b391e571e00",
+        "truncated": false,
+        "entry_count": 318,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "feat/phase5-user-operated-monday",
+        "head": "8ea6125ae14f3c67c5165a61f01279fd46ef371d",
+        "truncated": false,
+        "entry_count": 684,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "feat/pilot-deadline-monitoring",
+        "head": "397334938fb7c18baac0ffa6fa2752773c655883",
+        "truncated": false,
+        "entry_count": 520,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "feat/verified-historical-evaluation",
+        "head": "98ca873738006fc933ce3106940907bba874238b",
+        "truncated": false,
+        "entry_count": 246,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "fix/oct18-pilot-recovery",
+        "head": "5c671abf60edd21b0edb7fdef57b467731ecda56",
+        "truncated": false,
+        "entry_count": 513,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "main",
+        "head": "4cd55ddb174aa8a1dce6958fe54564febad17d18",
+        "truncated": false,
+        "entry_count": 834,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "merge-nfl-prop-bets",
+        "head": "a2cb943cdb5e94f21b37ed21dc9de9ab5422e1fb",
+        "truncated": false,
+        "entry_count": 1249,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "research/claude-manual-channel",
+        "head": "d1fab92008fc446ee89a0107b0df291ac7430fe6",
+        "truncated": false,
+        "entry_count": 607,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "research/fantasypros-temporal-alignment-20261018-modeldev",
+        "head": "e543f0449c7e948700e10f9b822e856967e9ee43",
+        "truncated": false,
+        "entry_count": 561,
+        "missing_evidence_name_or_size_candidates": []
+      },
+      {
+        "name": "research/late-slate-feasibility",
+        "head": "28221710191145bd62c0e40316c89de739968fac",
+        "truncated": false,
+        "entry_count": 599,
+        "missing_evidence_name_or_size_candidates": []
+      }
+    ],
+    "artifact_inventory": [
+      {
+        "run_id": 39177277676,
+        "head_sha": "4cd55ddb174aa8a1dce6958fe54564febad17d18",
+        "created_at": "2026-10-18T23:37:10Z",
+        "conclusion": "success",
+        "artifacts": [
+          {
+            "id": 12155061106,
+            "name": "prime-pilot-safety-39177277676",
+            "digest": "sha256:eb11682100aced00decf1685a3ebe999accf25fa61fff9b1a2a625ac9f5a5437",
+            "created_at": "2026-10-18T23:37:47Z"
+          }
+        ]
+      },
+      {
+        "run_id": 39176510446,
+        "head_sha": "8c288f25f5b217dc6dfc67028fc86467b4d9c5fa",
+        "created_at": "2026-10-18T23:26:15Z",
+        "conclusion": "success",
+        "artifacts": [
+          {
+            "id": 12154333709,
+            "name": "prime-pilot-safety-39176510446",
+            "digest": "sha256:a673fafbf6a991d9fe017fca950f1774d51eed5f6ef2ca64681450ecc22fc526",
+            "created_at": "2026-10-18T23:26:54Z"
+          }
+        ]
+      },
+      {
+        "run_id": 39175421301,
+        "head_sha": "c4ccc0cc5077f55d1c9a2545dfe193fa8ec72cdc",
+        "created_at": "2026-10-18T23:10:56Z",
+        "conclusion": "failure",
+        "artifacts": [
+          {
+            "id": 12153868284,
+            "name": "prime-pilot-lifecycle-39175421301",
+            "digest": "sha256:7dc417734f40922d5b83ea52ec3a8a77dcd146a9c74013fdbe2375c9cd745db4",
+            "created_at": "2026-10-18T23:11:03Z"
+          }
+        ]
+      },
+      {
+        "run_id": 39175102969,
+        "head_sha": "3769dc827ec1ad4f64d05884a1d22ceab897adf6",
+        "created_at": "2026-10-18T23:06:27Z",
+        "conclusion": "failure",
+        "artifacts": [
+          {
+            "id": 12154460712,
+            "name": "prime-pilot-lifecycle-39175102969",
+            "digest": "sha256:3d67b205067cdcab012cdd674f7887dac43ec9dc6143b9b796fe97def76d366e",
+            "created_at": "2026-10-18T23:06:38Z"
+          }
+        ]
+      },
+      {
+        "run_id": 39175102895,
+        "head_sha": "3769dc827ec1ad4f64d05884a1d22ceab897adf6",
+        "created_at": "2026-10-18T23:06:27Z",
+        "conclusion": "success",
+        "artifacts": [
+          {
+            "id": 12153976445,
+            "name": "prime-monday-control-39175102895",
+            "digest": "sha256:eaf57fbd453d33e923a99d515bbe2c959237f93d897b41cc2a9c9020306fa3ae",
+            "created_at": "2026-10-18T23:06:38Z"
+          }
+        ]
+      },
+      {
+        "run_id": 39175102944,
+        "head_sha": "3769dc827ec1ad4f64d05884a1d22ceab897adf6",
+        "created_at": "2026-10-18T23:06:27Z",
+        "conclusion": "success",
+        "artifacts": []
+      },
+      {
+        "run_id": 39175079533,
+        "head_sha": "bad2a4606cf6b2c3ab8df6c6a66e9211ab94d055",
+        "created_at": "2026-10-18T23:06:08Z",
+        "conclusion": "success",
+        "artifacts": [
+          {
+            "id": 12153479779,
+            "name": "private-odds-evidence-39175079533",
+            "digest": "sha256:434151356049bd961d5c08079259ea97441d12ba0bf17bed54f5907c70bde2c4",
+            "created_at": "2026-10-18T23:06:20Z"
+          }
+        ]
+      },
+      {
+        "run_id": 39174727935,
+        "head_sha": "bad2a4606cf6b2c3ab8df6c6a66e9211ab94d055",
+        "created_at": "2026-10-18T23:01:24Z",
+        "conclusion": "success",
+        "artifacts": [
+          {
+            "id": 12154505001,
+            "name": "prime-pilot-safety-39174727935",
+            "digest": "sha256:6fe7902487051a28d4bd6532e78da9b2041fdcd87ea64665aee73c54feaba7b7",
+            "created_at": "2026-10-18T23:02:07Z"
+          }
+        ]
+      }
+    ],
+    "public_runs_since_2300": 0,
+    "search_limitations": [
+      "Current branch tips and locally reachable historical objects checked; no assertion about deleted remote refs or external workspaces",
+      "Repository-wide artifact endpoint unsupported by connector; run-scoped lists used instead",
+      "Two targeted ZIP bodies inspected; other listed artifacts were not exhaustively downloaded"
+    ],
+    "no_external_rule_refetch": true
+  },
+  "local_search": {
+    "executed_at_utc": "2026-10-18T23:42:49.123989+00:00",
+    "git_search": [
+      {
+        "repo": "/workspace/prime-research",
+        "reachable_objects": 4108,
+        "named_matches": []
+      },
+      {
+        "repo": "/workspace/prime-monday-v2",
+        "reachable_objects": 3228,
+        "named_matches": []
+      }
+    ],
+    "retained_file_matches": [],
+    "permission_skips": 0
+  },
+  "git_object_scan": [
+    {
+      "repo": "/workspace/prime-research",
+      "all_local_objects_including_unreachable": 4109,
+      "target_size_candidates": []
+    },
+    {
+      "repo": "/workspace/prime-monday-v2",
+      "all_local_objects_including_unreachable": 3238,
+      "target_size_candidates": []
+    }
+  ],
+  "artifact_inspections": [
+    {
+      "artifact_id": 12153976445,
+      "zip_sha256": "eaf57fbd453d33e923a99d515bbe2c959237f93d897b41cc2a9c9020306fa3ae",
+      "provider_digest_matches": true,
+      "entry_count": 110,
+      "missing_evidence_matches": [],
+      "contains_original_fanduel": true
+    },
+    {
+      "artifact_id": 12155061106,
+      "zip_sha256": "eb11682100aced00decf1685a3ebe999accf25fa61fff9b1a2a625ac9f5a5437",
+      "provider_digest_matches": true,
+      "entry_count": 12,
+      "missing_evidence_matches": [],
+      "contains_original_fanduel": false
+    }
+  ],
+  "fanduel_original_verification": {
+    "sha256": "025c74df6a37f9a46d6d0c4929667f03ae34e052704f12badd50985c18e42f72",
+    "bytes": 683885,
+    "quotation_fragment_checks": {
+      "at the time of settlement, regardless of any subsequent disqualification or amendment": true,
+      "may amend or reverse the settlement of a market": true,
+      "the official result differs from the result used for initial settlement": true,
+      "only when a player does not play a snap": true,
+      "Master Offer and Promotions Terms": true,
+      "unless otherwise specified": true
+    },
+    "no_rule_interpretation_resolved": true
+  },
+  "fanduel_original_recorded_receipt_utc": "2026-10-18T21:15:15.531343Z",
+  "fanduel_original_source_url": "https://policies.fanduel.com/SB/NJ/2026-10-15T12-42-58.html",
+  "actions_original_body_and_metadata_equal_repository": true,
+  "missing_items": [
+    "External 2026-10-18-evidence-correction-verification.json",
+    "590076-byte FanDuel capture and acquisition record",
+    "Audit DraftKings Terms capture and acquisition record",
+    "495683-byte newly reported DraftKings NJ Terms capture and acquisition record",
+    "469339-byte reported DraftKings shell capture and acquisition record",
+    "Actual rendered Early Exit article with verified identifier and NJ applicability"
+  ],
+  "source_or_runtime_changes": false,
+  "runtime_disabled": true,
+  "qualifying_groups": 0,
+  "model_status": "MODEL_SUSPECT",
+  "bet_eligible": false
+}
