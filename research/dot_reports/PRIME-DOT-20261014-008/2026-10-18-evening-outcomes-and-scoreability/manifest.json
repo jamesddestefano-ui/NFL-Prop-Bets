@@ -1,0 +1,54 @@
+{
+  "task_id": "PRIME-DOT-20261014-008",
+  "date_et": "2026-10-18",
+  "scope": "Bounded one-game evening followthrough; actual prospective pilot/model comparison INCONCLUSIVE.",
+  "public_governance_head": "9563ef206f900dbaaa170cb894ef6f4733000293",
+  "morning_report_commit": "f50ef0e09f103fcea622e13c4c43ca1fd87a9c5f",
+  "start_event_commit": "d8005d771d6aef1f68044ad69dc29be043dbea22",
+  "review_started_at_utc": "2026-10-18T23:54:03Z",
+  "official_source_review_window_utc": "2026-10-18T23:55:08Z/2026-10-18T23:56:00Z",
+  "x_public_post_recheck_window_utc": "2026-10-18T23:56:58Z/2026-10-18T23:57:22Z",
+  "technical_definition_review_at_utc": "2026-10-18T23:56:02Z",
+  "technical_definition_independent_crosscheck_at_utc": "2026-10-18T23:57:50Z",
+  "verification": {
+    "unit_tests": 10,
+    "assembly_reruns": 2,
+    "assembly_reruns_matched_saved_output": true,
+    "python_syntax_check": true,
+    "independent_review": "PASS for substantive mathematics, target interpretation, source limits/budgets, exact six-file inventory, five payload hashes and package-local links.",
+    "independent_review_window_utc": "2026-10-18T23:59:27Z/2026-10-18T23:59:59Z",
+    "independent_limits": "Official Buccaneers box score and technical definition reopened. Gamebook reopen errored; targets/lineup rely on successful original source review. No deployed scorer or actual NFL model validated.",
+    "independent_final_package_check_window_utc": "2026-10-19T00:00:30Z/2026-10-19T00:00:44Z",
+    "independent_saved_output_match": "All ten tests pass; saved output matches after normalizing the unittest elapsed-time line."
+  },
+  "files": {
+    "README.md": {
+      "bytes": 9720,
+      "sha256": "34fe079bedb94b2fdf8407e19acaf4865dc1f8272e0783c3f4ed4badfc2f1d61"
+    },
+    "appendix.md": {
+      "bytes": 5090,
+      "sha256": "200d66b45e33e57ae8e12bc978fc2bd6f9524af88bbf64088a2360b816cddab3"
+    },
+    "settlement_label_bounds.py": {
+      "bytes": 6098,
+      "sha256": "f9b5a8cf5869c871414bf587399061898cb711a64dc67a066fa3a7258ef129e7"
+    },
+    "source-register.md": {
+      "bytes": 4815,
+      "sha256": "dd76d54b9772d2739c136ebb2817fa68830df1e13f7dec83933786845d68bcaf"
+    },
+    "test_results.txt": {
+      "bytes": 1769,
+      "sha256": "c4b6e33781a70f86b25d4d4976c4176e131469edacf115e86174cadda32c1193"
+    }
+  },
+  "hash_scope": "Five report/appendix/script/test-output/source-register files; this manifest excludes itself. These are package hashes, not source-response hashes.",
+  "boundaries": [
+    "Official result observations are distinct from bookmaker settlement and predictive performance.",
+    "No actual probabilities, prices, matched closes, user tickets or private provenance published.",
+    "No operational code, controlling policy, historical ledger or prior report altered.",
+    "No raw source-response hash or continuous video-study claim."
+  ],
+  "frozen_at_utc": "2026-10-19T00:01:02Z"
+}

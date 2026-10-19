@@ -1,0 +1,56 @@
+test_all_scores_and_independent_identity (__main__.SyntheticTests.test_all_scores_and_independent_identity) ... ok
+test_brier_extremes (__main__.SyntheticTests.test_brier_extremes) ... ok
+test_candidate_states (__main__.SyntheticTests.test_candidate_states) ... ok
+test_conditional_forecast (__main__.SyntheticTests.test_conditional_forecast) ... ok
+test_ev_identity (__main__.SyntheticTests.test_ev_identity) ... ok
+test_finite_and_exact_input (__main__.SyntheticTests.test_finite_and_exact_input) ... ok
+test_forecast_schema (__main__.SyntheticTests.test_forecast_schema) ... ok
+test_negative_and_not_normalized (__main__.SyntheticTests.test_negative_and_not_normalized) ... ok
+test_paired_bounds_and_ranking_reversal (__main__.SyntheticTests.test_paired_bounds_and_ranking_reversal) ... ok
+test_unknown_never_becomes_loss (__main__.SyntheticTests.test_unknown_never_becomes_loss) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK
+{
+  "scope": "fictional W/L/V full-refund scheme; no real policy or quote",
+  "normalization": "sum over three categories, no half scaling; lower is better",
+  "scores": {
+    "W": {
+      "A": "19/50",
+      "B": "21/50",
+      "A_minus_B": "-1/25"
+    },
+    "L": {
+      "A": "49/50",
+      "B": "31/50",
+      "A_minus_B": "9/25"
+    },
+    "V": {
+      "A": "39/50",
+      "B": "61/50",
+      "A_minus_B": "-11/25"
+    }
+  },
+  "unresolved_L_or_V": {
+    "possible_differences": {
+      "L": "9/25",
+      "V": "-11/25"
+    },
+    "sharp_interval": [
+      "-11/25",
+      "9/25"
+    ]
+  },
+  "conditional_win_given_action": {
+    "A": "5/7",
+    "B": "5/9"
+  },
+  "illustrative_EV_at_d_2": {
+    "A": "3/10",
+    "B": "1/10"
+  },
+  "tests_run": 10,
+  "tests_passed": true
+}
