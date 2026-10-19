@@ -1,0 +1,105 @@
+{
+  "notice": "PUBLIC EDUCATIONAL SYNTHETIC EXAMPLES ONLY; no real performance, current odds, or confidence-interval validity claim.",
+  "status": "PASS",
+  "tests_run": 33,
+  "named_tests": [
+    "test_frozen_study.ExactArithmeticTests.test_market_brier_exact",
+    "test_frozen_study.MathematicalLessonsTests.test_conditional_probability_does_not_identify_push_mass",
+    "test_frozen_study.MathematicalLessonsTests.test_endpoint_log_loss_is_infinite",
+    "test_frozen_study.MathematicalLessonsTests.test_exact_brier_expansion",
+    "test_frozen_study.MathematicalLessonsTests.test_infinity_minus_infinity_is_undefined",
+    "test_frozen_study.MathematicalLessonsTests.test_invalid_probabilities_and_empty_scores_rejected",
+    "test_frozen_study.MathematicalLessonsTests.test_near_one_log_loss_stays_positive",
+    "test_frozen_study.MathematicalLessonsTests.test_opposite_side_duplication_changes_weighting",
+    "test_frozen_study.MathematicalLessonsTests.test_oracle_is_separate_from_selected_weight",
+    "test_frozen_study.MathematicalLessonsTests.test_raw_worse_but_fixed_blend_better",
+    "test_frozen_study.MathematicalLessonsTests.test_whole_game_resampling_keeps_cluster_unit",
+    "test_frozen_study.StudyContractTests.test_abstain_cannot_carry_probability",
+    "test_frozen_study.StudyContractTests.test_changed_input_packet_rejected",
+    "test_frozen_study.StudyContractTests.test_chatgpt_anchor_is_fixed",
+    "test_frozen_study.StudyContractTests.test_claude_shrinkage_needs_prespecification",
+    "test_frozen_study.StudyContractTests.test_cohort_freeze_must_follow_included_replies",
+    "test_frozen_study.StudyContractTests.test_common_cohort_cannot_change_afterward",
+    "test_frozen_study.StudyContractTests.test_forecast_contract_mismatch_rejected",
+    "test_frozen_study.StudyContractTests.test_forecast_must_precede_lock",
+    "test_frozen_study.StudyContractTests.test_four_arms_same_common_cohort",
+    "test_frozen_study.StudyContractTests.test_incomplete_contract_rejected",
+    "test_frozen_study.StudyContractTests.test_input_hash_mismatch_rejected",
+    "test_frozen_study.StudyContractTests.test_input_must_precede_forecast",
+    "test_frozen_study.StudyContractTests.test_lock_must_precede_event",
+    "test_frozen_study.StudyContractTests.test_market_probability_matches_separate_frozen_snapshot",
+    "test_frozen_study.StudyContractTests.test_missing_and_abstain_distinct",
+    "test_frozen_study.StudyContractTests.test_model_packet_cannot_contain_market_probability",
+    "test_frozen_study.StudyContractTests.test_model_prompt_hash_mismatch_rejected",
+    "test_frozen_study.StudyContractTests.test_probability_target_mismatch_rejected",
+    "test_frozen_study.StudyContractTests.test_protocol_must_precede_evidence_capture",
+    "test_frozen_study.StudyContractTests.test_protocol_must_precede_prediction_lock",
+    "test_frozen_study.StudyContractTests.test_settlement_contract_mismatch_rejected",
+    "test_frozen_study.StudyContractTests.test_settlement_must_follow_event_start"
+  ],
+  "failures": [],
+  "errors": [],
+  "four_arm_comparison": {
+    "cohort_ids": [
+      "toy-1",
+      "toy-2"
+    ],
+    "excluded": {
+      "toy-3": [
+        "C:MISSING"
+      ],
+      "toy-4": [
+        "C:ABSTAIN"
+      ]
+    },
+    "brier": {
+      "M": "13/100",
+      "G": "1/4",
+      "C": "1/25",
+      "S": "89/800"
+    },
+    "delta_vs_M": {
+      "G": "3/25",
+      "C": "-9/100",
+      "S": "-3/160"
+    }
+  },
+  "fixed_weight_brier_expansion": {
+    "cross": "-7/100",
+    "movement": "13/50",
+    "difference": "-3/160"
+  },
+  "oracle_weight_not_selected": "7/26",
+  "fixed_weight_selected": "1/4",
+  "conditional_probability": {
+    "q": "3/5",
+    "decimal_odds": "2",
+    "no_push_wlp": [
+      "3/5",
+      "2/5",
+      "0"
+    ],
+    "half_push_wlp": [
+      "3/10",
+      "1/5",
+      "1/2"
+    ],
+    "no_push_roi": "1/5",
+    "half_push_roi": "1/10"
+  },
+  "weighting_example": {
+    "equal_game_delta": "-3/160",
+    "opposite_side_duplicated_naive_row_delta": "1/200",
+    "whole_game_resample_means": [
+      "21/400",
+      "-3/160",
+      "-3/160",
+      "-9/100"
+    ],
+    "ci_claim": "None: two games only illustrate resampling mechanics."
+  },
+  "endpoint_log_loss": {
+    "zero_probability_for_observed_outcome": "positive infinity",
+    "infinity_minus_infinity": "undefined; comparison raises ValueError"
+  }
+}

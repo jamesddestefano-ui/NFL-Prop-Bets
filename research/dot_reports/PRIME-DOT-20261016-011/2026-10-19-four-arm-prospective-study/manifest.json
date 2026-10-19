@@ -1,0 +1,91 @@
+{
+  "package": "PRIME-DOT-20261016-011 / 2026-10-19 four-arm prospective study",
+  "artifact_type": "public educational design and entirely invented fixtures",
+  "prepared_at_utc": "2026-10-19T12:22:43.539409+00:00",
+  "review_windows_utc": {
+    "coordination_and_governance": "2026-10-19 approximately12:09\u201312:13",
+    "primary_technical_reading": "2026-10-19 12:13:15\u201312:14:44; exact selected sections/versions in sources.md",
+    "public_news_and_X": "2026-10-19 12:14\u201312:18",
+    "independent_review": "2026-10-19 12:17:53\u201312:23:11; original-paper selected sections12:18:14\u201312:19:06; official team sources12:19:19\u201312:19:26",
+    "assembly_reproduction": "2026-10-19 approximately12:21\u201312:22"
+  },
+  "reproducibility": {
+    "command": "python -m unittest -v test_frozen_study; python run_checks.py",
+    "named_tests_passed": 33,
+    "saved_results_byte_identical": true,
+    "compiled_python_files": 3,
+    "independent_extra_exact_grid_checks": {
+      "brier_expansion": 250,
+      "conditional_roi": 60
+    },
+    "independent_scope": "Public draft/protocol, original technical selected sections, dated official team statuses, exact algebra, mutation tests, two unittest entry points and deterministic JSON; X original-post/session access by assembler only. No NFL empirical validation or production integration audit."
+  },
+  "corrections_before_freeze": [
+    "Separated frozen market baseline from identical price-blind G/C evidence packets",
+    "Enforced stated protocol/capture/reply/cohort/lock ordering in the illustrative fixture",
+    "Preserved stable positive near-one log loss and undefined infinite-loss differences",
+    "Moved unittest direct-run entry point after all test classes",
+    "Clarified complete-case rule wording and equal-game versus contract weighting"
+  ],
+  "link_checks": {
+    "relative_markdown_link_occurrences": 18,
+    "package_local_targets_resolved": true,
+    "external_repository_target": "research/dot_reports/PRIME-DOT-20261014-008/2026-10-18-pregame-abstention-and-score-coverage/README.md verified present in public source tree0c8b758162fa442df899cdf9c8ef7b09e350f34f"
+  },
+  "source_boundary": "Public original literature, public team/analyst text, public repository governance and invented examples only. No raw commercial feed, private provenance or user financial/roster data. No audiovisual viewing claim.",
+  "scope_limit": "COMPLETE applies only to requested design/tests after publication readback. Empirical experiment unrun; no calibrated NFL edge, current executable quote, adopted weight, activation or changed controls.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6646,
+      "sha256": "7668002f7ea32e13b988f2acf68e718ae708ccf26e2fb1f5baf5f2b54cb3c68c"
+    },
+    {
+      "path": "fixture.json",
+      "bytes": 14581,
+      "sha256": "8aa01debd52284a69b308af22b88539c84d0f8af261ec65075b40e2933919a06"
+    },
+    {
+      "path": "frozen_study.py",
+      "bytes": 11380,
+      "sha256": "c7b1953bc9d7c50ce5f81e058b9e4d0694909963514cb537a671afdf3ba88c02"
+    },
+    {
+      "path": "math-note.md",
+      "bytes": 7245,
+      "sha256": "4ac8823652f50404e506d582896dec62a8ff359a4ae349ee27b68c37e0536b7b"
+    },
+    {
+      "path": "news-and-access.md",
+      "bytes": 5850,
+      "sha256": "a0d628c7ecc1bac1e4517726ec4f9038a3a4ca68829ed1241342dfe312f7216a"
+    },
+    {
+      "path": "protocol.md",
+      "bytes": 16203,
+      "sha256": "2c28db7327fadc616b2f935433be20798adf228d2c4e335af8eed44738e9f54d"
+    },
+    {
+      "path": "results.json",
+      "bytes": 4382,
+      "sha256": "5e0df3acafa05d500dded793ec7de8e6a9b843d6ad40eb382a86189545456451"
+    },
+    {
+      "path": "run_checks.py",
+      "bytes": 2451,
+      "sha256": "75018f7ccb0184a34e32aefea728b049af5e71552c91ebb5496252fa3f48ed8b"
+    },
+    {
+      "path": "sources.md",
+      "bytes": 5868,
+      "sha256": "9d59b33f60d69831b1a58009194891b19f66293caa46a1cd3ede69b4bc6d06a7"
+    },
+    {
+      "path": "test_frozen_study.py",
+      "bytes": 9224,
+      "sha256": "267a9d7a9d3ca438a51339f5f84bf02c144ca80fb38f60af54744ad7ead87291"
+    }
+  ],
+  "self_hash_policy": "This manifest is excluded from its own files array; publication readback verifies its complete bytes separately.",
+  "independent_final_disposition": "PASS at2026-10-19T12:23:11Z within educational mathematics, research protocol, selected source claims and packaging scope; publication readback remains a separate assembly check."
+}

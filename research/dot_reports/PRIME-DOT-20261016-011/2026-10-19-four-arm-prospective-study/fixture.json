@@ -1,0 +1,408 @@
+{
+  "fixture_kind": "invented_educational",
+  "protocol": {
+    "name": "invented-four-arm-study",
+    "locked_at": "2025-12-31T12:00:00Z",
+    "prediction_lock": "2026-01-01T10:00:00Z",
+    "common_cohort_locked_at": "2026-01-01T10:00:00Z",
+    "declared_universe": [
+      "toy-1",
+      "toy-2",
+      "toy-3",
+      "toy-4"
+    ],
+    "common_cohort_rule": "All M/G/C PREDICT before cohort lock: G/C share identical valid price-blind evidence and prompt hashes; M matches its separate valid frozen market snapshot.",
+    "common_cohort_ids": [
+      "toy-1",
+      "toy-2"
+    ],
+    "anchor": "G",
+    "shrinkage_weight": "1/4",
+    "claude_secondary_prespecified": false,
+    "primary_weighting": "equal_game_then_unique_canonical_over_contract"
+  },
+  "rows": [
+    {
+      "id": "toy-1",
+      "contract": {
+        "event_id": "invented-game-1",
+        "subject_id": "invented-player-1",
+        "market": "points",
+        "threshold": "9/2",
+        "orientation": "OVER",
+        "period": "full_game",
+        "book_rule": "invented-book-settlement-v1",
+        "probability_target": "win_given_win_or_loss"
+      },
+      "event_start": "2026-01-01T12:00:00Z",
+      "input_packet": {
+        "event_id": "invented-game-1",
+        "captured_at": "2026-01-01T09:00:00Z",
+        "invented_note": "All numbers and identities are fabricated for education."
+      },
+      "forecasts": {
+        "M": {
+          "status": "PREDICT",
+          "generated_at": "2026-01-01T09:30:00Z",
+          "contract": {
+            "event_id": "invented-game-1",
+            "subject_id": "invented-player-1",
+            "market": "points",
+            "threshold": "9/2",
+            "orientation": "OVER",
+            "period": "full_game",
+            "book_rule": "invented-book-settlement-v1",
+            "probability_target": "win_given_win_or_loss"
+          },
+          "p": "1/10",
+          "market_snapshot_hash": "36a5a787ef5644448e4f6f68dbe469b6bb50a34cc0dd14f3ab709835a9be7780"
+        },
+        "G": {
+          "status": "PREDICT",
+          "generated_at": "2026-01-01T09:30:00Z",
+          "input_hash": "4b869f703612f6c170c9b454e2a6d71719d0a3c7302a36e004a49ddc32f0d9a0",
+          "contract": {
+            "event_id": "invented-game-1",
+            "subject_id": "invented-player-1",
+            "market": "points",
+            "threshold": "9/2",
+            "orientation": "OVER",
+            "period": "full_game",
+            "book_rule": "invented-book-settlement-v1",
+            "probability_target": "win_given_win_or_loss"
+          },
+          "p": "7/10",
+          "prompt_hash": "b584637c3c1d16b88441aa51ca5bfae8e76e7b0b314f4c4b169022830123b38c"
+        },
+        "C": {
+          "status": "PREDICT",
+          "generated_at": "2026-01-01T09:30:00Z",
+          "input_hash": "4b869f703612f6c170c9b454e2a6d71719d0a3c7302a36e004a49ddc32f0d9a0",
+          "contract": {
+            "event_id": "invented-game-1",
+            "subject_id": "invented-player-1",
+            "market": "points",
+            "threshold": "9/2",
+            "orientation": "OVER",
+            "period": "full_game",
+            "book_rule": "invented-book-settlement-v1",
+            "probability_target": "win_given_win_or_loss"
+          },
+          "p": "1/5",
+          "prompt_hash": "b584637c3c1d16b88441aa51ca5bfae8e76e7b0b314f4c4b169022830123b38c"
+        }
+      },
+      "settlement": {
+        "contract": {
+          "event_id": "invented-game-1",
+          "subject_id": "invented-player-1",
+          "market": "points",
+          "threshold": "9/2",
+          "orientation": "OVER",
+          "period": "full_game",
+          "book_rule": "invented-book-settlement-v1",
+          "probability_target": "win_given_win_or_loss"
+        },
+        "outcome": 0,
+        "observed_at": "2026-01-01T15:00:00Z"
+      },
+      "market_snapshot": {
+        "captured_at": "2026-01-01T09:00:00Z",
+        "contract": {
+          "event_id": "invented-game-1",
+          "subject_id": "invented-player-1",
+          "market": "points",
+          "threshold": "9/2",
+          "orientation": "OVER",
+          "period": "full_game",
+          "book_rule": "invented-book-settlement-v1",
+          "probability_target": "win_given_win_or_loss"
+        },
+        "market_probability": "1/10"
+      }
+    },
+    {
+      "id": "toy-2",
+      "contract": {
+        "event_id": "invented-game-2",
+        "subject_id": "invented-player-2",
+        "market": "points",
+        "threshold": "9/2",
+        "orientation": "OVER",
+        "period": "full_game",
+        "book_rule": "invented-book-settlement-v1",
+        "probability_target": "win_given_win_or_loss"
+      },
+      "event_start": "2026-01-01T12:00:00Z",
+      "input_packet": {
+        "event_id": "invented-game-2",
+        "captured_at": "2026-01-01T09:00:00Z",
+        "invented_note": "All numbers and identities are fabricated for education."
+      },
+      "forecasts": {
+        "M": {
+          "status": "PREDICT",
+          "generated_at": "2026-01-01T09:30:00Z",
+          "contract": {
+            "event_id": "invented-game-2",
+            "subject_id": "invented-player-2",
+            "market": "points",
+            "threshold": "9/2",
+            "orientation": "OVER",
+            "period": "full_game",
+            "book_rule": "invented-book-settlement-v1",
+            "probability_target": "win_given_win_or_loss"
+          },
+          "p": "1/2",
+          "market_snapshot_hash": "fd6c6a4de62edffd17c5ac3c547f8235e3b4d73c68ba45ed7992d0f18944cd8a"
+        },
+        "G": {
+          "status": "PREDICT",
+          "generated_at": "2026-01-01T09:30:00Z",
+          "input_hash": "1ffabc609a820467fc9bc822726850d47eb0dce1ccefa60f5c6cb2666563b215",
+          "contract": {
+            "event_id": "invented-game-2",
+            "subject_id": "invented-player-2",
+            "market": "points",
+            "threshold": "9/2",
+            "orientation": "OVER",
+            "period": "full_game",
+            "book_rule": "invented-book-settlement-v1",
+            "probability_target": "win_given_win_or_loss"
+          },
+          "p": "9/10",
+          "prompt_hash": "b584637c3c1d16b88441aa51ca5bfae8e76e7b0b314f4c4b169022830123b38c"
+        },
+        "C": {
+          "status": "PREDICT",
+          "generated_at": "2026-01-01T09:30:00Z",
+          "input_hash": "1ffabc609a820467fc9bc822726850d47eb0dce1ccefa60f5c6cb2666563b215",
+          "contract": {
+            "event_id": "invented-game-2",
+            "subject_id": "invented-player-2",
+            "market": "points",
+            "threshold": "9/2",
+            "orientation": "OVER",
+            "period": "full_game",
+            "book_rule": "invented-book-settlement-v1",
+            "probability_target": "win_given_win_or_loss"
+          },
+          "p": "4/5",
+          "prompt_hash": "b584637c3c1d16b88441aa51ca5bfae8e76e7b0b314f4c4b169022830123b38c"
+        }
+      },
+      "settlement": {
+        "contract": {
+          "event_id": "invented-game-2",
+          "subject_id": "invented-player-2",
+          "market": "points",
+          "threshold": "9/2",
+          "orientation": "OVER",
+          "period": "full_game",
+          "book_rule": "invented-book-settlement-v1",
+          "probability_target": "win_given_win_or_loss"
+        },
+        "outcome": 1,
+        "observed_at": "2026-01-01T15:00:00Z"
+      },
+      "market_snapshot": {
+        "captured_at": "2026-01-01T09:00:00Z",
+        "contract": {
+          "event_id": "invented-game-2",
+          "subject_id": "invented-player-2",
+          "market": "points",
+          "threshold": "9/2",
+          "orientation": "OVER",
+          "period": "full_game",
+          "book_rule": "invented-book-settlement-v1",
+          "probability_target": "win_given_win_or_loss"
+        },
+        "market_probability": "1/2"
+      }
+    },
+    {
+      "id": "toy-3",
+      "contract": {
+        "event_id": "invented-game-3",
+        "subject_id": "invented-player-3",
+        "market": "points",
+        "threshold": "9/2",
+        "orientation": "OVER",
+        "period": "full_game",
+        "book_rule": "invented-book-settlement-v1",
+        "probability_target": "win_given_win_or_loss"
+      },
+      "event_start": "2026-01-01T12:00:00Z",
+      "input_packet": {
+        "event_id": "invented-game-3",
+        "captured_at": "2026-01-01T09:00:00Z",
+        "invented_note": "All numbers and identities are fabricated for education."
+      },
+      "forecasts": {
+        "M": {
+          "status": "PREDICT",
+          "generated_at": "2026-01-01T09:30:00Z",
+          "contract": {
+            "event_id": "invented-game-3",
+            "subject_id": "invented-player-3",
+            "market": "points",
+            "threshold": "9/2",
+            "orientation": "OVER",
+            "period": "full_game",
+            "book_rule": "invented-book-settlement-v1",
+            "probability_target": "win_given_win_or_loss"
+          },
+          "p": "2/5",
+          "market_snapshot_hash": "108e385f49d4ec4f100faa4ae5700cdf0f424c33dc0aa9d05ff615707df230c9"
+        },
+        "G": {
+          "status": "PREDICT",
+          "generated_at": "2026-01-01T09:30:00Z",
+          "input_hash": "ea046abcd0db7ff0d75e43d957dcccd3dc1c850129dc3131c6b9182503e0e9df",
+          "contract": {
+            "event_id": "invented-game-3",
+            "subject_id": "invented-player-3",
+            "market": "points",
+            "threshold": "9/2",
+            "orientation": "OVER",
+            "period": "full_game",
+            "book_rule": "invented-book-settlement-v1",
+            "probability_target": "win_given_win_or_loss"
+          },
+          "p": "1/2",
+          "prompt_hash": "b584637c3c1d16b88441aa51ca5bfae8e76e7b0b314f4c4b169022830123b38c"
+        }
+      },
+      "settlement": {
+        "contract": {
+          "event_id": "invented-game-3",
+          "subject_id": "invented-player-3",
+          "market": "points",
+          "threshold": "9/2",
+          "orientation": "OVER",
+          "period": "full_game",
+          "book_rule": "invented-book-settlement-v1",
+          "probability_target": "win_given_win_or_loss"
+        },
+        "outcome": 0,
+        "observed_at": "2026-01-01T15:00:00Z"
+      },
+      "market_snapshot": {
+        "captured_at": "2026-01-01T09:00:00Z",
+        "contract": {
+          "event_id": "invented-game-3",
+          "subject_id": "invented-player-3",
+          "market": "points",
+          "threshold": "9/2",
+          "orientation": "OVER",
+          "period": "full_game",
+          "book_rule": "invented-book-settlement-v1",
+          "probability_target": "win_given_win_or_loss"
+        },
+        "market_probability": "2/5"
+      }
+    },
+    {
+      "id": "toy-4",
+      "contract": {
+        "event_id": "invented-game-4",
+        "subject_id": "invented-player-4",
+        "market": "points",
+        "threshold": "9/2",
+        "orientation": "OVER",
+        "period": "full_game",
+        "book_rule": "invented-book-settlement-v1",
+        "probability_target": "win_given_win_or_loss"
+      },
+      "event_start": "2026-01-01T12:00:00Z",
+      "input_packet": {
+        "event_id": "invented-game-4",
+        "captured_at": "2026-01-01T09:00:00Z",
+        "invented_note": "All numbers and identities are fabricated for education."
+      },
+      "forecasts": {
+        "M": {
+          "status": "PREDICT",
+          "generated_at": "2026-01-01T09:30:00Z",
+          "contract": {
+            "event_id": "invented-game-4",
+            "subject_id": "invented-player-4",
+            "market": "points",
+            "threshold": "9/2",
+            "orientation": "OVER",
+            "period": "full_game",
+            "book_rule": "invented-book-settlement-v1",
+            "probability_target": "win_given_win_or_loss"
+          },
+          "p": "3/5",
+          "market_snapshot_hash": "83d03a394e99204b781aa506d2d4614a30d0b0929a9e3d3bd3b5ee2a94210f05"
+        },
+        "G": {
+          "status": "PREDICT",
+          "generated_at": "2026-01-01T09:30:00Z",
+          "input_hash": "f1c8a142e3d7b4f3bc3f68d4973a5510b7f6f6d85ee60020975f03d8ebbea420",
+          "contract": {
+            "event_id": "invented-game-4",
+            "subject_id": "invented-player-4",
+            "market": "points",
+            "threshold": "9/2",
+            "orientation": "OVER",
+            "period": "full_game",
+            "book_rule": "invented-book-settlement-v1",
+            "probability_target": "win_given_win_or_loss"
+          },
+          "p": "7/10",
+          "prompt_hash": "b584637c3c1d16b88441aa51ca5bfae8e76e7b0b314f4c4b169022830123b38c"
+        },
+        "C": {
+          "status": "ABSTAIN",
+          "generated_at": "2026-01-01T09:30:00Z",
+          "input_hash": "f1c8a142e3d7b4f3bc3f68d4973a5510b7f6f6d85ee60020975f03d8ebbea420",
+          "contract": {
+            "event_id": "invented-game-4",
+            "subject_id": "invented-player-4",
+            "market": "points",
+            "threshold": "9/2",
+            "orientation": "OVER",
+            "period": "full_game",
+            "book_rule": "invented-book-settlement-v1",
+            "probability_target": "win_given_win_or_loss"
+          },
+          "prompt_hash": "b584637c3c1d16b88441aa51ca5bfae8e76e7b0b314f4c4b169022830123b38c"
+        }
+      },
+      "settlement": {
+        "contract": {
+          "event_id": "invented-game-4",
+          "subject_id": "invented-player-4",
+          "market": "points",
+          "threshold": "9/2",
+          "orientation": "OVER",
+          "period": "full_game",
+          "book_rule": "invented-book-settlement-v1",
+          "probability_target": "win_given_win_or_loss"
+        },
+        "outcome": 1,
+        "observed_at": "2026-01-01T15:00:00Z"
+      },
+      "market_snapshot": {
+        "captured_at": "2026-01-01T09:00:00Z",
+        "contract": {
+          "event_id": "invented-game-4",
+          "subject_id": "invented-player-4",
+          "market": "points",
+          "threshold": "9/2",
+          "orientation": "OVER",
+          "period": "full_game",
+          "book_rule": "invented-book-settlement-v1",
+          "probability_target": "win_given_win_or_loss"
+        },
+        "market_probability": "3/5"
+      }
+    }
+  ],
+  "shared_model_prompt": {
+    "version": "invented-prompt-v1",
+    "text": "For this invented contract, return P(win | win or loss), or explicitly ABSTAIN. Use only the provided price-blind evidence. Do not retrieve market prices. This is an educational fixture, not an actual model call."
+  }
+}
