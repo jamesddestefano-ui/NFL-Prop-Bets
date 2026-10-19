@@ -1,0 +1,185 @@
+{
+  "classification": "OFFLINE_COVERAGE_AND_MECHANICS_AUDIT_NOT_PREDICTIVE_PERFORMANCE",
+  "code_hashes": {
+    "compare_model_bundles.py": "3e9e4944726f8cf02f3fcd473b1e251429d67f16e0b17f7e21da79d0ba4b81a1",
+    "historical_input_inventory.py": "5c04200e92412d3ddbe61496a34543727eebf284a0f6876a7eab227f1e4804ec",
+    "learning_pipeline.py": "37ea8e7963c3adf7087e257887f3b43e876ce2fd4709aabdebac996de0e46975",
+    "settlement_calibration.py": "7757e5faf17d6228ebf5789bda4436238426d22b32be49ad6bb67029f9146dce",
+    "verified_historical_evaluation.py": "07e5cef677780481123b7d0041603f3080f0e8c32b13f29c10123fbe027b90ba"
+  },
+  "executed_at_utc": "2026-10-19T01:10:49.042005+00:00",
+  "legacy": {
+    "authenticated_forecasts_with_verified_outcomes": 0,
+    "calibration": null,
+    "forecast_rows": 473,
+    "historical_rows_incomplete_provenance": 473,
+    "independent_locks": 0,
+    "no_source_record_modified": true,
+    "original_identity_statuses": {
+      "TEAM_MATCH_CANDIDATE_NOT_VERIFIED": 473
+    },
+    "performance_metrics": null,
+    "reason": "NO_AUTHENTICATED_OUTCOME_MATCHED_COHORT",
+    "repeat_rows_beyond_first_same_logical_model_evidence": 202,
+    "repeated_logical_model_groups": 101,
+    "rows_missing_verified_identity_and_outcome": 473,
+    "rows_with_declared_code_hash": 88,
+    "same_model_evidence_conflicting_probability_groups": 0,
+    "unique_logical_groups_not_exact_sportsbook_contracts": 101,
+    "unique_logical_model_evidence_groups": 271,
+    "unique_logical_model_label_groups_unsafe_for_dedup": 189,
+    "within_file_duplicate_logical_rows": 0
+  },
+  "limitations": [
+    "473 rows are provisional historical records, not authenticated independent samples",
+    "No paired market probability is treated as an observed outcome",
+    "No date-only or fuzzy-name join promoted to a canonical match",
+    "Original provider source truth and publication timing require external verification",
+    "Existing inventory blocker about raw-response absence is stale for retained captures; not adopted as a current fact",
+    "No material engineering change; independent architecture review required before proposed changes"
+  ],
+  "providers": {
+    "authenticated_calibration": null,
+    "fantasypros": {
+      "captures": [
+        {
+          "body_sha256": "aa8ac8b6ccfefa9dd91935d73afd2488995d0b8c466928546e3907c0dd09f7ba",
+          "body_verified": true,
+          "capture_sha256": "f0edeb26534964e9b2f8e361802c24a53c8b7d88aab22acebc16a1a2c26285cf",
+          "endpoint": "news",
+          "http_status": 200,
+          "publication_times_aware": 0,
+          "record_count": 1,
+          "response_received_utc": "2026-10-18T00:25:47.793609+00:00",
+          "status": "VALIDATED"
+        },
+        {
+          "body_sha256": "aa8ac8b6ccfefa9dd91935d73afd2488995d0b8c466928546e3907c0dd09f7ba",
+          "body_verified": true,
+          "capture_sha256": "9c3f32e6899bc2742aeb81d25df19b2fbde7a7152d75f6d6732b08806b9142bd",
+          "endpoint": "news",
+          "http_status": 200,
+          "publication_times_aware": 0,
+          "record_count": 1,
+          "response_received_utc": "2026-10-18T00:41:51.436317+00:00",
+          "status": "VALIDATED"
+        }
+      ],
+      "coverage_scope": "Retained news captures only; no provider request made",
+      "duplicate_normalized_rows_across_captures": 1,
+      "injury_endpoint_captures": 0,
+      "normalized_rows": 2,
+      "projection_endpoint_captures": 0,
+      "unique_body_item_pairs": 1,
+      "verified_canonical_feature_rows": 0
+    },
+    "legacy_input_stat_fields": [
+      "player_id",
+      "game_id",
+      "game_date",
+      "targets",
+      "receptions",
+      "receiving_yards"
+    ],
+    "missing_legacy_usage_fields": [
+      "snap_share",
+      "carries",
+      "routes"
+    ],
+    "nflverse": {
+      "duplicate_player_game_rows": 0,
+      "files": [
+        {
+          "captured_at_utc": "2026-10-16T23:55:30.684313+00:00",
+          "classification": "RETROSPECTIVE_RESEARCH_NOT_ASOF_VERIFIED",
+          "original_asof": "2026-10-17",
+          "path": "research/nfl_data/2025-weekly-history.json",
+          "rows": 19400,
+          "source": "nflreadpy / nflverse"
+        },
+        {
+          "captured_at_utc": "2026-10-16T22:24:02.266461+00:00",
+          "classification": "RETROSPECTIVE_RESEARCH_NOT_ASOF_VERIFIED",
+          "original_asof": "2026-10-17",
+          "path": "research/nfl_data/2026-10-17-weekly.json",
+          "rows": 5569,
+          "source": "nflreadpy / nflverse"
+        }
+      ],
+      "first_game_date": "2025-09-04",
+      "last_game_date": "2026-10-15",
+      "rows": 24969,
+      "rows_with_player_game_ids": 24969
+    },
+    "provider_disagreement": {
+      "matched_comparable_canonical_player_game_features": 0,
+      "metrics": null,
+      "status": "BLOCKED_BY_DATA"
+    },
+    "same_input_authenticated_model_disagreement": null,
+    "statshawk": {
+      "access_not_assumed": true,
+      "retained_repository_artifacts": 0
+    },
+    "versioned_model_runs": {
+      "fingerprints": [],
+      "new_runs": 0,
+      "pending_validation": 0,
+      "skipped_existing": 0
+    }
+  },
+  "source_commit": "ae28a7e0d378cefd8a8fecea2a397cd879b737b9",
+  "status_flags": {
+    "MODEL_SUSPECT": true,
+    "bet_eligible": false,
+    "pilot_activation": "disabled",
+    "qualifying_groups": 0
+  },
+  "synthetic_mechanics": {
+    "canonical_report_sha256": "a5d6ca1d0c98f04a016121b1303605198ed9d360a35049707de7d0e5c1ddf642",
+    "classification": "SYNTHETIC_MECHANICS_ONLY_NOT_NFL_PERFORMANCE",
+    "deterministic_repeat": true,
+    "different_feature_packet_probe": {
+      "contract_equivalence_checked": true,
+      "feature_manifests_differ": true,
+      "interpretation": "Comparator supports differing model feature packets; not proof of identical-input experiment. Explicit packet-equivalence assertion is not implemented.",
+      "matched_contracts": 3
+    },
+    "matched_contracts": 3,
+    "model_versions": {
+      "v0": "synthetic-v0",
+      "v1": "synthetic-v1"
+    },
+    "uncertainty_statuses": {
+      "v0_minus_market_brier": "DESCRIPTIVE_95_PERCENT_INTERVAL",
+      "v0_minus_market_log_loss": "DESCRIPTIVE_95_PERCENT_INTERVAL",
+      "v1_minus_market_brier": "DESCRIPTIVE_95_PERCENT_INTERVAL",
+      "v1_minus_market_log_loss": "DESCRIPTIVE_95_PERCENT_INTERVAL",
+      "v1_minus_v0": {
+        "brier": "DESCRIPTIVE_95_PERCENT_INTERVAL",
+        "log_loss": "DESCRIPTIVE_95_PERCENT_INTERVAL"
+      }
+    }
+  },
+  "tests": {
+    "elapsed_seconds": 1.6617406090008444,
+    "errors": 0,
+    "failures": 0,
+    "finished_at_utc": "2026-10-19T01:08:46.605391+00:00",
+    "modules": [
+      "test_verified_historical_evaluation",
+      "test_phase2_evaluation",
+      "test_learning_pipeline",
+      "test_historical_integration",
+      "test_pilot_evaluation",
+      "test_fantasypros_adapter",
+      "test_fantasypros_client",
+      "test_deepnote_capsule"
+    ],
+    "network_requests_authorized": false,
+    "skipped": 0,
+    "started_at_utc": "2026-10-19T01:08:44.943650+00:00",
+    "successful": true,
+    "tests_run": 74
+  }
+}
