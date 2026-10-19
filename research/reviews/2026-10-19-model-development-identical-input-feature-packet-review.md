@@ -96,7 +96,7 @@ PRIME HANDOFF
 * TASK: Independently review source commit `781f807a` and reproduce the identical-input feature-packet boundary against exact private source `ae28a7e0`
 * RESULT: PASS
 * VERIFIED EVIDENCE: Exact Git blob and SHA-256 matches; 8/8 comparator tests passed; changed-feature packet still matched 3/3 synthetic contracts; source handoff provenance remains UNVERIFIED
-* COMMIT SHA: Source `781f807a561a7dc9621c689f02fe5f9d665bee69`; resulting review commit pending this GitHub write and will be added by verified follow-up
+* COMMIT SHA: Source `781f807a561a7dc9621c689f02fe5f9d665bee69`; initial review commit `480f2c74f55920be8e549a39666093e1f715cee6`
 * MODEL / DATA VERSION: Phase 2 synthetic comparison mechanics at `ae28a7e0`; MODEL_SUSPECT; bet_eligible=false
 * BLOCKERS: No authenticated outcome-matched cohort; unattended-agent provenance not independently established; architecture review required before any identical-input protocol guard
 * NEXT ACTION: PRIME Commander assigns independent architecture review for an opt-in, protocol-specific feature-packet equality assertion and red regression; do not alter the general comparator automatically
