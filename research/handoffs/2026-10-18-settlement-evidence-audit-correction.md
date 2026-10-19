@@ -47,3 +47,22 @@ The closure review above (commit `3c35cf4`) is superseded on publication status 
 `BLOCKED_MISSING_SOURCE_FILES` therefore no longer applies to these two files. One DraftKings point from that record is relevant here: identifier KB0012329 appears as DraftKings' own Early Exit Plus support link in the captured client page, and it resolved to a `what-is-early-exit` URL. The article body was not captured. KB0012036 was not checked. The Over-side incompatibility remains **UNVERIFIED**.
 
 These still need to be supplied: the audit's 590,076-byte FanDuel capture, its DraftKings Terms capture, and their acquisition records. Matrix and NO-GO unchanged: FanDuel CONDITIONAL; DraftKings EXCLUDE; BetRivers INCOMPLETE; BetMGM UNVERIFIED; qualifying_groups=0; MODEL_SUSPECT=true; bet_eligible=false; pilot activation disabled.
+
+## Codex verification closure — October 19, 2026
+
+Verified against GitHub at **2026-10-19T00:12:57.203886+00:00**: PR #1 merged at **2026-10-19T00:04:59Z**, remote merge `65ba91f478f9e553c5140d3e9555b1e47c735416`, content commit `a568a59211e8a32cd88d7b72c29c955aa8e9f30e`. Both files have identical bytes at the content and merge commits:
+
+| Published record | Bytes | SHA-256 |
+|---|---:|---|
+| `2026-10-18-evidence-correction-handoff.md` | 4,989 | `1ed1141c4cb40eff12f2f18d7285a7c08069d9f64327b13bddc252e54204be82` |
+| `2026-10-18-evidence-correction-verification.json` | 4,222 | `cb32369e380bbf203c0535138a29ac400a89fa88dba1ffdc8d1943bf7707c078` |
+
+The JSON parses and preserves the required status flags. Claude's two records are **PUBLISHED**, not missing. Earlier missing-record wording in Codex handoffs/recovery notes is superseded by this closure; historical text remains unchanged. The HTTP403 obstacle and local-commit rebase history are user/operator-reported provenance, distinct from the GitHub publication facts verified here. Reference `4cd55dd` is invalid for this public-repository publication chain and must not be used as evidence of these records' publication. Use PR #1's remote SHAs above and PR #2's verified final merge instead.
+
+Publication verifies these reports' original text, not every reported source retrieval. FanDuel's original683,885-byte policy and recorded receipt remain corroborated by the existing original/archive; its reported re-fetch time is not substituted for the original receipt. The published JSON labels **23:30:16.299769809Z** and **23:30:32.034173455Z** as DraftKings request-start times, not measured response receipts. Its FanDuel re-fetch start/end remain separate. No exact source-receipt timestamp is inferred from publication, Git history or request start.
+
+The new DraftKings NJ Terms and shell bodies are not included in either published record. Their reported body hashes, support-link location/resolution and applicability cannot be independently confirmed merely by hashing this JSON. KB0012329 is documented as a reported shell-only retrieval; actual rendered article content, contractual terms, side treatment and NJ applicability remain **UNVERIFIED**. No new source retrieval or broad search was performed.
+
+**Genuine remaining gaps:** audit590,076-byte FanDuel original; audit DraftKings Terms original; their acquisition records; retained newly reported DraftKings Terms/shell bodies for independent verification; actual rendered Early Exit article; FanDuel correction/promotion interpretation; unsupported BetRivers/BetMGM settlement applicability. No need to supply the two now-published handoff records again.
+
+**Final disposition:** FanDuel CONDITIONAL/not admitted; DraftKings EXCLUDE with Early Exit basis UNVERIFIED; BetRivers INCOMPLETE; BetMGM UNVERIFIED. MODEL_SUSPECT=true; bet_eligible=false; qualifying_groups=0; pilot_activation=disabled. Selector/protocol/source captures unchanged. Verification was limited to remote byte/blob/hash equality, JSON parsing, status flags and append-only diff; no full regression suite or new green-CI claim. This existing handoff is the single Commander correction, not a new duplicate report.
