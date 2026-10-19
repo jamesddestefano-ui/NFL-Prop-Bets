@@ -36,3 +36,14 @@ The two FanDuel files remain distinct: verification of the existing683,885-byte 
 DraftKings article identifiers **KB0012036 and KB0012329 are conflicting, user-reported identifiers**. Neither is confirmed by an original rendered article in this correction. Over-side incompatibility is therefore **UNVERIFIED**, not an independently proven finding. No article URL or quotations are inferred from either identifier. Captured NJ Terms, when supplied, must remain separate and cannot establish prop settlement behavior.
 
 Current matrix: FanDuel CONDITIONAL; DraftKings EXCLUDE pending evidence reconciliation; BetRivers INCOMPLETE; BetMGM UNVERIFIED. Required external action: provide Claude's two exact handoff files, both claimed source captures and their acquisition records, including original rendered Early Exit content if available. No rerun of the settlement investigation or credential reconnection is needed solely to publish supplied files. All operational restrictions and NO-GO remain unchanged.
+
+## Publication correction — October 19, 2026 (append-only)
+
+The closure review above (commit `3c35cf4`) is superseded on publication status only. Claude's two handoff files were not missing: they existed in the Claude session but could not be pushed because GitHub returned HTTP 403. Local commit `364436f` was rebased onto `3c35cf4` as `a568a59211e8a32cd88d7b72c29c955aa8e9f30e`, pushed after access was restored, and merged to main through PR #1 (merge commit `65ba91f`):
+
+- `research/handoffs/2026-10-18-evidence-correction-handoff.md`
+- `research/handoffs/2026-10-18-evidence-correction-verification.json`
+
+`BLOCKED_MISSING_SOURCE_FILES` therefore no longer applies to these two files. One DraftKings point from that record is relevant here: identifier KB0012329 appears as DraftKings' own Early Exit Plus support link in the captured client page, and it resolved to a `what-is-early-exit` URL. The article body was not captured. KB0012036 was not checked. The Over-side incompatibility remains **UNVERIFIED**.
+
+These still need to be supplied: the audit's 590,076-byte FanDuel capture, its DraftKings Terms capture, and their acquisition records. Matrix and NO-GO unchanged: FanDuel CONDITIONAL; DraftKings EXCLUDE; BetRivers INCOMPLETE; BetMGM UNVERIFIED; qualifying_groups=0; MODEL_SUSPECT=true; bet_eligible=false; pilot activation disabled.
