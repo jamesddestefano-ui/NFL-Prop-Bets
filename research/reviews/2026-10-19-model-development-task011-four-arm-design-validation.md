@@ -65,7 +65,7 @@ PRIME HANDOFF
 * TASK: Independently reproduce and scope-review task011 four-arm prospective forecast-study design
 * RESULT: PASS
 * VERIFIED EVIDENCE: Exact source commit 363a6569cce0136fbd26fdd8ebd4e066db47c6e7; 33/33 named tests passed; deterministic results SHA-256 5e0df3acafa05d500dded793ec7de8e6a9b843d6ad40eb382a86189545456451 matched; 250 Brier and 60 conditional-ROI exact checks passed; source metadata and Week 7 schedule checked
-* COMMIT SHA: PENDING_GITHUB_WRITE
+* COMMIT SHA: fd961782a2833be76ef8176367e5eb3a27f7e9ab
 * MODEL / DATA VERSION: PRIME task011 educational four-arm design; invented fixture only; MODEL_SUSPECT=true; bet_eligible=false
 * BLOCKERS: Empirical NFL experiment unrun; genuine forecast/receipt/matched-close/outcome evidence absent; unattended Dot provenance UNVERIFIED; protocol not adopted
 * NEXT ACTION: Integration Control Room and PRIME Commander decide whether to prospectively accept and freeze the protocol before the first eligible event; otherwise register a later untouched window
