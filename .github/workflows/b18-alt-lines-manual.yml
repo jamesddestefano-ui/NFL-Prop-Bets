@@ -1,0 +1,60 @@
+name: B18 Alternate-Line Research (manual only)
+on:
+  workflow_dispatch:
+    inputs:
+      event_id:
+        description: "Odds API NFL event ID (explicit)"
+        required: true
+        type: string
+      kickoff_utc:
+        description: "Scheduled kickoff UTC, e.g. 2026-11-01T18:00:00Z"
+        required: true
+        type: string
+      slot:
+        description: "Manual observation window"
+        required: true
+        type: choice
+        options: [freeze, t30, t15, t5]
+      books:
+        description: "Exactly seven bookmaker API keys, comma-separated"
+        required: true
+        type: string
+      execute:
+        description: "Authorize billable API request? Defaults to preflight only"
+        required: true
+        default: false
+        type: boolean
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Isolated B18 tests
+        run: python -m unittest discover -s alt_lines -p 'test_*.py' -v
+      - name: B18 manual capture or preflight
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          B18_EVENT: ${{ inputs.event_id }}
+          B18_KICKOFF: ${{ inputs.kickoff_utc }}
+          B18_SLOT: ${{ inputs.slot }}
+          B18_BOOKS: ${{ inputs.books }}
+          B18_EXECUTE: ${{ inputs.execute }}
+        run: |
+          args=()
+          if [ "$B18_EXECUTE" = "true" ]; then args+=(--execute); fi
+          python alt_lines/capture.py --event-id "$B18_EVENT" --kickoff-utc "$B18_KICKOFF" --slot "$B18_SLOT" --books "$B18_BOOKS" "${args[@]}"
+      - name: Upload isolated B18 observations (not committed to git)
+        if: ${{ inputs.execute }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: b18-raw-${{ github.run_id }}
+          path: data/alt_lines/runs/*.json
+          retention-days: 90
+          if-no-files-found: error
